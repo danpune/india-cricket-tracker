@@ -5,8 +5,9 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 
 ## Architecture
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
-  no dependencies, no cookies/tracking/keys). Sections: header → men/women toggle
-  (localStorage) → hero (live score or next-match countdown, playing XIs) →
+  no dependencies, no cookies/tracking/keys). Sections: header → men/women/about toggle
+  (gender persisted in localStorage; About = purpose, sources, non-affiliation, privacy,
+  rights-holder contact — mirrors the tennis site's about section) → hero (live score or next-match countdown, playing XIs) →
   current tour (scheduled rows carry 📅 GCal/iCal add-to-calendar links, durations by
   format: T20I 4h · ODI 8.5h · Test = Day-1 start + note) → coming up (future series) → results timeline (2025→, grouped by year,
   W/L color-coded, 🏆 banner for tournament titles) → footer. Every finished match row

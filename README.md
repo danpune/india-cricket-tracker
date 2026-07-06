@@ -20,6 +20,9 @@ the playing XIs, and every international result of the year.
   wins and losses color-coded (with 🏆 banners for the Champions Trophy, Asia Cup,
   Women's World Cup and T20 World Cup titles).
 
+Plus an **About** tab: why the site exists, every data source, non-affiliation
+and privacy statements, and a rights-holder contact route.
+
 ## How it works
 
 - `index.html` — the whole site: one self-contained page, no dependencies,

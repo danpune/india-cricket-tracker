@@ -205,6 +205,16 @@ a.yt:hover{text-decoration:underline}
   footer{font-size:13px}
 }
 
+/* about */
+.aboutcard{max-width:780px;margin:0 auto;padding:10px 26px 22px;font-size:14.5px;line-height:1.65}
+.aboutcard h3{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--blue);margin:20px 0 6px}
+.aboutcard ul{margin:6px 0;padding-left:22px}
+.aboutcard li{margin:5px 0}
+.aboutcard a{color:var(--chakra);text-decoration:none;font-weight:600}
+.aboutcard a:hover{text-decoration:underline}
+.aboutcard .rights{font-size:12.5px;color:var(--muted)}
+.sec-about{grid-area:hero}
+
 /* footer */
 footer{margin:30px 0 40px;text-align:center;font-size:12px;color:var(--muted);line-height:1.8}
 footer .about{max-width:560px;margin:0 auto 10px;line-height:1.6}
@@ -224,6 +234,7 @@ footer a{color:var(--chakra);text-decoration:none}
   <div class="toggle"><div class="seg">
     <button id="btn-men" onclick="setGender('men')">MEN</button>
     <button id="btn-women" onclick="setGender('women')">WOMEN</button>
+    <button id="btn-about" onclick="setGender('about')">ABOUT</button>
   </div></div>
   <div id="app"><div class="err">Loading…</div></div>
   <footer>
@@ -436,7 +447,9 @@ function rankingsHTML(){
 function render(){
   document.getElementById('btn-men').className=GENDER==='men'?'on':'';
   document.getElementById('btn-women').className=GENDER==='women'?'on':'';
+  document.getElementById('btn-about').className=GENDER==='about'?'on':'';
   var app=document.getElementById('app');
+  if(GENDER==='about'){app.innerHTML=aboutHTML();return;}
   if(!DATA||!HIST){app.innerHTML='<div class="err">Could not load data. Please refresh.</div>';return;}
   var ms=DATA.matches.filter(function(m){return m.gender===GENDER;});
   var hist=HIST.matches.filter(function(m){return m.gender===GENDER;});
@@ -540,7 +553,37 @@ function startTicker(){
   tick();TICK=setInterval(tick,1000);
 }
 
-function setGender(g){GENDER=g;localStorage.setItem('gender',g);render();}
+function setGender(g){GENDER=g;if(g!=='about')localStorage.setItem('gender',g);render();}
+
+function aboutHTML(){
+  return '<section class="sec-about"><div class="card aboutcard">'+
+  '<h3>Why this site exists</h3>'+
+  '<p><b>One page that answers the questions an India fan actually has:</b> when do India play next, '+
+  'what happened while I was asleep, who is in the XI, how has the season gone — for the men\u2019s and '+
+  'women\u2019s teams, in your timezone, with no app, no login and no ads. It is an independent, '+
+  'non-commercial project built by a fan, for fans — a sibling of the same author\u2019s tennis Grand Slam '+
+  'and FIFA World Cup trackers.</p>'+
+  '<h3>What it shows &amp; where the data comes from</h3>'+
+  '<ul>'+
+  '<li><b>Live scores, fixtures, results and playing XIs</b> — read from ESPN / ESPNcricinfo\u2019s public feeds, refreshed every 30 minutes.</li>'+
+  '<li><b>Scorecards for the two-year record</b> — computed from <a href="https://cricsheet.org" target="_blank" rel="noopener">cricsheet.org</a>\u2019s open ball-by-ball data (thank you!), and from ESPN feeds for new matches.</li>'+
+  '<li><b>ICC rankings</b> — the official ICC world rankings, from the same feed icc-cricket.com uses.</li>'+
+  '<li><b>\u25b6 Highlights</b> — nothing is hosted or re-uploaded here: links go to the home board\u2019s own official YouTube channel (every video verified against the official channel) or to <a href="https://www.bcci.tv" target="_blank" rel="noopener">bcci.tv</a> for India home matches.</li>'+
+  '<li><b>Everything is open source</b> — the site, the data pipeline and its history live on <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" rel="noopener">GitHub</a>.</li>'+
+  '</ul>'+
+  '<h3>Not affiliated</h3>'+
+  '<p>This site is not affiliated with, endorsed by or connected to the BCCI, the ICC, ESPN, '+
+  'ESPNcricinfo, cricsheet, YouTube, or any cricket board, team, league or tournament. Team and player '+
+  'names are used only to refer to the matches and results they describe; all trademarks belong to their '+
+  'owners. Scores may lag or contain errors — for anything that matters, check official sources.</p>'+
+  '<h3>Privacy</h3>'+
+  '<p>No cookies, no analytics, no ads, no accounts, no tracking of any kind. Your men/women tab choice '+
+  'is stored only in your own browser and never leaves it.</p>'+
+  '<p class="rights">If you represent a rights holder and have a concern about anything shown here, '+
+  'please open an issue on the <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" '+
+  'rel="noopener">GitHub repository</a> — it will be addressed promptly.</p>'+
+  '</div></section>';
+}
 
 Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
