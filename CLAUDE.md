@@ -7,8 +7,8 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
   no dependencies, no cookies/tracking/keys). Sections: header → men/women toggle
   (localStorage) → hero (live score or next-match countdown, playing XIs) →
-  current tour → coming up (future series) → 2026-so-far timeline (W/L color-coded,
-  🏆 banner for World Cup titles) → footer. Light + dark via prefers-color-scheme.
+  current tour → coming up (future series) → results timeline (2025→, grouped by year,
+  W/L color-coded, 🏆 banner for tournament titles) → footer. Light + dark via prefers-color-scheme.
 - `fetch_data.py` → `data.json` (all matches of known India series: results/live/fixtures,
   XIs for today's matches) + appends finalized matches to `history.json` (append-only
   season record, seeded from cricsheet by `seed_history.py`).

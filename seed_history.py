@@ -12,7 +12,7 @@ import os
 import urllib.request
 import zipfile
 
-SINCE = "2026-01-01"
+SINCE = "2025-01-01"
 ZIPS = {
     "men": "https://cricsheet.org/downloads/india_male_json.zip",
     "women": "https://cricsheet.org/downloads/india_female_json.zip",
@@ -124,6 +124,10 @@ def main():
     kept = []
     if os.path.exists(HISTORY):
         kept = [m for m in json.load(open(HISTORY))["matches"] if not m["id"].startswith("cs_")]
+    def key(m):
+        return (m["date"], frozenset(t["name"].replace(" Women", "") for t in m["teams"]), m["gender"])
+    seen = {key(m) for m in kept}
+    entries = [m for m in entries if key(m) not in seen]
     entries.extend(kept)
     entries.sort(key=lambda m: m["date"])
     assert entries, "no matches converted — refusing to write empty history"

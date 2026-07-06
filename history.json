@@ -2,6 +2,1722 @@
  "source": "cricsheet.org + ESPN",
  "matches": [
   {
+   "id": "cs_1426559",
+   "date": "2025-01-03",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Australia",
+   "matchNo": "5th Test",
+   "venue": "Sydney Cricket Ground",
+   "city": "Sydney",
+   "teams": [
+    {
+     "name": "India",
+     "score": "185 & 157"
+    },
+    {
+     "name": "Australia",
+     "score": "181 & 162/4"
+    }
+   ],
+   "result": "Australia won by 6 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1459897",
+   "date": "2025-01-10",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Ireland Women tour of India",
+   "matchNo": "1st ODI",
+   "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+   "city": "Rajkot",
+   "teams": [
+    {
+     "name": "Ireland",
+     "score": "238/7 (50 ov)"
+    },
+    {
+     "name": "India",
+     "score": "241/4 (34.3 ov)"
+    }
+   ],
+   "result": "India won by 6 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1459898",
+   "date": "2025-01-12",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Ireland Women tour of India",
+   "matchNo": "2nd ODI",
+   "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+   "city": "Rajkot",
+   "teams": [
+    {
+     "name": "India",
+     "score": "370/5 (50 ov)"
+    },
+    {
+     "name": "Ireland",
+     "score": "254/7 (50 ov)"
+    }
+   ],
+   "result": "India won by 116 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1459899",
+   "date": "2025-01-15",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Ireland Women tour of India",
+   "matchNo": "3rd ODI",
+   "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+   "city": "Rajkot",
+   "teams": [
+    {
+     "name": "India",
+     "score": "435/5 (50 ov)"
+    },
+    {
+     "name": "Ireland",
+     "score": "131 (31.4 ov)"
+    }
+   ],
+   "result": "India won by 304 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439899",
+   "date": "2025-01-22",
+   "gender": "men",
+   "format": "T20I",
+   "series": "England tour of India",
+   "matchNo": "1st T20I",
+   "venue": "Eden Gardens, Kolkata",
+   "city": "Kolkata",
+   "teams": [
+    {
+     "name": "England",
+     "score": "132 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "133/3 (12.5 ov)"
+    }
+   ],
+   "result": "India won by 7 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439900",
+   "date": "2025-01-25",
+   "gender": "men",
+   "format": "T20I",
+   "series": "England tour of India",
+   "matchNo": "2nd T20I",
+   "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+   "city": "Chennai",
+   "teams": [
+    {
+     "name": "England",
+     "score": "165/9 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "166/8 (19.2 ov)"
+    }
+   ],
+   "result": "India won by 2 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439901",
+   "date": "2025-01-28",
+   "gender": "men",
+   "format": "T20I",
+   "series": "England tour of India",
+   "matchNo": "3rd T20I",
+   "venue": "Saurashtra Cricket Association Stadium, Rajkot",
+   "city": "Rajkot",
+   "teams": [
+    {
+     "name": "England",
+     "score": "171/9 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "145/9 (20 ov)"
+    }
+   ],
+   "result": "England won by 26 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1439902",
+   "date": "2025-01-31",
+   "gender": "men",
+   "format": "T20I",
+   "series": "England tour of India",
+   "matchNo": "4th T20I",
+   "venue": "Maharashtra Cricket Association Stadium, Pune",
+   "city": "Pune",
+   "teams": [
+    {
+     "name": "India",
+     "score": "181/9 (20 ov)"
+    },
+    {
+     "name": "England",
+     "score": "166 (19.4 ov)"
+    }
+   ],
+   "result": "India won by 15 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439903",
+   "date": "2025-02-02",
+   "gender": "men",
+   "format": "T20I",
+   "series": "England tour of India",
+   "matchNo": "5th T20I",
+   "venue": "Wankhede Stadium, Mumbai",
+   "city": "Mumbai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "247/9 (20 ov)"
+    },
+    {
+     "name": "England",
+     "score": "97 (10.3 ov)"
+    }
+   ],
+   "result": "India won by 150 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439904",
+   "date": "2025-02-06",
+   "gender": "men",
+   "format": "ODI",
+   "series": "England tour of India",
+   "matchNo": "1st ODI",
+   "venue": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+   "city": "Nagpur",
+   "teams": [
+    {
+     "name": "England",
+     "score": "248 (47.4 ov)"
+    },
+    {
+     "name": "India",
+     "score": "251/6 (38.4 ov)"
+    }
+   ],
+   "result": "India won by 4 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439905",
+   "date": "2025-02-09",
+   "gender": "men",
+   "format": "ODI",
+   "series": "England tour of India",
+   "matchNo": "2nd ODI",
+   "venue": "Barabati Stadium, Cuttack",
+   "city": "Cuttack",
+   "teams": [
+    {
+     "name": "England",
+     "score": "304 (49.5 ov)"
+    },
+    {
+     "name": "India",
+     "score": "308/6 (44.3 ov)"
+    }
+   ],
+   "result": "India won by 4 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1439906",
+   "date": "2025-02-12",
+   "gender": "men",
+   "format": "ODI",
+   "series": "England tour of India",
+   "matchNo": "3rd ODI",
+   "venue": "Narendra Modi Stadium, Ahmedabad",
+   "city": "Ahmedabad",
+   "teams": [
+    {
+     "name": "India",
+     "score": "356 (50 ov)"
+    },
+    {
+     "name": "England",
+     "score": "214 (34.2 ov)"
+    }
+   ],
+   "result": "India won by 142 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1466415",
+   "date": "2025-02-20",
+   "gender": "men",
+   "format": "ODI",
+   "series": "ICC Champions Trophy",
+   "matchNo": "Match 2",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Bangladesh",
+     "score": "228 (49.4 ov)"
+    },
+    {
+     "name": "India",
+     "score": "231/4 (46.3 ov)"
+    }
+   ],
+   "result": "India won by 6 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1466418",
+   "date": "2025-02-23",
+   "gender": "men",
+   "format": "ODI",
+   "series": "ICC Champions Trophy",
+   "matchNo": "Match 5",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Pakistan",
+     "score": "241 (49.4 ov)"
+    },
+    {
+     "name": "India",
+     "score": "244/4 (42.3 ov)"
+    }
+   ],
+   "result": "India won by 6 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1466425",
+   "date": "2025-03-02",
+   "gender": "men",
+   "format": "ODI",
+   "series": "ICC Champions Trophy",
+   "matchNo": "Match 12",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "249/9 (50 ov)"
+    },
+    {
+     "name": "New Zealand",
+     "score": "205 (45.3 ov)"
+    }
+   ],
+   "result": "India won by 44 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1466426",
+   "date": "2025-03-04",
+   "gender": "men",
+   "format": "ODI",
+   "series": "ICC Champions Trophy",
+   "matchNo": "Semi Final",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Australia",
+     "score": "264 (49.3 ov)"
+    },
+    {
+     "name": "India",
+     "score": "267/6 (48.1 ov)"
+    }
+   ],
+   "result": "India won by 4 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1466428",
+   "date": "2025-03-09",
+   "gender": "men",
+   "format": "ODI",
+   "series": "ICC Champions Trophy",
+   "matchNo": "Final",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "251/7 (50 ov)"
+    },
+    {
+     "name": "India",
+     "score": "254/6 (49 ov)"
+    }
+   ],
+   "result": "India won by 4 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1476980",
+   "date": "2025-04-27",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Sri Lanka Women's ODI Tri-Series",
+   "matchNo": "1st ODI",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "147 (38.1 ov)"
+    },
+    {
+     "name": "India",
+     "score": "149/1 (29.4 ov)"
+    }
+   ],
+   "result": "India won by 9 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1476981",
+   "date": "2025-04-29",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Sri Lanka Women's ODI Tri-Series",
+   "matchNo": "2nd ODI",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "India",
+     "score": "276/6 (50 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "261 (49.2 ov)"
+    }
+   ],
+   "result": "India won by 15 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1476983",
+   "date": "2025-05-04",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Sri Lanka Women's ODI Tri-Series",
+   "matchNo": "4th ODI",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "India",
+     "score": "275/9 (50 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "278/7 (49.1 ov)"
+    }
+   ],
+   "result": "Sri Lanka won by 3 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1476984",
+   "date": "2025-05-07",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Sri Lanka Women's ODI Tri-Series",
+   "matchNo": "5th ODI",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "India",
+     "score": "337/9 (50 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "314/7 (50 ov)"
+    }
+   ],
+   "result": "India won by 23 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1476986",
+   "date": "2025-05-11",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Sri Lanka Women's ODI Tri-Series",
+   "matchNo": "Final",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "India",
+     "score": "342/7 (50 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "245 (48.2 ov)"
+    }
+   ],
+   "result": "India won by 97 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448349",
+   "date": "2025-06-20",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of England",
+   "matchNo": "1st Test",
+   "venue": "Headingley, Leeds",
+   "city": "Leeds",
+   "teams": [
+    {
+     "name": "India",
+     "score": "471 & 364"
+    },
+    {
+     "name": "England",
+     "score": "465 & 373/5"
+    }
+   ],
+   "result": "England won by 5 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1448397",
+   "date": "2025-06-28",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England",
+   "matchNo": "1st T20I",
+   "venue": "Trent Bridge, Nottingham",
+   "city": "Nottingham",
+   "teams": [
+    {
+     "name": "India",
+     "score": "210/5 (20 ov)"
+    },
+    {
+     "name": "England",
+     "score": "113 (14.5 ov)"
+    }
+   ],
+   "result": "India won by 97 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448398",
+   "date": "2025-07-01",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England",
+   "matchNo": "2nd T20I",
+   "venue": "County Ground, Bristol",
+   "city": "Bristol",
+   "teams": [
+    {
+     "name": "India",
+     "score": "181/4 (20 ov)"
+    },
+    {
+     "name": "England",
+     "score": "157/7 (20 ov)"
+    }
+   ],
+   "result": "India won by 24 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448350",
+   "date": "2025-07-02",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of England",
+   "matchNo": "2nd Test",
+   "venue": "Edgbaston, Birmingham",
+   "city": "Birmingham",
+   "teams": [
+    {
+     "name": "India",
+     "score": "587 & 427/6d"
+    },
+    {
+     "name": "England",
+     "score": "407 & 271"
+    }
+   ],
+   "result": "India won by 336 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448399",
+   "date": "2025-07-04",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England",
+   "matchNo": "3rd T20I",
+   "venue": "Kennington Oval, London",
+   "city": "London",
+   "teams": [
+    {
+     "name": "England",
+     "score": "171/9 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "166/5 (20 ov)"
+    }
+   ],
+   "result": "England won by 5 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1448400",
+   "date": "2025-07-09",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England",
+   "matchNo": "4th T20I",
+   "venue": "Old Trafford, Manchester",
+   "city": "Manchester",
+   "teams": [
+    {
+     "name": "England",
+     "score": "126/7 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "127/4 (17 ov)"
+    }
+   ],
+   "result": "India won by 6 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448351",
+   "date": "2025-07-10",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of England",
+   "matchNo": "3rd Test",
+   "venue": "Lord's, London",
+   "city": "London",
+   "teams": [
+    {
+     "name": "England",
+     "score": "387 & 192"
+    },
+    {
+     "name": "India",
+     "score": "387 & 170"
+    }
+   ],
+   "result": "England won by 22 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1448401",
+   "date": "2025-07-12",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England",
+   "matchNo": "5th T20I",
+   "venue": "Edgbaston, Birmingham",
+   "city": "Birmingham",
+   "teams": [
+    {
+     "name": "India",
+     "score": "167/7 (20 ov)"
+    },
+    {
+     "name": "England",
+     "score": "168/5 (20 ov)"
+    }
+   ],
+   "result": "England won by 5 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1448402",
+   "date": "2025-07-16",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of England",
+   "matchNo": "1st ODI",
+   "venue": "The Rose Bowl, Southampton",
+   "city": "Southampton",
+   "teams": [
+    {
+     "name": "England",
+     "score": "258/6 (50 ov)"
+    },
+    {
+     "name": "India",
+     "score": "262/6 (48.2 ov)"
+    }
+   ],
+   "result": "India won by 4 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448403",
+   "date": "2025-07-19",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of England",
+   "matchNo": "2nd ODI",
+   "venue": "Lord's, London",
+   "city": "London",
+   "teams": [
+    {
+     "name": "India",
+     "score": "143/8 (29 ov)"
+    },
+    {
+     "name": "England",
+     "score": "116/2 (21 ov)"
+    }
+   ],
+   "result": "England won by 8 wickets (D/L)",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1448404",
+   "date": "2025-07-22",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of England",
+   "matchNo": "3rd ODI",
+   "venue": "Riverside Ground, Chester-le-Street",
+   "city": "Chester-le-Street",
+   "teams": [
+    {
+     "name": "India",
+     "score": "318/5 (50 ov)"
+    },
+    {
+     "name": "England",
+     "score": "305 (49.5 ov)"
+    }
+   ],
+   "result": "India won by 13 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1448352",
+   "date": "2025-07-23",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of England",
+   "matchNo": "4th Test",
+   "venue": "Old Trafford, Manchester",
+   "city": "Manchester",
+   "teams": [
+    {
+     "name": "India",
+     "score": "358 & 425/4"
+    },
+    {
+     "name": "England",
+     "score": "669"
+    }
+   ],
+   "result": "Match drawn",
+   "india": "draw"
+  },
+  {
+   "id": "cs_1448353",
+   "date": "2025-07-31",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of England",
+   "matchNo": "5th Test",
+   "venue": "Kennington Oval, London",
+   "city": "London",
+   "teams": [
+    {
+     "name": "India",
+     "score": "224 & 396"
+    },
+    {
+     "name": "England",
+     "score": "247/9 & 367"
+    }
+   ],
+   "result": "India won by 6 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1496921",
+   "date": "2025-09-10",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "Match 2",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "United Arab Emirates",
+     "score": "57 (13.1 ov)"
+    },
+    {
+     "name": "India",
+     "score": "60/1 (4.3 ov)"
+    }
+   ],
+   "result": "India won by 9 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1496925",
+   "date": "2025-09-14",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "Match 6",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Pakistan",
+     "score": "127/9 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "131/3 (15.5 ov)"
+    }
+   ],
+   "result": "India won by 7 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1488248",
+   "date": "2025-09-14",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Australia Women tour of India",
+   "matchNo": "1st ODI",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "city": "New Chandigarh",
+   "teams": [
+    {
+     "name": "India",
+     "score": "281/7 (50 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "282/3 (44.1 ov)"
+    }
+   ],
+   "result": "Australia won by 8 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1488249",
+   "date": "2025-09-17",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Australia Women tour of India",
+   "matchNo": "2nd ODI",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "city": "New Chandigarh",
+   "teams": [
+    {
+     "name": "India",
+     "score": "292 (49.5 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "190 (40.5 ov)"
+    }
+   ],
+   "result": "India won by 102 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1496931",
+   "date": "2025-09-19",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "Match 12",
+   "venue": "Zayed Cricket Stadium, Abu Dhabi",
+   "city": "Abu Dhabi",
+   "teams": [
+    {
+     "name": "India",
+     "score": "188/8 (20 ov)"
+    },
+    {
+     "name": "Oman",
+     "score": "167/4 (20 ov)"
+    }
+   ],
+   "result": "India won by 21 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1488250",
+   "date": "2025-09-20",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Australia Women tour of India",
+   "matchNo": "3rd ODI",
+   "venue": "Arun Jaitley Stadium, Delhi",
+   "city": "Delhi",
+   "teams": [
+    {
+     "name": "Australia",
+     "score": "412 (47.5 ov)"
+    },
+    {
+     "name": "India",
+     "score": "369 (47 ov)"
+    }
+   ],
+   "result": "Australia won by 43 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1496933",
+   "date": "2025-09-21",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "14th T20I",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Pakistan",
+     "score": "171/5 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "174/4 (18.5 ov)"
+    }
+   ],
+   "result": "India won by 6 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1496935",
+   "date": "2025-09-24",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "16th T20I",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "168/6 (20 ov)"
+    },
+    {
+     "name": "Bangladesh",
+     "score": "127 (19.3 ov)"
+    }
+   ],
+   "result": "India won by 41 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1496937",
+   "date": "2025-09-26",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "18th T20I",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "202/5 (20 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "202/5 (20 ov)"
+    }
+   ],
+   "result": "Match tied (India won the Super Over)",
+   "india": "tie"
+  },
+  {
+   "id": "cs_1496938",
+   "date": "2025-09-28",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Men's T20 Asia Cup",
+   "matchNo": "Final",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "Dubai",
+   "teams": [
+    {
+     "name": "Pakistan",
+     "score": "146 (19.1 ov)"
+    },
+    {
+     "name": "India",
+     "score": "150/5 (19.4 ov)"
+    }
+   ],
+   "result": "India won by 5 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490413",
+   "date": "2025-09-30",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "1st ODI",
+   "venue": "Barsapara Cricket Stadium, Guwahati",
+   "city": "Guwahati",
+   "teams": [
+    {
+     "name": "India",
+     "score": "269/8 (47 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "211 (45.4 ov)"
+    }
+   ],
+   "result": "India won by 59 runs (D/L)",
+   "india": "won"
+  },
+  {
+   "id": "cs_1479569",
+   "date": "2025-10-02",
+   "gender": "men",
+   "format": "Test",
+   "series": "West Indies tour of India",
+   "matchNo": "1st Test",
+   "venue": "Narendra Modi Stadium, Ahmedabad",
+   "city": "Ahmedabad",
+   "teams": [
+    {
+     "name": "West Indies",
+     "score": "162 & 146"
+    },
+    {
+     "name": "India",
+     "score": "448/5d"
+    }
+   ],
+   "result": "India won by an innings and 140 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490418",
+   "date": "2025-10-05",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "6th ODI",
+   "venue": "R Premadasa Stadium, Colombo",
+   "city": "Colombo",
+   "teams": [
+    {
+     "name": "India",
+     "score": "247 (50 ov)"
+    },
+    {
+     "name": "Pakistan",
+     "score": "159 (43 ov)"
+    }
+   ],
+   "result": "India won by 88 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490422",
+   "date": "2025-10-09",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "10th ODI",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+   "city": "Visakhapatnam",
+   "teams": [
+    {
+     "name": "India",
+     "score": "251 (49.5 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "252/7 (48.5 ov)"
+    }
+   ],
+   "result": "South Africa won by 3 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1479570",
+   "date": "2025-10-10",
+   "gender": "men",
+   "format": "Test",
+   "series": "West Indies tour of India",
+   "matchNo": "2nd Test",
+   "venue": "Arun Jaitley Stadium, Delhi",
+   "city": "Delhi",
+   "teams": [
+    {
+     "name": "India",
+     "score": "518/5d & 124/3"
+    },
+    {
+     "name": "West Indies",
+     "score": "248 & 390"
+    }
+   ],
+   "result": "India won by 7 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490425",
+   "date": "2025-10-12",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "13th ODI",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+   "city": "Visakhapatnam",
+   "teams": [
+    {
+     "name": "India",
+     "score": "330 (48.5 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "331/7 (49 ov)"
+    }
+   ],
+   "result": "Australia won by 3 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1478904",
+   "date": "2025-10-19",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of Australia",
+   "matchNo": "1st ODI",
+   "venue": "Perth Stadium",
+   "city": "Perth",
+   "teams": [
+    {
+     "name": "India",
+     "score": "136/9 (26 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "131/3 (21.1 ov)"
+    }
+   ],
+   "result": "Australia won by 7 wickets (D/L)",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1490432",
+   "date": "2025-10-19",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "20th ODI",
+   "venue": "Holkar Cricket Stadium, Indore",
+   "city": "Indore",
+   "teams": [
+    {
+     "name": "England",
+     "score": "288/8 (50 ov)"
+    },
+    {
+     "name": "India",
+     "score": "284/6 (50 ov)"
+    }
+   ],
+   "result": "England won by 4 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1478905",
+   "date": "2025-10-23",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of Australia",
+   "matchNo": "2nd ODI",
+   "venue": "Adelaide Oval",
+   "city": "Adelaide",
+   "teams": [
+    {
+     "name": "India",
+     "score": "264/9 (50 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "265/8 (46.2 ov)"
+    }
+   ],
+   "result": "Australia won by 2 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1490436",
+   "date": "2025-10-23",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "24th ODI",
+   "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+   "city": "Navi Mumbai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "340/3 (49 ov)"
+    },
+    {
+     "name": "New Zealand",
+     "score": "271/8 (44 ov)"
+    }
+   ],
+   "result": "India won by 53 runs (D/L)",
+   "india": "won"
+  },
+  {
+   "id": "cs_1478906",
+   "date": "2025-10-25",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of Australia",
+   "matchNo": "3rd ODI",
+   "venue": "Sydney Cricket Ground",
+   "city": "Sydney",
+   "teams": [
+    {
+     "name": "Australia",
+     "score": "236 (46.4 ov)"
+    },
+    {
+     "name": "India",
+     "score": "237/1 (38.3 ov)"
+    }
+   ],
+   "result": "India won by 9 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490440",
+   "date": "2025-10-26",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "28th ODI",
+   "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+   "city": "Navi Mumbai",
+   "teams": [
+    {
+     "name": "Bangladesh",
+     "score": "119/9 (27 ov)"
+    },
+    {
+     "name": "India",
+     "score": "57/0 (8.4 ov)"
+    }
+   ],
+   "result": "No result",
+   "india": "nr"
+  },
+  {
+   "id": "cs_1478907",
+   "date": "2025-10-29",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Australia",
+   "matchNo": "1st T20I",
+   "venue": "Manuka Oval, Canberra",
+   "city": "Canberra",
+   "teams": [
+    {
+     "name": "India",
+     "score": "97/1 (9.4 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": ""
+    }
+   ],
+   "result": "No result",
+   "india": "nr"
+  },
+  {
+   "id": "cs_1490442",
+   "date": "2025-10-30",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "Semi Final",
+   "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+   "city": "Navi Mumbai",
+   "teams": [
+    {
+     "name": "Australia",
+     "score": "338 (49.5 ov)"
+    },
+    {
+     "name": "India",
+     "score": "341/5 (48.3 ov)"
+    }
+   ],
+   "result": "India won by 5 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1478908",
+   "date": "2025-10-31",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Australia",
+   "matchNo": "2nd T20I",
+   "venue": "Melbourne Cricket Ground",
+   "city": "Melbourne",
+   "teams": [
+    {
+     "name": "India",
+     "score": "125 (18.4 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "126/6 (13.2 ov)"
+    }
+   ],
+   "result": "Australia won by 4 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1478909",
+   "date": "2025-11-02",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Australia",
+   "matchNo": "3rd T20I",
+   "venue": "Bellerive Oval, Hobart",
+   "city": "Hobart",
+   "teams": [
+    {
+     "name": "Australia",
+     "score": "186/6 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "188/5 (18.3 ov)"
+    }
+   ],
+   "result": "India won by 5 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1490443",
+   "date": "2025-11-02",
+   "gender": "women",
+   "format": "ODI",
+   "series": "ICC Women's World Cup",
+   "matchNo": "Final",
+   "venue": "Dr DY Patil Sports Academy, Navi Mumbai",
+   "city": "Navi Mumbai",
+   "teams": [
+    {
+     "name": "India",
+     "score": "298/7 (50 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "246 (45.3 ov)"
+    }
+   ],
+   "result": "India won by 52 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1478910",
+   "date": "2025-11-06",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Australia",
+   "matchNo": "4th T20I",
+   "venue": "Carrara Oval",
+   "city": "Carrara",
+   "teams": [
+    {
+     "name": "India",
+     "score": "167/8 (20 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": "119 (18.2 ov)"
+    }
+   ],
+   "result": "India won by 48 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1478911",
+   "date": "2025-11-08",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Australia",
+   "matchNo": "5th T20I",
+   "venue": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+   "city": "Brisbane",
+   "teams": [
+    {
+     "name": "India",
+     "score": "52/0 (4.5 ov)"
+    },
+    {
+     "name": "Australia",
+     "score": ""
+    }
+   ],
+   "result": "No result",
+   "india": "nr"
+  },
+  {
+   "id": "cs_1479571",
+   "date": "2025-11-14",
+   "gender": "men",
+   "format": "Test",
+   "series": "South Africa tour of India",
+   "matchNo": "1st Test",
+   "venue": "Eden Gardens, Kolkata",
+   "city": "Kolkata",
+   "teams": [
+    {
+     "name": "South Africa",
+     "score": "159 & 153"
+    },
+    {
+     "name": "India",
+     "score": "189 & 93/9"
+    }
+   ],
+   "result": "South Africa won by 30 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1479572",
+   "date": "2025-11-22",
+   "gender": "men",
+   "format": "Test",
+   "series": "South Africa tour of India",
+   "matchNo": "2nd Test",
+   "venue": "Barsapara Cricket Stadium, Guwahati",
+   "city": "Guwahati",
+   "teams": [
+    {
+     "name": "South Africa",
+     "score": "489 & 260/5d"
+    },
+    {
+     "name": "India",
+     "score": "201 & 140"
+    }
+   ],
+   "result": "South Africa won by 408 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1479573",
+   "date": "2025-11-30",
+   "gender": "men",
+   "format": "ODI",
+   "series": "South Africa tour of India",
+   "matchNo": "1st ODI",
+   "venue": "JSCA International Stadium Complex, Ranchi",
+   "city": "Ranchi",
+   "teams": [
+    {
+     "name": "India",
+     "score": "349/8 (50 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "332 (49.2 ov)"
+    }
+   ],
+   "result": "India won by 17 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1479574",
+   "date": "2025-12-03",
+   "gender": "men",
+   "format": "ODI",
+   "series": "South Africa tour of India",
+   "matchNo": "2nd ODI",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "city": "Raipur",
+   "teams": [
+    {
+     "name": "India",
+     "score": "358/5 (50 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "362/7 (49.2 ov)"
+    }
+   ],
+   "result": "South Africa won by 4 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1479575",
+   "date": "2025-12-06",
+   "gender": "men",
+   "format": "ODI",
+   "series": "South Africa tour of India",
+   "matchNo": "3rd ODI",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+   "city": "Visakhapatnam",
+   "teams": [
+    {
+     "name": "South Africa",
+     "score": "270 (47.5 ov)"
+    },
+    {
+     "name": "India",
+     "score": "271/1 (39.5 ov)"
+    }
+   ],
+   "result": "India won by 9 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1479576",
+   "date": "2025-12-09",
+   "gender": "men",
+   "format": "T20I",
+   "series": "South Africa tour of India",
+   "matchNo": "1st T20I",
+   "venue": "Barabati Stadium, Cuttack",
+   "city": "Cuttack",
+   "teams": [
+    {
+     "name": "India",
+     "score": "175/6 (20 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "74 (12.3 ov)"
+    }
+   ],
+   "result": "India won by 101 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1479577",
+   "date": "2025-12-11",
+   "gender": "men",
+   "format": "T20I",
+   "series": "South Africa tour of India",
+   "matchNo": "2nd T20I",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "city": "New Chandigarh",
+   "teams": [
+    {
+     "name": "South Africa",
+     "score": "213/4 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "162 (19.1 ov)"
+    }
+   ],
+   "result": "South Africa won by 51 runs",
+   "india": "lost"
+  },
+  {
+   "id": "cs_1479578",
+   "date": "2025-12-14",
+   "gender": "men",
+   "format": "T20I",
+   "series": "South Africa tour of India",
+   "matchNo": "3rd T20I",
+   "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+   "city": "Dharamsala",
+   "teams": [
+    {
+     "name": "South Africa",
+     "score": "117 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "120/3 (15.5 ov)"
+    }
+   ],
+   "result": "India won by 7 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1479580",
+   "date": "2025-12-19",
+   "gender": "men",
+   "format": "T20I",
+   "series": "South Africa tour of India",
+   "matchNo": "5th T20I",
+   "venue": "Narendra Modi Stadium, Ahmedabad",
+   "city": "Ahmedabad",
+   "teams": [
+    {
+     "name": "India",
+     "score": "231/5 (20 ov)"
+    },
+    {
+     "name": "South Africa",
+     "score": "201/8 (20 ov)"
+    }
+   ],
+   "result": "India won by 30 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1513735",
+   "date": "2025-12-21",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Sri Lanka Women tour of India",
+   "matchNo": "1st T20I",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+   "city": "Visakhapatnam",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "121/6 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "122/2 (14.4 ov)"
+    }
+   ],
+   "result": "India won by 8 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1513736",
+   "date": "2025-12-23",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Sri Lanka Women tour of India",
+   "matchNo": "2nd T20I",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+   "city": "Visakhapatnam",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "128/9 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "129/3 (11.5 ov)"
+    }
+   ],
+   "result": "India won by 7 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1513737",
+   "date": "2025-12-26",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Sri Lanka Women tour of India",
+   "matchNo": "3rd T20I",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "city": "Thiruvananthapuram",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "112/7 (20 ov)"
+    },
+    {
+     "name": "India",
+     "score": "115/2 (13.2 ov)"
+    }
+   ],
+   "result": "India won by 8 wickets",
+   "india": "won"
+  },
+  {
+   "id": "cs_1513738",
+   "date": "2025-12-28",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Sri Lanka Women tour of India",
+   "matchNo": "4th T20I",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "city": "Thiruvananthapuram",
+   "teams": [
+    {
+     "name": "India",
+     "score": "221/2 (20 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "191/6 (20 ov)"
+    }
+   ],
+   "result": "India won by 30 runs",
+   "india": "won"
+  },
+  {
+   "id": "cs_1513739",
+   "date": "2025-12-30",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Sri Lanka Women tour of India",
+   "matchNo": "5th T20I",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "city": "Thiruvananthapuram",
+   "teams": [
+    {
+     "name": "India",
+     "score": "175/7 (20 ov)"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "160/7 (20 ov)"
+    }
+   ],
+   "result": "India won by 15 runs",
+   "india": "won"
+  },
+  {
    "id": "cs_1490231",
    "date": "2026-01-11",
    "gender": "men",

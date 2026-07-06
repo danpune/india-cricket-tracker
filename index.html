@@ -108,6 +108,8 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px 2px}
 .chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--muted)}
 .chip b{color:var(--ink)}
+.chip.yr{background:var(--blue);color:#fff;font-weight:800;letter-spacing:.5px}
+.card.yearcard{margin-bottom:18px}
 
 /* desktop: use the width — hero on top, tour+season left, schedule right */
 @media(min-width:1080px){
@@ -299,35 +301,43 @@ function render(){
     h+='</div></section>';
   }
 
-  /* season so far */
+  /* results, grouped by year (newest first) */
   if(hist.length){
-    var W=hist.filter(function(m){return m.india==='won';}).length;
-    var L=hist.filter(function(m){return m.india==='lost';}).length;
-    var O=hist.length-W-L;
-    h+='<section class="sec-season"><h2>2026 so far</h2>';
-    h+='<div class="chips"><span class="chip">Played <b>'+hist.length+'</b></span>'+
-       '<span class="chip">Won <b style="color:var(--win)">'+W+'</b></span>'+
-       '<span class="chip">Lost <b style="color:var(--loss)">'+L+'</b></span>'+
-       (O?'<span class="chip">N/R & other <b>'+O+'</b></span>':'')+'</div>';
-    h+='<div class="card">';
-    /* group consecutive matches of the same series, newest first */
-    var groups=[];
-    hist.forEach(function(m){
-      var g=groups[groups.length-1];
-      if(!g||g.name!==m.series)groups.push(g={name:m.series,items:[]});
-      g.items.push(m);
+    h+='<section class="sec-season"><h2>Results</h2>';
+    var years=[];
+    hist.forEach(function(m){var y=m.date.slice(0,4);if(years.indexOf(y)<0)years.push(y);});
+    years.reverse();
+    years.forEach(function(y){
+      var yms=hist.filter(function(m){return m.date.slice(0,4)===y;});
+      var W=yms.filter(function(m){return m.india==='won';}).length;
+      var L=yms.filter(function(m){return m.india==='lost';}).length;
+      var O=yms.length-W-L;
+      h+='<div class="chips"><span class="chip yr">'+y+'</span>'+
+         '<span class="chip">Played <b>'+yms.length+'</b></span>'+
+         '<span class="chip">Won <b style="color:var(--win)">'+W+'</b></span>'+
+         '<span class="chip">Lost <b style="color:var(--loss)">'+L+'</b></span>'+
+         (O?'<span class="chip">N/R & other <b>'+O+'</b></span>':'')+'</div>';
+      h+='<div class="card yearcard">';
+      /* group consecutive matches of the same series, newest first */
+      var groups=[];
+      yms.forEach(function(m){
+        var g=groups[groups.length-1];
+        if(!g||g.name!==m.series)groups.push(g={name:m.series,items:[]});
+        g.items.push(m);
+      });
+      groups.reverse();
+      groups.forEach(function(g){
+        var w=g.items.filter(function(m){return m.india==='won';}).length;
+        var l=g.items.filter(function(m){return m.india==='lost';}).length;
+        var champion=/World Cup|Trophy|Asia Cup/.test(g.name)&&g.items.some(function(m){return m.matchNo==='Final'&&m.india==='won';});
+        if(champion)h+='<div class="trophy">🏆 '+esc(g.name)+' — CHAMPIONS</div>';
+        h+='<div class="serieshead"><div class="nm">'+(champion?'':esc(g.name))+'</div>'+
+           '<div class="meta rec">'+w+'W – '+l+'L'+(g.items.length-w-l?' – '+(g.items.length-w-l)+' other':'')+'</div></div>';
+        g.items.slice().reverse().forEach(function(m){h+=histRowHTML(m);});
+      });
+      h+='</div>';
     });
-    groups.reverse();
-    groups.forEach(function(g){
-      var w=g.items.filter(function(m){return m.india==='won';}).length;
-      var l=g.items.filter(function(m){return m.india==='lost';}).length;
-      var champion=/World Cup|Trophy/.test(g.name)&&g.items.some(function(m){return m.matchNo==='Final'&&m.india==='won';});
-      if(champion)h+='<div class="trophy">🏆 '+esc(g.name)+' — CHAMPIONS</div>';
-      h+='<div class="serieshead"><div class="nm">'+(champion?'':esc(g.name))+'</div>'+
-         '<div class="meta rec">'+w+'W – '+l+'L'+(g.items.length-w-l?' – '+(g.items.length-w-l)+' other':'')+'</div></div>';
-      g.items.slice().reverse().forEach(function(m){h+=histRowHTML(m);});
-    });
-    h+='</div></section>';
+    h+='</section>';
   }
   app.innerHTML=h;
   startTicker();
