@@ -59,6 +59,17 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   Found by watching the browser's network tab — espncricinfo.com/rankings and ESPN's
   rankings API 404 for cricket, and icc-cricket.com serves curl an empty app shell.
 
+## Highlights
+- `build_highlights.py` → `highlights.json` (match id → {yt}). Ported from the tennis
+  project: scrape home board's channel /videos (ytInitialData → lockupViewModel), match
+  title by "Highlights" + both team names + ordinal + format token (ECB titles say
+  "IT20" for T20I; gender guard: 'women' in title iff women's match), verify EVERY id
+  via oEmbed author_url. Rights sit with the HOME board → CHANNELS maps seriesId→handle;
+  VERIFY handles before adding (@bcci on YouTube is a SPOOF; ECB = @officialenglandcricket,
+  found via legacy youtube.com/user/ecbcricket → canonicalBaseUrl). UI bridges ids:
+  cricsheet cs_<id> and espn_<id> share the numeric part (cricsheet files use cricinfo ids).
+  Merge-only, fail-safe, runs in CI with `|| true`.
+
 ## Scorecards (two sources, one shape)
 - history: `seed_history.py` computes cards from cricsheet ball-by-ball (bowler runs
   exclude byes/legbyes/penalty; run-outs aren't bowler wickets; wides aren't balls faced).
@@ -73,4 +84,7 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 1. Extend `SERIES` when new tours are announced (probe the id range, or let discovery
    catch them on match day).
 2. Points-table for World Cups / Asia Cup when one is live.
+3. Verify + add official channel handles to build_highlights.py CHANNELS as tours
+   near: Zimbabwe Cricket (Jul 2026), Sri Lanka Cricket (Aug), BCCI home (Sep+),
+   NZC @BLACKCAPS variant (Oct), @ICC for ICC events.
 4. Per-match official highlights (YouTube oEmbed verification — port from worldcup2026).

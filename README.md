@@ -13,6 +13,8 @@ the playing XIs, and every international result of the year.
   (runs and balls, not-outs, who didn't bat) and the bowling figures.
 - **ICC Rankings** — official team rankings per format plus the world top-10
   batters and bowlers, India highlighted.
+- **Highlights** — finished matches link to the official home board's YouTube
+  highlights (every video verified against the official channel).
 - **Results** — two full years of the record, season by season, series by series,
   wins and losses color-coded (with 🏆 banners for the Champions Trophy, Asia Cup,
   Women's World Cup and T20 World Cup titles).

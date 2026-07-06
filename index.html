@@ -141,6 +141,8 @@ table.sc{width:100%;border-collapse:collapse;font-size:12px;margin-top:2px}
 .sc td.n{text-align:left;padding-left:0}
 .sc td.n i{color:var(--muted);font-style:normal;font-size:11px;margin-left:5px}
 .dnb{font-size:11px;color:var(--muted);margin-top:6px}
+a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap;margin-left:6px}
+a.yt:hover{text-decoration:underline}
 @media(min-width:720px){
   .inn{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;align-items:start}
   .inn-h{grid-column:1/-1}
@@ -234,7 +236,12 @@ footer a{color:var(--chakra);text-decoration:none}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+function hlLink(m){
+  var v=HL[(m.id||'').split('_')[1]];
+  if(!v)return '';
+  return ' <a class="yt" href="https://www.youtube.com/watch?v='+esc(v)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">▶ Highlights</a>';
+}
 
 var FLAGS={India:'🇮🇳',England:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',Australia:'🇦🇺','New Zealand':'🇳🇿',Pakistan:'🇵🇰','South Africa':'🇿🇦',
 'Sri Lanka':'🇱🇰',Bangladesh:'🇧🇩',Afghanistan:'🇦🇫',Zimbabwe:'🇿🇼',Ireland:'🇮🇪','West Indies':'🌴',
@@ -312,7 +319,7 @@ function rowHTML(m,opts){
   var chev=(m.innings&&m.innings.length)?'<div class="chev">▾</div>':'';
   var core='<div class="mrow'+(opts.upnext?' upnext':'')+'">'+
     '<div class="when">'+when+'</div>'+
-    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div><div class="sub">'+sub+'</div></div>'+
+    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+hlLink(m)+'</div><div class="sub">'+sub+'</div></div>'+
     '<div class="right">'+right+'</div>'+chev+'</div>';
   return expandable(core,m);
 }
@@ -352,7 +359,7 @@ function histRowHTML(m){
   var chev=(m.innings&&m.innings.length)?'<div class="chev">▾</div>':'';
   var core='<div class="mrow" style="border-left:3px solid var(--'+(m.india==='won'?'win':m.india==='lost'?'loss':'nr')+')">'+
     '<div class="when"><b>'+d.toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
-    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div>'+
+    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+hlLink(m)+'</div>'+
     '<div class="sub">'+flag(opp)+' vs '+esc(norm(opp))+' · '+esc(m.venue.split(',').pop().trim())+'</div>'+
     '<div class="sub res '+resClass(m.india)+'">'+esc(m.result)+'</div></div>'+
     '<div class="right"><div class="sc">'+sc+'</div></div>'+chev+'</div>';
@@ -502,9 +509,15 @@ function setGender(g){GENDER=g;localStorage.setItem('gender',g);render();}
 
 Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
-  fetch('history.json?v='+Date.now()).then(function(r){return r.json();})
-]).then(function(res){DATA=res[0];HIST=res[1];render();})
-.catch(function(){render();});
+  fetch('history.json?v='+Date.now()).then(function(r){return r.json();}),
+  fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
+]).then(function(res){
+  DATA=res[0];HIST=res[1];
+  var hl=(res[2]||{}).highlights||{};
+  HL={};
+  Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k].yt;});
+  render();
+}).catch(function(){render();});
 </script>
 </body>
 </html>
