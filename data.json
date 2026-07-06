@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06T14:50:48Z",
+ "updated": "2026-07-06T15:49:49Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -2111,6 +2111,231 @@
    ]
   },
   {
+   "id": "espn_1527151",
+   "eventId": "1527151",
+   "date": "2026-06-13T08:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Afghanistan tour of India 2026",
+   "seriesId": "24227",
+   "matchNo": "1st ODI",
+   "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "195/3 (22.5/25 ov, target 195)",
+     "winner": true
+    },
+    {
+     "name": "Afghanistan",
+     "abbr": "AFG",
+     "score": "194 (24.5/25 ov)",
+     "winner": false
+    }
+   ],
+   "result": "India won by 7 wkts (13b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Afghanistan",
+     "total": "194 (24.5 ov)",
+     "bat": [
+      [
+       "Rahmanullah Gurbaz",
+       102,
+       51,
+       "not out"
+      ],
+      [
+       "Ibrahim Zadran",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Sediqullah Atal",
+       0,
+       2,
+       "lbw"
+      ],
+      [
+       "Rahmat Shah",
+       3,
+       8,
+       "c"
+      ],
+      [
+       "Hashmatullah Shahidi",
+       27,
+       30,
+       "c"
+      ],
+      [
+       "Azmatullah Omarzai",
+       26,
+       16,
+       "st"
+      ],
+      [
+       "Mohammad Nabi",
+       9,
+       14,
+       "c"
+      ],
+      [
+       "Rashid Khan",
+       9,
+       13,
+       "not out"
+      ],
+      [
+       "AM Ghazanfar",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Ziaur Rahman",
+       4,
+       8,
+       "c"
+      ],
+      [
+       "Mohammad Saleem",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Nitish Kumar Reddy",
+       "4",
+       31,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "1",
+       19,
+       0
+      ],
+      [
+       "Harsh Dubey",
+       "5",
+       47,
+       3
+      ],
+      [
+       "Arshdeep Singh",
+       "5",
+       27,
+       2
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       35,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "4.5",
+       27,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "195/3 (22.5 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       16,
+       16,
+       "run out"
+      ],
+      [
+       "Shubman Gill",
+       84,
+       66,
+       "not out"
+      ],
+      [
+       "Ishan Kishan",
+       34,
+       22,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       12,
+       15,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       39,
+       19,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nitish Kumar Reddy",
+      "Washington Sundar",
+      "Harsh Dubey",
+      "Arshdeep Singh",
+      "Prasidh Krishna",
+      "Gurnoor Brar"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "3",
+       28,
+       0
+      ],
+      [
+       "Mohammad Nabi",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Rashid Khan",
+       "5",
+       37,
+       1
+      ],
+      [
+       "AM Ghazanfar",
+       "5",
+       28,
+       0
+      ],
+      [
+       "Ziaur Rahman",
+       "4",
+       39,
+       1
+      ],
+      [
+       "Mohammad Saleem",
+       "3.5",
+       36,
+       0
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1490682",
    "eventId": "1490682",
    "date": "2026-06-14T13:30Z",
@@ -2339,6 +2564,260 @@
        "3",
        22,
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1527152",
+   "eventId": "1527152",
+   "date": "2026-06-17T08:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Afghanistan tour of India 2026",
+   "seriesId": "24227",
+   "matchNo": "2nd ODI",
+   "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "402",
+     "winner": true
+    },
+    {
+     "name": "Afghanistan",
+     "abbr": "AFG",
+     "score": "232 (44.3/50 ov, target 403)",
+     "winner": false
+    }
+   ],
+   "result": "India won by 170 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "402 (49.5 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       4,
+       9,
+       "c"
+      ],
+      [
+       "Rohit Sharma",
+       48,
+       39,
+       "not out"
+      ],
+      [
+       "Shubman Gill",
+       154,
+       110,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       125,
+       79,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       26,
+       24,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       19,
+       19,
+       "c"
+      ],
+      [
+       "Gurnoor Brar",
+       3,
+       7,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       3,
+       4,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       3,
+       3,
+       "not out"
+      ],
+      [
+       "Prince Yadav",
+       5,
+       5,
+       "run out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Hashmatullah Shahidi",
+       "5",
+       36,
+       0
+      ],
+      [
+       "Nangeyalia Kharote",
+       "10",
+       76,
+       4
+      ],
+      [
+       "Rashid Khan",
+       "8",
+       48,
+       3
+      ],
+      [
+       "AM Ghazanfar",
+       "10",
+       69,
+       1
+      ],
+      [
+       "Mohammad Saleem",
+       "8",
+       75,
+       1
+      ],
+      [
+       "Bilal Sami",
+       "8.5",
+       90,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Afghanistan",
+     "total": "232/9 (44.3 ov)",
+     "bat": [
+      [
+       "Rahmanullah Gurbaz",
+       41,
+       33,
+       "c"
+      ],
+      [
+       "Ibrahim Zadran",
+       21,
+       31,
+       "c"
+      ],
+      [
+       "Sediqullah Atal",
+       42,
+       50,
+       "lbw"
+      ],
+      [
+       "Rahmat Shah",
+       79,
+       89,
+       "c"
+      ],
+      [
+       "Darwish Rasooli",
+       6,
+       6,
+       "retired not out"
+      ],
+      [
+       "Hashmatullah Shahidi",
+       4,
+       2,
+       "not out"
+      ],
+      [
+       "Nangeyalia Kharote",
+       6,
+       11,
+       "not out"
+      ],
+      [
+       "Rashid Khan",
+       12,
+       12,
+       "c"
+      ],
+      [
+       "AM Ghazanfar",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Mohammad Saleem",
+       9,
+       19,
+       "not out"
+      ],
+      [
+       "Bilal Sami",
+       2,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Yashasvi Jaiswal",
+       "1",
+       3,
+       0
+      ],
+      [
+       "Washington Sundar",
+       "7",
+       24,
+       1
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       60,
+       3
+      ],
+      [
+       "Arshdeep Singh",
+       "9",
+       45,
+       3
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       42,
+       0
+      ],
+      [
+       "Prince Yadav",
+       "7.3",
+       56,
+       2
       ]
      ]
     }
@@ -3240,6 +3719,256 @@
        "Nahida Akter",
        "3.5",
        24,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1528548",
+   "eventId": "1528548",
+   "date": "2026-06-26T12:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Ireland 2026",
+   "seriesId": "24258",
+   "matchNo": "1st T20I",
+   "venue": "Civil Service Cricket Club, Stormont, Belfast",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "Ireland",
+     "abbr": "IRE",
+     "score": "182/9",
+     "winner": true
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "148 (18.5/20 ov, target 183)",
+     "winner": false
+    }
+   ],
+   "result": "Ireland won by 34 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "Ireland",
+     "total": "182/9 (20 ov)",
+     "bat": [
+      [
+       "TH Tector",
+       17,
+       12,
+       "c"
+      ],
+      [
+       "GR Adair",
+       12,
+       7,
+       "c"
+      ],
+      [
+       "HT Tector",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "L Tucker",
+       50,
+       36,
+       "c"
+      ],
+      [
+       "BF Calitz",
+       15,
+       11,
+       "c"
+      ],
+      [
+       "GJ Delany",
+       49,
+       32,
+       "c"
+      ],
+      [
+       "GH Dockrell",
+       19,
+       10,
+       "c"
+      ],
+      [
+       "L McCarthy",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "MJ Humphreys",
+       2,
+       3,
+       "run out"
+      ],
+      [
+       "J Moondra",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "MK Hollard"
+     ],
+     "bowl": [
+      [
+       "Arshdeep Singh",
+       "4",
+       28,
+       2
+      ],
+      [
+       "Harshit Rana",
+       "4",
+       24,
+       3
+      ],
+      [
+       "M Prasidh Krishna",
+       "4",
+       57,
+       0
+      ],
+      [
+       "S Dube",
+       "3",
+       18,
+       1
+      ],
+      [
+       "AR Patel",
+       "4",
+       33,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "1",
+       19,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "148 (18.5 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       49,
+       20,
+       "c"
+      ],
+      [
+       "SV Samson",
+       5,
+       4,
+       "b"
+      ],
+      [
+       "Ishan Kishan",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "SS Iyer",
+       3,
+       7,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       19,
+       21,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       9,
+       12,
+       "c"
+      ],
+      [
+       "S Dube",
+       25,
+       14,
+       "c&b"
+      ],
+      [
+       "AR Patel",
+       15,
+       16,
+       "c"
+      ],
+      [
+       "Harshit Rana",
+       8,
+       9,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "M Prasidh Krishna",
+       1,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "MJ Humphreys",
+       "3.5",
+       38,
+       3
+      ],
+      [
+       "J Moondra",
+       "4",
+       25,
+       2
+      ],
+      [
+       "L McCarthy",
+       "3",
+       29,
+       1
+      ],
+      [
+       "MK Hollard",
+       "4",
+       28,
+       3
+      ],
+      [
+       "HT Tector",
+       "3",
+       22,
+       0
+      ],
+      [
+       "GJ Delany",
+       "1",
+       3,
        1
       ]
      ]

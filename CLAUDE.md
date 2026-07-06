@@ -69,6 +69,14 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   found via legacy youtube.com/user/ecbcricket → canonicalBaseUrl). UI bridges ids:
   cricsheet cs_<id> and espn_<id> share the numeric part (cricsheet files use cricinfo ids).
   Merge-only, fail-safe, runs in CI with `|| true`.
+- Second source: bcci.tv (official BCCI site) for India-HOME series — server-rendered,
+  curl-able listing at bcci.tv/international/{men|women}/videos with
+  `data-videoslug="<id>/<slug>"` (Brightcove player). Matched by slug tokens
+  (ind/afg abbrs + ordinal + format + "match-highlights"); Tests only get per-day
+  "session" clips there, which we deliberately skip (no single recap exists).
+  Entries carry {url} instead of {yt}; the UI handles both. BCCI_SERIES maps home
+  series ids → listing path. fetch_data sweeps series active in the last 30 days in
+  FULL so completed-tour matches stay in data.json during the highlight-posting window.
 
 ## Scorecards (two sources, one shape)
 - history: `seed_history.py` computes cards from cricsheet ball-by-ball (bowler runs
@@ -85,6 +93,6 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
    catch them on match day).
 2. Points-table for World Cups / Asia Cup when one is live.
 3. Verify + add official channel handles to build_highlights.py CHANNELS as tours
-   near: Zimbabwe Cricket (Jul 2026), Sri Lanka Cricket (Aug), BCCI home (Sep+),
-   NZC @BLACKCAPS variant (Oct), @ICC for ICC events.
+   near: Zimbabwe Cricket (Jul 2026), Sri Lanka Cricket (Aug), NZC (Oct), @ICC for
+   ICC events. India-home series already covered via bcci.tv (BCCI_SERIES).
 4. Per-match official highlights (YouTube oEmbed verification — port from worldcup2026).

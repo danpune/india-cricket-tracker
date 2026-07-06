@@ -297,10 +297,12 @@ def main():
         series_meta.append({"id": sid, "name": name, "gender": gender})
         seen = set()
         events = list(board.get("events", []))
-        # an active series (still has matches to play) is swept in full so the
-        # current-tour view has its past results; completed series only need
+        # a series active in the last 30 days is swept in full — keeps the
+        # current-tour view complete and gives build_highlights.py a window in
+        # which boards post their videos; older completed series only need
         # whatever history.json is missing
-        active = any(day[:10] >= today for day in calendar)
+        recent = (now - timedelta(days=30)).strftime("%Y-%m-%d")
+        active = any(day[:10] >= recent for day in calendar)
         for day in calendar:
             date = day[:10]
             if not active and date < today and \

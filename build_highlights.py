@@ -27,6 +27,17 @@ CHANNELS = {  # seriesId -> official channel handle of the rights-holding home b
     # extend as tours near (verify first!): ICC events -> "@ICC"
 }
 FMT_TOKENS = {"T20I": ("t20",), "ODI": ("odi", "one day"), "Test": ("test",)}
+# India-home series: highlights live on bcci.tv itself (Brightcove, server-rendered
+# listing, no key). Tests only get per-day/session clips there — matched only when a
+# full match-highlights slug exists (no day-/session- token).
+BCCI_SERIES = {  # seriesId -> bcci.tv videos listing path
+    "24227": "/international/men/videos",    # Afghanistan tour of India 2026
+    "24289": "/international/men/videos",    # West Indies tour of India 2026/27
+    "24286": "/international/men/videos",    # Sri Lanka tour of India 2026/27
+    "24283": "/international/men/videos",    # Zimbabwe tour of India 2026/27
+    "24281": "/international/men/videos",    # Australia tour of India 2026/27
+    "24371": "/international/women/videos",  # Zimbabwe Women tour of India 2026/27
+}
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
       "Accept-Language": "en"}
@@ -73,6 +84,26 @@ def official(video_id, handle):
         f"https://www.youtube.com/{handle}".lower()
 
 
+def bcci_slugs(path):
+    """data-videoslug entries ("5569764/ind-vs-afg-2026-3rd-odi-match-highlights?tag...")."""
+    html = fetch(f"https://www.bcci.tv{path}")
+    return [x.split("?")[0] for x in re.findall(r'data-videoslug="([^"]+)"', html)]
+
+
+def bcci_slug_matches(slug, m):
+    t = slug.lower()
+    if "match-highlights" not in t or "day-" in t or "session" in t:
+        return False
+    abbrs = [x["abbr"].lower().replace("-w", "") for x in m["teams"]]
+    if not all(a in re.split(r"[-/]", t) for a in abbrs):
+        return False
+    no = m["matchNo"].lower().replace(" ", "-")
+    ordinal = re.match(r"(\d+(?:st|nd|rd|th))", no)
+    if ordinal:
+        return ordinal.group(1) in t.split("-") and any(x in t for x in FMT_TOKENS.get(m["format"], ()))
+    return no in t  # "only-test" etc.
+
+
 def title_matches(title, m):
     t = title.lower()
     if "highlight" not in t:
@@ -110,26 +141,42 @@ def main():
             pass
     hl = doc.setdefault("highlights", {})
     todo = [m for m in data.get("matches", [])
-            if m["state"] == "post" and m["seriesId"] in CHANNELS and m["id"] not in hl]
+            if m["state"] == "post" and m["id"] not in hl
+            and (m["seriesId"] in CHANNELS or m["seriesId"] in BCCI_SERIES)]
     if not todo:
         print("highlights: nothing to do")
         return
     cache = {}
     added = 0
     for m in todo:
-        handle = CHANNELS[m["seriesId"]]
-        if handle not in cache:
-            try:
-                cache[handle] = channel_videos(handle)
-            except Exception as e:
-                print(f"highlights: {handle} fetch failed ({e}) — skipping", file=sys.stderr)
-                cache[handle] = []
-        for vid, title in cache[handle]:
-            if title_matches(title, m) and official(vid, handle):
-                hl[m["id"]] = {"yt": vid, "title": title}
-                added += 1
-                print(f"  {m['matchNo']} {m['series'][:30]} -> {vid} | {title[:60]}")
-                break
+        if m["seriesId"] in CHANNELS:
+            handle = CHANNELS[m["seriesId"]]
+            if handle not in cache:
+                try:
+                    cache[handle] = channel_videos(handle)
+                except Exception as e:
+                    print(f"highlights: {handle} fetch failed ({e}) — skipping", file=sys.stderr)
+                    cache[handle] = []
+            for vid, title in cache[handle]:
+                if title_matches(title, m) and official(vid, handle):
+                    hl[m["id"]] = {"yt": vid, "title": title}
+                    added += 1
+                    print(f"  {m['matchNo']} {m['series'][:30]} -> yt:{vid} | {title[:55]}")
+                    break
+        if m["id"] not in hl and m["seriesId"] in BCCI_SERIES:
+            listing = BCCI_SERIES[m["seriesId"]]
+            if listing not in cache:
+                try:
+                    cache[listing] = bcci_slugs(listing)
+                except Exception as e:
+                    print(f"highlights: bcci.tv{listing} fetch failed ({e}) — skipping", file=sys.stderr)
+                    cache[listing] = []
+            for slug in cache[listing]:
+                if bcci_slug_matches(slug, m):
+                    hl[m["id"]] = {"url": f"https://www.bcci.tv{listing}/{slug}", "title": slug}
+                    added += 1
+                    print(f"  {m['matchNo']} {m['series'][:30]} -> bcci.tv | {slug[:55]}")
+                    break
     if added:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(doc, f, indent=1)

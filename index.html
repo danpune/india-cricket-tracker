@@ -238,9 +238,11 @@ footer a{color:var(--chakra);text-decoration:none}
 'use strict';
 var DATA=null, HIST=null, HL={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
 function hlLink(m){
-  var v=HL[(m.id||'').split('_')[1]];
-  if(!v)return '';
-  return ' <a class="yt" href="https://www.youtube.com/watch?v='+esc(v)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">▶ Highlights</a>';
+  var e=HL[(m.id||'').split('_')[1]];
+  if(!e)return '';
+  var href=e.yt?('https://www.youtube.com/watch?v='+e.yt):e.url;
+  if(!href)return '';
+  return ' <a class="yt" href="'+esc(href)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">▶ Highlights</a>';
 }
 
 var FLAGS={India:'🇮🇳',England:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',Australia:'🇦🇺','New Zealand':'🇳🇿',Pakistan:'🇵🇰','South Africa':'🇿🇦',
@@ -515,7 +517,7 @@ Promise.all([
   DATA=res[0];HIST=res[1];
   var hl=(res[2]||{}).highlights||{};
   HL={};
-  Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k].yt;});
+  Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
   render();
 }).catch(function(){render();});
 </script>
