@@ -36,6 +36,63 @@ and privacy statements, and a rights-holder contact route.
 Scores update within ~30 minutes of a match finishing. Data is unofficial and
 may lag or contain errors; nothing here is affiliated with the BCCI, ICC, or ESPN.
 
+## Architecture — how the machine runs itself
+
+```mermaid
+flowchart LR
+    subgraph SRC["Data sources (all public, no keys)"]
+        ESPN["ESPN / ESPNcricinfo feeds<br/>scores · fixtures · XIs · result text"]
+        ICC["ICC rankings feed<br/>(the one icc-cricket.com itself uses)"]
+        CS["cricsheet.org<br/>ball-by-ball archives"]
+        YT["Home boards' YouTube<br/>(ECB, ICC, ...)"]
+        BCCI["bcci.tv<br/>India home highlights"]
+    end
+
+    subgraph CI["GitHub Actions — every 30 minutes"]
+        FD["fetch_data.py<br/>retries · fail-safe · series discovery"]
+        BH["build_highlights.py<br/>every video oEmbed-verified<br/>against the official channel"]
+        SH["seed_history.py<br/>one-off 2025+ backfill"]
+    end
+
+    subgraph OUT["Committed to the repo, served by GitHub Pages"]
+        DJ["data.json<br/>live state · schedule · rankings · XIs"]
+        HJ["history.json<br/>append-only record + full scorecards"]
+        LJ["highlights.json<br/>match → verified video"]
+        IX["index.html<br/>one self-contained page<br/>no dependencies · no tracking"]
+    end
+
+    ESPN --> FD
+    ICC --> FD
+    CS --> SH
+    YT --> BH
+    BCCI --> BH
+    FD --> DJ
+    FD --> HJ
+    SH --> HJ
+    DJ --> BH
+    BH --> LJ
+    DJ --> IX
+    HJ --> IX
+    LJ --> IX
+    IX --> B["Your browser<br/>men/women tabs · countdown · scorecards<br/>calendar adds · rankings · highlights"]
+```
+
+**Match-day lifecycle** — what happens without anyone touching anything:
+
+1. **Before**: the match sits in the schedule with a countdown and 📅 calendar links.
+2. **Toss**: the next cron run picks up the playing XIs from the match summary feed.
+3. **During**: the hero card shows the live score (runs/wickets/overs) each half-hour.
+4. **Result**: the final scorecard, result sentence and W/L color land in `history.json` —
+   the permanent record grows by one match, forever.
+5. **Recap**: once the home board uploads, `build_highlights.py` matches the video by
+   teams + ordinal + format, verifies it belongs to the official channel, and the
+   ▶ Highlights link appears.
+
+Design principles: **fail-safe over fresh** (a bad fetch never overwrites good data),
+**verify over trust** (rankings from the official feed, videos oEmbed-checked — the
+`@bcci` YouTube handle is a spoof, which is why), and **facts only** (scores and
+fixtures are fetched, never fabricated; unknown shows as TBA, not a guess).
+
 ## Fork it — run your own team's tracker
 
 Everything is designed to be forked (a Pakistan, Australia or England tracker is
