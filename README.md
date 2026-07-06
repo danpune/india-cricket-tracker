@@ -9,6 +9,8 @@ the playing XIs, and every international result of the year.
   (or live score), venue, and playing XIs once the toss is done.
 - **Current tour** — every match of the series in progress, results included.
 - **Coming up** — all announced future tours with dates and venues.
+- **Scorecards** — every finished match expands into the full card: who scored
+  (runs and balls, not-outs, who didn't bat) and the bowling figures.
 - **Results** — two full years of the record, season by season, series by series,
   wins and losses color-coded (with 🏆 banners for the Champions Trophy, Asia Cup,
   Women's World Cup and T20 World Cup titles).

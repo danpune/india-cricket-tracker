@@ -69,6 +69,64 @@ def result_text(info):
     return txt, ("won" if winner == "India" else "lost")
 
 
+BOWLER_WICKETS = ("bowled", "caught", "caught and bowled", "lbw", "stumped", "hit wicket")
+HOW_SHORT = {"caught": "c", "bowled": "b", "lbw": "lbw", "stumped": "st",
+             "caught and bowled": "c&b", "hit wicket": "hit wkt", "run out": "run out"}
+
+
+def overs_of(balls):
+    return f"{balls // 6}.{balls % 6}" if balls % 6 else str(balls // 6)
+
+
+def innings_detail(d, info, limited):
+    """Per-innings batting/bowling cards computed from ball-by-ball data."""
+    out = []
+    for inn in d.get("innings", []):
+        if inn.get("super_over"):
+            continue
+        order, bat, bowl = [], {}, {}
+        runs_total = wkts = 0
+        for o in inn.get("overs", []):
+            for dl in o["deliveries"]:
+                b, bw = dl["batter"], dl["bowler"]
+                for nm in (b, dl["non_striker"]):
+                    if nm not in bat:
+                        bat[nm] = {"r": 0, "b": 0, "how": None}
+                        order.append(nm)
+                ex = dl.get("extras", {})
+                bat[b]["r"] += dl["runs"]["batter"]
+                if "wides" not in ex:
+                    bat[b]["b"] += 1
+                e = bowl.setdefault(bw, {"balls": 0, "r": 0, "w": 0})
+                if "wides" not in ex and "noballs" not in ex:
+                    e["balls"] += 1
+                e["r"] += dl["runs"]["total"] - ex.get("byes", 0) - ex.get("legbyes", 0) - ex.get("penalty", 0)
+                runs_total += dl["runs"]["total"]
+                for wk in dl.get("wickets", []):
+                    wkts += 1
+                    po = wk["player_out"]
+                    if po not in bat:
+                        bat[po] = {"r": 0, "b": 0, "how": None}
+                        order.append(po)
+                    bat[po]["how"] = HOW_SHORT.get(wk["kind"], wk["kind"])
+                    if wk["kind"] in BOWLER_WICKETS:
+                        e["w"] += 1
+        total = str(runs_total) if wkts == 10 else f"{runs_total}/{wkts}"
+        if inn.get("declared"):
+            total += "d"
+        if limited:
+            total += f" ({overs_of(sum(v['balls'] for v in bowl.values()))} ov)"
+        dnb = [p for p in info.get("players", {}).get(inn["team"], []) if p not in order]
+        out.append({
+            "t": inn["team"],
+            "total": total,
+            "bat": [[nm, bat[nm]["r"], bat[nm]["b"], bat[nm]["how"] or "not out"] for nm in order],
+            "dnb": dnb,
+            "bowl": [[nm, overs_of(v["balls"]), v["r"], v["w"]] for nm, v in bowl.items()],
+        })
+    return out
+
+
 def convert(match_id, d, gender):
     info = d["info"]
     if info["dates"][0] < SINCE or info.get("team_type") != "international":
@@ -107,6 +165,7 @@ def convert(match_id, d, gender):
         "teams": [{"name": t, "score": " & ".join(per_team[t])} for t in info["teams"]],
         "result": result,
         "india": india,
+        "innings": innings_detail(d, info, limited),
     }
 
 

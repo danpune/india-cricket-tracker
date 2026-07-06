@@ -8,7 +8,8 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   no dependencies, no cookies/tracking/keys). Sections: header → men/women toggle
   (localStorage) → hero (live score or next-match countdown, playing XIs) →
   current tour → coming up (future series) → results timeline (2025→, grouped by year,
-  W/L color-coded, 🏆 banner for tournament titles) → footer. Light + dark via prefers-color-scheme.
+  W/L color-coded, 🏆 banner for tournament titles) → footer. Every finished match row
+  expands into a full scorecard (batting R/B + dismissal kind, DNB list, bowling O/R/W). Light + dark via prefers-color-scheme.
 - `fetch_data.py` → `data.json` (all matches of known India series: results/live/fixtures,
   XIs for today's matches) + appends finalized matches to `history.json` (append-only
   season record, seeded from cricsheet by `seed_history.py`).
@@ -47,9 +48,18 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - History dedupe key is (date, normalized team set, gender) — cricsheet says "India",
   ESPN says "India Women"; `norm_team()` strips the suffix.
 
+## Scorecards (two sources, one shape)
+- history: `seed_history.py` computes cards from cricsheet ball-by-ball (bowler runs
+  exclude byes/legbyes/penalty; run-outs aren't bowler wickets; wides aren't balls faced).
+- new matches: `fetch_data.py:innings_from_summary()` reads per-player stats from the
+  summary `rosters[].roster[].linescores[].linescores[].statistics` (stat names:
+  batted/runs/ballsFaced/battingPosition/dismissalCard/overs/conceded/wickets); innings
+  totals from `header.competitions[0].competitors[].linescores`. The summary endpoint
+  keys on event id — the league id in the path is ignored.
+- shape per innings: {t, total, bat:[[name,r,b,how]], dnb:[], bowl:[[name,o,r,w]]}.
+
 ## Roadmap
 1. Extend `SERIES` when new tours are announced (probe the id range, or let discovery
    catch them on match day).
-2. Scorecard drill-down (batting/bowling tables from the summary endpoint).
-3. Points-table for World Cups / Asia Cup when one is live.
+2. Points-table for World Cups / Asia Cup when one is live.
 4. Per-match official highlights (YouTube oEmbed verification — port from worldcup2026).

@@ -143,6 +143,61 @@ def parse_event(e, series_name, series_id, gender):
     }
 
 
+def innings_from_summary(d):
+    """Batting/bowling cards per innings from the summary rosters."""
+    per, team_players = {}, {}
+    totals = {}
+    for comp in (d.get("header", {}).get("competitions") or [{}])[:1]:
+        for c in comp.get("competitors", []):
+            for ls in c.get("linescores", []):
+                r, w, o = ls.get("runs"), ls.get("wickets"), ls.get("overs")
+                if r is None:
+                    continue
+                t = str(int(r)) if w == 10 else f"{int(r)}/{int(w)}" if w is not None else str(int(r))
+                if o:
+                    t += f" ({o} ov)"
+                totals[(c.get("team", {}).get("displayName"), int(ls.get("period", 0)))] = t
+    for side in d.get("rosters", []):
+        team = side.get("team", {}).get("displayName", "?")
+        names = []
+        for p in side.get("roster", []):
+            nm = p.get("athlete", {}).get("displayName", "")
+            names.append(nm)
+            for perl in p.get("linescores", []):
+                pd = perl.get("period", 1)
+                for inner in perl.get("linescores", []):
+                    st = {x["name"]: x["displayValue"] for cat in inner.get("statistics", {}).get("categories", [])
+                          for x in cat.get("stats", [])}
+                    e = per.setdefault(pd, {"team": None, "bat": [], "bowl": []})
+                    if st.get("batted") == "1":
+                        e["team"] = team
+                        how = st.get("dismissalCard") or ("not out" if st.get("outs") == "0" else "")
+                        e["bat"].append((int(st.get("battingPosition") or 99), nm,
+                                         int(st.get("runs") or 0), int(st.get("ballsFaced") or 0), how or "not out"))
+                    try:
+                        ov = float(st.get("overs") or 0)
+                    except ValueError:
+                        ov = 0
+                    if ov > 0:
+                        e["bowl"].append([nm, st.get("overs"), int(st.get("conceded") or 0),
+                                          int(st.get("wickets") or 0)])
+        team_players[team] = names
+    innings = []
+    for pd in sorted(per):
+        e = per[pd]
+        if not e["bat"]:
+            continue
+        batted = {b[1] for b in e["bat"]}
+        innings.append({
+            "t": e["team"],
+            "total": totals.get((e["team"], pd), ""),
+            "bat": [[b[1], b[2], b[3], b[4]] for b in sorted(e["bat"])],
+            "dnb": [n for n in team_players.get(e["team"], []) if n not in batted],
+            "bowl": e["bowl"],
+        })
+    return innings
+
+
 def enrich_from_summary(match):
     """Result sentence, series note and playing XIs live in the summary feed."""
     try:
@@ -169,6 +224,9 @@ def enrich_from_summary(match):
             xi[side.get("team", {}).get("displayName", "?")] = players
     if xi:
         match["xi"] = xi
+    inns = innings_from_summary(d)
+    if inns:
+        match["innings"] = inns
 
 
 def main():
@@ -191,6 +249,7 @@ def main():
     known.update(discovered)
     all_discovered = {**old_meta.get("discovered", {}), **discovered}
 
+    hist_dirty = [False]
     hist_keys = {hist_key(m["date"], [t["name"] for t in m["teams"]], m["gender"]) for m in history["matches"]}
     hist_ids = {m["id"] for m in history["matches"]}
 
@@ -238,6 +297,14 @@ def main():
                 if rec:
                     m["result"] = rec["result"]
                     m["india"] = rec["india"]
+                    if rec.get("innings"):
+                        m["innings"] = rec["innings"]
+                    elif rec["id"].startswith("espn_"):
+                        # older espn entry recorded before scorecards existed — backfill once
+                        enrich_from_summary(m)
+                        if m.get("innings"):
+                            rec["innings"] = m["innings"]
+                            hist_dirty[0] = True
                 else:
                     enrich_from_summary(m)
             elif m["state"] == "in" or (m["state"] == "pre" and m["date"][:10] <= (now + timedelta(hours=18)).strftime("%Y-%m-%d")):
@@ -263,9 +330,10 @@ def main():
             "venue": m["venue"], "city": "",
             "teams": [{"name": t["name"], "score": t["score"]} for t in m["teams"]],
             "result": m["result"] or m["statusDesc"], "india": m["india"],
+            "innings": m.get("innings", []),
         })
         added += 1
-    if added:
+    if added or hist_dirty[0]:
         history["matches"].sort(key=lambda x: x["date"])
         with open(history_path, "w") as f:
             json.dump(history, f, indent=1)

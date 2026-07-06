@@ -104,6 +104,35 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
   font-weight:800;font-size:14px;letter-spacing:.3px}
 .rec{font-weight:700}
 
+/* expandable scorecards */
+.mrowd{border-top:1px solid var(--line)}
+.mrowd:first-child,.mrowd:first-of-type{border-top:0}
+.mrowd .mrow{border-top:0}
+.mrowd summary{list-style:none;cursor:pointer}
+.mrowd summary::-webkit-details-marker{display:none}
+.mrowd summary:hover{background:color-mix(in srgb,var(--blue) 4%,transparent)}
+.chev{flex:none;color:var(--muted);font-size:11px;transition:transform .2s;align-self:center}
+.mrowd[open] .chev{transform:rotate(180deg)}
+.scard{padding:2px 14px 14px 17px;border-top:1px dashed var(--line);
+  background:color-mix(in srgb,var(--blue) 3%,var(--card))}
+.inn{margin-top:10px}
+.inn-h{font-weight:800;font-size:13px;margin-bottom:4px}
+.inn-h span{color:var(--muted);font-weight:700}
+table.sc{width:100%;border-collapse:collapse;font-size:12px;margin-top:2px}
+.sc th{text-align:right;color:var(--muted);font-weight:700;font-size:10px;text-transform:uppercase;
+  letter-spacing:.6px;padding:3px 0 3px 8px;border-bottom:1px solid var(--line)}
+.sc th:first-child{text-align:left;padding-left:0}
+.sc td{padding:3px 0 3px 8px;text-align:right;font-variant-numeric:tabular-nums;
+  border-top:1px solid color-mix(in srgb,var(--line) 55%,transparent)}
+.sc tr:first-child+tr td{border-top:0}
+.sc td.n{text-align:left;padding-left:0}
+.sc td.n i{color:var(--muted);font-style:normal;font-size:11px;margin-left:5px}
+.dnb{font-size:11px;color:var(--muted);margin-top:6px}
+@media(min-width:720px){
+  .inn{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;align-items:start}
+  .inn-h{grid-column:1/-1}
+}
+
 /* stats chips */
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px 2px}
 .chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--muted)}
@@ -235,10 +264,37 @@ function rowHTML(m,opts){
   }
   var vs=m.teams.map(function(t){return norm(t.name);}).filter(function(n){return n!=='India';});
   var sub=(vs.length?('vs '+vs.join(', ')+' · '):'')+esc((m.venue||'').split(',').pop()||'');
-  return '<div class="mrow'+(opts.upnext?' upnext':'')+'">'+
+  var chev=(m.innings&&m.innings.length)?'<div class="chev">▾</div>':'';
+  var core='<div class="mrow'+(opts.upnext?' upnext':'')+'">'+
     '<div class="when">'+when+'</div>'+
     '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div><div class="sub">'+sub+'</div></div>'+
-    '<div class="right">'+right+'</div></div>';
+    '<div class="right">'+right+'</div>'+chev+'</div>';
+  return expandable(core,m);
+}
+
+function scardHTML(inns){
+  var h='<div class="scard">';
+  inns.forEach(function(inn){
+    h+='<div class="inn"><div class="inn-h">'+flag(inn.t)+' '+esc(norm(inn.t))+
+       (inn.total?' <span>'+esc(inn.total)+'</span>':'')+'</div>';
+    h+='<div class="bat"><table class="sc"><tr><th>Batting</th><th>R</th><th>B</th></tr>';
+    inn.bat.forEach(function(b){
+      var no=b[3]==='not out';
+      h+='<tr><td class="n">'+esc(b[0])+(no?'':' <i>'+esc(b[3]||'')+'</i>')+'</td>'+
+         '<td><b>'+esc(b[1])+(no?'*':'')+'</b></td><td>'+esc(b[2])+'</td></tr>';
+    });
+    h+='</table>'+(inn.dnb&&inn.dnb.length?'<div class="dnb">Did not bat: '+inn.dnb.map(function(n){return esc(n);}).join(', ')+'</div>':'')+'</div>';
+    h+='<div class="bowl"><table class="sc"><tr><th>Bowling</th><th>O</th><th>R</th><th>W</th></tr>';
+    (inn.bowl||[]).forEach(function(b){
+      h+='<tr><td class="n">'+esc(b[0])+'</td><td>'+esc(b[1])+'</td><td>'+esc(b[2])+'</td><td><b>'+esc(b[3])+'</b></td></tr>';
+    });
+    h+='</table></div></div>';
+  });
+  return h+'</div>';
+}
+function expandable(core,m){
+  if(!(m.innings&&m.innings.length))return core;
+  return '<details class="mrowd"><summary>'+core+'</summary>'+scardHTML(m.innings)+'</details>';
 }
 
 /* history rows keep full scores */
@@ -248,12 +304,14 @@ function histRowHTML(m){
   var sc=m.teams.map(function(t){
     var nm=norm(t.name)==='India'?'IND':flag(t.name);
     return '<div>'+nm+' '+esc(t.score||'—')+'</div>';}).join('');
-  return '<div class="mrow" style="border-left:3px solid var(--'+(m.india==='won'?'win':m.india==='lost'?'loss':'nr')+')">'+
+  var chev=(m.innings&&m.innings.length)?'<div class="chev">▾</div>':'';
+  var core='<div class="mrow" style="border-left:3px solid var(--'+(m.india==='won'?'win':m.india==='lost'?'loss':'nr')+')">'+
     '<div class="when"><b>'+d.toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
     '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div>'+
     '<div class="sub">'+flag(opp)+' vs '+esc(norm(opp))+' · '+esc(m.venue.split(',').pop().trim())+'</div>'+
     '<div class="sub res '+resClass(m.india)+'">'+esc(m.result)+'</div></div>'+
-    '<div class="right"><div class="sc">'+sc+'</div></div></div>';
+    '<div class="right"><div class="sc">'+sc+'</div></div>'+chev+'</div>';
+  return expandable(core,m);
 }
 
 /* ---------- sections ---------- */

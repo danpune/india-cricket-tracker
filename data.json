@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06T12:24:38Z",
+ "updated": "2026-07-06T14:35:08Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -29,7 +29,213 @@
     }
    ],
    "result": "South Africa won by 23 runs",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "South Africa",
+     "total": "155/6 (20 ov)",
+     "bat": [
+      [
+       "L Wolvaardt",
+       92,
+       56,
+       "not out"
+      ],
+      [
+       "S Luus",
+       23,
+       23,
+       "st"
+      ],
+      [
+       "T Brits",
+       2,
+       6,
+       "b"
+      ],
+      [
+       "A Dercksen",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "A Bosch",
+       8,
+       11,
+       "b"
+      ],
+      [
+       "CL Tryon",
+       12,
+       10,
+       "c"
+      ],
+      [
+       "N de Klerk",
+       1,
+       2,
+       "lbw"
+      ],
+      [
+       "S Jafta",
+       16,
+       8,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "E Marx",
+      "A Khaka",
+      "N Mlaba"
+     ],
+     "bowl": [
+      [
+       "K Goud",
+       "3",
+       29,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "4",
+       21,
+       2
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       22,
+       2
+      ],
+      [
+       "A Reddy",
+       "4",
+       37,
+       0
+      ],
+      [
+       "DB Sharma",
+       "4",
+       37,
+       2
+      ],
+      [
+       "Shafali Verma",
+       "1",
+       8,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "132/8 (20 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       4,
+       5,
+       "c"
+      ],
+      [
+       "AB Sharma",
+       17,
+       21,
+       "c"
+      ],
+      [
+       "JI Rodrigues",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "H Kaur",
+       22,
+       28,
+       "c"
+      ],
+      [
+       "BS Fulmali",
+       40,
+       30,
+       "lbw"
+      ],
+      [
+       "DB Sharma",
+       8,
+       10,
+       "st"
+      ],
+      [
+       "RM Ghosh",
+       25,
+       15,
+       "not out"
+      ],
+      [
+       "A Reddy",
+       1,
+       2,
+       "b"
+      ],
+      [
+       "K Goud",
+       0,
+       4,
+       "run out"
+      ],
+      [
+       "N Shree Charani",
+       1,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Renuka Singh"
+     ],
+     "bowl": [
+      [
+       "E Marx",
+       "3",
+       12,
+       1
+      ],
+      [
+       "CL Tryon",
+       "4",
+       28,
+       1
+      ],
+      [
+       "A Khaka",
+       "4",
+       29,
+       1
+      ],
+      [
+       "N Mlaba",
+       "4",
+       15,
+       2
+      ],
+      [
+       "N de Klerk",
+       "3",
+       26,
+       2
+      ],
+      [
+       "A Dercksen",
+       "2",
+       20,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1538226",
@@ -90,7 +296,212 @@
      "Renuka Singh",
      "Nandani Sharma"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "ECB Development Women's XI",
+     "total": "154/6 (20.0 ov)",
+     "bat": [
+      [
+       "Tilly Kesteven",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "Liberty Heap",
+       8,
+       6,
+       "not out"
+      ],
+      [
+       "Ariana Dowse",
+       13,
+       17,
+       "not out"
+      ],
+      [
+       "Bethan Gammon",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Florence Miller",
+       48,
+       41,
+       "not out"
+      ],
+      [
+       "Joanne Gardner",
+       36,
+       27,
+       "c"
+      ],
+      [
+       "Sophia Smale",
+       27,
+       18,
+       "not out"
+      ],
+      [
+       "Prisha Thanawala",
+       3,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Sophie Munro",
+      "Ellie Anderson",
+      "Clara Thaker",
+      "Maria Andrews"
+     ],
+     "bowl": [
+      [
+       "Arundhati Reddy",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "3",
+       31,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       23,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       16,
+       1
+      ],
+      [
+       "Shree Charani",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       18,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "200/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       50,
+       25,
+       "retired out"
+      ],
+      [
+       "Yastika Bhatia",
+       47,
+       35,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       48,
+       29,
+       "st"
+      ],
+      [
+       "Arundhati Reddy",
+       20,
+       16,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       2,
+       2,
+       "not out"
+      ],
+      [
+       "Shreyanka Patil",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Deepti Sharma",
+       2,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Kranti Gaud",
+      "Shree Charani",
+      "Renuka Singh",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Sophia Smale",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Prisha Thanawala",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Sophie Munro",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Ellie Anderson",
+       "4",
+       39,
+       2
+      ],
+      [
+       "Clara Thaker",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Maria Andrews",
+       "3",
+       30,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496548",
@@ -120,7 +531,212 @@
     }
    ],
    "result": "India won by 38 runs",
-   "india": "won"
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "188/7 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "YH Bhatia",
+       54,
+       40,
+       "run out"
+      ],
+      [
+       "JI Rodrigues",
+       69,
+       40,
+       "c&b"
+      ],
+      [
+       "RM Ghosh",
+       4,
+       6,
+       "c"
+      ],
+      [
+       "BS Fulmali",
+       7,
+       8,
+       "b"
+      ],
+      [
+       "DB Sharma",
+       22,
+       13,
+       "c"
+      ],
+      [
+       "A Reddy",
+       9,
+       8,
+       "not out"
+      ],
+      [
+       "K Goud",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "N Shree Charani",
+      "NSS Sharma"
+     ],
+     "bowl": [
+      [
+       "LK Bell",
+       "4",
+       34,
+       3
+      ],
+      [
+       "IECM Wong",
+       "3",
+       41,
+       1
+      ],
+      [
+       "MR Corteen-Coleman",
+       "3",
+       19,
+       1
+      ],
+      [
+       "S Ecclestone",
+       "3",
+       33,
+       0
+      ],
+      [
+       "CE Dean",
+       "4",
+       26,
+       1
+      ],
+      [
+       "DR Gibson",
+       "3",
+       34,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "England",
+     "total": "150/8 (20 ov)",
+     "bat": [
+      [
+       "SIR Dunkley",
+       16,
+       10,
+       "c"
+      ],
+      [
+       "A Capsey",
+       6,
+       5,
+       "c"
+      ],
+      [
+       "AE Jones",
+       67,
+       48,
+       "c"
+      ],
+      [
+       "HC Knight",
+       21,
+       24,
+       "c"
+      ],
+      [
+       "FG Kemp",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "DR Gibson",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "CE Dean",
+       11,
+       11,
+       "not out"
+      ],
+      [
+       "IECM Wong",
+       4,
+       3,
+       "b"
+      ],
+      [
+       "S Ecclestone",
+       13,
+       7,
+       "run out"
+      ],
+      [
+       "LK Bell",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "MR Corteen-Coleman"
+     ],
+     "bowl": [
+      [
+       "A Reddy",
+       "4",
+       23,
+       0
+      ],
+      [
+       "K Goud",
+       "4",
+       24,
+       2
+      ],
+      [
+       "NSS Sharma",
+       "4",
+       34,
+       3
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       25,
+       1
+      ],
+      [
+       "DB Sharma",
+       "4",
+       42,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496549",
@@ -150,7 +766,206 @@
     }
    ],
    "result": "England won by 26 runs",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "England",
+     "total": "168/5 (20 ov)",
+     "bat": [
+      [
+       "SIR Dunkley",
+       10,
+       14,
+       "c"
+      ],
+      [
+       "DN Wyatt",
+       29,
+       25,
+       "c"
+      ],
+      [
+       "AE Jones",
+       28,
+       22,
+       "c"
+      ],
+      [
+       "A Capsey",
+       28,
+       25,
+       "b"
+      ],
+      [
+       "HC Knight",
+       18,
+       14,
+       "c&b"
+      ],
+      [
+       "FG Kemp",
+       39,
+       13,
+       "not out"
+      ],
+      [
+       "DR Gibson",
+       11,
+       7,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "CE Dean",
+      "S Ecclestone",
+      "LCN Smith",
+      "LK Bell"
+     ],
+     "bowl": [
+      [
+       "A Reddy",
+       "4",
+       38,
+       0
+      ],
+      [
+       "NSS Sharma",
+       "4",
+       36,
+       1
+      ],
+      [
+       "SR Patil",
+       "4",
+       29,
+       1
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       25,
+       3
+      ],
+      [
+       "DB Sharma",
+       "4",
+       39,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "142/9 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       32,
+       25,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       22,
+       14,
+       "c"
+      ],
+      [
+       "YH Bhatia",
+       33,
+       36,
+       "retired out"
+      ],
+      [
+       "H Kaur",
+       28,
+       22,
+       "c"
+      ],
+      [
+       "JI Rodrigues",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       8,
+       7,
+       "c"
+      ],
+      [
+       "DB Sharma",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "A Reddy",
+       4,
+       5,
+       "not out"
+      ],
+      [
+       "SR Patil",
+       6,
+       4,
+       "b"
+      ],
+      [
+       "N Shree Charani",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "NSS Sharma",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "LK Bell",
+       "4",
+       33,
+       2
+      ],
+      [
+       "LCN Smith",
+       "4",
+       33,
+       0
+      ],
+      [
+       "CE Dean",
+       "4",
+       20,
+       2
+      ],
+      [
+       "S Ecclestone",
+       "4",
+       24,
+       1
+      ],
+      [
+       "DR Gibson",
+       "2",
+       16,
+       0
+      ],
+      [
+       "FG Kemp",
+       "2",
+       15,
+       2
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496550",
@@ -180,7 +995,182 @@
     }
    ],
    "result": "England won by 6 wickets",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "180/5 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       8,
+       9,
+       "lbw"
+      ],
+      [
+       "Shafali Verma",
+       11,
+       6,
+       "c"
+      ],
+      [
+       "YH Bhatia",
+       32,
+       18,
+       "run out"
+      ],
+      [
+       "JI Rodrigues",
+       29,
+       19,
+       "b"
+      ],
+      [
+       "H Kaur",
+       56,
+       40,
+       "not out"
+      ],
+      [
+       "DB Sharma",
+       32,
+       24,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       6,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "A Reddy",
+      "K Goud",
+      "N Shree Charani",
+      "NSS Sharma"
+     ],
+     "bowl": [
+      [
+       "LK Bell",
+       "4",
+       36,
+       2
+      ],
+      [
+       "LCN Smith",
+       "4",
+       40,
+       1
+      ],
+      [
+       "CE Dean",
+       "4",
+       33,
+       1
+      ],
+      [
+       "S Ecclestone",
+       "4",
+       33,
+       0
+      ],
+      [
+       "DR Gibson",
+       "4",
+       38,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "England",
+     "total": "184/4 (18.3 ov)",
+     "bat": [
+      [
+       "SIR Dunkley",
+       16,
+       13,
+       "c"
+      ],
+      [
+       "DN Wyatt",
+       5,
+       5,
+       "b"
+      ],
+      [
+       "AE Jones",
+       2,
+       6,
+       "c"
+      ],
+      [
+       "A Capsey",
+       82,
+       43,
+       "c"
+      ],
+      [
+       "HC Knight",
+       70,
+       42,
+       "not out"
+      ],
+      [
+       "FG Kemp",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "DR Gibson",
+      "CE Dean",
+      "S Ecclestone",
+      "LCN Smith",
+      "LK Bell"
+     ],
+     "bowl": [
+      [
+       "A Reddy",
+       "4",
+       31,
+       2
+      ],
+      [
+       "K Goud",
+       "4",
+       40,
+       2
+      ],
+      [
+       "NSS Sharma",
+       "3",
+       32,
+       0
+      ],
+      [
+       "N Shree Charani",
+       "3",
+       37,
+       0
+      ],
+      [
+       "DB Sharma",
+       "2.3",
+       26,
+       0
+      ],
+      [
+       "Shafali Verma",
+       "2",
+       16,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1527150",
@@ -210,7 +1200,351 @@
     }
    ],
    "result": "India won by an inns & 300 runs",
-   "india": "won"
+   "india": "won",
+   "seriesNote": "India won the one-off match",
+   "xi": {
+    "India": [
+     "Yashasvi Jaiswal",
+     "KL Rahul",
+     "Sai Sudharsan",
+     "Shubman Gill (c)",
+     "Rishabh Pant",
+     "Dhruv Jurel",
+     "Washington Sundar",
+     "Manav Suthar",
+     "Mohammed Siraj",
+     "Kuldeep Yadav",
+     "Prasidh Krishna"
+    ],
+    "Afghanistan": [
+     "Abdul Malik",
+     "Sediqullah Atal",
+     "Rahmanullah Gurbaz",
+     "Rahmat Shah",
+     "Hashmatullah Shahidi (c)",
+     "Afsar Zazai",
+     "Azmatullah Omarzai",
+     "Sharafuddin Ashraf",
+     "Nangeyalia Kharote",
+     "Mohammad Saleem",
+     "Ziaur Rahman"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "564/8 (127.0 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       24,
+       32,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       100,
+       165,
+       "c"
+      ],
+      [
+       "Sai Sudharsan",
+       81,
+       104,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       126,
+       177,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       81,
+       121,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       19,
+       20,
+       "not out"
+      ],
+      [
+       "Washington Sundar",
+       52,
+       68,
+       "not out"
+      ],
+      [
+       "Manav Suthar",
+       28,
+       41,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       22,
+       12,
+       "not out"
+      ],
+      [
+       "Kuldeep Yadav",
+       9,
+       26,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Abdul Malik",
+       "7",
+       43,
+       0
+      ],
+      [
+       "Hashmatullah Shahidi",
+       "24",
+       91,
+       1
+      ],
+      [
+       "Azmatullah Omarzai",
+       "22",
+       67,
+       0
+      ],
+      [
+       "Nangeyalia Kharote",
+       "23",
+       115,
+       0
+      ],
+      [
+       "Mohammad Saleem",
+       "27",
+       140,
+       6
+      ],
+      [
+       "Ziaur Rahman",
+       "24",
+       91,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Afghanistan",
+     "total": "152 (58.4 ov)",
+     "bat": [
+      [
+       "Abdul Malik",
+       16,
+       18,
+       "c"
+      ],
+      [
+       "Sediqullah Atal",
+       17,
+       27,
+       "not out"
+      ],
+      [
+       "Rahmanullah Gurbaz",
+       12,
+       40,
+       "c"
+      ],
+      [
+       "Rahmat Shah",
+       60,
+       135,
+       "not out"
+      ],
+      [
+       "Hashmatullah Shahidi",
+       20,
+       48,
+       "lbw"
+      ],
+      [
+       "Afsar Zazai",
+       3,
+       26,
+       "c"
+      ],
+      [
+       "Azmatullah Omarzai",
+       0,
+       10,
+       "not out"
+      ],
+      [
+       "Sharafuddin Ashraf",
+       11,
+       32,
+       "c"
+      ],
+      [
+       "Nangeyalia Kharote",
+       4,
+       12,
+       "not out"
+      ],
+      [
+       "Mohammad Saleem",
+       0,
+       3,
+       "lbw"
+      ],
+      [
+       "Ziaur Rahman",
+       6,
+       3,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Washington Sundar",
+       "6.4",
+       21,
+       1
+      ],
+      [
+       "Manav Suthar",
+       "22",
+       33,
+       6
+      ],
+      [
+       "Mohammed Siraj",
+       "9",
+       29,
+       0
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       32,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "11",
+       37,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "Afghanistan",
+     "total": "112/9 (35.5 ov)",
+     "bat": [
+      [
+       "Sediqullah Atal",
+       42,
+       80,
+       "c"
+      ],
+      [
+       "Abdul Malik",
+       8,
+       40,
+       "lbw"
+      ],
+      [
+       "Rahmanullah Gurbaz",
+       24,
+       24,
+       "c"
+      ],
+      [
+       "Rahmat Shah",
+       13,
+       16,
+       "c"
+      ],
+      [
+       "Hashmatullah Shahidi",
+       5,
+       10,
+       "c"
+      ],
+      [
+       "Afsar Zazai",
+       8,
+       19,
+       "lbw"
+      ],
+      [
+       "Azmatullah Omarzai",
+       4,
+       5,
+       "c"
+      ],
+      [
+       "Nangeyalia Kharote",
+       6,
+       11,
+       "c"
+      ],
+      [
+       "Ziaur Rahman",
+       0,
+       11,
+       "not out"
+      ],
+      [
+       "Mohammad Saleem",
+       0,
+       1,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Sharafuddin Ashraf"
+     ],
+     "bowl": [
+      [
+       "Washington Sundar",
+       "11",
+       36,
+       4
+      ],
+      [
+       "Manav Suthar",
+       "10",
+       29,
+       1
+      ],
+      [
+       "Mohammed Siraj",
+       "4",
+       11,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "7.5",
+       30,
+       3
+      ],
+      [
+       "Prasidh Krishna",
+       "3",
+       6,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1538611",
@@ -276,7 +1610,249 @@
      "Karishma Ramharack",
      "Stafanie Taylor"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "179/8 (20.0 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       29,
+       13,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       39,
+       23,
+       "c"
+      ],
+      [
+       "Jemimah Rodrigues",
+       7,
+       7,
+       "c"
+      ],
+      [
+       "Yastika Bhatia",
+       36,
+       26,
+       "retired out"
+      ],
+      [
+       "Bharti Fulmali",
+       56,
+       40,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Radha Yadav",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Shreyanka Patil",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Kranti Gaud",
+       4,
+       2,
+       "not out"
+      ],
+      [
+       "Shree Charani",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Arundhati Reddy",
+      "Harmanpreet Kaur",
+      "Deepti Sharma",
+      "Renuka Singh",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Deandra Dottin",
+       "2",
+       19,
+       1
+      ],
+      [
+       "Qiana Joseph",
+       "2",
+       21,
+       0
+      ],
+      [
+       "Jahzara Claxton",
+       "2",
+       19,
+       0
+      ],
+      [
+       "Aaliyah Alleyne",
+       "2",
+       17,
+       1
+      ],
+      [
+       "Chinelle Henry",
+       "2",
+       21,
+       0
+      ],
+      [
+       "Zaida James",
+       "1",
+       13,
+       0
+      ],
+      [
+       "Afy Fletcher",
+       "4",
+       23,
+       4
+      ],
+      [
+       "Ashmini Munisar",
+       "2",
+       14,
+       0
+      ],
+      [
+       "Karishma Ramharack",
+       "3",
+       32,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "West Indies Women",
+     "total": "153/8 (20.0 ov)",
+     "bat": [
+      [
+       "Deandra Dottin",
+       49,
+       44,
+       "lbw"
+      ],
+      [
+       "Shemaine Campbelle",
+       25,
+       22,
+       "retired out"
+      ],
+      [
+       "Qiana Joseph",
+       5,
+       4,
+       "not out"
+      ],
+      [
+       "Jahzara Claxton",
+       6,
+       4,
+       "c"
+      ],
+      [
+       "Aaliyah Alleyne",
+       13,
+       7,
+       "c"
+      ],
+      [
+       "Chinelle Henry",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Jannillea Glasgow",
+       19,
+       18,
+       "c"
+      ],
+      [
+       "Zaida James",
+       1,
+       2,
+       "not out"
+      ],
+      [
+       "Shawnisha Hector",
+       19,
+       11,
+       "not out"
+      ],
+      [
+       "Afy Fletcher",
+       7,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Hayley Matthews",
+      "Mandy Mangru",
+      "Ashmini Munisar",
+      "Karishma Ramharack",
+      "Stafanie Taylor"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       9,
+       0
+      ],
+      [
+       "Radha Yadav",
+       "4",
+       25,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "4",
+       36,
+       4
+      ],
+      [
+       "Kranti Gaud",
+       "4",
+       43,
+       0
+      ],
+      [
+       "Shree Charani",
+       "2",
+       9,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "4",
+       30,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1538617",
@@ -342,7 +1918,226 @@
      "Jemimah Rodrigues",
      "Nandani Sharma"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "England Women",
+     "total": "171/6 (20.0 ov)",
+     "bat": [
+      [
+       "Amy Jones",
+       64,
+       45,
+       "not out"
+      ],
+      [
+       "Danni Wyatt-Hodge",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Nat Sciver-Brunt",
+       57,
+       45,
+       "c"
+      ],
+      [
+       "Alice Capsey",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Freya Kemp",
+       7,
+       6,
+       "c"
+      ],
+      [
+       "Dani Gibson",
+       30,
+       12,
+       "not out"
+      ],
+      [
+       "Charlie Dean",
+       0,
+       1,
+       "st"
+      ],
+      [
+       "Issy Wong",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Lauren Filer",
+      "Tilly Corteen-Coleman",
+      "Sophie Ecclestone",
+      "Lauren Bell",
+      "Linsey Smith",
+      "Heather Knight",
+      "Sophia Dunkley"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       18,
+       1
+      ],
+      [
+       "Radha Yadav",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Shreyanka Patil",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Shree Charani",
+       "3",
+       24,
+       1
+      ],
+      [
+       "Renuka Singh",
+       "4",
+       44,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "166 (19.5 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       13,
+       6,
+       "not out"
+      ],
+      [
+       "Yastika Bhatia",
+       15,
+       17,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       17,
+       18,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       18,
+       17,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       68,
+       36,
+       "st"
+      ],
+      [
+       "Radha Yadav",
+       16,
+       9,
+       "c"
+      ],
+      [
+       "Shreyanka Patil",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Kranti Gaud",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Shree Charani",
+       6,
+       3,
+       "not out"
+      ],
+      [
+       "Renuka Singh",
+       0,
+       1,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Arundhati Reddy",
+      "Deepti Sharma",
+      "Jemimah Rodrigues",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Dani Gibson",
+       "2",
+       17,
+       2
+      ],
+      [
+       "Charlie Dean",
+       "3",
+       16,
+       2
+      ],
+      [
+       "Issy Wong",
+       "4",
+       42,
+       1
+      ],
+      [
+       "Lauren Filer",
+       "3",
+       27,
+       0
+      ],
+      [
+       "Tilly Corteen-Coleman",
+       "4",
+       22,
+       2
+      ],
+      [
+       "Linsey Smith",
+       "3.5",
+       42,
+       3
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1490682",
@@ -372,7 +2167,211 @@
     }
    ],
    "result": "India won by 64 runs",
-   "india": "won"
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "170/6 (20 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       6,
+       5,
+       "c"
+      ],
+      [
+       "S Mandhana",
+       68,
+       44,
+       "c"
+      ],
+      [
+       "JI Rodrigues",
+       1,
+       7,
+       "c"
+      ],
+      [
+       "H Kaur",
+       36,
+       35,
+       "c"
+      ],
+      [
+       "BS Fulmali",
+       1,
+       3,
+       "st"
+      ],
+      [
+       "RM Ghosh",
+       34,
+       17,
+       "b"
+      ],
+      [
+       "DB Sharma",
+       12,
+       9,
+       "not out"
+      ],
+      [
+       "SR Patil",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "A Reddy",
+      "N Shree Charani",
+      "K Goud"
+     ],
+     "bowl": [
+      [
+       "Sadia Iqbal",
+       "4",
+       41,
+       2
+      ],
+      [
+       "Fatima Sana",
+       "4",
+       33,
+       2
+      ],
+      [
+       "Tasmia Rubab",
+       "4",
+       41,
+       1
+      ],
+      [
+       "Rameen Shamim",
+       "4",
+       30,
+       1
+      ],
+      [
+       "Nashra Sandhu",
+       "4",
+       25,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Pakistan",
+     "total": "106 (17 ov)",
+     "bat": [
+      [
+       "Muneeba Ali",
+       41,
+       35,
+       "run out"
+      ],
+      [
+       "Gull Feroza",
+       12,
+       9,
+       "c"
+      ],
+      [
+       "Ayesha Zafar",
+       12,
+       8,
+       "c"
+      ],
+      [
+       "Saira Jabeen",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "Natalia Pervaiz",
+       7,
+       13,
+       "c"
+      ],
+      [
+       "Fatima Sana",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Aliya Riaz",
+       18,
+       17,
+       "c"
+      ],
+      [
+       "Rameen Shamim",
+       4,
+       6,
+       "c"
+      ],
+      [
+       "Nashra Sandhu",
+       4,
+       5,
+       "c"
+      ],
+      [
+       "Tasmia Rubab",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Sadia Iqbal",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "A Reddy",
+       "2",
+       21,
+       0
+      ],
+      [
+       "SR Patil",
+       "3",
+       17,
+       0
+      ],
+      [
+       "K Goud",
+       "1",
+       14,
+       0
+      ],
+      [
+       "DB Sharma",
+       "4",
+       10,
+       5
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       21,
+       3
+      ],
+      [
+       "Shafali Verma",
+       "3",
+       22,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1490686",
@@ -402,7 +2401,218 @@
     }
    ],
    "result": "India won by 95 runs",
-   "india": "won"
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "209/5 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       74,
+       47,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       55,
+       38,
+       "c"
+      ],
+      [
+       "JI Rodrigues",
+       19,
+       13,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       20,
+       8,
+       "not out"
+      ],
+      [
+       "YH Bhatia",
+       3,
+       4,
+       "st"
+      ],
+      [
+       "H Kaur",
+       12,
+       9,
+       "c"
+      ],
+      [
+       "DB Sharma",
+       10,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "SR Patil",
+      "N Shree Charani",
+      "K Goud",
+      "NSS Sharma"
+     ],
+     "bowl": [
+      [
+       "IJR Zwilling",
+       "4",
+       41,
+       1
+      ],
+      [
+       "HDJ Siegers",
+       "2",
+       31,
+       1
+      ],
+      [
+       "I van der Woning",
+       "2",
+       25,
+       0
+      ],
+      [
+       "MIW van den Raad",
+       "4",
+       37,
+       1
+      ],
+      [
+       "S Siegers",
+       "3",
+       32,
+       0
+      ],
+      [
+       "C de Lange",
+       "4",
+       32,
+       2
+      ],
+      [
+       "F Overdijk",
+       "1",
+       10,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Netherlands",
+     "total": "114 (17.3 ov)",
+     "bat": [
+      [
+       "HDJ Siegers",
+       21,
+       16,
+       "c"
+      ],
+      [
+       "P Molkenboer",
+       15,
+       20,
+       "c"
+      ],
+      [
+       "B de Leede",
+       28,
+       27,
+       "st"
+      ],
+      [
+       "SL Kalis",
+       18,
+       13,
+       "b"
+      ],
+      [
+       "R Rijke",
+       8,
+       8,
+       "lbw"
+      ],
+      [
+       "F Overdijk",
+       9,
+       7,
+       "c"
+      ],
+      [
+       "IJR Zwilling",
+       8,
+       9,
+       "c"
+      ],
+      [
+       "MIW van den Raad",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "S Siegers",
+       1,
+       2,
+       "st"
+      ],
+      [
+       "C de Lange",
+       0,
+       0,
+       "not out"
+      ],
+      [
+       "I van der Woning",
+       0,
+       2,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "K Goud",
+       "4",
+       26,
+       0
+      ],
+      [
+       "NSS Sharma",
+       "3",
+       22,
+       2
+      ],
+      [
+       "Shafali Verma",
+       "3.2",
+       20,
+       3
+      ],
+      [
+       "SR Patil",
+       "0.1",
+       0,
+       0
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       19,
+       4
+      ],
+      [
+       "DB Sharma",
+       "3",
+       26,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1527153",
@@ -432,7 +2642,221 @@
     }
    ],
    "result": "India won by 9 wkts (128b rem)",
-   "india": "won"
+   "india": "won",
+   "seriesNote": "India won the 3-match series 3-0",
+   "xi": {
+    "India": [
+     "Yashasvi Jaiswal",
+     "Rohit Sharma",
+     "Shreyas Iyer",
+     "Shubman Gill (c)",
+     "Ishan Kishan",
+     "Nitish Kumar Reddy",
+     "Washington Sundar",
+     "Harsh Dubey",
+     "Gurnoor Brar",
+     "Prasidh Krishna",
+     "Prince Yadav"
+    ],
+    "Afghanistan": [
+     "Rahmanullah Gurbaz",
+     "Ibrahim Zadran",
+     "Rahmat Shah",
+     "Hashmatullah Shahidi (c)",
+     "Darwish Rasooli",
+     "Azmatullah Omarzai",
+     "Mohammad Nabi",
+     "Rashid Khan",
+     "AM Ghazanfar",
+     "Fareed Ahmad",
+     "Ziaur Rahman"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Afghanistan",
+     "total": "218 (44.2 ov)",
+     "bat": [
+      [
+       "Rahmanullah Gurbaz",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Ibrahim Zadran",
+       11,
+       18,
+       "c"
+      ],
+      [
+       "Rahmat Shah",
+       5,
+       15,
+       "c"
+      ],
+      [
+       "Hashmatullah Shahidi",
+       102,
+       131,
+       "c"
+      ],
+      [
+       "Darwish Rasooli",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Azmatullah Omarzai",
+       50,
+       56,
+       "c"
+      ],
+      [
+       "Mohammad Nabi",
+       21,
+       23,
+       "not out"
+      ],
+      [
+       "Rashid Khan",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "AM Ghazanfar",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "Fareed Ahmad",
+       0,
+       0,
+       "run out"
+      ],
+      [
+       "Ziaur Rahman",
+       1,
+       7,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Nitish Kumar Reddy",
+       "6",
+       42,
+       0
+      ],
+      [
+       "Washington Sundar",
+       "8",
+       23,
+       0
+      ],
+      [
+       "Harsh Dubey",
+       "7",
+       38,
+       1
+      ],
+      [
+       "Gurnoor Brar",
+       "8",
+       49,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "8.2",
+       23,
+       5
+      ],
+      [
+       "Prince Yadav",
+       "7",
+       38,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "224/1 (28.4 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       110,
+       86,
+       "not out"
+      ],
+      [
+       "Rohit Sharma",
+       79,
+       69,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       20,
+       19,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shubman Gill",
+      "Ishan Kishan",
+      "Nitish Kumar Reddy",
+      "Washington Sundar",
+      "Harsh Dubey",
+      "Gurnoor Brar",
+      "Prasidh Krishna",
+      "Prince Yadav"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Mohammad Nabi",
+       "7.4",
+       47,
+       1
+      ],
+      [
+       "Rashid Khan",
+       "7",
+       53,
+       0
+      ],
+      [
+       "AM Ghazanfar",
+       "3",
+       15,
+       0
+      ],
+      [
+       "Fareed Ahmad",
+       "5",
+       55,
+       0
+      ],
+      [
+       "Ziaur Rahman",
+       "4",
+       21,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1490694",
@@ -462,7 +2886,198 @@
     }
    ],
    "result": "South Africa won by 6 wickets",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "158/7 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       17,
+       12,
+       "b"
+      ],
+      [
+       "Shafali Verma",
+       31,
+       15,
+       "c"
+      ],
+      [
+       "YH Bhatia",
+       15,
+       13,
+       "lbw"
+      ],
+      [
+       "JI Rodrigues",
+       12,
+       14,
+       "c&b"
+      ],
+      [
+       "H Kaur",
+       24,
+       22,
+       "b"
+      ],
+      [
+       "DB Sharma",
+       29,
+       21,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       15,
+       14,
+       "c"
+      ],
+      [
+       "A Reddy",
+       6,
+       7,
+       "not out"
+      ],
+      [
+       "P Rawat",
+       3,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "N Shree Charani",
+      "NSS Sharma"
+     ],
+     "bowl": [
+      [
+       "M Kapp",
+       "4",
+       27,
+       2
+      ],
+      [
+       "S Ismail",
+       "4",
+       28,
+       2
+      ],
+      [
+       "CL Tryon",
+       "2",
+       23,
+       0
+      ],
+      [
+       "N Mlaba",
+       "4",
+       33,
+       1
+      ],
+      [
+       "A Khaka",
+       "4",
+       31,
+       1
+      ],
+      [
+       "N de Klerk",
+       "2",
+       16,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "South Africa",
+     "total": "161/4 (19.1 ov)",
+     "bat": [
+      [
+       "L Wolvaardt",
+       20,
+       21,
+       "c&b"
+      ],
+      [
+       "T Brits",
+       40,
+       36,
+       "c"
+      ],
+      [
+       "A Dercksen",
+       0,
+       2,
+       "b"
+      ],
+      [
+       "M Kapp",
+       81,
+       45,
+       "not out"
+      ],
+      [
+       "N de Klerk",
+       5,
+       7,
+       "b"
+      ],
+      [
+       "CL Tryon",
+       10,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "D van Niekerk",
+      "S Jafta",
+      "S Ismail",
+      "A Khaka",
+      "N Mlaba"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       22,
+       1
+      ],
+      [
+       "NSS Sharma",
+       "2.1",
+       17,
+       0
+      ],
+      [
+       "A Reddy",
+       "3",
+       29,
+       0
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       24,
+       3
+      ],
+      [
+       "P Rawat",
+       "2",
+       21,
+       0
+      ],
+      [
+       "DB Sharma",
+       "4",
+       44,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1490699",
@@ -492,7 +3107,202 @@
     }
    ],
    "result": "India won by 5 wickets",
-   "india": "won"
+   "india": "won",
+   "innings": [
+    {
+     "t": "Bangladesh",
+     "total": "136/8 (20 ov)",
+     "bat": [
+      [
+       "Dilara Akter",
+       4,
+       8,
+       "c"
+      ],
+      [
+       "Juairiya Ferdous",
+       33,
+       31,
+       "c&b"
+      ],
+      [
+       "S Mostary",
+       22,
+       26,
+       "c"
+      ],
+      [
+       "Nigar Sultana",
+       32,
+       27,
+       "st"
+      ],
+      [
+       "Sharmin Akhter",
+       10,
+       12,
+       "retired out"
+      ],
+      [
+       "Shorna Akter",
+       13,
+       10,
+       "c"
+      ],
+      [
+       "Ritu Moni",
+       8,
+       4,
+       "b"
+      ],
+      [
+       "Rabeya Khan",
+       2,
+       2,
+       "not out"
+      ],
+      [
+       "Nahida Akter",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Marufa Akter",
+       2,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Sanjida Akter Meghla"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       11,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "3",
+       21,
+       1
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       21,
+       2
+      ],
+      [
+       "NSS Sharma",
+       "3",
+       32,
+       1
+      ],
+      [
+       "DB Sharma",
+       "4",
+       23,
+       0
+      ],
+      [
+       "RP Yadav",
+       "4",
+       28,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "139/5 (16.5 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       8,
+       6,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       53,
+       34,
+       "st"
+      ],
+      [
+       "YH Bhatia",
+       23,
+       18,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       10,
+       12,
+       "lbw"
+      ],
+      [
+       "JI Rodrigues",
+       26,
+       15,
+       "c"
+      ],
+      [
+       "H Kaur",
+       13,
+       14,
+       "not out"
+      ],
+      [
+       "DB Sharma",
+       5,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "RP Yadav",
+      "N Shree Charani",
+      "NSS Sharma",
+      "Renuka Singh"
+     ],
+     "bowl": [
+      [
+       "Marufa Akter",
+       "3",
+       28,
+       1
+      ],
+      [
+       "Sanjida Akter Meghla",
+       "3",
+       39,
+       0
+      ],
+      [
+       "Ritu Moni",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Rabeya Khan",
+       "3",
+       19,
+       1
+      ],
+      [
+       "Nahida Akter",
+       "3.5",
+       24,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1528549",
@@ -522,7 +3332,216 @@
     }
    ],
    "result": "Ireland won by 1 run",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "Ireland",
+     "total": "154/8 (20 ov)",
+     "bat": [
+      [
+       "TH Tector",
+       5,
+       6,
+       "c"
+      ],
+      [
+       "GR Adair",
+       16,
+       7,
+       "c"
+      ],
+      [
+       "HT Tector",
+       53,
+       47,
+       "c"
+      ],
+      [
+       "L Tucker",
+       15,
+       18,
+       "c"
+      ],
+      [
+       "BF Calitz",
+       37,
+       23,
+       "c"
+      ],
+      [
+       "GJ Delany",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "GH Dockrell",
+       19,
+       14,
+       "c"
+      ],
+      [
+       "L McCarthy",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "J Moondra",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "MK Hollard",
+      "MJ Humphreys"
+     ],
+     "bowl": [
+      [
+       "Arshdeep Singh",
+       "4",
+       35,
+       2
+      ],
+      [
+       "Harshit Rana",
+       "3",
+       17,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       22,
+       3
+      ],
+      [
+       "S Dube",
+       "3",
+       25,
+       2
+      ],
+      [
+       "Suryansh Shedge",
+       "2",
+       25,
+       0
+      ],
+      [
+       "AR Patel",
+       "4",
+       28,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "153/9 (20 ov)",
+     "bat": [
+      [
+       "SV Samson",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Abhishek Sharma",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       12,
+       11,
+       "run out"
+      ],
+      [
+       "SS Iyer",
+       10,
+       7,
+       "b"
+      ],
+      [
+       "Tilak Varma",
+       55,
+       46,
+       "c"
+      ],
+      [
+       "AR Patel",
+       14,
+       18,
+       "c"
+      ],
+      [
+       "S Dube",
+       20,
+       16,
+       "c"
+      ],
+      [
+       "Suryansh Shedge",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Harshit Rana",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       4,
+       5,
+       "not out"
+      ],
+      [
+       "Prince Yadav",
+       6,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "J Moondra",
+       "4",
+       32,
+       3
+      ],
+      [
+       "MJ Humphreys",
+       "4",
+       28,
+       1
+      ],
+      [
+       "MK Hollard",
+       "4",
+       26,
+       3
+      ],
+      [
+       "L McCarthy",
+       "4",
+       22,
+       0
+      ],
+      [
+       "HT Tector",
+       "4",
+       40,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1490706",
@@ -552,7 +3571,189 @@
     }
    ],
    "result": "Australia won by 6 wickets",
-   "india": "lost"
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "170/4 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       38,
+       37,
+       "run out"
+      ],
+      [
+       "Shafali Verma",
+       34,
+       26,
+       "b"
+      ],
+      [
+       "JI Rodrigues",
+       34,
+       28,
+       "retired out"
+      ],
+      [
+       "H Kaur",
+       56,
+       27,
+       "c"
+      ],
+      [
+       "RM Ghosh",
+       1,
+       1,
+       "not out"
+      ],
+      [
+       "DB Sharma",
+       4,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "YH Bhatia",
+      "RP Yadav",
+      "N Shree Charani",
+      "K Goud",
+      "Renuka Singh"
+     ],
+     "bowl": [
+      [
+       "LK Hamilton",
+       "3",
+       17,
+       0
+      ],
+      [
+       "KJ Garth",
+       "3",
+       24,
+       0
+      ],
+      [
+       "A Gardner",
+       "2",
+       25,
+       0
+      ],
+      [
+       "EA Perry",
+       "1",
+       7,
+       0
+      ],
+      [
+       "G Wareham",
+       "3",
+       16,
+       0
+      ],
+      [
+       "A Sutherland",
+       "4",
+       35,
+       0
+      ],
+      [
+       "S Molineux",
+       "4",
+       46,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Australia",
+     "total": "172/4 (19 ov)",
+     "bat": [
+      [
+       "G Voll",
+       4,
+       2,
+       "lbw"
+      ],
+      [
+       "BL Mooney",
+       22,
+       20,
+       "c"
+      ],
+      [
+       "P Litchfield",
+       24,
+       25,
+       "c"
+      ],
+      [
+       "EA Perry",
+       56,
+       38,
+       "c"
+      ],
+      [
+       "A Gardner",
+       53,
+       29,
+       "not out"
+      ],
+      [
+       "G Wareham",
+       4,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "A Sutherland",
+      "NJ Carey",
+      "S Molineux",
+      "KJ Garth",
+      "LK Hamilton"
+     ],
+     "bowl": [
+      [
+       "Renuka Singh",
+       "4",
+       41,
+       1
+      ],
+      [
+       "K Goud",
+       "1",
+       12,
+       0
+      ],
+      [
+       "Shafali Verma",
+       "4",
+       29,
+       0
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       32,
+       2
+      ],
+      [
+       "DB Sharma",
+       "4",
+       31,
+       1
+      ],
+      [
+       "RP Yadav",
+       "2",
+       24,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496574",
@@ -582,7 +3783,106 @@
     }
    ],
    "result": "No result",
-   "india": "nr"
+   "india": "nr",
+   "innings": [
+    {
+     "t": "India",
+     "total": "189/7 (20 ov)",
+     "bat": [
+      [
+       "SV Samson",
+       1,
+       7,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       59,
+       24,
+       "lbw"
+      ],
+      [
+       "Ishan Kishan",
+       0,
+       2,
+       "run out"
+      ],
+      [
+       "SS Iyer",
+       68,
+       47,
+       "lbw"
+      ],
+      [
+       "Tilak Varma",
+       13,
+       13,
+       "c"
+      ],
+      [
+       "S Dube",
+       42,
+       21,
+       "not out"
+      ],
+      [
+       "Harshit Rana",
+       0,
+       2,
+       "st"
+      ],
+      [
+       "AR Patel",
+       3,
+       4,
+       "run out"
+      ]
+     ],
+     "dnb": [
+      "Ravi Bishnoi",
+      "Arshdeep Singh",
+      "CV Varun"
+     ],
+     "bowl": [
+      [
+       "L Wood",
+       "3",
+       35,
+       0
+      ],
+      [
+       "S Mahmood",
+       "4",
+       33,
+       3
+      ],
+      [
+       "LA Dawson",
+       "3",
+       26,
+       0
+      ],
+      [
+       "WG Jacks",
+       "3",
+       30,
+       0
+      ],
+      [
+       "AU Rashid",
+       "4",
+       39,
+       1
+      ],
+      [
+       "SM Curran",
+       "3",
+       25,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496575",
@@ -612,7 +3912,226 @@
     }
    ],
    "result": "England won by 4 wkts (6b rem)",
-   "india": "lost"
+   "india": "lost",
+   "seriesNote": "England led the 5-match series 1-0",
+   "xi": {
+    "England": [
+     "Phil Salt",
+     "Jos Buttler",
+     "Harry Brook (c)",
+     "Jacob Bethell",
+     "Tom Banton",
+     "Will Jacks",
+     "Sam Curran",
+     "Jofra Archer",
+     "Liam Dawson",
+     "Adil Rashid",
+     "Josh Tongue"
+    ],
+    "India": [
+     "Abhishek Sharma",
+     "Vaibhav Sooryavanshi",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Shivam Dube",
+     "Tilak Varma",
+     "Axar Patel",
+     "Harshit Rana",
+     "Ravi Bishnoi",
+     "Arshdeep Singh",
+     "Varun Chakravarthy"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "190/7 (20.0 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       43,
+       24,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       14,
+       10,
+       "st"
+      ],
+      [
+       "Ishan Kishan",
+       49,
+       40,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       37,
+       22,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       24,
+       11,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       2,
+       3,
+       "run out"
+      ],
+      [
+       "Harshit Rana",
+       6,
+       3,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Ravi Bishnoi",
+      "Arshdeep Singh",
+      "Varun Chakravarthy"
+     ],
+     "bowl": [
+      [
+       "Will Jacks",
+       "3",
+       22,
+       1
+      ],
+      [
+       "Sam Curran",
+       "4",
+       33,
+       3
+      ],
+      [
+       "Jofra Archer",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Liam Dawson",
+       "3",
+       27,
+       1
+      ],
+      [
+       "Adil Rashid",
+       "2",
+       21,
+       0
+      ],
+      [
+       "Josh Tongue",
+       "4",
+       46,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "England",
+     "total": "191/6 (19.0 ov)",
+     "bat": [
+      [
+       "Phil Salt",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Harry Brook",
+       39,
+       15,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       76,
+       46,
+       "not out"
+      ],
+      [
+       "Tom Banton",
+       39,
+       32,
+       "c"
+      ],
+      [
+       "Will Jacks",
+       9,
+       8,
+       "lbw"
+      ],
+      [
+       "Sam Curran",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Jofra Archer",
+       10,
+       7,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Liam Dawson",
+      "Adil Rashid",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "4",
+       20,
+       1
+      ],
+      [
+       "Harshit Rana",
+       "3",
+       30,
+       1
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       60,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       40,
+       3
+      ],
+      [
+       "Varun Chakravarthy",
+       "4",
+       37,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496576",
