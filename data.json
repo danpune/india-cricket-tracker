@@ -1,0 +1,2373 @@
+{
+ "updated": "2026-07-06T08:06:56Z",
+ "matches": [
+  {
+   "id": "espn_1527257",
+   "eventId": "1527257",
+   "date": "2026-04-27T12:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026",
+   "seriesId": "24233",
+   "matchNo": "5th T20I",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "155/6",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "132/8 (20 ov, target 156)",
+     "winner": false
+    }
+   ],
+   "result": "South Africa won by 23 runs",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1538226",
+   "eventId": "1538226",
+   "date": "2026-05-25T10:00Z",
+   "gender": "women",
+   "format": "T20",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Tour Match",
+   "venue": "The Ambassador Cruise Line Ground, Chelmsford",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "ECB Development Women's XI",
+     "abbr": "ECB-D",
+     "score": "154/6",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "200/6 (20 ov, target 155)",
+     "winner": true
+    }
+   ],
+   "result": "IND Women won by 7 wkts (22b rem)",
+   "india": "won",
+   "xi": {
+    "ECB Development Women's XI": [
+     "Tilly Kesteven",
+     "Liberty Heap",
+     "Ariana Dowse",
+     "Bethan Gammon",
+     "Florence Miller",
+     "Joanne Gardner",
+     "Sophia Smale (c)",
+     "Prisha Thanawala",
+     "Sophie Munro",
+     "Ellie Anderson",
+     "Clara Thaker",
+     "Maria Andrews"
+    ],
+    "India Women": [
+     "Smriti Mandhana (c)",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Bharti Fulmali",
+     "Arundhati Reddy",
+     "Jemimah Rodrigues",
+     "Shreyanka Patil",
+     "Deepti Sharma",
+     "Richa Ghosh",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Nandani Sharma"
+    ]
+   }
+  },
+  {
+   "id": "espn_1496548",
+   "eventId": "1496548",
+   "date": "2026-05-28T17:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "1st T20I",
+   "venue": "County Ground, Chelmsford",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "150/8 (20 ov, target 189)",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "188/7",
+     "winner": true
+    }
+   ],
+   "result": "India won by 38 runs",
+   "india": "won"
+  },
+  {
+   "id": "espn_1496549",
+   "eventId": "1496549",
+   "date": "2026-05-30T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "2nd T20I",
+   "venue": "County Ground, Bristol",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "168/5",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "142/9 (20 ov, target 169)",
+     "winner": false
+    }
+   ],
+   "result": "England won by 26 runs",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1496550",
+   "eventId": "1496550",
+   "date": "2026-06-02T17:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "3rd T20I",
+   "venue": "The Cooper Associates County Ground, Taunton",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "184/4 (18.3/20 ov, target 181)",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "180/5",
+     "winner": false
+    }
+   ],
+   "result": "England won by 6 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1527150",
+   "eventId": "1527150",
+   "date": "2026-06-06T04:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Afghanistan tour of India 2026",
+   "seriesId": "24227",
+   "matchNo": "Only Test",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "564/8d",
+     "winner": true
+    },
+    {
+     "name": "Afghanistan",
+     "abbr": "AFG",
+     "score": "152 & 112 (35.5 ov) (f/o)",
+     "winner": false
+    }
+   ],
+   "result": "India won by an inns & 300 runs",
+   "india": "won"
+  },
+  {
+   "id": "espn_1538611",
+   "eventId": "1538611",
+   "date": "2026-06-08T09:00Z",
+   "gender": "women",
+   "format": "T20",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Warm-up",
+   "venue": "Sophia Gardens, Cardiff",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "179/8",
+     "winner": true
+    },
+    {
+     "name": "West Indies Women",
+     "abbr": "WI-W",
+     "score": "153/8 (20 ov, target 180)",
+     "winner": false
+    }
+   ],
+   "result": "IND Women won by 26 runs",
+   "india": "won",
+   "xi": {
+    "India Women": [
+     "Shafali Verma",
+     "Smriti Mandhana (c)",
+     "Jemimah Rodrigues",
+     "Yastika Bhatia",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Radha Yadav",
+     "Shreyanka Patil",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Arundhati Reddy",
+     "Harmanpreet Kaur",
+     "Deepti Sharma",
+     "Renuka Singh",
+     "Nandani Sharma"
+    ],
+    "West Indies Women": [
+     "Deandra Dottin",
+     "Shemaine Campbelle",
+     "Qiana Joseph",
+     "Jahzara Claxton",
+     "Aaliyah Alleyne",
+     "Chinelle Henry (c)",
+     "Jannillea Glasgow",
+     "Zaida James",
+     "Shawnisha Hector",
+     "Afy Fletcher",
+     "Hayley Matthews",
+     "Mandy Mangru",
+     "Ashmini Munisar",
+     "Karishma Ramharack",
+     "Stafanie Taylor"
+    ]
+   }
+  },
+  {
+   "id": "espn_1538617",
+   "eventId": "1538617",
+   "date": "2026-06-10T09:00Z",
+   "gender": "women",
+   "format": "T20",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Warm-up",
+   "venue": "Sophia Gardens, Cardiff",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "171/6",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "166 (19.5/20 ov, target 172)",
+     "winner": false
+    }
+   ],
+   "result": "ENG Women won by 5 runs",
+   "india": "lost",
+   "xi": {
+    "England Women": [
+     "Amy Jones",
+     "Danni Wyatt-Hodge",
+     "Nat Sciver-Brunt (c)",
+     "Alice Capsey",
+     "Freya Kemp",
+     "Dani Gibson",
+     "Charlie Dean",
+     "Issy Wong",
+     "Lauren Filer",
+     "Tilly Corteen-Coleman",
+     "Sophie Ecclestone",
+     "Lauren Bell",
+     "Linsey Smith",
+     "Heather Knight",
+     "Sophia Dunkley"
+    ],
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Harmanpreet Kaur (c)",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Radha Yadav",
+     "Shreyanka Patil",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Arundhati Reddy",
+     "Deepti Sharma",
+     "Jemimah Rodrigues",
+     "Nandani Sharma"
+    ]
+   }
+  },
+  {
+   "id": "espn_1490682",
+   "eventId": "1490682",
+   "date": "2026-06-14T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "6th Match, Group 1",
+   "venue": "Edgbaston, Birmingham",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "170/6",
+     "winner": true
+    },
+    {
+     "name": "Pakistan Women",
+     "abbr": "PAK-W",
+     "score": "106 (17/20 ov, target 171)",
+     "winner": false
+    }
+   ],
+   "result": "India won by 64 runs",
+   "india": "won"
+  },
+  {
+   "id": "espn_1490686",
+   "eventId": "1490686",
+   "date": "2026-06-17T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "10th Match, Group 1",
+   "venue": "Headingley, Leeds",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "209/5",
+     "winner": true
+    },
+    {
+     "name": "Netherlands Women",
+     "abbr": "NL-W",
+     "score": "114 (17.3/20 ov, target 210)",
+     "winner": false
+    }
+   ],
+   "result": "India won by 95 runs",
+   "india": "won"
+  },
+  {
+   "id": "espn_1527153",
+   "eventId": "1527153",
+   "date": "2026-06-20T08:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Afghanistan tour of India 2026",
+   "seriesId": "24227",
+   "matchNo": "3rd ODI",
+   "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "224/1 (28.4/50 ov, target 219)",
+     "winner": true
+    },
+    {
+     "name": "Afghanistan",
+     "abbr": "AFG",
+     "score": "218",
+     "winner": false
+    }
+   ],
+   "result": "India won by 9 wkts (128b rem)",
+   "india": "won"
+  },
+  {
+   "id": "espn_1490694",
+   "eventId": "1490694",
+   "date": "2026-06-21T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "18th Match, Group 1",
+   "venue": "Old Trafford, Manchester",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "158/7",
+     "winner": false
+    },
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "161/4 (19.1/20 ov, target 159)",
+     "winner": true
+    }
+   ],
+   "result": "South Africa won by 6 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1490699",
+   "eventId": "1490699",
+   "date": "2026-06-25T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "23rd Match, Group 1",
+   "venue": "Old Trafford, Manchester",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "Bangladesh Women",
+     "abbr": "BAN-W",
+     "score": "136/8",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "139/5 (16.5/20 ov, target 137)",
+     "winner": true
+    }
+   ],
+   "result": "India won by 5 wickets",
+   "india": "won"
+  },
+  {
+   "id": "espn_1528549",
+   "eventId": "1528549",
+   "date": "2026-06-28T12:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Ireland 2026",
+   "seriesId": "24258",
+   "matchNo": "2nd T20I",
+   "venue": "Civil Service Cricket Club, Stormont, Belfast",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "Ireland",
+     "abbr": "IRE",
+     "score": "154/8",
+     "winner": true
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "153/9 (20 ov, target 155)",
+     "winner": false
+    }
+   ],
+   "result": "Ireland won by 1 run",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1490706",
+   "eventId": "1490706",
+   "date": "2026-06-28T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "30th Match, Group 1",
+   "venue": "Lord's, London",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "Australia Women",
+     "abbr": "AUS-W",
+     "score": "172/4 (19/20 ov, target 171)",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "170/4",
+     "winner": false
+    }
+   ],
+   "result": "Australia won by 6 wickets",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1496574",
+   "eventId": "1496574",
+   "date": "2026-07-01T16:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "1st T20I",
+   "venue": "Riverside Ground, Chester-le-Street",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "No result",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "189/7 (20 ov)",
+     "winner": false
+    }
+   ],
+   "result": "No result",
+   "india": "nr"
+  },
+  {
+   "id": "espn_1496575",
+   "eventId": "1496575",
+   "date": "2026-07-04T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "2nd T20I",
+   "venue": "Old Trafford, Manchester",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "191/6 (19/20 ov, target 191)",
+     "winner": true
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "190/7",
+     "winner": false
+    }
+   ],
+   "result": "England won by 4 wkts (6b rem)",
+   "india": "lost"
+  },
+  {
+   "id": "espn_1496576",
+   "eventId": "1496576",
+   "date": "2026-07-07T16:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "3rd T20I",
+   "venue": "Trent Bridge, Nottingham",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "Starts at 17:30 local time",
+   "india": ""
+  },
+  {
+   "id": "espn_1496577",
+   "eventId": "1496577",
+   "date": "2026-07-09T16:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "4th T20I",
+   "venue": "County Ground, Bristol",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1496551",
+   "eventId": "1496551",
+   "date": "2026-07-10T10:00Z",
+   "gender": "women",
+   "format": "Test",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Only Test",
+   "venue": "Lord's, London",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1496578",
+   "eventId": "1496578",
+   "date": "2026-07-11T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "5th T20I",
+   "venue": "The Rose Bowl, Southampton",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1496579",
+   "eventId": "1496579",
+   "date": "2026-07-14T10:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "1st ODI",
+   "venue": "Edgbaston, Birmingham",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1496580",
+   "eventId": "1496580",
+   "date": "2026-07-16T12:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "2nd ODI",
+   "venue": "Sophia Gardens, Cardiff",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1496581",
+   "eventId": "1496581",
+   "date": "2026-07-19T10:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "3rd ODI",
+   "venue": "Lord's, London",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1530060",
+   "eventId": "1530060",
+   "date": "2026-07-23T11:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Zimbabwe 2026",
+   "seriesId": "24301",
+   "matchNo": "1st T20I",
+   "venue": "Harare Sports Club",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1530061",
+   "eventId": "1530061",
+   "date": "2026-07-25T11:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Zimbabwe 2026",
+   "seriesId": "24301",
+   "matchNo": "2nd T20I",
+   "venue": "Harare Sports Club",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1530062",
+   "eventId": "1530062",
+   "date": "2026-07-26T11:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Zimbabwe 2026",
+   "seriesId": "24301",
+   "matchNo": "3rd T20I",
+   "venue": "Harare Sports Club",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1544001",
+   "eventId": "1544001",
+   "date": "2026-08-15T04:30Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Sri Lanka 2026",
+   "seriesId": "24567",
+   "matchNo": "1st Test",
+   "venue": "Galle International Stadium",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1544002",
+   "eventId": "1544002",
+   "date": "2026-08-23T04:30Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Sri Lanka 2026",
+   "seriesId": "24567",
+   "matchNo": "2nd Test",
+   "venue": "Sinhalese Sports Club Ground, Colombo",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529227",
+   "eventId": "1529227",
+   "date": "2026-09-27T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "1st ODI",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529228",
+   "eventId": "1529228",
+   "date": "2026-09-30T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "2nd ODI",
+   "venue": "Barsapara Cricket Stadium, Guwahati",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529229",
+   "eventId": "1529229",
+   "date": "2026-10-03T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "3rd ODI",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529230",
+   "eventId": "1529230",
+   "date": "2026-10-06T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "1st T20I",
+   "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529231",
+   "eventId": "1529231",
+   "date": "2026-10-09T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "2nd T20I",
+   "venue": "JSCA International Stadium Complex, Ranchi",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529232",
+   "eventId": "1529232",
+   "date": "2026-10-11T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "3rd T20I",
+   "venue": "Holkar Cricket Stadium, Indore",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529233",
+   "eventId": "1529233",
+   "date": "2026-10-14T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "4th T20I",
+   "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535652",
+   "eventId": "1535652",
+   "date": "2026-10-16T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "1st T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529234",
+   "eventId": "1529234",
+   "date": "2026-10-17T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "5th T20I",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535653",
+   "eventId": "1535653",
+   "date": "2026-10-18T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "2nd T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535654",
+   "eventId": "1535654",
+   "date": "2026-10-20T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "3rd T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539432",
+   "eventId": "1539432",
+   "date": "2026-10-22T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "1st T20I",
+   "venue": "Hagley Oval, Christchurch",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535655",
+   "eventId": "1535655",
+   "date": "2026-10-23T08:30Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "1st ODI",
+   "venue": "Kotambi Stadium, Vadodara",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539433",
+   "eventId": "1539433",
+   "date": "2026-10-24T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "2nd T20I",
+   "venue": "Hagley Oval, Christchurch",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535656",
+   "eventId": "1535656",
+   "date": "2026-10-25T08:30Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "2nd ODI",
+   "venue": "Kotambi Stadium, Vadodara",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539434",
+   "eventId": "1539434",
+   "date": "2026-10-27T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "3rd T20I",
+   "venue": "Hnry Stadium, Wellington",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535657",
+   "eventId": "1535657",
+   "date": "2026-10-28T08:30Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "3rd ODI",
+   "venue": "Kotambi Stadium, Vadodara",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539435",
+   "eventId": "1539435",
+   "date": "2026-10-30T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "4th T20I",
+   "venue": "Eden Park, Auckland",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539436",
+   "eventId": "1539436",
+   "date": "2026-11-01T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "5th T20I",
+   "venue": "Seddon Park, Hamilton",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539437",
+   "eventId": "1539437",
+   "date": "2026-11-04T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "1st ODI",
+   "venue": "Eden Park, Auckland",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539438",
+   "eventId": "1539438",
+   "date": "2026-11-07T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "2nd ODI",
+   "venue": "Hnry Stadium, Wellington",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539439",
+   "eventId": "1539439",
+   "date": "2026-11-10T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "3rd ODI",
+   "venue": "Seddon Park, Hamilton",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539440",
+   "eventId": "1539440",
+   "date": "2026-11-13T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "4th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539441",
+   "eventId": "1539441",
+   "date": "2026-11-15T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "5th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539442",
+   "eventId": "1539442",
+   "date": "2026-11-18T22:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "1st Test",
+   "venue": "Basin Reserve, Wellington",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539443",
+   "eventId": "1539443",
+   "date": "2026-11-26T22:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "2nd Test",
+   "venue": "Hagley Oval, Christchurch",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543892",
+   "eventId": "1543892",
+   "date": "2026-12-06T08:00Z",
+   "gender": "women",
+   "format": "List A",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "Tour Match",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Emerging Players Women",
+     "abbr": "SAW-E",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543893",
+   "eventId": "1543893",
+   "date": "2026-12-09T12:00Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "1st ODI",
+   "venue": "Senwes Park, Potchefstroom",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543894",
+   "eventId": "1543894",
+   "date": "2026-12-12T08:00Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "2nd ODI",
+   "venue": "Mangaung Oval, Bloemfontein",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529235",
+   "eventId": "1529235",
+   "date": "2026-12-13T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st ODI",
+   "venue": "Arun Jaitley Stadium, Delhi",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543895",
+   "eventId": "1543895",
+   "date": "2026-12-15T12:00Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "3rd ODI",
+   "venue": "Newlands, Cape Town",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529236",
+   "eventId": "1529236",
+   "date": "2026-12-16T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd ODI",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529237",
+   "eventId": "1529237",
+   "date": "2026-12-19T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "3rd ODI",
+   "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543896",
+   "eventId": "1543896",
+   "date": "2026-12-20T08:00Z",
+   "gender": "women",
+   "format": "Test",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "Only Test",
+   "venue": "St George's Park, Gqeberha",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529238",
+   "eventId": "1529238",
+   "date": "2026-12-22T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st T20I",
+   "venue": "Niranjan Shah Stadium, Rajkot",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529239",
+   "eventId": "1529239",
+   "date": "2026-12-24T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd T20I",
+   "venue": "Barabati Stadium, Cuttack",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529240",
+   "eventId": "1529240",
+   "date": "2026-12-27T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "3rd T20I",
+   "venue": "Maharashtra Cricket Association Stadium, Pune",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529241",
+   "eventId": "1529241",
+   "date": "2027-01-03T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Zimbabwe tour of India 2026/27",
+   "seriesId": "24283",
+   "matchNo": "1st ODI",
+   "venue": "Eden Gardens, Kolkata",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529242",
+   "eventId": "1529242",
+   "date": "2027-01-06T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Zimbabwe tour of India 2026/27",
+   "seriesId": "24283",
+   "matchNo": "2nd ODI",
+   "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529243",
+   "eventId": "1529243",
+   "date": "2027-01-09T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Zimbabwe tour of India 2026/27",
+   "seriesId": "24283",
+   "matchNo": "3rd ODI",
+   "venue": "Wankhede Stadium, Mumbai",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529244",
+   "eventId": "1529244",
+   "date": "2027-01-21T04:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Australia tour of India 2026/27",
+   "seriesId": "24281",
+   "matchNo": "1st Test",
+   "venue": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Australia",
+     "abbr": "AUS",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529245",
+   "eventId": "1529245",
+   "date": "2027-01-29T04:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Australia tour of India 2026/27",
+   "seriesId": "24281",
+   "matchNo": "2nd Test",
+   "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Australia",
+     "abbr": "AUS",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529246",
+   "eventId": "1529246",
+   "date": "2027-02-11T03:30Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Australia tour of India 2026/27",
+   "seriesId": "24281",
+   "matchNo": "3rd Test",
+   "venue": "Barsapara Cricket Stadium, Guwahati",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Australia",
+     "abbr": "AUS",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529247",
+   "eventId": "1529247",
+   "date": "2027-02-19T04:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Australia tour of India 2026/27",
+   "seriesId": "24281",
+   "matchNo": "4th Test",
+   "venue": "JSCA International Stadium Complex, Ranchi",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Australia",
+     "abbr": "AUS",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  }
+ ],
+ "series": [
+  {
+   "id": "23810",
+   "name": "India tour of England 2026",
+   "gender": "men"
+  },
+  {
+   "id": "24258",
+   "name": "India tour of Ireland 2026",
+   "gender": "men"
+  },
+  {
+   "id": "24227",
+   "name": "Afghanistan tour of India 2026",
+   "gender": "men"
+  },
+  {
+   "id": "24301",
+   "name": "India tour of Zimbabwe 2026",
+   "gender": "men"
+  },
+  {
+   "id": "24567",
+   "name": "India tour of Sri Lanka 2026",
+   "gender": "men"
+  },
+  {
+   "id": "24283",
+   "name": "Zimbabwe tour of India 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "24286",
+   "name": "Sri Lanka tour of India 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "24289",
+   "name": "West Indies tour of India 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "24281",
+   "name": "Australia tour of India 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "24469",
+   "name": "India tour of New Zealand 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "23814",
+   "name": "India Women tour of England 2026",
+   "gender": "women"
+  },
+  {
+   "id": "24233",
+   "name": "India Women tour of South Africa 2026",
+   "gender": "women"
+  },
+  {
+   "id": "24371",
+   "name": "Zimbabwe Women tour of India 2026/27",
+   "gender": "women"
+  },
+  {
+   "id": "24559",
+   "name": "India Women tour of South Africa 2026/27",
+   "gender": "women"
+  }
+ ],
+ "meta": {
+  "discovered": {}
+ }
+}

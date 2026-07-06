@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team India Cricket Tracker</title>
+<meta name="description" content="Follow the Indian men's and women's cricket teams: live matches, schedule, playing XIs and every result of the year.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>">
+<style>
+:root{
+  --bg:#edf0f6; --card:#ffffff; --ink:#182338; --muted:#657089; --line:#e2e7f0;
+  --blue:#12408f; --blue-deep:#0d2f6b; --saffron:#ff9933; --chakra:#2a5cc8;
+  --win:#1b8a3a; --loss:#bb2d3b; --nr:#8a93a6;
+  --test:#8b1e3f; --odi:#1560bd; --t20:#d9560b;
+  --hero-ink:#f4f7ff; --hero-muted:#b9c8e8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1320; --card:#161e2e; --ink:#e7ecf7; --muted:#94a0b8; --line:#25304a;
+    --blue:#3468c4; --blue-deep:#0d2451; --win:#3fb865; --loss:#e05a68; --nr:#7c869c;
+    --odi:#4d8fdd; --test:#c05577; --t20:#e87a3d;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.wrap{max-width:730px;margin:0 auto;padding:0 14px}
+
+/* ---------- header ---------- */
+header{background:linear-gradient(135deg,var(--blue-deep) 0%,var(--blue) 100%);color:var(--hero-ink);
+  border-bottom:3px solid var(--saffron)}
+header .wrap{display:flex;align-items:center;gap:10px;padding:14px}
+header h1{font-size:19px;margin:0;font-weight:800;letter-spacing:.2px}
+header h1 small{display:block;font-size:11.5px;font-weight:500;color:var(--hero-muted);letter-spacing:.6px;text-transform:uppercase}
+.ball{font-size:26px;filter:drop-shadow(0 1px 2px rgba(0,0,0,.4))}
+
+/* ---------- gender toggle ---------- */
+.toggle{display:flex;justify-content:center;margin:16px 0 4px}
+.toggle .seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px;
+  box-shadow:0 1px 3px rgba(13,34,80,.08)}
+.toggle button{border:0;background:none;color:var(--muted);font:inherit;font-weight:700;font-size:13.5px;
+  padding:7px 22px;border-radius:999px;cursor:pointer;letter-spacing:.4px}
+.toggle button.on{background:var(--blue);color:#fff}
+
+/* ---------- cards ---------- */
+section{margin:18px 0}
+h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);margin:0 0 8px 4px;font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  box-shadow:0 1px 3px rgba(13,34,80,.06)}
+
+/* format badge */
+.fmt{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.8px;padding:2px 8px;border-radius:5px;
+  color:#fff;vertical-align:1px}
+.fmt.Test{background:var(--test)} .fmt.ODI{background:var(--odi)} .fmt.T20I{background:var(--t20)}
+.fmt.other{background:var(--nr)}
+
+/* ---------- hero ---------- */
+.hero{background:linear-gradient(150deg,var(--blue-deep) 0%,var(--blue) 85%);color:var(--hero-ink);
+  border:0;border-radius:16px;padding:20px 20px 18px;position:relative}
+.hero .tag{font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--saffron);
+  display:flex;align-items:center;gap:7px;margin-bottom:10px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#ff5252;animation:pulse 1.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,82,82,.6)}70%{box-shadow:0 0 0 8px rgba(255,82,82,0)}100%{box-shadow:0 0 0 0 rgba(255,82,82,0)}}
+.hero .series{color:var(--hero-muted);font-size:13px;margin-bottom:14px}
+.hero .teamrow{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:5px 0;font-size:20px;font-weight:800}
+.hero .teamrow .flag{font-size:22px;margin-right:8px}
+.hero .teamrow .sc{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums;text-align:right;color:var(--hero-ink)}
+.hero .teamrow .sc small{display:block;font-size:11px;color:var(--hero-muted);font-weight:500}
+.hero .statusline{margin-top:10px;font-size:13.5px;color:var(--hero-muted)}
+.hero .statusline b{color:var(--hero-ink)}
+.hero .resultline{margin-top:10px;font-size:15px;font-weight:700}
+.cdwrap{display:flex;gap:10px;margin:14px 0 6px}
+.cd-cell{background:rgba(255,255,255,.09);border-radius:10px;padding:8px 0;text-align:center;flex:1}
+.cd-cell b{display:block;font-size:24px;font-variant-numeric:tabular-nums;line-height:1.1}
+.cd-cell span{font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--hero-muted)}
+.hero .when{font-size:13px;color:var(--hero-muted);margin-top:8px}
+.hero details{margin-top:14px;border-top:1px solid rgba(255,255,255,.15);padding-top:10px}
+.hero summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--hero-muted)}
+.xi-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
+@media(max-width:480px){.xi-grid{grid-template-columns:1fr}}
+.xi-grid h4{margin:0 0 6px;font-size:13px;color:var(--saffron)}
+.xi-grid ol{margin:0;padding-left:20px;font-size:13px;color:var(--hero-ink)}
+.xi-grid li{padding:1.5px 0}
+
+/* ---------- match rows ---------- */
+.mrow{display:flex;gap:12px;padding:11px 14px;border-top:1px solid var(--line);align-items:center}
+.mrow:first-child{border-top:0}
+.mrow .when{width:74px;flex:none;font-size:12px;color:var(--muted);line-height:1.35}
+.mrow .when b{display:block;font-size:12.5px;color:var(--ink);font-weight:700}
+.mrow .mid{flex:1;min-width:0}
+.mrow .mid .no{font-size:13.5px;font-weight:700}
+.mrow .mid .sub{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mrow .right{flex:none;text-align:right;font-size:12.5px;max-width:46%}
+.mrow .right .sc{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600;line-height:1.4}
+.mrow .right .res{font-weight:700}
+.res.won{color:var(--win)} .res.lost{color:var(--loss)} .res.nr,.res.tie,.res.draw{color:var(--nr)}
+.mrow.upnext .no::after{content:"· up next";color:var(--saffron);font-size:11px;margin-left:6px;font-weight:800;letter-spacing:.5px}
+.serieshead{padding:11px 14px 9px;background:color-mix(in srgb,var(--blue) 5%,var(--card));border-top:1px solid var(--line)}
+.serieshead:first-child{border-top:0}
+.serieshead .nm{font-weight:800;font-size:14px}
+.serieshead .meta{font-size:12px;color:var(--muted);margin-top:1px}
+.trophy{background:linear-gradient(135deg,#b7791f,#e6a817 60%,#b7791f);color:#fff;padding:10px 14px;
+  font-weight:800;font-size:14px;letter-spacing:.3px}
+.rec{font-weight:700}
+
+/* stats chips */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px 2px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--muted)}
+.chip b{color:var(--ink)}
+
+/* footer */
+footer{margin:30px 0 40px;text-align:center;font-size:12px;color:var(--muted);line-height:1.8}
+footer a{color:var(--chakra);text-decoration:none}
+.err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="ball">🏏</span>
+    <h1>Team India Cricket Tracker<small>Men &amp; Women · Live · Schedule · Season</small></h1>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="toggle"><div class="seg">
+    <button id="btn-men" onclick="setGender('men')">MEN</button>
+    <button id="btn-women" onclick="setGender('women')">WOMEN</button>
+  </div></div>
+  <div id="app"><div class="err">Loading…</div></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+'use strict';
+var DATA=null, HIST=null, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+
+var FLAGS={India:'🇮🇳',England:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',Australia:'🇦🇺','New Zealand':'🇳🇿',Pakistan:'🇵🇰','South Africa':'🇿🇦',
+'Sri Lanka':'🇱🇰',Bangladesh:'🇧🇩',Afghanistan:'🇦🇫',Zimbabwe:'🇿🇼',Ireland:'🇮🇪','West Indies':'🌴',
+Netherlands:'🇳🇱',Scotland:'🏴󠁧󠁢󠁳󠁣󠁴󠁿','United States of America':'🇺🇸',Namibia:'🇳🇦',
+'United Arab Emirates':'🇦🇪',Oman:'🇴🇲',Nepal:'🇳🇵',Canada:'🇨🇦',Italy:'🇮🇹'};
+
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function norm(n){return String(n||'').replace(/ Women$/,'');}
+function flag(n){return FLAGS[norm(n)]||'🏏';}
+function fmtBadge(f){var cls=(f==='Test'||f==='ODI'||f==='T20I')?f:'other';return '<span class="fmt '+cls+'">'+esc(f)+'</span>';}
+function isIST(){return new Date().getTimezoneOffset()===-330;}
+function dstr(iso,withTime){
+  var d=new Date(iso);
+  var o={weekday:'short',day:'numeric',month:'short'};
+  if(withTime){o.hour='2-digit';o.minute='2-digit';}
+  var s=d.toLocaleString([],o);
+  if(withTime&&!isIST()){
+    s+=' · '+d.toLocaleString('en-IN',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'})+' IST';
+  }
+  return s;
+}
+function teamHTML(t,hero){
+  return '<div class="teamrow"><span><span class="flag">'+flag(t.name)+'</span>'+esc(norm(t.name))+'</span>'+
+    '<span class="sc">'+esc(t.score||'')+'</span></div>';
+}
+function resClass(v){return v==='won'?'won':v==='lost'?'lost':esc(v||'nr');}
+
+/* ---------- hero ---------- */
+function heroHTML(m){
+  var live=m.state==='in';
+  var tag=live?'<span class="live-dot"></span>LIVE':(m.state==='pre'?'Up next':'Latest result');
+  var h='<section><div class="card hero">';
+  h+='<div class="tag">'+tag+'</div>';
+  h+='<div class="series">'+fmtBadge(m.format)+' &nbsp;'+esc(m.matchNo)+' · '+esc(m.series)+'</div>';
+  m.teams.forEach(function(t){h+=teamHTML(t,true);});
+  if(live){
+    h+='<div class="statusline"><b>'+esc(m.statusDetail||m.statusDesc||'')+'</b></div>';
+  }else if(m.state==='pre'){
+    var ts=new Date(m.date).getTime();
+    h+='<div class="cdwrap" data-ts="'+ts+'">'+
+       ['Days','Hrs','Min','Sec'].map(function(l){return '<div class="cd-cell"><b>–</b><span>'+l+'</span></div>';}).join('')+'</div>';
+    h+='<div class="when">🗓 '+esc(dstr(m.date,true))+'</div>';
+  }else if(m.result){
+    h+='<div class="resultline">'+esc(m.result)+'</div>';
+  }
+  if(m.venue)h+='<div class="when">📍 '+esc(m.venue)+'</div>';
+  if(m.seriesNote)h+='<div class="when">'+esc(m.seriesNote)+'</div>';
+  if(m.xi){
+    h+='<details><summary>Playing XIs</summary><div class="xi-grid">';
+    Object.keys(m.xi).forEach(function(team){
+      h+='<div><h4>'+flag(team)+' '+esc(norm(team))+'</h4><ol>'+
+         m.xi[team].map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ol></div>';
+    });
+    h+='</div></details>';
+  }
+  h+='</div></section>';
+  return h;
+}
+
+/* ---------- match row ---------- */
+function rowHTML(m,opts){
+  opts=opts||{};
+  var d=new Date(m.date);
+  var when='<b>'+d.toLocaleString([],{day:'numeric',month:'short'})+'</b>';
+  when+=m.state==='pre'?d.toLocaleString([],{hour:'2-digit',minute:'2-digit'}):'&nbsp;';
+  var right='';
+  if(m.state==='post'){
+    var sc=m.teams.map(function(t){return t.score?'<div>'+esc(t.abbr||norm(t.name))+' '+esc(t.score.replace(/\s*\(.*$/,''))+'</div>':'';}).join('');
+    right='<div class="sc">'+sc+'</div><div class="res '+resClass(m.india)+'">'+esc(m.result||m.statusDesc||'')+'</div>';
+  }else if(m.state==='in'){
+    right='<div class="res" style="color:var(--saffron)">● '+esc(m.statusDetail||'Live')+'</div>';
+  }
+  var vs=m.teams.map(function(t){return norm(t.name);}).filter(function(n){return n!=='India';});
+  var sub=(vs.length?('vs '+vs.join(', ')+' · '):'')+esc((m.venue||'').split(',').pop()||'');
+  return '<div class="mrow'+(opts.upnext?' upnext':'')+'">'+
+    '<div class="when">'+when+'</div>'+
+    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div><div class="sub">'+sub+'</div></div>'+
+    '<div class="right">'+right+'</div></div>';
+}
+
+/* history rows keep full scores */
+function histRowHTML(m){
+  var d=new Date(m.date+'T12:00:00Z');
+  var opp=m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'';
+  var sc=m.teams.map(function(t){
+    var nm=norm(t.name)==='India'?'IND':flag(t.name);
+    return '<div>'+nm+' '+esc(t.score||'—')+'</div>';}).join('');
+  return '<div class="mrow" style="border-left:3px solid var(--'+(m.india==='won'?'win':m.india==='lost'?'loss':'nr')+')">'+
+    '<div class="when"><b>'+d.toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
+    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+'</div>'+
+    '<div class="sub">'+flag(opp)+' vs '+esc(norm(opp))+' · '+esc(m.venue.split(',').pop().trim())+'</div>'+
+    '<div class="sub res '+resClass(m.india)+'">'+esc(m.result)+'</div></div>'+
+    '<div class="right"><div class="sc">'+sc+'</div></div></div>';
+}
+
+/* ---------- sections ---------- */
+function render(){
+  document.getElementById('btn-men').className=GENDER==='men'?'on':'';
+  document.getElementById('btn-women').className=GENDER==='women'?'on':'';
+  var app=document.getElementById('app');
+  if(!DATA||!HIST){app.innerHTML='<div class="err">Could not load data. Please refresh.</div>';return;}
+  var ms=DATA.matches.filter(function(m){return m.gender===GENDER;});
+  var hist=HIST.matches.filter(function(m){return m.gender===GENDER;});
+  var now=Date.now();
+
+  var live=ms.filter(function(m){return m.state==='in';})[0];
+  var next=ms.filter(function(m){return m.state==='pre';})[0];
+  var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
+  var hero=live||next||lastPost;
+  var h='';
+  if(hero)h+=heroHTML(hero);
+
+  /* current tour */
+  if(hero){
+    var tour=ms.filter(function(m){return m.seriesId===hero.seriesId;});
+    if(tour.length>1){
+      var sname=tour[0].series;
+      h+='<section><h2>Current tour</h2><div class="card">';
+      var note=tour.map(function(m){return m.seriesNote;}).filter(Boolean).slice(-1)[0];
+      h+='<div class="serieshead"><div class="nm">'+esc(sname)+'</div>'+(note?'<div class="meta">'+esc(note)+'</div>':'')+'</div>';
+      tour.forEach(function(m){h+=rowHTML(m,{upnext:hero&&m.id===hero.id&&m.state==='pre'});});
+      h+='</div></section>';
+    }
+  }
+
+  /* schedule: upcoming beyond current tour, grouped by series */
+  var upcoming=ms.filter(function(m){return m.state==='pre'&&(!hero||m.seriesId!==hero.seriesId);});
+  if(upcoming.length){
+    h+='<section><h2>Coming up</h2><div class="card">';
+    var lastSid=null;
+    upcoming.forEach(function(m){
+      if(m.seriesId!==lastSid){
+        lastSid=m.seriesId;
+        h+='<div class="serieshead"><div class="nm">'+esc(m.series)+'</div></div>';
+      }
+      h+=rowHTML(m);
+    });
+    h+='</div></section>';
+  }
+
+  /* season so far */
+  if(hist.length){
+    var W=hist.filter(function(m){return m.india==='won';}).length;
+    var L=hist.filter(function(m){return m.india==='lost';}).length;
+    var O=hist.length-W-L;
+    h+='<section><h2>2026 so far</h2>';
+    h+='<div class="chips"><span class="chip">Played <b>'+hist.length+'</b></span>'+
+       '<span class="chip">Won <b style="color:var(--win)">'+W+'</b></span>'+
+       '<span class="chip">Lost <b style="color:var(--loss)">'+L+'</b></span>'+
+       (O?'<span class="chip">N/R & other <b>'+O+'</b></span>':'')+'</div>';
+    h+='<div class="card">';
+    /* group consecutive matches of the same series, newest first */
+    var groups=[];
+    hist.forEach(function(m){
+      var g=groups[groups.length-1];
+      if(!g||g.name!==m.series)groups.push(g={name:m.series,items:[]});
+      g.items.push(m);
+    });
+    groups.reverse();
+    groups.forEach(function(g){
+      var w=g.items.filter(function(m){return m.india==='won';}).length;
+      var l=g.items.filter(function(m){return m.india==='lost';}).length;
+      var champion=/World Cup|Trophy/.test(g.name)&&g.items.some(function(m){return m.matchNo==='Final'&&m.india==='won';});
+      if(champion)h+='<div class="trophy">🏆 '+esc(g.name)+' — CHAMPIONS</div>';
+      h+='<div class="serieshead"><div class="nm">'+(champion?'':esc(g.name))+'</div>'+
+         '<div class="meta rec">'+w+'W – '+l+'L'+(g.items.length-w-l?' – '+(g.items.length-w-l)+' other':'')+'</div></div>';
+      g.items.slice().reverse().forEach(function(m){h+=histRowHTML(m);});
+    });
+    h+='</div></section>';
+  }
+  app.innerHTML=h;
+  startTicker();
+
+  var f='Updated '+new Date(DATA.updated).toLocaleString()+'<br>'+
+    'Unofficial data via ESPN / ESPNcricinfo feeds & <a href="https://cricsheet.org">cricsheet.org</a> — scores may lag or contain errors.<br>'+
+    '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a>';
+  document.getElementById('foot').innerHTML=f;
+}
+
+function startTicker(){
+  if(TICK)clearInterval(TICK);
+  var el=document.querySelector('.cdwrap');
+  if(!el)return;
+  var ts=+el.getAttribute('data-ts');
+  function tick(){
+    var s=Math.max(0,Math.floor((ts-Date.now())/1000));
+    var v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];
+    var cells=el.querySelectorAll('.cd-cell b');
+    for(var i=0;i<4;i++)cells[i].textContent=i?String(v[i]).padStart(2,'0'):v[i];
+  }
+  tick();TICK=setInterval(tick,1000);
+}
+
+function setGender(g){GENDER=g;localStorage.setItem('gender',g);render();}
+
+Promise.all([
+  fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
+  fetch('history.json?v='+Date.now()).then(function(r){return r.json();})
+]).then(function(res){DATA=res[0];HIST=res[1];render();})
+.catch(function(){render();});
+</script>
+</body>
+</html>
