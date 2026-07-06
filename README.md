@@ -36,6 +36,24 @@ and privacy statements, and a rights-holder contact route.
 Scores update within ~30 minutes of a match finishing. Data is unofficial and
 may lag or contain errors; nothing here is affiliated with the BCCI, ICC, or ESPN.
 
+## Fork it — run your own team's tracker
+
+Everything is designed to be forked (a Pakistan, Australia or England tracker is
+mostly a data change):
+
+1. **Fork the repo**, then enable **Actions** (forks have workflows disabled by
+   default — Actions tab → enable) and **Pages** (Settings → Pages → deploy from
+   `main`, root).
+2. **Update the hardcoded URLs** — the `og:url` / `og:image` meta tags and the
+   GitHub links in `index.html` (footer + About) point at this repo; point them
+   at yours.
+3. **Swap the team**: `fetch_data.py` filters on team name and holds the verified
+   ESPN series ids in `SERIES` (league ids are probeable — see CLAUDE.md);
+   `seed_history.py` downloads that team's cricsheet archive; re-verify the
+   official YouTube channels in `build_highlights.py` for your team's boards.
+
+CLAUDE.md documents the data sources, their quirks, and every landmine we hit.
+
 ## License
 
 Code is [MIT-licensed](LICENSE) — use it, fork it, build your own team's tracker.
