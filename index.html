@@ -247,8 +247,9 @@ footer a{color:var(--chakra);text-decoration:none}
     <p class="about">Win % shown on some upcoming matches are market prices from Polymarket &mdash;
     predictions by market participants, not facts, not endorsements and <b>not betting advice</b>.
     This site is not affiliated with Polymarket.</p>
-    <p class="about"><b>No ads &middot; no cookies &middot; no tracking &middot; no analytics.</b>
-    Your men/women tab choice is saved only in your browser and never leaves your device.</p>
+    <p class="about"><b>No ads &middot; no cookies &middot; no accounts &middot; no personal data collected.</b>
+    Your men/women tab choice is saved only in your browser and never leaves your device.
+    A simple anonymous counter tallies page visits &mdash; a number goes up, nothing about you is stored.</p>
     <div id="foot"></div>
   </footer>
 </div>
@@ -547,7 +548,7 @@ function render(){
 
   var f='Updated '+new Date(DATA.updated).toLocaleString()+'<br>'+
     'Data: ESPN public feeds & <a href="https://cricsheet.org">cricsheet.org</a> (attribution) · '+
-    '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a>';
+    '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a><span id="visits"></span>';
   document.getElementById('foot').innerHTML=f;
 }
 
@@ -592,13 +593,23 @@ function aboutHTML(){
   'names are used only to refer to the matches and results they describe; all trademarks belong to their '+
   'owners. Scores may lag or contain errors — for anything that matters, check official sources.</p>'+
   '<h3>Privacy</h3>'+
-  '<p>No cookies, no analytics, no ads, no accounts, no tracking of any kind. Your men/women tab choice '+
-  'is stored only in your own browser and never leaves it.</p>'+
+  '<p>No cookies, no ads, no accounts, no personal data collected. Your men/women tab choice is stored '+
+  'only in your own browser and never leaves it. A simple anonymous visit counter (the free Abacus '+
+  'service, also used on the sibling World Cup site) counts page loads to gauge interest — like any web '+
+  'request the counter service sees an IP address, but no cookies are set and nothing about you is stored '+
+  'or shown. Odds load from Polymarket\u2019s public API server-side, not from your browser.</p>'+
   '<p class="rights">If you represent a rights holder and have a concern about anything shown here, '+
   'please open an issue on the <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" '+
   'rel="noopener">GitHub repository</a> — it will be addressed promptly.</p>'+
   '</div></section>';
 }
+
+/* fun footer visit counter (free Abacus API, same as the World Cup site; counts page
+   loads, no cookies, fails silently if the service is down) */
+fetch('https://abacus.jasoncameron.dev/hit/danpune-india-cricket-tracker/visits')
+  .then(function(r){return r.json();})
+  .then(function(d){if(d&&d.value!=null){var el=document.getElementById('visits');if(el)el.textContent=' · 👀 '+d.value.toLocaleString()+' visits';}})
+  .catch(function(){});
 
 Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
