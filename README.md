@@ -35,3 +35,9 @@ and privacy statements, and a rights-holder contact route.
 
 Scores update within ~30 minutes of a match finishing. Data is unofficial and
 may lag or contain errors; nothing here is affiliated with the BCCI, ICC, or ESPN.
+
+## License
+
+Code is [MIT-licensed](LICENSE) — use it, fork it, build your own team's tracker.
+Match data comes from the public sources credited above and stays subject to
+their terms; cricsheet data is ODC-licensed with attribution.
