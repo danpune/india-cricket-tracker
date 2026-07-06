@@ -145,6 +145,8 @@ a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap
 .sub.cal a{color:var(--chakra);text-decoration:none;font-weight:600}
 .sub.cal a:hover,a.hcal:hover{text-decoration:underline}
 a.hcal{color:var(--hero-muted);text-decoration:none;font-weight:700}
+.odds span{font-size:11px;color:var(--hero-muted)}
+.mrow .right .sc.odds{color:var(--muted);font-weight:600;font-size:12px}
 a.yt:hover{text-decoration:underline}
 @media(min-width:720px){
   .inn{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;align-items:start}
@@ -242,6 +244,9 @@ footer a{color:var(--chakra);text-decoration:none}
     Not affiliated with, endorsed by, or connected to the BCCI, the ICC, ESPN, or any team,
     league, or governing body. Scores and fixtures are factual information sourced from
     publicly available feeds; they may lag or contain errors &mdash; always verify with official sources.</p>
+    <p class="about">Win % shown on some upcoming matches are market prices from Polymarket &mdash;
+    predictions by market participants, not facts, not endorsements and <b>not betting advice</b>.
+    This site is not affiliated with Polymarket.</p>
     <p class="about"><b>No ads &middot; no cookies &middot; no tracking &middot; no analytics.</b>
     Your men/women tab choice is saved only in your browser and never leaves your device.</p>
     <div id="foot"></div>
@@ -286,6 +291,10 @@ function teamHTML(t,hero){
 function resClass(v){return v==='won'?'won':v==='lost'?'lost':esc(v||'nr');}
 
 /* ---------- hero ---------- */
+function oddsStr(m){
+  if(!m.o)return '';
+  return m.teams.map(function(t,i){return esc(t.abbr||norm(t.name))+' '+Math.round(m.o[i]*100)+'%';}).join(' · ');
+}
 function heroHTML(m){
   var live=m.state==='in';
   var tag=live?'<span class="live-dot"></span>LIVE':(m.state==='pre'?'Up next':'Latest result');
@@ -301,6 +310,7 @@ function heroHTML(m){
        ['Days','Hrs','Min','Sec'].map(function(l){return '<div class="cd-cell"><b>–</b><span>'+l+'</span></div>';}).join('')+'</div>';
     h+='<div class="when">🗓 '+esc(dstr(m.date,true))+
        ' &nbsp; <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">📅 GCal</a> · <a class="hcal" href="'+icsM(m)+'" download="next-india-match.ics">iCal</a></div>';
+    if(m.o)h+='<div class="when odds">📊 Win odds: '+oddsStr(m)+' <span>— Polymarket prices, not betting advice</span></div>';
   }else if(m.result){
     h+='<div class="resultline">'+esc(m.result)+'</div>';
   }
@@ -330,6 +340,8 @@ function rowHTML(m,opts){
     right='<div class="sc">'+sc+'</div><div class="res '+resClass(m.india)+'">'+esc(m.result||m.statusDesc||'')+'</div>';
   }else if(m.state==='in'){
     right='<div class="res" style="color:var(--saffron)">● '+esc(m.statusDetail||'Live')+'</div>';
+  }else if(m.o){
+    right='<div class="sc odds" title="Polymarket win prices — not betting advice">📊 '+oddsStr(m)+'</div>';
   }
   var vs=m.teams.map(function(t){return norm(t.name);}).filter(function(n){return n!=='India';});
   var sub=(vs.length?('vs '+vs.join(', ')+' · '):'')+esc((m.venue||'').split(',').pop()||'');
@@ -569,6 +581,9 @@ function aboutHTML(){
   '<li><b>Scorecards for the two-year record</b> — computed from <a href="https://cricsheet.org" target="_blank" rel="noopener">cricsheet.org</a>\u2019s open ball-by-ball data (thank you!), and from ESPN feeds for new matches.</li>'+
   '<li><b>ICC rankings</b> — the official ICC world rankings, from the same feed icc-cricket.com uses.</li>'+
   '<li><b>\u25b6 Highlights</b> — nothing is hosted or re-uploaded here: links go to the home board\u2019s own official YouTube channel (every video verified against the official channel) or to <a href="https://www.bcci.tv" target="_blank" rel="noopener">bcci.tv</a> for India home matches.</li>'+
+  '<li><b>📊 Win odds</b> on some upcoming matches — market prices from Polymarket\u2019s public API, '+
+  'shown for information only: predictions by market participants, not facts and <b>not betting advice</b>. '+
+  'Not affiliated with Polymarket.</li>'+
   '<li><b>Everything is open source</b> — the site, the data pipeline and its history live on <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" rel="noopener">GitHub</a>.</li>'+
   '</ul>'+
   '<h3>Not affiliated</h3>'+

@@ -115,6 +115,50 @@ def fetch_rankings():
     return out
 
 
+def stamp_odds(matches, now):
+    """Polymarket win prices onto upcoming matches (same approach as the tennis
+    tracker). Only unambiguous two-way winner markets: the main event (title has
+    no " - <side market>" suffix) whose winner market's question == event title
+    and whose outcomes are the two team names. A series has one open main event
+    at a time; it is stamped only onto the series' NEXT match. Tests (3-way
+    win/win/draw markets) are skipped. Fail-safe: any error ⇒ no odds."""
+    try:
+        since = (now - timedelta(days=2)).strftime("%Y-%m-%dT00:00:00Z")
+        events = get("https://gamma-api.polymarket.com/events"
+                     f"?tag_slug=cricket&closed=false&limit=300&start_date_min={since}")
+    except Exception:
+        return
+    pre = [m for m in matches if m["state"] == "pre" and m["format"] in ("T20I", "ODI")]
+    for m in sorted(pre, key=lambda x: x["date"]):
+        names = [norm_team(t["name"]) for t in m["teams"]]
+        cands = []
+        for e in events:
+            t = e.get("title", "")
+            if " - " in t or not all(n in t for n in names):
+                continue
+            if (m["gender"] == "women") != ("Women" in t):
+                continue
+            cands.append(e)
+        if len(cands) != 1:
+            continue  # none, or ambiguous ⇒ skip
+        ev = cands[0]
+        for mk in ev.get("markets", []):
+            if mk.get("question") != ev.get("title"):
+                continue
+            try:
+                outcomes = json.loads(mk.get("outcomes", "[]"))
+                prices = [float(p) for p in json.loads(mk.get("outcomePrices", "[]"))]
+            except Exception:
+                break
+            if sorted(norm_team(o) for o in outcomes) != sorted(names) or len(prices) != 2:
+                break
+            by_team = {norm_team(o): p for o, p in zip(outcomes, prices)}
+            m["o"] = [round(by_team[n], 3) for n in names]
+            break
+        # one event covers only the next match of this pair — don't reuse it
+        events.remove(ev)
+
+
 def discover(known):
     """Find India series not in the seed list from the live header feed."""
     found = {}
@@ -371,6 +415,8 @@ def main():
         history["matches"].sort(key=lambda x: x["date"])
         with open(history_path, "w") as f:
             json.dump(history, f, indent=1)
+
+    stamp_odds(matches, now)
 
     rankings = fetch_rankings()
     if rankings is None:

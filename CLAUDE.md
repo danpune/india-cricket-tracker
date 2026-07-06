@@ -50,6 +50,18 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - History dedupe key is (date, normalized team set, gender) — cricsheet says "India",
   ESPN says "India Women"; `norm_team()` strips the suffix.
 
+## Win odds (Polymarket — same approach as the tennis tracker)
+- `stamp_odds()` in fetch_data.py: gamma API `events?tag_slug=cricket&closed=false`
+  &start_date_min=now-2d. Main event = title WITHOUT a " - <side market>" suffix
+  (side events: Toss Match Double / Most Sixes / Team Top Batter). Winner market =
+  the one whose `question` == event title, outcomes = the two team names (JSON
+  strings, parse them). One open main event per series at a time → stamped onto the
+  series' NEXT pre match only, then removed from the pool; 0 or 2+ candidate events
+  ⇒ skipped. Tests are SKIPPED (Polymarket models them as three Yes/No win/win/draw
+  markets, usually thin). `o` = [P(teamA), P(teamB)] in our team order. Fail-safe.
+- Disclaimer lives in the footer + About tab (market prices, not betting advice,
+  not affiliated) — keep it if odds display changes.
+
 ## Rankings
 - Official ICC rankings via the feed icc-cricket.com's own frontend calls (curl-able,
   no auth beyond the public client id baked into their site):
