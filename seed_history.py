@@ -51,7 +51,9 @@ def result_text(info):
     winner = out.get("winner")
     if out.get("result") == "tie" or (not winner and out.get("eliminator")):
         w = out.get("eliminator")
-        return (f"Match tied ({w} won the Super Over)" if w else "Match tied"), "tie"
+        if w:  # a Super Over decides the match — it counts as a win/loss
+            return f"Match tied ({w} won the Super Over)", ("won" if w == "India" else "lost")
+        return "Match tied", "tie"
     if not winner:
         return out.get("result", ""), "nr"
     by = out.get("by", {})
