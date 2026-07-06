@@ -61,6 +61,10 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   markets, usually thin). `o` = [P(teamA), P(teamB)] in our team order. Fail-safe.
 - Disclaimer lives in the footer + About tab (market prices, not betting advice,
   not affiliated) — keep it if odds display changes.
+- DECISION (2026-07): Polymarket is the ONLY odds source, deliberately. Evaluated and
+  rejected: ESPN odds/pickcenter (empty for cricket), Kalshi (no cricket), Betfair/
+  odds aggregators (key-gated, betting-operator optics), Manifold (ad-hoc coverage,
+  play-money — could be a labeled gap-filler someday, not a backbone).
 
 ## Rankings
 - Official ICC rankings via the feed icc-cricket.com's own frontend calls (curl-able,
