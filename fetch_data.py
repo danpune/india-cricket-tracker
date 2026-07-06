@@ -83,6 +83,38 @@ def is_india_match(event):
     return any(norm_team(t) == "India" for t in teams) and not any(x in t for t in teams for x in EXCLUDE)
 
 
+RANK_URL = ("https://assets-icc.sportz.io/cricket/v1/ranking"
+            "?client_id=tPZJbRgIub3Vua93%2FDWtyQ%3D%3D&feed_format=json&lang=en")
+RANK_COMBOS = {"men": ["test", "odi", "t20"], "women": ["odiw", "t20w"]}  # no women's Test rankings exist
+RANK_FMT = {"test": "Test", "odi": "ODI", "t20": "T20I", "odiw": "ODI", "t20w": "T20I"}
+
+
+def fetch_rankings():
+    """Official ICC rankings via the feed icc-cricket.com itself uses (public client id).
+    Returns None on any failure — stale rankings beat partial ones."""
+    out = {}
+    for gender, cts in RANK_COMBOS.items():
+        g = {}
+        for ct in cts:
+            entry = {}
+            for ty in ("team", "bat", "bowl"):
+                try:
+                    time.sleep(0.15)
+                    rk = get(f"{RANK_URL}&comp_type={ct}&type={ty}")["data"]["bat-rank"]
+                except Exception:
+                    return None
+                entry[ty] = [{
+                    "no": r.get("no", ""),
+                    "name": r.get("Player-name") or r.get("team_name", ""),
+                    "team": r.get("Country_name") or r.get("team_name", ""),
+                    "rating": r.get("Rating") or r.get("Points", ""),
+                } for r in rk.get("rank", [])[:10]]
+                entry["updated"] = rk.get("rank_date", "")
+            g[RANK_FMT[ct]] = entry
+        out[gender] = g
+    return out
+
+
 def discover(known):
     """Find India series not in the seed list from the live header feed."""
     found = {}
@@ -338,12 +370,21 @@ def main():
         with open(history_path, "w") as f:
             json.dump(history, f, indent=1)
 
+    rankings = fetch_rankings()
+    if rankings is None:
+        rankings = old_meta.get("_rankings") or {}
+        try:
+            rankings = json.load(open(data_path)).get("rankings", {})
+        except Exception:
+            rankings = {}
+
     matches.sort(key=lambda x: x["date"])
     with open(data_path, "w") as f:
         json.dump({
             "updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "matches": matches,
             "series": series_meta,
+            "rankings": rankings,
             "meta": {"discovered": all_discovered},
         }, f, indent=1)
     print(f"data.json: {len(matches)} matches across {len(series_meta)} series; history +{added}")

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06T14:35:08Z",
+ "updated": "2026-07-06T14:50:48Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -1201,35 +1201,6 @@
    ],
    "result": "India won by an inns & 300 runs",
    "india": "won",
-   "seriesNote": "India won the one-off match",
-   "xi": {
-    "India": [
-     "Yashasvi Jaiswal",
-     "KL Rahul",
-     "Sai Sudharsan",
-     "Shubman Gill (c)",
-     "Rishabh Pant",
-     "Dhruv Jurel",
-     "Washington Sundar",
-     "Manav Suthar",
-     "Mohammed Siraj",
-     "Kuldeep Yadav",
-     "Prasidh Krishna"
-    ],
-    "Afghanistan": [
-     "Abdul Malik",
-     "Sediqullah Atal",
-     "Rahmanullah Gurbaz",
-     "Rahmat Shah",
-     "Hashmatullah Shahidi (c)",
-     "Afsar Zazai",
-     "Azmatullah Omarzai",
-     "Sharafuddin Ashraf",
-     "Nangeyalia Kharote",
-     "Mohammad Saleem",
-     "Ziaur Rahman"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -2643,35 +2614,6 @@
    ],
    "result": "India won by 9 wkts (128b rem)",
    "india": "won",
-   "seriesNote": "India won the 3-match series 3-0",
-   "xi": {
-    "India": [
-     "Yashasvi Jaiswal",
-     "Rohit Sharma",
-     "Shreyas Iyer",
-     "Shubman Gill (c)",
-     "Ishan Kishan",
-     "Nitish Kumar Reddy",
-     "Washington Sundar",
-     "Harsh Dubey",
-     "Gurnoor Brar",
-     "Prasidh Krishna",
-     "Prince Yadav"
-    ],
-    "Afghanistan": [
-     "Rahmanullah Gurbaz",
-     "Ibrahim Zadran",
-     "Rahmat Shah",
-     "Hashmatullah Shahidi (c)",
-     "Darwish Rasooli",
-     "Azmatullah Omarzai",
-     "Mohammad Nabi",
-     "Rashid Khan",
-     "AM Ghazanfar",
-     "Fareed Ahmad",
-     "Ziaur Rahman"
-    ]
-   },
    "innings": [
     {
      "t": "Afghanistan",
@@ -3913,35 +3855,6 @@
    ],
    "result": "England won by 4 wkts (6b rem)",
    "india": "lost",
-   "seriesNote": "England led the 5-match series 1-0",
-   "xi": {
-    "England": [
-     "Phil Salt",
-     "Jos Buttler",
-     "Harry Brook (c)",
-     "Jacob Bethell",
-     "Tom Banton",
-     "Will Jacks",
-     "Sam Curran",
-     "Jofra Archer",
-     "Liam Dawson",
-     "Adil Rashid",
-     "Josh Tongue"
-    ],
-    "India": [
-     "Abhishek Sharma",
-     "Vaibhav Sooryavanshi",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Shivam Dube",
-     "Tilak Varma",
-     "Axar Patel",
-     "Harshit Rana",
-     "Ravi Bishnoi",
-     "Arshdeep Singh",
-     "Varun Chakravarthy"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -5886,6 +5799,957 @@
    "gender": "women"
   }
  ],
+ "rankings": {
+  "men": {
+   "Test": {
+    "team": [
+     {
+      "no": "1",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "131"
+     },
+     {
+      "no": "2",
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "119"
+     },
+     {
+      "no": "3",
+      "name": "New Zealand",
+      "team": "New Zealand",
+      "rating": "106"
+     },
+     {
+      "no": "4",
+      "name": "India",
+      "team": "India",
+      "rating": "104"
+     },
+     {
+      "no": "5",
+      "name": "England",
+      "team": "England",
+      "rating": "99"
+     },
+     {
+      "no": "6",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "86"
+     },
+     {
+      "no": "7",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "75"
+     },
+     {
+      "no": "8",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "73"
+     },
+     {
+      "no": "9",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "68"
+     },
+     {
+      "no": "10",
+      "name": "Zimbabwe",
+      "team": "Zimbabwe",
+      "rating": "17"
+     }
+    ],
+    "updated": "2026-06-30",
+    "bat": [
+     {
+      "no": "1",
+      "name": "Travis Head",
+      "team": "Australia",
+      "rating": "853"
+     },
+     {
+      "no": "2",
+      "name": "Harry Brook",
+      "team": "England",
+      "rating": "852"
+     },
+     {
+      "no": "3",
+      "name": "Joe Root",
+      "team": "England",
+      "rating": "840"
+     },
+     {
+      "no": "4",
+      "name": "Steve Smith",
+      "team": "Australia",
+      "rating": "831"
+     },
+     {
+      "no": "5",
+      "name": "Temba Bavuma",
+      "team": "South Africa",
+      "rating": "775"
+     },
+     {
+      "no": "6",
+      "name": "Shubman Gill",
+      "team": "India",
+      "rating": "743"
+     },
+     {
+      "no": "7",
+      "name": "Rachin Ravindra",
+      "team": "New Zealand",
+      "rating": "740"
+     },
+     {
+      "no": "8",
+      "name": "Kamindu Mendis",
+      "team": "Sri Lanka",
+      "rating": "737"
+     },
+     {
+      "no": "9",
+      "name": "Yashasvi Jaiswal",
+      "team": "India",
+      "rating": "733"
+     },
+     {
+      "no": "10",
+      "name": "Dinesh Chandimal",
+      "team": "Sri Lanka",
+      "rating": "725"
+     }
+    ],
+    "bowl": [
+     {
+      "no": "1",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "870"
+     },
+     {
+      "no": "2",
+      "name": "Matt Henry",
+      "team": "New Zealand",
+      "rating": "861"
+     },
+     {
+      "no": "3",
+      "name": "Mitchell Starc",
+      "team": "Australia",
+      "rating": "838"
+     },
+     {
+      "no": "4",
+      "name": "Pat Cummins",
+      "team": "Australia",
+      "rating": "832"
+     },
+     {
+      "no": "5",
+      "name": "Marco Jansen",
+      "team": "South Africa",
+      "rating": "825"
+     },
+     {
+      "no": "6",
+      "name": "Scott Boland",
+      "team": "Australia",
+      "rating": "820"
+     },
+     {
+      "no": "7",
+      "name": "Noman Ali",
+      "team": "Pakistan",
+      "rating": "817"
+     },
+     {
+      "no": "8",
+      "name": "Kagiso Rabada",
+      "team": "South Africa",
+      "rating": "807"
+     },
+     {
+      "no": "9",
+      "name": "Josh Hazlewood",
+      "team": "Australia",
+      "rating": "775"
+     },
+     {
+      "no": "10",
+      "name": "Nathan Lyon",
+      "team": "Australia",
+      "rating": "753"
+     }
+    ]
+   },
+   "ODI": {
+    "team": [
+     {
+      "no": "1",
+      "name": "India",
+      "team": "India",
+      "rating": "121"
+     },
+     {
+      "no": "2",
+      "name": "New Zealand",
+      "team": "New Zealand",
+      "rating": "113"
+     },
+     {
+      "no": "3",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "102"
+     },
+     {
+      "no": "4",
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "102"
+     },
+     {
+      "no": "5",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "100"
+     },
+     {
+      "no": "6",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "96"
+     },
+     {
+      "no": "7",
+      "name": "Afghanistan",
+      "team": "Afghanistan",
+      "rating": "90"
+     },
+     {
+      "no": "8",
+      "name": "England",
+      "team": "England",
+      "rating": "89"
+     },
+     {
+      "no": "9",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "84"
+     },
+     {
+      "no": "10",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "73"
+     }
+    ],
+    "updated": "2026-06-23",
+    "bat": [
+     {
+      "no": "1",
+      "name": "Daryl Mitchell",
+      "team": "New Zealand",
+      "rating": "815"
+     },
+     {
+      "no": "2",
+      "name": "Shubman Gill",
+      "team": "India",
+      "rating": "791"
+     },
+     {
+      "no": "3",
+      "name": "Virat Kohli",
+      "team": "India",
+      "rating": "768"
+     },
+     {
+      "no": "4",
+      "name": "Rohit Sharma",
+      "team": "India",
+      "rating": "754"
+     },
+     {
+      "no": "5",
+      "name": "Ibrahim Zadran",
+      "team": "Afghanistan",
+      "rating": "712"
+     },
+     {
+      "no": "6",
+      "name": "Babar Azam",
+      "team": "Pakistan",
+      "rating": "689"
+     },
+     {
+      "no": "7",
+      "name": "Shai Hope",
+      "team": "West Indies",
+      "rating": "683"
+     },
+     {
+      "no": "8",
+      "name": "Harry Tector",
+      "team": "Ireland",
+      "rating": "679"
+     },
+     {
+      "no": "9",
+      "name": "Charith Asalanka",
+      "team": "Sri Lanka",
+      "rating": "659"
+     },
+     {
+      "no": "10",
+      "name": "Harry Brook",
+      "team": "England",
+      "rating": "656"
+     }
+    ],
+    "bowl": [
+     {
+      "no": "1",
+      "name": "Rashid Khan",
+      "team": "Afghanistan",
+      "rating": "682"
+     },
+     {
+      "no": "2",
+      "name": "Abrar Ahmed",
+      "team": "Pakistan",
+      "rating": "675"
+     },
+     {
+      "no": "3",
+      "name": "Jofra Archer",
+      "team": "England",
+      "rating": "649"
+     },
+     {
+      "no": "4",
+      "name": "Keshav Maharaj",
+      "team": "South Africa",
+      "rating": "645"
+     },
+     {
+      "no": "5",
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
+      "rating": "641"
+     },
+     {
+      "no": "6",
+      "name": "Adil Rashid",
+      "team": "England",
+      "rating": "629"
+     },
+     {
+      "no": "7",
+      "name": "Kuldeep Yadav",
+      "team": "India",
+      "rating": "614"
+     },
+     {
+      "no": "8",
+      "name": "Mehidy Hasan Miraz",
+      "team": "Bangladesh",
+      "rating": "604"
+     },
+     {
+      "no": "=",
+      "name": "Shaheen Afridi",
+      "team": "Pakistan",
+      "rating": "604"
+     },
+     {
+      "no": "10",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "599"
+     }
+    ]
+   },
+   "T20I": {
+    "team": [
+     {
+      "no": "1",
+      "name": "India",
+      "team": "India",
+      "rating": "271"
+     },
+     {
+      "no": "2",
+      "name": "England",
+      "team": "England",
+      "rating": "264"
+     },
+     {
+      "no": "3",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "260"
+     },
+     {
+      "no": "4",
+      "name": "New Zealand",
+      "team": "New Zealand",
+      "rating": "247"
+     },
+     {
+      "no": "5",
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "244"
+     },
+     {
+      "no": "6",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "240"
+     },
+     {
+      "no": "7",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "234"
+     },
+     {
+      "no": "8",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "224"
+     },
+     {
+      "no": "9",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "221"
+     },
+     {
+      "no": "10",
+      "name": "Afghanistan",
+      "team": "Afghanistan",
+      "rating": "220"
+     }
+    ],
+    "updated": "2026-06-30",
+    "bat": [
+     {
+      "no": "1",
+      "name": "Ishan Kishan",
+      "team": "India",
+      "rating": "876"
+     },
+     {
+      "no": "2",
+      "name": "Abhishek Sharma",
+      "team": "India",
+      "rating": "869"
+     },
+     {
+      "no": "3",
+      "name": "Sahibzada Farhan",
+      "team": "Pakistan",
+      "rating": "848"
+     },
+     {
+      "no": "4",
+      "name": "Phil Salt",
+      "team": "England",
+      "rating": "792"
+     },
+     {
+      "no": "5",
+      "name": "Pathum Nissanka",
+      "team": "Sri Lanka",
+      "rating": "751"
+     },
+     {
+      "no": "6",
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "747"
+     },
+     {
+      "no": "7",
+      "name": "Jos Buttler",
+      "team": "England",
+      "rating": "716"
+     },
+     {
+      "no": "8",
+      "name": "Suryakumar Yadav",
+      "team": "India",
+      "rating": "708"
+     },
+     {
+      "no": "9",
+      "name": "Mitchell Marsh",
+      "team": "Australia",
+      "rating": "706"
+     },
+     {
+      "no": "10",
+      "name": "Dewald Brevis",
+      "team": "South Africa",
+      "rating": "702"
+     }
+    ],
+    "bowl": [
+     {
+      "no": "1",
+      "name": "Rashid Khan",
+      "team": "Afghanistan",
+      "rating": "753"
+     },
+     {
+      "no": "2",
+      "name": "Abrar Ahmed",
+      "team": "Pakistan",
+      "rating": "736"
+     },
+     {
+      "no": "3",
+      "name": "Varun Chakaravarthy",
+      "team": "India",
+      "rating": "725"
+     },
+     {
+      "no": "4",
+      "name": "Adil Rashid",
+      "team": "England",
+      "rating": "721"
+     },
+     {
+      "no": "5",
+      "name": "Adam Zampa",
+      "team": "Australia",
+      "rating": "700"
+     },
+     {
+      "no": "6",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "688"
+     },
+     {
+      "no": "7",
+      "name": "Nathan Ellis",
+      "team": "Australia",
+      "rating": "675"
+     },
+     {
+      "no": "8",
+      "name": "Corbin Bosch",
+      "team": "South Africa",
+      "rating": "669"
+     },
+     {
+      "no": "9",
+      "name": "Wanindu Hasaranga",
+      "team": "Sri Lanka",
+      "rating": "668"
+     },
+     {
+      "no": "10",
+      "name": "Mujeeb Ur Rahman",
+      "team": "Afghanistan",
+      "rating": "663"
+     }
+    ]
+   }
+  },
+  "women": {
+   "ODI": {
+    "team": [
+     {
+      "no": "1",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "163"
+     },
+     {
+      "no": "2",
+      "name": "England",
+      "team": "England",
+      "rating": "125"
+     },
+     {
+      "no": "3",
+      "name": "India",
+      "team": "India",
+      "rating": "124"
+     },
+     {
+      "no": "4",
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "100"
+     },
+     {
+      "no": "5",
+      "name": "New Zealand",
+      "team": "New Zealand",
+      "rating": "96"
+     },
+     {
+      "no": "6",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "89"
+     },
+     {
+      "no": "7",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "73"
+     },
+     {
+      "no": "8",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "73"
+     },
+     {
+      "no": "9",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "71"
+     },
+     {
+      "no": "10",
+      "name": "Ireland",
+      "team": "Ireland",
+      "rating": "50"
+     }
+    ],
+    "updated": "2026-05-18",
+    "bat": [
+     {
+      "no": "1",
+      "name": "Smriti Mandhana",
+      "team": "India",
+      "rating": "790"
+     },
+     {
+      "no": "2",
+      "name": "Laura Wolvaardt",
+      "team": "South Africa",
+      "rating": "782"
+     },
+     {
+      "no": "3",
+      "name": "Beth Mooney",
+      "team": "Australia",
+      "rating": "744"
+     },
+     {
+      "no": "4",
+      "name": "Phoebe Litchfield",
+      "team": "Australia",
+      "rating": "709"
+     },
+     {
+      "no": "5",
+      "name": "Ashleigh Gardner",
+      "team": "Australia",
+      "rating": "696"
+     },
+     {
+      "no": "6",
+      "name": "Nat Sciver-Brunt",
+      "team": "England",
+      "rating": "693"
+     },
+     {
+      "no": "7",
+      "name": "Maddy Green",
+      "team": "New Zealand",
+      "rating": "685"
+     },
+     {
+      "no": "8",
+      "name": "Harmanpreet Kaur",
+      "team": "India",
+      "rating": "652"
+     },
+     {
+      "no": "9",
+      "name": "Hayley Matthews",
+      "team": "West Indies",
+      "rating": "651"
+     },
+     {
+      "no": "10",
+      "name": "Sidra Amin",
+      "team": "Pakistan",
+      "rating": "643"
+     }
+    ],
+    "bowl": [
+     {
+      "no": "1",
+      "name": "Alana King",
+      "team": "Australia",
+      "rating": "753"
+     },
+     {
+      "no": "2",
+      "name": "Sophie Ecclestone",
+      "team": "England",
+      "rating": "717"
+     },
+     {
+      "no": "3",
+      "name": "Ashleigh Gardner",
+      "team": "Australia",
+      "rating": "715"
+     },
+     {
+      "no": "4",
+      "name": "Hayley Matthews",
+      "team": "West Indies",
+      "rating": "658"
+     },
+     {
+      "no": "5",
+      "name": "Marizanne Kapp",
+      "team": "South Africa",
+      "rating": "650"
+     },
+     {
+      "no": "6",
+      "name": "Annabel Sutherland",
+      "team": "Australia",
+      "rating": "646"
+     },
+     {
+      "no": "7",
+      "name": "Megan Schutt",
+      "team": "Australia",
+      "rating": "624"
+     },
+     {
+      "no": "8",
+      "name": "Kim Garth",
+      "team": "Australia",
+      "rating": "614"
+     },
+     {
+      "no": "=",
+      "name": "Deepti Sharma",
+      "team": "India",
+      "rating": "614"
+     },
+     {
+      "no": "10",
+      "name": "Nahida Akter",
+      "team": "Bangladesh",
+      "rating": "599"
+     }
+    ]
+   },
+   "T20I": {
+    "team": [
+     {
+      "no": "1",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "291"
+     },
+     {
+      "no": "2",
+      "name": "England",
+      "team": "England",
+      "rating": "276"
+     },
+     {
+      "no": "3",
+      "name": "India",
+      "team": "India",
+      "rating": "262"
+     },
+     {
+      "no": "4",
+      "name": "New Zealand",
+      "team": "New Zealand",
+      "rating": "249"
+     },
+     {
+      "no": "5",
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "245"
+     },
+     {
+      "no": "6",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "238"
+     },
+     {
+      "no": "7",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "237"
+     },
+     {
+      "no": "8",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "210"
+     },
+     {
+      "no": "9",
+      "name": "Ireland",
+      "team": "Ireland",
+      "rating": "203"
+     },
+     {
+      "no": "10",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "196"
+     }
+    ],
+    "updated": "2026-06-29",
+    "bat": [
+     {
+      "no": "1",
+      "name": "Georgia Voll",
+      "team": "Australia",
+      "rating": "808"
+     },
+     {
+      "no": "2",
+      "name": "Beth Mooney",
+      "team": "Australia",
+      "rating": "774"
+     },
+     {
+      "no": "=",
+      "name": "Laura Wolvaardt",
+      "team": "South Africa",
+      "rating": "774"
+     },
+     {
+      "no": "4",
+      "name": "Hayley Matthews",
+      "team": "West Indies",
+      "rating": "754"
+     },
+     {
+      "no": "5",
+      "name": "Smriti Mandhana",
+      "team": "India",
+      "rating": "746"
+     },
+     {
+      "no": "6",
+      "name": "Shafali Verma",
+      "team": "India",
+      "rating": "717"
+     },
+     {
+      "no": "7",
+      "name": "Chamari Athapaththu",
+      "team": "Sri Lanka",
+      "rating": "711"
+     },
+     {
+      "no": "8",
+      "name": "Amelia Kerr",
+      "team": "New Zealand",
+      "rating": "696"
+     },
+     {
+      "no": "9",
+      "name": "Tahlia McGrath",
+      "team": "Australia",
+      "rating": "693"
+     },
+     {
+      "no": "10",
+      "name": "Harmanpreet Kaur",
+      "team": "India",
+      "rating": "667"
+     }
+    ],
+    "bowl": [
+     {
+      "no": "1",
+      "name": "Sree Charani",
+      "team": "India",
+      "rating": "759"
+     },
+     {
+      "no": "2",
+      "name": "Charlie Dean",
+      "team": "England",
+      "rating": "726"
+     },
+     {
+      "no": "3",
+      "name": "Sophie Ecclestone",
+      "team": "England",
+      "rating": "723"
+     },
+     {
+      "no": "4",
+      "name": "Lauren Bell",
+      "team": "England",
+      "rating": "719"
+     },
+     {
+      "no": "5",
+      "name": "Nonkululeko Mlaba",
+      "team": "South Africa",
+      "rating": "716"
+     },
+     {
+      "no": "6",
+      "name": "Linsey Smith",
+      "team": "England",
+      "rating": "710"
+     },
+     {
+      "no": "=",
+      "name": "Sadia Iqbal",
+      "team": "Pakistan",
+      "rating": "710"
+     },
+     {
+      "no": "8",
+      "name": "Deepti Sharma",
+      "team": "India",
+      "rating": "703"
+     },
+     {
+      "no": "9",
+      "name": "Nashra Sundhu",
+      "team": "Pakistan",
+      "rating": "693"
+     },
+     {
+      "no": "10",
+      "name": "Annabel Sutherland",
+      "team": "Australia",
+      "rating": "686"
+     }
+    ]
+   }
+  }
+ },
  "meta": {
   "discovered": {}
  }

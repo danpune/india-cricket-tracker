@@ -140,19 +140,51 @@ table.sc{width:100%;border-collapse:collapse;font-size:12px;margin-top:2px}
 .chip.yr{background:var(--blue);color:#fff;font-weight:800;letter-spacing:.5px}
 .card.yearcard{margin-bottom:18px}
 
-/* desktop: use the width — hero on top, tour+season left, schedule right */
+/* rankings */
+.rank3{padding:6px 14px 10px}
+.rank3 .sc{margin-bottom:10px}
+.rank3 .sc .hl td{background:color-mix(in srgb,var(--saffron) 12%,transparent);font-weight:700}
+.rank-note{padding:0 14px 12px;font-size:11px;color:var(--muted)}
+.chip.rk{cursor:pointer;font:inherit;font-size:12.5px}
+.chip.rk.on{background:var(--blue);color:#fff}
+.chip.rk.on b{color:#fff}
+@media(min-width:720px){
+  .rank3{display:grid;grid-template-columns:1fr 1fr 1fr;column-gap:20px}
+}
+
+/* desktop: use the width — hero on top, tour+rankings+season left, schedule right */
 @media(min-width:1080px){
-  .wrap{max-width:1060px}
-  header .wrap{max-width:1060px}
-  #app{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;
-    grid-template-areas:"hero hero" "tour up" "season up";align-items:start}
+  .wrap{max-width:1200px}
+  header .wrap{max-width:1200px}
+  body{font-size:16px}
+  #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
+    grid-template-areas:"hero hero" "tour up" "rank up" "season up";align-items:start}
   .sec-hero{grid-area:hero}
   .sec-tour{grid-area:tour}
+  .sec-rank{grid-area:rank}
   .sec-up{grid-area:up}
   .sec-season{grid-area:season}
   #app>.err{grid-column:1/-1}
-  .hero .teamrow{font-size:23px}
-  .cdwrap{max-width:520px}
+  h2{font-size:13.5px}
+  .hero .teamrow{font-size:25px}
+  .hero .series{font-size:14px}
+  .hero .when,.hero .statusline{font-size:14.5px}
+  .cd-cell b{font-size:28px}
+  .cdwrap{max-width:560px}
+  .mrow{padding:13px 16px;gap:14px}
+  .mrow .when{width:86px;font-size:13px}
+  .mrow .when b{font-size:13.5px}
+  .mrow .mid .no{font-size:15px}
+  .mrow .mid .sub{font-size:13px}
+  .mrow .right{font-size:13.5px}
+  .serieshead .nm{font-size:15px}
+  .serieshead .meta{font-size:13px}
+  .chip{font-size:13.5px}
+  .chip.rk{font-size:13.5px}
+  table.sc{font-size:13px}
+  .fmt{font-size:11px}
+  .dnb,.rank-note{font-size:12px}
+  footer{font-size:13px}
 }
 
 /* footer */
@@ -314,6 +346,37 @@ function histRowHTML(m){
   return expandable(core,m);
 }
 
+/* ---------- rankings ---------- */
+var RANKFMT=localStorage.getItem('rankfmt')||'ODI';
+function setRankFmt(f){RANKFMT=f;localStorage.setItem('rankfmt',f);render();}
+function rankTable(title,rows,isTeam){
+  var h='<div><table class="sc"><tr><th>'+esc(title)+'</th><th>Rating</th></tr>';
+  (rows||[]).forEach(function(r){
+    var ind=norm(r.team)==='India'||norm(r.name)==='India';
+    h+='<tr'+(ind?' class="hl"':'')+'><td class="n">'+esc(r.no)+'. '+
+       (isTeam?flag(r.name)+' ':'')+esc(r.name)+
+       (isTeam?'':' <i>'+esc(norm(r.team))+'</i>')+'</td><td><b>'+esc(r.rating)+'</b></td></tr>';
+  });
+  return h+'</table></div>';
+}
+function rankingsHTML(){
+  var R=DATA.rankings&&DATA.rankings[GENDER==='men'?'men':'women'];
+  if(!R||!Object.keys(R).length)return '';
+  var fmts=['Test','ODI','T20I'].filter(function(f){return R[f];});
+  if(fmts.indexOf(RANKFMT)<0)RANKFMT=fmts[0];
+  var h='<section class="sec-rank"><h2>ICC Rankings</h2>';
+  h+='<div class="chips">'+fmts.map(function(f){
+    var me=(R[f].team||[]).filter(function(x){return norm(x.name)==='India';})[0];
+    return '<button class="chip rk'+(f===RANKFMT?' on':'')+'" onclick="setRankFmt(\''+f+'\')">'+
+      esc(f)+' <b>'+(me?'#'+me.no:'–')+'</b></button>';
+  }).join('')+'</div>';
+  var e=R[RANKFMT];
+  h+='<div class="card"><div class="rank3">'+
+     rankTable('Teams',e.team,true)+rankTable('Batting',e.bat,false)+rankTable('Bowling',e.bowl,false)+
+     '</div><div class="rank-note">Official ICC '+esc(GENDER)+"'s "+esc(RANKFMT)+' rankings · updated '+esc(e.updated||'')+'</div></div></section>';
+  return h;
+}
+
 /* ---------- sections ---------- */
 function render(){
   document.getElementById('btn-men').className=GENDER==='men'?'on':'';
@@ -343,6 +406,8 @@ function render(){
       h+='</div></section>';
     }
   }
+
+  h+=rankingsHTML();
 
   /* schedule: upcoming beyond current tour, grouped by series */
   var upcoming=ms.filter(function(m){return m.state==='pre'&&(!hero||m.seriesId!==hero.seriesId);});

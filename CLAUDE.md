@@ -48,6 +48,17 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - History dedupe key is (date, normalized team set, gender) — cricsheet says "India",
   ESPN says "India Women"; `norm_team()` strips the suffix.
 
+## Rankings
+- Official ICC rankings via the feed icc-cricket.com's own frontend calls (curl-able,
+  no auth beyond the public client id baked into their site):
+  `assets-icc.sportz.io/cricket/v1/ranking?client_id=tPZJbRgIub3Vua93%2FDWtyQ%3D%3D&feed_format=json&lang=en&comp_type={test|odi|t20|odiw|t20w}&type={team|bat|bowl}`
+  Payload: `data["bat-rank"].rank[]` (yes, "bat-rank" for every type). Player rows use
+  `Player-name`/`Country_name`/`Points`; team rows `team_name`/`Rating`.
+  NO women's Test rankings exist (ICC doesn't publish them) — UI omits that chip.
+  Fail-safe: any per-call failure ⇒ keep previous run's rankings verbatim.
+  Found by watching the browser's network tab — espncricinfo.com/rankings and ESPN's
+  rankings API 404 for cricket, and icc-cricket.com serves curl an empty app shell.
+
 ## Scorecards (two sources, one shape)
 - history: `seed_history.py` computes cards from cricsheet ball-by-ball (bowler runs
   exclude byes/legbyes/penalty; run-outs aren't bowler wickets; wides aren't balls faced).
