@@ -8,7 +8,8 @@ the playing XIs, and every international result of the year.
 - **Up next / live** — the current or next India match with a countdown
   (or live score), venue, and playing XIs once the toss is done.
 - **Current tour** — every match of the series in progress, results included.
-- **Coming up** — all announced future tours with dates and venues.
+- **Coming up** — all announced future tours with dates and venues, each with
+  one-tap Google Calendar / iCal adds.
 - **Scorecards** — every finished match expands into the full card: who scored
   (runs and balls, not-outs, who didn't bat) and the bowling figures.
 - **ICC Rankings** — official team rankings per format plus the world top-10

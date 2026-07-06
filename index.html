@@ -142,6 +142,9 @@ table.sc{width:100%;border-collapse:collapse;font-size:12px;margin-top:2px}
 .sc td.n i{color:var(--muted);font-style:normal;font-size:11px;margin-left:5px}
 .dnb{font-size:11px;color:var(--muted);margin-top:6px}
 a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap;margin-left:6px}
+.sub.cal a{color:var(--chakra);text-decoration:none;font-weight:600}
+.sub.cal a:hover,a.hcal:hover{text-decoration:underline}
+a.hcal{color:var(--hero-muted);text-decoration:none;font-weight:700}
 a.yt:hover{text-decoration:underline}
 @media(min-width:720px){
   .inn{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;align-items:start}
@@ -285,7 +288,8 @@ function heroHTML(m){
     var ts=new Date(m.date).getTime();
     h+='<div class="cdwrap" data-ts="'+ts+'">'+
        ['Days','Hrs','Min','Sec'].map(function(l){return '<div class="cd-cell"><b>–</b><span>'+l+'</span></div>';}).join('')+'</div>';
-    h+='<div class="when">🗓 '+esc(dstr(m.date,true))+'</div>';
+    h+='<div class="when">🗓 '+esc(dstr(m.date,true))+
+       ' &nbsp; <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">📅 GCal</a> · <a class="hcal" href="'+icsM(m)+'" download="next-india-match.ics">iCal</a></div>';
   }else if(m.result){
     h+='<div class="resultline">'+esc(m.result)+'</div>';
   }
@@ -321,7 +325,7 @@ function rowHTML(m,opts){
   var chev=(m.innings&&m.innings.length)?'<div class="chev">▾</div>':'';
   var core='<div class="mrow'+(opts.upnext?' upnext':'')+'">'+
     '<div class="when">'+when+'</div>'+
-    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+hlLink(m)+'</div><div class="sub">'+sub+'</div></div>'+
+    '<div class="mid"><div class="no">'+fmtBadge(m.format)+' '+esc(m.matchNo)+hlLink(m)+'</div><div class="sub">'+sub+'</div>'+calLinks(m)+'</div>'+
     '<div class="right">'+right+'</div>'+chev+'</div>';
   return expandable(core,m);
 }
@@ -366,6 +370,35 @@ function histRowHTML(m){
     '<div class="sub res '+resClass(m.india)+'">'+esc(m.result)+'</div></div>'+
     '<div class="right"><div class="sc">'+sc+'</div></div>'+chev+'</div>';
   return expandable(core,m);
+}
+
+/* per-match calendar (pre matches; duration estimated by format) */
+var CAL_HOURS={'T20I':4,'T20':4,'ODI':8.5,'List A':8.5,'Test':7,'FC':7};
+function zstamp(t){return new Date(t).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');}
+function calBits(m){
+  var t0=Date.parse(m.date), t1=t0+(CAL_HOURS[m.format]||4)*3600000;
+  var vs=m.teams.map(function(t){return norm(t.name);}).join(' v ');
+  var title=vs+' \ud83c\udfcf '+m.matchNo;
+  var note=m.series+(m.format==='Test'?' — Day 1 start; Tests run up to 5 days':' — scheduled start');
+  return {t0:t0,t1:t1,title:title,note:note};
+}
+function gcalM(m){
+  var c=calBits(m);
+  return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(c.title)+
+    '&dates='+zstamp(c.t0)+'/'+zstamp(c.t1)+'&details='+encodeURIComponent(c.note)+
+    '&location='+encodeURIComponent(m.venue||'');
+}
+function icsM(m){
+  var c=calBits(m);
+  var v=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:indiacricket','BEGIN:VEVENT',
+    'UID:'+m.id+'@india-cricket-tracker','DTSTART:'+zstamp(c.t0),'DTEND:'+zstamp(c.t1),
+    'SUMMARY:'+c.title.replace(/,/g,''),'LOCATION:'+String(m.venue||'').replace(/,/g,' '),
+    'DESCRIPTION:'+c.note.replace(/,/g,''),'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  return 'data:text/calendar;charset=utf-8,'+encodeURIComponent(v);
+}
+function calLinks(m){
+  if(m.state!=='pre')return '';
+  return '<div class="sub cal"><a target="_blank" rel="noopener" href="'+gcalM(m)+'">\ud83d\udcc5 GCal</a> · <a href="'+icsM(m)+'" download="'+esc((m.matchNo+'-'+m.series).replace(/\W+/g,'-'))+'.ics">iCal</a></div>';
 }
 
 /* ---------- rankings ---------- */

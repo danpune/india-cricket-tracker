@@ -7,7 +7,8 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
   no dependencies, no cookies/tracking/keys). Sections: header → men/women toggle
   (localStorage) → hero (live score or next-match countdown, playing XIs) →
-  current tour → coming up (future series) → results timeline (2025→, grouped by year,
+  current tour (scheduled rows carry 📅 GCal/iCal add-to-calendar links, durations by
+  format: T20I 4h · ODI 8.5h · Test = Day-1 start + note) → coming up (future series) → results timeline (2025→, grouped by year,
   W/L color-coded, 🏆 banner for tournament titles) → footer. Every finished match row
   expands into a full scorecard (batting R/B + dismissal kind, DNB list, bowling O/R/W). Light + dark via prefers-color-scheme.
 - `fetch_data.py` → `data.json` (all matches of known India series: results/live/fixtures,
