@@ -5,7 +5,7 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 
 ## Architecture
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
-  no dependencies, no cookies/tracking/keys). Sections: header → men/women/about toggle
+  no dependencies, no cookies/tracking/keys). Sections: header → men/women/news/about toggle
   (gender persisted in localStorage; About = purpose, sources, non-affiliation, privacy,
   rights-holder contact — mirrors the tennis site's about section) → hero (live score or next-match countdown, playing XIs) →
   current tour (scheduled rows carry 📅 GCal/iCal add-to-calendar links, durations by

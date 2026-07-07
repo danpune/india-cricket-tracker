@@ -243,6 +243,7 @@ footer a{color:var(--chakra);text-decoration:none}
 .err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
 /* narrow phones: keep match rows on as few lines as possible (last = wins) */
 @media(max-width:480px){
+  .toggle button{padding:7px 12px;font-size:12.5px;letter-spacing:.2px}
   .mrow{gap:8px;padding:11px 12px}
   .mrow .when{width:50px}
   .fmt{padding:2px 6px;font-size:10px;letter-spacing:.5px}
@@ -262,6 +263,7 @@ footer a{color:var(--chakra);text-decoration:none}
   <div class="toggle"><div class="seg">
     <button id="btn-men" onclick="setGender('men')">MEN</button>
     <button id="btn-women" onclick="setGender('women')">WOMEN</button>
+    <button id="btn-news" onclick="setGender('news')">🎙 NEWS</button>
     <button id="btn-about" onclick="setGender('about')">ABOUT</button>
   </div></div>
   <div id="app"><div class="err">Loading…</div></div>
@@ -507,7 +509,7 @@ function followingHTML(){
 function newsHTML(){
   var hs=NEWS.headlines||[], talk=NEWS.talk||[];
   if(!hs.length&&!talk.length)return '';
-  var out='<section class="sec-news"><h2>🎙 News & talk</h2><div class="newswrap">';
+  var out='<section class="sec-news"><h2>🎙 News & talk — what the cricket world is saying</h2><div class="newswrap">';
   if(hs.length){
     out+='<div class="card headlines"><div class="serieshead"><div class="nm">Headlines <span class="src">— ESPNcricinfo India feed</span></div></div>';
     hs.slice(0,8).forEach(function(x){
@@ -564,8 +566,13 @@ function render(){
   document.getElementById('btn-men').className=GENDER==='men'?'on':'';
   document.getElementById('btn-women').className=GENDER==='women'?'on':'';
   document.getElementById('btn-about').className=GENDER==='about'?'on':'';
+  document.getElementById('btn-news').className=GENDER==='news'?'on':'';
   var app=document.getElementById('app');
   if(GENDER==='about'){app.innerHTML=aboutHTML();return;}
+  if(GENDER==='news'){
+    app.innerHTML=newsHTML()||'<div class="err">News is loading — try again in a moment.</div>';
+    return;
+  }
   if(!DATA||!HIST){app.innerHTML='<div class="err">Could not load data. Please refresh.</div>';return;}
   var ms=DATA.matches.filter(function(m){return m.gender===GENDER;});
   var hist=HIST.matches.filter(function(m){return m.gender===GENDER;});
@@ -647,7 +654,6 @@ function render(){
     });
     h+='</section>';
   }
-  h+=newsHTML();
   app.innerHTML=h;
   startTicker();
 
@@ -671,7 +677,7 @@ function startTicker(){
   tick();TICK=setInterval(tick,1000);
 }
 
-function setGender(g){GENDER=g;if(g!=='about')localStorage.setItem('gender',g);render();}
+function setGender(g){GENDER=g;if(g==='men'||g==='women')localStorage.setItem('gender',g);render();}
 
 function aboutHTML(){
   return '<section class="sec-about"><div class="card aboutcard">'+
