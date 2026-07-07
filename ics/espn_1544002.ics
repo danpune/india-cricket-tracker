@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1544002@india-cricket-tracker
+DTSTART:20260823T043000Z
+DTEND:20260823T113000Z
+SUMMARY:Sri Lanka v India 🏏 2nd Test
+LOCATION:Sinhalese Sports Club Ground  Colombo
+DESCRIPTION:India tour of Sri Lanka 2026 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

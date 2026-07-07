@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1543896@india-cricket-tracker
+DTSTART:20261220T080000Z
+DTEND:20261220T150000Z
+SUMMARY:South Africa v India 🏏 Only Test
+LOCATION:St George's Park  Gqeberha
+DESCRIPTION:India Women tour of South Africa 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1535653@india-cricket-tracker
+DTSTART:20261018T133000Z
+DTEND:20261018T173000Z
+SUMMARY:India v Zimbabwe 🏏 2nd T20I
+LOCATION:Shaheed Veer Narayan Singh International Stadium  Raipur
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+END:VCALENDAR

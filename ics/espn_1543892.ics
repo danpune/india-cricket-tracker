@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1543892@india-cricket-tracker
+DTSTART:20261206T080000Z
+DTEND:20261206T163000Z
+SUMMARY:South Africa Emerging Players v India 🏏 Tour Match
+LOCATION:Willowmoore Park  Benoni
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+END:VCALENDAR

@@ -144,6 +144,9 @@ table.sc{width:100%;border-collapse:collapse;font-size:12px;margin-top:2px}
 .sc td.n i{color:var(--muted);font-style:normal;font-size:11px;margin-left:5px}
 .dnb{font-size:11px;color:var(--muted);margin-top:6px}
 a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap;margin-left:6px}
+.subscribe{font-size:12.5px;color:var(--muted);margin:0 0 8px 4px}
+.subscribe a{color:var(--chakra);text-decoration:none;font-weight:700}
+.subscribe a:hover{text-decoration:underline}
 .sub.cal a{color:var(--chakra);text-decoration:none;font-weight:600}
 .sub.cal a:hover,a.hcal:hover{text-decoration:underline}
 a.hcal{color:var(--hero-muted);text-decoration:none;font-weight:700}
@@ -361,7 +364,7 @@ function heroHTML(m){
     h+='<div class="cdwrap" data-ts="'+ts+'">'+
        ['Days','Hrs','Min','Sec'].map(function(l){return '<div class="cd-cell"><b>–</b><span>'+l+'</span></div>';}).join('')+'</div>';
     h+='<div class="when">🗓 '+esc(dstr(m.date,true))+
-       ' &nbsp; <span style="white-space:nowrap">📅 <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">GCal</a> · <a class="hcal" href="'+icsM(m)+'" download="next-india-match.ics">iCal</a></span></div>';
+       ' &nbsp; <span style="white-space:nowrap">📅 <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">GCal</a> · <a class="hcal" href="'+icsM(m)+'">iCal</a></span></div>';
     if(m.o)h+='<div class="when odds">📊 Win odds: '+oddsStr(m)+' <span>— Polymarket prices, not betting advice</span></div>';
   }else if(m.result){
     h+='<div class="resultline">'+esc(m.result)+'</div>';
@@ -464,16 +467,18 @@ function gcalM(m){
     '&location='+encodeURIComponent(m.venue||'');
 }
 function icsM(m){
-  var c=calBits(m);
-  var v=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:indiacricket','BEGIN:VEVENT',
-    'UID:'+m.id+'@india-cricket-tracker','DTSTART:'+zstamp(c.t0),'DTEND:'+zstamp(c.t1),
-    'SUMMARY:'+c.title.replace(/,/g,''),'LOCATION:'+String(m.venue||'').replace(/,/g,' '),
-    'DESCRIPTION:'+c.note.replace(/,/g,''),'END:VEVENT','END:VCALENDAR'].join('\r\n');
-  return 'data:text/calendar;charset=utf-8,'+encodeURIComponent(v);
+  /* real file on the server — iOS Safari can't download data: URIs */
+  return 'ics/'+encodeURIComponent(m.id)+'.ics';
+}
+var FEED='danpune.github.io/india-cricket-tracker/ics/';
+function subscribeLinks(){
+  var f=FEED+'india-'+(GENDER==='women'?'women':'men')+'.ics';
+  return '<a target="_blank" rel="noopener" href="webcal://'+f+'">Apple</a> · '+
+         '<a target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid='+encodeURIComponent('https://'+f)+'">Google</a>';
 }
 function calLinks(m){
   if(m.state!=='pre')return '';
-  return '<div class="sub cal"><a target="_blank" rel="noopener" href="'+gcalM(m)+'">\ud83d\udcc5 GCal</a> · <a href="'+icsM(m)+'" download="'+esc((m.matchNo+'-'+m.series).replace(/\W+/g,'-'))+'.ics">iCal</a></div>';
+  return '<div class="sub cal"><a target="_blank" rel="noopener" href="'+gcalM(m)+'">\ud83d\udcc5 GCal</a> · <a href="'+icsM(m)+'">iCal</a></div>';
 }
 
 /* ---------- following ---------- */
@@ -631,7 +636,8 @@ function render(){
   /* schedule: upcoming beyond current tour, grouped by series */
   var upcoming=ms.filter(function(m){return m.state==='pre'&&(!hero||m.seriesId!==hero.seriesId);});
   if(upcoming.length){
-    h+='<section id="schedule" class="sec-up"><h2>Coming up</h2><div class="card">';
+    h+='<section id="schedule" class="sec-up"><h2>Coming up</h2>'+
+       '<div class="subscribe">📆 Every fixture in your calendar, automatically: '+subscribeLinks()+'</div><div class="card">';
     var ugroups=[],lastSid=null;
     upcoming.forEach(function(m){
       if(m.seriesId!==lastSid){lastSid=m.seriesId;ugroups.push({name:m.series,items:[]});}

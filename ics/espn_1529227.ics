@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1529227@india-cricket-tracker
+DTSTART:20260927T083000Z
+DTEND:20260927T170000Z
+SUMMARY:India v West Indies 🏏 1st ODI
+LOCATION:Greenfield International Stadium  Thiruvananthapuram
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+END:VCALENDAR

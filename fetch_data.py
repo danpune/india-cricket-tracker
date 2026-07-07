@@ -115,6 +115,62 @@ def fetch_rankings():
     return out
 
 
+ICS_HOURS = {"T20I": 4, "T20": 4, "ODI": 8.5, "List A": 8.5, "Test": 7, "FC": 7}
+
+
+def ics_stamp(iso):
+    dt = datetime.strptime(iso, "%Y-%m-%dT%H:%MZ")
+    return dt, dt.strftime("%Y%m%dT%H%M00Z")
+
+
+def vevent(m):
+    dt, start = ics_stamp(m["date"])
+    end = (dt + timedelta(hours=ICS_HOURS.get(m["format"], 4))).strftime("%Y%m%dT%H%M00Z")
+    vs = " v ".join(norm_team(t["name"]) for t in m["teams"])
+    note = m["series"] + (" - Day 1 start; Tests run up to 5 days" if m["format"] == "Test" else "")
+    return ["BEGIN:VEVENT", f"UID:{m['id']}@india-cricket-tracker",
+            f"DTSTART:{start}", f"DTEND:{end}",
+            "SUMMARY:" + f"{vs} \U0001F3CF {m['matchNo']}".replace(",", ""),
+            "LOCATION:" + (m.get("venue") or "").replace(",", " "),
+            f"DESCRIPTION:{note}".replace(",", ""), "END:VEVENT"]
+
+
+def write_ics(matches):
+    """Real .ics files (iOS Safari can't download data: URIs) + two subscribable
+    all-fixtures feeds (webcal 'subscribe once, never add a match again')."""
+    icsdir = os.path.join(DIR, "ics")
+    os.makedirs(icsdir, exist_ok=True)
+    keep = set()
+    feeds = {"men": [], "women": []}
+    for m in matches:
+        if m["state"] != "pre":
+            continue
+        try:
+            ev = vevent(m)
+        except Exception:
+            continue
+        feeds[m["gender"]].append(ev)
+        fn = f"{m['id']}.ics"
+        keep.add(fn)
+        body = "\r\n".join(["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:indiacricket"] + ev + ["END:VCALENDAR"])
+        with open(os.path.join(icsdir, fn), "w", newline="") as f:
+            f.write(body)
+    for gender, evs in feeds.items():
+        lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:indiacricket",
+                 f"X-WR-CALNAME:India {gender}'s cricket fixtures",
+                 "X-PUBLISHED-TTL:PT12H"]
+        for ev in evs:
+            lines += ev
+        lines.append("END:VCALENDAR")
+        fn = f"india-{gender}.ics"
+        keep.add(fn)
+        with open(os.path.join(icsdir, fn), "w", newline="") as f:
+            f.write("\r\n".join(lines))
+    for f in os.listdir(icsdir):  # prune played/removed fixtures
+        if f.endswith(".ics") and f not in keep:
+            os.remove(os.path.join(icsdir, f))
+
+
 def stamp_odds(matches, now):
     """Polymarket win prices onto upcoming matches (same approach as the tennis
     tracker). Only unambiguous two-way winner markets: the main event (title has
@@ -417,6 +473,7 @@ def main():
             json.dump(history, f, indent=1)
 
     stamp_odds(matches, now)
+    write_ics(matches)
 
     rankings = fetch_rankings()
     if rankings is None:

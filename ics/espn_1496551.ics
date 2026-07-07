@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1496551@india-cricket-tracker
+DTSTART:20260710T100000Z
+DTEND:20260710T170000Z
+SUMMARY:England v India 🏏 Only Test
+LOCATION:Lord's  London
+DESCRIPTION:India Women tour of England 2026 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

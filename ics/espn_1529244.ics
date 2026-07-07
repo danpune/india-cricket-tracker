@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1529244@india-cricket-tracker
+DTSTART:20270121T040000Z
+DTEND:20270121T110000Z
+SUMMARY:India v Australia 🏏 1st Test
+LOCATION:Vidarbha Cricket Association Stadium  Jamtha  Nagpur
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

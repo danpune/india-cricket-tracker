@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+X-WR-CALNAME:India women's cricket fixtures
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:espn_1496551@india-cricket-tracker
+DTSTART:20260710T100000Z
+DTEND:20260710T170000Z
+SUMMARY:England v India 🏏 Only Test
+LOCATION:Lord's  London
+DESCRIPTION:India Women tour of England 2026 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535652@india-cricket-tracker
+DTSTART:20261016T133000Z
+DTEND:20261016T173000Z
+SUMMARY:India v Zimbabwe 🏏 1st T20I
+LOCATION:Shaheed Veer Narayan Singh International Stadium  Raipur
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535653@india-cricket-tracker
+DTSTART:20261018T133000Z
+DTEND:20261018T173000Z
+SUMMARY:India v Zimbabwe 🏏 2nd T20I
+LOCATION:Shaheed Veer Narayan Singh International Stadium  Raipur
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535654@india-cricket-tracker
+DTSTART:20261020T133000Z
+DTEND:20261020T173000Z
+SUMMARY:India v Zimbabwe 🏏 3rd T20I
+LOCATION:Shaheed Veer Narayan Singh International Stadium  Raipur
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535655@india-cricket-tracker
+DTSTART:20261023T083000Z
+DTEND:20261023T170000Z
+SUMMARY:India v Zimbabwe 🏏 1st ODI
+LOCATION:Kotambi Stadium  Vadodara
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535656@india-cricket-tracker
+DTSTART:20261025T083000Z
+DTEND:20261025T170000Z
+SUMMARY:India v Zimbabwe 🏏 2nd ODI
+LOCATION:Kotambi Stadium  Vadodara
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1535657@india-cricket-tracker
+DTSTART:20261028T083000Z
+DTEND:20261028T170000Z
+SUMMARY:India v Zimbabwe 🏏 3rd ODI
+LOCATION:Kotambi Stadium  Vadodara
+DESCRIPTION:Zimbabwe Women tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1543892@india-cricket-tracker
+DTSTART:20261206T080000Z
+DTEND:20261206T163000Z
+SUMMARY:South Africa Emerging Players v India 🏏 Tour Match
+LOCATION:Willowmoore Park  Benoni
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1543893@india-cricket-tracker
+DTSTART:20261209T120000Z
+DTEND:20261209T203000Z
+SUMMARY:South Africa v India 🏏 1st ODI
+LOCATION:Senwes Park  Potchefstroom
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1543894@india-cricket-tracker
+DTSTART:20261212T080000Z
+DTEND:20261212T163000Z
+SUMMARY:South Africa v India 🏏 2nd ODI
+LOCATION:Mangaung Oval  Bloemfontein
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1543895@india-cricket-tracker
+DTSTART:20261215T120000Z
+DTEND:20261215T203000Z
+SUMMARY:South Africa v India 🏏 3rd ODI
+LOCATION:Newlands  Cape Town
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1543896@india-cricket-tracker
+DTSTART:20261220T080000Z
+DTEND:20261220T150000Z
+SUMMARY:South Africa v India 🏏 Only Test
+LOCATION:St George's Park  Gqeberha
+DESCRIPTION:India Women tour of South Africa 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

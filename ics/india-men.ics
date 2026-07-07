@@ -1,0 +1,358 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+X-WR-CALNAME:India men's cricket fixtures
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:espn_1496576@india-cricket-tracker
+DTSTART:20260707T163000Z
+DTEND:20260707T203000Z
+SUMMARY:England v India 🏏 3rd T20I
+LOCATION:Trent Bridge  Nottingham
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1496577@india-cricket-tracker
+DTSTART:20260709T163000Z
+DTEND:20260709T203000Z
+SUMMARY:England v India 🏏 4th T20I
+LOCATION:County Ground  Bristol
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1496578@india-cricket-tracker
+DTSTART:20260711T133000Z
+DTEND:20260711T173000Z
+SUMMARY:England v India 🏏 5th T20I
+LOCATION:The Rose Bowl  Southampton
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1496579@india-cricket-tracker
+DTSTART:20260714T100000Z
+DTEND:20260714T183000Z
+SUMMARY:England v India 🏏 1st ODI
+LOCATION:Edgbaston  Birmingham
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1496580@india-cricket-tracker
+DTSTART:20260716T120000Z
+DTEND:20260716T203000Z
+SUMMARY:England v India 🏏 2nd ODI
+LOCATION:Sophia Gardens  Cardiff
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1496581@india-cricket-tracker
+DTSTART:20260719T100000Z
+DTEND:20260719T183000Z
+SUMMARY:England v India 🏏 3rd ODI
+LOCATION:Lord's  London
+DESCRIPTION:India tour of England 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1530060@india-cricket-tracker
+DTSTART:20260723T110000Z
+DTEND:20260723T150000Z
+SUMMARY:Zimbabwe v India 🏏 1st T20I
+LOCATION:Harare Sports Club
+DESCRIPTION:India tour of Zimbabwe 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1530061@india-cricket-tracker
+DTSTART:20260725T110000Z
+DTEND:20260725T150000Z
+SUMMARY:Zimbabwe v India 🏏 2nd T20I
+LOCATION:Harare Sports Club
+DESCRIPTION:India tour of Zimbabwe 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1530062@india-cricket-tracker
+DTSTART:20260726T110000Z
+DTEND:20260726T150000Z
+SUMMARY:Zimbabwe v India 🏏 3rd T20I
+LOCATION:Harare Sports Club
+DESCRIPTION:India tour of Zimbabwe 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1544001@india-cricket-tracker
+DTSTART:20260815T043000Z
+DTEND:20260815T113000Z
+SUMMARY:Sri Lanka v India 🏏 1st Test
+LOCATION:Galle International Stadium
+DESCRIPTION:India tour of Sri Lanka 2026 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1544002@india-cricket-tracker
+DTSTART:20260823T043000Z
+DTEND:20260823T113000Z
+SUMMARY:Sri Lanka v India 🏏 2nd Test
+LOCATION:Sinhalese Sports Club Ground  Colombo
+DESCRIPTION:India tour of Sri Lanka 2026 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529241@india-cricket-tracker
+DTSTART:20270103T083000Z
+DTEND:20270103T170000Z
+SUMMARY:India v Zimbabwe 🏏 1st ODI
+LOCATION:Eden Gardens  Kolkata
+DESCRIPTION:Zimbabwe tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529242@india-cricket-tracker
+DTSTART:20270106T083000Z
+DTEND:20270106T170000Z
+SUMMARY:India v Zimbabwe 🏏 2nd ODI
+LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
+DESCRIPTION:Zimbabwe tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529243@india-cricket-tracker
+DTSTART:20270109T083000Z
+DTEND:20270109T170000Z
+SUMMARY:India v Zimbabwe 🏏 3rd ODI
+LOCATION:Wankhede Stadium  Mumbai
+DESCRIPTION:Zimbabwe tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529235@india-cricket-tracker
+DTSTART:20261213T083000Z
+DTEND:20261213T170000Z
+SUMMARY:India v Sri Lanka 🏏 1st ODI
+LOCATION:Arun Jaitley Stadium  Delhi
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529236@india-cricket-tracker
+DTSTART:20261216T083000Z
+DTEND:20261216T170000Z
+SUMMARY:India v Sri Lanka 🏏 2nd ODI
+LOCATION:M.Chinnaswamy Stadium  Bengaluru
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529237@india-cricket-tracker
+DTSTART:20261219T083000Z
+DTEND:20261219T170000Z
+SUMMARY:India v Sri Lanka 🏏 3rd ODI
+LOCATION:Narendra Modi Stadium  Motera  Ahmedabad
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529238@india-cricket-tracker
+DTSTART:20261222T133000Z
+DTEND:20261222T173000Z
+SUMMARY:India v Sri Lanka 🏏 1st T20I
+LOCATION:Niranjan Shah Stadium  Rajkot
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529239@india-cricket-tracker
+DTSTART:20261224T133000Z
+DTEND:20261224T173000Z
+SUMMARY:India v Sri Lanka 🏏 2nd T20I
+LOCATION:Barabati Stadium  Cuttack
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529240@india-cricket-tracker
+DTSTART:20261227T133000Z
+DTEND:20261227T173000Z
+SUMMARY:India v Sri Lanka 🏏 3rd T20I
+LOCATION:Maharashtra Cricket Association Stadium  Pune
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529227@india-cricket-tracker
+DTSTART:20260927T083000Z
+DTEND:20260927T170000Z
+SUMMARY:India v West Indies 🏏 1st ODI
+LOCATION:Greenfield International Stadium  Thiruvananthapuram
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529228@india-cricket-tracker
+DTSTART:20260930T083000Z
+DTEND:20260930T170000Z
+SUMMARY:India v West Indies 🏏 2nd ODI
+LOCATION:Barsapara Cricket Stadium  Guwahati
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529229@india-cricket-tracker
+DTSTART:20261003T083000Z
+DTEND:20261003T170000Z
+SUMMARY:India v West Indies 🏏 3rd ODI
+LOCATION:Maharaja Yadavindra Singh International Cricket Stadium  New Chandigarh
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529230@india-cricket-tracker
+DTSTART:20261006T133000Z
+DTEND:20261006T173000Z
+SUMMARY:India v West Indies 🏏 1st T20I
+LOCATION:Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium  Lucknow
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529231@india-cricket-tracker
+DTSTART:20261009T133000Z
+DTEND:20261009T173000Z
+SUMMARY:India v West Indies 🏏 2nd T20I
+LOCATION:JSCA International Stadium Complex  Ranchi
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529232@india-cricket-tracker
+DTSTART:20261011T133000Z
+DTEND:20261011T173000Z
+SUMMARY:India v West Indies 🏏 3rd T20I
+LOCATION:Holkar Cricket Stadium  Indore
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529233@india-cricket-tracker
+DTSTART:20261014T133000Z
+DTEND:20261014T173000Z
+SUMMARY:India v West Indies 🏏 4th T20I
+LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529234@india-cricket-tracker
+DTSTART:20261017T133000Z
+DTEND:20261017T173000Z
+SUMMARY:India v West Indies 🏏 5th T20I
+LOCATION:M.Chinnaswamy Stadium  Bengaluru
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529244@india-cricket-tracker
+DTSTART:20270121T040000Z
+DTEND:20270121T110000Z
+SUMMARY:India v Australia 🏏 1st Test
+LOCATION:Vidarbha Cricket Association Stadium  Jamtha  Nagpur
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529245@india-cricket-tracker
+DTSTART:20270129T040000Z
+DTEND:20270129T110000Z
+SUMMARY:India v Australia 🏏 2nd Test
+LOCATION:MA Chidambaram Stadium  Chepauk  Chennai
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529246@india-cricket-tracker
+DTSTART:20270211T033000Z
+DTEND:20270211T103000Z
+SUMMARY:India v Australia 🏏 3rd Test
+LOCATION:Barsapara Cricket Stadium  Guwahati
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529247@india-cricket-tracker
+DTSTART:20270219T040000Z
+DTEND:20270219T110000Z
+SUMMARY:India v Australia 🏏 4th Test
+LOCATION:JSCA International Stadium Complex  Ranchi
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539432@india-cricket-tracker
+DTSTART:20261022T070000Z
+DTEND:20261022T110000Z
+SUMMARY:New Zealand v India 🏏 1st T20I
+LOCATION:Hagley Oval  Christchurch
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539433@india-cricket-tracker
+DTSTART:20261024T070000Z
+DTEND:20261024T110000Z
+SUMMARY:New Zealand v India 🏏 2nd T20I
+LOCATION:Hagley Oval  Christchurch
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539434@india-cricket-tracker
+DTSTART:20261027T070000Z
+DTEND:20261027T110000Z
+SUMMARY:New Zealand v India 🏏 3rd T20I
+LOCATION:Hnry Stadium  Wellington
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539435@india-cricket-tracker
+DTSTART:20261030T070000Z
+DTEND:20261030T110000Z
+SUMMARY:New Zealand v India 🏏 4th T20I
+LOCATION:Eden Park  Auckland
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539436@india-cricket-tracker
+DTSTART:20261101T070000Z
+DTEND:20261101T110000Z
+SUMMARY:New Zealand v India 🏏 5th T20I
+LOCATION:Seddon Park  Hamilton
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539437@india-cricket-tracker
+DTSTART:20261104T020000Z
+DTEND:20261104T103000Z
+SUMMARY:New Zealand v India 🏏 1st ODI
+LOCATION:Eden Park  Auckland
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539438@india-cricket-tracker
+DTSTART:20261107T020000Z
+DTEND:20261107T103000Z
+SUMMARY:New Zealand v India 🏏 2nd ODI
+LOCATION:Hnry Stadium  Wellington
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539439@india-cricket-tracker
+DTSTART:20261110T020000Z
+DTEND:20261110T103000Z
+SUMMARY:New Zealand v India 🏏 3rd ODI
+LOCATION:Seddon Park  Hamilton
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539440@india-cricket-tracker
+DTSTART:20261113T020000Z
+DTEND:20261113T103000Z
+SUMMARY:New Zealand v India 🏏 4th ODI
+LOCATION:Bay Oval  Mount Maunganui
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539441@india-cricket-tracker
+DTSTART:20261115T020000Z
+DTEND:20261115T103000Z
+SUMMARY:New Zealand v India 🏏 5th ODI
+LOCATION:Bay Oval  Mount Maunganui
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539442@india-cricket-tracker
+DTSTART:20261118T220000Z
+DTEND:20261119T050000Z
+SUMMARY:New Zealand v India 🏏 1st Test
+LOCATION:Basin Reserve  Wellington
+DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539443@india-cricket-tracker
+DTSTART:20261126T220000Z
+DTEND:20261127T050000Z
+SUMMARY:New Zealand v India 🏏 2nd Test
+LOCATION:Hagley Oval  Christchurch
+DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR
