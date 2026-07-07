@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T18:02:38Z",
+ "updated": "2026-07-07T20:26:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4785,25 +4785,26 @@
    "seriesId": "23810",
    "matchNo": "3rd T20I",
    "venue": "Trent Bridge, Nottingham",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "185/5 (18/20 ov)",
-     "winner": false
+     "score": "201/7",
+     "winner": true
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "76 (11.4/20 ov, target 202)",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "England won by 125 runs",
+   "india": "lost",
+   "seriesNote": "England led the 5-match series 2-0",
    "xi": {
     "England": [
      "Phil Salt",
@@ -4813,9 +4814,9 @@
      "Tom Banton",
      "Sam Curran",
      "Will Jacks",
+     "Jofra Archer",
      "Liam Dawson",
      "Adil Rashid",
-     "Jofra Archer",
      "Josh Tongue"
     ],
     "India": [
@@ -4823,19 +4824,19 @@
      "Vaibhav Sooryavanshi",
      "Ishan Kishan",
      "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Shivam Dube",
      "Axar Patel",
+     "Tilak Varma",
      "Harshit Rana",
+     "Shivam Dube",
      "Arshdeep Singh",
-     "Prince Yadav",
-     "Varun Chakravarthy"
+     "Varun Chakravarthy",
+     "Prince Yadav"
     ]
    },
    "innings": [
     {
      "t": "England",
-     "total": "185/5 (18.0 ov)",
+     "total": "201/7 (20.0 ov)",
      "bat": [
       [
        "Phil Salt",
@@ -4869,30 +4870,34 @@
       ],
       [
        "Sam Curran",
-       32,
-       17,
+       41,
+       24,
        "not out"
       ],
       [
        "Will Jacks",
-       12,
-       4,
+       14,
+       7,
+       "run out"
+      ],
+      [
+       "Jofra Archer",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Liam Dawson",
+       0,
+       0,
        "not out"
       ]
      ],
      "dnb": [
-      "Liam Dawson",
       "Adil Rashid",
-      "Jofra Archer",
       "Josh Tongue"
      ],
      "bowl": [
-      [
-       "Shivam Dube",
-       "1",
-       10,
-       0
-      ],
       [
        "Axar Patel",
        "4",
@@ -4906,22 +4911,127 @@
        2
       ],
       [
-       "Arshdeep Singh",
-       "3",
-       27,
+       "Shivam Dube",
+       "1",
+       10,
        0
       ],
       [
-       "Prince Yadav",
-       "3",
-       23,
-       2
+       "Arshdeep Singh",
+       "4",
+       36,
+       0
       ],
       [
        "Varun Chakravarthy",
        "3",
        35,
        0
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       30,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "76 (11.4 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       10,
+       7,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       13,
+       5,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       13,
+       9,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       5,
+       4,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       10,
+       4,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       3,
+       11,
+       "st"
+      ],
+      [
+       "Harshit Rana",
+       9,
+       13,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       4,
+       4,
+       "c"
+      ],
+      [
+       "Varun Chakravarthy",
+       5,
+       7,
+       "not out"
+      ],
+      [
+       "Prince Yadav",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Will Jacks",
+       "2",
+       5,
+       1
+      ],
+      [
+       "Jofra Archer",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Adil Rashid",
+       "2.4",
+       14,
+       2
+      ],
+      [
+       "Josh Tongue",
+       "4",
+       28,
+       4
       ]
      ]
     }
@@ -4957,8 +5067,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.525,
-    0.475
+    1.0,
+    0.001
    ]
   },
   {
@@ -7040,13 +7150,13 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "271"
+      "rating": "270"
      },
      {
       "no": "2",
       "name": "England",
       "team": "England",
-      "rating": "264"
+      "rating": "265"
      },
      {
       "no": "3",

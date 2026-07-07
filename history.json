@@ -29381,6 +29381,231 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1496576",
+   "date": "2026-07-07",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "matchNo": "3rd T20I",
+   "venue": "Trent Bridge, Nottingham",
+   "city": "",
+   "teams": [
+    {
+     "name": "England",
+     "score": "201/7"
+    },
+    {
+     "name": "India",
+     "score": "76 (11.4/20 ov, target 202)"
+    }
+   ],
+   "result": "England won by 125 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "England",
+     "total": "201/7 (20.0 ov)",
+     "bat": [
+      [
+       "Phil Salt",
+       70,
+       44,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       36,
+       21,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       16,
+       12,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       13,
+       9,
+       "c"
+      ],
+      [
+       "Tom Banton",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Sam Curran",
+       41,
+       24,
+       "not out"
+      ],
+      [
+       "Will Jacks",
+       14,
+       7,
+       "run out"
+      ],
+      [
+       "Jofra Archer",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Liam Dawson",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Adil Rashid",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "4",
+       49,
+       1
+      ],
+      [
+       "Harshit Rana",
+       "4",
+       40,
+       2
+      ],
+      [
+       "Shivam Dube",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Varun Chakravarthy",
+       "3",
+       35,
+       0
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       30,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "76 (11.4 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       10,
+       7,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       13,
+       5,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       13,
+       9,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       5,
+       4,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       10,
+       4,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       3,
+       11,
+       "st"
+      ],
+      [
+       "Harshit Rana",
+       9,
+       13,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       4,
+       4,
+       "c"
+      ],
+      [
+       "Varun Chakravarthy",
+       5,
+       7,
+       "not out"
+      ],
+      [
+       "Prince Yadav",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Will Jacks",
+       "2",
+       5,
+       1
+      ],
+      [
+       "Jofra Archer",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Adil Rashid",
+       "2.4",
+       14,
+       2
+      ],
+      [
+       "Josh Tongue",
+       "4",
+       28,
+       4
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
