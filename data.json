@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T20:26:00Z",
+ "updated": "2026-07-07T21:54:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4804,35 +4804,6 @@
    ],
    "result": "England won by 125 runs",
    "india": "lost",
-   "seriesNote": "England led the 5-match series 2-0",
-   "xi": {
-    "England": [
-     "Phil Salt",
-     "Jos Buttler",
-     "Harry Brook (c)",
-     "Jacob Bethell",
-     "Tom Banton",
-     "Sam Curran",
-     "Will Jacks",
-     "Jofra Archer",
-     "Liam Dawson",
-     "Adil Rashid",
-     "Josh Tongue"
-    ],
-    "India": [
-     "Abhishek Sharma",
-     "Vaibhav Sooryavanshi",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Axar Patel",
-     "Tilak Varma",
-     "Harshit Rana",
-     "Shivam Dube",
-     "Arshdeep Singh",
-     "Varun Chakravarthy",
-     "Prince Yadav"
-    ]
-   },
    "innings": [
     {
      "t": "England",
@@ -5065,11 +5036,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    1.0,
-    0.001
-   ]
+   "india": ""
   },
   {
    "id": "espn_1496551",
@@ -6802,7 +6769,7 @@
       "no": "6",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "86"
+      "rating": "76"
      },
      {
       "no": "7",
@@ -6812,15 +6779,15 @@
      },
      {
       "no": "8",
-      "name": "Bangladesh",
-      "team": "Bangladesh",
-      "rating": "73"
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "74"
      },
      {
       "no": "9",
-      "name": "West Indies",
-      "team": "West Indies",
-      "rating": "68"
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "73"
      },
      {
       "no": "10",
