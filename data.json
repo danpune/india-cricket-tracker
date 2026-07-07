@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T05:41:14Z",
+ "updated": "2026-07-07T09:47:42Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7355,25 +7355,25 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "bat": [
      {
       "no": "1",
-      "name": "Georgia Voll",
+      "name": "Beth Mooney",
       "team": "Australia",
-      "rating": "808"
+      "rating": "785"
      },
      {
       "no": "2",
-      "name": "Beth Mooney",
+      "name": "Georgia Voll",
       "team": "Australia",
-      "rating": "774"
+      "rating": "779"
      },
      {
-      "no": "=",
+      "no": "3",
       "name": "Laura Wolvaardt",
       "team": "South Africa",
-      "rating": "774"
+      "rating": "771"
      },
      {
       "no": "4",
@@ -7409,7 +7409,7 @@
       "no": "9",
       "name": "Tahlia McGrath",
       "team": "Australia",
-      "rating": "693"
+      "rating": "679"
      },
      {
       "no": "10",
@@ -7427,39 +7427,39 @@
      },
      {
       "no": "2",
-      "name": "Charlie Dean",
-      "team": "England",
-      "rating": "726"
-     },
-     {
-      "no": "3",
       "name": "Sophie Ecclestone",
       "team": "England",
       "rating": "723"
      },
      {
-      "no": "4",
-      "name": "Lauren Bell",
+      "no": "3",
+      "name": "Charlie Dean",
       "team": "England",
-      "rating": "719"
+      "rating": "722"
+     },
+     {
+      "no": "4",
+      "name": "Nonkululeko Mlaba",
+      "team": "South Africa",
+      "rating": "718"
      },
      {
       "no": "5",
-      "name": "Nonkululeko Mlaba",
-      "team": "South Africa",
-      "rating": "716"
+      "name": "Lauren Bell",
+      "team": "England",
+      "rating": "712"
      },
      {
       "no": "6",
-      "name": "Linsey Smith",
-      "team": "England",
-      "rating": "710"
-     },
-     {
-      "no": "=",
       "name": "Sadia Iqbal",
       "team": "Pakistan",
       "rating": "710"
+     },
+     {
+      "no": "7",
+      "name": "Linsey Smith",
+      "team": "England",
+      "rating": "704"
      },
      {
       "no": "8",
@@ -7475,9 +7475,9 @@
      },
      {
       "no": "10",
-      "name": "Annabel Sutherland",
-      "team": "Australia",
-      "rating": "686"
+      "name": "Marizanne Kapp",
+      "team": "South Africa",
+      "rating": "681"
      }
     ]
    }
