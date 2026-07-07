@@ -1,0 +1,252 @@
+{
+ "players": [
+  {
+   "name": "Vaibhav Sooryavanshi",
+   "note": "India & Rajasthan Royals",
+   "gender": "men",
+   "pattern": "s[ou]{1,2}ryavanshi",
+   "appearances": [
+    {
+     "date": "2026-03-30",
+     "comp": "IPL",
+     "label": "Match 3",
+     "team": "Rajasthan Royals",
+     "vs": "Chennai Super Kings",
+     "city": "Guwahati",
+     "bat": [
+      52,
+      17,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-04-04",
+     "comp": "IPL",
+     "label": "Match 9",
+     "team": "Rajasthan Royals",
+     "vs": "Gujarat Titans",
+     "city": "Ahmedabad",
+     "bat": [
+      31,
+      18,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-04-07",
+     "comp": "IPL",
+     "label": "Match 13",
+     "team": "Rajasthan Royals",
+     "vs": "Mumbai Indians",
+     "city": "Guwahati",
+     "bat": [
+      39,
+      14,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-04-10",
+     "comp": "IPL",
+     "label": "Match 16",
+     "team": "Rajasthan Royals",
+     "vs": "Royal Challengers Bengaluru",
+     "city": "Guwahati",
+     "bat": [
+      78,
+      26,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-04-13",
+     "comp": "IPL",
+     "label": "Match 21",
+     "team": "Rajasthan Royals",
+     "vs": "Sunrisers Hyderabad",
+     "city": "Hyderabad",
+     "bat": [
+      0,
+      1,
+      "caught"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-04-19",
+     "comp": "IPL",
+     "label": "Match 28",
+     "team": "Rajasthan Royals",
+     "vs": "Kolkata Knight Riders",
+     "city": "Kolkata",
+     "bat": [
+      46,
+      28,
+      "caught"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-04-22",
+     "comp": "IPL",
+     "label": "Match 32",
+     "team": "Rajasthan Royals",
+     "vs": "Lucknow Super Giants",
+     "city": "Lucknow",
+     "bat": [
+      8,
+      11,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-04-25",
+     "comp": "IPL",
+     "label": "Match 36",
+     "team": "Rajasthan Royals",
+     "vs": "Sunrisers Hyderabad",
+     "city": "Jaipur",
+     "bat": [
+      103,
+      37,
+      "lbw"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-04-28",
+     "comp": "IPL",
+     "label": "Match 40",
+     "team": "Rajasthan Royals",
+     "vs": "Punjab Kings",
+     "city": "New Chandigarh",
+     "bat": [
+      43,
+      16,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-05-01",
+     "comp": "IPL",
+     "label": "Match 43",
+     "team": "Rajasthan Royals",
+     "vs": "Delhi Capitals",
+     "city": "Jaipur",
+     "bat": [
+      4,
+      2,
+      "bowled"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-05-09",
+     "comp": "IPL",
+     "label": "Match 52",
+     "team": "Rajasthan Royals",
+     "vs": "Gujarat Titans",
+     "city": "Jaipur",
+     "bat": [
+      36,
+      16,
+      "caught"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-05-17",
+     "comp": "IPL",
+     "label": "Match 62",
+     "team": "Rajasthan Royals",
+     "vs": "Delhi Capitals",
+     "city": "Delhi",
+     "bat": [
+      46,
+      21,
+      "caught"
+     ],
+     "bowl": null,
+     "won": false
+    },
+    {
+     "date": "2026-05-19",
+     "comp": "IPL",
+     "label": "Match 64",
+     "team": "Rajasthan Royals",
+     "vs": "Lucknow Super Giants",
+     "city": "Jaipur",
+     "bat": [
+      93,
+      38,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-05-24",
+     "comp": "IPL",
+     "label": "Match 69",
+     "team": "Rajasthan Royals",
+     "vs": "Mumbai Indians",
+     "city": "Mumbai",
+     "bat": [
+      4,
+      6,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-05-27",
+     "comp": "IPL",
+     "label": "Eliminator",
+     "team": "Rajasthan Royals",
+     "vs": "Sunrisers Hyderabad",
+     "city": "New Chandigarh",
+     "bat": [
+      97,
+      29,
+      "caught"
+     ],
+     "bowl": null,
+     "won": true
+    },
+    {
+     "date": "2026-05-29",
+     "comp": "IPL",
+     "label": "Qualifier 2",
+     "team": "Rajasthan Royals",
+     "vs": "Gujarat Titans",
+     "city": "New Chandigarh",
+     "bat": [
+      96,
+      47,
+      "caught"
+     ],
+     "bowl": null,
+     "won": false
+    }
+   ]
+  }
+ ]
+}

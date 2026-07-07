@@ -66,6 +66,16 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   odds aggregators (key-gated, betting-operator optics), Manifold (ad-hoc coverage,
   play-money — could be a labeled gap-filler someday, not a backbone).
 
+## Following (⭐ player cards)
+- `build_following.py` → `follow.json`: franchise appearances (IPL etc.) computed from
+  cricsheet TEAM archives (rajasthan_royals_json.zip) — one-off, re-run after a season.
+- International appearances are computed CLIENT-SIDE in followingHTML() by regex-scanning
+  the innings/xi of data.json+history.json (stays fresh via the cron, zero extra calls).
+- SPELLING TRAP: ESPN says "Vaibhav Sooryavanshi", cricsheet says "V Suryavanshi" —
+  pattern `s[ou]{1,2}ryavanshi` catches both (the {2} version silently missed cricsheet).
+- To follow another player: add to FOLLOW in build_following.py (name/pattern/gender/
+  note/team-zips), re-run it, done — the UI reads follow.json.
+
 ## Rankings
 - Official ICC rankings via the feed icc-cricket.com's own frontend calls (curl-able,
   no auth beyond the public client id baked into their site):

@@ -178,7 +178,8 @@ a.yt:hover{text-decoration:underline}
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "tour up" "rank up" "season up";align-items:start}
+    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season up";align-items:start}
+  .sec-follow{grid-area:follow}
   .sec-hero{grid-area:hero}
   .sec-tour{grid-area:tour}
   .sec-rank{grid-area:rank}
@@ -256,7 +257,7 @@ footer a{color:var(--chakra);text-decoration:none}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, HL={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, FOLLOW=[], GENDER=localStorage.getItem('gender')||'men', TICK=null;
 function hlLink(m){
   var e=HL[(m.id||'').split('_')[1]];
   if(!e)return '';
@@ -425,6 +426,58 @@ function calLinks(m){
   return '<div class="sub cal"><a target="_blank" rel="noopener" href="'+gcalM(m)+'">\ud83d\udcc5 GCal</a> · <a href="'+icsM(m)+'" download="'+esc((m.matchNo+'-'+m.series).replace(/\W+/g,'-'))+'.ics">iCal</a></div>';
 }
 
+/* ---------- following ---------- */
+function batStr(b){if(!b)return '';return b[0]+(b[2]==='not out'?'*':'')+' ('+b[1]+')';}
+function followingHTML(){
+  var out='';
+  FOLLOW.forEach(function(p){
+    if((p.gender||'men')!==GENDER)return;
+    var re=new RegExp(p.pattern,'i');
+    var apps=(p.appearances||[]).map(function(a){
+      return {date:a.date,label:esc(a.comp)+' '+esc(a.label||''),vs:a.vs,intl:false,bat:a.bat,bowl:a.bowl,won:a.won};
+    });
+    /* internationals: scan matches we already have (stays fresh via the cron) */
+    var seen={},live=null;
+    var pool=DATA.matches.concat(HIST.matches.filter(function(hm){
+      return !DATA.matches.some(function(dm){return dm.id.split('_')[1]===hm.id.split('_')[1];});}));
+    pool.forEach(function(m){
+      var bat=null,bowl=null,inXI=false;
+      (m.innings||[]).forEach(function(inn){
+        (inn.bat||[]).forEach(function(b){if(re.test(b[0]))bat=[b[1],b[2],b[3]];});
+        (inn.bowl||[]).forEach(function(b){if(re.test(b[0]))bowl=[b[1],b[2],b[3]];});
+      });
+      Object.keys(m.xi||{}).forEach(function(t){(m.xi[t]||[]).forEach(function(n){if(re.test(n))inXI=true;});});
+      if((m.state==='pre'||m.state==='in')&&inXI)live=m;
+      if(bat||bowl){
+        var k=m.date.slice(0,10);
+        if(seen[k])return; seen[k]=1;
+        apps.push({date:m.date.slice(0,10),label:esc(m.matchNo),vs:m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'',
+          intl:true,bat:bat,bowl:bowl,won:m.india==='won'});
+      }
+    });
+    if(!apps.length)return;
+    apps.sort(function(a,b){return a.date<b.date?1:-1;});
+    var bats=apps.filter(function(a){return a.bat;});
+    var runs=bats.reduce(function(s,a){return s+a.bat[0];},0);
+    var hs=bats.reduce(function(s,a){return Math.max(s,a.bat[0]);},0);
+    out+='<section class="sec-follow"><h2>⭐ Following</h2><div class="card">';
+    out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+esc(p.note||'')+
+         ' · 2026: <b>'+runs+' runs</b> in '+bats.length+' innings · HS '+hs+'</div></div>';
+    if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
+      fmtBadge(live.format)+' '+esc(live.matchNo)+' '+(live.state==='in'?'· live now':'· '+dstr(live.date,true))+'</div></div></div>';
+    apps.slice(0,12).forEach(function(a){
+      var line=[a.bat?('🏏 '+batStr(a.bat)):null,(a.bowl&&+a.bowl[2]>=0&&a.bowl[0]!=='0')?('⚾ '+a.bowl[2]+'/'+a.bowl[1]+' ('+a.bowl[0]+')'):null].filter(Boolean).join(' · ');
+      out+='<div class="mrow" style="border-left:3px solid var(--'+(a.won===true?'win':a.won===false?'loss':'nr')+')">'+
+        '<div class="when"><b>'+new Date(a.date+'T12:00:00Z').toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
+        '<div class="mid"><div class="no">'+(a.intl?fmtBadge('T20I')+' ':'<span class="fmt other">IPL</span> ')+a.label.replace(/^IPL /,'')+'</div>'+
+        '<div class="sub">'+flag(a.vs)+' vs '+esc(norm(a.vs))+'</div></div>'+
+        '<div class="right"><div class="sc"><b>'+line+'</b></div></div></div>';
+    });
+    out+='</div></section>';
+  });
+  return out;
+}
+
 /* ---------- rankings ---------- */
 var RANKFMT=localStorage.getItem('rankfmt')||'ODI';
 function setRankFmt(f){RANKFMT=f;localStorage.setItem('rankfmt',f);render();}
@@ -489,6 +542,7 @@ function render(){
   }
 
   h+=rankingsHTML();
+  h+=followingHTML();
 
   /* schedule: upcoming beyond current tour, grouped by series */
   var upcoming=ms.filter(function(m){return m.state==='pre'&&(!hero||m.seriesId!==hero.seriesId);});
@@ -614,9 +668,10 @@ fetch('https://abacus.jasoncameron.dev/hit/danpune-india-cricket-tracker/visits'
 Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
   fetch('history.json?v='+Date.now()).then(function(r){return r.json();}),
-  fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
+  fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
+  fetch('follow.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
 ]).then(function(res){
-  DATA=res[0];HIST=res[1];
+  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];
   var hl=(res[2]||{}).highlights||{};
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
