@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T15:30:36Z",
+ "updated": "2026-07-07T18:02:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -264,8 +264,244 @@
      "winner": true
     }
    ],
-   "result": "",
-   "india": "won"
+   "result": "IND Women won by 7 wkts (22b rem)",
+   "india": "won",
+   "xi": {
+    "ECB Development Women's XI": [
+     "Tilly Kesteven",
+     "Liberty Heap",
+     "Ariana Dowse",
+     "Bethan Gammon",
+     "Florence Miller",
+     "Joanne Gardner",
+     "Sophia Smale (c)",
+     "Prisha Thanawala",
+     "Sophie Munro",
+     "Ellie Anderson",
+     "Clara Thaker",
+     "Maria Andrews"
+    ],
+    "India Women": [
+     "Smriti Mandhana (c)",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Bharti Fulmali",
+     "Arundhati Reddy",
+     "Jemimah Rodrigues",
+     "Shreyanka Patil",
+     "Deepti Sharma",
+     "Richa Ghosh",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Nandani Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "ECB Development Women's XI",
+     "total": "154/6 (20.0 ov)",
+     "bat": [
+      [
+       "Tilly Kesteven",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "Liberty Heap",
+       8,
+       6,
+       "not out"
+      ],
+      [
+       "Ariana Dowse",
+       13,
+       17,
+       "not out"
+      ],
+      [
+       "Bethan Gammon",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Florence Miller",
+       48,
+       41,
+       "not out"
+      ],
+      [
+       "Joanne Gardner",
+       36,
+       27,
+       "c"
+      ],
+      [
+       "Sophia Smale",
+       27,
+       18,
+       "not out"
+      ],
+      [
+       "Prisha Thanawala",
+       3,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Sophie Munro",
+      "Ellie Anderson",
+      "Clara Thaker",
+      "Maria Andrews"
+     ],
+     "bowl": [
+      [
+       "Arundhati Reddy",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "3",
+       31,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       23,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       16,
+       1
+      ],
+      [
+       "Shree Charani",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       18,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "200/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       50,
+       25,
+       "retired out"
+      ],
+      [
+       "Yastika Bhatia",
+       47,
+       35,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       48,
+       29,
+       "st"
+      ],
+      [
+       "Arundhati Reddy",
+       20,
+       16,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       2,
+       2,
+       "not out"
+      ],
+      [
+       "Shreyanka Patil",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Deepti Sharma",
+       2,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Kranti Gaud",
+      "Shree Charani",
+      "Renuka Singh",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Sophia Smale",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Prisha Thanawala",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Sophie Munro",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Ellie Anderson",
+       "4",
+       39,
+       2
+      ],
+      [
+       "Clara Thaker",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Maria Andrews",
+       "3",
+       30,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496548",
@@ -4549,14 +4785,14 @@
    "seriesId": "23810",
    "matchNo": "3rd T20I",
    "venue": "Trent Bridge, Nottingham",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "",
+     "score": "185/5 (18/20 ov)",
      "winner": false
     },
     {
@@ -4566,11 +4802,129 @@
      "winner": false
     }
    ],
-   "result": "Starts at 17:30 local time",
+   "result": "India won toss & fielded",
    "india": "",
-   "o": [
-    0.485,
-    0.515
+   "xi": {
+    "England": [
+     "Phil Salt",
+     "Jos Buttler",
+     "Harry Brook (c)",
+     "Jacob Bethell",
+     "Tom Banton",
+     "Sam Curran",
+     "Will Jacks",
+     "Liam Dawson",
+     "Adil Rashid",
+     "Jofra Archer",
+     "Josh Tongue"
+    ],
+    "India": [
+     "Abhishek Sharma",
+     "Vaibhav Sooryavanshi",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Shivam Dube",
+     "Axar Patel",
+     "Harshit Rana",
+     "Arshdeep Singh",
+     "Prince Yadav",
+     "Varun Chakravarthy"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England",
+     "total": "185/5 (18.0 ov)",
+     "bat": [
+      [
+       "Phil Salt",
+       70,
+       44,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       36,
+       21,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       16,
+       12,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       13,
+       9,
+       "c"
+      ],
+      [
+       "Tom Banton",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Sam Curran",
+       32,
+       17,
+       "not out"
+      ],
+      [
+       "Will Jacks",
+       12,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Liam Dawson",
+      "Adil Rashid",
+      "Jofra Archer",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Shivam Dube",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       49,
+       1
+      ],
+      [
+       "Harshit Rana",
+       "4",
+       40,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "3",
+       27,
+       0
+      ],
+      [
+       "Prince Yadav",
+       "3",
+       23,
+       2
+      ],
+      [
+       "Varun Chakravarthy",
+       "3",
+       35,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -4601,7 +4955,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.525,
+    0.475
+   ]
   },
   {
    "id": "espn_1496551",
