@@ -241,6 +241,13 @@ footer{margin:30px 0 40px;text-align:center;font-size:12px;color:var(--muted);li
 footer .about{max-width:560px;margin:0 auto 10px;line-height:1.6}
 footer a{color:var(--chakra);text-decoration:none}
 .err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
+/* narrow phones: keep match rows on as few lines as possible (last = wins) */
+@media(max-width:480px){
+  .mrow{gap:8px;padding:11px 12px}
+  .mrow .when{width:50px}
+  .fmt{padding:2px 6px;font-size:10px;letter-spacing:.5px}
+  .mrow .right{max-width:42%}
+}
 </style>
 </head>
 <body>
@@ -329,7 +336,7 @@ function heroHTML(m){
     h+='<div class="cdwrap" data-ts="'+ts+'">'+
        ['Days','Hrs','Min','Sec'].map(function(l){return '<div class="cd-cell"><b>–</b><span>'+l+'</span></div>';}).join('')+'</div>';
     h+='<div class="when">🗓 '+esc(dstr(m.date,true))+
-       ' &nbsp; <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">📅 GCal</a> · <a class="hcal" href="'+icsM(m)+'" download="next-india-match.ics">iCal</a></div>';
+       ' &nbsp; <span style="white-space:nowrap">📅 <a class="hcal" target="_blank" rel="noopener" href="'+gcalM(m)+'">GCal</a> · <a class="hcal" href="'+icsM(m)+'" download="next-india-match.ics">iCal</a></span></div>';
     if(m.o)h+='<div class="when odds">📊 Win odds: '+oddsStr(m)+' <span>— Polymarket prices, not betting advice</span></div>';
   }else if(m.result){
     h+='<div class="resultline">'+esc(m.result)+'</div>';
@@ -488,7 +495,7 @@ function followingHTML(){
       out+='<div class="mrow" style="border-left:3px solid var(--'+(a.won===true?'win':a.won===false?'loss':'nr')+')">'+
         '<div class="when"><b>'+new Date(a.date+'T12:00:00Z').toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
         '<div class="mid"><div class="no">'+(a.intl?fmtBadge('T20I')+' ':'<span class="fmt other">IPL</span> ')+a.label.replace(/^IPL /,'')+'</div>'+
-        '<div class="sub">'+flag(a.vs)+' vs '+esc(norm(a.vs))+'</div></div>'+
+        '<div class="sub">'+(a.intl?flag(a.vs)+' ':'')+'vs '+esc(norm(a.vs))+'</div></div>'+
         '<div class="right"><div class="sc"><b>'+line+'</b></div></div></div>';
     });
     out+='</div></section>';
