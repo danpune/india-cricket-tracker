@@ -178,8 +178,11 @@ a.yt:hover{text-decoration:underline}
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season up";align-items:start}
+    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season up" "news news";align-items:start}
   .sec-follow{grid-area:follow}
+  .sec-news{grid-area:news}
+  .newswrap{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:start}
+  .newswrap .card{margin-bottom:0}
   .sec-hero{grid-area:hero}
   .sec-tour{grid-area:tour}
   .sec-rank{grid-area:rank}
@@ -207,6 +210,21 @@ a.yt:hover{text-decoration:underline}
   .dnb,.rank-note{font-size:12px}
   footer{font-size:13px}
 }
+
+/* news & talk */
+.newswrap .card{margin-bottom:14px}
+.hrow{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:9px 14px;
+  border-top:1px solid var(--line);text-decoration:none;color:var(--ink);font-size:13.5px}
+.hrow:hover{background:color-mix(in srgb,var(--blue) 4%,transparent)}
+.hrow i{font-style:normal;color:var(--muted);font-size:11px;white-space:nowrap}
+.serieshead .src{font-weight:500;font-size:12px;color:var(--muted)}
+.serieshead .src a{color:var(--chakra);text-decoration:none}
+.vidgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;padding:12px 14px}
+.vid{display:block;text-decoration:none;color:var(--ink)}
+.vid img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:9px;display:block;background:var(--line)}
+.vid span{display:block;font-size:12.5px;font-weight:600;line-height:1.35;margin-top:6px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vid:hover span{color:var(--chakra)}
 
 /* about */
 .aboutcard{max-width:780px;margin:0 auto;padding:10px 26px 22px;font-size:14.5px;line-height:1.65}
@@ -257,7 +275,7 @@ footer a{color:var(--chakra);text-decoration:none}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, HL={}, FOLLOW=[], GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
 function hlLink(m){
   var e=HL[(m.id||'').split('_')[1]];
   if(!e)return '';
@@ -478,6 +496,31 @@ function followingHTML(){
   return out;
 }
 
+/* ---------- news & talk ---------- */
+function newsHTML(){
+  var hs=NEWS.headlines||[], talk=NEWS.talk||[];
+  if(!hs.length&&!talk.length)return '';
+  var out='<section class="sec-news"><h2>🎙 News & talk</h2><div class="newswrap">';
+  if(hs.length){
+    out+='<div class="card headlines"><div class="serieshead"><div class="nm">Headlines <span class="src">— ESPNcricinfo India feed</span></div></div>';
+    hs.slice(0,8).forEach(function(x){
+      out+='<a class="hrow" target="_blank" rel="noopener" href="'+esc(x.u)+'"><span>'+esc(x.t)+'</span><i>'+esc(x.d||'')+'</i></a>';
+    });
+    out+='</div>';
+  }
+  talk.forEach(function(s){
+    out+='<div class="card talkcard"><div class="serieshead"><div class="nm">'+esc(s.channel)+
+      ' <span class="src">— latest from <a target="_blank" rel="noopener" href="https://www.youtube.com/'+esc(s.handle)+'">YouTube</a></span></div></div><div class="vidgrid">';
+    (s.videos||[]).slice(0,6).forEach(function(v){
+      out+='<a class="vid" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v='+esc(v.yt)+'">'+
+        '<img loading="lazy" alt="" src="https://i.ytimg.com/vi/'+esc(v.yt)+'/mqdefault.jpg">'+
+        '<span>'+esc(v.t)+'</span></a>';
+    });
+    out+='</div></div>';
+  });
+  return out+'</div></section>';
+}
+
 /* ---------- rankings ---------- */
 var RANKFMT=localStorage.getItem('rankfmt')||'ODI';
 function setRankFmt(f){RANKFMT=f;localStorage.setItem('rankfmt',f);render();}
@@ -597,6 +640,7 @@ function render(){
     });
     h+='</section>';
   }
+  h+=newsHTML();
   app.innerHTML=h;
   startTicker();
 
@@ -639,6 +683,9 @@ function aboutHTML(){
   '<li><b>📊 Win odds</b> on some upcoming matches — market prices from Polymarket\u2019s public API, '+
   'shown for information only: predictions by market participants, not facts and <b>not betting advice</b>. '+
   'Not affiliated with Polymarket.</li>'+
+  '<li><b>🎙 News &amp; talk</b> — headlines from ESPNcricinfo\u2019s public RSS feed (links to their '+
+  'stories), and the latest videos from commentary channels we like (Cricbuzz, Harsha Bhogle) — links to '+
+  'their YouTube channels, nothing re-hosted.</li>'+
   '<li><b>Everything is open source</b> — the site, the data pipeline and its history live on <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" rel="noopener">GitHub</a>.</li>'+
   '</ul>'+
   '<h3>Not affiliated</h3>'+
@@ -651,7 +698,9 @@ function aboutHTML(){
   'only in your own browser and never leaves it. A simple anonymous visit counter (the free Abacus '+
   'service, also used on the sibling World Cup site) counts page loads to gauge interest — like any web '+
   'request the counter service sees an IP address, but no cookies are set and nothing about you is stored '+
-  'or shown. Odds load from Polymarket\u2019s public API server-side, not from your browser.</p>'+
+  'or shown. Video thumbnails in the News section load from YouTube\u2019s image server; a video itself '+
+  'plays only if you tap through to YouTube. Odds load from Polymarket\u2019s public API server-side, '+
+  'not from your browser.</p>'+
   '<p class="rights">If you represent a rights holder and have a concern about anything shown here, '+
   'please open an issue on the <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" '+
   'rel="noopener">GitHub repository</a> — it will be addressed promptly.</p>'+
@@ -669,9 +718,10 @@ Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
   fetch('history.json?v='+Date.now()).then(function(r){return r.json();}),
   fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
-  fetch('follow.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
+  fetch('follow.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
+  fetch('news.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
 ]).then(function(res){
-  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];
+  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};
   var hl=(res[2]||{}).highlights||{};
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});

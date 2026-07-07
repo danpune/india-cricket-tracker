@@ -66,6 +66,16 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   odds aggregators (key-gated, betting-operator optics), Manifold (ad-hoc coverage,
   play-money — could be a labeled gap-filler someday, not a backbone).
 
+## News & talk
+- `build_news.py` → `news.json`: (a) headlines from ESPNcricinfo's public RSS
+  (`espncricinfo.com/rss/content/story/feeds/6.xml` = India feed — WORKS from curl,
+  unlike their consumer API); (b) latest videos from commentary channels (Cricbuzz
+  UCSRQXk5yErn4e14vN76upOw, Harsha Bhogle UCMdAkUOInD8GSuuacxWd-ag) via the same
+  channel_videos() scrape as highlights — YouTube's RSS feeds (feeds/videos.xml) 404
+  as of 2026, don't try them. Links + thumbnails only, nothing re-hosted; per-source
+  fail-safe keeps the previous section. Gavaskar/Shastri have no own channels — they
+  appear via Cricbuzz shows. Runs in CI with `|| true`.
+
 ## Following (⭐ player cards)
 - `build_following.py` → `follow.json`: franchise appearances (IPL etc.) computed from
   cricsheet TEAM archives (rajasthan_royals_json.zip) — one-off, re-run after a season.

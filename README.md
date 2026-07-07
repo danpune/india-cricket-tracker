@@ -12,6 +12,8 @@ the playing XIs, and every international result of the year.
   one-tap Google Calendar / iCal adds.
 - **Scorecards** — every finished match expands into the full card: who scored
   (runs and balls, not-outs, who didn't bat) and the bowling figures.
+- **🎙 News & talk** — ESPNcricinfo headlines plus the latest from commentary
+  channels (Cricbuzz, Harsha Bhogle), links only, refreshed every 30 minutes.
 - **⭐ Following** — per-player cards merging franchise (IPL) and international
   appearances with per-match batting/bowling lines.
 - **Win odds** on upcoming matches — Polymarket market prices (informational

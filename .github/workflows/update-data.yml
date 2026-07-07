@@ -28,11 +28,14 @@ jobs:
       - name: Fill official highlights (fail-safe — merge-only, ok if YouTube blocks CI)
         run: python build_highlights.py || true
 
+      - name: Refresh news & talk (fail-safe)
+        run: python build_news.py || true
+
       - name: Commit if changed
         run: |
           git config user.name  "cricket-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json history.json highlights.json
+          git add data.json history.json highlights.json news.json
           git diff --staged --quiet || git commit -m "Update data $(date -u +%FT%TZ)"
           git pull --rebase origin main
           git push
