@@ -35,6 +35,8 @@
   }
 }
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:52px}
 body{margin:0;background:var(--bg);color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
@@ -178,7 +180,7 @@ a.yt:hover{text-decoration:underline}
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season up" "news news";align-items:start}
+    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season season" "news news";align-items:start}
   .sec-follow{grid-area:follow}
   .sec-news{grid-area:news}
   .newswrap{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:start}
@@ -241,6 +243,26 @@ footer{margin:30px 0 40px;text-align:center;font-size:12px;color:var(--muted);li
 footer .about{max-width:560px;margin:0 auto 10px;line-height:1.6}
 footer a{color:var(--chakra);text-decoration:none}
 .err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
+/* sticky jump nav */
+#jump{position:sticky;top:0;z-index:40}
+.subnav{display:flex;gap:8px;overflow-x:auto;
+  padding:8px 2px;margin:0 0 4px;background:color-mix(in srgb,var(--bg) 86%,transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);scrollbar-width:none}
+.subnav::-webkit-scrollbar{display:none}
+.subnav a{flex:none;text-decoration:none;color:var(--muted);font-size:12px;font-weight:700;
+  letter-spacing:.4px;padding:5px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.subnav a:hover{color:var(--blue);border-color:var(--blue)}
+
+/* collapsed far schedule + past years */
+details.more>summary,details.yeard>summary{cursor:pointer;list-style:none}
+details.more>summary::-webkit-details-marker,details.yeard>summary::-webkit-details-marker{display:none}
+details.more>summary{padding:12px 14px;font-size:13px;font-weight:700;color:var(--chakra);
+  border-top:1px solid var(--line)}
+details.more>summary:hover{background:color-mix(in srgb,var(--blue) 4%,transparent)}
+details.yeard>summary .chips{margin-bottom:10px}
+.chip.yhint{color:var(--muted);transition:transform .2s}
+details.yeard[open]>summary .yhint{transform:rotate(180deg)}
+
 /* narrow phones: keep match rows on as few lines as possible (last = wins) */
 @media(max-width:480px){
   .toggle button{padding:7px 12px;font-size:12.5px;letter-spacing:.2px}
@@ -266,6 +288,7 @@ footer a{color:var(--chakra);text-decoration:none}
     <button id="btn-news" onclick="setGender('news')">🎙 NEWS</button>
     <button id="btn-about" onclick="setGender('about')">ABOUT</button>
   </div></div>
+  <div id="jump"></div>
   <div id="app"><div class="err">Loading…</div></div>
   <footer>
     <p class="about">A personal, non-commercial fan project for following the Indian cricket teams.
@@ -327,7 +350,7 @@ function oddsStr(m){
 function heroHTML(m){
   var live=m.state==='in';
   var tag=live?'<span class="live-dot"></span>LIVE':(m.state==='pre'?'Up next':'Latest result');
-  var h='<section class="sec-hero"><div class="card hero">';
+  var h='<section id="now" class="sec-hero"><div class="card hero">';
   h+='<div class="tag">'+tag+'</div>';
   h+='<div class="series">'+fmtBadge(m.format)+' &nbsp;'+esc(m.matchNo)+' · '+esc(m.series)+'</div>';
   m.teams.forEach(function(t){h+=teamHTML(t,true);});
@@ -487,7 +510,7 @@ function followingHTML(){
     var bats=apps.filter(function(a){return a.bat;});
     var runs=bats.reduce(function(s,a){return s+a.bat[0];},0);
     var hs=bats.reduce(function(s,a){return Math.max(s,a.bat[0]);},0);
-    out+='<section class="sec-follow"><h2>⭐ Following</h2><div class="card">';
+    out+='<section id="follow" class="sec-follow"><h2>⭐ Following</h2><div class="card">';
     out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+esc(p.note||'')+
          ' · 2026: <b>'+runs+' runs</b> in '+bats.length+' innings · HS '+hs+'</div></div>';
     if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
@@ -548,7 +571,7 @@ function rankingsHTML(){
   if(!R||!Object.keys(R).length)return '';
   var fmts=['Test','ODI','T20I'].filter(function(f){return R[f];});
   if(fmts.indexOf(RANKFMT)<0)RANKFMT=fmts[0];
-  var h='<section class="sec-rank"><h2>ICC Rankings</h2>';
+  var h='<section id="rank" class="sec-rank"><h2>ICC Rankings</h2>';
   h+='<div class="chips">'+fmts.map(function(f){
     var me=(R[f].team||[]).filter(function(x){return norm(x.name)==='India';})[0];
     return '<button class="chip rk'+(f===RANKFMT?' on':'')+'" onclick="setRankFmt(\''+f+'\')">'+
@@ -568,6 +591,7 @@ function render(){
   document.getElementById('btn-about').className=GENDER==='about'?'on':'';
   document.getElementById('btn-news').className=GENDER==='news'?'on':'';
   var app=document.getElementById('app');
+  document.getElementById('jump').innerHTML='';
   if(GENDER==='about'){app.innerHTML=aboutHTML();return;}
   if(GENDER==='news'){
     app.innerHTML=newsHTML()||'<div class="err">News is loading — try again in a moment.</div>';
@@ -582,6 +606,9 @@ function render(){
   var next=ms.filter(function(m){return m.state==='pre';})[0];
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
   var hero=live||next||lastPost;
+  document.getElementById('jump').innerHTML='<nav class="subnav">'+
+    [['now','Now'],['tour','Tour'],['rank','Rankings'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
+    .map(function(x){return '<a href="#'+x[0]+'">'+x[1]+'</a>';}).join('')+'</nav>';
   var h='';
   if(hero)h+=heroHTML(hero);
 
@@ -590,7 +617,7 @@ function render(){
     var tour=ms.filter(function(m){return m.seriesId===hero.seriesId;});
     if(tour.length>1){
       var sname=tour[0].series;
-      h+='<section class="sec-tour"><h2>Current tour</h2><div class="card">';
+      h+='<section id="tour" class="sec-tour"><h2>Current tour</h2><div class="card">';
       var note=tour.map(function(m){return m.seriesNote;}).filter(Boolean).slice(-1)[0];
       h+='<div class="serieshead"><div class="nm">'+esc(sname)+'</div>'+(note?'<div class="meta">'+esc(note)+'</div>':'')+'</div>';
       tour.forEach(function(m){h+=rowHTML(m,{upnext:hero&&m.id===hero.id&&m.state==='pre'});});
@@ -604,40 +631,50 @@ function render(){
   /* schedule: upcoming beyond current tour, grouped by series */
   var upcoming=ms.filter(function(m){return m.state==='pre'&&(!hero||m.seriesId!==hero.seriesId);});
   if(upcoming.length){
-    h+='<section class="sec-up"><h2>Coming up</h2><div class="card">';
-    var lastSid=null;
+    h+='<section id="schedule" class="sec-up"><h2>Coming up</h2><div class="card">';
+    var ugroups=[],lastSid=null;
     upcoming.forEach(function(m){
-      if(m.seriesId!==lastSid){
-        lastSid=m.seriesId;
-        h+='<div class="serieshead"><div class="nm">'+esc(m.series)+'</div></div>';
-      }
-      h+=rowHTML(m);
+      if(m.seriesId!==lastSid){lastSid=m.seriesId;ugroups.push({name:m.series,items:[]});}
+      ugroups[ugroups.length-1].items.push(m);
     });
+    function seriesBlock(g){
+      return '<div class="serieshead"><div class="nm">'+esc(g.name)+'</div></div>'+
+             g.items.map(function(m){return rowHTML(m);}).join('');
+    }
+    ugroups.slice(0,2).forEach(function(g){h+=seriesBlock(g);});
+    if(ugroups.length>2){
+      var rest=ugroups.slice(2);
+      var nM=rest.reduce(function(s,g){return s+g.items.length;},0);
+      h+='<details class="more"><summary>＋ '+rest.length+' more series · '+nM+' matches</summary>'+
+         rest.map(seriesBlock).join('')+'</details>';
+    }
     h+='</div></section>';
   }
 
   /* results, grouped by year (newest first) */
   if(hist.length){
-    h+='<section class="sec-season"><h2>Results</h2>';
+    h+='<section id="results" class="sec-season"><h2>Results</h2>';
     var years=[];
     hist.forEach(function(m){var y=m.date.slice(0,4);if(years.indexOf(y)<0)years.push(y);});
     years.reverse();
-    years.forEach(function(y){
+    years.forEach(function(y,yi){
       var yms=hist.filter(function(m){return m.date.slice(0,4)===y;});
       var W=yms.filter(function(m){return m.india==='won';}).length;
       var L=yms.filter(function(m){return m.india==='lost';}).length;
       var O=yms.length-W-L;
-      h+='<div class="chips"><span class="chip yr">'+y+'</span>'+
+      h+='<details class="yeard"'+(yi===0?' open':'')+'><summary><div class="chips"><span class="chip yr">'+y+'</span>'+
          '<span class="chip">Played <b>'+yms.length+'</b></span>'+
          '<span class="chip">Won <b style="color:var(--win)">'+W+'</b></span>'+
          '<span class="chip">Lost <b style="color:var(--loss)">'+L+'</b></span>'+
-         (O?'<span class="chip">N/R & other <b>'+O+'</b></span>':'')+'</div>';
+         (O?'<span class="chip">N/R & other <b>'+O+'</b></span>':'')+
+         '<span class="chip yhint">▾</span></div></summary>';
       h+='<div class="card yearcard">';
       /* group consecutive matches of the same series, newest first */
       var groups=[];
       yms.forEach(function(m){
+        var nm=m.series.replace(/\s+20\d\d(?:\/\d+)?$/,'');
         var g=groups[groups.length-1];
-        if(!g||g.name!==m.series)groups.push(g={name:m.series,items:[]});
+        if(!g||g.name!==nm)groups.push(g={name:nm,items:[]});
         g.items.push(m);
       });
       groups.reverse();
@@ -650,7 +687,7 @@ function render(){
            '<div class="meta rec">'+w+'W – '+l+'L'+(g.items.length-w-l?' – '+(g.items.length-w-l)+' other':'')+'</div></div>';
         g.items.slice().reverse().forEach(function(m){h+=histRowHTML(m);});
       });
-      h+='</div>';
+      h+='</div></details>';
     });
     h+='</section>';
   }
@@ -739,6 +776,10 @@ Promise.all([
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
   render();
+  if(location.hash){
+    var t=document.getElementById(location.hash.slice(1));
+    if(t)t.scrollIntoView();
+  }
 }).catch(function(){render();});
 </script>
 </body>

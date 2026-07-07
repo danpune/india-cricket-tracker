@@ -5,7 +5,11 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 
 ## Architecture
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
-  no dependencies, no cookies/tracking/keys). Sections: header → men/women/news/about toggle
+  no dependencies, no cookies/tracking/keys). Sections: header → men/women/news/about toggle → sticky jump-nav (#jump wrapper is the
+  sticky element — position:sticky on the nav itself gets trapped in its parent's box;
+  same reason it can't live inside the #app grid) → sections with ids now/tour/rank/
+  follow/schedule/results (scroll-margin-top for the sticky bar; hash deep-links re-fire
+  after async render). Past years + far-future series collapse behind <details>.
   (gender persisted in localStorage; About = purpose, sources, non-affiliation, privacy,
   rights-holder contact — mirrors the tennis site's about section) → hero (live score or next-match countdown, playing XIs) →
   current tour (scheduled rows carry 📅 GCal/iCal add-to-calendar links, durations by
