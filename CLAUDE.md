@@ -5,7 +5,8 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 
 ## Architecture
 - `index.html` — the entire site, self-contained (inline CSS + vanilla JS, system fonts,
-  no dependencies, no cookies/tracking/keys). Sections: header → men/women/news/about toggle → sticky jump-nav (#jump wrapper is the
+  no dependencies, no cookies/tracking/keys). Sections: header → men/women/news/about toggle (tab state lives in the URL hash —
+  #news etc. are shareable deep links; hashchange drives back/forward) → sticky jump-nav (#jump wrapper is the
   sticky element — position:sticky on the nav itself gets trapped in its parent's box;
   same reason it can't live inside the #app grid) → sections with ids now/tour/rank/
   follow/schedule/results (scroll-margin-top for the sticky bar; hash deep-links re-fire

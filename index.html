@@ -311,6 +311,12 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 <script>
 'use strict';
 var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var TABS=['men','women','news','about'];
+if(TABS.indexOf(location.hash.slice(1))>=0)GENDER=location.hash.slice(1);
+window.addEventListener('hashchange',function(){
+  var t=location.hash.slice(1);
+  if(TABS.indexOf(t)>=0&&t!==GENDER)setGender(t);
+});
 function hlLink(m){
   var e=HL[(m.id||'').split('_')[1]];
   if(!e)return '';
@@ -720,7 +726,12 @@ function startTicker(){
   tick();TICK=setInterval(tick,1000);
 }
 
-function setGender(g){GENDER=g;if(g==='men'||g==='women')localStorage.setItem('gender',g);render();}
+function setGender(g){
+  GENDER=g;
+  if(g==='men'||g==='women')localStorage.setItem('gender',g);
+  if(location.hash!=='#'+g)location.hash=g;  /* shareable URL per tab */
+  render();
+}
 
 function aboutHTML(){
   return '<section class="sec-about"><div class="card aboutcard">'+
