@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-08T07:31:01Z",
+ "updated": "2026-07-08T10:21:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6800,7 +6800,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "bat": [
      {
       "no": "1",
@@ -6834,21 +6834,21 @@
      },
      {
       "no": "6",
+      "name": "Kamindu Mendis",
+      "team": "Sri Lanka",
+      "rating": "744"
+     },
+     {
+      "no": "7",
       "name": "Shubman Gill",
       "team": "India",
       "rating": "743"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Rachin Ravindra",
       "team": "New Zealand",
       "rating": "740"
-     },
-     {
-      "no": "8",
-      "name": "Kamindu Mendis",
-      "team": "Sri Lanka",
-      "rating": "737"
      },
      {
       "no": "9",
@@ -6860,7 +6860,7 @@
       "no": "10",
       "name": "Dinesh Chandimal",
       "team": "Sri Lanka",
-      "rating": "725"
+      "rating": "713"
      }
     ],
     "bowl": [
@@ -6989,7 +6989,7 @@
       "rating": "73"
      }
     ],
-    "updated": "2026-06-23",
+    "updated": "2026-07-07",
     "bat": [
      {
       "no": "1",
@@ -7097,15 +7097,15 @@
      },
      {
       "no": "8",
-      "name": "Mehidy Hasan Miraz",
-      "team": "Bangladesh",
-      "rating": "604"
-     },
-     {
-      "no": "=",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "604"
+     },
+     {
+      "no": "9",
+      "name": "Mehidy Hasan Miraz",
+      "team": "Bangladesh",
+      "rating": "600"
      },
      {
       "no": "10",
@@ -7178,19 +7178,19 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "876"
+      "rating": "897"
      },
      {
       "no": "2",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "869"
+      "rating": "881"
      },
      {
       "no": "3",
@@ -7202,7 +7202,7 @@
       "no": "4",
       "name": "Phil Salt",
       "team": "England",
-      "rating": "792"
+      "rating": "798"
      },
      {
       "no": "5",
@@ -7214,18 +7214,18 @@
       "no": "6",
       "name": "Tilak Varma",
       "team": "India",
-      "rating": "747"
+      "rating": "721"
      },
      {
       "no": "7",
       "name": "Jos Buttler",
       "team": "England",
-      "rating": "716"
+      "rating": "709"
      },
      {
       "no": "8",
-      "name": "Suryakumar Yadav",
-      "team": "India",
+      "name": "Jacob Bethell",
+      "team": "England",
       "rating": "708"
      },
      {
@@ -7256,42 +7256,42 @@
      },
      {
       "no": "3",
-      "name": "Varun Chakaravarthy",
-      "team": "India",
-      "rating": "725"
+      "name": "Adil Rashid",
+      "team": "England",
+      "rating": "712"
      },
      {
       "no": "4",
-      "name": "Adil Rashid",
-      "team": "England",
-      "rating": "721"
-     },
-     {
-      "no": "5",
       "name": "Adam Zampa",
       "team": "Australia",
       "rating": "700"
      },
      {
-      "no": "6",
-      "name": "Jasprit Bumrah",
+      "no": "5",
+      "name": "Varun Chakaravarthy",
       "team": "India",
-      "rating": "688"
+      "rating": "697"
      },
      {
-      "no": "7",
+      "no": "6",
       "name": "Nathan Ellis",
       "team": "Australia",
       "rating": "675"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Corbin Bosch",
       "team": "South Africa",
       "rating": "669"
      },
      {
-      "no": "9",
+      "no": "8",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "668"
+     },
+     {
+      "no": "=",
       "name": "Wanindu Hasaranga",
       "team": "Sri Lanka",
       "rating": "668"
