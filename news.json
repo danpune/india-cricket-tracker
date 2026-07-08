@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Muzumdar urges India to 'stay in the present' after T20 World Cup malfunction",
+   "u": "https://www.cricinfo.com/ci/content/story/1544910.html?ex_cid=OTC-RSS",
+   "d": "Wed, 08 Jul 2026"
+  },
+  {
    "t": "Cornered India seek recovery as England eye series win",
    "u": "https://www.cricinfo.com/ci/content/story/1544897.html?ex_cid=OTC-RSS",
    "d": "Wed, 08 Jul 2026"
@@ -44,11 +49,6 @@
    "t": "New-look India in unfamiliar T20I rut",
    "u": "https://www.cricinfo.com/ci/content/story/1544577.html?ex_cid=OTC-RSS",
    "d": "Mon, 06 Jul 2026"
-  },
-  {
-   "t": "Rock and Roll It Podcast: The Vaibhav Sooryavanshi discussion",
-   "u": "https://www.cricinfo.com/ci/content/story/1544462.html?ex_cid=OTC-RSS",
-   "d": "Sun, 05 Jul 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "qMHNbRuNonU",
+     "t": "India humiliated! Bowled out for 76 to suffer their biggest T20I defeat"
+    },
     {
      "yt": "ahi4rbMaQ5s",
      "t": "Match Forecast: England vs India, 3rd T20I"
@@ -75,10 +79,6 @@
     {
      "yt": "4YCw1l5WLIE",
      "t": "'Boss Baby' Sooryavanshi makes history; breaks Sachin Tendulkar's record"
-    },
-    {
-     "yt": "JQQG_wSaF_k",
-     "t": "Match Forecast: Women's T20 WC - ENG W vs AUS W, Final"
     }
    ]
   },
