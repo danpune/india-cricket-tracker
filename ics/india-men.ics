@@ -188,6 +188,14 @@ LOCATION:Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium  Lucknow
 DESCRIPTION:West Indies tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529231@india-cricket-tracker
+DTSTART:20261009T133000Z
+DTEND:20261009T173000Z
+SUMMARY:India v West Indies 🏏 2nd T20I
+LOCATION:JSCA International Stadium Complex  Ranchi
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1529232@india-cricket-tracker
 DTSTART:20261011T133000Z
 DTEND:20261011T173000Z
@@ -248,6 +256,14 @@ UID:espn_1539432@india-cricket-tracker
 DTSTART:20261022T070000Z
 DTEND:20261022T110000Z
 SUMMARY:New Zealand v India 🏏 1st T20I
+LOCATION:Hagley Oval  Christchurch
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539433@india-cricket-tracker
+DTSTART:20261024T070000Z
+DTEND:20261024T110000Z
+SUMMARY:New Zealand v India 🏏 2nd T20I
 LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27
 END:VEVENT
