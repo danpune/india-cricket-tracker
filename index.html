@@ -547,6 +547,7 @@ function newsHTML(){
   if(hs.length){
     out+='<div class="card headlines"><div class="serieshead"><div class="nm">Headlines <span class="src">— ESPNcricinfo India feed</span></div></div>';
     hs.slice(0,8).forEach(function(x){
+      if(!/^https?:\/\//i.test(x.u))return; /* scheme guard: feed data is external */
       out+='<a class="hrow" target="_blank" rel="noopener" href="'+esc(x.u)+'"><span>'+esc(x.t)+'</span><i>'+esc(x.d||'')+'</i></a>';
     });
     out+='</div>';
