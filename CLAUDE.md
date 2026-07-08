@@ -26,6 +26,14 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - `.github/workflows/update-data.yml` — every 30 min, SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).
 
+## Security posture
+- Meta CSP in <head>: default-src 'self'; img-src adds data: + i.ytimg.com (thumbnails);
+  connect-src adds abacus.jasoncameron.dev (counter); script/style 'unsafe-inline'
+  (single-file architecture); object/base/frame 'none'. If a new external host is ever
+  added (fonts, embeds, another API), the CSP must be extended or it will silently block.
+- All API strings pass esc(); external-feed hrefs also scheme-guarded (http/https only);
+  every target=_blank has rel=noopener. Actions SHA-pinned, contents:write only.
+
 ## Data source (free, no key, unofficial — same ESPN family as the tennis tracker)
 - Series discovery: `site.web.api.espn.com/apis/v2/scoreboard/header?sport=cricket&region=in&lang=en`
   shows only leagues with matches ~today → `fetch_data.py` keeps a verified seed list of
