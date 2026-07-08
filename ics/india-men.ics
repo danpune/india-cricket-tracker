@@ -108,54 +108,6 @@ LOCATION:Wankhede Stadium  Mumbai
 DESCRIPTION:Zimbabwe tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1529235@india-cricket-tracker
-DTSTART:20261213T083000Z
-DTEND:20261213T170000Z
-SUMMARY:India v Sri Lanka 🏏 1st ODI
-LOCATION:Arun Jaitley Stadium  Delhi
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529236@india-cricket-tracker
-DTSTART:20261216T083000Z
-DTEND:20261216T170000Z
-SUMMARY:India v Sri Lanka 🏏 2nd ODI
-LOCATION:M.Chinnaswamy Stadium  Bengaluru
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529237@india-cricket-tracker
-DTSTART:20261219T083000Z
-DTEND:20261219T170000Z
-SUMMARY:India v Sri Lanka 🏏 3rd ODI
-LOCATION:Narendra Modi Stadium  Motera  Ahmedabad
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529238@india-cricket-tracker
-DTSTART:20261222T133000Z
-DTEND:20261222T173000Z
-SUMMARY:India v Sri Lanka 🏏 1st T20I
-LOCATION:Niranjan Shah Stadium  Rajkot
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529239@india-cricket-tracker
-DTSTART:20261224T133000Z
-DTEND:20261224T173000Z
-SUMMARY:India v Sri Lanka 🏏 2nd T20I
-LOCATION:Barabati Stadium  Cuttack
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529240@india-cricket-tracker
-DTSTART:20261227T133000Z
-DTEND:20261227T173000Z
-SUMMARY:India v Sri Lanka 🏏 3rd T20I
-LOCATION:Maharashtra Cricket Association Stadium  Pune
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1529227@india-cricket-tracker
 DTSTART:20260927T083000Z
 DTEND:20260927T170000Z
@@ -185,14 +137,6 @@ DTSTART:20261006T133000Z
 DTEND:20261006T173000Z
 SUMMARY:India v West Indies 🏏 1st T20I
 LOCATION:Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium  Lucknow
-DESCRIPTION:West Indies tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529231@india-cricket-tracker
-DTSTART:20261009T133000Z
-DTEND:20261009T173000Z
-SUMMARY:India v West Indies 🏏 2nd T20I
-LOCATION:JSCA International Stadium Complex  Ranchi
 DESCRIPTION:West Indies tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
@@ -256,14 +200,6 @@ UID:espn_1539432@india-cricket-tracker
 DTSTART:20261022T070000Z
 DTEND:20261022T110000Z
 SUMMARY:New Zealand v India 🏏 1st T20I
-LOCATION:Hagley Oval  Christchurch
-DESCRIPTION:India tour of New Zealand 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1539433@india-cricket-tracker
-DTSTART:20261024T070000Z
-DTEND:20261024T110000Z
-SUMMARY:New Zealand v India 🏏 2nd T20I
 LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27
 END:VEVENT
