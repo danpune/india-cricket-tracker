@@ -1,13 +1,13 @@
 {
  "headlines": [
   {
-   "t": "R Sai Kishore signs six-match deal with Gloucestershire",
-   "u": "https://www.cricinfo.com/ci/content/story/1544922.html?ex_cid=OTC-RSS",
-   "d": "Wed, 08 Jul 2026"
-  },
-  {
    "t": "Muzumdar urges India to 'stay in the present' after T20 World Cup malfunction",
    "u": "https://www.cricinfo.com/ci/content/story/1544910.html?ex_cid=OTC-RSS",
+   "d": "Thu, 09 Jul 2026"
+  },
+  {
+   "t": "R Sai Kishore signs six-match deal with Gloucestershire",
+   "u": "https://www.cricinfo.com/ci/content/story/1544922.html?ex_cid=OTC-RSS",
    "d": "Wed, 08 Jul 2026"
   },
   {
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "Kp5pOf_L_CY",
+     "t": "Match Forecast: England vs India, 4th T20I"
+    },
+    {
      "yt": "0kOUdOuxT74",
      "t": "Preview: England vs India, 4th T20I"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "wAk0W4LJdk4",
      "t": "Australia crush England to win record 7th Women\u2019s T20 World Cup | Final Review"
-    },
-    {
-     "yt": "mPHlDJTTMUs",
-     "t": "Bethell guides England to take a 1-0 lead. Where did India lose the plot?"
     }
    ]
   },
