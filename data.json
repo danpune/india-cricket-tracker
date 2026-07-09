@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-09T20:21:00Z",
+ "updated": "2026-07-09T21:59:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5037,35 +5037,6 @@
    ],
    "result": "England won by 9 wkts (37b rem)",
    "india": "lost",
-   "seriesNote": "England led the 5-match series 3-0",
-   "xi": {
-    "England": [
-     "Phil Salt",
-     "Jos Buttler",
-     "Harry Brook (c)",
-     "Jacob Bethell",
-     "Tom Banton",
-     "Will Jacks",
-     "Sam Curran",
-     "Rehan Ahmed",
-     "Jofra Archer",
-     "Adil Rashid",
-     "Josh Tongue"
-    ],
-    "India": [
-     "Vaibhav Sooryavanshi",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Shivam Dube",
-     "Tilak Varma",
-     "Washington Sundar",
-     "Axar Patel",
-     "Prince Yadav",
-     "Arshdeep Singh",
-     "Prasidh Krishna"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -5290,11 +5261,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    1.0,
-    0.001
-   ]
+   "india": ""
   },
   {
    "id": "espn_1496579",
