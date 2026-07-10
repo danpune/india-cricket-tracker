@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T15:14:44Z",
+ "updated": "2026-07-10T17:19:30Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5220,22 +5220,22 @@
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "",
+     "score": "13/1 (7 ov)",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "218/5 (55.1 ov)",
+     "score": "285",
      "winner": false
     }
    ],
-   "result": "ENG Women won toss & fielded",
+   "result": "ENG Women trail by 272 runs",
    "india": "",
    "xi": {
     "England Women": [
-     "Tammy Beaumont",
      "Maia Bouchier",
+     "Tammy Beaumont",
      "Heather Knight",
      "Nat Sciver-Brunt (c)",
      "Alice Capsey",
@@ -5256,14 +5256,14 @@
      "Richa Ghosh",
      "Sneh Rana",
      "Sayali Satghare",
-     "Shree Charani",
-     "Kranti Gaud"
+     "Kranti Gaud",
+     "Shree Charani"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "218/5 (55.1 ov)",
+     "total": "285 (74.5 ov)",
      "bat": [
       [
        "Smriti Mandhana",
@@ -5297,35 +5297,54 @@
       ],
       [
        "Deepti Sharma",
-       18,
-       38,
-       "not out"
+       57,
+       87,
+       "c"
       ],
       [
        "Richa Ghosh",
+       13,
+       12,
+       "c"
+      ],
+      [
+       "Sneh Rana",
+       13,
+       36,
+       "lbw"
+      ],
+      [
+       "Sayali Satghare",
+       1,
+       23,
+       "lbw"
+      ],
+      [
+       "Kranti Gaud",
+       1,
        3,
-       6,
+       "not out"
+      ],
+      [
+       "Shree Charani",
+       3,
+       1,
        "not out"
       ]
      ],
-     "dnb": [
-      "Sneh Rana",
-      "Sayali Satghare",
-      "Shree Charani",
-      "Kranti Gaud"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Mady Villiers",
-       "9.1",
-       30,
-       1
+       "19",
+       79,
+       2
       ],
       [
        "Sophie Ecclestone",
-       "15",
-       59,
-       0
+       "21.5",
+       68,
+       3
       ],
       [
        "Issy Wong",
@@ -5341,8 +5360,56 @@
       ],
       [
        "Lauren Filer",
-       "10",
-       31,
+       "13",
+       40,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "England Women",
+     "total": "13/1 (7.1 ov)",
+     "bat": [
+      [
+       "Maia Bouchier",
+       9,
+       28,
+       "not out"
+      ],
+      [
+       "Tammy Beaumont",
+       2,
+       7,
+       "lbw"
+      ],
+      [
+       "Heather Knight",
+       1,
+       9,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nat Sciver-Brunt",
+      "Alice Capsey",
+      "Amy Jones",
+      "Mady Villiers",
+      "Sophie Ecclestone",
+      "Issy Wong",
+      "Lauren Bell",
+      "Lauren Filer"
+     ],
+     "bowl": [
+      [
+       "Sayali Satghare",
+       "4",
+       9,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "3.1",
+       4,
        1
       ]
      ]
@@ -7637,13 +7704,13 @@
       "no": "9",
       "name": "West Indies",
       "team": "West Indies",
-      "rating": "71"
+      "rating": "72"
      },
      {
       "no": "10",
       "name": "Ireland",
       "team": "Ireland",
-      "rating": "50"
+      "rating": "48"
      }
     ],
     "updated": "2026-05-18",
