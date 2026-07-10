@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "England chase 4-0 as India look to halt historic slump",
+   "u": "https://www.cricinfo.com/ci/content/story/1545114.html?ex_cid=OTC-RSS",
+   "d": "Fri, 10 Jul 2026"
+  },
+  {
    "t": "Chennai locked in to host Renegades vs Scorchers BBL opener",
    "u": "https://www.cricinfo.com/ci/content/story/1544956.html?ex_cid=OTC-RSS",
    "d": "Fri, 10 Jul 2026"
@@ -44,11 +49,6 @@
    "t": "Cornered India seek recovery as England eye series win",
    "u": "https://www.cricinfo.com/ci/content/story/1544897.html?ex_cid=OTC-RSS",
    "d": "Wed, 08 Jul 2026"
-  },
-  {
-   "t": "Gambhir says he has given Samson 'clarity' on omission",
-   "u": "https://www.cricinfo.com/ci/content/story/1544817.html?ex_cid=OTC-RSS",
-   "d": "Wed, 08 Jul 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "YDNdYm1W9fQ",
+     "t": "Preview: England vs India, 5th T20I"
+    },
     {
      "yt": "aOJXeYH9LGg",
      "t": "Match Forecast: England vs India, 5th T20I"
@@ -75,10 +79,6 @@
     {
      "yt": "qMHNbRuNonU",
      "t": "India humiliated! Bowled out for 76 to suffer their biggest T20I defeat"
-    },
-    {
-     "yt": "ahi4rbMaQ5s",
-     "t": "Match Forecast: England vs India, 3rd T20I"
     }
    ]
   },

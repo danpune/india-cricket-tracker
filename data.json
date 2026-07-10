@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T12:27:03Z",
+ "updated": "2026-07-10T15:14:44Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,7 +5215,7 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
@@ -5226,7 +5226,7 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "122/3 (25 ov)",
+     "score": "218/5 (55.1 ov)",
      "winner": false
     }
    ],
@@ -5252,8 +5252,8 @@
      "Yastika Bhatia",
      "Jemimah Rodrigues",
      "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
      "Deepti Sharma",
+     "Richa Ghosh",
      "Sneh Rana",
      "Sayali Satghare",
      "Shree Charani",
@@ -5263,13 +5263,13 @@
    "innings": [
     {
      "t": "India Women",
-     "total": "121/3 (24.3 ov)",
+     "total": "218/5 (55.1 ov)",
      "bat": [
       [
        "Smriti Mandhana",
-       56,
-       67,
-       "not out"
+       83,
+       108,
+       "c"
       ],
       [
        "Shafali Verma",
@@ -5291,14 +5291,24 @@
       ],
       [
        "Harmanpreet Kaur",
-       13,
-       22,
+       58,
+       121,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       18,
+       38,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       3,
+       6,
        "not out"
       ]
      ],
      "dnb": [
-      "Richa Ghosh",
-      "Deepti Sharma",
       "Sneh Rana",
       "Sayali Satghare",
       "Shree Charani",
@@ -5306,27 +5316,33 @@
      ],
      "bowl": [
       [
+       "Mady Villiers",
+       "9.1",
+       30,
+       1
+      ],
+      [
        "Sophie Ecclestone",
-       "8",
-       36,
+       "15",
+       59,
        0
       ],
       [
        "Issy Wong",
-       "6",
-       29,
-       1
+       "12",
+       41,
+       2
       ],
       [
        "Lauren Bell",
-       "5",
-       35,
+       "9",
+       50,
        1
       ],
       [
        "Lauren Filer",
-       "5.3",
-       18,
+       "10",
+       31,
        1
       ]
      ]
