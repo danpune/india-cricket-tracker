@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T19:02:54Z",
+ "updated": "2026-07-10T20:50:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5230,12 +5230,12 @@
      "winner": false
     }
    ],
-   "result": "ENG Women won toss & fielded",
+   "result": "ENG Women trail by 264 runs",
    "india": "",
    "xi": {
     "England Women": [
-     "Tammy Beaumont",
      "Maia Bouchier",
+     "Tammy Beaumont",
      "Heather Knight",
      "Nat Sciver-Brunt (c)",
      "Alice Capsey",
@@ -5256,14 +5256,14 @@
      "Richa Ghosh",
      "Sneh Rana",
      "Sayali Satghare",
-     "Shree Charani",
-     "Kranti Gaud"
+     "Kranti Gaud",
+     "Shree Charani"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "271/6 (66.0 ov)",
+     "total": "285 (74.5 ov)",
      "bat": [
       [
        "Smriti Mandhana",
@@ -5297,9 +5297,9 @@
       ],
       [
        "Deepti Sharma",
-       49,
-       68,
-       "not out"
+       57,
+       87,
+       "c"
       ],
       [
        "Richa Ghosh",
@@ -5309,28 +5309,42 @@
       ],
       [
        "Sneh Rana",
-       12,
-       29,
+       13,
+       36,
+       "lbw"
+      ],
+      [
+       "Sayali Satghare",
+       1,
+       23,
+       "lbw"
+      ],
+      [
+       "Kranti Gaud",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Shree Charani",
+       3,
+       1,
        "not out"
       ]
      ],
-     "dnb": [
-      "Sayali Satghare",
-      "Shree Charani",
-      "Kranti Gaud"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Mady Villiers",
-       "15",
-       72,
-       1
+       "19",
+       79,
+       2
       ],
       [
        "Sophie Ecclestone",
-       "17",
-       61,
-       0
+       "21.5",
+       68,
+       3
       ],
       [
        "Issy Wong",
@@ -5349,6 +5363,60 @@
        "13",
        40,
        2
+      ]
+     ]
+    },
+    {
+     "t": "England Women",
+     "total": "21/1 (11.0 ov)",
+     "bat": [
+      [
+       "Maia Bouchier",
+       17,
+       40,
+       "not out"
+      ],
+      [
+       "Tammy Beaumont",
+       2,
+       7,
+       "lbw"
+      ],
+      [
+       "Heather Knight",
+       1,
+       20,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nat Sciver-Brunt",
+      "Alice Capsey",
+      "Amy Jones",
+      "Mady Villiers",
+      "Sophie Ecclestone",
+      "Issy Wong",
+      "Lauren Bell",
+      "Lauren Filer"
+     ],
+     "bowl": [
+      [
+       "Sneh Rana",
+       "1",
+       0,
+       0
+      ],
+      [
+       "Sayali Satghare",
+       "5",
+       13,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "5",
+       8,
+       1
       ]
      ]
     }
