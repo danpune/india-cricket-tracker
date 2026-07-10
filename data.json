@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T09:40:23Z",
+ "updated": "2026-07-10T12:27:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5213,9 +5213,9 @@
    "seriesId": "23814",
    "matchNo": "Only Test",
    "venue": "Lord's, London",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "England Women",
@@ -5226,7 +5226,7 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "122/3 (25 ov)",
      "winner": false
     }
    ],
@@ -5250,8 +5250,8 @@
      "Smriti Mandhana",
      "Shafali Verma",
      "Yastika Bhatia",
-     "Harmanpreet Kaur (c)",
      "Jemimah Rodrigues",
+     "Harmanpreet Kaur (c)",
      "Richa Ghosh",
      "Deepti Sharma",
      "Sneh Rana",
@@ -5259,7 +5259,79 @@
      "Shree Charani",
      "Kranti Gaud"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "121/3 (24.3 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       56,
+       67,
+       "not out"
+      ],
+      [
+       "Shafali Verma",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Yastika Bhatia",
+       12,
+       17,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       35,
+       38,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       13,
+       22,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Deepti Sharma",
+      "Sneh Rana",
+      "Sayali Satghare",
+      "Shree Charani",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Sophie Ecclestone",
+       "8",
+       36,
+       0
+      ],
+      [
+       "Issy Wong",
+       "6",
+       29,
+       1
+      ],
+      [
+       "Lauren Bell",
+       "5",
+       35,
+       1
+      ],
+      [
+       "Lauren Filer",
+       "5.3",
+       18,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1496578",

@@ -6,6 +6,11 @@
    "d": "Fri, 10 Jul 2026"
   },
   {
+   "t": "India and England turn to whites as Lord's gears up for a historic first",
+   "u": "https://www.cricinfo.com/ci/content/story/1544985.html?ex_cid=OTC-RSS",
+   "d": "Fri, 10 Jul 2026"
+  },
+  {
    "t": "Brook targets England No.1 ranking after sealing series win",
    "u": "https://www.cricinfo.com/ci/content/story/1545058.html?ex_cid=OTC-RSS",
    "d": "Thu, 09 Jul 2026"
@@ -18,11 +23,6 @@
   {
    "t": "Varun, Harshit Rana out of rest of T20I series against England",
    "u": "https://www.cricinfo.com/ci/content/story/1545020.html?ex_cid=OTC-RSS",
-   "d": "Thu, 09 Jul 2026"
-  },
-  {
-   "t": "India and England turn to whites as Lord's gears up for a historic first",
-   "u": "https://www.cricinfo.com/ci/content/story/1544985.html?ex_cid=OTC-RSS",
    "d": "Thu, 09 Jul 2026"
   },
   {
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "aOJXeYH9LGg",
+     "t": "Match Forecast: England vs India, 5th T20I"
+    },
+    {
      "yt": "q23sjJVcOCc",
      "t": "India humbled; suffer crushing T20I series defeat"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "ahi4rbMaQ5s",
      "t": "Match Forecast: England vs India, 3rd T20I"
-    },
-    {
-     "yt": "kOLVneCEubo",
-     "t": "Preview: England vs India, 3rd T20I"
     }
    ]
   },
