@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T18:27:22Z",
+ "updated": "2026-07-11T19:44:11Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5568,35 +5568,6 @@
    ],
    "result": "England won by 56 runs",
    "india": "lost",
-   "seriesNote": "England won the 5-match series 4-0",
-   "xi": {
-    "England": [
-     "Phil Salt",
-     "Jos Buttler",
-     "Harry Brook (c)",
-     "Jacob Bethell",
-     "Will Jacks",
-     "Tom Banton",
-     "Sam Curran",
-     "Liam Dawson",
-     "Jofra Archer",
-     "Adil Rashid",
-     "Josh Tongue"
-    ],
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Shivam Dube",
-     "Suryansh Shedge",
-     "Axar Patel",
-     "Arshdeep Singh",
-     "Prasidh Krishna",
-     "Prince Yadav"
-    ]
-   },
    "innings": [
     {
      "t": "England",
