@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T12:29:32Z",
+ "updated": "2026-07-11T14:04:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "137/5 (40 ov)",
+     "score": "170/10 (59.1 ov)",
      "winner": false
     },
     {
@@ -5230,7 +5230,7 @@
      "winner": false
     }
    ],
-   "result": "ENG Women trail by 148 runs",
+   "result": "ENG Women trail by 143 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5368,7 +5368,7 @@
     },
     {
      "t": "England Women",
-     "total": "137/5 (40.0 ov)",
+     "total": "142/6 (42.1 ov)",
      "bat": [
       [
        "Maia Bouchier",
@@ -5390,9 +5390,9 @@
       ],
       [
        "Nat Sciver-Brunt",
-       39,
-       74,
-       "not out"
+       44,
+       85,
+       "lbw"
       ],
       [
        "Alice Capsey",
@@ -5409,12 +5409,17 @@
       [
        "Mady Villiers",
        5,
-       7,
+       8,
+       "not out"
+      ],
+      [
+       "Sophie Ecclestone",
+       0,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Sophie Ecclestone",
       "Issy Wong",
       "Lauren Bell",
       "Lauren Filer"
@@ -5422,8 +5427,8 @@
      "bowl": [
       [
        "Deepti Sharma",
-       "2",
-       0,
+       "3.1",
+       1,
        0
       ],
       [
@@ -5440,9 +5445,9 @@
       ],
       [
        "Kranti Gaud",
-       "10",
-       25,
-       3
+       "11",
+       29,
+       4
       ],
       [
        "Shree Charani",
@@ -5464,14 +5469,14 @@
    "seriesId": "23810",
    "matchNo": "5th T20I",
    "venue": "The Rose Bowl, Southampton",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "",
+     "score": "3/0 (0.4/20 ov)",
      "winner": false
     },
     {
@@ -5481,11 +5486,74 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:30 local time",
+   "result": "India won toss & fielded",
    "india": "",
-   "o": [
-    0.535,
-    0.465
+   "xi": {
+    "England": [
+     "Phil Salt",
+     "Jos Buttler",
+     "Harry Brook (c)",
+     "Jacob Bethell",
+     "Tom Banton",
+     "Will Jacks",
+     "Sam Curran",
+     "Liam Dawson",
+     "Jofra Archer",
+     "Adil Rashid",
+     "Josh Tongue"
+    ],
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Shivam Dube",
+     "Tilak Varma",
+     "Suryansh Shedge",
+     "Axar Patel",
+     "Prince Yadav",
+     "Arshdeep Singh",
+     "Prasidh Krishna"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England",
+     "total": "3/0 (0.3 ov)",
+     "bat": [
+      [
+       "Phil Salt",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Jos Buttler",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Harry Brook",
+      "Jacob Bethell",
+      "Tom Banton",
+      "Will Jacks",
+      "Sam Curran",
+      "Liam Dawson",
+      "Jofra Archer",
+      "Adil Rashid",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Arshdeep Singh",
+       "0.4",
+       3,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -5516,7 +5584,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.56,
+    0.44
+   ]
   },
   {
    "id": "espn_1496580",
@@ -6501,36 +6573,6 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1543892",
-   "eventId": "1543892",
-   "date": "2026-12-06T08:00Z",
-   "gender": "women",
-   "format": "List A",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "Tour Match",
-   "venue": "Willowmoore Park, Benoni",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Emerging Players Women",
-     "abbr": "SAW-E",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
