@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T09:59:03Z",
+ "updated": "2026-07-11T11:14:12Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "21/1 (11 ov)",
+     "score": "95/4 (27 ov)",
      "winner": false
     },
     {
@@ -5452,8 +5452,8 @@
    "result": "Starts at 14:30 local time",
    "india": "",
    "o": [
-    0.545,
-    0.455
+    0.535,
+    0.465
    ]
   },
   {
@@ -6469,36 +6469,6 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1543892",
-   "eventId": "1543892",
-   "date": "2026-12-06T08:00Z",
-   "gender": "women",
-   "format": "List A",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "Tour Match",
-   "venue": "Willowmoore Park, Benoni",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Emerging Players Women",
-     "abbr": "SAW-E",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
