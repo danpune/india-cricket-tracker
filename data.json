@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T17:01:03Z",
+ "updated": "2026-07-11T18:27:22Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,7 +5215,7 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "England Women",
@@ -5226,11 +5226,11 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "285 & 127/1 (33.3 ov)",
+     "score": "285 & 154/1 (42 ov)",
      "winner": false
     }
    ],
-   "result": "IND Women lead by 145 runs",
+   "result": "IND Women lead by 269 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5473,23 +5473,28 @@
     },
     {
      "t": "India Women",
-     "total": "30/0 (9.0 ov)",
+     "total": "154/1 (42.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
-       10,
-       30,
+       69,
+       124,
        "not out"
       ],
       [
        "Shafali Verma",
-       14,
-       25,
+       33,
+       55,
+       "c"
+      ],
+      [
+       "Yastika Bhatia",
+       39,
+       73,
        "not out"
       ]
      ],
      "dnb": [
-      "Yastika Bhatia",
       "Jemimah Rodrigues",
       "Harmanpreet Kaur",
       "Deepti Sharma",
@@ -5501,27 +5506,33 @@
      ],
      "bowl": [
       [
-       "Sophie Ecclestone",
-       "1",
-       9,
+       "Mady Villiers",
+       "8",
+       31,
        0
       ],
       [
+       "Sophie Ecclestone",
+       "12",
+       46,
+       1
+      ],
+      [
        "Issy Wong",
-       "1.1",
-       0,
+       "7",
+       30,
        0
       ],
       [
        "Lauren Bell",
-       "5",
-       6,
+       "11",
+       16,
        0
       ],
       [
        "Lauren Filer",
-       "2",
-       9,
+       "4",
+       19,
        0
       ]
      ]
@@ -5538,25 +5549,26 @@
    "seriesId": "23810",
    "matchNo": "5th T20I",
    "venue": "The Rose Bowl, Southampton",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
      "score": "257/3",
-     "winner": false
+     "winner": true
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "129/3 (12.1/20 ov, target 258)",
+     "score": "201/8 (20 ov, target 258)",
      "winner": false
     }
    ],
-   "result": "India require 128 runs",
-   "india": "",
+   "result": "England won by 56 runs",
+   "india": "lost",
+   "seriesNote": "England won the 5-match series 4-0",
    "xi": {
     "England": [
      "Phil Salt",
@@ -5580,9 +5592,9 @@
      "Shivam Dube",
      "Suryansh Shedge",
      "Axar Patel",
-     "Prince Yadav",
      "Arshdeep Singh",
-     "Prasidh Krishna"
+     "Prasidh Krishna",
+     "Prince Yadav"
     ]
    },
    "innings": [
@@ -5649,12 +5661,6 @@
        0
       ],
       [
-       "Prince Yadav",
-       "4",
-       60,
-       0
-      ],
-      [
        "Arshdeep Singh",
        "4",
        33,
@@ -5665,12 +5671,18 @@
        "4",
        38,
        1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       60,
+       0
       ]
      ]
     },
     {
      "t": "India",
-     "total": "130/3 (12.2 ov)",
+     "total": "201/8 (20.0 ov)",
      "bat": [
       [
        "Sanju Samson",
@@ -5687,8 +5699,8 @@
       [
        "Ishan Kishan",
        56,
-       34,
-       "not out"
+       35,
+       "c"
       ],
       [
        "Shreyas Iyer",
@@ -5698,18 +5710,43 @@
       ],
       [
        "Tilak Varma",
-       13,
+       53,
+       25,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       14,
+       10,
+       "c"
+      ],
+      [
+       "Suryansh Shedge",
+       7,
+       6,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       3,
+       4,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       4,
        5,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       1,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Shivam Dube",
-      "Suryansh Shedge",
-      "Axar Patel",
-      "Prince Yadav",
-      "Arshdeep Singh",
-      "Prasidh Krishna"
+      "Prince Yadav"
      ],
      "bowl": [
       [
@@ -5720,9 +5757,9 @@
       ],
       [
        "Sam Curran",
-       "2",
-       25,
-       1
+       "4",
+       36,
+       3
       ],
       [
        "Liam Dawson",
@@ -5732,21 +5769,21 @@
       ],
       [
        "Jofra Archer",
-       "2",
-       20,
+       "4",
+       41,
        1
       ],
       [
        "Adil Rashid",
-       "1.2",
-       13,
-       0
+       "3",
+       24,
+       2
       ],
       [
        "Josh Tongue",
-       "2",
-       25,
-       0
+       "4",
+       53,
+       1
       ]
      ]
     }
@@ -5782,8 +5819,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.966,
-    0.035
+    1.0,
+    0.001
    ]
   },
   {
@@ -7773,15 +7810,15 @@
     "team": [
      {
       "no": "1",
-      "name": "India",
-      "team": "India",
-      "rating": "269"
+      "name": "England",
+      "team": "England",
+      "rating": "268"
      },
      {
       "no": "2",
-      "name": "England",
-      "team": "England",
-      "rating": "267"
+      "name": "India",
+      "team": "India",
+      "rating": "268"
      },
      {
       "no": "3",
