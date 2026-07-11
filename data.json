@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T11:14:12Z",
+ "updated": "2026-07-11T12:29:32Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "95/4 (27 ov)",
+     "score": "137/5 (40 ov)",
      "winner": false
     },
     {
@@ -5230,7 +5230,7 @@
      "winner": false
     }
    ],
-   "result": "ENG Women trail by 264 runs",
+   "result": "ENG Women trail by 148 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5368,13 +5368,13 @@
     },
     {
      "t": "England Women",
-     "total": "21/1 (11.0 ov)",
+     "total": "137/5 (40.0 ov)",
      "bat": [
       [
        "Maia Bouchier",
-       17,
-       40,
-       "not out"
+       23,
+       52,
+       "c"
       ],
       [
        "Tammy Beaumont",
@@ -5384,16 +5384,36 @@
       ],
       [
        "Heather Knight",
-       1,
-       20,
+       6,
+       25,
+       "lbw"
+      ],
+      [
+       "Nat Sciver-Brunt",
+       39,
+       74,
+       "not out"
+      ],
+      [
+       "Alice Capsey",
+       9,
+       13,
+       "not out"
+      ],
+      [
+       "Amy Jones",
+       52,
+       62,
+       "c"
+      ],
+      [
+       "Mady Villiers",
+       5,
+       7,
        "not out"
       ]
      ],
      "dnb": [
-      "Nat Sciver-Brunt",
-      "Alice Capsey",
-      "Amy Jones",
-      "Mady Villiers",
       "Sophie Ecclestone",
       "Issy Wong",
       "Lauren Bell",
@@ -5401,22 +5421,34 @@
      ],
      "bowl": [
       [
-       "Sneh Rana",
-       "1",
+       "Deepti Sharma",
+       "2",
        0,
        0
       ],
       [
+       "Sneh Rana",
+       "10",
+       35,
+       1
+      ],
+      [
        "Sayali Satghare",
-       "5",
-       13,
-       0
+       "10",
+       36,
+       1
       ],
       [
        "Kranti Gaud",
-       "5",
-       8,
-       1
+       "10",
+       25,
+       3
+      ],
+      [
+       "Shree Charani",
+       "8",
+       41,
+       0
       ]
      ]
     }
@@ -6469,6 +6501,36 @@
     {
      "name": "India",
      "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543892",
+   "eventId": "1543892",
+   "date": "2026-12-06T08:00Z",
+   "gender": "women",
+   "format": "List A",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "Tour Match",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Emerging Players Women",
+     "abbr": "SAW-E",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
