@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T03:45:28Z",
+ "updated": "2026-07-12T06:35:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7240,36 +7240,6 @@
    "seriesId": "24281",
    "matchNo": "2nd Test",
    "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1529246",
-   "eventId": "1529246",
-   "date": "2027-02-11T03:30Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "3rd Test",
-   "venue": "Barsapara Cricket Stadium, Guwahati",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
