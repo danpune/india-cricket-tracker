@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T12:02:02Z",
+ "updated": "2026-07-12T14:05:04Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,7 +5215,7 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
@@ -5226,11 +5226,11 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "285 & 250/4 (67 ov)",
+     "score": "285 & 327/7 (85 ov)",
      "winner": false
     }
    ],
-   "result": "IND Women lead by 365 runs",
+   "result": "IND Women lead by 442 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5473,7 +5473,7 @@
     },
     {
      "t": "India Women",
-     "total": "250/4 (67.0 ov)",
+     "total": "327/7 (85.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
@@ -5489,9 +5489,9 @@
       ],
       [
        "Yastika Bhatia",
-       91,
-       139,
-       "not out"
+       113,
+       158,
+       "c"
       ],
       [
        "Jemimah Rodrigues",
@@ -5508,34 +5508,49 @@
       [
        "Deepti Sharma",
        10,
-       32,
+       33,
+       "lbw"
+      ],
+      [
+       "Richa Ghosh",
+       48,
+       47,
+       "not out"
+      ],
+      [
+       "Sneh Rana",
+       1,
+       14,
+       "not out"
+      ],
+      [
+       "Sayali Satghare",
+       6,
+       27,
        "not out"
       ]
      ],
      "dnb": [
-      "Richa Ghosh",
-      "Sneh Rana",
-      "Sayali Satghare",
       "Kranti Gaud",
       "Shree Charani"
      ],
      "bowl": [
       [
        "Mady Villiers",
-       "10.6",
+       "11",
        42,
        0
       ],
       [
        "Sophie Ecclestone",
-       "24",
-       84,
-       2
+       "33",
+       117,
+       5
       ],
       [
        "Issy Wong",
-       "7",
-       30,
+       "14",
+       68,
        0
       ],
       [
@@ -5546,8 +5561,8 @@
       ],
       [
        "Lauren Filer",
-       "9",
-       42,
+       "11",
+       48,
        0
       ]
      ]
