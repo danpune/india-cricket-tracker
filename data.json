@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T15:33:50Z",
+ "updated": "2026-07-12T17:01:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Drinks",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "170 & 31/3 (12 ov, target 457)",
+     "score": "170 & 107/5 (31.6 ov, target 457)",
      "winner": false
     },
     {
@@ -5230,7 +5230,7 @@
      "winner": false
     }
    ],
-   "result": "ENG Women require 426 runs",
+   "result": "ENG Women require 350 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5569,7 +5569,7 @@
     },
     {
      "t": "England Women",
-     "total": "31/3 (12.0 ov)",
+     "total": "107/5 (31.6 ov)",
      "bat": [
       [
        "Maia Bouchier",
@@ -5585,9 +5585,9 @@
       ],
       [
        "Heather Knight",
-       12,
-       28,
-       "not out"
+       13,
+       34,
+       "c"
       ],
       [
        "Nat Sciver-Brunt",
@@ -5597,14 +5597,24 @@
       ],
       [
        "Alice Capsey",
-       6,
-       10,
+       21,
+       35,
+       "not out"
+      ],
+      [
+       "Amy Jones",
+       38,
+       43,
+       "not out"
+      ],
+      [
+       "Mady Villiers",
+       22,
+       46,
        "not out"
       ]
      ],
      "dnb": [
-      "Amy Jones",
-      "Mady Villiers",
       "Sophie Ecclestone",
       "Issy Wong",
       "Lauren Bell",
@@ -5612,27 +5622,33 @@
      ],
      "bowl": [
       [
+       "Deepti Sharma",
+       "4",
+       10,
+       0
+      ],
+      [
        "Sneh Rana",
-       "2",
-       7,
+       "8.6",
+       30,
        1
       ],
       [
        "Sayali Satghare",
-       "5",
-       11,
-       1
+       "8",
+       19,
+       2
       ],
       [
        "Kranti Gaud",
-       "4",
-       12,
-       1
+       "8",
+       40,
+       2
       ],
       [
        "Shree Charani",
-       "1",
-       1,
+       "3",
+       8,
        0
       ]
      ]
@@ -8104,27 +8120,27 @@
      },
      {
       "no": "7",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "73"
+     },
+     {
+      "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
       "rating": "73"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Bangladesh",
       "team": "Bangladesh",
       "rating": "73"
      },
      {
-      "no": "9",
-      "name": "West Indies",
-      "team": "West Indies",
-      "rating": "72"
-     },
-     {
       "no": "10",
       "name": "Ireland",
       "team": "Ireland",
-      "rating": "48"
+      "rating": "47"
      }
     ],
     "updated": "2026-05-18",
