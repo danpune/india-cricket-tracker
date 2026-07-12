@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T17:01:26Z",
+ "updated": "2026-07-12T18:28:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "170 & 107/5 (31.6 ov, target 457)",
+     "score": "170 & 130/6 (40 ov, target 457)",
      "winner": false
     },
     {
@@ -5230,7 +5230,7 @@
      "winner": false
     }
    ],
-   "result": "ENG Women require 350 runs",
+   "result": "ENG Women require 327 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5569,7 +5569,7 @@
     },
     {
      "t": "England Women",
-     "total": "107/5 (31.6 ov)",
+     "total": "130/6 (40.0 ov)",
      "bat": [
       [
        "Maia Bouchier",
@@ -5603,35 +5603,46 @@
       ],
       [
        "Amy Jones",
-       38,
-       43,
+       52,
+       72,
        "not out"
       ],
       [
        "Mady Villiers",
-       22,
-       46,
+       26,
+       63,
+       "c"
+      ],
+      [
+       "Sophie Ecclestone",
+       1,
+       2,
        "not out"
       ]
      ],
      "dnb": [
-      "Sophie Ecclestone",
       "Issy Wong",
       "Lauren Bell",
       "Lauren Filer"
      ],
      "bowl": [
       [
+       "Shafali Verma",
+       "1",
+       1,
+       0
+      ],
+      [
        "Deepti Sharma",
-       "4",
-       10,
+       "7",
+       16,
        0
       ],
       [
        "Sneh Rana",
-       "8.6",
-       30,
-       1
+       "11",
+       33,
+       2
       ],
       [
        "Sayali Satghare",
@@ -5647,8 +5658,8 @@
       ],
       [
        "Shree Charani",
-       "3",
-       8,
+       "5",
+       17,
        0
       ]
      ]
