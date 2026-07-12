@@ -220,6 +220,14 @@ LOCATION:MA Chidambaram Stadium  Chepauk  Chennai
 DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529246@india-cricket-tracker
+DTSTART:20270211T033000Z
+DTEND:20270211T103000Z
+SUMMARY:India v Australia 🏏 3rd Test
+LOCATION:Barsapara Cricket Stadium  Guwahati
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1529247@india-cricket-tracker
 DTSTART:20270219T040000Z
 DTEND:20270219T110000Z
