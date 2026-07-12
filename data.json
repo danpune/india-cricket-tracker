@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T10:54:18Z",
+ "updated": "2026-07-12T12:02:02Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,7 +5215,7 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "England Women",
@@ -5226,11 +5226,11 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "285 & 200/3 (53.1 ov)",
+     "score": "285 & 250/4 (67 ov)",
      "winner": false
     }
    ],
-   "result": "IND Women lead by 315 runs",
+   "result": "IND Women lead by 365 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5473,7 +5473,7 @@
     },
     {
      "t": "India Women",
-     "total": "199/3 (53.0 ov)",
+     "total": "250/4 (67.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
@@ -5489,8 +5489,8 @@
       ],
       [
        "Yastika Bhatia",
-       61,
-       100,
+       91,
+       139,
        "not out"
       ],
       [
@@ -5501,13 +5501,18 @@
       ],
       [
        "Harmanpreet Kaur",
-       6,
-       21,
+       16,
+       34,
+       "lbw"
+      ],
+      [
+       "Deepti Sharma",
+       10,
+       32,
        "not out"
       ]
      ],
      "dnb": [
-      "Deepti Sharma",
       "Richa Ghosh",
       "Sneh Rana",
       "Sayali Satghare",
@@ -5517,15 +5522,15 @@
      "bowl": [
       [
        "Mady Villiers",
-       "8",
-       31,
+       "10.6",
+       42,
        0
       ],
       [
        "Sophie Ecclestone",
-       "17",
-       66,
-       1
+       "24",
+       84,
+       2
       ],
       [
        "Issy Wong",
@@ -5541,8 +5546,8 @@
       ],
       [
        "Lauren Filer",
-       "5",
-       20,
+       "9",
+       42,
        0
       ]
      ]
