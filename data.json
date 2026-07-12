@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T09:04:28Z",
+ "updated": "2026-07-12T10:54:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,7 +5215,7 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
@@ -5226,11 +5226,11 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "285 & 154/1 (42 ov)",
+     "score": "285 & 200/3 (53.1 ov)",
      "winner": false
     }
    ],
-   "result": "IND Women lead by 269 runs",
+   "result": "IND Women lead by 315 runs",
    "india": "",
    "xi": {
     "England Women": [
@@ -5473,13 +5473,13 @@
     },
     {
      "t": "India Women",
-     "total": "154/1 (42.0 ov)",
+     "total": "199/3 (53.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
-       69,
-       124,
-       "not out"
+       70,
+       130,
+       "c"
       ],
       [
        "Shafali Verma",
@@ -5489,14 +5489,24 @@
       ],
       [
        "Yastika Bhatia",
-       39,
-       73,
+       61,
+       100,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       3,
+       12,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       6,
+       21,
        "not out"
       ]
      ],
      "dnb": [
-      "Jemimah Rodrigues",
-      "Harmanpreet Kaur",
       "Deepti Sharma",
       "Richa Ghosh",
       "Sneh Rana",
@@ -5513,8 +5523,8 @@
       ],
       [
        "Sophie Ecclestone",
-       "12",
-       46,
+       "17",
+       66,
        1
       ],
       [
@@ -5525,14 +5535,14 @@
       ],
       [
        "Lauren Bell",
-       "11",
-       16,
-       0
+       "16",
+       27,
+       2
       ],
       [
        "Lauren Filer",
-       "4",
-       19,
+       "5",
+       20,
        0
       ]
      ]
