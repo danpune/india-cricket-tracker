@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T23:57:42Z",
+ "updated": "2026-07-13T03:47:17Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6458,36 +6458,6 @@
    "india": ""
   },
   {
-   "id": "espn_1539432",
-   "eventId": "1539432",
-   "date": "2026-10-22T07:00Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "1st T20I",
-   "venue": "Hagley Oval, Christchurch",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
    "id": "espn_1535655",
    "eventId": "1535655",
    "date": "2026-10-23T08:30Z",
@@ -6510,36 +6480,6 @@
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539433",
-   "eventId": "1539433",
-   "date": "2026-10-24T07:00Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "2nd T20I",
-   "venue": "Hagley Oval, Christchurch",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
      "score": "",
      "winner": false
     }
@@ -6578,36 +6518,6 @@
    "india": ""
   },
   {
-   "id": "espn_1539434",
-   "eventId": "1539434",
-   "date": "2026-10-27T07:00Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "3rd T20I",
-   "venue": "Hnry Stadium, Wellington",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
    "id": "espn_1535657",
    "eventId": "1535657",
    "date": "2026-10-28T08:30Z",
@@ -6630,276 +6540,6 @@
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539435",
-   "eventId": "1539435",
-   "date": "2026-10-30T07:00Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "4th T20I",
-   "venue": "Eden Park, Auckland",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539436",
-   "eventId": "1539436",
-   "date": "2026-11-01T07:00Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "5th T20I",
-   "venue": "Seddon Park, Hamilton",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539437",
-   "eventId": "1539437",
-   "date": "2026-11-04T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "1st ODI",
-   "venue": "Eden Park, Auckland",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539438",
-   "eventId": "1539438",
-   "date": "2026-11-07T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "2nd ODI",
-   "venue": "Hnry Stadium, Wellington",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539439",
-   "eventId": "1539439",
-   "date": "2026-11-10T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "3rd ODI",
-   "venue": "Seddon Park, Hamilton",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539440",
-   "eventId": "1539440",
-   "date": "2026-11-13T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "4th ODI",
-   "venue": "Bay Oval, Mount Maunganui",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539441",
-   "eventId": "1539441",
-   "date": "2026-11-15T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "5th ODI",
-   "venue": "Bay Oval, Mount Maunganui",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539442",
-   "eventId": "1539442",
-   "date": "2026-11-18T22:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "1st Test",
-   "venue": "Basin Reserve, Wellington",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539443",
-   "eventId": "1539443",
-   "date": "2026-11-26T22:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "2nd Test",
-   "venue": "Hagley Oval, Christchurch",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
      "score": "",
      "winner": false
     }
@@ -7492,11 +7132,6 @@
   {
    "id": "24281",
    "name": "Australia tour of India 2026/27",
-   "gender": "men"
-  },
-  {
-   "id": "24469",
-   "name": "India tour of New Zealand 2026/27",
    "gender": "men"
   },
   {

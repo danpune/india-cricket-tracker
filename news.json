@@ -1,9 +1,9 @@
 {
  "headlines": [
   {
-   "t": "Yastika century, seamers put India on the brink of historic win at Lord's",
+   "t": "Bhatia century, seamers put India on the brink of historic win at Lord's",
    "u": "https://www.cricinfo.com/ci/content/story/1545386.html?ex_cid=OTC-RSS",
-   "d": "Sun, 12 Jul 2026"
+   "d": "Mon, 13 Jul 2026"
   },
   {
    "t": "Bishnoi replaces injured Varun in squad for Zimbabwe T20I tour",
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "p_e1FwqFayg",
+     "t": "Preview: ENG v IND - ODIs | Kohli is back"
+    },
+    {
      "yt": "ovTcYUTnzsg",
      "t": "India humbled 4-0! Big problems for Gambhir & Iyer?"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "Kp5pOf_L_CY",
      "t": "Match Forecast: England vs India, 4th T20I"
-    },
-    {
-     "yt": "0kOUdOuxT74",
-     "t": "Preview: England vs India, 4th T20I"
     }
    ]
   },
