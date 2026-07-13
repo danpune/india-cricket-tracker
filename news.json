@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Kohli, Rohit and Bumrah arrive to help India face England",
+   "u": "https://www.cricinfo.com/ci/content/story/1545455.html?ex_cid=OTC-RSS",
+   "d": "Mon, 13 Jul 2026"
+  },
+  {
+   "t": "India crush England to claim historic victory in the first women's Test at Lord's",
+   "u": "https://www.cricinfo.com/ci/content/story/1545436.html?ex_cid=OTC-RSS",
+   "d": "Mon, 13 Jul 2026"
+  },
+  {
    "t": "Bhatia century, seamers put India on the brink of historic win at Lord's",
    "u": "https://www.cricinfo.com/ci/content/story/1545386.html?ex_cid=OTC-RSS",
    "d": "Mon, 13 Jul 2026"
@@ -39,16 +49,6 @@
    "t": "England chase 4-0 as India look to halt historic slump",
    "u": "https://www.cricinfo.com/ci/content/story/1545114.html?ex_cid=OTC-RSS",
    "d": "Fri, 10 Jul 2026"
-  },
-  {
-   "t": "Chennai locked in to host Renegades vs Scorchers BBL opener",
-   "u": "https://www.cricinfo.com/ci/content/story/1544956.html?ex_cid=OTC-RSS",
-   "d": "Fri, 10 Jul 2026"
-  },
-  {
-   "t": "India and England turn to whites as Lord's gears up for a historic first",
-   "u": "https://www.cricinfo.com/ci/content/story/1544985.html?ex_cid=OTC-RSS",
-   "d": "Fri, 10 Jul 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "4U99HlT0p2s",
+     "t": "India Women script history at Lord's; beat England by 270 runs"
+    },
     {
      "yt": "p_e1FwqFayg",
      "t": "Preview: ENG v IND - ODIs | Kohli is back"
@@ -75,10 +79,6 @@
     {
      "yt": "q23sjJVcOCc",
      "t": "India humbled; suffer crushing T20I series defeat"
-    },
-    {
-     "yt": "Kp5pOf_L_CY",
-     "t": "Match Forecast: England vs India, 4th T20I"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "MfOjy65i7dw",
+     "t": "Harsha Bhogle on India's twin T20i series loss"
+    },
     {
      "yt": "GEPuDbIvacs",
      "t": "Harsha Bhogle on Sanju Samson\u2019s exclusion"
@@ -105,10 +109,6 @@
     {
      "yt": "Y-WbAFHmA4s",
      "t": "Harsha Bhogle on India's T20i squad for IRE & ENG"
-    },
-    {
-     "yt": "Xsmjd_xaEEc",
-     "t": "Harsha Bhogle picks his IPL team of the tournament"
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13T10:32:46Z",
+ "updated": "2026-07-13T16:05:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5213,25 +5213,26 @@
    "seriesId": "23814",
    "matchNo": "Only Test",
    "venue": "Lord's, London",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "170 & 146/7 (48.3 ov, target 457)",
+     "score": "170 & 186 (62.5 ov, target 457)",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
      "score": "285 & 341/7d",
-     "winner": false
+     "winner": true
     }
    ],
-   "result": "ENG Women require 327 runs",
-   "india": "",
+   "result": "IND Women won by 270 runs",
+   "india": "won",
+   "seriesNote": "India Women won the one-off match",
    "xi": {
     "England Women": [
      "Maia Bouchier",
@@ -5569,7 +5570,7 @@
     },
     {
      "t": "England Women",
-     "total": "130/6 (40.0 ov)",
+     "total": "186 (62.5 ov)",
      "bat": [
       [
        "Maia Bouchier",
@@ -5603,9 +5604,9 @@
       ],
       [
        "Amy Jones",
-       52,
-       72,
-       "not out"
+       54,
+       80,
+       "c"
       ],
       [
        "Mady Villiers",
@@ -5615,16 +5616,30 @@
       ],
       [
        "Sophie Ecclestone",
+       50,
+       66,
+       "not out"
+      ],
+      [
+       "Issy Wong",
        1,
-       2,
+       33,
+       "not out"
+      ],
+      [
+       "Lauren Bell",
+       0,
+       10,
+       "not out"
+      ],
+      [
+       "Lauren Filer",
+       4,
+       22,
        "not out"
       ]
      ],
-     "dnb": [
-      "Issy Wong",
-      "Lauren Bell",
-      "Lauren Filer"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Shafali Verma",
@@ -5634,32 +5649,32 @@
       ],
       [
        "Deepti Sharma",
-       "7",
-       16,
-       0
-      ],
-      [
-       "Sneh Rana",
-       "11",
-       33,
+       "12",
+       36,
        2
       ],
       [
+       "Sneh Rana",
+       "19.5",
+       42,
+       4
+      ],
+      [
        "Sayali Satghare",
-       "8",
-       19,
+       "10",
+       24,
        2
       ],
       [
        "Kranti Gaud",
-       "8",
-       40,
+       "11",
+       54,
        2
       ],
       [
        "Shree Charani",
-       "5",
-       17,
+       "9",
+       25,
        0
       ]
      ]
@@ -5917,8 +5932,8 @@
    "result": "Starts at 11:00 local time",
    "india": "",
    "o": [
-    0.525,
-    0.475
+    0.515,
+    0.485
    ]
   },
   {

@@ -29795,6 +29795,447 @@
    ]
   },
   {
+   "id": "espn_1496551",
+   "date": "2026-07-10",
+   "gender": "women",
+   "format": "Test",
+   "series": "India Women tour of England 2026",
+   "matchNo": "Only Test",
+   "venue": "Lord's, London",
+   "city": "",
+   "teams": [
+    {
+     "name": "England Women",
+     "score": "170 & 186 (62.5 ov, target 457)"
+    },
+    {
+     "name": "India Women",
+     "score": "285 & 341/7d"
+    }
+   ],
+   "result": "IND Women won by 270 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "285 (74.5 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       83,
+       108,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Yastika Bhatia",
+       12,
+       17,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       35,
+       38,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       58,
+       121,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       57,
+       87,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       13,
+       12,
+       "c"
+      ],
+      [
+       "Sneh Rana",
+       13,
+       36,
+       "lbw"
+      ],
+      [
+       "Sayali Satghare",
+       1,
+       23,
+       "lbw"
+      ],
+      [
+       "Kranti Gaud",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Shree Charani",
+       3,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Mady Villiers",
+       "19",
+       79,
+       2
+      ],
+      [
+       "Sophie Ecclestone",
+       "21.5",
+       68,
+       3
+      ],
+      [
+       "Issy Wong",
+       "12",
+       41,
+       2
+      ],
+      [
+       "Lauren Bell",
+       "9",
+       50,
+       1
+      ],
+      [
+       "Lauren Filer",
+       "13",
+       40,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "England Women",
+     "total": "170 (59.1 ov)",
+     "bat": [
+      [
+       "Maia Bouchier",
+       23,
+       52,
+       "c"
+      ],
+      [
+       "Tammy Beaumont",
+       2,
+       7,
+       "lbw"
+      ],
+      [
+       "Heather Knight",
+       6,
+       25,
+       "lbw"
+      ],
+      [
+       "Nat Sciver-Brunt",
+       44,
+       85,
+       "lbw"
+      ],
+      [
+       "Alice Capsey",
+       9,
+       13,
+       "not out"
+      ],
+      [
+       "Amy Jones",
+       52,
+       62,
+       "c"
+      ],
+      [
+       "Mady Villiers",
+       10,
+       33,
+       "not out"
+      ],
+      [
+       "Sophie Ecclestone",
+       11,
+       22,
+       "c"
+      ],
+      [
+       "Issy Wong",
+       7,
+       33,
+       "not out"
+      ],
+      [
+       "Lauren Bell",
+       3,
+       13,
+       "c"
+      ],
+      [
+       "Lauren Filer",
+       0,
+       11,
+       "lbw"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Deepti Sharma",
+       "7.1",
+       10,
+       1
+      ],
+      [
+       "Sneh Rana",
+       "14",
+       41,
+       2
+      ],
+      [
+       "Sayali Satghare",
+       "13",
+       40,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "17",
+       37,
+       5
+      ],
+      [
+       "Shree Charani",
+       "8",
+       41,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "341/7 (86.3 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       70,
+       130,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       33,
+       55,
+       "c"
+      ],
+      [
+       "Yastika Bhatia",
+       113,
+       158,
+       "c"
+      ],
+      [
+       "Jemimah Rodrigues",
+       3,
+       12,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       16,
+       34,
+       "lbw"
+      ],
+      [
+       "Deepti Sharma",
+       10,
+       33,
+       "lbw"
+      ],
+      [
+       "Richa Ghosh",
+       50,
+       52,
+       "not out"
+      ],
+      [
+       "Sneh Rana",
+       1,
+       14,
+       "not out"
+      ],
+      [
+       "Sayali Satghare",
+       18,
+       31,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Kranti Gaud",
+      "Shree Charani"
+     ],
+     "bowl": [
+      [
+       "Mady Villiers",
+       "11",
+       42,
+       0
+      ],
+      [
+       "Sophie Ecclestone",
+       "33.3",
+       118,
+       5
+      ],
+      [
+       "Issy Wong",
+       "14",
+       68,
+       0
+      ],
+      [
+       "Lauren Bell",
+       "16",
+       27,
+       2
+      ],
+      [
+       "Lauren Filer",
+       "12",
+       61,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "England Women",
+     "total": "186 (62.5 ov)",
+     "bat": [
+      [
+       "Maia Bouchier",
+       2,
+       8,
+       "lbw"
+      ],
+      [
+       "Tammy Beaumont",
+       0,
+       1,
+       "not out"
+      ],
+      [
+       "Heather Knight",
+       13,
+       34,
+       "c"
+      ],
+      [
+       "Nat Sciver-Brunt",
+       11,
+       25,
+       "not out"
+      ],
+      [
+       "Alice Capsey",
+       21,
+       35,
+       "not out"
+      ],
+      [
+       "Amy Jones",
+       54,
+       80,
+       "c"
+      ],
+      [
+       "Mady Villiers",
+       26,
+       63,
+       "c"
+      ],
+      [
+       "Sophie Ecclestone",
+       50,
+       66,
+       "not out"
+      ],
+      [
+       "Issy Wong",
+       1,
+       33,
+       "not out"
+      ],
+      [
+       "Lauren Bell",
+       0,
+       10,
+       "not out"
+      ],
+      [
+       "Lauren Filer",
+       4,
+       22,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       1,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "12",
+       36,
+       2
+      ],
+      [
+       "Sneh Rana",
+       "19.5",
+       42,
+       4
+      ],
+      [
+       "Sayali Satghare",
+       "10",
+       24,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "11",
+       54,
+       2
+      ],
+      [
+       "Shree Charani",
+       "9",
+       25,
+       0
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1496578",
    "date": "2026-07-11",
    "gender": "men",
