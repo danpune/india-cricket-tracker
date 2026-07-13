@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13T06:56:35Z",
+ "updated": "2026-07-13T10:32:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5215,12 +5215,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England Women",
      "abbr": "ENG-W",
-     "score": "170 & 130/6 (40 ov, target 457)",
+     "score": "170 & 146/7 (48.3 ov, target 457)",
      "winner": false
     },
     {
@@ -5917,8 +5917,8 @@
    "result": "Starts at 11:00 local time",
    "india": "",
    "o": [
-    0.53,
-    0.47
+    0.525,
+    0.475
    ]
   },
   {
