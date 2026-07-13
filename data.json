@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13T16:05:26Z",
+ "updated": "2026-07-13T18:17:14Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5232,35 +5232,6 @@
    ],
    "result": "IND Women won by 270 runs",
    "india": "won",
-   "seriesNote": "India Women won the one-off match",
-   "xi": {
-    "England Women": [
-     "Maia Bouchier",
-     "Tammy Beaumont",
-     "Heather Knight",
-     "Nat Sciver-Brunt (c)",
-     "Alice Capsey",
-     "Amy Jones",
-     "Mady Villiers",
-     "Sophie Ecclestone",
-     "Issy Wong",
-     "Lauren Bell",
-     "Lauren Filer"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Jemimah Rodrigues",
-     "Harmanpreet Kaur (c)",
-     "Deepti Sharma",
-     "Richa Ghosh",
-     "Sneh Rana",
-     "Sayali Satghare",
-     "Kranti Gaud",
-     "Shree Charani"
-    ]
-   },
    "innings": [
     {
      "t": "India Women",
