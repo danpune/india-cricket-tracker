@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T17:41:00Z",
+ "updated": "2026-07-14T18:29:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5883,9 +5883,9 @@
    "seriesId": "23810",
    "matchNo": "1st ODI",
    "venue": "Edgbaston, Birmingham",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "England",
@@ -5896,12 +5896,13 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "245/4 (44.1/50 ov, target 259)",
-     "winner": false
+     "score": "262/4 (45.2/50 ov, target 259)",
+     "winner": true
     }
    ],
-   "result": "India require 14 runs",
-   "india": "",
+   "result": "India won by 6 wkts (28b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 1-0",
    "xi": {
     "England": [
      "Ben Duckett",
@@ -6044,7 +6045,7 @@
     },
     {
      "t": "India",
-     "total": "245/4 (44.1 ov)",
+     "total": "262/4 (45.2 ov)",
      "bat": [
       [
        "Rohit Sharma",
@@ -6072,8 +6073,8 @@
       ],
       [
        "Washington Sundar",
-       37,
-       58,
+       52,
+       63,
        "not out"
       ],
       [
@@ -6084,8 +6085,8 @@
       ],
       [
        "Axar Patel",
-       55,
-       49,
+       57,
+       52,
        "not out"
       ]
      ],
@@ -6104,8 +6105,8 @@
       ],
       [
        "Sam Curran",
-       "9",
-       45,
+       "10",
+       55,
        1
       ],
       [
@@ -6128,8 +6129,8 @@
       ],
       [
        "Adil Rashid",
-       "5",
-       27,
+       "5.2",
+       34,
        0
       ],
       [
