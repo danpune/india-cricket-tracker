@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T18:29:55Z",
+ "updated": "2026-07-14T19:23:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5902,35 +5902,6 @@
    ],
    "result": "India won by 6 wkts (28b rem)",
    "india": "won",
-   "seriesNote": "India led the 3-match series 1-0",
-   "xi": {
-    "England": [
-     "Ben Duckett",
-     "Jacob Bethell",
-     "Joe Root",
-     "Harry Brook (c)",
-     "Jos Buttler",
-     "Sam Curran",
-     "Will Jacks",
-     "Liam Dawson",
-     "Jofra Archer",
-     "Adil Rashid",
-     "Josh Tongue"
-    ],
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Shreyas Iyer",
-     "Washington Sundar",
-     "KL Rahul",
-     "Axar Patel",
-     "Shivam Dube",
-     "Gurnoor Brar",
-     "Jasprit Bumrah",
-     "Prasidh Krishna"
-    ]
-   },
    "innings": [
     {
      "t": "England",
@@ -7989,7 +7960,7 @@
       "no": "8",
       "name": "England",
       "team": "England",
-      "rating": "89"
+      "rating": "88"
      },
      {
       "no": "9",
