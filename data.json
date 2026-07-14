@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T06:35:06Z",
+ "updated": "2026-07-14T09:06:22Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5903,8 +5903,8 @@
    "result": "Starts at 11:00 local time",
    "india": "",
    "o": [
-    0.515,
-    0.485
+    0.535,
+    0.465
    ]
   },
   {
@@ -8144,7 +8144,7 @@
       "rating": "47"
      }
     ],
-    "updated": "2026-05-18",
+    "updated": "2026-07-13",
     "bat": [
      {
       "no": "1",
@@ -8184,21 +8184,21 @@
      },
      {
       "no": "7",
+      "name": "Hayley Matthews",
+      "team": "West Indies",
+      "rating": "692"
+     },
+     {
+      "no": "8",
       "name": "Maddy Green",
       "team": "New Zealand",
       "rating": "685"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Harmanpreet Kaur",
       "team": "India",
       "rating": "652"
-     },
-     {
-      "no": "9",
-      "name": "Hayley Matthews",
-      "team": "West Indies",
-      "rating": "651"
      },
      {
       "no": "10",
@@ -8230,7 +8230,7 @@
       "no": "4",
       "name": "Hayley Matthews",
       "team": "West Indies",
-      "rating": "658"
+      "rating": "668"
      },
      {
       "no": "5",
@@ -8333,7 +8333,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-07-06",
+    "updated": "2026-07-13",
     "bat": [
      {
       "no": "1",
