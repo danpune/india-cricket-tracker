@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T14:54:51Z",
+ "updated": "2026-07-14T16:18:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5896,11 +5896,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "48/2 (8.5/50 ov, target 259)",
+     "score": "149/2 (25.4/50 ov, target 259)",
      "winner": false
     }
    ],
-   "result": "India require 211 runs",
+   "result": "India require 110 runs",
    "india": "",
    "xi": {
     "England": [
@@ -6044,7 +6044,7 @@
     },
     {
      "t": "India",
-     "total": "48/2 (8.5 ov)",
+     "total": "149/2 (25.4 ov)",
      "bat": [
       [
        "Rohit Sharma",
@@ -6054,9 +6054,9 @@
       ],
       [
        "Shubman Gill",
-       26,
-       24,
-       "not out"
+       80,
+       75,
+       "retired not out"
       ],
       [
        "Virat Kohli",
@@ -6066,13 +6066,18 @@
       ],
       [
        "Shreyas Iyer",
+       34,
+       52,
+       "not out"
+      ],
+      [
+       "Washington Sundar",
        0,
-       2,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Washington Sundar",
       "KL Rahul",
       "Shivam Dube",
       "Axar Patel",
@@ -6082,21 +6087,45 @@
      ],
      "bowl": [
       [
-       "Sam Curran",
+       "Jacob Bethell",
        "1",
-       1,
+       10,
+       0
+      ],
+      [
+       "Sam Curran",
+       "5",
+       32,
        1
+      ],
+      [
+       "Will Jacks",
+       "1",
+       6,
+       0
+      ],
+      [
+       "Liam Dawson",
+       "2",
+       10,
+       0
       ],
       [
        "Jofra Archer",
-       "4.5",
-       26,
+       "7",
+       41,
        1
       ],
       [
-       "Josh Tongue",
+       "Adil Rashid",
        "3",
-       21,
+       15,
+       0
+      ],
+      [
+       "Josh Tongue",
+       "6.5",
+       35,
        0
       ]
      ]
@@ -6133,8 +6162,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.325,
-    0.675
+    0.055,
+    0.945
    ]
   },
   {
