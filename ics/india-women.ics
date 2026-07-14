@@ -4,14 +4,6 @@ PRODID:indiacricket
 X-WR-CALNAME:India women's cricket fixtures
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:espn_1535652@india-cricket-tracker
-DTSTART:20261016T133000Z
-DTEND:20261016T173000Z
-SUMMARY:India v Zimbabwe 🏏 1st T20I
-LOCATION:Shaheed Veer Narayan Singh International Stadium  Raipur
-DESCRIPTION:Zimbabwe Women tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1535653@india-cricket-tracker
 DTSTART:20261018T133000Z
 DTEND:20261018T173000Z

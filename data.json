@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T09:06:22Z",
+ "updated": "2026-07-14T11:07:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5883,14 +5883,14 @@
    "seriesId": "23810",
    "matchNo": "1st ODI",
    "venue": "Edgbaston, Birmingham",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "",
+     "score": "64/3 (13.1/50 ov)",
      "winner": false
     },
     {
@@ -5900,11 +5900,108 @@
      "winner": false
     }
    ],
-   "result": "Starts at 11:00 local time",
+   "result": "England won toss & batted",
    "india": "",
-   "o": [
-    0.535,
-    0.465
+   "xi": {
+    "England": [
+     "Ben Duckett",
+     "Jacob Bethell",
+     "Joe Root",
+     "Harry Brook (c)",
+     "Jos Buttler",
+     "Sam Curran",
+     "Will Jacks",
+     "Jofra Archer",
+     "Liam Dawson",
+     "Josh Tongue",
+     "Adil Rashid"
+    ],
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Shreyas Iyer",
+     "Washington Sundar",
+     "KL Rahul",
+     "Shivam Dube",
+     "Axar Patel",
+     "Gurnoor Brar",
+     "Jasprit Bumrah",
+     "Prasidh Krishna"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England",
+     "total": "64/3 (13.1 ov)",
+     "bat": [
+      [
+       "Ben Duckett",
+       43,
+       45,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       14,
+       31,
+       "c"
+      ],
+      [
+       "Joe Root",
+       0,
+       0,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       1,
+       3,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Jos Buttler",
+      "Sam Curran",
+      "Will Jacks",
+      "Jofra Archer",
+      "Liam Dawson",
+      "Josh Tongue",
+      "Adil Rashid"
+     ],
+     "bowl": [
+      [
+       "Washington Sundar",
+       "1",
+       3,
+       0
+      ],
+      [
+       "Shivam Dube",
+       "1",
+       7,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "3",
+       29,
+       2
+      ],
+      [
+       "Jasprit Bumrah",
+       "4.1",
+       8,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "4",
+       13,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -5935,7 +6032,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.35,
+    0.65
+   ]
   },
   {
    "id": "espn_1496581",
@@ -6320,36 +6421,6 @@
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1535652",
-   "eventId": "1535652",
-   "date": "2026-10-16T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
      "score": "",
      "winner": false
     }
