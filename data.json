@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T16:18:03Z",
+ "updated": "2026-07-14T17:41:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5896,11 +5896,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "149/2 (25.4/50 ov, target 259)",
+     "score": "245/4 (44.1/50 ov, target 259)",
      "winner": false
     }
    ],
-   "result": "India require 110 runs",
+   "result": "India require 14 runs",
    "india": "",
    "xi": {
     "England": [
@@ -5923,8 +5923,8 @@
      "Shreyas Iyer",
      "Washington Sundar",
      "KL Rahul",
-     "Shivam Dube",
      "Axar Patel",
+     "Shivam Dube",
      "Gurnoor Brar",
      "Jasprit Bumrah",
      "Prasidh Krishna"
@@ -6011,16 +6011,16 @@
        0
       ],
       [
-       "Shivam Dube",
-       "6",
-       27,
-       1
-      ],
-      [
        "Axar Patel",
        "9.5",
        62,
        4
+      ],
+      [
+       "Shivam Dube",
+       "6",
+       27,
+       1
       ],
       [
        "Gurnoor Brar",
@@ -6044,7 +6044,7 @@
     },
     {
      "t": "India",
-     "total": "149/2 (25.4 ov)",
+     "total": "245/4 (44.1 ov)",
      "bat": [
       [
        "Rohit Sharma",
@@ -6066,21 +6066,31 @@
       ],
       [
        "Shreyas Iyer",
-       34,
-       52,
-       "not out"
+       35,
+       53,
+       "run out"
       ],
       [
        "Washington Sundar",
-       0,
+       37,
+       58,
+       "not out"
+      ],
+      [
+       "KL Rahul",
        1,
+       3,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       55,
+       49,
        "not out"
       ]
      ],
      "dnb": [
-      "KL Rahul",
       "Shivam Dube",
-      "Axar Patel",
       "Gurnoor Brar",
       "Jasprit Bumrah",
       "Prasidh Krishna"
@@ -6094,14 +6104,14 @@
       ],
       [
        "Sam Curran",
-       "5",
-       32,
+       "9",
+       45,
        1
       ],
       [
        "Will Jacks",
-       "1",
-       6,
+       "7",
+       43,
        0
       ],
       [
@@ -6112,21 +6122,21 @@
       ],
       [
        "Jofra Archer",
-       "7",
-       41,
+       "10",
+       60,
        1
       ],
       [
        "Adil Rashid",
-       "3",
-       15,
+       "5",
+       27,
        0
       ],
       [
        "Josh Tongue",
-       "6.5",
-       35,
-       0
+       "10",
+       50,
+       1
       ]
      ]
     }
@@ -6162,8 +6172,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.055,
-    0.945
+    0.001,
+    1.0
    ]
   },
   {
