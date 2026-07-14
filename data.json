@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T12:48:14Z",
+ "updated": "2026-07-14T14:54:51Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5890,17 +5890,17 @@
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "177/6 (36/50 ov)",
+     "score": "258",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "48/2 (8.5/50 ov, target 259)",
      "winner": false
     }
    ],
-   "result": "England won toss & batted",
+   "result": "India require 211 runs",
    "india": "",
    "xi": {
     "England": [
@@ -5913,8 +5913,8 @@
      "Will Jacks",
      "Liam Dawson",
      "Jofra Archer",
-     "Josh Tongue",
-     "Adil Rashid"
+     "Adil Rashid",
+     "Josh Tongue"
     ],
     "India": [
      "Rohit Sharma",
@@ -5933,7 +5933,7 @@
    "innings": [
     {
      "t": "England",
-     "total": "177/6 (36.0 ov)",
+     "total": "258 (47.5 ov)",
      "bat": [
       [
        "Ben Duckett",
@@ -5949,8 +5949,8 @@
       ],
       [
        "Joe Root",
-       36,
-       42,
+       76,
+       76,
        "not out"
       ],
       [
@@ -5979,21 +5979,35 @@
       ],
       [
        "Liam Dawson",
-       41,
-       59,
+       68,
+       83,
+       "c"
+      ],
+      [
+       "Jofra Archer",
+       12,
+       6,
+       "c"
+      ],
+      [
+       "Adil Rashid",
+       1,
+       5,
+       "st"
+      ],
+      [
+       "Josh Tongue",
+       0,
+       2,
        "not out"
       ]
      ],
-     "dnb": [
-      "Jofra Archer",
-      "Josh Tongue",
-      "Adil Rashid"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Washington Sundar",
-       "3",
-       9,
+       "4",
+       13,
        0
       ],
       [
@@ -6004,27 +6018,86 @@
       ],
       [
        "Axar Patel",
-       "5",
-       25,
-       0
+       "9.5",
+       62,
+       4
       ],
       [
        "Gurnoor Brar",
-       "7",
-       51,
+       "9",
+       61,
        2
       ],
       [
        "Jasprit Bumrah",
-       "7",
-       17,
+       "9",
+       31,
        1
       ],
       [
        "Prasidh Krishna",
-       "8",
-       34,
+       "10",
+       50,
        2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "48/2 (8.5 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       11,
+       21,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       26,
+       24,
+       "not out"
+      ],
+      [
+       "Virat Kohli",
+       5,
+       6,
+       "lbw"
+      ],
+      [
+       "Shreyas Iyer",
+       0,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Washington Sundar",
+      "KL Rahul",
+      "Shivam Dube",
+      "Axar Patel",
+      "Gurnoor Brar",
+      "Jasprit Bumrah",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Sam Curran",
+       "1",
+       1,
+       1
+      ],
+      [
+       "Jofra Archer",
+       "4.5",
+       26,
+       1
+      ],
+      [
+       "Josh Tongue",
+       "3",
+       21,
+       0
       ]
      ]
     }
@@ -6060,8 +6133,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.23,
-    0.77
+    0.325,
+    0.675
    ]
   },
   {
@@ -6447,6 +6520,36 @@
     {
      "name": "West Indies",
      "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1535652",
+   "eventId": "1535652",
+   "date": "2026-10-16T13:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "1st T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
      "score": "",
      "winner": false
     }
