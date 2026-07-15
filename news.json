@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Ashwin wants to see Kuldeep given 'better treatment'",
+   "u": "https://www.cricinfo.com/ci/content/story/1545737.html?ex_cid=OTC-RSS",
+   "d": "Wed, 15 Jul 2026"
+  },
+  {
    "t": "ICC adds Super Series and Super 7 twist to 2027 ODI World Cup",
    "u": "https://www.cricinfo.com/ci/content/story/1545709.html?ex_cid=OTC-RSS",
    "d": "Wed, 15 Jul 2026"
@@ -44,11 +49,6 @@
    "t": "Bishnoi replaces injured Varun in squad for Zimbabwe T20I tour",
    "u": "https://www.cricinfo.com/ci/content/story/1545315.html?ex_cid=OTC-RSS",
    "d": "Sun, 12 Jul 2026"
-  },
-  {
-   "t": "'Going to make me better going forward' - Shreyas Iyer on tough start to captaincy",
-   "u": "https://www.cricinfo.com/ci/content/story/1545274.html?ex_cid=OTC-RSS",
-   "d": "Sat, 11 Jul 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "c9W80jHsCAk",
+     "t": "Gill has always responded under pressure as captain: Kaif"
+    },
     {
      "yt": "E8IsIeFPB1M",
      "t": "Gambhir himself will be disappointed with his coaching record: Kaif"
@@ -75,10 +79,6 @@
     {
      "yt": "CrDlBlVWdG0",
      "t": "Match Forecast: England vs India, 1st ODI"
-    },
-    {
-     "yt": "4U99HlT0p2s",
-     "t": "India Women script history at Lord's; beat England by 270 runs"
     }
    ]
   },
