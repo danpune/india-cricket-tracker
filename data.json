@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T17:20:28Z",
+ "updated": "2026-07-16T18:42:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6131,7 +6131,7 @@
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "60/3 (12.6/50 ov, target 234)",
+     "score": "145/5 (29.4/50 ov, target 234)",
      "winner": false
     },
     {
@@ -6141,7 +6141,7 @@
      "winner": false
     }
    ],
-   "result": "England require 174 runs",
+   "result": "England require 87 runs",
    "india": "",
    "xi": {
     "England": [
@@ -6285,7 +6285,7 @@
     },
     {
      "t": "England",
-     "total": "59/3 (12.5 ov)",
+     "total": "145/5 (29.4 ov)",
      "bat": [
       [
        "Ben Duckett",
@@ -6301,8 +6301,8 @@
       ],
       [
        "Joe Root",
-       29,
-       45,
+       65,
+       96,
        "not out"
       ],
       [
@@ -6313,14 +6313,24 @@
       ],
       [
        "Sam Curran",
-       5,
-       9,
+       26,
+       31,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       17,
+       18,
+       "not out"
+      ],
+      [
+       "Will Jacks",
+       3,
+       10,
        "not out"
       ]
      ],
      "dnb": [
-      "Jos Buttler",
-      "Will Jacks",
       "Jofra Archer",
       "Gus Atkinson",
       "Adil Rashid",
@@ -6328,21 +6338,33 @@
      ],
      "bowl": [
       [
+       "Axar Patel",
+       "4.4",
+       15,
+       1
+      ],
+      [
+       "Shivam Dube",
+       "3",
+       18,
+       1
+      ],
+      [
        "Gurnoor Brar",
-       "2.6",
-       11,
+       "7",
+       41,
        1
       ],
       [
        "Jasprit Bumrah",
-       "5",
-       19,
+       "8",
+       33,
        1
       ],
       [
        "Prasidh Krishna",
-       "5",
-       30,
+       "7",
+       36,
        1
       ]
      ]
@@ -6379,8 +6401,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.715,
-    0.285
+    0.775,
+    0.225
    ]
   },
   {
