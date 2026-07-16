@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T15:43:35Z",
+ "updated": "2026-07-16T17:20:28Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6126,22 +6126,22 @@
    "venue": "Sophia Gardens, Cardiff",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "",
+     "score": "60/3 (12.6/50 ov, target 234)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "233 (44/50 ov)",
+     "score": "233",
      "winner": false
     }
    ],
-   "result": "England won toss & fielded",
+   "result": "England require 174 runs",
    "india": "",
    "xi": {
     "England": [
@@ -6149,8 +6149,8 @@
      "Jacob Bethell",
      "Joe Root",
      "Harry Brook (c)",
-     "Jos Buttler",
      "Sam Curran",
+     "Jos Buttler",
      "Will Jacks",
      "Jofra Archer",
      "Gus Atkinson",
@@ -6282,6 +6282,70 @@
        2
       ]
      ]
+    },
+    {
+     "t": "England",
+     "total": "59/3 (12.5 ov)",
+     "bat": [
+      [
+       "Ben Duckett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       4,
+       10,
+       "c"
+      ],
+      [
+       "Joe Root",
+       29,
+       45,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       16,
+       16,
+       "c"
+      ],
+      [
+       "Sam Curran",
+       5,
+       9,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Jos Buttler",
+      "Will Jacks",
+      "Jofra Archer",
+      "Gus Atkinson",
+      "Adil Rashid",
+      "Saqib Mahmood"
+     ],
+     "bowl": [
+      [
+       "Gurnoor Brar",
+       "2.6",
+       11,
+       1
+      ],
+      [
+       "Jasprit Bumrah",
+       "5",
+       19,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       30,
+       1
+      ]
+     ]
     }
    ]
   },
@@ -6315,8 +6379,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.845,
-    0.155
+    0.715,
+    0.285
    ]
   },
   {
