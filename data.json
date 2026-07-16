@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T20:03:58Z",
+ "updated": "2026-07-16T21:33:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6143,35 +6143,6 @@
    ],
    "result": "England won by 4 wkts (35b rem)",
    "india": "lost",
-   "seriesNote": "3-match series level 1-1",
-   "xi": {
-    "England": [
-     "Ben Duckett",
-     "Jacob Bethell",
-     "Joe Root",
-     "Harry Brook (c)",
-     "Sam Curran",
-     "Jos Buttler",
-     "Will Jacks",
-     "Gus Atkinson",
-     "Jofra Archer",
-     "Adil Rashid",
-     "Saqib Mahmood"
-    ],
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Ishan Kishan",
-     "Shreyas Iyer",
-     "Washington Sundar",
-     "Axar Patel",
-     "Shivam Dube",
-     "Gurnoor Brar",
-     "Jasprit Bumrah",
-     "Prasidh Krishna"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -8151,7 +8122,7 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "121"
+      "rating": "119"
      },
      {
       "no": "2",
@@ -8185,15 +8156,15 @@
      },
      {
       "no": "7",
-      "name": "Afghanistan",
-      "team": "Afghanistan",
-      "rating": "90"
+      "name": "England",
+      "team": "England",
+      "rating": "91"
      },
      {
       "no": "8",
-      "name": "England",
-      "team": "England",
-      "rating": "88"
+      "name": "Afghanistan",
+      "team": "Afghanistan",
+      "rating": "90"
      },
      {
       "no": "9",
