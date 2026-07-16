@@ -1,8 +1,18 @@
 {
  "headlines": [
   {
+   "t": "England bowl; Kishan in for unwell Rahul",
+   "u": "https://www.cricinfo.com/ci/content/story/1545870.html?ex_cid=OTC-RSS",
+   "d": "Thu, 16 Jul 2026"
+  },
+  {
    "t": "Wadhera moves from Punjab to Himachal ahead of 2026-27 domestic season",
    "u": "https://www.cricinfo.com/ci/content/story/1545766.html?ex_cid=OTC-RSS",
+   "d": "Thu, 16 Jul 2026"
+  },
+  {
+   "t": "Brar warned for breaching level one of ICC Code of Conduct",
+   "u": "https://www.cricinfo.com/ci/content/story/1545859.html?ex_cid=OTC-RSS",
    "d": "Thu, 16 Jul 2026"
   },
   {
@@ -39,16 +49,6 @@
    "t": "Women's cricket shortchanged again as men's Test binfire sucks up the oxygen",
    "u": "https://www.cricinfo.com/ci/content/story/1545483.html?ex_cid=OTC-RSS",
    "d": "Tue, 14 Jul 2026"
-  },
-  {
-   "t": "Kohli, Rohit and Bumrah arrive to help India face England",
-   "u": "https://www.cricinfo.com/ci/content/story/1545455.html?ex_cid=OTC-RSS",
-   "d": "Mon, 13 Jul 2026"
-  },
-  {
-   "t": "India crush England to claim historic victory in the first women's Test at Lord's",
-   "u": "https://www.cricinfo.com/ci/content/story/1545436.html?ex_cid=OTC-RSS",
-   "d": "Mon, 13 Jul 2026"
   }
  ],
  "talk": [
@@ -87,6 +87,10 @@
    "handle": "@bhogle_harsha",
    "videos": [
     {
+     "yt": "qcwO3euAbKE",
+     "t": "Harsha Bhogle on ICC World Cups"
+    },
+    {
      "yt": "mFU6CW1ywFE",
      "t": "Harsha Bhogle on the lessons from India's twin series loss"
     },
@@ -105,10 +109,6 @@
     {
      "yt": "c-Wy4t-NuE0",
      "t": "Harsha Bhogle on the India v Ireland T20Is"
-    },
-    {
-     "yt": "RbLDwXqzAOI",
-     "t": "Harsha Bhogle looks ahead to Team India's chances"
     }
    ]
   }
