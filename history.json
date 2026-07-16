@@ -30680,6 +30680,232 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1496580",
+   "date": "2026-07-16",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of England 2026",
+   "matchNo": "2nd ODI",
+   "venue": "Sophia Gardens, Cardiff",
+   "city": "",
+   "teams": [
+    {
+     "name": "England",
+     "score": "235/6 (44.1/50 ov, target 234)"
+    },
+    {
+     "name": "India",
+     "score": "233"
+    }
+   ],
+   "result": "England won by 4 wkts (35b rem)",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "233 (44.0 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       26,
+       47,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       31,
+       30,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       65,
+       66,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       66,
+       71,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Gurnoor Brar",
+       7,
+       15,
+       "c"
+      ],
+      [
+       "Jasprit Bumrah",
+       20,
+       13,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       0,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Sam Curran",
+       "6",
+       23,
+       1
+      ],
+      [
+       "Will Jacks",
+       "5",
+       21,
+       1
+      ],
+      [
+       "Gus Atkinson",
+       "9",
+       50,
+       3
+      ],
+      [
+       "Jofra Archer",
+       "10",
+       47,
+       3
+      ],
+      [
+       "Adil Rashid",
+       "5",
+       34,
+       0
+      ],
+      [
+       "Saqib Mahmood",
+       "9",
+       52,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "England",
+     "total": "235/6 (44.1 ov)",
+     "bat": [
+      [
+       "Ben Duckett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Jacob Bethell",
+       4,
+       10,
+       "c"
+      ],
+      [
+       "Joe Root",
+       99,
+       133,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       16,
+       16,
+       "c"
+      ],
+      [
+       "Sam Curran",
+       26,
+       31,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       17,
+       18,
+       "not out"
+      ],
+      [
+       "Will Jacks",
+       30,
+       44,
+       "c"
+      ],
+      [
+       "Gus Atkinson",
+       23,
+       16,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Jofra Archer",
+      "Adil Rashid",
+      "Saqib Mahmood"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "9",
+       35,
+       1
+      ],
+      [
+       "Shivam Dube",
+       "6",
+       32,
+       1
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       67,
+       2
+      ],
+      [
+       "Jasprit Bumrah",
+       "10",
+       45,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "9.1",
+       52,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
