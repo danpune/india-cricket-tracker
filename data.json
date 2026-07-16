@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T13:59:45Z",
+ "updated": "2026-07-16T15:43:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5653,6 +5653,227 @@
    ]
   },
   {
+   "id": "espn_1496578",
+   "eventId": "1496578",
+   "date": "2026-07-11T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of England 2026",
+   "seriesId": "23810",
+   "matchNo": "5th T20I",
+   "venue": "The Rose Bowl, Southampton",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "257/3",
+     "winner": true
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "201/8 (20 ov, target 258)",
+     "winner": false
+    }
+   ],
+   "result": "England won by 56 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "England",
+     "total": "257/3 (20.0 ov)",
+     "bat": [
+      [
+       "Phil Salt",
+       6,
+       9,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       131,
+       64,
+       "c"
+      ],
+      [
+       "Harry Brook",
+       95,
+       45,
+       "not out"
+      ],
+      [
+       "Jacob Bethell",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Will Jacks",
+       7,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tom Banton",
+      "Sam Curran",
+      "Liam Dawson",
+      "Jofra Archer",
+      "Adil Rashid",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Shivam Dube",
+       "1",
+       22,
+       2
+      ],
+      [
+       "Suryansh Shedge",
+       "3",
+       39,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       63,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       33,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       60,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "201/8 (20.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       27,
+       14,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       3,
+       5,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       56,
+       35,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       28,
+       16,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       53,
+       25,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       14,
+       10,
+       "c"
+      ],
+      [
+       "Suryansh Shedge",
+       7,
+       6,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       3,
+       4,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       4,
+       5,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prince Yadav"
+     ],
+     "bowl": [
+      [
+       "Will Jacks",
+       "3",
+       32,
+       0
+      ],
+      [
+       "Sam Curran",
+       "4",
+       36,
+       3
+      ],
+      [
+       "Liam Dawson",
+       "2",
+       14,
+       1
+      ],
+      [
+       "Jofra Archer",
+       "4",
+       41,
+       1
+      ],
+      [
+       "Adil Rashid",
+       "3",
+       24,
+       2
+      ],
+      [
+       "Josh Tongue",
+       "4",
+       53,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1496579",
    "eventId": "1496579",
    "date": "2026-07-14T10:00Z",
@@ -5905,7 +6126,7 @@
    "venue": "Sophia Gardens, Cardiff",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "England",
@@ -5916,7 +6137,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "144/3 (26.1/50 ov)",
+     "score": "233 (44/50 ov)",
      "winner": false
     }
    ],
@@ -5943,8 +6164,8 @@
      "Ishan Kishan",
      "Shreyas Iyer",
      "Washington Sundar",
-     "Shivam Dube",
      "Axar Patel",
+     "Shivam Dube",
      "Gurnoor Brar",
      "Jasprit Bumrah",
      "Prasidh Krishna"
@@ -5953,7 +6174,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "144/3 (26.1 ov)",
+     "total": "233 (44.0 ov)",
      "bat": [
       [
        "Rohit Sharma",
@@ -5969,9 +6190,9 @@
       ],
       [
        "Virat Kohli",
-       53,
-       50,
-       "not out"
+       65,
+       66,
+       "c"
       ],
       [
        "Ishan Kishan",
@@ -5981,55 +6202,84 @@
       ],
       [
        "Shreyas Iyer",
-       22,
-       22,
+       66,
+       71,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Gurnoor Brar",
+       7,
+       15,
+       "c"
+      ],
+      [
+       "Jasprit Bumrah",
+       20,
+       13,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       0,
+       3,
        "not out"
       ]
      ],
-     "dnb": [
-      "Washington Sundar",
-      "Shivam Dube",
-      "Axar Patel",
-      "Gurnoor Brar",
-      "Jasprit Bumrah",
-      "Prasidh Krishna"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Sam Curran",
-       "5.1",
-       18,
+       "6",
+       23,
        1
       ],
       [
        "Will Jacks",
-       "4",
-       16,
+       "5",
+       21,
        1
       ],
       [
        "Jofra Archer",
-       "5",
-       24,
-       0
+       "10",
+       47,
+       3
       ],
       [
        "Gus Atkinson",
-       "5",
-       31,
-       1
+       "9",
+       50,
+       3
       ],
       [
        "Adil Rashid",
-       "4",
-       25,
+       "5",
+       34,
        0
       ],
       [
        "Saqib Mahmood",
-       "3",
-       24,
-       0
+       "9",
+       52,
+       2
       ]
      ]
     }
@@ -6065,8 +6315,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.51,
-    0.49
+    0.845,
+    0.155
    ]
   },
   {
