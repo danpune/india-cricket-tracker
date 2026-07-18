@@ -1,7 +1,7 @@
 {
  "headlines": [
   {
-   "t": "Washington out of India's third ODI against England",
+   "t": "Harsh Dubey replaces Washington Sundar for third ODI against England",
    "u": "https://www.cricinfo.com/ci/content/story/1546007.html?ex_cid=OTC-RSS",
    "d": "Sat, 18 Jul 2026"
   },
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "EkSKD87Sguw",
+     "t": "Preview: England vs India, 3rd ODI"
+    },
+    {
      "yt": "GX4lTcUPyh4",
      "t": "Iyer needs to bat at 4; India mustn't tinker with batting order: Kaif"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "AGFbrqOMH-k",
      "t": "Rohit's new batting template reflects his search for consistency: Kaif"
-    },
-    {
-     "yt": "Yv16HLcB5_8",
-     "t": "Match Forecast: England vs India, 2nd ODI"
     }
    ]
   },
