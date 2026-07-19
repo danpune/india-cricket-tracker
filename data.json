@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T17:00:39Z",
+ "updated": "2026-07-19T18:28:13Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6358,25 +6358,26 @@
    "seriesId": "23810",
    "matchNo": "3rd ODI",
    "venue": "Lord's, London",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
      "score": "387/3",
-     "winner": false
+     "winner": true
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "218/1 (33.2/50 ov, target 388)",
+     "score": "360/7 (50 ov, target 388)",
      "winner": false
     }
    ],
-   "result": "India require 170 runs",
-   "india": "",
+   "result": "England won by 27 runs",
+   "india": "lost",
+   "seriesNote": "England won the 3-match series 2-1",
    "xi": {
     "England": [
      "Ben Duckett",
@@ -6400,8 +6401,8 @@
      "KL Rahul",
      "Axar Patel",
      "Gurnoor Brar",
-     "Prince Yadav",
      "Arshdeep Singh",
+     "Prince Yadav",
      "Prasidh Krishna"
     ]
    },
@@ -6463,16 +6464,16 @@
        0
       ],
       [
-       "Prince Yadav",
-       "10",
-       79,
-       1
-      ],
-      [
        "Arshdeep Singh",
        "10",
        72,
        0
+      ],
+      [
+       "Prince Yadav",
+       "10",
+       79,
+       1
       ],
       [
        "Prasidh Krishna",
@@ -6484,12 +6485,12 @@
     },
     {
      "t": "India",
-     "total": "218/1 (33.2 ov)",
+     "total": "360/7 (50.0 ov)",
      "bat": [
       [
        "Rohit Sharma",
-       109,
-       95,
+       138,
+       110,
        "not out"
       ],
       [
@@ -6500,38 +6501,68 @@
       ],
       [
        "Virat Kohli",
-       26,
-       22,
+       74,
+       60,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       14,
+       12,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       12,
+       8,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "Gurnoor Brar",
+       18,
+       14,
+       "not out"
+      ],
+      [
+       "Arshdeep Singh",
+       15,
+       6,
        "not out"
       ]
      ],
      "dnb": [
-      "Ishan Kishan",
-      "Shreyas Iyer",
-      "KL Rahul",
-      "Axar Patel",
-      "Gurnoor Brar",
       "Prince Yadav",
-      "Arshdeep Singh",
       "Prasidh Krishna"
      ],
      "bowl": [
       [
        "Jacob Bethell",
-       "1",
-       3,
-       0
+       "7",
+       49,
+       1
       ],
       [
        "Sam Curran",
-       "4.3",
-       33,
-       0
+       "10",
+       75,
+       4
       ],
       [
        "Will Jacks",
-       "2",
-       16,
+       "4",
+       38,
        0
       ],
       [
@@ -6542,14 +6573,14 @@
       ],
       [
        "Jofra Archer",
-       "8",
-       45,
-       0
+       "10",
+       63,
+       1
       ],
       [
        "Adil Rashid",
-       "7",
-       52,
+       "8",
+       64,
        1
       ],
       [
@@ -6592,8 +6623,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.115,
-    0.885
+    0.12,
+    0.88
    ]
   },
   {
