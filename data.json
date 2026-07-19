@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T14:02:00Z",
+ "updated": "2026-07-19T15:31:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6360,22 +6360,22 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "387/3 (50 ov)",
+     "score": "387/3",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "81/0 (14/50 ov, target 388)",
      "winner": false
     }
    ],
-   "result": "England won toss & batted",
+   "result": "India require 307 runs",
    "india": "",
    "xi": {
     "England": [
@@ -6479,6 +6479,61 @@
        "10",
        69,
        2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "81/0 (14.0 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       36,
+       34,
+       "not out"
+      ],
+      [
+       "Shubman Gill",
+       45,
+       50,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Virat Kohli",
+      "Ishan Kishan",
+      "Shreyas Iyer",
+      "KL Rahul",
+      "Axar Patel",
+      "Gurnoor Brar",
+      "Prince Yadav",
+      "Arshdeep Singh",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Sam Curran",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Gus Atkinson",
+       "3",
+       11,
+       0
+      ],
+      [
+       "Jofra Archer",
+       "5",
+       24,
+       0
+      ],
+      [
+       "Josh Tongue",
+       "4",
+       28,
+       0
       ]
      ]
     }
@@ -8455,7 +8510,7 @@
       "no": "8",
       "name": "Bangladesh",
       "team": "Bangladesh",
-      "rating": "223"
+      "rating": "224"
      },
      {
       "no": "9",
