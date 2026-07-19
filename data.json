@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T10:56:03Z",
+ "updated": "2026-07-19T12:02:05Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6365,7 +6365,7 @@
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "71/0 (11.2/50 ov)",
+     "score": "166/0 (26.4/50 ov)",
      "winner": false
     },
     {
@@ -6408,18 +6408,18 @@
    "innings": [
     {
      "t": "England",
-     "total": "71/0 (11.2 ov)",
+     "total": "166/0 (26.4 ov)",
      "bat": [
       [
        "Ben Duckett",
-       23,
-       30,
+       67,
+       78,
        "not out"
       ],
       [
        "Jacob Bethell",
-       35,
-       38,
+       80,
+       82,
        "not out"
       ]
      ],
@@ -6436,15 +6436,27 @@
      ],
      "bowl": [
       [
+       "Axar Patel",
+       "5.4",
+       37,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "5",
+       29,
+       0
+      ],
+      [
        "Prince Yadav",
-       "3",
-       28,
+       "5",
+       36,
        0
       ],
       [
        "Arshdeep Singh",
-       "3.2",
-       20,
+       "6",
+       36,
        0
       ],
       [
