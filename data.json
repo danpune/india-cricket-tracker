@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T09:29:12Z",
+ "updated": "2026-07-19T10:56:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6358,14 +6358,14 @@
    "seriesId": "23810",
    "matchNo": "3rd ODI",
    "venue": "Lord's, London",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "",
+     "score": "71/0 (11.2/50 ov)",
      "winner": false
     },
     {
@@ -6375,11 +6375,86 @@
      "winner": false
     }
    ],
-   "result": "Starts at 11:00 local time",
+   "result": "England won toss & batted",
    "india": "",
-   "o": [
-    0.515,
-    0.485
+   "xi": {
+    "England": [
+     "Ben Duckett",
+     "Jacob Bethell",
+     "Joe Root",
+     "Harry Brook (c)",
+     "Jos Buttler",
+     "Sam Curran",
+     "Will Jacks",
+     "Gus Atkinson",
+     "Jofra Archer",
+     "Adil Rashid",
+     "Josh Tongue"
+    ],
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Ishan Kishan",
+     "Shreyas Iyer",
+     "KL Rahul",
+     "Axar Patel",
+     "Gurnoor Brar",
+     "Prince Yadav",
+     "Arshdeep Singh",
+     "Prasidh Krishna"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England",
+     "total": "71/0 (11.2 ov)",
+     "bat": [
+      [
+       "Ben Duckett",
+       23,
+       30,
+       "not out"
+      ],
+      [
+       "Jacob Bethell",
+       35,
+       38,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Joe Root",
+      "Harry Brook",
+      "Jos Buttler",
+      "Sam Curran",
+      "Will Jacks",
+      "Gus Atkinson",
+      "Jofra Archer",
+      "Adil Rashid",
+      "Josh Tongue"
+     ],
+     "bowl": [
+      [
+       "Prince Yadav",
+       "3",
+       28,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "3.2",
+       20,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       21,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
