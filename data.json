@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T12:02:05Z",
+ "updated": "2026-07-19T14:02:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6360,12 +6360,12 @@
    "venue": "Lord's, London",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "England",
      "abbr": "ENG",
-     "score": "166/0 (26.4/50 ov)",
+     "score": "387/3 (50 ov)",
      "winner": false
     },
     {
@@ -6408,25 +6408,40 @@
    "innings": [
     {
      "t": "England",
-     "total": "166/0 (26.4 ov)",
+     "total": "387/3 (50.0 ov)",
      "bat": [
       [
        "Ben Duckett",
-       67,
-       78,
-       "not out"
+       141,
+       135,
+       "c"
       ],
       [
        "Jacob Bethell",
-       80,
-       82,
+       91,
+       93,
+       "c"
+      ],
+      [
+       "Joe Root",
+       74,
+       48,
+       "not out"
+      ],
+      [
+       "Harry Brook",
+       14,
+       12,
+       "c"
+      ],
+      [
+       "Jos Buttler",
+       41,
+       13,
        "not out"
       ]
      ],
      "dnb": [
-      "Joe Root",
-      "Harry Brook",
-      "Jos Buttler",
       "Sam Curran",
       "Will Jacks",
       "Gus Atkinson",
@@ -6437,33 +6452,33 @@
      "bowl": [
       [
        "Axar Patel",
-       "5.4",
-       37,
+       "10",
+       61,
        0
       ],
       [
        "Gurnoor Brar",
-       "5",
-       29,
+       "10",
+       97,
        0
       ],
       [
        "Prince Yadav",
-       "5",
-       36,
-       0
+       "10",
+       79,
+       1
       ],
       [
        "Arshdeep Singh",
-       "6",
-       36,
+       "10",
+       72,
        0
       ],
       [
        "Prasidh Krishna",
-       "5",
-       21,
-       0
+       "10",
+       69,
+       2
       ]
      ]
     }
