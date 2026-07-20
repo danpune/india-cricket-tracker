@@ -1,13 +1,13 @@
 {
  "headlines": [
   {
-   "t": "Duckett 141 trumps Rohit 138 in Lord's run-fest",
-   "u": "https://www.cricinfo.com/ci/content/story/1546247.html?ex_cid=OTC-RSS",
+   "t": "Gill puts spotlight on India's fitness record",
+   "u": "https://www.cricinfo.com/ci/content/story/1546304.html?ex_cid=OTC-RSS",
    "d": "Mon, 20 Jul 2026"
   },
   {
-   "t": "Gill puts spotlight on India's fitness record",
-   "u": "https://www.cricinfo.com/ci/content/story/1546304.html?ex_cid=OTC-RSS",
+   "t": "Duckett 141 trumps Rohit 138 in Lord's run-fest",
+   "u": "https://www.cricinfo.com/ci/content/story/1546247.html?ex_cid=OTC-RSS",
    "d": "Mon, 20 Jul 2026"
   },
   {
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "Id_H3tiSYLg",
+     "t": "Rohit's ICC pedigree makes him a must for the World Cup: Kaif"
+    },
+    {
      "yt": "TKOvXajAhbA",
      "t": "Leave Rohit & Kohli alone, write them off at your peril: Mohammad Kaif"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "VY3N3UM7wnE",
      "t": "Just like Messi, India can bank on Kohli-Rohit for 2027 World Cup: Kaif"
-    },
-    {
-     "yt": "DFkpFiCTpIA",
-     "t": "Kohli's relentless hunger remains his biggest strength: Kaif"
     }
    ]
   },
