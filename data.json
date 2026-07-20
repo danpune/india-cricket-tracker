@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T10:55:03Z",
+ "updated": "2026-07-20T13:08:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -232,6 +232,272 @@
        "2",
        20,
        0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1538226",
+   "eventId": "1538226",
+   "date": "2026-05-25T10:00Z",
+   "gender": "women",
+   "format": "T20",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Tour Match",
+   "venue": "The Ambassador Cruise Line Ground, Chelmsford",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "ECB Development Women's XI",
+     "abbr": "ECB-D",
+     "score": "154/6",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "200/6 (20 ov, target 155)",
+     "winner": true
+    }
+   ],
+   "result": "IND Women won by 7 wkts (22b rem)",
+   "india": "won",
+   "xi": {
+    "ECB Development Women's XI": [
+     "Tilly Kesteven",
+     "Liberty Heap",
+     "Ariana Dowse",
+     "Bethan Gammon",
+     "Florence Miller",
+     "Joanne Gardner",
+     "Sophia Smale (c)",
+     "Prisha Thanawala",
+     "Sophie Munro",
+     "Ellie Anderson",
+     "Clara Thaker",
+     "Maria Andrews"
+    ],
+    "India Women": [
+     "Smriti Mandhana (c)",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Bharti Fulmali",
+     "Arundhati Reddy",
+     "Jemimah Rodrigues",
+     "Shreyanka Patil",
+     "Deepti Sharma",
+     "Richa Ghosh",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Nandani Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "ECB Development Women's XI",
+     "total": "154/6 (20.0 ov)",
+     "bat": [
+      [
+       "Tilly Kesteven",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "Liberty Heap",
+       8,
+       6,
+       "not out"
+      ],
+      [
+       "Ariana Dowse",
+       13,
+       17,
+       "not out"
+      ],
+      [
+       "Bethan Gammon",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Florence Miller",
+       48,
+       41,
+       "not out"
+      ],
+      [
+       "Joanne Gardner",
+       36,
+       27,
+       "c"
+      ],
+      [
+       "Sophia Smale",
+       27,
+       18,
+       "not out"
+      ],
+      [
+       "Prisha Thanawala",
+       3,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Sophie Munro",
+      "Ellie Anderson",
+      "Clara Thaker",
+      "Maria Andrews"
+     ],
+     "bowl": [
+      [
+       "Arundhati Reddy",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "3",
+       31,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       23,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       16,
+       1
+      ],
+      [
+       "Shree Charani",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       18,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "200/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       50,
+       25,
+       "retired out"
+      ],
+      [
+       "Yastika Bhatia",
+       47,
+       35,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       48,
+       29,
+       "st"
+      ],
+      [
+       "Arundhati Reddy",
+       20,
+       16,
+       "not out"
+      ],
+      [
+       "Jemimah Rodrigues",
+       2,
+       2,
+       "not out"
+      ],
+      [
+       "Shreyanka Patil",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Deepti Sharma",
+       2,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Kranti Gaud",
+      "Shree Charani",
+      "Renuka Singh",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Sophia Smale",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Prisha Thanawala",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Sophie Munro",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Ellie Anderson",
+       "4",
+       39,
+       2
+      ],
+      [
+       "Clara Thaker",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Maria Andrews",
+       "3",
+       30,
+       1
       ]
      ]
     }
@@ -6328,8 +6594,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.175,
-    0.825
+    0.155,
+    0.845
    ]
   },
   {
