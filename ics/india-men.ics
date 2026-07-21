@@ -292,14 +292,6 @@ LOCATION:Bay Oval  Mount Maunganui
 DESCRIPTION:India tour of New Zealand 2026/27
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1539442@india-cricket-tracker
-DTSTART:20261118T220000Z
-DTEND:20261119T050000Z
-SUMMARY:New Zealand v India 🏏 1st Test
-LOCATION:Basin Reserve  Wellington
-DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1539443@india-cricket-tracker
 DTSTART:20261126T220000Z
 DTEND:20261127T050000Z
