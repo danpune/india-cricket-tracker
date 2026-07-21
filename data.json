@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21T20:00:53Z",
+ "updated": "2026-07-21T21:40:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -497,6 +497,241 @@
        "Maria Andrews",
        "3",
        30,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1496548",
+   "eventId": "1496548",
+   "date": "2026-05-28T17:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "1st T20I",
+   "venue": "County Ground, Chelmsford",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England Women",
+     "abbr": "ENG-W",
+     "score": "150/8 (20 ov, target 189)",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "188/7",
+     "winner": true
+    }
+   ],
+   "result": "India won by 38 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "188/7 (20 ov)",
+     "bat": [
+      [
+       "S Mandhana",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "YH Bhatia",
+       54,
+       40,
+       "run out"
+      ],
+      [
+       "JI Rodrigues",
+       69,
+       40,
+       "c&b"
+      ],
+      [
+       "RM Ghosh",
+       4,
+       6,
+       "c"
+      ],
+      [
+       "BS Fulmali",
+       7,
+       8,
+       "b"
+      ],
+      [
+       "DB Sharma",
+       22,
+       13,
+       "c"
+      ],
+      [
+       "A Reddy",
+       9,
+       8,
+       "not out"
+      ],
+      [
+       "K Goud",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "N Shree Charani",
+      "NSS Sharma"
+     ],
+     "bowl": [
+      [
+       "LK Bell",
+       "4",
+       34,
+       3
+      ],
+      [
+       "IECM Wong",
+       "3",
+       41,
+       1
+      ],
+      [
+       "MR Corteen-Coleman",
+       "3",
+       19,
+       1
+      ],
+      [
+       "S Ecclestone",
+       "3",
+       33,
+       0
+      ],
+      [
+       "CE Dean",
+       "4",
+       26,
+       1
+      ],
+      [
+       "DR Gibson",
+       "3",
+       34,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "England",
+     "total": "150/8 (20 ov)",
+     "bat": [
+      [
+       "SIR Dunkley",
+       16,
+       10,
+       "c"
+      ],
+      [
+       "A Capsey",
+       6,
+       5,
+       "c"
+      ],
+      [
+       "AE Jones",
+       67,
+       48,
+       "c"
+      ],
+      [
+       "HC Knight",
+       21,
+       24,
+       "c"
+      ],
+      [
+       "FG Kemp",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "DR Gibson",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "CE Dean",
+       11,
+       11,
+       "not out"
+      ],
+      [
+       "IECM Wong",
+       4,
+       3,
+       "b"
+      ],
+      [
+       "S Ecclestone",
+       13,
+       7,
+       "run out"
+      ],
+      [
+       "LK Bell",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "MR Corteen-Coleman"
+     ],
+     "bowl": [
+      [
+       "A Reddy",
+       "4",
+       23,
+       0
+      ],
+      [
+       "K Goud",
+       "4",
+       24,
+       2
+      ],
+      [
+       "NSS Sharma",
+       "4",
+       34,
+       3
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       25,
+       1
+      ],
+      [
+       "DB Sharma",
+       "4",
+       42,
        1
       ]
      ]
@@ -5880,8 +6115,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.11,
-    0.89
+    0.12,
+    0.88
    ]
   },
   {
