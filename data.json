@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T23:31:20Z",
+ "updated": "2026-07-21T02:53:49Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -2111,231 +2111,6 @@
    ]
   },
   {
-   "id": "espn_1527151",
-   "eventId": "1527151",
-   "date": "2026-06-13T08:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "Afghanistan tour of India 2026",
-   "seriesId": "24227",
-   "matchNo": "1st ODI",
-   "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "195/3 (22.5/25 ov, target 195)",
-     "winner": true
-    },
-    {
-     "name": "Afghanistan",
-     "abbr": "AFG",
-     "score": "194 (24.5/25 ov)",
-     "winner": false
-    }
-   ],
-   "result": "India won by 7 wkts (13b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Afghanistan",
-     "total": "194 (24.5 ov)",
-     "bat": [
-      [
-       "Rahmanullah Gurbaz",
-       102,
-       51,
-       "not out"
-      ],
-      [
-       "Ibrahim Zadran",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "Sediqullah Atal",
-       0,
-       2,
-       "lbw"
-      ],
-      [
-       "Rahmat Shah",
-       3,
-       8,
-       "c"
-      ],
-      [
-       "Hashmatullah Shahidi",
-       27,
-       30,
-       "c"
-      ],
-      [
-       "Azmatullah Omarzai",
-       26,
-       16,
-       "st"
-      ],
-      [
-       "Mohammad Nabi",
-       9,
-       14,
-       "c"
-      ],
-      [
-       "Rashid Khan",
-       9,
-       13,
-       "not out"
-      ],
-      [
-       "AM Ghazanfar",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "Ziaur Rahman",
-       4,
-       8,
-       "c"
-      ],
-      [
-       "Mohammad Saleem",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Nitish Kumar Reddy",
-       "4",
-       31,
-       2
-      ],
-      [
-       "Washington Sundar",
-       "1",
-       19,
-       0
-      ],
-      [
-       "Harsh Dubey",
-       "5",
-       47,
-       3
-      ],
-      [
-       "Arshdeep Singh",
-       "5",
-       27,
-       2
-      ],
-      [
-       "Prasidh Krishna",
-       "5",
-       35,
-       0
-      ],
-      [
-       "Gurnoor Brar",
-       "4.5",
-       27,
-       3
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "195/3 (22.5 ov)",
-     "bat": [
-      [
-       "Rohit Sharma",
-       16,
-       16,
-       "run out"
-      ],
-      [
-       "Shubman Gill",
-       84,
-       66,
-       "not out"
-      ],
-      [
-       "Ishan Kishan",
-       34,
-       22,
-       "not out"
-      ],
-      [
-       "Shreyas Iyer",
-       12,
-       15,
-       "c"
-      ],
-      [
-       "KL Rahul",
-       39,
-       19,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Nitish Kumar Reddy",
-      "Washington Sundar",
-      "Harsh Dubey",
-      "Arshdeep Singh",
-      "Prasidh Krishna",
-      "Gurnoor Brar"
-     ],
-     "bowl": [
-      [
-       "Azmatullah Omarzai",
-       "3",
-       28,
-       0
-      ],
-      [
-       "Mohammad Nabi",
-       "2",
-       26,
-       0
-      ],
-      [
-       "Rashid Khan",
-       "5",
-       37,
-       1
-      ],
-      [
-       "AM Ghazanfar",
-       "5",
-       28,
-       0
-      ],
-      [
-       "Ziaur Rahman",
-       "4",
-       39,
-       1
-      ],
-      [
-       "Mohammad Saleem",
-       "3.5",
-       36,
-       0
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1490682",
    "eventId": "1490682",
    "date": "2026-06-14T13:30Z",
@@ -2564,260 +2339,6 @@
        "3",
        22,
        1
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1527152",
-   "eventId": "1527152",
-   "date": "2026-06-17T08:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "Afghanistan tour of India 2026",
-   "seriesId": "24227",
-   "matchNo": "2nd ODI",
-   "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "402",
-     "winner": true
-    },
-    {
-     "name": "Afghanistan",
-     "abbr": "AFG",
-     "score": "232 (44.3/50 ov, target 403)",
-     "winner": false
-    }
-   ],
-   "result": "India won by 170 runs",
-   "india": "won",
-   "innings": [
-    {
-     "t": "India",
-     "total": "402 (49.5 ov)",
-     "bat": [
-      [
-       "Yashasvi Jaiswal",
-       4,
-       9,
-       "c"
-      ],
-      [
-       "Rohit Sharma",
-       48,
-       39,
-       "not out"
-      ],
-      [
-       "Shubman Gill",
-       154,
-       110,
-       "c"
-      ],
-      [
-       "Ishan Kishan",
-       125,
-       79,
-       "c"
-      ],
-      [
-       "Shreyas Iyer",
-       26,
-       24,
-       "c"
-      ],
-      [
-       "KL Rahul",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Washington Sundar",
-       19,
-       19,
-       "c"
-      ],
-      [
-       "Gurnoor Brar",
-       3,
-       7,
-       "c"
-      ],
-      [
-       "Arshdeep Singh",
-       3,
-       4,
-       "c"
-      ],
-      [
-       "Kuldeep Yadav",
-       3,
-       3,
-       "not out"
-      ],
-      [
-       "Prince Yadav",
-       5,
-       5,
-       "run out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Hashmatullah Shahidi",
-       "5",
-       36,
-       0
-      ],
-      [
-       "Nangeyalia Kharote",
-       "10",
-       76,
-       4
-      ],
-      [
-       "Rashid Khan",
-       "8",
-       48,
-       3
-      ],
-      [
-       "AM Ghazanfar",
-       "10",
-       69,
-       1
-      ],
-      [
-       "Mohammad Saleem",
-       "8",
-       75,
-       1
-      ],
-      [
-       "Bilal Sami",
-       "8.5",
-       90,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "Afghanistan",
-     "total": "232/9 (44.3 ov)",
-     "bat": [
-      [
-       "Rahmanullah Gurbaz",
-       41,
-       33,
-       "c"
-      ],
-      [
-       "Ibrahim Zadran",
-       21,
-       31,
-       "c"
-      ],
-      [
-       "Sediqullah Atal",
-       42,
-       50,
-       "lbw"
-      ],
-      [
-       "Rahmat Shah",
-       79,
-       89,
-       "c"
-      ],
-      [
-       "Darwish Rasooli",
-       6,
-       6,
-       "retired not out"
-      ],
-      [
-       "Hashmatullah Shahidi",
-       4,
-       2,
-       "not out"
-      ],
-      [
-       "Nangeyalia Kharote",
-       6,
-       11,
-       "not out"
-      ],
-      [
-       "Rashid Khan",
-       12,
-       12,
-       "c"
-      ],
-      [
-       "AM Ghazanfar",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Mohammad Saleem",
-       9,
-       19,
-       "not out"
-      ],
-      [
-       "Bilal Sami",
-       2,
-       14,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Yashasvi Jaiswal",
-       "1",
-       3,
-       0
-      ],
-      [
-       "Washington Sundar",
-       "7",
-       24,
-       1
-      ],
-      [
-       "Gurnoor Brar",
-       "10",
-       60,
-       3
-      ],
-      [
-       "Arshdeep Singh",
-       "9",
-       45,
-       3
-      ],
-      [
-       "Kuldeep Yadav",
-       "10",
-       42,
-       0
-      ],
-      [
-       "Prince Yadav",
-       "7.3",
-       56,
-       2
       ]
      ]
     }
@@ -7731,6 +7252,36 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529238",
+   "eventId": "1529238",
+   "date": "2026-12-22T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st T20I",
+   "venue": "Niranjan Shah Stadium, Rajkot",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
