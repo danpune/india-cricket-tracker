@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22T06:38:03Z",
+ "updated": "2026-07-22T09:28:23Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4077,226 +4077,6 @@
    ]
   },
   {
-   "id": "espn_1496575",
-   "eventId": "1496575",
-   "date": "2026-07-04T13:30Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of England 2026",
-   "seriesId": "23810",
-   "matchNo": "2nd T20I",
-   "venue": "Old Trafford, Manchester",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "England",
-     "abbr": "ENG",
-     "score": "191/6 (19/20 ov, target 191)",
-     "winner": true
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "190/7",
-     "winner": false
-    }
-   ],
-   "result": "England won by 4 wkts (6b rem)",
-   "india": "lost",
-   "innings": [
-    {
-     "t": "India",
-     "total": "190/7 (20.0 ov)",
-     "bat": [
-      [
-       "Abhishek Sharma",
-       43,
-       24,
-       "c"
-      ],
-      [
-       "Vaibhav Sooryavanshi",
-       14,
-       10,
-       "st"
-      ],
-      [
-       "Ishan Kishan",
-       49,
-       40,
-       "c"
-      ],
-      [
-       "Shreyas Iyer",
-       37,
-       22,
-       "c"
-      ],
-      [
-       "Shivam Dube",
-       5,
-       7,
-       "c"
-      ],
-      [
-       "Tilak Varma",
-       24,
-       11,
-       "not out"
-      ],
-      [
-       "Axar Patel",
-       2,
-       3,
-       "run out"
-      ],
-      [
-       "Harshit Rana",
-       6,
-       3,
-       "c"
-      ]
-     ],
-     "dnb": [
-      "Ravi Bishnoi",
-      "Arshdeep Singh",
-      "Varun Chakravarthy"
-     ],
-     "bowl": [
-      [
-       "Will Jacks",
-       "3",
-       22,
-       1
-      ],
-      [
-       "Sam Curran",
-       "4",
-       33,
-       3
-      ],
-      [
-       "Jofra Archer",
-       "4",
-       40,
-       1
-      ],
-      [
-       "Liam Dawson",
-       "3",
-       27,
-       1
-      ],
-      [
-       "Adil Rashid",
-       "2",
-       21,
-       0
-      ],
-      [
-       "Josh Tongue",
-       "4",
-       46,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "England",
-     "total": "191/6 (19.0 ov)",
-     "bat": [
-      [
-       "Phil Salt",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Jos Buttler",
-       0,
-       3,
-       "c"
-      ],
-      [
-       "Harry Brook",
-       39,
-       15,
-       "c"
-      ],
-      [
-       "Jacob Bethell",
-       76,
-       46,
-       "not out"
-      ],
-      [
-       "Tom Banton",
-       39,
-       32,
-       "c"
-      ],
-      [
-       "Will Jacks",
-       9,
-       8,
-       "lbw"
-      ],
-      [
-       "Sam Curran",
-       7,
-       5,
-       "c"
-      ],
-      [
-       "Jofra Archer",
-       10,
-       7,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Liam Dawson",
-      "Adil Rashid",
-      "Josh Tongue"
-     ],
-     "bowl": [
-      [
-       "Axar Patel",
-       "4",
-       20,
-       1
-      ],
-      [
-       "Harshit Rana",
-       "3",
-       30,
-       1
-      ],
-      [
-       "Ravi Bishnoi",
-       "4",
-       60,
-       0
-      ],
-      [
-       "Arshdeep Singh",
-       "4",
-       40,
-       3
-      ],
-      [
-       "Varun Chakravarthy",
-       "4",
-       37,
-       1
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1496576",
    "eventId": "1496576",
    "date": "2026-07-07T16:30Z",
@@ -6956,36 +6736,6 @@
    "india": ""
   },
   {
-   "id": "espn_1539442",
-   "eventId": "1539442",
-   "date": "2026-11-18T22:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "1st Test",
-   "venue": "Basin Reserve, Wellington",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
    "id": "espn_1539443",
    "eventId": "1539443",
    "date": "2026-11-26T22:00Z",
@@ -7882,31 +7632,31 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-07-14",
+    "updated": "2026-07-21",
     "bat": [
      {
       "no": "1",
       "name": "Daryl Mitchell",
       "team": "New Zealand",
-      "rating": "814"
+      "rating": "802"
      },
      {
       "no": "2",
       "name": "Shubman Gill",
       "team": "India",
-      "rating": "803"
+      "rating": "801"
      },
      {
       "no": "3",
       "name": "Virat Kohli",
       "team": "India",
-      "rating": "757"
+      "rating": "767"
      },
      {
       "no": "4",
       "name": "Rohit Sharma",
       "team": "India",
-      "rating": "744"
+      "rating": "758"
      },
      {
       "no": "5",
@@ -7916,33 +7666,33 @@
      },
      {
       "no": "6",
-      "name": "Shai Hope",
-      "team": "West Indies",
-      "rating": "692"
-     },
-     {
-      "no": "7",
       "name": "Babar Azam",
       "team": "Pakistan",
       "rating": "689"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Harry Tector",
       "team": "Ireland",
       "rating": "679"
      },
      {
+      "no": "8",
+      "name": "Joe Root",
+      "team": "England",
+      "rating": "674"
+     },
+     {
       "no": "9",
-      "name": "Charith Asalanka",
-      "team": "Sri Lanka",
-      "rating": "659"
+      "name": "Shai Hope",
+      "team": "West Indies",
+      "rating": "672"
      },
      {
       "no": "10",
-      "name": "Kusal Mendis",
+      "name": "Charith Asalanka",
       "team": "Sri Lanka",
-      "rating": "648"
+      "rating": "659"
      }
     ],
     "bowl": [
@@ -7960,51 +7710,51 @@
      },
      {
       "no": "3",
+      "name": "Jofra Archer",
+      "team": "England",
+      "rating": "649"
+     },
+     {
+      "no": "4",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "645"
+     },
+     {
+      "no": "=",
       "name": "Keshav Maharaj",
       "team": "South Africa",
       "rating": "645"
      },
      {
-      "no": "4",
-      "name": "Jofra Archer",
-      "team": "England",
-      "rating": "642"
-     },
-     {
-      "no": "5",
+      "no": "6",
       "name": "Maheesh Theekshana",
       "team": "Sri Lanka",
       "rating": "641"
      },
      {
-      "no": "6",
-      "name": "Adil Rashid",
-      "team": "England",
-      "rating": "619"
-     },
-     {
       "no": "7",
-      "name": "Mitchell Santner",
-      "team": "New Zealand",
-      "rating": "612"
-     },
-     {
-      "no": "8",
-      "name": "Kuldeep Yadav",
-      "team": "India",
-      "rating": "608"
-     },
-     {
-      "no": "9",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "604"
      },
      {
-      "no": "10",
+      "no": "8",
       "name": "Mehidy Hasan Miraz",
       "team": "Bangladesh",
       "rating": "602"
+     },
+     {
+      "no": "9",
+      "name": "Adil Rashid",
+      "team": "England",
+      "rating": "599"
+     },
+     {
+      "no": "=",
+      "name": "Gudakesh Motie",
+      "team": "West Indies",
+      "rating": "599"
      }
     ]
    },
@@ -8071,7 +7821,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-07-14",
+    "updated": "2026-07-21",
     "bat": [
      {
       "no": "1",
@@ -8123,15 +7873,15 @@
      },
      {
       "no": "9",
-      "name": "Mitchell Marsh",
-      "team": "Australia",
-      "rating": "706"
+      "name": "Brian Bennett",
+      "team": "Zimbabwe",
+      "rating": "716"
      },
      {
       "no": "10",
-      "name": "Dewald Brevis",
-      "team": "South Africa",
-      "rating": "702"
+      "name": "Mitchell Marsh",
+      "team": "Australia",
+      "rating": "706"
      }
     ],
     "bowl": [
@@ -8191,9 +7941,9 @@
      },
      {
       "no": "10",
-      "name": "Nasum Ahmed",
-      "team": "Bangladesh",
-      "rating": "660"
+      "name": "Mohammad Nawaz",
+      "team": "Pakistan",
+      "rating": "658"
      }
     ]
    }
