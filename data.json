@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T13:03:10Z",
+ "updated": "2026-07-23T15:31:49Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6095,25 +6095,26 @@
    "seriesId": "24301",
    "matchNo": "1st T20I",
    "venue": "Harare Sports Club",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "125/7 (20 ov)",
+     "score": "125/7",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "126/3 (13.2/20 ov, target 126)",
+     "winner": true
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "India won by 7 wkts (40b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 1-0",
    "xi": {
     "Zimbabwe": [
      "Brian Bennett",
@@ -6129,8 +6130,8 @@
      "Blessing Muzarabani"
     ],
     "India": [
-     "Vaibhav Sooryavanshi",
      "Abhishek Sharma",
+     "Vaibhav Sooryavanshi",
      "Ishan Kishan",
      "Shreyas Iyer (c)",
      "Tilak Varma",
@@ -6236,6 +6237,82 @@
        "4",
        29,
        0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "126/3 (13.2 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       50,
+       19,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       35,
+       24,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       28,
+       24,
+       "not out"
+      ],
+      [
+       "Tilak Varma",
+       6,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Rinku Singh",
+      "Shivam Dube",
+      "Ravi Bishnoi",
+      "Prince Yadav",
+      "Mayank Yadav",
+      "Ashok Sharma"
+     ],
+     "bowl": [
+      [
+       "Sikandar Raza",
+       "3",
+       14,
+       0
+      ],
+      [
+       "Brad Evans",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Newman Nyamhuri",
+       "2",
+       30,
+       0
+      ],
+      [
+       "Richard Ngarava",
+       "2.2",
+       30,
+       1
+      ],
+      [
+       "Blessing Muzarabani",
+       "4",
+       26,
+       2
       ]
      ]
     }

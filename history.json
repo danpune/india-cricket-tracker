@@ -31114,6 +31114,202 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1530060",
+   "date": "2026-07-23",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Zimbabwe 2026",
+   "matchNo": "1st T20I",
+   "venue": "Harare Sports Club",
+   "city": "",
+   "teams": [
+    {
+     "name": "Zimbabwe",
+     "score": "125/7"
+    },
+    {
+     "name": "India",
+     "score": "126/3 (13.2/20 ov, target 126)"
+    }
+   ],
+   "result": "India won by 7 wkts (40b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Zimbabwe",
+     "total": "125/7 (20.0 ov)",
+     "bat": [
+      [
+       "Brian Bennett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ben Curran",
+       10,
+       8,
+       "c"
+      ],
+      [
+       "Dion Myers",
+       6,
+       14,
+       "c"
+      ],
+      [
+       "Sikandar Raza",
+       4,
+       7,
+       "c"
+      ],
+      [
+       "Ryan Burl",
+       26,
+       35,
+       "c"
+      ],
+      [
+       "Wessly Madhevere",
+       39,
+       34,
+       "run out"
+      ],
+      [
+       "Tadiwanashe Marumani",
+       27,
+       20,
+       "not out"
+      ],
+      [
+       "Brad Evans",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Newman Nyamhuri",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richard Ngarava",
+      "Blessing Muzarabani"
+     ],
+     "bowl": [
+      [
+       "Shivam Dube",
+       "4",
+       32,
+       1
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       24,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       19,
+       2
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       18,
+       2
+      ],
+      [
+       "Ashok Sharma",
+       "4",
+       29,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "126/3 (13.2 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       50,
+       19,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       35,
+       24,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       28,
+       24,
+       "not out"
+      ],
+      [
+       "Tilak Varma",
+       6,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Rinku Singh",
+      "Shivam Dube",
+      "Ravi Bishnoi",
+      "Prince Yadav",
+      "Mayank Yadav",
+      "Ashok Sharma"
+     ],
+     "bowl": [
+      [
+       "Sikandar Raza",
+       "3",
+       14,
+       0
+      ],
+      [
+       "Brad Evans",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Newman Nyamhuri",
+       "2",
+       30,
+       0
+      ],
+      [
+       "Richard Ngarava",
+       "2.2",
+       30,
+       1
+      ],
+      [
+       "Blessing Muzarabani",
+       "4",
+       26,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
