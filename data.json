@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T11:25:31Z",
+ "updated": "2026-07-23T13:03:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6097,12 +6097,12 @@
    "venue": "Harare Sports Club",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "20/2 (4/20 ov)",
+     "score": "125/7 (20 ov)",
      "winner": false
     },
     {
@@ -6145,7 +6145,7 @@
    "innings": [
     {
      "t": "Zimbabwe",
-     "total": "20/2 (3.6 ov)",
+     "total": "125/7 (20.0 ov)",
      "bat": [
       [
        "Brian Bennett",
@@ -6162,42 +6162,79 @@
       [
        "Dion Myers",
        6,
-       12,
-       "not out"
+       14,
+       "c"
       ],
       [
        "Sikandar Raza",
-       0,
        4,
+       7,
+       "c"
+      ],
+      [
+       "Ryan Burl",
+       26,
+       35,
+       "c"
+      ],
+      [
+       "Wessly Madhevere",
+       39,
+       34,
+       "run out"
+      ],
+      [
+       "Tadiwanashe Marumani",
+       27,
+       20,
+       "not out"
+      ],
+      [
+       "Brad Evans",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Newman Nyamhuri",
+       1,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Ryan Burl",
-      "Wessly Madhevere",
-      "Tadiwanashe Marumani",
-      "Brad Evans",
-      "Newman Nyamhuri",
       "Richard Ngarava",
       "Blessing Muzarabani"
      ],
      "bowl": [
       [
-       "Prince Yadav",
-       "0.6",
-       1,
+       "Shivam Dube",
+       "4",
+       32,
        1
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       24,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       19,
+       2
       ],
       [
        "Mayank Yadav",
-       "2",
-       9,
-       1
+       "4",
+       18,
+       2
       ],
       [
        "Ashok Sharma",
-       "1",
-       10,
+       "4",
+       29,
        0
       ]
      ]
@@ -8324,19 +8361,19 @@
       "no": "6",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "89"
+      "rating": "86"
      },
      {
       "no": "7",
-      "name": "West Indies",
-      "team": "West Indies",
-      "rating": "74"
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "76"
      },
      {
       "no": "8",
-      "name": "Pakistan",
-      "team": "Pakistan",
-      "rating": "73"
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "74"
      },
      {
       "no": "9",
