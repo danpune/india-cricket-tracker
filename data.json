@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T09:25:41Z",
+ "updated": "2026-07-23T11:25:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6095,14 +6095,14 @@
    "seriesId": "24301",
    "matchNo": "1st T20I",
    "venue": "Harare Sports Club",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "",
+     "score": "20/2 (4/20 ov)",
      "winner": false
     },
     {
@@ -6112,8 +6112,97 @@
      "winner": false
     }
    ],
-   "result": "Starts at 13:00 local time",
-   "india": ""
+   "result": "India won toss & fielded",
+   "india": "",
+   "xi": {
+    "Zimbabwe": [
+     "Brian Bennett",
+     "Ben Curran",
+     "Dion Myers",
+     "Sikandar Raza (c)",
+     "Ryan Burl",
+     "Wessly Madhevere",
+     "Tadiwanashe Marumani",
+     "Brad Evans",
+     "Newman Nyamhuri",
+     "Richard Ngarava",
+     "Blessing Muzarabani"
+    ],
+    "India": [
+     "Vaibhav Sooryavanshi",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Rinku Singh",
+     "Shivam Dube",
+     "Ravi Bishnoi",
+     "Prince Yadav",
+     "Mayank Yadav",
+     "Ashok Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Zimbabwe",
+     "total": "20/2 (3.6 ov)",
+     "bat": [
+      [
+       "Brian Bennett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ben Curran",
+       10,
+       8,
+       "c"
+      ],
+      [
+       "Dion Myers",
+       6,
+       12,
+       "not out"
+      ],
+      [
+       "Sikandar Raza",
+       0,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ryan Burl",
+      "Wessly Madhevere",
+      "Tadiwanashe Marumani",
+      "Brad Evans",
+      "Newman Nyamhuri",
+      "Richard Ngarava",
+      "Blessing Muzarabani"
+     ],
+     "bowl": [
+      [
+       "Prince Yadav",
+       "0.6",
+       1,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "2",
+       9,
+       1
+      ],
+      [
+       "Ashok Sharma",
+       "1",
+       10,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1530061",
