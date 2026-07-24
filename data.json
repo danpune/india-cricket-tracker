@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-24T15:02:40Z",
+ "updated": "2026-07-24T17:06:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6449,6 +6449,36 @@
    "seriesId": "24289",
    "matchNo": "2nd ODI",
    "venue": "Barsapara Cricket Stadium, Guwahati",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529229",
+   "eventId": "1529229",
+   "date": "2026-10-03T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "3rd ODI",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
