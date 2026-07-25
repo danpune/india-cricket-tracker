@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T10:08:32Z",
+ "updated": "2026-07-25T11:45:02Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6299,9 +6299,9 @@
    "seriesId": "24301",
    "matchNo": "2nd T20I",
    "venue": "Harare Sports Club",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Zimbabwe",
@@ -6312,15 +6312,118 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "93/2 (9.4/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 13:00 local time",
+   "result": "Zimbabwe won toss & fielded",
    "india": "",
-   "o": [
-    0.095,
-    0.905
+   "xi": {
+    "Zimbabwe": [
+     "Brian Bennett",
+     "Ben Curran",
+     "Dion Myers",
+     "Sikandar Raza (c)",
+     "Ryan Burl",
+     "Wessly Madhevere",
+     "Tadiwanashe Marumani",
+     "Brad Evans",
+     "Newman Nyamhuri",
+     "Richard Ngarava",
+     "Blessing Muzarabani"
+    ],
+    "India": [
+     "Vaibhav Sooryavanshi",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Rinku Singh",
+     "Shivam Dube",
+     "Ravi Bishnoi",
+     "Prince Yadav",
+     "Yash Thakur",
+     "Mayank Yadav"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "93/2 (9.4 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       20,
+       9,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       8,
+       8,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       40,
+       23,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       19,
+       17,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tilak Varma",
+      "Rinku Singh",
+      "Shivam Dube",
+      "Ravi Bishnoi",
+      "Prince Yadav",
+      "Yash Thakur",
+      "Mayank Yadav"
+     ],
+     "bowl": [
+      [
+       "Brian Bennett",
+       "0.3",
+       9,
+       0
+      ],
+      [
+       "Sikandar Raza",
+       "2",
+       17,
+       0
+      ],
+      [
+       "Brad Evans",
+       "1",
+       12,
+       0
+      ],
+      [
+       "Newman Nyamhuri",
+       "2",
+       19,
+       0
+      ],
+      [
+       "Richard Ngarava",
+       "2",
+       26,
+       1
+      ],
+      [
+       "Blessing Muzarabani",
+       "2",
+       6,
+       1
+      ]
+     ]
+    }
    ]
   },
   {
@@ -6351,7 +6454,11 @@
     }
    ],
    "result": "Starts at 13:00 local time",
-   "india": ""
+   "india": "",
+   "o": [
+    0.095,
+    0.905
+   ]
   },
   {
    "id": "espn_1544001",
