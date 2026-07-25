@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T11:45:02Z",
+ "updated": "2026-07-25T13:40:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6306,25 +6306,25 @@
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "",
+     "score": "64/4 (8/20 ov, target 220)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "93/2 (9.4/20 ov)",
+     "score": "219/5",
      "winner": false
     }
    ],
-   "result": "Zimbabwe won toss & fielded",
+   "result": "Zimbabwe require 156 runs",
    "india": "",
    "xi": {
     "Zimbabwe": [
      "Brian Bennett",
      "Ben Curran",
      "Dion Myers",
-     "Sikandar Raza (c)",
      "Ryan Burl",
+     "Sikandar Raza (c)",
      "Wessly Madhevere",
      "Tadiwanashe Marumani",
      "Brad Evans",
@@ -6349,7 +6349,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "93/2 (9.4 ov)",
+     "total": "219/5 (20.0 ov)",
      "bat": [
       [
        "Vaibhav Sooryavanshi",
@@ -6365,21 +6365,36 @@
       ],
       [
        "Ishan Kishan",
-       40,
-       23,
-       "not out"
+       81,
+       44,
+       "c"
       ],
       [
        "Shreyas Iyer",
-       19,
-       17,
+       25,
+       20,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       60,
+       29,
+       "not out"
+      ],
+      [
+       "Rinku Singh",
+       12,
+       8,
+       "c"
+      ],
+      [
+       "Shivam Dube",
+       6,
+       3,
        "not out"
       ]
      ],
      "dnb": [
-      "Tilak Varma",
-      "Rinku Singh",
-      "Shivam Dube",
       "Ravi Bishnoi",
       "Prince Yadav",
       "Yash Thakur",
@@ -6388,39 +6403,120 @@
      "bowl": [
       [
        "Brian Bennett",
-       "0.3",
-       9,
-       0
+       "2",
+       22,
+       1
       ],
       [
        "Sikandar Raza",
-       "2",
-       17,
+       "4",
+       47,
        0
       ],
       [
        "Brad Evans",
-       "1",
-       12,
-       0
+       "4",
+       44,
+       1
       ],
       [
        "Newman Nyamhuri",
-       "2",
-       19,
-       0
+       "3",
+       25,
+       1
       ],
       [
        "Richard Ngarava",
-       "2",
-       26,
+       "3",
+       43,
        1
       ],
       [
        "Blessing Muzarabani",
-       "2",
-       6,
+       "4",
+       36,
        1
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe",
+     "total": "64/4 (7.6 ov)",
+     "bat": [
+      [
+       "Brian Bennett",
+       32,
+       19,
+       "c"
+      ],
+      [
+       "Ben Curran",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Dion Myers",
+       12,
+       9,
+       "not out"
+      ],
+      [
+       "Ryan Burl",
+       15,
+       10,
+       "not out"
+      ],
+      [
+       "Sikandar Raza",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Wessly Madhevere",
+       2,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tadiwanashe Marumani",
+      "Brad Evans",
+      "Newman Nyamhuri",
+      "Richard Ngarava",
+      "Blessing Muzarabani"
+     ],
+     "bowl": [
+      [
+       "Shivam Dube",
+       "0.4",
+       10,
+       0
+      ],
+      [
+       "Ravi Bishnoi",
+       "2",
+       9,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "1.2",
+       10,
+       2
+      ],
+      [
+       "Yash Thakur",
+       "2",
+       17,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "2",
+       17,
+       0
       ]
      ]
     }
@@ -6456,8 +6552,8 @@
    "result": "Starts at 13:00 local time",
    "india": "",
    "o": [
-    0.095,
-    0.905
+    0.001,
+    1.0
    ]
   },
   {
@@ -8520,13 +8616,13 @@
       "no": "6",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "86"
+      "rating": "87"
      },
      {
       "no": "7",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "76"
+      "rating": "75"
      },
      {
       "no": "8",
