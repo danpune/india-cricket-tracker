@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T13:40:26Z",
+ "updated": "2026-07-25T15:05:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6299,25 +6299,26 @@
    "seriesId": "24301",
    "matchNo": "2nd T20I",
    "venue": "Harare Sports Club",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "64/4 (8/20 ov, target 220)",
+     "score": "129 (17.5/20 ov, target 220)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
      "score": "219/5",
-     "winner": false
+     "winner": true
     }
    ],
-   "result": "Zimbabwe require 156 runs",
-   "india": "",
+   "result": "India won by 90 runs",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 2-0",
    "xi": {
     "Zimbabwe": [
      "Brian Bennett",
@@ -6441,7 +6442,7 @@
     },
     {
      "t": "Zimbabwe",
-     "total": "64/4 (7.6 ov)",
+     "total": "129 (17.5 ov)",
      "bat": [
       [
        "Brian Bennett",
@@ -6463,9 +6464,9 @@
       ],
       [
        "Ryan Burl",
-       15,
-       10,
-       "not out"
+       20,
+       18,
+       "c"
       ],
       [
        "Sikandar Raza",
@@ -6476,28 +6477,64 @@
       [
        "Wessly Madhevere",
        2,
-       2,
+       3,
+       "c"
+      ],
+      [
+       "Tadiwanashe Marumani",
+       24,
+       19,
+       "not out"
+      ],
+      [
+       "Brad Evans",
+       19,
+       11,
+       "not out"
+      ],
+      [
+       "Newman Nyamhuri",
+       3,
+       6,
+       "not out"
+      ],
+      [
+       "Richard Ngarava",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Blessing Muzarabani",
+       7,
+       6,
        "not out"
       ]
      ],
-     "dnb": [
-      "Tadiwanashe Marumani",
-      "Brad Evans",
-      "Newman Nyamhuri",
-      "Richard Ngarava",
-      "Blessing Muzarabani"
-     ],
+     "dnb": [],
      "bowl": [
       [
+       "Abhishek Sharma",
+       "2.5",
+       17,
+       3
+      ],
+      [
+       "Tilak Varma",
+       "1",
+       9,
+       1
+      ],
+      [
        "Shivam Dube",
-       "0.4",
-       10,
-       0
+       "1.4",
+       13,
+       1
       ],
       [
        "Ravi Bishnoi",
-       "2",
-       9,
+       "4",
+       20,
        1
       ],
       [
@@ -6508,14 +6545,14 @@
       ],
       [
        "Yash Thakur",
-       "2",
-       17,
-       1
+       "4",
+       30,
+       2
       ],
       [
        "Mayank Yadav",
-       "2",
-       17,
+       "3",
+       25,
        0
       ]
      ]
@@ -8393,14 +8430,14 @@
     "team": [
      {
       "no": "1",
-      "name": "England",
-      "team": "England",
+      "name": "India",
+      "team": "India",
       "rating": "268"
      },
      {
       "no": "2",
-      "name": "India",
-      "team": "India",
+      "name": "England",
+      "team": "England",
       "rating": "268"
      },
      {
