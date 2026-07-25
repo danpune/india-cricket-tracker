@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T15:05:21Z",
+ "updated": "2026-07-25T16:26:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6318,35 +6318,6 @@
    ],
    "result": "India won by 90 runs",
    "india": "won",
-   "seriesNote": "India led the 3-match series 2-0",
-   "xi": {
-    "Zimbabwe": [
-     "Brian Bennett",
-     "Ben Curran",
-     "Dion Myers",
-     "Ryan Burl",
-     "Sikandar Raza (c)",
-     "Wessly Madhevere",
-     "Tadiwanashe Marumani",
-     "Brad Evans",
-     "Newman Nyamhuri",
-     "Richard Ngarava",
-     "Blessing Muzarabani"
-    ],
-    "India": [
-     "Vaibhav Sooryavanshi",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Rinku Singh",
-     "Shivam Dube",
-     "Ravi Bishnoi",
-     "Prince Yadav",
-     "Yash Thakur",
-     "Mayank Yadav"
-    ]
-   },
    "innings": [
     {
      "t": "India",
