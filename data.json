@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T11:34:35Z",
+ "updated": "2026-07-26T12:42:05Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6542,7 +6542,7 @@
    "venue": "Harare Sports Club",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "Zimbabwe",
@@ -6553,7 +6553,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "78/1 (7.1/20 ov)",
+     "score": "192/5 (20 ov)",
      "winner": false
     }
    ],
@@ -6590,13 +6590,13 @@
    "innings": [
     {
      "t": "India",
-     "total": "78/1 (7.1 ov)",
+     "total": "192/5 (20.0 ov)",
      "bat": [
       [
        "Vaibhav Sooryavanshi",
-       43,
-       23,
-       "not out"
+       81,
+       49,
+       "c"
       ],
       [
        "Abhishek Sharma",
@@ -6606,15 +6606,30 @@
       ],
       [
        "Ishan Kishan",
-       21,
-       15,
+       29,
+       26,
        "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       27,
+       18,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       11,
+       9,
+       "not out"
+      ],
+      [
+       "Rinku Singh",
+       25,
+       14,
+       "c"
       ]
      ],
      "dnb": [
-      "Shreyas Iyer",
-      "Tilak Varma",
-      "Rinku Singh",
       "Suryansh Shedge",
       "Ravi Bishnoi",
       "Ashok Sharma",
@@ -6623,16 +6638,28 @@
      ],
      "bowl": [
       [
-       "Sikandar Raza",
+       "Brian Bennett",
        "1",
-       17,
+       7,
        0
       ],
       [
+       "Sikandar Raza",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Wessly Madhevere",
+       "4",
+       37,
+       1
+      ],
+      [
        "Brad Evans",
-       "1",
-       15,
-       0
+       "4",
+       41,
+       2
       ],
       [
        "Newman Nyamhuri",
@@ -6648,8 +6675,8 @@
       ],
       [
        "Blessing Muzarabani",
-       "2",
-       14,
+       "4",
+       33,
        1
       ]
      ]
@@ -7856,8 +7883,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.965,
-    0.035
+    0.943,
+    0.058
    ]
   },
   {
