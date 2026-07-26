@@ -408,8 +408,11 @@ def main():
             if not active and date < today and \
                     any(m["date"][:10] == date and m["gender"] == gender for m in history["matches"]):
                 continue
-            if date == today:
-                continue  # today's events came with the plain scoreboard call
+            # NOTE: don't skip `today` here. ESPN's plain scoreboard call follows the
+            # EVENT's local day, so near a UTC day boundary (e.g. 23:35 UTC = next day
+            # in Harare) it returns tomorrow's fixture and today's finished match is
+            # never fetched — that silently lost the Zimbabwe 2nd T20I. One extra call
+            # per active series per run; duplicates are dropped by event id below.
             try:
                 time.sleep(0.2)  # stay polite: ~40 calls/run against an unofficial API
                 events += get(f"{BASE}/{sid}/scoreboard?dates={date.replace('-', '')}").get("events", [])

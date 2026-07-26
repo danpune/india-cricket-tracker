@@ -23,7 +23,10 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - `fetch_data.py` → `data.json` (all matches of known India series: results/live/fixtures,
   XIs for today's matches) + appends finalized matches to `history.json` (append-only
   season record, seeded from cricsheet by `seed_history.py`).
-- `.github/workflows/update-data.yml` — every 10 min (bumped from 30, user found scores slow; GitHub cron adds jitter so real cadence ~10-15 min), SHA-pinned, rebase-before-push,
+- `.github/workflows/update-data.yml` — cron `*/10` BUT GitHub throttles scheduled
+  workflows on free/public repos: observed real cadence ~60-90 min regardless of the
+  requested interval. Nothing in our control fixes this; manual `gh workflow run` (or
+  Actions tab) is the instant path. Don't 'fix' by lowering the interval further., SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).
 
 ## Security posture
@@ -39,6 +42,12 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows only leagues with matches ~today → `fetch_data.py` keeps a verified seed list of
   India series league ids (`SERIES`) + auto-discovers new ones on match days (persisted
   via `data.json` meta.discovered).
+- DAY-BOUNDARY TRAP (cost us the Zimbabwe 2nd T20I, fixed 2026-07): the plain
+  scoreboard call follows the EVENT's local day, not UTC. Near a UTC boundary
+  (23:35 UTC = next day in Harare) it returns TOMORROW's fixture, so a calendar
+  sweep that skips `today` (assuming the plain call covers it) loses that day's
+  finished match entirely. The sweep now fetches every calendar date including
+  today; duplicates are dropped by event id.
 - Per-series: `site.api.espn.com/.../cricket/{leagueId}/scoreboard` returns ~today only;
   full fixtures come from `leagues[0].calendar` + one `?dates=YYYYMMDD` call per day.
   Umbrella "tour of" ids cover all formats of a tour; use those, not per-format sub-ids.
