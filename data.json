@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T10:04:15Z",
+ "updated": "2026-07-26T11:34:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6540,9 +6540,9 @@
    "seriesId": "24301",
    "matchNo": "3rd T20I",
    "venue": "Harare Sports Club",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Zimbabwe",
@@ -6553,15 +6553,107 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "78/1 (7.1/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 13:00 local time",
+   "result": "India won toss & batted",
    "india": "",
-   "o": [
-    0.085,
-    0.915
+   "xi": {
+    "Zimbabwe": [
+     "Brian Bennett",
+     "Ben Curran",
+     "Dion Myers",
+     "Ryan Burl",
+     "Sikandar Raza (c)",
+     "Wessly Madhevere",
+     "Tadiwanashe Marumani",
+     "Brad Evans",
+     "Newman Nyamhuri",
+     "Wellington Masakadza",
+     "Blessing Muzarabani"
+    ],
+    "India": [
+     "Vaibhav Sooryavanshi",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Rinku Singh",
+     "Suryansh Shedge",
+     "Ravi Bishnoi",
+     "Ashok Sharma",
+     "Yash Thakur",
+     "Mayank Yadav"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "78/1 (7.1 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       43,
+       23,
+       "not out"
+      ],
+      [
+       "Abhishek Sharma",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       21,
+       15,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shreyas Iyer",
+      "Tilak Varma",
+      "Rinku Singh",
+      "Suryansh Shedge",
+      "Ravi Bishnoi",
+      "Ashok Sharma",
+      "Yash Thakur",
+      "Mayank Yadav"
+     ],
+     "bowl": [
+      [
+       "Sikandar Raza",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Brad Evans",
+       "1",
+       15,
+       0
+      ],
+      [
+       "Newman Nyamhuri",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Wellington Masakadza",
+       "1",
+       14,
+       0
+      ],
+      [
+       "Blessing Muzarabani",
+       "2",
+       14,
+       1
+      ]
+     ]
+    }
    ]
   },
   {
@@ -7762,7 +7854,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.965,
+    0.035
+   ]
   },
   {
    "id": "espn_1529242",
