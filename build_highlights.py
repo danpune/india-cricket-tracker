@@ -31,6 +31,10 @@ CHANNELS = {  # seriesId -> official channel handle of the rights-holding home b
     # extend as tours near (verify first!): ICC events -> "@ICC"
 }
 FMT_TOKENS = {"T20I": ("t20",), "ODI": ("odi", "one day"), "Test": ("test",)}
+# Tried for any match the home board didn't yield: Willow ("Willow by Cricbuzz"),
+# the official US broadcaster — posts full match highlights with clean titles.
+# Videos may be US-geo-restricted; still an official source, clearly better than none.
+FALLBACK_CHANNELS = ["@willow"]
 # India-home series: highlights live on bcci.tv itself (Brightcove, server-rendered
 # listing, no key). Tests only get per-day/session clips there — matched only when a
 # full match-highlights slug exists (no day-/session- token).
@@ -121,13 +125,15 @@ def title_matches(title, m):
     fmt = FMT_TOKENS.get(m["format"], ())
     ordinal = re.match(r"(\d+(?:st|nd|rd|th))", no)
     if ordinal:  # bilateral series: need the ordinal AND a format token
+        if m["format"] == "Test" and re.search(r"\bday\s*\d", t):
+            return False  # broadcaster per-day clip, not the match recap
         return ordinal.group(1) in t and any(x in t for x in fmt)
     if "final" in no:  # tournament knockouts: "Final" / "Semi Final"
         return no in t
     if no.startswith("match "):  # tournament group games
         return no in t
     if no == "only test":
-        return "test" in t
+        return "test" in t and not re.search(r"\bday\s*\d", t)
     return False
 
 
@@ -180,6 +186,22 @@ def main():
                     hl[m["id"]] = {"url": f"https://www.bcci.tv{listing}/{slug}", "title": slug}
                     added += 1
                     print(f"  {m['matchNo']} {m['series'][:30]} -> bcci.tv | {slug[:55]}")
+                    break
+        if m["id"] not in hl:
+            for handle in FALLBACK_CHANNELS:
+                if handle not in cache:
+                    try:
+                        cache[handle] = channel_videos(handle)
+                    except Exception as e:
+                        print(f"highlights: {handle} fetch failed ({e}) — skipping", file=sys.stderr)
+                        cache[handle] = []
+                for vid, title in cache[handle]:
+                    if title_matches(title, m) and official(vid, handle):
+                        hl[m["id"]] = {"yt": vid, "title": title}
+                        added += 1
+                        print(f"  {m['matchNo']} {m['series'][:30]} -> fallback yt:{vid} | {title[:45]}")
+                        break
+                if m["id"] in hl:
                     break
     if added:
         with open(path, "w", encoding="utf-8") as f:

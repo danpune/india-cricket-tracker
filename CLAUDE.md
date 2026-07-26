@@ -123,6 +123,13 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   found via legacy youtube.com/user/ecbcricket → canonicalBaseUrl). UI bridges ids:
   cricsheet cs_<id> and espn_<id> share the numeric part (cricsheet files use cricinfo ids).
   Merge-only, fail-safe, runs in CI with `|| true`.
+- FALLBACK_CHANNELS = ["@willow"] ("Willow by Cricbuzz", official US broadcaster, 327K):
+  tried for any finished match the home board + bcci.tv didn't cover. Clean titles
+  ("Highlights: 2nd ODI - England vs India"), so the normal matcher works. Caveats:
+  the channel page exposes only ~29 recent uploads, so it only helps matches finished
+  within that window (fine — CI runs every 10 min), and videos can be US-geo-blocked.
+  Guard added: broadcaster per-day Test clips ("Day 4 Highlights: Only Test ...") are
+  rejected so they never masquerade as a match recap.
 - Second source: bcci.tv (official BCCI site) for India-HOME series — server-rendered,
   curl-able listing at bcci.tv/international/{men|women}/videos with
   `data-videoslug="<id>/<slug>"` (Brightcove player). Matched by slug tokens
