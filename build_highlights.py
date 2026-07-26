@@ -24,6 +24,10 @@ import urllib.request
 CHANNELS = {  # seriesId -> official channel handle of the rights-holding home board
     "23810": "@officialenglandcricket",  # India tour of England 2026
     "23814": "@officialenglandcricket",  # India Women tour of England 2026
+    "24301": "@zimbabwecricket431",      # India tour of Zimbabwe 2026 — ZC's channel posts
+                                         # mostly academy/U19 content, senior highlights rare
+                                         # (rights with broadcasters); harmless insurance,
+                                         # the verification gate rejects anything else
     # extend as tours near (verify first!): ICC events -> "@ICC"
 }
 FMT_TOKENS = {"T20I": ("t20",), "ODI": ("odi", "one day"), "Test": ("test",)}

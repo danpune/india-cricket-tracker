@@ -23,7 +23,7 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - `fetch_data.py` → `data.json` (all matches of known India series: results/live/fixtures,
   XIs for today's matches) + appends finalized matches to `history.json` (append-only
   season record, seeded from cricsheet by `seed_history.py`).
-- `.github/workflows/update-data.yml` — every 30 min, SHA-pinned, rebase-before-push,
+- `.github/workflows/update-data.yml` — every 10 min (bumped from 30, user found scores slow; GitHub cron adds jitter so real cadence ~10-15 min), SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).
 
 ## Security posture
@@ -147,6 +147,10 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
    catch them on match day).
 2. Points-table for World Cups / Asia Cup when one is live.
 3. Verify + add official channel handles to build_highlights.py CHANNELS as tours
-   near: Zimbabwe Cricket (Jul 2026), Sri Lanka Cricket (Aug), NZC (Oct), @ICC for
-   ICC events. India-home series already covered via bcci.tv (BCCI_SERIES).
+   near: Sri Lanka Cricket (Aug), NZC (Oct), @ICC for ICC events. India-home series
+   covered via bcci.tv (BCCI_SERIES). Zimbabwe: added @zimbabwecricket431 (2026-07,
+   found via YT search — zimcricket.org DNS-dead) but VERIFIED they post no senior
+   intl highlights (academy/U19 only) and bcci.tv has no away-match highlights either
+   (checked: ZIM tour BTS yes, match highlights no — rights sit with broadcasters).
+   Zimbabwe-tour matches may legitimately have no ▶ link; that's a rights fact.
 4. Per-match official highlights (YouTube oEmbed verification — port from worldcup2026).

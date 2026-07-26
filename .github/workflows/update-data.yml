@@ -2,7 +2,8 @@ name: Update Team India data
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (UTC); cheap no-op between matches
+    - cron: "*/10 * * * *"   # every 10 min (UTC); ~1 min runs, free on public repos,
+                             # cheap no-op between matches (GitHub may add a few min jitter)
   workflow_dispatch:           # run on demand from the Actions tab
 
 permissions:
