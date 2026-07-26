@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T12:42:05Z",
+ "updated": "2026-07-26T14:18:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6542,30 +6542,30 @@
    "venue": "Harare Sports Club",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Zimbabwe",
      "abbr": "ZIM",
-     "score": "",
+     "score": "125/5 (15.4/20 ov, target 193)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "192/5 (20 ov)",
+     "score": "192/5",
      "winner": false
     }
    ],
-   "result": "India won toss & batted",
+   "result": "Zimbabwe require 68 runs",
    "india": "",
    "xi": {
     "Zimbabwe": [
      "Brian Bennett",
      "Ben Curran",
      "Dion Myers",
-     "Ryan Burl",
      "Sikandar Raza (c)",
+     "Ryan Burl",
      "Wessly Madhevere",
      "Tadiwanashe Marumani",
      "Brad Evans",
@@ -6678,6 +6678,93 @@
        "4",
        33,
        1
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe",
+     "total": "125/5 (15.4 ov)",
+     "bat": [
+      [
+       "Brian Bennett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ben Curran",
+       20,
+       19,
+       "c"
+      ],
+      [
+       "Dion Myers",
+       19,
+       15,
+       "c"
+      ],
+      [
+       "Sikandar Raza",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ryan Burl",
+       42,
+       34,
+       "not out"
+      ],
+      [
+       "Wessly Madhevere",
+       28,
+       25,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Tadiwanashe Marumani",
+      "Brad Evans",
+      "Newman Nyamhuri",
+      "Wellington Masakadza",
+      "Blessing Muzarabani"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Suryansh Shedge",
+       "2",
+       15,
+       0
+      ],
+      [
+       "Ravi Bishnoi",
+       "3",
+       19,
+       1
+      ],
+      [
+       "Ashok Sharma",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Yash Thakur",
+       "3",
+       32,
+       2
+      ],
+      [
+       "Mayank Yadav",
+       "2.4",
+       19,
+       2
       ]
      ]
     }
@@ -7883,8 +7970,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.943,
-    0.058
+    0.985,
+    0.015
    ]
   },
   {
