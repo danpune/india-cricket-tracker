@@ -31543,6 +31543,225 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1530062",
+   "date": "2026-07-26",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Zimbabwe 2026",
+   "matchNo": "3rd T20I",
+   "venue": "Harare Sports Club",
+   "city": "",
+   "teams": [
+    {
+     "name": "Zimbabwe",
+     "score": "157/7 (20 ov, target 193)"
+    },
+    {
+     "name": "India",
+     "score": "192/5"
+    }
+   ],
+   "result": "India won by 35 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "192/5 (20.0 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       81,
+       49,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       29,
+       26,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       27,
+       18,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       11,
+       9,
+       "not out"
+      ],
+      [
+       "Rinku Singh",
+       25,
+       14,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Suryansh Shedge",
+      "Ravi Bishnoi",
+      "Ashok Sharma",
+      "Yash Thakur",
+      "Mayank Yadav"
+     ],
+     "bowl": [
+      [
+       "Brian Bennett",
+       "1",
+       7,
+       0
+      ],
+      [
+       "Sikandar Raza",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Wessly Madhevere",
+       "4",
+       37,
+       1
+      ],
+      [
+       "Brad Evans",
+       "4",
+       41,
+       2
+      ],
+      [
+       "Newman Nyamhuri",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Wellington Masakadza",
+       "1",
+       14,
+       0
+      ],
+      [
+       "Blessing Muzarabani",
+       "4",
+       33,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe",
+     "total": "157/7 (20.0 ov)",
+     "bat": [
+      [
+       "Brian Bennett",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ben Curran",
+       20,
+       19,
+       "c"
+      ],
+      [
+       "Dion Myers",
+       19,
+       15,
+       "c"
+      ],
+      [
+       "Sikandar Raza",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ryan Burl",
+       54,
+       43,
+       "not out"
+      ],
+      [
+       "Wessly Madhevere",
+       28,
+       25,
+       "c"
+      ],
+      [
+       "Tadiwanashe Marumani",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Brad Evans",
+       14,
+       13,
+       "c"
+      ],
+      [
+       "Newman Nyamhuri",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Wellington Masakadza",
+      "Blessing Muzarabani"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Suryansh Shedge",
+       "2",
+       15,
+       0
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       24,
+       1
+      ],
+      [
+       "Ashok Sharma",
+       "4",
+       20,
+       1
+      ],
+      [
+       "Yash Thakur",
+       "4",
+       45,
+       2
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       29,
+       3
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
