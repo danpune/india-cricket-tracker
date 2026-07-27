@@ -20,6 +20,7 @@ the playing XIs, and every international result of the year.
   US/Canada.
 - **Win odds** on upcoming matches — Polymarket market prices (informational
   only, not betting advice).
+- **Form & standing** — per-format ICC rank plus played/won/win-rate for any year.
 - **ICC Rankings** — official team rankings per format plus the world top-10
   batters and bowlers, India highlighted.
 - **Highlights** — finished matches link to official highlights: the home board's

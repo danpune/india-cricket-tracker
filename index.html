@@ -174,6 +174,23 @@ a.yt:hover{text-decoration:underline}
 .chip.yr{background:var(--blue);color:#fff;font-weight:800;letter-spacing:.5px}
 .card.yearcard{margin-bottom:18px}
 
+/* form strip */
+.formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.fcard{padding:12px 14px 13px}
+.fhead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:9px}
+.frank{font-size:12px;color:var(--muted)}
+.frank b{color:var(--ink);font-size:15px}
+.frank i{font-style:normal;margin-left:6px;font-size:11px}
+.fbar{display:flex;height:6px;border-radius:99px;overflow:hidden;background:var(--line);margin-bottom:11px}
+.fbar span{display:block}
+.fstat{display:inline-block;margin-right:16px;vertical-align:top}
+.fstat b{display:block;font-size:19px;font-variant-numeric:tabular-nums;line-height:1.15}
+.fstat span{font-size:10.5px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}
+.fstat.big{margin-right:0;float:right;text-align:right}
+.fstat.big b{font-size:24px;color:var(--blue)}
+.fnote{clear:both;padding-top:9px;font-size:11.5px;color:var(--muted)}
+.fnote.none{padding-top:0}
+
 /* rankings */
 .rank3{padding:6px 14px 10px}
 .rank3 .sc{margin-bottom:10px}
@@ -192,7 +209,8 @@ a.yt:hover{text-decoration:underline}
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "tour up" "rank up" "follow up" "season season" "news news";align-items:start}
+    grid-template-areas:"hero hero" "form form" "tour up" "rank up" "follow up" "season season" "news news";align-items:start}
+  .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
   .sec-news{grid-area:news}
   .newswrap{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:start}
@@ -589,6 +607,58 @@ function newsHTML(){
   return out+'</div></section>';
 }
 
+/* ---------- form strip: rank + record per format ---------- */
+var FORMYEAR=localStorage.getItem('formyear')||'';
+function setFormYear(y){FORMYEAR=y;localStorage.setItem('formyear',y);render();}
+function formHTML(hist){
+  var R=(DATA.rankings||{})[GENDER]||{};
+  var years=[];
+  hist.forEach(function(m){var y=m.date.slice(0,4);if(years.indexOf(y)<0)years.push(y);});
+  years.sort().reverse();
+  if(!years.length)return '';
+  if(FORMYEAR!=='all'&&years.indexOf(FORMYEAR)<0)FORMYEAR=years[0];
+  var pool=FORMYEAR==='all'?hist:hist.filter(function(m){return m.date.slice(0,4)===FORMYEAR;});
+  var fmts=['Test','ODI','T20I'].filter(function(f){
+    return R[f]||pool.some(function(m){return m.format===f;});
+  });
+  if(!fmts.length)return '';
+  var h='<section id="form" class="sec-form"><h2>Team India — form &amp; standing</h2>';
+  h+='<div class="chips">'+years.map(function(y){
+      return '<button class="chip rk'+(y===FORMYEAR?' on':'')+'" onclick="setFormYear(\''+y+'\')">'+y+'</button>';
+    }).join('')+
+    '<button class="chip rk'+(FORMYEAR==='all'?' on':'')+'" onclick="setFormYear(\'all\')">Since '+years[years.length-1]+'</button></div>';
+  h+='<div class="formgrid">';
+  fmts.forEach(function(f){
+    var ms=pool.filter(function(m){return m.format===f;});
+    var W=ms.filter(function(m){return m.india==='won';}).length;
+    var L=ms.filter(function(m){return m.india==='lost';}).length;
+    var D=ms.filter(function(m){return m.india==='draw'||m.india==='tie';}).length;
+    var NR=ms.length-W-L-D;
+    var decided=W+L+D;                       /* win % excludes no-results */
+    var pct=decided?Math.round(W/decided*1000)/10:null;
+    var team=((R[f]||{}).team||[]).filter(function(x){return norm(x.name)==='India';})[0];
+    h+='<div class="card fcard"><div class="fhead"><span class="fmt '+f+'">'+esc(f)+'</span>'+
+       (team?'<span class="frank">ICC <b>#'+esc(team.no)+'</b><i>'+esc(team.rating)+' pts</i></span>':'')+'</div>';
+    if(ms.length){
+      h+='<div class="fbar" title="'+W+' won · '+L+' lost'+(D?' · '+D+' drawn/tied':'')+(NR?' · '+NR+' no result':'')+'">'+
+         (W?'<span style="flex:'+W+';background:var(--win)"></span>':'')+
+         (D?'<span style="flex:'+D+';background:var(--nr)"></span>':'')+
+         (L?'<span style="flex:'+L+';background:var(--loss)"></span>':'')+
+         (NR?'<span style="flex:'+NR+';background:var(--line)"></span>':'')+'</div>';
+      h+='<div class="fstat"><b>'+ms.length+'</b><span>played</span></div>'+
+         '<div class="fstat"><b style="color:var(--win)">'+W+'</b><span>won</span></div>'+
+         '<div class="fstat"><b style="color:var(--loss)">'+L+'</b><span>lost</span></div>'+
+         '<div class="fstat big"><b>'+(pct===null?'—':pct+'%')+'</b><span>win rate</span></div>';
+      if(D||NR)h+='<div class="fnote">'+(D?D+' drawn/tied':'')+(D&&NR?' · ':'')+(NR?NR+' no result':'')+'</div>';
+    } else {
+      h+='<div class="fnote none">No '+esc(f)+' played'+(FORMYEAR==='all'?'':' in '+esc(FORMYEAR))+'</div>';
+    }
+    h+='</div>';
+  });
+  h+='</div></section>';
+  return h;
+}
+
 /* ---------- rankings ---------- */
 var RANKFMT=localStorage.getItem('rankfmt')||'ODI';
 function setRankFmt(f){RANKFMT=f;localStorage.setItem('rankfmt',f);render();}
@@ -643,10 +713,12 @@ function render(){
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
   var hero=live||next||lastPost;
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
-    [['now','Now'],['tour','Tour'],['rank','Rankings'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
+    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
     .map(function(x){return '<a href="#'+x[0]+'">'+x[1]+'</a>';}).join('')+'</nav>';
   var h='';
   if(hero)h+=heroHTML(hero);
+
+  h+=formHTML(hist);
 
   /* current tour */
   if(hero){

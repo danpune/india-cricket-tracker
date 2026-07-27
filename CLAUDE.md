@@ -29,6 +29,14 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   Actions tab) is the instant path. Don't 'fix' by lowering the interval further., SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).
 
+## Form strip (top-of-page "how good are we right now")
+- formHTML() in index.html: per-format cards (Test/ODI/T20I) showing ICC team rank +
+  rating (from data.json rankings) and Played/Won/Lost/win-rate computed from
+  history.json, with a W/D/L/NR proportion bar. Year chips (each year present in the
+  record + "Since <first year>"); choice persisted in localStorage.
+- WIN RATE CONVENTION: W / (W+L+D+T) — no-results are excluded from the denominator
+  but still shown in the footnote. Don't silently change this; it's stated in the UI.
+
 ## Live scores (browser-side polling — the real fix for cron throttling)
 - ESPN's API sends `access-control-allow-origin: *`, so the PAGE can read it directly.
   While a match is `in`, index.html polls
