@@ -44,6 +44,13 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   hero score/status in place; when state flips off `in` it re-renders from the built data.
   This makes live scores independent of the throttled GitHub cron. CSP connect-src must
   keep site.api.espn.com or the poll silently fails.
+- MOBILE: phones freeze background timers (iOS Safari almost immediately), so a
+  visibilitychange + pageshow handler re-ticks the moment you return to the tab —
+  without it you'd stare at a stale score for up to 45s after unlocking. Verified in a
+  browser: score advanced on the visibility event (guard is `!document.hidden`).
+- pollLive() arms its interval only `if(LIVE_TICK===tick)` — tick() may have called
+  stopLive() already (match finished between build and poll); without the guard that
+  left a zombie interval polling a dead match forever.
 
 ## Where to watch (curated — rights are contracts, not feeds)
 - `watch.json`: seriesId -> {in:{stream,streamUrl,tv}, us:{...}, verified, source}.

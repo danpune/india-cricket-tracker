@@ -831,8 +831,16 @@ function startTicker(){
    The 30-min data build is fine for results, but a live match should tick.
    ESPN's API sends access-control-allow-origin:*, so the browser can read it
    directly: while a match is live we refresh its score every 45s, no cron. */
-var LIVE_TIMER=null, LIVE_AT=null;
-function stopLive(){if(LIVE_TIMER){clearInterval(LIVE_TIMER);LIVE_TIMER=null;}}
+var LIVE_TIMER=null, LIVE_AT=null, LIVE_TICK=null;
+function stopLive(){if(LIVE_TIMER){clearInterval(LIVE_TIMER);LIVE_TIMER=null;}LIVE_TICK=null;}
+/* Phones suspend background timers (iOS Safari almost immediately), so coming back
+   to the tab could show a stale score until the next 45s tick. Refresh at once
+   whenever the page becomes visible again — that's the difference between "live"
+   and "live-ish" on a phone. */
+document.addEventListener('visibilitychange',function(){
+  if(!document.hidden&&LIVE_TICK)LIVE_TICK();
+});
+window.addEventListener('pageshow',function(){if(LIVE_TICK)LIVE_TICK();});
 function pollLive(m){
   stopLive();
   if(!m||!m.seriesId||!m.eventId)return;
@@ -856,8 +864,11 @@ function pollLive(m){
       else stampLiveTime();
     }).catch(function(){});
   }
+  LIVE_TICK=tick;
   tick();
-  LIVE_TIMER=setInterval(tick,45000);
+  /* tick() may have called stopLive() already (match finished between the build and
+     now) — only arm the interval if it's still wanted, else we leave a zombie poller. */
+  if(LIVE_TICK===tick)LIVE_TIMER=setInterval(tick,45000);
 }
 function stampLiveTime(){
   var el=document.getElementById('livestamp');
