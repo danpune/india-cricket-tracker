@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; connect-src 'self' https://abacus.jasoncameron.dev; object-src 'none'; base-uri 'none'; frame-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; connect-src 'self' https://abacus.jasoncameron.dev https://site.api.espn.com; object-src 'none'; base-uri 'none'; frame-src 'none'">
 <title>Team India Cricket Tracker</title>
 <meta name="description" content="Follow the Indian men's and women's cricket teams: live matches, schedule, playing XIs and every result of the year.">
 <!-- Link preview (WhatsApp, iMessage, Twitter/X, Facebook) -->
@@ -89,6 +89,10 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
 .hero .teamrow .sc small{display:block;font-size:11px;color:var(--hero-muted);font-weight:500}
 .hero .statusline{margin-top:10px;font-size:13.5px;color:var(--hero-muted)}
 .hero .statusline b{color:var(--hero-ink)}
+.lstamp{font-size:11.5px;color:var(--hero-muted);margin-left:4px}
+.hero .watch a{color:#ffd9a8;text-decoration:none;font-weight:700}
+.watchline{margin-top:3px}
+.watchline a{color:var(--chakra);text-decoration:none;font-weight:700}
 .hero .resultline{margin-top:10px;font-size:15px;font-weight:700}
 .cdwrap{display:flex;gap:10px;margin:14px 0 6px}
 .cd-cell{background:rgba(255,255,255,.09);border-radius:10px;padding:8px 0;text-align:center;flex:1}
@@ -315,7 +319,7 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, WATCH={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
 var TABS=['men','women','news','about'];
 if(TABS.indexOf(location.hash.slice(1))>=0)GENDER=location.hash.slice(1);
 window.addEventListener('hashchange',function(){
@@ -357,6 +361,20 @@ function teamHTML(t,hero){
 function resClass(v){return v==='won'?'won':v==='lost'?'lost':esc(v||'nr');}
 
 /* ---------- hero ---------- */
+function watchHTML(m){
+  var w=WATCH[m.seriesId];
+  if(!w)return '';
+  function terr(key,label){
+    var t=w[key];
+    if(!t)return '';
+    var bits=[];
+    if(t.stream)bits.push(t.streamUrl?'<a target="_blank" rel="noopener" href="'+esc(t.streamUrl)+'">'+esc(t.stream)+'</a>':esc(t.stream));
+    if(t.tv&&t.tv!==t.stream)bits.push(esc(t.tv));
+    return bits.length?'<b>'+label+'</b> '+bits.join(' · '):'';
+  }
+  var parts=[terr('in','🇮🇳 India:'),terr('us','🇺🇸 US/Canada:')].filter(Boolean);
+  return parts.length?'📺 Watch — '+parts.join(' &nbsp;|&nbsp; '):'';
+}
 function oddsStr(m){
   if(!m.o)return '';
   return m.teams.map(function(t,i){return esc(t.abbr||norm(t.name))+' '+Math.round(m.o[i]*100)+'%';}).join(' · ');
@@ -369,7 +387,7 @@ function heroHTML(m){
   h+='<div class="series">'+fmtBadge(m.format)+' &nbsp;'+esc(m.matchNo)+' · '+esc(m.series)+'</div>';
   m.teams.forEach(function(t){h+=teamHTML(t,true);});
   if(live){
-    h+='<div class="statusline"><b>'+esc(m.statusDetail||m.statusDesc||'')+'</b></div>';
+    h+='<div class="statusline"><b>'+esc(m.statusDetail||m.statusDesc||'')+'</b> <span id="livestamp" class="lstamp"></span></div>';
   }else if(m.state==='pre'){
     var ts=new Date(m.date).getTime();
     h+='<div class="cdwrap" data-ts="'+ts+'">'+
@@ -381,6 +399,7 @@ function heroHTML(m){
     h+='<div class="resultline">'+esc(m.result)+'</div>';
   }
   if(m.venue)h+='<div class="when">📍 '+esc(m.venue)+'</div>';
+  if(m.state!=='post'){var w=watchHTML(m);if(w)h+='<div class="when watch">'+w+'</div>';}
   if(m.seriesNote)h+='<div class="when">'+esc(m.seriesNote)+'</div>';
   if(m.xi){
     h+='<details><summary>Playing XIs</summary><div class="xi-grid">';
@@ -636,7 +655,9 @@ function render(){
       var sname=tour[0].series;
       h+='<section id="tour" class="sec-tour"><h2>Current tour</h2><div class="card">';
       var note=tour.map(function(m){return m.seriesNote;}).filter(Boolean).slice(-1)[0];
-      h+='<div class="serieshead"><div class="nm">'+esc(sname)+'</div>'+(note?'<div class="meta">'+esc(note)+'</div>':'')+'</div>';
+      var wl=watchHTML(tour[0]);
+      h+='<div class="serieshead"><div class="nm">'+esc(sname)+'</div>'+(note?'<div class="meta">'+esc(note)+'</div>':'')+
+         (wl?'<div class="meta watchline">'+wl+'</div>':'')+'</div>';
       tour.forEach(function(m){h+=rowHTML(m,{upnext:hero&&m.id===hero.id&&m.state==='pre'});});
       h+='</div></section>';
     }
@@ -711,6 +732,8 @@ function render(){
   }
   app.innerHTML=h;
   startTicker();
+  if(live&&live.eventId){if(!LIVE_TIMER)pollLive(live);else stampLiveTime();}
+  else stopLive();
 
   var f='Updated '+new Date(DATA.updated).toLocaleString()+'<br>'+
     'Data: ESPN public feeds & <a href="https://cricsheet.org">cricsheet.org</a> (attribution) · '+
@@ -730,6 +753,43 @@ function startTicker(){
     for(var i=0;i<4;i++)cells[i].textContent=i?String(v[i]).padStart(2,'0'):v[i];
   }
   tick();TICK=setInterval(tick,1000);
+}
+
+/* ---- live poller ----
+   The 30-min data build is fine for results, but a live match should tick.
+   ESPN's API sends access-control-allow-origin:*, so the browser can read it
+   directly: while a match is live we refresh its score every 45s, no cron. */
+var LIVE_TIMER=null, LIVE_AT=null;
+function stopLive(){if(LIVE_TIMER){clearInterval(LIVE_TIMER);LIVE_TIMER=null;}}
+function pollLive(m){
+  stopLive();
+  if(!m||!m.seriesId||!m.eventId)return;
+  var url='https://site.api.espn.com/apis/site/v2/sports/cricket/'+encodeURIComponent(m.seriesId)+
+          '/scoreboard?dates='+m.date.slice(0,10).replace(/-/g,'');
+  function tick(){
+    fetch(url,{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+      var ev=(d.events||[]).filter(function(e){return String(e.id)===String(m.eventId);})[0];
+      if(!ev)return;
+      var c=ev.competitions[0], st=ev.status.type;
+      var by={};
+      c.competitors.forEach(function(t){by[t.team.displayName]=t.score||'';});
+      var changed=false;
+      m.teams.forEach(function(t){
+        if(by[t.name]!==undefined&&t.score!==by[t.name]){t.score=by[t.name];changed=true;}
+      });
+      if(st.detail&&st.detail!==m.statusDetail){m.statusDetail=st.detail;changed=true;}
+      LIVE_AT=new Date();
+      if(st.state!=='in'){stopLive();render();return;}   /* match ended → full refresh */
+      if(changed&&GENDER===m.gender)render();
+      else stampLiveTime();
+    }).catch(function(){});
+  }
+  tick();
+  LIVE_TIMER=setInterval(tick,45000);
+}
+function stampLiveTime(){
+  var el=document.getElementById('livestamp');
+  if(el&&LIVE_AT)el.textContent='· updated '+LIVE_AT.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
 }
 
 function setGender(g){
@@ -759,6 +819,9 @@ function aboutHTML(){
   '<li><b>🎙 News &amp; talk</b> — headlines from ESPNcricinfo\u2019s public RSS feed (links to their '+
   'stories), and the latest videos from commentary channels we like (Cricbuzz, Harsha Bhogle) — links to '+
   'their YouTube channels, nothing re-hosted.</li>'+
+  '<li><b>📺 Where to watch</b> — broadcast rights are contracts, not data feeds, so these '+
+  'are added by hand from verified announcements (India viewers). No entry means no confirmed '+
+  'listing yet — we\u2019d rather show nothing than guess.</li>'+
   '<li><b>Everything is open source</b> — the site, the data pipeline and its history live on <a href="https://github.com/danpune/india-cricket-tracker" target="_blank" rel="noopener">GitHub</a>.</li>'+
   '</ul>'+
   '<h3>Not affiliated</h3>'+
@@ -792,9 +855,10 @@ Promise.all([
   fetch('history.json?v='+Date.now()).then(function(r){return r.json();}),
   fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
   fetch('follow.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
-  fetch('news.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
+  fetch('news.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
+  fetch('watch.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
 ]).then(function(res){
-  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};
+  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};
   var hl=(res[2]||{}).highlights||{};
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});

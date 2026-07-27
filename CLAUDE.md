@@ -29,6 +29,22 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   Actions tab) is the instant path. Don't 'fix' by lowering the interval further., SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).
 
+## Live scores (browser-side polling — the real fix for cron throttling)
+- ESPN's API sends `access-control-allow-origin: *`, so the PAGE can read it directly.
+  While a match is `in`, index.html polls
+  `site.api.espn.com/.../{seriesId}/scoreboard?dates=YYYYMMDD` every 45s and updates the
+  hero score/status in place; when state flips off `in` it re-renders from the built data.
+  This makes live scores independent of the throttled GitHub cron. CSP connect-src must
+  keep site.api.espn.com or the poll silently fails.
+
+## Where to watch (curated — rights are contracts, not feeds)
+- `watch.json`: seriesId -> {in:{stream,streamUrl,tv}, us:{...}, verified, source}.
+  ESPN's cricket feed has NO broadcast fields (checked: broadcasts/geoBroadcasts empty,
+  onWatchESPN false), so entries are hand-added from verified announcements only, with
+  the source URL recorded. User's two territories: India + USA/Canada. No entry ⇒ the
+  UI shows nothing (never guess a broadcaster). Pattern so far: India away tours to
+  smaller boards → FanCode; US/Canada → Willow TV (holds ICC + most tour rights).
+
 ## Security posture
 - Meta CSP in <head>: default-src 'self'; img-src adds data: + i.ytimg.com (thumbnails);
   connect-src adds abacus.jasoncameron.dev (counter); script/style 'unsafe-inline'

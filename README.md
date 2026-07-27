@@ -16,6 +16,8 @@ the playing XIs, and every international result of the year.
   channels (Cricbuzz, Harsha Bhogle), links only, refreshed every 30 minutes.
 - **⭐ Following** — per-player cards merging franchise (IPL) and international
   appearances with per-match batting/bowling lines.
+- **📺 Where to watch** — verified broadcaster/streaming per series for India and
+  US/Canada.
 - **Win odds** on upcoming matches — Polymarket market prices (informational
   only, not betting advice).
 - **ICC Rankings** — official team rankings per format plus the world top-10
