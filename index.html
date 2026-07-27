@@ -189,6 +189,23 @@ a.yt:hover{text-decoration:underline}
 .fstat.big{margin-right:0;float:right;text-align:right}
 .fstat.big b{font-size:24px;color:var(--blue)}
 .fnote{clear:both;padding-top:9px;font-size:11.5px;color:var(--muted)}
+.fsplit{clear:both;display:flex;gap:14px;flex-wrap:wrap;margin-top:11px;padding-top:10px;
+  border-top:1px solid var(--line)}
+.fsplit span{font-size:11.5px;color:var(--muted)}
+.fsplit b{display:inline-block;margin-left:4px;font-size:14px;color:var(--ink)}
+.fsplit i{display:block;font-style:normal;font-size:10.5px;margin-top:1px}
+.fdet{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+.fdet summary{cursor:pointer;list-style:none;font-size:12px;font-weight:700;color:var(--chakra)}
+.fdet summary::-webkit-details-marker{display:none}
+.fdet summary:hover{text-decoration:underline}
+.frow{display:flex;gap:8px;align-items:baseline;padding:6px 0;border-top:1px solid
+  color-mix(in srgb,var(--line) 60%,transparent);font-size:12px}
+.frow:first-of-type{border-top:0}
+.fd{flex:none;width:52px;color:var(--muted);font-size:11.5px}
+.fo{flex:1;min-width:0;font-weight:600}
+.fo i{font-style:normal;font-size:10px;color:var(--muted);margin-left:5px;
+  text-transform:uppercase;letter-spacing:.5px}
+.fr{flex:none;max-width:47%;text-align:right;font-size:11.5px;font-weight:700}
 .fnote.none{padding-top:0}
 
 /* rankings */
@@ -608,6 +625,34 @@ function newsHTML(){
 }
 
 /* ---------- form strip: rank + record per format ---------- */
+/* Home/away by VENUE, not by series name: tournaments (World Cups, Asia Cup) are
+   played at neutral grounds, so "India tour of X" wouldn't classify them. India's
+   international venues are a stable, finite list of host cities. */
+var IN_CITIES=['ahmedabad','mumbai','navi mumbai','delhi','kolkata','chennai','bengaluru',
+'bangalore','hyderabad','mohali','chandigarh','dharamsala','lucknow','jaipur','indore',
+'rajkot','nagpur','pune','visakhapatnam','thiruvananthapuram','guwahati','ranchi','cuttack',
+'kanpur','raipur','dehradun','gwalior','vadodara','jamtha','chepauk','benoni-x'];
+function inIndia(m){
+  var v=(m.venue||'').toLowerCase()+' '+(m.city||'').toLowerCase();
+  return IN_CITIES.some(function(c){return v.indexOf(c)>=0;});
+}
+function rec(ms){
+  var W=ms.filter(function(m){return m.india==='won';}).length;
+  var L=ms.filter(function(m){return m.india==='lost';}).length;
+  var D=ms.filter(function(m){return m.india==='draw'||m.india==='tie';}).length;
+  var NR=ms.length-W-L-D, dec=W+L+D;
+  return {P:ms.length,W:W,L:L,D:D,NR:NR,pct:dec?Math.round(W/dec*1000)/10:null};
+}
+function splitRows(ms){
+  return ms.slice().sort(function(a,b){return a.date<b.date?1:-1;}).map(function(m){
+    var opp=m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'';
+    var cls=m.india==='won'?'won':m.india==='lost'?'lost':'nr';
+    return '<div class="frow"><span class="fd">'+esc(new Date(m.date+'T12:00:00Z')
+        .toLocaleString([],{day:'numeric',month:'short'}))+'</span>'+
+      '<span class="fo">'+flag(opp)+' '+esc(norm(opp))+'<i>'+(inIndia(m)?'home':'away')+'</i></span>'+
+      '<span class="fr res '+cls+'">'+esc(m.result)+'</span></div>';
+  }).join('');
+}
 var FORMYEAR=localStorage.getItem('formyear')||'';
 function setFormYear(y){FORMYEAR=y;localStorage.setItem('formyear',y);render();}
 function formHTML(hist){
@@ -650,6 +695,15 @@ function formHTML(hist){
          '<div class="fstat"><b style="color:var(--loss)">'+L+'</b><span>lost</span></div>'+
          '<div class="fstat big"><b>'+(pct===null?'—':pct+'%')+'</b><span>win rate</span></div>';
       if(D||NR)h+='<div class="fnote">'+(D?D+' drawn/tied':'')+(D&&NR?' · ':'')+(NR?NR+' no result':'')+'</div>';
+      /* home vs away split */
+      var home=ms.filter(inIndia), away=ms.filter(function(x){return !inIndia(x);});
+      var rh=rec(home), ra=rec(away);
+      h+='<div class="fsplit">'+
+        (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L of '+rh.P+'</i></span>':'')+
+        (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L of '+ra.P+'</i></span>':'')+
+        '</div>';
+      /* who and when */
+      h+='<details class="fdet"><summary>Which matches? ▾</summary>'+splitRows(ms)+'</details>';
     } else {
       h+='<div class="fnote none">No '+esc(f)+' played'+(FORMYEAR==='all'?'':' in '+esc(FORMYEAR))+'</div>';
     }

@@ -34,6 +34,12 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   rating (from data.json rankings) and Played/Won/Lost/win-rate computed from
   history.json, with a W/D/L/NR proportion bar. Year chips (each year present in the
   record + "Since <first year>"); choice persisted in localStorage.
+- Home/away split per card: classified by VENUE via IN_CITIES (India host cities), NOT by
+  series name — tournaments (World Cups, Asia Cup) are played at neutral grounds and
+  "India tour of X" can't classify them. Audited: 0 disagreements with the series-name
+  expectation across all 133 stored matches. Labels are "In India" / "Overseas" (honest:
+  we don't try to separate true-neutral from away).
+- Each card has a <details> "Which matches?" list: date · opponent · home/away · result.
 - WIN RATE CONVENTION: W / (W+L+D+T) — no-results are excluded from the denominator
   but still shown in the footnote. Don't silently change this; it's stated in the UI.
 
