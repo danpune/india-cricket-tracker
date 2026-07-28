@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-28T06:10:43Z",
+ "updated": "2026-07-28T09:08:05Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6788,6 +6788,36 @@
    "india": ""
   },
   {
+   "id": "espn_1544002",
+   "eventId": "1544002",
+   "date": "2026-08-23T04:30Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Sri Lanka 2026",
+   "seriesId": "24567",
+   "matchNo": "2nd Test",
+   "venue": "Sinhalese Sports Club Ground, Colombo",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1529227",
    "eventId": "1529227",
    "date": "2026-09-27T08:30Z",
@@ -8076,36 +8106,6 @@
    ],
    "result": "",
    "india": ""
-  },
-  {
-   "id": "espn_1529247",
-   "eventId": "1529247",
-   "date": "2027-02-19T04:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "4th Test",
-   "venue": "JSCA International Stadium Complex, Ranchi",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
   }
  ],
  "series": [
@@ -8814,7 +8814,7 @@
       "rating": "46"
      }
     ],
-    "updated": "2026-07-20",
+    "updated": "2026-07-27",
     "bat": [
      {
       "no": "1",
@@ -8866,15 +8866,15 @@
      },
      {
       "no": "9",
-      "name": "Harmanpreet Kaur",
-      "team": "India",
-      "rating": "652"
+      "name": "Sidra Amin",
+      "team": "Pakistan",
+      "rating": "671"
      },
      {
       "no": "10",
-      "name": "Sidra Amin",
-      "team": "Pakistan",
-      "rating": "643"
+      "name": "Harmanpreet Kaur",
+      "team": "India",
+      "rating": "652"
      }
     ],
     "bowl": [
@@ -9003,7 +9003,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-07-13",
+    "updated": "2026-07-27",
     "bat": [
      {
       "no": "1",
