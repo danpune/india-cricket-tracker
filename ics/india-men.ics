@@ -180,6 +180,14 @@ LOCATION:Barsapara Cricket Stadium  Guwahati
 DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529247@india-cricket-tracker
+DTSTART:20270219T040000Z
+DTEND:20270219T110000Z
+SUMMARY:India v Australia 🏏 4th Test
+LOCATION:JSCA International Stadium Complex  Ranchi
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1539432@india-cricket-tracker
 DTSTART:20261022T070000Z
 DTEND:20261022T110000Z
