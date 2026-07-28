@@ -1,13 +1,18 @@
 {
  "headlines": [
   {
-   "t": "Meet Saransh Jain, India's 33-year-old Test recruit",
-   "u": "https://www.cricinfo.com/ci/content/story/1547824.html?ex_cid=OTC-RSS",
+   "t": "Ten Doeschate quits India assistant coach role, set to rejoin KKR",
+   "u": "https://www.cricinfo.com/ci/content/story/1547837.html?ex_cid=OTC-RSS",
    "d": "Tue, 28 Jul 2026"
   },
   {
    "t": "Saransh Jain gets maiden India call-up for Test series in Sri Lanka",
    "u": "https://www.cricinfo.com/ci/content/story/1547813.html?ex_cid=OTC-RSS",
+   "d": "Tue, 28 Jul 2026"
+  },
+  {
+   "t": "Meet Saransh Jain, India's 33-year-old Test recruit",
+   "u": "https://www.cricinfo.com/ci/content/story/1547824.html?ex_cid=OTC-RSS",
    "d": "Tue, 28 Jul 2026"
   },
   {
@@ -44,11 +49,6 @@
    "t": "Unchanged Zimbabwe field; Yash Thakur debuts for India",
    "u": "https://www.cricinfo.com/ci/content/story/1547540.html?ex_cid=OTC-RSS",
    "d": "Sat, 25 Jul 2026"
-  },
-  {
-   "t": "India find winning ways again but Zimbabwe still pose a threat",
-   "u": "https://www.cricinfo.com/ci/content/story/1547357.html?ex_cid=OTC-RSS",
-   "d": "Fri, 24 Jul 2026"
   }
  ],
  "talk": [
@@ -87,6 +87,10 @@
    "handle": "@bhogle_harsha",
    "videos": [
     {
+     "yt": "EJ-29QMaAL8",
+     "t": "Harsha Bhogle on India's prospects in Sri Lanka"
+    },
+    {
      "yt": "VhQFIKNaIBs",
      "t": "Harsha Bhogle on the gains from the Zimbabwe tour"
     },
@@ -105,10 +109,6 @@
     {
      "yt": "GEPuDbIvacs",
      "t": "Harsha Bhogle on Sanju Samson\u2019s exclusion"
-    },
-    {
-     "yt": "XL4obLyc3yA",
-     "t": "Harsha Bhogle on India's T20 WC exit and Ireland series loss"
     }
    ]
   }
