@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-29T07:18:15Z",
+ "updated": "2026-07-29T10:01:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7995,7 +7995,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-07-07",
+    "updated": "2026-07-28",
     "bat": [
      {
       "no": "1",
@@ -8099,7 +8099,7 @@
       "no": "7",
       "name": "Noman Ali",
       "team": "Pakistan",
-      "rating": "817"
+      "rating": "809"
      },
      {
       "no": "8",
@@ -8184,19 +8184,19 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-07-21",
+    "updated": "2026-07-28",
     "bat": [
      {
       "no": "1",
-      "name": "Daryl Mitchell",
-      "team": "New Zealand",
-      "rating": "802"
-     },
-     {
-      "no": "2",
       "name": "Shubman Gill",
       "team": "India",
       "rating": "801"
+     },
+     {
+      "no": "2",
+      "name": "Daryl Mitchell",
+      "team": "New Zealand",
+      "rating": "794"
      },
      {
       "no": "3",
@@ -8238,7 +8238,7 @@
       "no": "9",
       "name": "Shai Hope",
       "team": "West Indies",
-      "rating": "672"
+      "rating": "673"
      },
      {
       "no": "10",
@@ -8268,15 +8268,15 @@
      },
      {
       "no": "4",
-      "name": "Mitchell Santner",
-      "team": "New Zealand",
-      "rating": "645"
-     },
-     {
-      "no": "=",
       "name": "Keshav Maharaj",
       "team": "South Africa",
       "rating": "645"
+     },
+     {
+      "no": "5",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "644"
      },
      {
       "no": "6",
@@ -8286,26 +8286,26 @@
      },
      {
       "no": "7",
+      "name": "Bernard Scholtz",
+      "team": "Namibia",
+      "rating": "610"
+     },
+     {
+      "no": "8",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "604"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Mehidy Hasan Miraz",
       "team": "Bangladesh",
       "rating": "602"
      },
      {
-      "no": "9",
+      "no": "10",
       "name": "Adil Rashid",
       "team": "England",
-      "rating": "599"
-     },
-     {
-      "no": "=",
-      "name": "Gudakesh Motie",
-      "team": "West Indies",
       "rating": "599"
      }
     ]
@@ -8373,25 +8373,25 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-07-21",
+    "updated": "2026-07-28",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "892"
+      "rating": "910"
      },
      {
       "no": "2",
-      "name": "Abhishek Sharma",
-      "team": "India",
-      "rating": "858"
-     },
-     {
-      "no": "3",
       "name": "Sahibzada Farhan",
       "team": "Pakistan",
       "rating": "848"
+     },
+     {
+      "no": "3",
+      "name": "Abhishek Sharma",
+      "team": "India",
+      "rating": "819"
      },
      {
       "no": "4",
@@ -8407,33 +8407,33 @@
      },
      {
       "no": "6",
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "750"
+     },
+     {
+      "no": "7",
       "name": "Jos Buttler",
       "team": "England",
       "rating": "748"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Harry Brook",
       "team": "England",
       "rating": "734"
      },
      {
-      "no": "8",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "733"
-     },
-     {
       "no": "9",
-      "name": "Brian Bennett",
-      "team": "Zimbabwe",
-      "rating": "716"
-     },
-     {
-      "no": "10",
       "name": "Mitchell Marsh",
       "team": "Australia",
       "rating": "706"
+     },
+     {
+      "no": "10",
+      "name": "Dewald Brevis",
+      "team": "South Africa",
+      "rating": "702"
      }
     ],
     "bowl": [
@@ -8463,32 +8463,32 @@
      },
      {
       "no": "5",
-      "name": "Varun Chakaravarthy",
-      "team": "India",
-      "rating": "683"
-     },
-     {
-      "no": "6",
       "name": "Nathan Ellis",
       "team": "Australia",
       "rating": "675"
      },
      {
-      "no": "7",
+      "no": "6",
       "name": "Corbin Bosch",
       "team": "South Africa",
       "rating": "669"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Wanindu Hasaranga",
       "team": "Sri Lanka",
       "rating": "668"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Mujeeb Ur Rahman",
       "team": "Afghanistan",
+      "rating": "663"
+     },
+     {
+      "no": "=",
+      "name": "Varun Chakaravarthy",
+      "team": "India",
       "rating": "663"
      },
      {
