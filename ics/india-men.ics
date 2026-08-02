@@ -7,7 +7,7 @@ BEGIN:VEVENT
 UID:espn_1548444@india-cricket-tracker
 DTSTART:20260807T043000Z
 DTEND:20260807T083000Z
-SUMMARY:TBA v India 🏏  at Colombo
+SUMMARY:TBA v India 🏏 Warm-up
 LOCATION:Nondescripts Cricket Club Ground  Colombo
 DESCRIPTION:India tour of Sri Lanka 2026
 END:VEVENT
@@ -264,6 +264,14 @@ UID:espn_1539440@india-cricket-tracker
 DTSTART:20261113T020000Z
 DTEND:20261113T103000Z
 SUMMARY:New Zealand v India 🏏 4th ODI
+LOCATION:Bay Oval  Mount Maunganui
+DESCRIPTION:India tour of New Zealand 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1539441@india-cricket-tracker
+DTSTART:20261115T020000Z
+DTEND:20261115T103000Z
+SUMMARY:New Zealand v India 🏏 5th ODI
 LOCATION:Bay Oval  Mount Maunganui
 DESCRIPTION:India tour of New Zealand 2026/27
 END:VEVENT

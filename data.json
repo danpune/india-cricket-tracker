@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-02T13:59:57Z",
+ "updated": "2026-08-02T15:09:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6515,7 +6515,7 @@
    "format": "First-class",
    "series": "India tour of Sri Lanka 2026",
    "seriesId": "24567",
-   "matchNo": " at Colombo",
+   "matchNo": "Warm-up",
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "pre",
    "statusDetail": "Scheduled",
@@ -7078,6 +7078,36 @@
    "india": ""
   },
   {
+   "id": "espn_1535657",
+   "eventId": "1535657",
+   "date": "2026-10-28T08:30Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "seriesId": "24371",
+   "matchNo": "3rd ODI",
+   "venue": "Kotambi Stadium, Vadodara",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe Women",
+     "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1539435",
    "eventId": "1539435",
    "date": "2026-10-30T07:00Z",
@@ -7236,6 +7266,36 @@
    "series": "India tour of New Zealand 2026/27",
    "seriesId": "24469",
    "matchNo": "4th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539441",
+   "eventId": "1539441",
+   "date": "2026-11-15T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "5th ODI",
    "venue": "Bay Oval, Mount Maunganui",
    "state": "pre",
    "statusDetail": "Scheduled",
