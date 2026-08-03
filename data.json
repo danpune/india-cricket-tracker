@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-03T18:23:49Z",
+ "updated": "2026-08-03T20:09:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6950,36 +6950,6 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1535655",
-   "eventId": "1535655",
-   "date": "2026-10-23T08:30Z",
-   "gender": "women",
-   "format": "ODI",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st ODI",
-   "venue": "Kotambi Stadium, Vadodara",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
      "score": "",
      "winner": false
     }
