@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1529229@india-cricket-tracker
+DTSTART:20261003T083000Z
+DTEND:20261003T170000Z
+SUMMARY:India v West Indies 🏏 3rd ODI
+LOCATION:Maharaja Yadavindra Singh International Cricket Stadium  New Chandigarh
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+END:VCALENDAR
