@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04T07:15:59Z",
+ "updated": "2026-08-04T10:01:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6658,36 +6658,6 @@
    "india": ""
   },
   {
-   "id": "espn_1529229",
-   "eventId": "1529229",
-   "date": "2026-10-03T08:30Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "West Indies tour of India 2026/27",
-   "seriesId": "24289",
-   "matchNo": "3rd ODI",
-   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "West Indies",
-     "abbr": "WI",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
    "id": "espn_1529230",
    "eventId": "1529230",
    "date": "2026-10-06T13:30Z",
@@ -8624,7 +8594,7 @@
       "rating": "46"
      }
     ],
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "bat": [
      {
       "no": "1",
@@ -8676,15 +8646,15 @@
      },
      {
       "no": "9",
-      "name": "Sidra Amin",
-      "team": "Pakistan",
-      "rating": "671"
-     },
-     {
-      "no": "10",
       "name": "Harmanpreet Kaur",
       "team": "India",
       "rating": "652"
+     },
+     {
+      "no": "10",
+      "name": "Sidra Amin",
+      "team": "Pakistan",
+      "rating": "648"
      }
     ],
     "bowl": [
@@ -8744,9 +8714,9 @@
      },
      {
       "no": "10",
-      "name": "Nahida Akter",
-      "team": "Bangladesh",
-      "rating": "599"
+      "name": "Nashra Sundhu",
+      "team": "Pakistan",
+      "rating": "601"
      }
     ]
    },
@@ -8784,21 +8754,21 @@
      },
      {
       "no": "6",
-      "name": "Sri Lanka",
-      "team": "Sri Lanka",
-      "rating": "239"
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "237"
      },
      {
       "no": "7",
-      "name": "West Indies",
-      "team": "West Indies",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
       "rating": "237"
      },
      {
       "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "209"
+      "rating": "211"
      },
      {
       "no": "9",
@@ -8813,7 +8783,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "bat": [
      {
       "no": "1",
@@ -8847,15 +8817,15 @@
      },
      {
       "no": "6",
-      "name": "Shafali Verma",
-      "team": "India",
-      "rating": "717"
+      "name": "Chamari Athapaththu",
+      "team": "Sri Lanka",
+      "rating": "729"
      },
      {
       "no": "7",
-      "name": "Chamari Athapaththu",
-      "team": "Sri Lanka",
-      "rating": "711"
+      "name": "Shafali Verma",
+      "team": "India",
+      "rating": "717"
      },
      {
       "no": "8",
@@ -8909,27 +8879,27 @@
      },
      {
       "no": "6",
-      "name": "Sadia Iqbal",
-      "team": "Pakistan",
-      "rating": "710"
-     },
-     {
-      "no": "7",
       "name": "Linsey Smith",
       "team": "England",
       "rating": "704"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Deepti Sharma",
       "team": "India",
       "rating": "703"
      },
      {
+      "no": "8",
+      "name": "Sadia Iqbal",
+      "team": "Pakistan",
+      "rating": "696"
+     },
+     {
       "no": "9",
       "name": "Nashra Sundhu",
       "team": "Pakistan",
-      "rating": "693"
+      "rating": "692"
      },
      {
       "no": "10",
