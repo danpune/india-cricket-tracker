@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04T14:41:58Z",
+ "updated": "2026-08-07T06:04:33Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6512,19 +6512,19 @@
    "eventId": "1548444",
    "date": "2026-08-07T04:30Z",
    "gender": "men",
-   "format": "First-class",
+   "format": "Other match",
    "series": "India tour of Sri Lanka 2026",
    "seriesId": "24567",
    "matchNo": "Tour Match",
    "venue": "Nondescripts Cricket Club Ground, Colombo",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
-     "name": "TBA",
-     "abbr": "TBA",
-     "score": "",
+     "name": "Sri Lanka Cricket XI",
+     "abbr": "SLCXI",
+     "score": "110/1 (20.3 ov)",
      "winner": false
     },
     {
@@ -6534,8 +6534,117 @@
      "winner": false
     }
    ],
-   "result": "",
-   "india": ""
+   "result": "SLC XI won toss & batted",
+   "india": "",
+   "xi": {
+    "Sri Lanka Cricket XI": [
+     "Nishan Fernando",
+     "Ravindu Rasantha",
+     "Pasindu Sooriyabandara",
+     "Pavan Rathnayake",
+     "Ahan Wickramasinghe",
+     "Sonal Dinusha (c)",
+     "Anjala Bandara",
+     "Nipun Dhananjaya",
+     "Isitha Wijesundara",
+     "Ramesh Mendis",
+     "Keshara Nuwantha",
+     "Asanka Manoj",
+     "Dilum Sudeera",
+     "Lahiru Kumara",
+     "Vishwa Fernando"
+    ],
+    "India": [
+     "Shubman Gill",
+     "KL Rahul (c)",
+     "Yashasvi Jaiswal",
+     "Devdutt Padikkal",
+     "Sai Sudharsan",
+     "Rishabh Pant",
+     "Dhruv Jurel",
+     "Ravindra Jadeja",
+     "Kuldeep Yadav",
+     "Manav Suthar",
+     "Mohammed Siraj",
+     "Prasidh Krishna",
+     "Gurnoor Brar",
+     "Saransh Jain",
+     "Auqib Nabi"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Sri Lanka Cricket XI",
+     "total": "110/1 (20.3 ov)",
+     "bat": [
+      [
+       "Nishan Fernando",
+       66,
+       64,
+       "run out"
+      ],
+      [
+       "Ravindu Rasantha",
+       38,
+       59,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Pasindu Sooriyabandara",
+      "Pavan Rathnayake",
+      "Ahan Wickramasinghe",
+      "Sonal Dinusha",
+      "Anjala Bandara",
+      "Nipun Dhananjaya",
+      "Isitha Wijesundara",
+      "Ramesh Mendis",
+      "Keshara Nuwantha",
+      "Asanka Manoj",
+      "Dilum Sudeera",
+      "Lahiru Kumara",
+      "Vishwa Fernando"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "5",
+       29,
+       0
+      ],
+      [
+       "Kuldeep Yadav",
+       "1",
+       6,
+       0
+      ],
+      [
+       "Manav Suthar",
+       "0.3",
+       3,
+       0
+      ],
+      [
+       "Mohammed Siraj",
+       "5",
+       14,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       27,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "4",
+       25,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1544001",
@@ -7408,45 +7517,15 @@
    "india": ""
   },
   {
-   "id": "espn_1543893",
-   "eventId": "1543893",
-   "date": "2026-12-09T12:00Z",
+   "id": "espn_1543896",
+   "eventId": "1543896",
+   "date": "2026-12-09T08:00Z",
    "gender": "women",
-   "format": "ODI",
+   "format": "Test",
    "series": "India Women tour of South Africa 2026/27",
    "seriesId": "24559",
-   "matchNo": "1st ODI",
-   "venue": "Senwes Park, Potchefstroom",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1543894",
-   "eventId": "1543894",
-   "date": "2026-12-12T08:00Z",
-   "gender": "women",
-   "format": "ODI",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "2nd ODI",
-   "venue": "Mangaung Oval, Bloemfontein",
+   "matchNo": "Only Test",
+   "venue": "St George's Park, Gqeberha",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -7498,15 +7577,15 @@
    "india": ""
   },
   {
-   "id": "espn_1543895",
-   "eventId": "1543895",
-   "date": "2026-12-15T12:00Z",
+   "id": "espn_1543893",
+   "eventId": "1543893",
+   "date": "2026-12-16T08:00Z",
    "gender": "women",
    "format": "ODI",
    "series": "India Women tour of South Africa 2026/27",
    "seriesId": "24559",
-   "matchNo": "3rd ODI",
-   "venue": "Newlands, Cape Town",
+   "matchNo": "1st ODI",
+   "venue": "Senwes Park, Potchefstroom",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -7588,15 +7667,45 @@
    "india": ""
   },
   {
-   "id": "espn_1543896",
-   "eventId": "1543896",
-   "date": "2026-12-20T08:00Z",
+   "id": "espn_1543894",
+   "eventId": "1543894",
+   "date": "2026-12-19T12:00Z",
    "gender": "women",
-   "format": "Test",
+   "format": "ODI",
    "series": "India Women tour of South Africa 2026/27",
    "seriesId": "24559",
-   "matchNo": "Only Test",
-   "venue": "St George's Park, Gqeberha",
+   "matchNo": "2nd ODI",
+   "venue": "Mangaung Oval, Bloemfontein",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1543895",
+   "eventId": "1543895",
+   "date": "2026-12-22T12:00Z",
+   "gender": "women",
+   "format": "ODI",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "3rd ODI",
+   "venue": "Newlands, Cape Town",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -7678,6 +7787,36 @@
    "india": ""
   },
   {
+   "id": "espn_1548868",
+   "eventId": "1548868",
+   "date": "2026-12-26T16:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "1st T20I",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1529240",
    "eventId": "1529240",
    "date": "2026-12-27T13:30Z",
@@ -7700,6 +7839,66 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1548869",
+   "eventId": "1548869",
+   "date": "2026-12-29T16:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "2nd T20I",
+   "venue": "Senwes Park, Potchefstroom",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1548870",
+   "eventId": "1548870",
+   "date": "2026-12-30T16:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "3rd T20I",
+   "venue": "Senwes Park, Potchefstroom",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
@@ -8244,7 +8443,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-07-28",
+    "updated": "2026-08-04",
     "bat": [
      {
       "no": "1",
@@ -8348,7 +8547,7 @@
       "no": "7",
       "name": "Bernard Scholtz",
       "team": "Namibia",
-      "rating": "610"
+      "rating": "613"
      },
      {
       "no": "8",
@@ -8433,7 +8632,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-07-28",
+    "updated": "2026-08-04",
     "bat": [
      {
       "no": "1",
