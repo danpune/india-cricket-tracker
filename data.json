@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T11:04:52Z",
+ "updated": "2026-08-07T11:53:39Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,12 +6519,12 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "317/6 (78.5 ov)",
+     "score": "363/8 (90 ov)",
      "winner": false
     },
     {
@@ -6546,11 +6546,11 @@
      "Sonal Dinusha (c)",
      "Anjala Bandara",
      "Ramesh Mendis",
+     "Keshara Nuwantha",
+     "Dilum Sudeera",
      "Isitha Wijesundara",
      "Nipun Dhananjaya",
-     "Keshara Nuwantha",
      "Asanka Manoj",
-     "Dilum Sudeera",
      "Lahiru Kumara",
      "Vishwa Fernando"
     ],
@@ -6575,7 +6575,7 @@
    "innings": [
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "317/6 (78.4 ov)",
+     "total": "363/8 (90.0 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -6609,9 +6609,9 @@
       ],
       [
        "Sonal Dinusha",
-       38,
-       49,
-       "not out"
+       52,
+       72,
+       "lbw"
       ],
       [
        "Anjala Bandara",
@@ -6621,38 +6621,48 @@
       ],
       [
        "Ramesh Mendis",
-       15,
-       29,
+       32,
+       49,
+       "c"
+      ],
+      [
+       "Keshara Nuwantha",
+       9,
+       20,
+       "not out"
+      ],
+      [
+       "Dilum Sudeera",
+       1,
+       5,
        "not out"
       ]
      ],
      "dnb": [
       "Isitha Wijesundara",
       "Nipun Dhananjaya",
-      "Keshara Nuwantha",
       "Asanka Manoj",
-      "Dilum Sudeera",
       "Lahiru Kumara",
       "Vishwa Fernando"
      ],
      "bowl": [
       [
        "Ravindra Jadeja",
-       "12",
-       48,
-       1
+       "15",
+       64,
+       2
       ],
       [
        "Kuldeep Yadav",
-       "16",
-       67,
+       "18",
+       76,
        2
       ],
       [
        "Manav Suthar",
-       "11",
-       30,
-       1
+       "13",
+       33,
+       2
       ],
       [
        "Mohammed Siraj",
@@ -6668,14 +6678,14 @@
       ],
       [
        "Gurnoor Brar",
-       "9",
-       41,
+       "12",
+       49,
        1
       ],
       [
        "Saransh Jain",
-       "9.4",
-       48,
+       "11",
+       54,
        0
       ]
      ]
