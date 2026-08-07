@@ -28,6 +28,9 @@ CHANNELS = {  # seriesId -> official channel handle of the rights-holding home b
                                          # mostly academy/U19 content, senior highlights rare
                                          # (rights with broadcasters); harmless insurance,
                                          # the verification gate rejects anything else
+    "24567": "@srilankacricket",         # India tour of Sri Lanka 2026 — verified real
+                                         # (title "Sri Lanka Cricket"), posts proper
+                                         # "Highlights - <ordinal> <format> A vs B" titles
     # extend as tours near (verify first!): ICC events -> "@ICC"
 }
 FMT_TOKENS = {"T20I": ("t20",), "ODI": ("odi", "one day"), "Test": ("test",)}

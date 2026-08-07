@@ -1,12 +1,35 @@
 {
-  "_howto": "Curated 'where to watch' per series. Broadcast rights are contracts, not API data — ESPN's cricket feed carries no broadcaster fields, so each entry is added by hand ONLY from a verified announcement, with the source recorded. No entry = nothing shown (never guess). Keys: in = India, us = USA/Canada.",
-  "series": {
-    "24301": {
-      "name": "India tour of Zimbabwe 2026",
-      "in": { "stream": "FanCode", "streamUrl": "https://www.fancode.com/", "tv": "Unite8 Sports 1/2 · DD Sports" },
-      "us": { "stream": "Willow TV", "streamUrl": "https://www.willow.tv/", "tv": "Willow TV" },
-      "verified": "2026-07-26",
-      "source": "https://sports.yahoo.com/articles/watch-ind-vs-zim-t20i-064123005.html"
-    }
+ "_howto": "Curated 'where to watch' per series. Broadcast rights are contracts, not API data \u2014 ESPN's cricket feed carries no broadcaster fields, so each entry is added by hand ONLY from a verified announcement, with the source recorded. No entry = nothing shown (never guess). Keys: in = India, us = USA/Canada.",
+ "series": {
+  "24301": {
+   "name": "India tour of Zimbabwe 2026",
+   "in": {
+    "stream": "FanCode",
+    "streamUrl": "https://www.fancode.com/",
+    "tv": "Unite8 Sports 1/2 \u00b7 DD Sports"
+   },
+   "us": {
+    "stream": "Willow TV",
+    "streamUrl": "https://www.willow.tv/",
+    "tv": "Willow TV"
+   },
+   "verified": "2026-07-26",
+   "source": "https://sports.yahoo.com/articles/watch-ind-vs-zim-t20i-064123005.html"
+  },
+  "24567": {
+   "name": "India tour of Sri Lanka 2026",
+   "in": {
+    "stream": "JioHotstar / SonyLIV",
+    "streamUrl": "https://www.hotstar.com/",
+    "tv": "Sony Sports Ten 1"
+   },
+   "us": {
+    "stream": "Willow TV",
+    "streamUrl": "https://www.willow.tv/",
+    "tv": "Willow TV"
+   },
+   "verified": "2026-08-07",
+   "source": "https://www.timesofsports.com/cricket/sri-lanka-vs-india/sri-lanka-vs-india-2026-live-streaming/"
   }
+ }
 }
