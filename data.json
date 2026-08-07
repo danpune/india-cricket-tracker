@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T06:04:33Z",
+ "updated": "2026-08-07T06:37:58Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,12 +6519,12 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "110/1 (20.3 ov)",
+     "score": "138/1 (29 ov)",
      "winner": false
     },
     {
@@ -6575,23 +6575,28 @@
    "innings": [
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "110/1 (20.3 ov)",
+     "total": "138/1 (29.0 ov)",
      "bat": [
       [
        "Nishan Fernando",
        66,
-       64,
+       65,
        "run out"
       ],
       [
        "Ravindu Rasantha",
-       38,
-       59,
+       50,
+       82,
+       "not out"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       16,
+       27,
        "not out"
       ]
      ],
      "dnb": [
-      "Pasindu Sooriyabandara",
       "Pavan Rathnayake",
       "Ahan Wickramasinghe",
       "Sonal Dinusha",
@@ -6614,14 +6619,14 @@
       ],
       [
        "Kuldeep Yadav",
-       "1",
-       6,
+       "5",
+       23,
        0
       ],
       [
        "Manav Suthar",
-       "0.3",
-       3,
+       "5",
+       14,
        0
       ],
       [
