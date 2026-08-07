@@ -290,6 +290,9 @@ a.yt:hover{text-decoration:underline}
 footer{margin:30px 0 40px;text-align:center;font-size:12px;color:var(--muted);line-height:1.8}
 footer .about{max-width:560px;margin:0 auto 10px;line-height:1.6}
 footer a{color:var(--chakra);text-decoration:none}
+.stale{background:color-mix(in srgb,var(--saffron) 18%,var(--card));border:1px solid var(--saffron);
+  border-radius:10px;padding:9px 13px;margin:0 0 12px;font-size:12.5px;color:var(--ink)}
+.stale a{color:var(--chakra);font-weight:700}
 .err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
 /* sticky jump nav */
 #jump{position:sticky;top:0;z-index:40}
@@ -355,7 +358,7 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, WATCH={}, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, WATCH={}, STALE_AT=null, GENDER=localStorage.getItem('gender')||'men', TICK=null;
 var TABS=['men','women','news','about'];
 if(TABS.indexOf(location.hash.slice(1))>=0)GENDER=location.hash.slice(1);
 window.addEventListener('hashchange',function(){
@@ -754,6 +757,7 @@ function render(){
   var app=document.getElementById('app');
   document.getElementById('jump').innerHTML='';
   if(GENDER==='about'){app.innerHTML=aboutHTML();return;}
+  var stale=STALE_AT?staleBanner(STALE_AT):'';
   if(GENDER==='news'){
     app.innerHTML=newsHTML()||'<div class="err">News is loading — try again in a moment.</div>';
     return;
@@ -868,7 +872,7 @@ function render(){
     });
     h+='</section>';
   }
-  app.innerHTML=h;
+  app.innerHTML=stale+h;
   startTicker();
   if(live&&live.eventId){if(!LIVE_TIMER)pollLive(live);else stampLiveTime();}
   else stopLive();
@@ -999,6 +1003,22 @@ fetch('https://abacus.jasoncameron.dev/hit/danpune-india-cricket-tracker/visits'
   .then(function(d){if(d&&d.value!=null){var el=document.getElementById('visits');if(el)el.textContent=' · 👀 '+d.value.toLocaleString()+' visits';}})
   .catch(function(){});
 
+/* Last-known-good cache: a failed fetch (deploy mid-flight, flaky connection, Pages
+   hiccup) used to blank the whole page behind an error banner. Now the last successful
+   payload is kept in localStorage and rendered instead, clearly marked as stale. */
+var CACHE_KEY='ict_cache_v2';
+function saveCache(p){
+  try{localStorage.setItem(CACHE_KEY,JSON.stringify({t:Date.now(),p:p}));}catch(e){}
+}
+function loadCache(){
+  try{return JSON.parse(localStorage.getItem(CACHE_KEY)||'null');}catch(e){return null;}
+}
+function staleBanner(ts){
+  var when=new Date(ts).toLocaleString([],{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+  return '<div class="stale">⚠️ Couldn\u2019t reach live data — showing the last update from '+
+         esc(when)+'. <a href="" onclick="location.reload();return false;">Retry</a></div>';
+}
+
 Promise.all([
   fetch('data.json?v='+Date.now()).then(function(r){return r.json();}),
   fetch('history.json?v='+Date.now()).then(function(r){return r.json();}),
@@ -1011,12 +1031,24 @@ Promise.all([
   var hl=(res[2]||{}).highlights||{};
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
+  saveCache(res);
   render();
   if(location.hash){
     var t=document.getElementById(location.hash.slice(1));
     if(t)t.scrollIntoView();
   }
-}).catch(function(){render();});
+}).catch(function(){
+  /* fall back to the last good payload rather than showing an empty page */
+  var c=loadCache();
+  if(c&&c.p){
+    var res=c.p;
+    DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};
+    var hl=(res[2]||{}).highlights||{};
+    HL={};Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
+    STALE_AT=c.t;
+  }
+  render();
+});
 </script>
 </body>
 </html>

@@ -78,6 +78,14 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   UI shows nothing (never guess a broadcaster). Pattern so far: India away tours to
   smaller boards → FanCode; US/Canada → Willow TV (holds ICC + most tour rights).
 
+## Offline / failed-fetch resilience
+- Last-known-good cache (localStorage `ict_cache_v2`, ~260 KB): every successful load
+  stores the whole payload; a failed fetch renders THAT instead of blanking the page.
+  A saffron "Couldn't reach live data — showing the last update from <time>" banner with
+  a Retry link sits above the content. Verified by renaming data.json: before, the page
+  showed only an error banner (0 sections); now the full page + scores survive.
+- Quota failures are swallowed (try/catch) — caching must never break rendering.
+
 ## Security posture
 - Meta CSP in <head>: default-src 'self'; img-src adds data: + i.ytimg.com (thumbnails);
   connect-src adds abacus.jasoncameron.dev (counter); script/style 'unsafe-inline'
