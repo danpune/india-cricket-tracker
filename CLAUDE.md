@@ -211,9 +211,12 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 1. Extend `SERIES` when new tours are announced (probe the id range, or let discovery
    catch them on match day).
 2. Points-table for World Cups / Asia Cup when one is live.
-3. Verify + add official channel handles to build_highlights.py CHANNELS as tours
-   near: NZC (Oct 2026), @ICC for ICC events. DONE: Sri Lanka = @srilankacricket
-   (verified Aug 2026 — active, posts "Highlights - <ordinal> <format> A vs B"). India-home series
+3. Board channels are now all verified & wired: SL=@srilankacricket, NZ=@nzctv,
+   SA=@OfficialCSA, ENG=@officialenglandcricket, ZIM=@zimbabwecricket431, India-home
+   via bcci.tv, Willow as global fallback. Only @ICC (for ICC events) remains unadded.
+   NOTE: NZC titles are clickbait-style, so their tour will likely resolve via Willow.
+4. `watch.json` entries can only be added once broadcasters ANNOUNCE (usually ~2 weeks
+   out). Covered: Zimbabwe 2026, Sri Lanka 2026. Next due: West Indies in India (Sep 27). India-home series
    covered via bcci.tv (BCCI_SERIES). Zimbabwe: added @zimbabwecricket431 (2026-07,
    found via YT search — zimcricket.org DNS-dead) but VERIFIED they post no senior
    intl highlights (academy/U19 only) and bcci.tv has no away-match highlights either

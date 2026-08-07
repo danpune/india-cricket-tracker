@@ -31,6 +31,14 @@ CHANNELS = {  # seriesId -> official channel handle of the rights-holding home b
     "24567": "@srilankacricket",         # India tour of Sri Lanka 2026 — verified real
                                          # (title "Sri Lanka Cricket"), posts proper
                                          # "Highlights - <ordinal> <format> A vs B" titles
+    "24469": "@nzctv",                   # India tour of New Zealand 2026/27 — NZC's real
+                                         # channel (verified: "New Zealand Cricket"), BUT
+                                         # they title clips clickbait-style ("OPENERS GONE!"),
+                                         # not "Highlights - 1st Test ...", so expect the
+                                         # Willow fallback to do the work here
+    "24559": "@OfficialCSA",             # India Women tour of South Africa 2026/27 (verified
+                                         # "CSA"); insurance — gate rejects anything wrong
+    "24233": "@OfficialCSA",             # India Women tour of South Africa 2026
     # extend as tours near (verify first!): ICC events -> "@ICC"
 }
 FMT_TOKENS = {"T20I": ("t20",), "ODI": ("odi", "one day"), "Test": ("test",)}
