@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T10:06:29Z",
+ "updated": "2026-08-07T11:04:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6524,7 +6524,7 @@
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "262/5 (66.1 ov)",
+     "score": "317/6 (78.5 ov)",
      "winner": false
     },
     {
@@ -6545,9 +6545,9 @@
      "Ahan Wickramasinghe",
      "Sonal Dinusha (c)",
      "Anjala Bandara",
-     "Nipun Dhananjaya",
-     "Isitha Wijesundara",
      "Ramesh Mendis",
+     "Isitha Wijesundara",
+     "Nipun Dhananjaya",
      "Keshara Nuwantha",
      "Asanka Manoj",
      "Dilum Sudeera",
@@ -6575,7 +6575,7 @@
    "innings": [
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "262/5 (66.0 ov)",
+     "total": "317/6 (78.4 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -6609,21 +6609,26 @@
       ],
       [
        "Sonal Dinusha",
-       5,
-       16,
+       38,
+       49,
        "not out"
       ],
       [
        "Anjala Bandara",
-       6,
-       21,
+       13,
+       35,
+       "lbw"
+      ],
+      [
+       "Ramesh Mendis",
+       15,
+       29,
        "not out"
       ]
      ],
      "dnb": [
-      "Nipun Dhananjaya",
       "Isitha Wijesundara",
-      "Ramesh Mendis",
+      "Nipun Dhananjaya",
       "Keshara Nuwantha",
       "Asanka Manoj",
       "Dilum Sudeera",
@@ -6639,9 +6644,9 @@
       ],
       [
        "Kuldeep Yadav",
-       "10",
-       44,
-       1
+       "16",
+       67,
+       2
       ],
       [
        "Manav Suthar",
@@ -6651,8 +6656,8 @@
       ],
       [
        "Mohammed Siraj",
-       "10.1",
-       32,
+       "13",
+       44,
        0
       ],
       [
@@ -6669,8 +6674,8 @@
       ],
       [
        "Saransh Jain",
-       "6",
-       28,
+       "9.4",
+       48,
        0
       ]
      ]
