@@ -43,6 +43,15 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 - WIN RATE CONVENTION: W / (W+L+D+T) — no-results are excluded from the denominator
   but still shown in the footnote. Don't silently change this; it's stated in the UI.
 
+## ESPN blocks browser UAs server-side (Aug 2026 outage — 3 days of silent CI failures)
+- `site.api.espn.com` 403s a spoofed browser User-Agent from a server, but serves an
+  HONEST one: UA = "india-cricket-tracker (+github url)" → 200. Empty UA also 403s.
+  From a real BROWSER the same host is fine (that's why the live poller kept working
+  while every cron run died). Symptom to recognise: CI red, data.json frozen, curl 403
+  "Access Denied" HTML. Do NOT respond by picking a newer browser UA string.
+- `site.web.api.espn.com` serves the same paths to servers but sends NO CORS headers,
+  so it's a server-side fallback only — never usable from the page.
+
 ## Live scores (browser-side polling — the real fix for cron throttling)
 - ESPN's API sends `access-control-allow-origin: *`, so the PAGE can read it directly.
   While a match is `in`, index.html polls
@@ -54,6 +63,9 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   visibilitychange + pageshow handler re-ticks the moment you return to the tab —
   without it you'd stare at a stale score for up to 45s after unlocking. Verified in a
   browser: score advanced on the visibility event (guard is `!document.hidden`).
+- SELF-HEALING: render() also starts the poller for a match whose start time has passed
+  while the build still says 'pre' (within 36h). If the pipeline breaks again, the page
+  still shows live scores from the browser instead of a frozen "upcoming" card.
 - pollLive() arms its interval only `if(LIVE_TICK===tick)` — tick() may have called
   stopLive() already (match finished between build and poll); without the guard that
   left a zombie interval polling a dead match forever.

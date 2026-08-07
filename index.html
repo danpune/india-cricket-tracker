@@ -763,6 +763,17 @@ function render(){
   var now=Date.now();
 
   var live=ms.filter(function(m){return m.state==='in';})[0];
+  /* Self-healing: if the build is stale (cron down/blocked) a started match still reads
+     'pre'. Poll anything whose start time has passed and that isn't finished — the poll
+     itself tells us the truth. */
+  if(!live){
+    var nowMs=Date.now();
+    live=ms.filter(function(m){
+      if(m.state!=='pre'||!m.eventId)return false;
+      var t=Date.parse(m.date);
+      return t<=nowMs&&nowMs-t<36*3600000;   /* started, within a plausible match window */
+    })[0];
+  }
   var next=ms.filter(function(m){return m.state==='pre';})[0];
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
   var hero=live||next||lastPost;

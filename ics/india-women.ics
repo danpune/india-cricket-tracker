@@ -60,35 +60,59 @@ LOCATION:Willowmoore Park  Benoni
 DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1543896@india-cricket-tracker
+DTSTART:20261209T080000Z
+DTEND:20261209T150000Z
+SUMMARY:South Africa v India 🏏 Only Test
+LOCATION:St George's Park  Gqeberha
+DESCRIPTION:India Women tour of South Africa 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1543893@india-cricket-tracker
-DTSTART:20261209T120000Z
-DTEND:20261209T203000Z
+DTSTART:20261216T080000Z
+DTEND:20261216T163000Z
 SUMMARY:South Africa v India 🏏 1st ODI
 LOCATION:Senwes Park  Potchefstroom
 DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
 BEGIN:VEVENT
 UID:espn_1543894@india-cricket-tracker
-DTSTART:20261212T080000Z
-DTEND:20261212T163000Z
+DTSTART:20261219T120000Z
+DTEND:20261219T203000Z
 SUMMARY:South Africa v India 🏏 2nd ODI
 LOCATION:Mangaung Oval  Bloemfontein
 DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
 BEGIN:VEVENT
 UID:espn_1543895@india-cricket-tracker
-DTSTART:20261215T120000Z
-DTEND:20261215T203000Z
+DTSTART:20261222T120000Z
+DTEND:20261222T203000Z
 SUMMARY:South Africa v India 🏏 3rd ODI
 LOCATION:Newlands  Cape Town
 DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1543896@india-cricket-tracker
-DTSTART:20261220T080000Z
-DTEND:20261220T150000Z
-SUMMARY:South Africa v India 🏏 Only Test
-LOCATION:St George's Park  Gqeberha
-DESCRIPTION:India Women tour of South Africa 2026/27 - Day 1 start; Tests run up to 5 days
+UID:espn_1548868@india-cricket-tracker
+DTSTART:20261226T160000Z
+DTEND:20261226T200000Z
+SUMMARY:South Africa v India 🏏 1st T20I
+LOCATION:Willowmoore Park  Benoni
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1548869@india-cricket-tracker
+DTSTART:20261229T160000Z
+DTEND:20261229T200000Z
+SUMMARY:South Africa v India 🏏 2nd T20I
+LOCATION:Senwes Park  Potchefstroom
+DESCRIPTION:India Women tour of South Africa 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1548870@india-cricket-tracker
+DTSTART:20261230T160000Z
+DTEND:20261230T200000Z
+SUMMARY:South Africa v India 🏏 3rd T20I
+LOCATION:Senwes Park  Potchefstroom
+DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
 END:VCALENDAR

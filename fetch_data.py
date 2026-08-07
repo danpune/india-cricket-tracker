@@ -45,11 +45,18 @@ SERIES = {
 EXCLUDE = ("Under-19", "India A", "Champions")
 
 
+# ESPN's edge now 403s BROWSER-LIKE user agents on site.api.espn.com (a spoofed
+# "Mozilla/5.0" is blocked; an honest project UA is served fine). This silently broke
+# every CI run for three days in Aug 2026 — don't "fix" a future block by pretending
+# to be a browser again.
+UA = "india-cricket-tracker (+https://github.com/danpune/india-cricket-tracker)"
+
+
 def get(url):
     # the API 504s intermittently; a dropped date = a silently missing fixture
     for attempt in range(3):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=20) as r:
                 return json.load(r)
         except Exception:
