@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T08:59:58Z",
+ "updated": "2026-08-07T10:06:29Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6524,7 +6524,7 @@
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "234/3 (57 ov)",
+     "score": "262/5 (66.1 ov)",
      "winner": false
     },
     {
@@ -6575,7 +6575,7 @@
    "innings": [
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "234/3 (57.0 ov)",
+     "total": "262/5 (66.0 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -6597,20 +6597,30 @@
       ],
       [
        "Pavan Rathnayake",
-       31,
-       40,
-       "not out"
+       39,
+       47,
+       "c"
       ],
       [
        "Ahan Wickramasinghe",
-       23,
        31,
+       43,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       5,
+       16,
+       "not out"
+      ],
+      [
+       "Anjala Bandara",
+       6,
+       21,
        "not out"
       ]
      ],
      "dnb": [
-      "Sonal Dinusha",
-      "Anjala Bandara",
       "Nipun Dhananjaya",
       "Isitha Wijesundara",
       "Ramesh Mendis",
@@ -6629,9 +6639,9 @@
       ],
       [
        "Kuldeep Yadav",
-       "6",
-       30,
-       0
+       "10",
+       44,
+       1
       ],
       [
        "Manav Suthar",
@@ -6641,8 +6651,8 @@
       ],
       [
        "Mohammed Siraj",
-       "9",
-       30,
+       "10.1",
+       32,
        0
       ],
       [
@@ -6653,9 +6663,9 @@
       ],
       [
        "Gurnoor Brar",
-       "5",
-       29,
-       0
+       "9",
+       41,
+       1
       ],
       [
        "Saransh Jain",
