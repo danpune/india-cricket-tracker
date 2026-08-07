@@ -74,6 +74,10 @@ def norm_format(cls):
         return "T20I" if intl else "T20"
     if "OD" in cls:
         return "ODI" if intl else "List A"
+    # ESPN labels warm-ups/tour games "Other match" — a badge saying that reads like a
+    # bug. Anything not an international is a TOUR game as far as this site cares.
+    if not cls or cls.lower().startswith("other"):
+        return "Tour"
     return cls
 
 
