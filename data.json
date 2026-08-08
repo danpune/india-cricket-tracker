@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T10:47:57Z",
+ "updated": "2026-08-08T11:13:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "249/5 (64.3 ov)",
+     "score": "255/7 (70 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 114 runs",
+   "result": "India trail by 108 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6562,10 +6562,10 @@
      "Rishabh Pant",
      "Dhruv Jurel",
      "Manav Suthar",
-     "Shubman Gill",
      "Kuldeep Yadav",
-     "Sai Sudharsan",
      "Mohammed Siraj",
+     "Sai Sudharsan",
+     "Shubman Gill",
      "Prasidh Krishna",
      "Gurnoor Brar",
      "Saransh Jain",
@@ -6692,7 +6692,7 @@
     },
     {
      "t": "India",
-     "total": "249/5 (64.3 ov)",
+     "total": "255/7 (70.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6714,9 +6714,9 @@
       ],
       [
        "Ravindra Jadeja",
-       62,
-       116,
-       "not out"
+       63,
+       117,
+       "retired out"
       ],
       [
        "Rishabh Pant",
@@ -6732,16 +6732,21 @@
       ],
       [
        "Manav Suthar",
-       37,
-       67,
+       41,
+       84,
        "not out"
+      ],
+      [
+       "Kuldeep Yadav",
+       1,
+       15,
+       "retired out"
       ]
      ],
      "dnb": [
-      "Shubman Gill",
-      "Kuldeep Yadav",
-      "Sai Sudharsan",
       "Mohammed Siraj",
+      "Sai Sudharsan",
+      "Shubman Gill",
       "Prasidh Krishna",
       "Gurnoor Brar",
       "Saransh Jain",
@@ -6750,20 +6755,20 @@
      "bowl": [
       [
        "Sonal Dinusha",
-       "2",
-       5,
+       "4",
+       9,
        0
       ],
       [
        "Ramesh Mendis",
-       "15",
+       "16",
        63,
        2
       ],
       [
        "Keshara Nuwantha",
-       "11",
-       33,
+       "13",
+       34,
        1
       ],
       [
@@ -6792,7 +6797,7 @@
       ],
       [
        "Vishwa Fernando",
-       "10.4",
+       "11",
        33,
        1
       ]
