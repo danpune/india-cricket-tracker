@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T03:46:40Z",
+ "updated": "2026-08-08T04:41:29Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,22 +6519,22 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8 (90 ov)",
+     "score": "363/8d",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "4/1 (2 ov)",
      "winner": false
     }
    ],
-   "result": "SLC XI won toss & batted",
+   "result": "India trail by 359 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6555,10 +6555,10 @@
      "Vishwa Fernando"
     ],
     "India": [
-     "Shubman Gill",
-     "KL Rahul (c)",
      "Yashasvi Jaiswal",
+     "KL Rahul (c)",
      "Devdutt Padikkal",
+     "Shubman Gill",
      "Sai Sudharsan",
      "Rishabh Pant",
      "Dhruv Jurel",
@@ -6687,6 +6687,58 @@
        "11",
        54,
        0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "4/1 (1.5 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       0,
+       6,
+       "not out"
+      ],
+      [
+       "Devdutt Padikkal",
+       4,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shubman Gill",
+      "Sai Sudharsan",
+      "Rishabh Pant",
+      "Dhruv Jurel",
+      "Ravindra Jadeja",
+      "Kuldeep Yadav",
+      "Manav Suthar",
+      "Mohammed Siraj",
+      "Prasidh Krishna",
+      "Gurnoor Brar",
+      "Saransh Jain",
+      "Auqib Nabi"
+     ],
+     "bowl": [
+      [
+       "Lahiru Kumara",
+       "1",
+       0,
+       0
+      ],
+      [
+       "Vishwa Fernando",
+       "1",
+       4,
+       1
       ]
      ]
     }
