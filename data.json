@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T07:12:38Z",
+ "updated": "2026-08-08T08:02:11Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "76/1 (20 ov)",
+     "score": "122/2 (31.1 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 287 runs",
+   "result": "India trail by 236 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6558,11 +6558,11 @@
      "Yashasvi Jaiswal",
      "KL Rahul (c)",
      "Devdutt Padikkal",
-     "Shubman Gill",
+     "Ravindra Jadeja",
      "Sai Sudharsan",
      "Rishabh Pant",
      "Dhruv Jurel",
-     "Ravindra Jadeja",
+     "Shubman Gill",
      "Kuldeep Yadav",
      "Manav Suthar",
      "Mohammed Siraj",
@@ -6692,7 +6692,7 @@
     },
     {
      "t": "India",
-     "total": "76/1 (20.0 ov)",
+     "total": "127/2 (31.5 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6702,23 +6702,28 @@
       ],
       [
        "KL Rahul",
-       27,
-       58,
+       40,
+       67,
        "not out"
       ],
       [
        "Devdutt Padikkal",
-       49,
-       60,
+       74,
+       95,
+       "not out"
+      ],
+      [
+       "Ravindra Jadeja",
+       11,
+       27,
        "not out"
       ]
      ],
      "dnb": [
-      "Shubman Gill",
       "Sai Sudharsan",
       "Rishabh Pant",
       "Dhruv Jurel",
-      "Ravindra Jadeja",
+      "Shubman Gill",
       "Kuldeep Yadav",
       "Manav Suthar",
       "Mohammed Siraj",
@@ -6730,15 +6735,15 @@
      "bowl": [
       [
        "Ramesh Mendis",
-       "5",
-       19,
+       "8",
+       39,
        0
       ],
       [
        "Keshara Nuwantha",
-       "2",
-       5,
-       0
+       "7.5",
+       24,
+       1
       ],
       [
        "Isitha Wijesundara",
@@ -6748,8 +6753,8 @@
       ],
       [
        "Lahiru Kumara",
-       "4",
-       12,
+       "7",
+       23,
        0
       ],
       [
