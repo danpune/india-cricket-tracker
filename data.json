@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T08:54:55Z",
+ "updated": "2026-08-08T09:33:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,7 +6519,7 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Tea",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "174/4 (43.1 ov)",
+     "score": "180/5 (50 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 190 runs",
+   "result": "India trail by 183 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6561,10 +6561,10 @@
      "Ravindra Jadeja",
      "Rishabh Pant",
      "Dhruv Jurel",
-     "Sai Sudharsan",
+     "Manav Suthar",
      "Shubman Gill",
      "Kuldeep Yadav",
-     "Manav Suthar",
+     "Sai Sudharsan",
      "Mohammed Siraj",
      "Prasidh Krishna",
      "Gurnoor Brar",
@@ -6653,15 +6653,15 @@
        2
       ],
       [
-       "Kuldeep Yadav",
-       "18",
-       76,
-       2
-      ],
-      [
        "Manav Suthar",
        "13",
        33,
+       2
+      ],
+      [
+       "Kuldeep Yadav",
+       "18",
+       76,
        2
       ],
       [
@@ -6692,7 +6692,7 @@
     },
     {
      "t": "India",
-     "total": "173/4 (43.0 ov)",
+     "total": "180/5 (50.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6714,8 +6714,8 @@
       ],
       [
        "Ravindra Jadeja",
-       25,
-       58,
+       29,
+       67,
        "not out"
       ],
       [
@@ -6727,15 +6727,20 @@
       [
        "Dhruv Jurel",
        1,
-       5,
+       9,
+       "c"
+      ],
+      [
+       "Manav Suthar",
+       3,
+       29,
        "not out"
       ]
      ],
      "dnb": [
-      "Sai Sudharsan",
       "Shubman Gill",
       "Kuldeep Yadav",
-      "Manav Suthar",
+      "Sai Sudharsan",
       "Mohammed Siraj",
       "Prasidh Krishna",
       "Gurnoor Brar",
@@ -6745,15 +6750,15 @@
      "bowl": [
       [
        "Sonal Dinusha",
-       "1",
-       3,
+       "2",
+       5,
        0
       ],
       [
        "Ramesh Mendis",
-       "10",
-       46,
-       1
+       "12",
+       47,
+       2
       ],
       [
        "Keshara Nuwantha",
@@ -6762,9 +6767,21 @@
        1
       ],
       [
+       "Dilum Sudeera",
+       "2",
+       2,
+       0
+      ],
+      [
        "Isitha Wijesundara",
        "6",
        38,
+       0
+      ],
+      [
+       "Asanka Manoj",
+       "2",
+       2,
        0
       ],
       [
