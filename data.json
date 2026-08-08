@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T06:09:21Z",
+ "updated": "2026-08-08T07:12:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,7 +6519,7 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed - Rain",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "67/1 (17 ov)",
+     "score": "76/1 (20 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 296 runs",
+   "result": "India trail by 287 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6692,7 +6692,7 @@
     },
     {
      "t": "India",
-     "total": "67/1 (17.0 ov)",
+     "total": "76/1 (20.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6702,14 +6702,14 @@
       ],
       [
        "KL Rahul",
-       23,
-       48,
+       27,
+       58,
        "not out"
       ],
       [
        "Devdutt Padikkal",
-       44,
-       52,
+       49,
+       60,
        "not out"
       ]
      ],
@@ -6730,8 +6730,14 @@
      "bowl": [
       [
        "Ramesh Mendis",
-       "4",
-       15,
+       "5",
+       19,
+       0
+      ],
+      [
+       "Keshara Nuwantha",
+       "2",
+       5,
        0
       ],
       [
