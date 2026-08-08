@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T08:02:11Z",
+ "updated": "2026-08-08T08:54:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "122/2 (31.1 ov)",
+     "score": "174/4 (43.1 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 236 runs",
+   "result": "India trail by 190 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6559,9 +6559,9 @@
      "KL Rahul (c)",
      "Devdutt Padikkal",
      "Ravindra Jadeja",
-     "Sai Sudharsan",
      "Rishabh Pant",
      "Dhruv Jurel",
+     "Sai Sudharsan",
      "Shubman Gill",
      "Kuldeep Yadav",
      "Manav Suthar",
@@ -6692,7 +6692,7 @@
     },
     {
      "t": "India",
-     "total": "127/2 (31.5 ov)",
+     "total": "173/4 (43.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6708,21 +6708,31 @@
       ],
       [
        "Devdutt Padikkal",
-       74,
-       95,
-       "not out"
+       103,
+       121,
+       "retired out"
       ],
       [
        "Ravindra Jadeja",
-       11,
-       27,
+       25,
+       58,
+       "not out"
+      ],
+      [
+       "Rishabh Pant",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       1,
+       5,
        "not out"
       ]
      ],
      "dnb": [
       "Sai Sudharsan",
-      "Rishabh Pant",
-      "Dhruv Jurel",
       "Shubman Gill",
       "Kuldeep Yadav",
       "Manav Suthar",
@@ -6734,21 +6744,27 @@
      ],
      "bowl": [
       [
-       "Ramesh Mendis",
-       "8",
-       39,
+       "Sonal Dinusha",
+       "1",
+       3,
        0
       ],
       [
+       "Ramesh Mendis",
+       "10",
+       46,
+       1
+      ],
+      [
        "Keshara Nuwantha",
-       "7.5",
-       24,
+       "11",
+       33,
        1
       ],
       [
        "Isitha Wijesundara",
-       "4",
-       25,
+       "6",
+       38,
        0
       ],
       [
@@ -6759,8 +6775,8 @@
       ],
       [
        "Vishwa Fernando",
-       "5",
-       15,
+       "8",
+       29,
        1
       ]
      ]
