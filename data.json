@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T11:13:46Z",
+ "updated": "2026-08-08T11:46:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "255/7 (70 ov)",
+     "score": "264/8 (74.3 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 108 runs",
+   "result": "India trail by 89 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6564,11 +6564,11 @@
      "Manav Suthar",
      "Kuldeep Yadav",
      "Mohammed Siraj",
-     "Sai Sudharsan",
+     "Saransh Jain",
      "Shubman Gill",
      "Prasidh Krishna",
      "Gurnoor Brar",
-     "Saransh Jain",
+     "Sai Sudharsan",
      "Auqib Nabi"
     ]
    },
@@ -6671,6 +6671,12 @@
        0
       ],
       [
+       "Saransh Jain",
+       "11",
+       54,
+       0
+      ],
+      [
        "Prasidh Krishna",
        "8",
        32,
@@ -6681,18 +6687,12 @@
        "12",
        49,
        1
-      ],
-      [
-       "Saransh Jain",
-       "11",
-       54,
-       0
       ]
      ]
     },
     {
      "t": "India",
-     "total": "255/7 (70.0 ov)",
+     "total": "274/8 (77.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6708,9 +6708,9 @@
       ],
       [
        "Devdutt Padikkal",
-       103,
-       121,
-       "retired out"
+       110,
+       133,
+       "not out"
       ],
       [
        "Ravindra Jadeja",
@@ -6733,23 +6733,33 @@
       [
        "Manav Suthar",
        41,
-       84,
-       "not out"
+       90,
+       "lbw"
       ],
       [
        "Kuldeep Yadav",
        1,
        15,
        "retired out"
+      ],
+      [
+       "Mohammed Siraj",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Saransh Jain",
+       11,
+       16,
+       "not out"
       ]
      ],
      "dnb": [
-      "Mohammed Siraj",
-      "Sai Sudharsan",
       "Shubman Gill",
       "Prasidh Krishna",
       "Gurnoor Brar",
-      "Saransh Jain",
+      "Sai Sudharsan",
       "Auqib Nabi"
      ],
      "bowl": [
@@ -6767,14 +6777,14 @@
       ],
       [
        "Keshara Nuwantha",
-       "13",
-       34,
+       "15",
+       36,
        1
       ],
       [
        "Dilum Sudeera",
-       "6",
-       26,
+       "7",
+       31,
        0
       ],
       [
@@ -6785,13 +6795,13 @@
       ],
       [
        "Asanka Manoj",
-       "5",
-       20,
-       0
+       "8",
+       32,
+       2
       ],
       [
        "Lahiru Kumara",
-       "9",
+       "10",
        30,
        0
       ],
