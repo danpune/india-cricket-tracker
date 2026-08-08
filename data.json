@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T12:15:37Z",
+ "updated": "2026-08-08T13:15:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,7 +6519,7 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "304/8 (84.1 ov)",
+     "score": "357/6 (90 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 59 runs",
+   "result": "India trail by 6 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6565,9 +6565,9 @@
      "Kuldeep Yadav",
      "Mohammed Siraj",
      "Saransh Jain",
-     "Shubman Gill",
-     "Prasidh Krishna",
      "Gurnoor Brar",
+     "Prasidh Krishna",
+     "Shubman Gill",
      "Sai Sudharsan",
      "Auqib Nabi"
     ]
@@ -6677,22 +6677,22 @@
        0
       ],
       [
-       "Prasidh Krishna",
-       "8",
-       32,
-       0
-      ],
-      [
        "Gurnoor Brar",
        "12",
        49,
        1
+      ],
+      [
+       "Prasidh Krishna",
+       "8",
+       32,
+       0
       ]
      ]
     },
     {
      "t": "India",
-     "total": "304/8 (84.1 ov)",
+     "total": "357/6 (90.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6708,15 +6708,15 @@
       ],
       [
        "Devdutt Padikkal",
-       127,
-       152,
+       142,
+       164,
        "not out"
       ],
       [
        "Ravindra Jadeja",
        63,
        117,
-       "retired out"
+       "retired not out"
       ],
       [
        "Rishabh Pant",
@@ -6740,7 +6740,7 @@
        "Kuldeep Yadav",
        1,
        15,
-       "retired out"
+       "retired not out"
       ],
       [
        "Mohammed Siraj",
@@ -6750,15 +6750,20 @@
       ],
       [
        "Saransh Jain",
-       20,
-       39,
+       22,
+       45,
+       "retired not out"
+      ],
+      [
+       "Gurnoor Brar",
+       36,
+       18,
        "not out"
       ]
      ],
      "dnb": [
-      "Shubman Gill",
       "Prasidh Krishna",
-      "Gurnoor Brar",
+      "Shubman Gill",
       "Sai Sudharsan",
       "Auqib Nabi"
      ],
@@ -6771,8 +6776,8 @@
       ],
       [
        "Ramesh Mendis",
-       "16",
-       63,
+       "18",
+       77,
        2
       ],
       [
@@ -6783,8 +6788,8 @@
       ],
       [
        "Dilum Sudeera",
-       "8",
-       33,
+       "9",
+       58,
        0
       ],
       [
@@ -6801,14 +6806,14 @@
       ],
       [
        "Lahiru Kumara",
-       "10",
-       30,
+       "12",
+       42,
        0
       ],
       [
        "Vishwa Fernando",
-       "13.1",
-       40,
+       "14",
+       42,
        1
       ]
      ]
