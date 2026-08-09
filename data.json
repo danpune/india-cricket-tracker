@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T06:26:01Z",
+ "updated": "2026-08-09T07:31:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6524,7 +6524,7 @@
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d & 97/3 (22.1 ov)",
+     "score": "363/8d & 118/3 (28.2 ov)",
      "winner": false
     },
     {
@@ -6534,7 +6534,7 @@
      "winner": false
     }
    ],
-   "result": "SLC XI lead by 103 runs",
+   "result": "SLC XI lead by 124 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6820,13 +6820,13 @@
     },
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "101/3 (22.2 ov)",
+     "total": "118/3 (28.4 ov)",
      "bat": [
       [
        "Nishan Fernando",
        63,
-       72,
-       "not out"
+       73,
+       "retired not out"
       ],
       [
        "Ravindu Rasantha",
@@ -6848,8 +6848,14 @@
       ],
       [
        "Anjala Bandara",
-       10,
-       7,
+       21,
+       32,
+       "not out"
+      ],
+      [
+       "Nipun Dhananjaya",
+       5,
+       12,
        "not out"
       ]
      ],
@@ -6860,7 +6866,6 @@
       "Keshara Nuwantha",
       "Dilum Sudeera",
       "Isitha Wijesundara",
-      "Nipun Dhananjaya",
       "Asanka Manoj",
       "Lahiru Kumara",
       "Vishwa Fernando"
@@ -6868,8 +6873,8 @@
      "bowl": [
       [
        "Manav Suthar",
-       "0.2",
-       4,
+       "3.4",
+       13,
        0
       ],
       [
@@ -6880,7 +6885,7 @@
       ],
       [
        "Saransh Jain",
-       "1",
+       "2",
        0,
        0
       ],
@@ -6892,8 +6897,8 @@
       ],
       [
        "Prasidh Krishna",
-       "5",
-       22,
+       "7",
+       30,
        1
       ],
       [
