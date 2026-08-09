@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T05:35:56Z",
+ "updated": "2026-08-09T06:26:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,12 +6519,12 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Drinks",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d & 43/2 (12 ov)",
+     "score": "363/8d & 97/3 (22.1 ov)",
      "winner": false
     },
     {
@@ -6534,7 +6534,7 @@
      "winner": false
     }
    ],
-   "result": "SLC XI lead by 49 runs",
+   "result": "SLC XI lead by 103 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6820,12 +6820,12 @@
     },
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "43/2 (12.0 ov)",
+     "total": "101/3 (22.2 ov)",
      "bat": [
       [
        "Nishan Fernando",
-       30,
-       44,
+       63,
+       72,
        "not out"
       ],
       [
@@ -6842,15 +6842,20 @@
       ],
       [
        "Pavan Rathnayake",
-       1,
-       5,
+       16,
+       32,
+       "c"
+      ],
+      [
+       "Anjala Bandara",
+       10,
+       7,
        "not out"
       ]
      ],
      "dnb": [
       "Ahan Wickramasinghe",
       "Sonal Dinusha",
-      "Anjala Bandara",
       "Ramesh Mendis",
       "Keshara Nuwantha",
       "Dilum Sudeera",
@@ -6862,9 +6867,27 @@
      ],
      "bowl": [
       [
+       "Manav Suthar",
+       "0.2",
+       4,
+       0
+      ],
+      [
        "Mohammed Siraj",
        "6",
        17,
+       1
+      ],
+      [
+       "Saransh Jain",
+       "1",
+       0,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "5",
+       31,
        1
       ],
       [
@@ -6875,8 +6898,8 @@
       ],
       [
        "Auqib Nabi",
-       "1",
-       4,
+       "5",
+       27,
        0
       ]
      ]
