@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Gill and Jaiswal get in their drills ahead of Sri Lanka Tests",
+   "u": "https://www.cricinfo.com/ci/content/story/1549295.html?ex_cid=OTC-RSS",
+   "d": "Sun, 09 Aug 2026"
+  },
+  {
    "t": "No miscommunication between BCCI CoE and Indian team management, says Laxman",
    "u": "https://www.cricinfo.com/ci/content/story/1549290.html?ex_cid=OTC-RSS",
    "d": "Sun, 09 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "Subhadeep Ghosh replaces T Dilip as India men's fielding coach",
    "u": "https://www.cricinfo.com/ci/content/story/1548497.html?ex_cid=OTC-RSS",
    "d": "Sun, 02 Aug 2026"
-  },
-  {
-   "t": "Bumrah ruled out of Test series in Sri Lanka",
-   "u": "https://www.cricinfo.com/ci/content/story/1548239.html?ex_cid=OTC-RSS",
-   "d": "Sun, 02 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "TPxbwZuGGxM",
+     "t": "Tests or T20s?: The ultimate cricket debate"
+    },
     {
      "yt": "rtwnWRhzwqI",
      "t": "Dhoni or Rohit - Who is India's Greatest Captain?"
@@ -75,10 +79,6 @@
     {
      "yt": "xb8sZNZ24lE",
      "t": "3 biggest takeaways from India's Zimbabwe Tour | Series Analysis"
-    },
-    {
-     "yt": "J_MRcsLFNZE",
-     "t": "Sooryavanshi stars as India complete 3-0 whitewash vs Zimbabwe | 3rd T20I Review"
     }
    ]
   },
