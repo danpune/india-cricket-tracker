@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T07:31:26Z",
+ "updated": "2026-08-09T08:20:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6524,7 +6524,7 @@
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d & 118/3 (28.2 ov)",
+     "score": "363/8d & 166/5 (38.3 ov)",
      "winner": false
     },
     {
@@ -6534,7 +6534,7 @@
      "winner": false
     }
    ],
-   "result": "SLC XI lead by 124 runs",
+   "result": "SLC XI lead by 172 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6820,7 +6820,7 @@
     },
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "118/3 (28.4 ov)",
+     "total": "166/5 (38.3 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -6848,21 +6848,31 @@
       ],
       [
        "Anjala Bandara",
-       21,
-       32,
-       "not out"
+       35,
+       48,
+       "c"
       ],
       [
        "Nipun Dhananjaya",
-       5,
-       12,
+       30,
+       39,
+       "not out"
+      ],
+      [
+       "Sonal Dinusha",
+       9,
+       14,
+       "c"
+      ],
+      [
+       "Ramesh Mendis",
+       0,
+       2,
        "not out"
       ]
      ],
      "dnb": [
       "Ahan Wickramasinghe",
-      "Sonal Dinusha",
-      "Ramesh Mendis",
       "Keshara Nuwantha",
       "Dilum Sudeera",
       "Isitha Wijesundara",
@@ -6872,15 +6882,21 @@
      ],
      "bowl": [
       [
+       "Ravindra Jadeja",
+       "3.3",
+       19,
+       1
+      ],
+      [
        "Manav Suthar",
-       "3.4",
-       13,
+       "5",
+       26,
        0
       ],
       [
        "Mohammed Siraj",
-       "6",
-       17,
+       "8",
+       25,
        1
       ],
       [
@@ -6891,14 +6907,14 @@
       ],
       [
        "Gurnoor Brar",
-       "5",
-       31,
-       1
+       "7",
+       34,
+       2
       ],
       [
        "Prasidh Krishna",
-       "7",
-       30,
+       "8",
+       35,
        1
       ],
       [
