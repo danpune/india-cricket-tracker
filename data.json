@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T12:02:12Z",
+ "updated": "2026-08-09T13:11:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6517,9 +6517,9 @@
    "seriesId": "24567",
    "matchNo": "Tour Match",
    "venue": "Nondescripts Cricket Club Ground, Colombo",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
@@ -6530,12 +6530,12 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "357/6d & 178/4 (41.1 ov, target 207)",
-     "winner": false
+     "score": "357/6d & 214/4 (45 ov, target 207)",
+     "winner": true
     }
    ],
-   "result": "India require 26 runs",
-   "india": "",
+   "result": "India won by 6 wkts",
+   "india": "won",
    "xi": {
     "Sri Lanka Cricket XI": [
      "Nishan Fernando",
@@ -6932,7 +6932,7 @@
     },
     {
      "t": "India",
-     "total": "181/4 (42.0 ov)",
+     "total": "214/4 (45.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6966,9 +6966,9 @@
       ],
       [
        "Manav Suthar",
-       3,
-       23,
-       "not out"
+       4,
+       24,
+       "retired not out"
       ],
       [
        "Gurnoor Brar",
@@ -6978,8 +6978,14 @@
       ],
       [
        "Saransh Jain",
-       1,
-       4,
+       2,
+       7,
+       "not out"
+      ],
+      [
+       "Mohammed Siraj",
+       32,
+       15,
        "not out"
       ]
      ],
@@ -6987,7 +6993,6 @@
       "KL Rahul",
       "Devdutt Padikkal",
       "Kuldeep Yadav",
-      "Mohammed Siraj",
       "Prasidh Krishna",
       "Sai Sudharsan",
       "Auqib Nabi"
@@ -6995,20 +7000,20 @@
      "bowl": [
       [
        "Sonal Dinusha",
-       "3.5",
-       14,
+       "5",
+       22,
        0
       ],
       [
        "Ramesh Mendis",
-       "12",
-       50,
+       "13",
+       53,
        1
       ],
       [
        "Keshara Nuwantha",
-       "9",
-       34,
+       "10",
+       57,
        2
       ],
       [
