@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T11:03:31Z",
+ "updated": "2026-08-09T11:39:32Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6530,11 +6530,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "357/6d & 147/1 (26.5 ov, target 207)",
+     "score": "357/6d & 163/3 (35.1 ov, target 207)",
      "winner": false
     }
    ],
-   "result": "India require 60 runs",
+   "result": "India require 44 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6932,7 +6932,7 @@
     },
     {
      "t": "India",
-     "total": "147/1 (26.5 ov)",
+     "total": "163/3 (35.1 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -6948,22 +6948,32 @@
       ],
       [
        "Rishabh Pant",
-       26,
-       47,
-       "not out"
+       28,
+       68,
+       "c"
       ],
       [
        "Dhruv Jurel",
-       16,
-       16,
+       17,
+       20,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       11,
+       15,
+       "not out"
+      ],
+      [
+       "Manav Suthar",
+       0,
+       9,
        "not out"
       ]
      ],
      "dnb": [
       "KL Rahul",
       "Devdutt Padikkal",
-      "Ravindra Jadeja",
-      "Manav Suthar",
       "Kuldeep Yadav",
       "Mohammed Siraj",
       "Saransh Jain",
@@ -6974,21 +6984,27 @@
      ],
      "bowl": [
       [
+       "Sonal Dinusha",
+       "0.1",
+       0,
+       0
+      ],
+      [
        "Ramesh Mendis",
-       "8",
-       39,
+       "11",
+       48,
        0
       ],
       [
        "Keshara Nuwantha",
-       "6",
-       32,
-       1
+       "9",
+       34,
+       2
       ],
       [
        "Dilum Sudeera",
-       "1",
-       6,
+       "2",
+       8,
        0
       ],
       [
@@ -7005,9 +7021,9 @@
       ],
       [
        "Vishwa Fernando",
-       "4.5",
-       32,
-       0
+       "6",
+       34,
+       1
       ]
      ]
     }
