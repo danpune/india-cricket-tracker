@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T08:20:01Z",
+ "updated": "2026-08-09T09:06:45Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6524,17 +6524,17 @@
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d & 166/5 (38.3 ov)",
+     "score": "363/8d & 200/6d",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "357/6d",
+     "score": "357/6d & 4/0 (0.5 ov, target 207)",
      "winner": false
     }
    ],
-   "result": "SLC XI lead by 172 runs",
+   "result": "India require 202 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6820,7 +6820,7 @@
     },
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "166/5 (38.3 ov)",
+     "total": "200/6 (45.0 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -6854,9 +6854,9 @@
       ],
       [
        "Nipun Dhananjaya",
-       30,
-       39,
-       "not out"
+       46,
+       56,
+       "st"
       ],
       [
        "Sonal Dinusha",
@@ -6866,14 +6866,19 @@
       ],
       [
        "Ramesh Mendis",
-       0,
-       2,
+       16,
+       19,
+       "not out"
+      ],
+      [
+       "Keshara Nuwantha",
+       1,
+       5,
        "not out"
       ]
      ],
      "dnb": [
       "Ahan Wickramasinghe",
-      "Keshara Nuwantha",
       "Dilum Sudeera",
       "Isitha Wijesundara",
       "Asanka Manoj",
@@ -6883,9 +6888,9 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "3.3",
-       19,
-       1
+       "7",
+       33,
+       2
       ],
       [
        "Manav Suthar",
@@ -6901,14 +6906,14 @@
       ],
       [
        "Saransh Jain",
-       "2",
-       0,
+       "4",
+       16,
        0
       ],
       [
        "Gurnoor Brar",
-       "7",
-       34,
+       "8",
+       37,
        2
       ],
       [
@@ -6921,6 +6926,53 @@
        "Auqib Nabi",
        "5",
        27,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "5/0 (1.1 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       4,
+       6,
+       "not out"
+      ],
+      [
+       "Shubman Gill",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "KL Rahul",
+      "Devdutt Padikkal",
+      "Ravindra Jadeja",
+      "Rishabh Pant",
+      "Dhruv Jurel",
+      "Manav Suthar",
+      "Kuldeep Yadav",
+      "Mohammed Siraj",
+      "Saransh Jain",
+      "Gurnoor Brar",
+      "Prasidh Krishna",
+      "Sai Sudharsan",
+      "Auqib Nabi"
+     ],
+     "bowl": [
+      [
+       "Lahiru Kumara",
+       "0.1",
+       1,
+       0
+      ],
+      [
+       "Vishwa Fernando",
+       "1",
+       4,
        0
       ]
      ]
