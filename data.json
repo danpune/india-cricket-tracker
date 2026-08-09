@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T03:19:54Z",
+ "updated": "2026-08-09T04:41:04Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,22 +6519,22 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d",
+     "score": "363/8d & 7/0 (2.1 ov)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "357/6 (90 ov)",
+     "score": "357/6d",
      "winner": false
     }
    ],
-   "result": "India trail by 6 runs",
+   "result": "SLC XI lead by 13 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6815,6 +6815,53 @@
        "14",
        42,
        1
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka Cricket XI",
+     "total": "7/0 (2.1 ov)",
+     "bat": [
+      [
+       "Nishan Fernando",
+       0,
+       8,
+       "not out"
+      ],
+      [
+       "Ravindu Rasantha",
+       7,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Pasindu Sooriyabandara",
+      "Pavan Rathnayake",
+      "Ahan Wickramasinghe",
+      "Sonal Dinusha",
+      "Anjala Bandara",
+      "Ramesh Mendis",
+      "Keshara Nuwantha",
+      "Dilum Sudeera",
+      "Isitha Wijesundara",
+      "Nipun Dhananjaya",
+      "Asanka Manoj",
+      "Lahiru Kumara",
+      "Vishwa Fernando"
+     ],
+     "bowl": [
+      [
+       "Mohammed Siraj",
+       "1.1",
+       0,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "1",
+       7,
+       0
       ]
      ]
     }
