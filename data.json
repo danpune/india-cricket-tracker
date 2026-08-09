@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T04:41:04Z",
+ "updated": "2026-08-09T05:35:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6519,12 +6519,12 @@
    "venue": "Nondescripts Cricket Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Drinks",
    "teams": [
     {
      "name": "Sri Lanka Cricket XI",
      "abbr": "SLCXI",
-     "score": "363/8d & 7/0 (2.1 ov)",
+     "score": "363/8d & 43/2 (12 ov)",
      "winner": false
     },
     {
@@ -6534,7 +6534,7 @@
      "winner": false
     }
    ],
-   "result": "SLC XI lead by 13 runs",
+   "result": "SLC XI lead by 49 runs",
    "india": "",
    "xi": {
     "Sri Lanka Cricket XI": [
@@ -6820,24 +6820,34 @@
     },
     {
      "t": "Sri Lanka Cricket XI",
-     "total": "7/0 (2.1 ov)",
+     "total": "43/2 (12.0 ov)",
      "bat": [
       [
        "Nishan Fernando",
-       0,
-       8,
+       30,
+       44,
        "not out"
       ],
       [
        "Ravindu Rasantha",
+       8,
+       16,
+       "lbw"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       4,
        7,
+       "not out"
+      ],
+      [
+       "Pavan Rathnayake",
+       1,
        5,
        "not out"
       ]
      ],
      "dnb": [
-      "Pasindu Sooriyabandara",
-      "Pavan Rathnayake",
       "Ahan Wickramasinghe",
       "Sonal Dinusha",
       "Anjala Bandara",
@@ -6853,14 +6863,20 @@
      "bowl": [
       [
        "Mohammed Siraj",
-       "1.1",
-       0,
-       0
+       "6",
+       17,
+       1
       ],
       [
        "Prasidh Krishna",
+       "5",
+       22,
+       1
+      ],
+      [
+       "Auqib Nabi",
        "1",
-       7,
+       4,
        0
       ]
      ]
