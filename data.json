@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11T07:53:16Z",
+ "updated": "2026-08-11T08:49:12Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9410,7 +9410,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "bat": [
      {
       "no": "1",
@@ -9446,7 +9446,7 @@
       "no": "6",
       "name": "Chamari Athapaththu",
       "team": "Sri Lanka",
-      "rating": "729"
+      "rating": "731"
      },
      {
       "no": "7",
@@ -9518,15 +9518,15 @@
      },
      {
       "no": "8",
-      "name": "Sadia Iqbal",
+      "name": "Nashra Sundhu",
       "team": "Pakistan",
-      "rating": "696"
+      "rating": "701"
      },
      {
       "no": "9",
-      "name": "Nashra Sundhu",
+      "name": "Sadia Iqbal",
       "team": "Pakistan",
-      "rating": "692"
+      "rating": "689"
      },
      {
       "no": "10",
