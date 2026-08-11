@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Abishek Porel arrested in case of alleged sexual assault",
+   "u": "https://www.cricinfo.com/ci/content/story/1549495.html?ex_cid=OTC-RSS",
+   "d": "Tue, 11 Aug 2026"
+  },
+  {
    "t": "No miscommunication between BCCI CoE and Indian team management, says Laxman",
    "u": "https://www.cricinfo.com/ci/content/story/1549290.html?ex_cid=OTC-RSS",
    "d": "Mon, 10 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "Three T20Is added to India Women's tour of South Africa",
    "u": "https://www.cricinfo.com/ci/content/story/1548861.html?ex_cid=OTC-RSS",
    "d": "Thu, 06 Aug 2026"
-  },
-  {
-   "t": "Auqib Nabi replaces injured Jasprit Bumrah for Test series in Sri Lanka",
-   "u": "https://www.cricinfo.com/ci/content/story/1548538.html?ex_cid=OTC-RSS",
-   "d": "Mon, 03 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "YdBiwMkNuO8",
+     "t": "Rohit & Kohli in 2027? Fans Have Their Say!"
+    },
     {
      "yt": "Na1fUsftI-k",
      "t": "Sachin or Kohli - Who\u2019s the bigger cricketing legend?"
@@ -75,10 +79,6 @@
     {
      "yt": "kLALQKK3oqI",
      "t": "Who is Saransh Jain - India's newest Test recruit?"
-    },
-    {
-     "yt": "w8cLxn2AAqg",
-     "t": "India's Test squad for Sri Lanka: Jadeja returns | Who else made the cut?"
     }
    ]
   },
