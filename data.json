@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T06:47:50Z",
+ "updated": "2026-08-12T08:06:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8652,7 +8652,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-07-28",
+    "updated": "2026-08-11",
     "bat": [
      {
       "no": "1",
@@ -8710,9 +8710,9 @@
      },
      {
       "no": "10",
-      "name": "Dinesh Chandimal",
-      "team": "Sri Lanka",
-      "rating": "713"
+      "name": "Babar Azam",
+      "team": "Pakistan",
+      "rating": "716"
      }
     ],
     "bowl": [
@@ -8754,15 +8754,15 @@
      },
      {
       "no": "7",
-      "name": "Noman Ali",
-      "team": "Pakistan",
-      "rating": "809"
-     },
-     {
-      "no": "8",
       "name": "Kagiso Rabada",
       "team": "South Africa",
       "rating": "807"
+     },
+     {
+      "no": "8",
+      "name": "Noman Ali",
+      "team": "Pakistan",
+      "rating": "800"
      },
      {
       "no": "9",
@@ -8841,7 +8841,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-08-04",
+    "updated": "2026-08-11",
     "bat": [
      {
       "no": "1",
@@ -8881,27 +8881,27 @@
      },
      {
       "no": "7",
-      "name": "Harry Tector",
-      "team": "Ireland",
-      "rating": "679"
-     },
-     {
-      "no": "8",
       "name": "Joe Root",
       "team": "England",
       "rating": "674"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Shai Hope",
       "team": "West Indies",
       "rating": "673"
      },
      {
-      "no": "10",
+      "no": "9",
       "name": "Charith Asalanka",
       "team": "Sri Lanka",
       "rating": "659"
+     },
+     {
+      "no": "10",
+      "name": "Harry Tector",
+      "team": "Ireland",
+      "rating": "654"
      }
     ],
     "bowl": [
@@ -8909,7 +8909,7 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "682"
+      "rating": "713"
      },
      {
       "no": "2",
@@ -9030,7 +9030,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-08-04",
+    "updated": "2026-08-11",
     "bat": [
      {
       "no": "1",
