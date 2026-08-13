@@ -70,6 +70,21 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   stopLive() already (match finished between build and poll); without the guard that
   left a zombie interval polling a dead match forever.
 
+## World Test Championship context (curated — NO feed exists)
+- `wtc.json` → a card inside the men's Test form card: India's rank/PCT/points, the two
+  teams currently in the final places, an "As of <date>" stamp and a link to ICC's live
+  table. Hidden on the women's tab (no women's WTC).
+- WHY CURATED — all four candidate sources checked Aug 2026 and rejected:
+  ICC standings page renders client-side (curl gets a shell, numbers absent);
+  ICC rankings/content-gateway APIs 404 on every standings path;
+  ESPN WTC league 19430 `/standings` 404s and its scoreboard `standings` block returns
+  ONLY the two teams playing that day with ranks that DISAGREE with ICC's table;
+  espn.in series page has no standings numbers. Computing PCT ourselves would need every
+  WTC Test worldwide plus over-rate penalty deductions we can't see — that's fabrication.
+- To refresh: read ICC's table, update india/top/verified in wtc.json. The UI always
+  shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
+  real feed periodically — ESPN's UA rules already changed once.
+
 ## Where to watch (curated — rights are contracts, not feeds)
 - `watch.json`: seriesId -> {in:{stream,streamUrl,tv}, us:{...}, verified, source}.
   ESPN's cricket feed has NO broadcast fields (checked: broadcasts/geoBroadcasts empty,

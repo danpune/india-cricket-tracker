@@ -195,6 +195,16 @@ a.yt:hover{text-decoration:underline}
 .fsplit span{font-size:11.5px;color:var(--muted)}
 .fsplit b{display:inline-block;margin-left:4px;font-size:14px;color:var(--ink)}
 .fsplit i{display:block;font-style:normal;font-size:10.5px;margin-top:1px}
+.wtc{margin-top:11px;padding:9px 11px;border-radius:9px;
+  background:color-mix(in srgb,var(--test) 9%,transparent);
+  border:1px solid color-mix(in srgb,var(--test) 25%,transparent)}
+.wtc-h{font-size:11px;font-weight:800;letter-spacing:.4px;color:var(--test)}
+.wtc-h span{font-weight:600;color:var(--muted);margin-left:4px}
+.wtc-row{font-size:13px;margin-top:3px}
+.wtc-row b{font-size:15px}
+.wtc-row i{font-style:normal;color:var(--muted);font-size:11.5px}
+.wtc-note{font-size:11px;color:var(--muted);margin-top:3px}
+.wtc-note a{color:var(--chakra);text-decoration:none;font-weight:700}
 .fdet{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
 .fdet summary{cursor:pointer;list-style:none;font-size:12px;font-weight:700;color:var(--chakra)}
 .fdet summary::-webkit-details-marker{display:none}
@@ -358,7 +368,7 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 
 <script>
 'use strict';
-var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, WATCH={}, STALE_AT=null, GENDER=localStorage.getItem('gender')||'men', TICK=null;
+var DATA=null, HIST=null, HL={}, FOLLOW=[], NEWS={}, WATCH={}, WTC={}, STALE_AT=null, GENDER=localStorage.getItem('gender')||'men', TICK=null;
 var TABS=['men','women','news','about'];
 if(TABS.indexOf(location.hash.slice(1))>=0)GENDER=location.hash.slice(1);
 window.addEventListener('hashchange',function(){
@@ -640,6 +650,19 @@ function inIndia(m){
   var v=(m.venue||'').toLowerCase()+' '+(m.city||'').toLowerCase();
   return IN_CITIES.some(function(c){return v.indexOf(c)>=0;});
 }
+function wtcHTML(){
+  var w=WTC;
+  if(!w||!w.india||GENDER!=='men')return '';   /* no women's WTC exists */
+  var i=w.india, r=i.rank, ord=(r%10===1&&r!==11)?'st':(r%10===2&&r!==12)?'nd':(r%10===3&&r!==13)?'rd':'th';
+  var lead=(w.top||[]).map(function(t){return esc(t.abbr)+' '+t.pct.toFixed(2)+'%';}).join(' · ');
+  return '<div class="wtc">'+
+    '<div class="wtc-h">🏆 World Test Championship <span>'+esc(w.cycle||'')+'</span></div>'+
+    '<div class="wtc-row"><b>'+r+ord+'</b> of '+esc(String(w.teams||9))+
+      ' · <b>'+i.pct.toFixed(2)+'%</b> <i>'+i.points+' pts from '+i.played+' matches</i></div>'+
+    (lead?'<div class="wtc-note">Leading: '+lead+' — '+esc(w.finalNote||'')+'</div>':'')+
+    '<div class="wtc-note">As of '+esc(w.verified||'')+' · <a target="_blank" rel="noopener" href="'+
+      esc(w.url||'')+'">live table at ICC ↗</a></div></div>';
+}
 function rec(ms){
   var W=ms.filter(function(m){return m.india==='won';}).length;
   var L=ms.filter(function(m){return m.india==='lost';}).length;
@@ -706,6 +729,7 @@ function formHTML(hist){
         (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L of '+rh.P+'</i></span>':'')+
         (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L of '+ra.P+'</i></span>':'')+
         '</div>';
+      if(f==='Test')h+=wtcHTML();
       /* who and when */
       h+='<details class="fdet"><summary>Which matches? ▾</summary>'+splitRows(ms)+'</details>';
     } else {
@@ -1025,9 +1049,10 @@ Promise.all([
   fetch('highlights.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
   fetch('follow.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
   fetch('news.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
-  fetch('watch.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
+  fetch('watch.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};}),
+  fetch('wtc.json?v='+Date.now()).then(function(r){return r.json();}).catch(function(){return {};})
 ]).then(function(res){
-  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};
+  DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};WTC=res[6]||{};
   var hl=(res[2]||{}).highlights||{};
   HL={};
   Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
@@ -1042,7 +1067,7 @@ Promise.all([
   var c=loadCache();
   if(c&&c.p){
     var res=c.p;
-    DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};
+    DATA=res[0];HIST=res[1];FOLLOW=(res[3]||{}).players||[];NEWS=res[4]||{};WATCH=(res[5]||{}).series||{};WTC=res[6]||{};
     var hl=(res[2]||{}).highlights||{};
     HL={};Object.keys(hl).forEach(function(k){HL[k.split('_')[1]||k]=hl[k];});
     STALE_AT=c.t;

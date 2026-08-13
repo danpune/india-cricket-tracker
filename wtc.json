@@ -1,0 +1,13 @@
+{
+  "_howto": "ICC World Test Championship context for the Test card. NO fetchable feed exists: ICC's standings page renders client-side (curl gets a shell), ICC's rankings/content APIs 404 on standings, and ESPN's WTC league (19430) returns standings for only the two teams playing that day with ranks that disagree with ICC. So this is CURATED — refresh it by reading ICC's table and updating 'verified'. The UI always shows the as-of date and links to the live table, so staleness is visible, never disguised.",
+  "cycle": "2025–2027",
+  "finalNote": "Top 2 play the final in 2027",
+  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
+  "verified": "2026-08-07",
+  "teams": 9,
+  "india": { "rank": 5, "played": 9, "points": 52, "pct": 48.15 },
+  "top": [
+    { "abbr": "AUS", "name": "Australia", "pct": 87.50 },
+    { "abbr": "SA", "name": "South Africa", "pct": 75.00 }
+  ]
+}
