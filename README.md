@@ -20,8 +20,8 @@ the playing XIs, and every international result of the year.
   US/Canada.
 - **Win odds** on upcoming matches — Polymarket market prices (informational
   only, not betting advice).
-- **World Test Championship** — India's WTC position and points percentage on the
-  Test card, with the as-of date and a link to ICC's live table.
+- **World Test Championship** — a dedicated section: what the WTC is in plain English,
+  the full nine-team table (refreshed daily), and India's upcoming WTC Tests.
 - **Form & standing** — per-format ICC rank, played/won/win-rate for any year, a
   home-vs-overseas split, and a tap-through list of exactly which matches counted.
 - **ICC Rankings** — official team rankings per format plus the world top-10

@@ -70,7 +70,30 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   stopLive() already (match finished between build and poll); without the guard that
   left a zombie interval polling a dead match forever.
 
-## World Test Championship context (curated — NO feed exists)
+## World Test Championship (AUTOMATED via headless render)
+- `build_wtc.py` → `wtc.json`, run daily by `.github/workflows/update-wtc.yml`
+  (separate from the data cron: it installs chromium, ~90s, and must never break the
+  main pipeline). Playwright renders ICC's standings page and reads `.si-table-row`
+  CELLS (not regex on innerText).
+- COLUMNS: POS TEAM PLAYED WON LOST DRAW **DED** POINTS PCT. `DED` is points DEDUCTED
+  for slow over rates — NOT a "tied" column. England were docked 14 this cycle, which
+  is why 4W+1D = 52 raw becomes 38. The header row is asserted against COLS, so a
+  layout change fails loudly instead of silently mis-parsing.
+- VALIDATION before writing: >=8 rows, ranks 1..n, India present, pct in range, pct
+  order matches rank, W+L+D == played, and points == 12W + 4D − deductions. Any failure
+  (or a scrape exception) leaves wtc.json untouched — the UI always shows `verified`,
+  so staleness is visible rather than disguised.
+- UI: a dedicated `#wtc` section (men only — no women's WTC) with a plain-English TLDR,
+  the full nine-team table (India highlighted, top two green = final spots) and India's
+  upcoming WTC Tests. A compact version also sits inside the Test form card.
+- Sources rejected before resorting to a browser (all re-checked Aug 2026): ICC's page
+  serves NO numbers to any plain HTTP request (honest UA, browser UA, Sec-Fetch headers,
+  even a same-origin fetch from within a real browser); no standings API appears in the
+  network log at all; ICC rankings/content-gateway 404; ESPN WTC league 19430 404s on
+  /standings and its scoreboard returns only that day's two teams with ranks that
+  contradict ICC. Don't re-litigate without re-testing.
+
+## (superseded) World Test Championship context — curated notes kept for history
 - `wtc.json` → a card inside the men's Test form card: India's rank/PCT/points, the two
   teams currently in the final places, an "As of <date>" stamp and a link to ICC's live
   table. Hidden on the women's tab (no women's WTC).

@@ -1,13 +1,137 @@
 {
-  "_howto": "ICC World Test Championship context for the Test card. NO fetchable feed exists: ICC's standings page renders client-side (curl gets a shell), ICC's rankings/content APIs 404 on standings, and ESPN's WTC league (19430) returns standings for only the two teams playing that day with ranks that disagree with ICC. So this is CURATED — refresh it by reading ICC's table and updating 'verified'. The UI always shows the as-of date and links to the live table, so staleness is visible, never disguised.",
-  "cycle": "2025–2027",
-  "finalNote": "Top 2 play the final in 2027",
-  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
-  "verified": "2026-08-07",
-  "teams": 9,
-  "india": { "rank": 5, "played": 9, "points": 52, "pct": 48.15 },
-  "top": [
-    { "abbr": "AUS", "name": "Australia", "pct": 87.50 },
-    { "abbr": "SA", "name": "South Africa", "pct": 75.00 }
-  ]
+ "_howto": "Auto-refreshed by build_wtc.py (headless render \u2014 ICC serves no usable feed; see the module docstring). Fail-safe: a failed or implausible scrape leaves this file untouched, and the UI always shows 'verified'.",
+ "cycle": "2025\u20132027",
+ "finalNote": "Top 2 play the final in 2027",
+ "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
+ "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
+ "verified": "2026-08-13",
+ "teams": 9,
+ "india": {
+  "rank": 5,
+  "played": 9,
+  "points": 52,
+  "pct": 48.15
+ },
+ "top": [
+  {
+   "abbr": "AUS",
+   "name": "Australia",
+   "pct": 87.5
+  },
+  {
+   "abbr": "SA",
+   "name": "South Africa",
+   "pct": 75.0
+  }
+ ],
+ "table": [
+  {
+   "rank": 1,
+   "abbr": "AUS",
+   "name": "Australia",
+   "played": 8,
+   "won": 7,
+   "lost": 1,
+   "drawn": 0,
+   "deducted": 0,
+   "points": 84,
+   "pct": 87.5
+  },
+  {
+   "rank": 2,
+   "abbr": "SA",
+   "name": "South Africa",
+   "played": 4,
+   "won": 3,
+   "lost": 1,
+   "drawn": 0,
+   "deducted": 0,
+   "points": 36,
+   "pct": 75.0
+  },
+  {
+   "rank": 3,
+   "abbr": "NZ",
+   "name": "New Zealand",
+   "played": 6,
+   "won": 4,
+   "lost": 1,
+   "drawn": 1,
+   "deducted": 0,
+   "points": 52,
+   "pct": 72.22
+  },
+  {
+   "rank": 4,
+   "abbr": "BAN",
+   "name": "Bangladesh",
+   "played": 4,
+   "won": 2,
+   "lost": 1,
+   "drawn": 1,
+   "deducted": 0,
+   "points": 28,
+   "pct": 58.33
+  },
+  {
+   "rank": 5,
+   "abbr": "IND",
+   "name": "India",
+   "played": 9,
+   "won": 4,
+   "lost": 4,
+   "drawn": 1,
+   "deducted": 0,
+   "points": 52,
+   "pct": 48.15
+  },
+  {
+   "rank": 6,
+   "abbr": "SL",
+   "name": "Sri Lanka",
+   "played": 4,
+   "won": 1,
+   "lost": 1,
+   "drawn": 2,
+   "deducted": 0,
+   "points": 20,
+   "pct": 41.67
+  },
+  {
+   "rank": 7,
+   "abbr": "ENG",
+   "name": "England",
+   "played": 13,
+   "won": 4,
+   "lost": 8,
+   "drawn": 1,
+   "deducted": 14,
+   "points": 38,
+   "pct": 24.36
+  },
+  {
+   "rank": 8,
+   "abbr": "PAK",
+   "name": "Pakistan",
+   "played": 6,
+   "won": 2,
+   "lost": 4,
+   "drawn": 0,
+   "deducted": 8,
+   "points": 16,
+   "pct": 22.22
+  },
+  {
+   "rank": 9,
+   "abbr": "WI",
+   "name": "West Indies",
+   "played": 12,
+   "won": 2,
+   "lost": 8,
+   "drawn": 2,
+   "deducted": 2,
+   "points": 30,
+   "pct": 20.83
+  }
+ ]
 }

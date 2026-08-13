@@ -205,6 +205,23 @@ a.yt:hover{text-decoration:underline}
 .wtc-row i{font-style:normal;color:var(--muted);font-size:11.5px}
 .wtc-note{font-size:11px;color:var(--muted);margin-top:3px}
 .wtc-note a{color:var(--chakra);text-decoration:none;font-weight:700}
+.wtl{padding:12px 14px 4px;font-size:13px;line-height:1.55;color:var(--muted)}
+.wtl b{color:var(--ink)}
+.wtwrap{overflow-x:auto;padding:8px 14px 0}
+table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+.wtab th{text-align:right;font-size:10px;text-transform:uppercase;letter-spacing:.6px;
+  color:var(--muted);padding:4px 0 6px 8px;border-bottom:1px solid var(--line)}
+.wtab th:nth-child(2){text-align:left}
+.wtab td{text-align:right;padding:6px 0 6px 8px;border-top:1px solid
+  color-mix(in srgb,var(--line) 55%,transparent)}
+.wtab td.wt{text-align:left;font-weight:600}
+.wtab td.wr{color:var(--muted);width:22px}
+.wtab td.wp b{font-size:13.5px}
+.wtab tr.me td{background:color-mix(in srgb,var(--saffron) 14%,transparent);font-weight:700}
+.wtab tr.qual td.wt{color:var(--win)}
+.wtab td.wt i{font-style:normal;font-size:9.5px;text-transform:uppercase;letter-spacing:.5px;
+  color:var(--win);margin-left:6px}
+.sec-wtc .wtc-note{padding:8px 14px 10px}
 .fdet{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
 .fdet summary{cursor:pointer;list-style:none;font-size:12px;font-weight:700;color:var(--chakra)}
 .fdet summary::-webkit-details-marker{display:none}
@@ -237,7 +254,8 @@ a.yt:hover{text-decoration:underline}
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "form form" "tour up" "rank up" "follow up" "season season" "news news";align-items:start}
+    grid-template-areas:"hero hero" "form form" "tour up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
+  .sec-wtc{grid-area:wtc}
   .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
   .sec-news{grid-area:news}
@@ -327,6 +345,11 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 /* narrow phones: keep match rows on as few lines as possible (last = wins) */
 @media(max-width:480px){
   .toggle button{padding:7px 12px;font-size:12.5px;letter-spacing:.2px}
+  /* the "final spot" tag wraps the top two team names onto 3 lines — the green
+     name already carries the meaning, and the TLDR above states the rule */
+  .wtab td.wt i{display:none}
+  .wtab td.wt{white-space:nowrap}
+  .wtwrap{padding-left:10px;padding-right:10px}
   .mrow{gap:8px;padding:11px 12px}
   .mrow .when{width:50px}
   .fmt{padding:2px 6px;font-size:10px;letter-spacing:.5px}
@@ -650,6 +673,46 @@ function inIndia(m){
   var v=(m.venue||'').toLowerCase()+' '+(m.city||'').toLowerCase();
   return IN_CITIES.some(function(c){return v.indexOf(c)>=0;});
 }
+function wtcSectionHTML(hist){
+  var w=WTC;
+  if(!w||!w.table||!w.table.length||GENDER!=='men')return '';   /* no women's WTC */
+  var rows=w.table.map(function(t){
+    var me=t.abbr==='IND', qual=t.rank<=2;
+    return '<tr class="'+(me?'me':'')+(qual?' qual':'')+'">'+
+      '<td class="wr">'+t.rank+'</td>'+
+      '<td class="wt">'+flag(t.name)+' '+esc(t.name)+(qual?'<i>final spot</i>':'')+'</td>'+
+      '<td>'+t.played+'</td><td>'+t.won+'</td><td>'+t.lost+'</td><td>'+t.drawn+'</td>'+
+      '<td>'+(t.deducted?'−'+t.deducted:'—')+'</td><td>'+t.points+'</td>'+
+      '<td class="wp"><b>'+t.pct.toFixed(2)+'</b></td></tr>';
+  }).join('');
+  /* India's Tests against WTC sides = the fixtures that move this table */
+  var WTCSIDES=w.table.map(function(t){return norm(t.name);});
+  var fx=(DATA.matches||[]).filter(function(m){
+    return m.gender==='men'&&m.format==='Test'&&m.state!=='post'&&
+           m.teams.some(function(t){return WTCSIDES.indexOf(norm(t.name))>=0&&norm(t.name)!=='India';});
+  }).slice(0,6).map(function(m){
+    var opp=m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'';
+    return '<div class="mrow"><div class="when"><b>'+
+      esc(new Date(m.date).toLocaleString([],{day:'numeric',month:'short'}))+'</b>&nbsp;</div>'+
+      '<div class="mid"><div class="no">'+fmtBadge('Test')+' '+esc(m.matchNo)+'</div>'+
+      '<div class="sub">'+flag(opp)+' vs '+esc(norm(opp))+' · '+esc((m.venue||'').split(',').pop().trim())+'</div></div>'+
+      '<div class="right"><div class="sc">'+esc(m.series.replace(/\s+20\d\d.*$/,''))+'</div></div></div>';
+  }).join('');
+  return '<section id="wtc" class="sec-wtc"><h2>🏆 World Test Championship</h2>'+
+    '<div class="card">'+
+    '<div class="wtl">The Test game\u2019s league. Nine nations, two years, six series each '+
+    '(three home, three away). '+esc(w.points||'')+'. Teams are ranked by <b>points percentage</b>, '+
+    'not raw points, so a short series counts as much as a long one \u2014 and the '+
+    '<b>top two meet in the final</b>.</div>'+
+    '<div class="wtwrap"><table class="wtab">'+
+    '<tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>L</th><th>D</th><th>Ded</th><th>Pts</th><th>PCT</th></tr>'+
+    rows+'</table></div>'+
+    '<div class="wtc-note">'+esc(w.cycle||'')+' cycle · as of '+esc(w.verified||'')+
+    ' · <a target="_blank" rel="noopener" href="'+esc(w.url||'')+'">ICC table ↗</a></div>'+
+    (fx?'<div class="serieshead"><div class="nm">India\u2019s next WTC Tests</div>'+
+        '<div class="meta">These are the matches that move the table</div></div>'+fx:'')+
+    '</div></section>';
+}
 function wtcHTML(){
   var w=WTC;
   if(!w||!w.india||GENDER!=='men')return '';   /* no women's WTC exists */
@@ -807,7 +870,7 @@ function render(){
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
   var hero=live||next||lastPost;
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
-    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
+    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['wtc','WTC'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
     .map(function(x){return '<a href="#'+x[0]+'">'+x[1]+'</a>';}).join('')+'</nav>';
   var h='';
   if(hero)h+=heroHTML(hero);
@@ -830,6 +893,7 @@ function render(){
   }
 
   h+=rankingsHTML();
+  h+=wtcSectionHTML(hist);
   h+=followingHTML();
 
   /* schedule: upcoming beyond current tour, grouped by series */
