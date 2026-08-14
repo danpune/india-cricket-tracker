@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Rodrigues ruled out of Asia Cup, Asian Games; Rawal named replacement",
+   "u": "https://www.cricinfo.com/ci/content/story/1548448.html?ex_cid=OTC-RSS",
+   "d": "Fri, 14 Aug 2026"
+  },
+  {
    "t": "India and Sri Lanka meet in a vastly different Test landscape",
    "u": "https://www.cricinfo.com/ci/content/story/1549895.html?ex_cid=OTC-RSS",
    "d": "Fri, 14 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "Injured Sai Sudharsan ruled out of Sri Lanka Test series",
    "u": "https://www.cricinfo.com/ci/content/story/1549159.html?ex_cid=OTC-RSS",
    "d": "Sat, 08 Aug 2026"
-  },
-  {
-   "t": "SLC announces selected free entry for India Tests in Galle and Colombo",
-   "u": "https://www.cricinfo.com/ci/content/story/1549085.html?ex_cid=OTC-RSS",
-   "d": "Fri, 07 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "GE5NohFIUko",
+     "t": "Will Vaibhav Sooryavanshi become the next Virat Kohli? | Fan Poll"
+    },
+    {
+     "yt": "6kEWPEDRlOw",
+     "t": "2007 vs 2024: Gambhir or Kohli? Dhoni or Rohit?"
+    },
     {
      "yt": "XE35zEofSok",
      "t": "Gill returns! Who makes India's XI vs Sri Lanka? | Notes from Nets"
@@ -71,14 +79,6 @@
     {
      "yt": "CEiW8rARHr8",
      "t": "Why are India internationals so injury prone?"
-    },
-    {
-     "yt": "VQDG_XMH_-c",
-     "t": "1983 & 2011 combined! Would your XI look like this?"
-    },
-    {
-     "yt": "ON6fj88iOpc",
-     "t": "India vs Sri Lanka: What should Gill & Co. be worried about?"
     }
    ]
   },
