@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T11:00:45Z",
+ "updated": "2026-08-15T11:30:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Match delayed by rain",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "219/1 (56.5 ov)",
+     "score": "239/2 (63 ov)",
      "winner": false
     }
    ],
@@ -5302,7 +5302,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "219/1 (56.5 ov)",
+     "total": "239/2 (63.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5318,19 +5318,24 @@
       ],
       [
        "Devdutt Padikkal",
-       100,
-       134,
+       107,
+       147,
        "not out"
       ],
       [
        "Shubman Gill",
-       6,
-       11,
+       16,
+       28,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       3,
+       7,
        "not out"
       ]
      ],
      "dnb": [
-      "Rishabh Pant",
       "Dhruv Jurel",
       "Ravindra Jadeja",
       "Manav Suthar",
@@ -5353,15 +5358,15 @@
       ],
       [
        "Keshara Nuwantha",
-       "14.5",
-       70,
+       "16",
+       72,
        0
       ],
       [
        "Prabath Jayasuriya",
-       "18",
-       54,
-       0
+       "21",
+       63,
+       1
       ],
       [
        "Lahiru Kumara",
@@ -5371,8 +5376,8 @@
       ],
       [
        "Asitha Fernando",
-       "8",
-       19,
+       "10",
+       28,
        0
       ]
      ]
