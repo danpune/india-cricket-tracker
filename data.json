@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T04:55:45Z",
+ "updated": "2026-08-15T05:21:51Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "11/0 (4.5 ov)",
+     "score": "39/0 (9.5 ov)",
      "winner": false
     }
    ],
@@ -5302,18 +5302,18 @@
    "innings": [
     {
      "t": "India",
-     "total": "11/0 (4.5 ov)",
+     "total": "39/0 (9.5 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
-       6,
-       14,
+       25,
+       33,
        "not out"
       ],
       [
        "KL Rahul",
-       4,
-       15,
+       13,
+       26,
        "not out"
       ]
      ],
@@ -5330,15 +5330,27 @@
      ],
      "bowl": [
       [
-       "Lahiru Kumara",
-       "2",
+       "Keshara Nuwantha",
+       "1",
        4,
        0
       ],
       [
+       "Prabath Jayasuriya",
+       "0.5",
+       1,
+       0
+      ],
+      [
+       "Lahiru Kumara",
+       "4",
+       22,
+       0
+      ],
+      [
        "Asitha Fernando",
-       "2.5",
-       6,
+       "4",
+       11,
        0
       ]
      ]
