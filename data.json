@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T03:51:30Z",
+ "updated": "2026-08-15T04:25:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5269,8 +5269,36 @@
      "winner": false
     }
    ],
-   "result": "Starts at 10:00 local time",
-   "india": ""
+   "result": "India won toss & batted",
+   "india": "",
+   "xi": {
+    "Sri Lanka": [
+     "Lahiru Igalagamage",
+     "Nishan Fernando",
+     "Dinesh Chandimal",
+     "Kamindu Mendis",
+     "Dhananjaya de Silva (c)",
+     "Sonal Dinusha",
+     "Niroshan Dickwella",
+     "Keshara Nuwantha",
+     "Prabath Jayasuriya",
+     "Lahiru Kumara",
+     "Asitha Fernando"
+    ],
+    "India": [
+     "KL Rahul",
+     "Yashasvi Jaiswal",
+     "Devdutt Padikkal",
+     "Shubman Gill (c)",
+     "Rishabh Pant",
+     "Dhruv Jurel",
+     "Ravindra Jadeja",
+     "Manav Suthar",
+     "Kuldeep Yadav",
+     "Mohammed Siraj",
+     "Prasidh Krishna"
+    ]
+   }
   },
   {
    "id": "espn_1544002",
