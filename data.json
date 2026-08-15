@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T11:52:03Z",
+ "updated": "2026-08-15T12:28:37Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "240/2 (63.4 ov)",
+     "score": "284/2 (72.1 ov)",
      "winner": false
     }
    ],
@@ -5302,7 +5302,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "240/2 (63.3 ov)",
+     "total": "285/2 (72.2 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5318,8 +5318,8 @@
       ],
       [
        "Devdutt Padikkal",
-       108,
-       150,
+       130,
+       177,
        "not out"
       ],
       [
@@ -5330,8 +5330,8 @@
       ],
       [
        "Rishabh Pant",
-       3,
-       7,
+       25,
+       33,
        "not out"
       ]
      ],
@@ -5346,8 +5346,8 @@
      "bowl": [
       [
        "Dhananjaya de Silva",
-       "2",
-       7,
+       "4",
+       15,
        0
       ],
       [
@@ -5358,14 +5358,14 @@
       ],
       [
        "Keshara Nuwantha",
-       "16",
-       72,
+       "20.2",
+       95,
        0
       ],
       [
        "Prabath Jayasuriya",
-       "21.3",
-       64,
+       "24",
+       77,
        1
       ],
       [
