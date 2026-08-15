@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T04:25:03Z",
+ "updated": "2026-08-15T04:55:45Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5252,9 +5252,9 @@
    "seriesId": "24567",
    "matchNo": "1st Test",
    "venue": "Galle International Stadium",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "11/0 (4.5 ov)",
      "winner": false
     }
    ],
@@ -5286,8 +5286,8 @@
      "Asitha Fernando"
     ],
     "India": [
-     "KL Rahul",
      "Yashasvi Jaiswal",
+     "KL Rahul",
      "Devdutt Padikkal",
      "Shubman Gill (c)",
      "Rishabh Pant",
@@ -5298,7 +5298,52 @@
      "Mohammed Siraj",
      "Prasidh Krishna"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "11/0 (4.5 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       6,
+       14,
+       "not out"
+      ],
+      [
+       "KL Rahul",
+       4,
+       15,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Devdutt Padikkal",
+      "Shubman Gill",
+      "Rishabh Pant",
+      "Dhruv Jurel",
+      "Ravindra Jadeja",
+      "Manav Suthar",
+      "Kuldeep Yadav",
+      "Mohammed Siraj",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Lahiru Kumara",
+       "2",
+       4,
+       0
+      ],
+      [
+       "Asitha Fernando",
+       "2.5",
+       6,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1544002",
