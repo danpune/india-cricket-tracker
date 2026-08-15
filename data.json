@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T11:30:31Z",
+ "updated": "2026-08-15T11:52:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed by rain",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "239/2 (63 ov)",
+     "score": "240/2 (63.4 ov)",
      "winner": false
     }
    ],
@@ -5302,7 +5302,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "239/2 (63.0 ov)",
+     "total": "240/2 (63.3 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5318,8 +5318,8 @@
       ],
       [
        "Devdutt Padikkal",
-       107,
-       147,
+       108,
+       150,
        "not out"
       ],
       [
@@ -5364,8 +5364,8 @@
       ],
       [
        "Prabath Jayasuriya",
-       "21",
-       63,
+       "21.3",
+       64,
        1
       ],
       [
