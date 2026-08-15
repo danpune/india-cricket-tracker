@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T09:54:25Z",
+ "updated": "2026-08-15T10:17:48Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "171/1 (46.3 ov)",
+     "score": "192/1 (52 ov)",
      "winner": false
     }
    ],
@@ -5302,7 +5302,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "171/1 (46.4 ov)",
+     "total": "192/1 (52.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5312,14 +5312,14 @@
       ],
       [
        "KL Rahul",
-       58,
-       135,
+       73,
+       158,
        "not out"
       ],
       [
        "Devdutt Padikkal",
-       78,
-       110,
+       83,
+       120,
        "not out"
       ]
      ],
@@ -5348,14 +5348,14 @@
       ],
       [
        "Keshara Nuwantha",
-       "9.4",
-       48,
+       "12",
+       58,
        0
       ],
       [
        "Prabath Jayasuriya",
-       "15",
-       43,
+       "18",
+       54,
        0
       ],
       [
