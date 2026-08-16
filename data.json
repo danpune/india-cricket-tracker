@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T11:15:51Z",
+ "updated": "2026-08-16T11:37:47Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "388/6 (100.6 ov)",
+     "score": "413/6 (105.6 ov)",
      "winner": false
     }
    ],
@@ -5302,7 +5302,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "388/6 (100.6 ov)",
+     "total": "412/6 (105.5 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5336,8 +5336,8 @@
       ],
       [
        "Dhruv Jurel",
-       29,
-       42,
+       41,
+       57,
        "not out"
       ],
       [
@@ -5348,8 +5348,8 @@
       ],
       [
        "Manav Suthar",
-       4,
        11,
+       25,
        "not out"
       ]
      ],
@@ -5373,20 +5373,20 @@
       ],
       [
        "Keshara Nuwantha",
-       "34.6",
-       153,
+       "37",
+       156,
        3
       ],
       [
        "Prabath Jayasuriya",
-       "33",
-       95,
+       "34",
+       97,
        2
       ],
       [
        "Lahiru Kumara",
-       "10",
-       51,
+       "11.5",
+       66,
        0
       ],
       [
