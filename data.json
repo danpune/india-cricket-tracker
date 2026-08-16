@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T11:54:35Z",
+ "updated": "2026-08-16T12:30:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "424/6 (108.1 ov)",
+     "score": "456/9 (114.5 ov)",
      "winner": false
     }
    ],
@@ -5294,15 +5294,15 @@
      "Dhruv Jurel",
      "Ravindra Jadeja",
      "Manav Suthar",
-     "Kuldeep Yadav",
      "Mohammed Siraj",
+     "Kuldeep Yadav",
      "Prasidh Krishna"
     ]
    },
    "innings": [
     {
      "t": "India",
-     "total": "424/6 (108.1 ov)",
+     "total": "456/9 (114.5 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5336,9 +5336,9 @@
       ],
       [
        "Dhruv Jurel",
-       48,
-       65,
-       "not out"
+       51,
+       68,
+       "c"
       ],
       [
        "Ravindra Jadeja",
@@ -5348,16 +5348,30 @@
       ],
       [
        "Manav Suthar",
-       16,
-       31,
+       24,
+       43,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       11,
+       15,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       8,
+       7,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       1,
+       3,
        "not out"
       ]
      ],
-     "dnb": [
-      "Kuldeep Yadav",
-      "Mohammed Siraj",
-      "Prasidh Krishna"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Dhananjaya de Silva",
@@ -5373,15 +5387,15 @@
       ],
       [
        "Keshara Nuwantha",
-       "37.1",
-       156,
+       "39",
+       175,
        3
       ],
       [
        "Prabath Jayasuriya",
-       "35",
-       99,
-       2
+       "38",
+       105,
+       4
       ],
       [
        "Lahiru Kumara",
@@ -5391,9 +5405,9 @@
       ],
       [
        "Asitha Fernando",
-       "15",
-       55,
-       0
+       "16.5",
+       61,
+       1
       ]
      ]
     }
