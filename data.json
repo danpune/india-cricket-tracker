@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T05:52:17Z",
+ "updated": "2026-08-16T06:32:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5245,7 +5245,7 @@
   {
    "id": "espn_1544001",
    "eventId": "1544001",
-   "date": "2026-08-15T04:15Z",
+   "date": "2026-08-15T04:30Z",
    "gender": "men",
    "format": "Test",
    "series": "India tour of Sri Lanka 2026",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed by a wet outfield",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "Sri Lanka",
