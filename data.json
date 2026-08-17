@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T04:22:58Z",
+ "updated": "2026-08-17T05:06:49Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,27 +5254,27 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
+     "score": "27/2 (7.1 ov)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 (116.4 ov)",
+     "score": "462",
      "winner": false
     }
    ],
-   "result": "India won toss & batted",
+   "result": "Sri Lanka trail by 435 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
-     "Lahiru Igalagamage",
      "Nishan Fernando",
+     "Lahiru Igalagamage",
      "Dinesh Chandimal",
      "Kamindu Mendis",
      "Dhananjaya de Silva (c)",
@@ -5408,6 +5408,54 @@
        "17.4",
        63,
        2
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "27/1 (7.0 ov)",
+     "bat": [
+      [
+       "Nishan Fernando",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Lahiru Igalagamage",
+       18,
+       25,
+       "not out"
+      ],
+      [
+       "Dinesh Chandimal",
+       5,
+       15,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Kamindu Mendis",
+      "Dhananjaya de Silva",
+      "Sonal Dinusha",
+      "Niroshan Dickwella",
+      "Keshara Nuwantha",
+      "Prabath Jayasuriya",
+      "Lahiru Kumara",
+      "Asitha Fernando"
+     ],
+     "bowl": [
+      [
+       "Mohammed Siraj",
+       "4",
+       13,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "3",
+       10,
+       0
       ]
      ]
     }
