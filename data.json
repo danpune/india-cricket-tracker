@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T06:22:21Z",
+ "updated": "2026-08-17T07:30:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5259,7 +5259,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "85/4 (25.2 ov)",
+     "score": "118/5 (31.5 ov)",
      "winner": false
     },
     {
@@ -5269,11 +5269,11 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 377 runs",
+   "result": "Sri Lanka trail by 344 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
-     "Nishan Fernando",
+     "Nishan Madushka Fernando",
      "Lahiru Udara Igalagamage",
      "Dinesh Chandimal",
      "Kamindu Mendis",
@@ -5413,10 +5413,10 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "85/4 (25.1 ov)",
+     "total": "118/5 (31.4 ov)",
      "bat": [
       [
-       "Nishan Fernando",
+       "Nishan Madushka Fernando",
        0,
        2,
        "c"
@@ -5429,7 +5429,7 @@
       ],
       [
        "Dinesh Chandimal",
-       5,
+       4,
        16,
        "c"
       ],
@@ -5441,19 +5441,24 @@
       ],
       [
        "Dhananjaya de Silva",
-       16,
-       37,
-       "not out"
+       21,
+       41,
+       "c"
       ],
       [
        "Sonal Dinusha",
-       13,
-       27,
+       22,
+       44,
+       "not out"
+      ],
+      [
+       "Niroshan Dickwella",
+       18,
+       19,
        "not out"
       ]
      ],
      "dnb": [
-      "Niroshan Dickwella",
       "Keshara Nuwantha",
       "Prabath Jayasuriya",
       "Lahiru Kumara",
@@ -5462,32 +5467,32 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "3",
-       6,
-       0
+       "6",
+       15,
+       1
       ],
       [
        "Manav Suthar",
-       "7",
-       17,
+       "8.4",
+       27,
        2
       ],
       [
        "Mohammed Siraj",
        "4",
-       13,
+       12,
        1
       ],
       [
        "Kuldeep Yadav",
-       "5",
-       16,
+       "6",
+       25,
        1
       ],
       [
        "Prasidh Krishna",
-       "6.1",
-       24,
+       "7",
+       29,
        0
       ]
      ]
