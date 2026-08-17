@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T11:27:16Z",
+ "updated": "2026-08-17T11:51:04Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4736,7 +4736,7 @@
    "india": "won",
    "xi": {
     "Sri Lanka Cricket XI": [
-     "Nishan Fernando",
+     "Nishan Madushka Fernando",
      "Ravindu Rasantha",
      "Pasindu Sooriyabandara",
      "Pavan Rathnayake",
@@ -4776,7 +4776,7 @@
      "total": "363/8 (90.0 ov)",
      "bat": [
       [
-       "Nishan Fernando",
+       "Nishan Madushka Fernando",
        66,
        65,
        "run out"
@@ -5021,7 +5021,7 @@
      "total": "200/6 (45.0 ov)",
      "bat": [
       [
-       "Nishan Fernando",
+       "Nishan Madushka Fernando",
        63,
        73,
        "retired not out"
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka",
