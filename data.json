@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T05:47:08Z",
+ "updated": "2026-08-17T06:22:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5259,7 +5259,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "59/3 (16 ov)",
+     "score": "85/4 (25.2 ov)",
      "winner": false
     },
     {
@@ -5269,7 +5269,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 403 runs",
+   "result": "Sri Lanka trail by 377 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5413,7 +5413,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "59/3 (16.0 ov)",
+     "total": "85/4 (25.1 ov)",
      "bat": [
       [
        "Nishan Fernando",
@@ -5436,18 +5436,23 @@
       [
        "Kamindu Mendis",
        14,
-       24,
-       "not out"
+       25,
+       "c"
       ],
       [
        "Dhananjaya de Silva",
-       4,
-       10,
+       16,
+       37,
+       "not out"
+      ],
+      [
+       "Sonal Dinusha",
+       13,
+       27,
        "not out"
       ]
      ],
      "dnb": [
-      "Sonal Dinusha",
       "Niroshan Dickwella",
       "Keshara Nuwantha",
       "Prabath Jayasuriya",
@@ -5456,9 +5461,15 @@
      ],
      "bowl": [
       [
+       "Ravindra Jadeja",
+       "3",
+       6,
+       0
+      ],
+      [
        "Manav Suthar",
-       "5",
-       10,
+       "7",
+       17,
        2
       ],
       [
@@ -5469,14 +5480,14 @@
       ],
       [
        "Kuldeep Yadav",
-       "2",
-       7,
-       0
+       "5",
+       16,
+       1
       ],
       [
        "Prasidh Krishna",
-       "5",
-       21,
+       "6.1",
+       24,
        0
       ]
      ]
