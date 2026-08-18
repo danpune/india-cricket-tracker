@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T07:52:09Z",
+ "updated": "2026-08-18T08:30:53Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,11 +5265,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 151/5 (35.5 ov)",
+     "score": "462 & 179/7 (42.4 ov)",
      "winner": false
     }
    ],
-   "result": "India lead by 321 runs",
+   "result": "India lead by 357 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5518,7 +5518,7 @@
     },
     {
      "t": "India",
-     "total": "147/5 (35.4 ov)",
+     "total": "179/7 (42.4 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5546,9 +5546,9 @@
       ],
       [
        "Rishabh Pant",
-       43,
-       50,
-       "not out"
+       66,
+       69,
+       "c"
       ],
       [
        "Dhruv Jurel",
@@ -5558,13 +5558,18 @@
       ],
       [
        "Ravindra Jadeja",
+       8,
+       19,
+       "c"
+      ],
+      [
+       "Manav Suthar",
        4,
-       7,
+       10,
        "not out"
       ]
      ],
      "dnb": [
-      "Manav Suthar",
       "Mohammed Siraj",
       "Kuldeep Yadav",
       "Prasidh Krishna"
@@ -5578,8 +5583,8 @@
       ],
       [
        "Keshara Nuwantha",
-       "17.4",
-       70,
+       "21",
+       81,
        1
       ],
       [
@@ -5590,9 +5595,9 @@
       ],
       [
        "Lahiru Kumara",
-       "1",
-       7,
-       0
+       "4.4",
+       27,
+       2
       ],
       [
        "Asitha Fernando",
@@ -7751,7 +7756,7 @@
       "rating": "46"
      }
     ],
-    "updated": "2026-08-03",
+    "updated": "2026-08-17",
     "bat": [
      {
       "no": "1",
@@ -7940,7 +7945,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-08-10",
+    "updated": "2026-08-17",
     "bat": [
      {
       "no": "1",
