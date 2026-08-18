@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T07:09:06Z",
+ "updated": "2026-08-18T07:52:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,11 +5265,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 116/4 (29 ov)",
+     "score": "462 & 151/5 (35.5 ov)",
      "winner": false
     }
    ],
-   "result": "India lead by 294 runs",
+   "result": "India lead by 321 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5518,7 +5518,7 @@
     },
     {
      "t": "India",
-     "total": "116/4 (29.0 ov)",
+     "total": "147/5 (35.4 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5546,19 +5546,24 @@
       ],
       [
        "Rishabh Pant",
-       21,
-       22,
+       43,
+       50,
        "not out"
       ],
       [
        "Dhruv Jurel",
-       5,
-       9,
+       7,
+       15,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       4,
+       7,
        "not out"
       ]
      ],
      "dnb": [
-      "Ravindra Jadeja",
       "Manav Suthar",
       "Mohammed Siraj",
       "Kuldeep Yadav",
@@ -5573,8 +5578,8 @@
       ],
       [
        "Keshara Nuwantha",
-       "14",
-       54,
+       "17.4",
+       70,
        1
       ],
       [
@@ -5591,9 +5596,9 @@
       ],
       [
        "Asitha Fernando",
-       "3",
-       8,
-       1
+       "6",
+       23,
+       2
       ]
      ]
     }
