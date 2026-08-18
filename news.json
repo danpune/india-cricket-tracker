@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Padikkal not fussed about competition with Sai Sudharsan for No. 3 slot",
+   "u": "https://www.cricinfo.com/ci/content/story/1550545.html?ex_cid=OTC-RSS",
+   "d": "Tue, 18 Aug 2026"
+  },
+  {
    "t": "Mahipal Lomror signs six-match deal with Surrey",
    "u": "https://www.cricinfo.com/ci/content/story/1550524.html?ex_cid=OTC-RSS",
    "d": "Tue, 18 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "ETPL: Vijay Shankar to team up with Ashwin at Dublin Guardians",
    "u": "https://www.cricinfo.com/ci/content/story/1545121.html?ex_cid=OTC-RSS",
    "d": "Fri, 14 Aug 2026"
-  },
-  {
-   "t": "Rodrigues ruled out of Asia Cup and Asian Games; Rawal gets maiden T20I call-up",
-   "u": "https://www.cricinfo.com/ci/content/story/1548448.html?ex_cid=OTC-RSS",
-   "d": "Fri, 14 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "mbP4x_8zJjQ",
+     "t": "Pant's counterattack! India close in on victory; Harsha Bhogle reviews"
+    },
     {
      "yt": "YSztAHhZIws",
      "t": "Time to celebrate Jadeja, once in a generation player: Harsha Bhogle"
@@ -75,10 +79,6 @@
     {
      "yt": "cAyIe9nIse0",
      "t": "India breach 450 on rain hit Day 2; Harsha Bhogle reviews"
-    },
-    {
-     "yt": "DNQkAFqL1Cs",
-     "t": "Hats off Bangladesh, never easy to beat Australia at home: Harsha Bhogle"
     }
    ]
   },
