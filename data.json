@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T10:10:59Z",
+ "updated": "2026-08-18T10:48:54Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5259,7 +5259,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "284 & 7/0 (3 ov, target 372)",
+     "score": "284 & 21/2 (10.3 ov, target 372)",
      "winner": false
     },
     {
@@ -5269,7 +5269,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka require 365 runs",
+   "result": "Sri Lanka require 351 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5626,44 +5626,60 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "7/0 (3.0 ov)",
+     "total": "21/2 (10.2 ov)",
      "bat": [
       [
        "Nishan Madushka Fernando",
-       5,
-       14,
-       "not out"
+       6,
+       27,
+       "c"
       ],
       [
        "Lahiru Udara Igalagamage",
+       11,
+       25,
+       "not out"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       0,
        1,
-       4,
+       "lbw"
+      ],
+      [
+       "Kamindu Mendis",
+       2,
+       10,
        "not out"
       ]
      ],
      "dnb": [
       "Dinesh Chandimal",
-      "Kamindu Mendis",
       "Dhananjaya de Silva",
       "Sonal Dinusha",
       "Niroshan Dickwella",
       "Keshara Nuwantha",
       "Prabath Jayasuriya",
       "Lahiru Kumara",
-      "Asitha Fernando",
-      "Pasindu Sooriyabandara"
+      "Asitha Fernando"
      ],
      "bowl": [
       [
        "Manav Suthar",
-       "1",
-       1,
-       0
+       "5",
+       9,
+       1
       ],
       [
        "Mohammed Siraj",
-       "1.6",
-       5,
+       "5",
+       11,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "0.3",
+       0,
        0
       ]
      ]
