@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T05:47:37Z",
+ "updated": "2026-08-18T06:17:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5265,11 +5265,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 81/2 (19.3 ov)",
+     "score": "462 & 109/3 (26.1 ov)",
      "winner": false
     }
    ],
-   "result": "India lead by 258 runs",
+   "result": "India lead by 287 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5518,7 +5518,7 @@
     },
     {
      "t": "India",
-     "total": "81/2 (19.3 ov)",
+     "total": "109/3 (26.1 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5534,19 +5534,24 @@
       ],
       [
        "Devdutt Padikkal",
-       35,
-       54,
+       44,
+       73,
        "not out"
       ],
       [
        "Shubman Gill",
-       7,
-       14,
+       8,
+       20,
+       "lbw"
+      ],
+      [
+       "Rishabh Pant",
+       19,
+       16,
        "not out"
       ]
      ],
      "dnb": [
-      "Rishabh Pant",
       "Dhruv Jurel",
       "Ravindra Jadeja",
       "Manav Suthar",
@@ -5556,16 +5561,28 @@
      ],
      "bowl": [
       [
+       "Dhananjaya de Silva",
+       "1",
+       4,
+       0
+      ],
+      [
        "Keshara Nuwantha",
-       "9.2",
-       35,
+       "13",
+       52,
        0
       ],
       [
        "Prabath Jayasuriya",
-       "7",
-       36,
-       1
+       "9",
+       38,
+       2
+      ],
+      [
+       "Lahiru Kumara",
+       "0.1",
+       6,
+       0
       ],
       [
        "Asitha Fernando",
