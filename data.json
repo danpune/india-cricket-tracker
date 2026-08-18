@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T09:06:21Z",
+ "updated": "2026-08-18T09:45:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "statusDesc": "Match delayed by rain",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,7 +5265,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 193/10 (48.5 ov)",
+     "score": "462 & 193 (48.5 ov)",
      "winner": false
     }
    ],
@@ -5561,7 +5561,7 @@
       ],
       [
        "Ravindra Jadeja",
-       8,
+       9,
        19,
        "c"
       ],
@@ -5613,7 +5613,7 @@
       [
        "Lahiru Kumara",
        "5",
-       27,
+       28,
        2
       ],
       [
