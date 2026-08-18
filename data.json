@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T04:00:26Z",
+ "updated": "2026-08-18T04:47:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,22 +5254,22 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "284 (79.4 ov)",
+     "score": "284",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462",
+     "score": "462 & 18/1 (6 ov)",
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 178 runs",
+   "result": "India lead by 196 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5512,6 +5512,54 @@
        "Prasidh Krishna",
        "14",
        47,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "18/1 (6.0 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       4,
+       18,
+       "not out"
+      ],
+      [
+       "Devdutt Padikkal",
+       11,
+       17,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shubman Gill",
+      "Rishabh Pant",
+      "Dhruv Jurel",
+      "Ravindra Jadeja",
+      "Manav Suthar",
+      "Mohammed Siraj",
+      "Kuldeep Yadav",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Keshara Nuwantha",
+       "3",
+       9,
+       0
+      ],
+      [
+       "Asitha Fernando",
+       "3",
+       8,
        1
       ]
      ]
