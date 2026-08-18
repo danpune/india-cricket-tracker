@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T12:03:23Z",
+ "updated": "2026-08-18T13:04:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,12 +5254,12 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "284 & 61/4 (26.5 ov, target 372)",
+     "score": "284 & 84/4 (34 ov, target 372)",
      "winner": false
     },
     {
@@ -5269,7 +5269,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka require 312 runs",
+   "result": "Sri Lanka require 288 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5626,7 +5626,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "60/4 (26.4 ov)",
+     "total": "84/4 (34.0 ov)",
      "bat": [
       [
        "Nishan Madushka Fernando",
@@ -5654,14 +5654,14 @@
       ],
       [
        "Dhananjaya de Silva",
-       24,
-       48,
+       31,
+       73,
        "not out"
       ],
       [
        "Sonal Dinusha",
-       8,
-       17,
+       25,
+       36,
        "not out"
       ]
      ],
@@ -5675,6 +5675,12 @@
      ],
      "bowl": [
       [
+       "Devdutt Padikkal",
+       "1",
+       5,
+       0
+      ],
+      [
        "Ravindra Jadeja",
        "6",
        16,
@@ -5682,8 +5688,8 @@
       ],
       [
        "Manav Suthar",
-       "10",
-       23,
+       "11",
+       30,
        2
       ],
       [
@@ -5693,9 +5699,15 @@
        1
       ],
       [
+       "Kuldeep Yadav",
+       "3",
+       8,
+       0
+      ],
+      [
        "Prasidh Krishna",
-       "5.4",
-       9,
+       "8",
+       13,
        1
       ]
      ]
