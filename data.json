@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T06:17:21Z",
+ "updated": "2026-08-18T07:09:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,11 +5265,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 109/3 (26.1 ov)",
+     "score": "462 & 116/4 (29 ov)",
      "winner": false
     }
    ],
-   "result": "India lead by 287 runs",
+   "result": "India lead by 294 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5518,7 +5518,7 @@
     },
     {
      "t": "India",
-     "total": "109/3 (26.1 ov)",
+     "total": "116/4 (29.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5535,8 +5535,8 @@
       [
        "Devdutt Padikkal",
        44,
-       73,
-       "not out"
+       75,
+       "lbw"
       ],
       [
        "Shubman Gill",
@@ -5546,13 +5546,18 @@
       ],
       [
        "Rishabh Pant",
-       19,
-       16,
+       21,
+       22,
+       "not out"
+      ],
+      [
+       "Dhruv Jurel",
+       5,
+       9,
        "not out"
       ]
      ],
      "dnb": [
-      "Dhruv Jurel",
       "Ravindra Jadeja",
       "Manav Suthar",
       "Mohammed Siraj",
@@ -5568,20 +5573,20 @@
       ],
       [
        "Keshara Nuwantha",
-       "13",
-       52,
-       0
+       "14",
+       54,
+       1
       ],
       [
        "Prabath Jayasuriya",
-       "9",
-       38,
+       "10",
+       42,
        2
       ],
       [
        "Lahiru Kumara",
-       "0.1",
-       6,
+       "1",
+       7,
        0
       ],
       [
