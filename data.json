@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T08:30:53Z",
+ "updated": "2026-08-18T09:06:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5254,7 +5254,7 @@
    "venue": "Galle International Stadium",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -5265,11 +5265,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "462 & 179/7 (42.4 ov)",
+     "score": "462 & 193/10 (48.5 ov)",
      "winner": false
     }
    ],
-   "result": "India lead by 357 runs",
+   "result": "India lead by 371 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -5283,7 +5283,8 @@
      "Keshara Nuwantha",
      "Prabath Jayasuriya",
      "Lahiru Kumara",
-     "Asitha Fernando"
+     "Asitha Fernando",
+     "Pasindu Sooriyabandara"
     ],
     "India": [
      "Yashasvi Jaiswal",
@@ -5482,7 +5483,9 @@
        "not out"
       ]
      ],
-     "dnb": [],
+     "dnb": [
+      "Pasindu Sooriyabandara"
+     ],
      "bowl": [
       [
        "Ravindra Jadeja",
@@ -5518,7 +5521,7 @@
     },
     {
      "t": "India",
-     "total": "179/7 (42.4 ov)",
+     "total": "193 (48.5 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -5564,16 +5567,30 @@
       ],
       [
        "Manav Suthar",
-       4,
+       9,
+       25,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       5,
        10,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       2,
+       6,
        "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       2,
+       7,
+       "c"
       ]
      ],
-     "dnb": [
-      "Mohammed Siraj",
-      "Kuldeep Yadav",
-      "Prasidh Krishna"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Dhananjaya de Silva",
@@ -5583,27 +5600,27 @@
       ],
       [
        "Keshara Nuwantha",
-       "21",
-       81,
+       "23",
+       86,
        1
       ],
       [
        "Prabath Jayasuriya",
-       "10",
-       42,
-       2
+       "11",
+       43,
+       3
       ],
       [
        "Lahiru Kumara",
-       "4.4",
+       "5",
        27,
        2
       ],
       [
        "Asitha Fernando",
-       "6",
-       23,
-       2
+       "8.5",
+       31,
+       4
       ]
      ]
     }
