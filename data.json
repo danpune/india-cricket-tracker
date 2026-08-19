@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19T08:01:59Z",
+ "updated": "2026-08-19T08:50:57Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3798,35 +3798,6 @@
    ],
    "result": "India won by 165 runs",
    "india": "won",
-   "xi": {
-    "Sri Lanka": [
-     "Nishan Madushka Fernando",
-     "Lahiru Udara Igalagamage",
-     "Dinesh Chandimal",
-     "Kamindu Mendis",
-     "Dhananjaya de Silva (c)",
-     "Sonal Dinusha",
-     "Niroshan Dickwella",
-     "Keshara Nuwantha",
-     "Prabath Jayasuriya",
-     "Lahiru Kumara",
-     "Asitha Fernando",
-     "Pasindu Sooriyabandara"
-    ],
-    "India": [
-     "Yashasvi Jaiswal",
-     "KL Rahul",
-     "Devdutt Padikkal",
-     "Shubman Gill (c)",
-     "Rishabh Pant",
-     "Dhruv Jurel",
-     "Ravindra Jadeja",
-     "Manav Suthar",
-     "Mohammed Siraj",
-     "Kuldeep Yadav",
-     "Prasidh Krishna"
-    ]
-   },
    "innings": [
     {
      "t": "India",
