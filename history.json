@@ -31762,6 +31762,466 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1544001",
+   "date": "2026-08-15",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Sri Lanka 2026",
+   "matchNo": "1st Test",
+   "venue": "Galle International Stadium",
+   "city": "",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "284 & 206 (77.4 ov, target 372)"
+    },
+    {
+     "name": "India",
+     "score": "462 & 193"
+    }
+   ],
+   "result": "India won by 165 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "462 (116.4 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       32,
+       37,
+       "run out"
+      ],
+      [
+       "KL Rahul",
+       82,
+       175,
+       "c"
+      ],
+      [
+       "Devdutt Padikkal",
+       167,
+       230,
+       "st"
+      ],
+      [
+       "Shubman Gill",
+       16,
+       28,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       39,
+       62,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       51,
+       68,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       13,
+       25,
+       "lbw"
+      ],
+      [
+       "Manav Suthar",
+       24,
+       43,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       11,
+       15,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       13,
+       14,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       2,
+       7,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Dhananjaya de Silva",
+       "4",
+       15,
+       0
+      ],
+      [
+       "Sonal Dinusha",
+       "4",
+       17,
+       0
+      ],
+      [
+       "Keshara Nuwantha",
+       "39",
+       175,
+       3
+      ],
+      [
+       "Prabath Jayasuriya",
+       "39",
+       109,
+       4
+      ],
+      [
+       "Lahiru Kumara",
+       "13",
+       76,
+       0
+      ],
+      [
+       "Asitha Fernando",
+       "17.4",
+       63,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "284 (79.4 ov)",
+     "bat": [
+      [
+       "Nishan Madushka Fernando",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Lahiru Udara Igalagamage",
+       27,
+       44,
+       "c"
+      ],
+      [
+       "Dinesh Chandimal",
+       4,
+       16,
+       "c"
+      ],
+      [
+       "Kamindu Mendis",
+       14,
+       25,
+       "c"
+      ],
+      [
+       "Dhananjaya de Silva",
+       21,
+       41,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       100,
+       168,
+       "lbw"
+      ],
+      [
+       "Niroshan Dickwella",
+       80,
+       115,
+       "c"
+      ],
+      [
+       "Keshara Nuwantha",
+       2,
+       18,
+       "c"
+      ],
+      [
+       "Prabath Jayasuriya",
+       10,
+       43,
+       "c"
+      ],
+      [
+       "Lahiru Kumara",
+       10,
+       5,
+       "st"
+      ],
+      [
+       "Asitha Fernando",
+       0,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Pasindu Sooriyabandara"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "21",
+       57,
+       3
+      ],
+      [
+       "Manav Suthar",
+       "21.4",
+       76,
+       4
+      ],
+      [
+       "Mohammed Siraj",
+       "9",
+       29,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "14",
+       65,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "14",
+       47,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "193 (48.5 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       35,
+       47,
+       "c"
+      ],
+      [
+       "Devdutt Padikkal",
+       44,
+       75,
+       "lbw"
+      ],
+      [
+       "Shubman Gill",
+       8,
+       20,
+       "lbw"
+      ],
+      [
+       "Rishabh Pant",
+       66,
+       69,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       7,
+       15,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       9,
+       19,
+       "c"
+      ],
+      [
+       "Manav Suthar",
+       9,
+       25,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       5,
+       10,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       2,
+       6,
+       "not out"
+      ],
+      [
+       "Prasidh Krishna",
+       2,
+       7,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Dhananjaya de Silva",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Keshara Nuwantha",
+       "23",
+       86,
+       1
+      ],
+      [
+       "Prabath Jayasuriya",
+       "11",
+       43,
+       3
+      ],
+      [
+       "Lahiru Kumara",
+       "5",
+       28,
+       2
+      ],
+      [
+       "Asitha Fernando",
+       "8.5",
+       31,
+       4
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "206 (77.4 ov)",
+     "bat": [
+      [
+       "Nishan Madushka Fernando",
+       6,
+       27,
+       "c"
+      ],
+      [
+       "Lahiru Udara Igalagamage",
+       16,
+       58,
+       "c"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Kamindu Mendis",
+       2,
+       12,
+       "c"
+      ],
+      [
+       "Dhananjaya de Silva",
+       59,
+       151,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       84,
+       128,
+       "c"
+      ],
+      [
+       "Niroshan Dickwella",
+       10,
+       17,
+       "c"
+      ],
+      [
+       "Keshara Nuwantha",
+       20,
+       69,
+       "not out"
+      ],
+      [
+       "Prabath Jayasuriya",
+       0,
+       1,
+       "not out"
+      ],
+      [
+       "Lahiru Kumara",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Dinesh Chandimal"
+     ],
+     "bowl": [
+      [
+       "Devdutt Padikkal",
+       "1",
+       5,
+       0
+      ],
+      [
+       "Ravindra Jadeja",
+       "23",
+       71,
+       1
+      ],
+      [
+       "Manav Suthar",
+       "23.4",
+       55,
+       6
+      ],
+      [
+       "Mohammed Siraj",
+       "9",
+       15,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "11",
+       38,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "10",
+       16,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

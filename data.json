@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19T07:25:22Z",
+ "updated": "2026-08-19T08:01:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3779,25 +3779,25 @@
    "seriesId": "24567",
    "matchNo": "1st Test",
    "venue": "Galle International Stadium",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "284 & 193/6 (70.4 ov, target 372)",
+     "score": "284 & 206 (77.4 ov, target 372)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
      "score": "462 & 193",
-     "winner": false
+     "winner": true
     }
    ],
-   "result": "Sri Lanka require 179 runs",
-   "india": "",
+   "result": "India won by 165 runs",
+   "india": "won",
    "xi": {
     "Sri Lanka": [
      "Nishan Madushka Fernando",
@@ -4153,7 +4153,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "193/6 (70.6 ov)",
+     "total": "206 (77.4 ov)",
      "bat": [
       [
        "Nishan Madushka Fernando",
@@ -4187,9 +4187,9 @@
       ],
       [
        "Sonal Dinusha",
-       79,
-       122,
-       "not out"
+       84,
+       128,
+       "c"
       ],
       [
        "Niroshan Dickwella",
@@ -4199,16 +4199,31 @@
       ],
       [
        "Keshara Nuwantha",
-       12,
-       40,
+       20,
+       69,
+       "not out"
+      ],
+      [
+       "Prabath Jayasuriya",
+       0,
+       1,
+       "not out"
+      ],
+      [
+       "Lahiru Kumara",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       0,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Dinesh Chandimal",
-      "Prabath Jayasuriya",
-      "Lahiru Kumara",
-      "Asitha Fernando"
+      "Dinesh Chandimal"
      ],
      "bowl": [
       [
@@ -4219,15 +4234,15 @@
       ],
       [
        "Ravindra Jadeja",
-       "19.5",
-       67,
+       "23",
+       71,
        1
       ],
       [
        "Manav Suthar",
-       "20",
-       46,
-       2
+       "23.4",
+       55,
+       6
       ],
       [
        "Mohammed Siraj",
@@ -5829,31 +5844,31 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-08-11",
+    "updated": "2026-08-18",
     "bat": [
      {
       "no": "1",
-      "name": "Travis Head",
-      "team": "Australia",
-      "rating": "853"
-     },
-     {
-      "no": "2",
       "name": "Harry Brook",
       "team": "England",
       "rating": "852"
      },
      {
-      "no": "3",
+      "no": "2",
       "name": "Joe Root",
       "team": "England",
       "rating": "840"
      },
      {
-      "no": "4",
+      "no": "3",
       "name": "Steve Smith",
       "team": "Australia",
-      "rating": "831"
+      "rating": "833"
+     },
+     {
+      "no": "4",
+      "name": "Travis Head",
+      "team": "Australia",
+      "rating": "819"
      },
      {
       "no": "5",
@@ -5909,25 +5924,25 @@
       "no": "3",
       "name": "Mitchell Starc",
       "team": "Australia",
-      "rating": "838"
+      "rating": "826"
      },
      {
       "no": "4",
-      "name": "Pat Cummins",
-      "team": "Australia",
-      "rating": "832"
-     },
-     {
-      "no": "5",
       "name": "Marco Jansen",
       "team": "South Africa",
       "rating": "825"
      },
      {
+      "no": "5",
+      "name": "Pat Cummins",
+      "team": "Australia",
+      "rating": "818"
+     },
+     {
       "no": "6",
       "name": "Scott Boland",
       "team": "Australia",
-      "rating": "820"
+      "rating": "812"
      },
      {
       "no": "7",
@@ -5945,13 +5960,13 @@
       "no": "9",
       "name": "Josh Hazlewood",
       "team": "Australia",
-      "rating": "775"
+      "rating": "795"
      },
      {
       "no": "10",
-      "name": "Nathan Lyon",
-      "team": "Australia",
-      "rating": "753"
+      "name": "Gus Atkinson",
+      "team": "England",
+      "rating": "729"
      }
     ]
    },
@@ -6018,7 +6033,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-08-11",
+    "updated": "2026-08-18",
     "bat": [
      {
       "no": "1",
@@ -6048,7 +6063,7 @@
       "no": "5",
       "name": "Ibrahim Zadran",
       "team": "Afghanistan",
-      "rating": "712"
+      "rating": "719"
      },
      {
       "no": "6",
@@ -6078,7 +6093,7 @@
       "no": "10",
       "name": "Harry Tector",
       "team": "Ireland",
-      "rating": "654"
+      "rating": "653"
      }
     ],
     "bowl": [
@@ -6086,7 +6101,7 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "713"
+      "rating": "714"
      },
      {
       "no": "2",
@@ -6207,7 +6222,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-08-11",
+    "updated": "2026-08-18",
     "bat": [
      {
       "no": "1",
