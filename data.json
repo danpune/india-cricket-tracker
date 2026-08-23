@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T04:56:52Z",
+ "updated": "2026-08-23T05:29:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "17/0 (4.4 ov)",
+     "score": "37/1 (10.5 ov)",
      "winner": false
     }
    ],
@@ -4297,19 +4297,19 @@
    "innings": [
     {
      "t": "India",
-     "total": "17/0 (4.4 ov)",
+     "total": "37/1 (10.4 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
-       13,
-       17,
+       19,
+       31,
        "not out"
       ],
       [
        "KL Rahul",
-       4,
-       11,
-       "not out"
+       18,
+       33,
+       "c"
       ]
      ],
      "dnb": [
@@ -4325,14 +4325,20 @@
      ],
      "bowl": [
       [
-       "Lahiru Kumara",
+       "Prabath Jayasuriya",
        "2",
-       8,
+       13,
        0
       ],
       [
+       "Lahiru Kumara",
+       "4.4",
+       15,
+       1
+      ],
+      [
        "Asitha Fernando",
-       "2.4",
+       "4",
        9,
        0
       ]
@@ -5831,7 +5837,7 @@
       "no": "1",
       "name": "Australia",
       "team": "Australia",
-      "rating": "131"
+      "rating": "126"
      },
      {
       "no": "2",
@@ -5859,27 +5865,27 @@
      },
      {
       "no": "6",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "78"
+     },
+     {
+      "no": "7",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
       "rating": "76"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
       "rating": "75"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "West Indies",
       "team": "West Indies",
       "rating": "74"
-     },
-     {
-      "no": "9",
-      "name": "Bangladesh",
-      "team": "Bangladesh",
-      "rating": "73"
      },
      {
       "no": "10",
