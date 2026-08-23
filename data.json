@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T11:53:34Z",
+ "updated": "2026-08-23T12:30:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,7 +4249,7 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "296/4 (83.5 ov)",
+     "score": "300/5 (85 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "296/4 (83.4 ov)",
+     "total": "300/5 (85.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4332,18 +4332,23 @@
       [
        "Ravindra Jadeja",
        43,
-       82,
+       83,
        "not out"
       ],
       [
        "Dhruv Jurel",
        7,
-       19,
+       21,
+       "not out"
+      ],
+      [
+       "Saransh Jain",
+       4,
+       5,
        "not out"
       ]
      ],
      "dnb": [
-      "Saransh Jain",
       "Manav Suthar",
       "Mohammed Siraj",
       "Prasidh Krishna"
@@ -4381,15 +4386,15 @@
       ],
       [
        "Lahiru Kumara",
-       "12.4",
+       "13",
        38,
        1
       ],
       [
        "Asitha Fernando",
-       "15",
-       42,
-       2
+       "16",
+       46,
+       3
       ]
      ]
     }
