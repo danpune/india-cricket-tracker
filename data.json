@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T09:52:29Z",
+ "updated": "2026-08-23T10:18:43Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "205/3 (56.5 ov)",
+     "score": "219/3 (61.2 ov)",
      "winner": false
     }
    ],
@@ -4286,8 +4286,8 @@
      "Devdutt Padikkal",
      "Shubman Gill (c)",
      "Rishabh Pant",
-     "Dhruv Jurel",
      "Ravindra Jadeja",
+     "Dhruv Jurel",
      "Saransh Jain",
      "Manav Suthar",
      "Mohammed Siraj",
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "205/3 (56.4 ov)",
+     "total": "219/3 (61.2 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4313,8 +4313,8 @@
       ],
       [
        "Devdutt Padikkal",
-       76,
-       133,
+       82,
+       143,
        "not out"
       ],
       [
@@ -4326,19 +4326,30 @@
       [
        "Rishabh Pant",
        3,
-       14,
+       15,
+       "retired not out"
+      ],
+      [
+       "Ravindra Jadeja",
+       8,
+       17,
        "not out"
       ]
      ],
      "dnb": [
       "Dhruv Jurel",
-      "Ravindra Jadeja",
       "Saransh Jain",
       "Manav Suthar",
       "Mohammed Siraj",
       "Prasidh Krishna"
      ],
      "bowl": [
+      [
+       "Dhananjaya de Silva",
+       "1",
+       3,
+       0
+      ],
       [
        "Sonal Dinusha",
        "1",
@@ -4347,8 +4358,8 @@
       ],
       [
        "Keshara Nuwantha",
-       "16.4",
-       68,
+       "18",
+       77,
        0
       ],
       [
@@ -4359,8 +4370,8 @@
       ],
       [
        "Lahiru Kumara",
-       "9",
-       33,
+       "11.2",
+       35,
        1
       ],
       [
