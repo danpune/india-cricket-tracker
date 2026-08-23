@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T04:19:44Z",
+ "updated": "2026-08-23T04:56:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4247,9 +4247,9 @@
    "seriesId": "24567",
    "matchNo": "2nd Test",
    "venue": "Sinhalese Sports Club Ground, Colombo",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -4260,12 +4260,85 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "17/0 (4.4 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 10:00 local time",
-   "india": ""
+   "result": "India won toss & batted",
+   "india": "",
+   "xi": {
+    "Sri Lanka": [
+     "Lahiru Udara",
+     "Kamil Mishara",
+     "Pasindu Sooriyabandara",
+     "Kamindu Mendis",
+     "Dhananjaya de Silva (c)",
+     "Sonal Dinusha",
+     "Niroshan Dickwella",
+     "Keshara Nuwantha",
+     "Prabath Jayasuriya",
+     "Lahiru Kumara",
+     "Asitha Fernando"
+    ],
+    "India": [
+     "Yashasvi Jaiswal",
+     "KL Rahul",
+     "Devdutt Padikkal",
+     "Shubman Gill (c)",
+     "Rishabh Pant",
+     "Dhruv Jurel",
+     "Ravindra Jadeja",
+     "Saransh Jain",
+     "Manav Suthar",
+     "Mohammed Siraj",
+     "Prasidh Krishna"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "17/0 (4.4 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       13,
+       17,
+       "not out"
+      ],
+      [
+       "KL Rahul",
+       4,
+       11,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Devdutt Padikkal",
+      "Shubman Gill",
+      "Rishabh Pant",
+      "Dhruv Jurel",
+      "Ravindra Jadeja",
+      "Saransh Jain",
+      "Manav Suthar",
+      "Mohammed Siraj",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Lahiru Kumara",
+       "2",
+       8,
+       0
+      ],
+      [
+       "Asitha Fernando",
+       "2.4",
+       9,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1529227",
