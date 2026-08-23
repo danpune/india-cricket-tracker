@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T11:31:16Z",
+ "updated": "2026-08-23T11:53:34Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "291/4 (80 ov)",
+     "score": "296/4 (83.5 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "291/4 (80.0 ov)",
+     "total": "296/4 (83.4 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4331,14 +4331,14 @@
       ],
       [
        "Ravindra Jadeja",
-       39,
-       75,
+       43,
+       82,
        "not out"
       ],
       [
        "Dhruv Jurel",
-       6,
-       4,
+       7,
+       19,
        "not out"
       ]
      ],
@@ -4375,20 +4375,20 @@
       ],
       [
        "Prabath Jayasuriya",
-       "26",
-       86,
+       "27",
+       90,
        0
       ],
       [
        "Lahiru Kumara",
-       "12",
+       "12.4",
        38,
        1
       ],
       [
        "Asitha Fernando",
-       "13",
-       41,
+       "15",
+       42,
        2
       ]
      ]
