@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T10:45:06Z",
+ "updated": "2026-08-23T11:02:08Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "247/3 (68.5 ov)",
+     "score": "271/3 (73 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "249/3 (68.6 ov)",
+     "total": "271/3 (73.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4313,8 +4313,8 @@
       ],
       [
        "Devdutt Padikkal",
-       91,
-       163,
+       111,
+       185,
        "not out"
       ],
       [
@@ -4331,8 +4331,8 @@
       ],
       [
        "Ravindra Jadeja",
-       29,
-       43,
+       31,
+       45,
        "not out"
       ]
      ],
@@ -4346,8 +4346,8 @@
      "bowl": [
       [
        "Kamil Mishara",
-       "1.6",
-       9,
+       "4",
+       16,
        0
       ],
       [
@@ -4370,8 +4370,8 @@
       ],
       [
        "Prabath Jayasuriya",
-       "20",
-       64,
+       "22",
+       79,
        0
       ],
       [
