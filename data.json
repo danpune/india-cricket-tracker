@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T11:01:09Z",
+ "updated": "2026-08-24T11:39:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,22 +4249,22 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Match delayed by rain",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
+     "score": "0/0 (0.2 ov)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "480/8 (132.6 ov)",
+     "score": "503/9d",
      "winner": false
     }
    ],
-   "result": "India won toss & batted",
+   "result": "Sri Lanka trail by 503 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "480/8 (132.3 ov)",
+     "total": "503/9 (138.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4337,8 +4337,8 @@
       ],
       [
        "Dhruv Jurel",
-       99,
-       161,
+       115,
+       177,
        "not out"
       ],
       [
@@ -4355,14 +4355,18 @@
       ],
       [
        "Mohammed Siraj",
-       1,
-       18,
+       3,
+       29,
+       "lbw"
+      ],
+      [
+       "Prasidh Krishna",
+       4,
+       7,
        "not out"
       ]
      ],
-     "dnb": [
-      "Prasidh Krishna"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Kamil Mishara",
@@ -4390,9 +4394,9 @@
       ],
       [
        "Prabath Jayasuriya",
-       "39.3",
+       "42",
        132,
-       1
+       2
       ],
       [
        "Lahiru Kumara",
@@ -4402,9 +4406,46 @@
       ],
       [
        "Asitha Fernando",
-       "26",
-       83,
+       "29",
+       106,
        4
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "0/0 (0.2 ov)",
+     "bat": [
+      [
+       "Lahiru Udara",
+       0,
+       2,
+       "not out"
+      ],
+      [
+       "Kamil Mishara",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Pasindu Sooriyabandara",
+      "Kamindu Mendis",
+      "Dhananjaya de Silva",
+      "Sonal Dinusha",
+      "Niroshan Dickwella",
+      "Keshara Nuwantha",
+      "Prabath Jayasuriya",
+      "Lahiru Kumara",
+      "Asitha Fernando"
+     ],
+     "bowl": [
+      [
+       "Mohammed Siraj",
+       "0.2",
+       0,
+       0
       ]
      ]
     }
