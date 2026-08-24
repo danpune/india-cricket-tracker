@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T06:52:28Z",
+ "updated": "2026-08-24T07:54:30Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,7 +4249,7 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "419/6 (112 ov)",
+     "score": "447/7 (120.2 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "419/6 (112.0 ov)",
+     "total": "447/7 (120.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4326,8 +4326,8 @@
       [
        "Rishabh Pant",
        63,
-       88,
-       "not out"
+       89,
+       "c"
       ],
       [
        "Ravindra Jadeja",
@@ -4337,8 +4337,8 @@
       ],
       [
        "Dhruv Jurel",
-       59,
-       107,
+       74,
+       122,
        "not out"
       ],
       [
@@ -4346,10 +4346,15 @@
        6,
        8,
        "c"
+      ],
+      [
+       "Manav Suthar",
+       12,
+       34,
+       "not out"
       ]
      ],
      "dnb": [
-      "Manav Suthar",
       "Mohammed Siraj",
       "Prasidh Krishna"
      ],
@@ -4374,9 +4379,9 @@
       ],
       [
        "Keshara Nuwantha",
-       "33",
-       136,
-       1
+       "37.1",
+       153,
+       2
       ],
       [
        "Prabath Jayasuriya",
@@ -4386,14 +4391,14 @@
       ],
       [
        "Lahiru Kumara",
-       "17",
-       61,
+       "18",
+       62,
        1
       ],
       [
        "Asitha Fernando",
-       "21",
-       60,
+       "24",
+       70,
        4
       ]
      ]
