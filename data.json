@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T07:54:30Z",
+ "updated": "2026-08-24T08:42:11Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "447/7 (120.2 ov)",
+     "score": "469/8 (131 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "447/7 (120.0 ov)",
+     "total": "469/8 (131.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4337,8 +4337,8 @@
       ],
       [
        "Dhruv Jurel",
-       74,
-       122,
+       89,
+       153,
        "not out"
       ],
       [
@@ -4349,13 +4349,18 @@
       ],
       [
        "Manav Suthar",
-       12,
-       34,
+       18,
+       51,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       0,
+       17,
        "not out"
       ]
      ],
      "dnb": [
-      "Mohammed Siraj",
       "Prasidh Krishna"
      ],
      "bowl": [
@@ -4373,32 +4378,32 @@
       ],
       [
        "Sonal Dinusha",
-       "1",
-       2,
+       "3",
+       8,
        0
       ],
       [
        "Keshara Nuwantha",
-       "37.1",
-       153,
+       "38",
+       154,
        2
       ],
       [
        "Prabath Jayasuriya",
-       "34",
-       125,
-       0
+       "39",
+       132,
+       1
       ],
       [
        "Lahiru Kumara",
-       "18",
-       62,
+       "20",
+       68,
        1
       ],
       [
        "Asitha Fernando",
-       "24",
-       70,
+       "25",
+       72,
        4
       ]
      ]
