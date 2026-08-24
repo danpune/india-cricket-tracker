@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T12:00:10Z",
+ "updated": "2026-08-24T13:09:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,12 +4249,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed by rain",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "0/0 (0.2 ov)",
+     "score": "8/2 (3 ov)",
      "winner": false
     },
     {
@@ -4264,19 +4264,19 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 503 runs",
+   "result": "Sri Lanka trail by 495 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
      "Lahiru Udara",
      "Kamil Mishara",
+     "Prabath Jayasuriya",
      "Pasindu Sooriyabandara",
      "Kamindu Mendis",
      "Dhananjaya de Silva (c)",
      "Sonal Dinusha",
      "Niroshan Dickwella",
      "Keshara Nuwantha",
-     "Prabath Jayasuriya",
      "Lahiru Kumara",
      "Asitha Fernando"
     ],
@@ -4375,6 +4375,12 @@
        0
       ],
       [
+       "Prabath Jayasuriya",
+       "42",
+       132,
+       2
+      ],
+      [
        "Dhananjaya de Silva",
        "2",
        8,
@@ -4393,12 +4399,6 @@
        2
       ],
       [
-       "Prabath Jayasuriya",
-       "42",
-       132,
-       2
-      ],
-      [
        "Lahiru Kumara",
        "20",
        68,
@@ -4414,19 +4414,25 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "0/0 (0.2 ov)",
+     "total": "8/2 (3.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
-       0,
-       2,
-       "not out"
+       1,
+       6,
+       "c"
       ],
       [
        "Kamil Mishara",
-       0,
-       0,
+       5,
+       5,
        "not out"
+      ],
+      [
+       "Prabath Jayasuriya",
+       2,
+       7,
+       "lbw"
       ]
      ],
      "dnb": [
@@ -4436,16 +4442,27 @@
       "Sonal Dinusha",
       "Niroshan Dickwella",
       "Keshara Nuwantha",
-      "Prabath Jayasuriya",
       "Lahiru Kumara",
       "Asitha Fernando"
      ],
      "bowl": [
       [
+       "Manav Suthar",
+       "1",
+       6,
+       1
+      ],
+      [
        "Mohammed Siraj",
-       "0.2",
-       0,
+       "1",
+       1,
        0
+      ],
+      [
+       "Prasidh Krishna",
+       "1",
+       1,
+       1
       ]
      ]
     }
