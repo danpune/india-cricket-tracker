@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T05:55:40Z",
+ "updated": "2026-08-24T06:52:28Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,7 +4249,7 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "Sri Lanka",
@@ -4260,7 +4260,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "375/6 (101.5 ov)",
+     "score": "419/6 (112 ov)",
      "winner": false
     }
    ],
@@ -4297,7 +4297,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "375/6 (101.5 ov)",
+     "total": "419/6 (112.0 ov)",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -4325,8 +4325,8 @@
       ],
       [
        "Rishabh Pant",
-       38,
-       60,
+       63,
+       88,
        "not out"
       ],
       [
@@ -4337,8 +4337,8 @@
       ],
       [
        "Dhruv Jurel",
-       38,
-       73,
+       59,
+       107,
        "not out"
       ],
       [
@@ -4374,14 +4374,14 @@
       ],
       [
        "Keshara Nuwantha",
-       "28",
-       122,
+       "33",
+       136,
        1
       ],
       [
        "Prabath Jayasuriya",
-       "28.4",
-       93,
+       "34",
+       125,
        0
       ],
       [
