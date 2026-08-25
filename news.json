@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Kishan: Switching formats is what is fun about the game",
+   "u": "https://www.cricinfo.com/ci/content/story/1551423.html?ex_cid=OTC-RSS",
+   "d": "Tue, 25 Aug 2026"
+  },
+  {
    "t": "Morkel doesn't rule out India enforcing follow-on as rain looms in Colombo",
    "u": "https://www.cricinfo.com/ci/content/story/1551424.html?ex_cid=OTC-RSS",
    "d": "Tue, 25 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "SL hope for spinners to step up to equalise in Colombo",
    "u": "https://www.cricinfo.com/ci/content/story/1551014.html?ex_cid=OTC-RSS",
    "d": "Sat, 22 Aug 2026"
-  },
-  {
-   "t": "Gambhir 'ideally' wants three-match Test series",
-   "u": "https://www.cricinfo.com/ci/content/story/1551021.html?ex_cid=OTC-RSS",
-   "d": "Sat, 22 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "ONI6SPZzdNs",
+     "t": "India firmly ahead, Sri Lanka's tail holds on! Harsha Bhogle reviews"
+    },
     {
      "yt": "EhCyOEMtpU0",
      "t": "India surge past 500 as Jurel hits ton; Harsha Bhogle reviews Day 2"
@@ -75,10 +79,6 @@
     {
      "yt": "s32dderH8rc",
      "t": "Why is Pakistan's Test cricket falling apart?"
-    },
-    {
-     "yt": "7EiUmI_t1jk",
-     "t": "Notes from Nets: Jaiswal tackles weakness"
     }
    ]
   },
