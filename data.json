@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T03:34:53Z",
+ "updated": "2026-08-25T04:20:17Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4240,7 +4240,7 @@
   {
    "id": "espn_1544002",
    "eventId": "1544002",
-   "date": "2026-08-23T04:30Z",
+   "date": "2026-08-23T04:15Z",
    "gender": "men",
    "format": "Test",
    "series": "India tour of Sri Lanka 2026",
@@ -4249,12 +4249,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "8/2 (3 ov)",
+     "score": "20/2 (4 ov)",
      "winner": false
     },
     {
@@ -4264,7 +4264,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 495 runs",
+   "result": "Sri Lanka trail by 483 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4414,7 +4414,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "8/2 (3.0 ov)",
+     "total": "20/2 (4.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4424,8 +4424,8 @@
       ],
       [
        "Kamil Mishara",
-       5,
-       5,
+       14,
+       10,
        "not out"
       ],
       [
@@ -4433,10 +4433,15 @@
        2,
        7,
        "lbw"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       3,
+       1,
+       "not out"
       ]
      ],
      "dnb": [
-      "Pasindu Sooriyabandara",
       "Kamindu Mendis",
       "Dhananjaya de Silva",
       "Sonal Dinusha",
@@ -4460,8 +4465,8 @@
       ],
       [
        "Prasidh Krishna",
-       "1",
-       1,
+       "2",
+       13,
        1
       ]
      ]
