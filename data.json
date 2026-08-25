@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T07:12:55Z",
+ "updated": "2026-08-25T08:00:45Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,12 +4249,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Lunch",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "130/4 (32 ov)",
+     "score": "143/5 (36.5 ov)",
      "winner": false
     },
     {
@@ -4264,7 +4264,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 373 runs",
+   "result": "Sri Lanka trail by 360 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4414,7 +4414,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "130/4 (32.0 ov)",
+     "total": "143/5 (36.4 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4436,8 +4436,8 @@
       ],
       [
        "Pasindu Sooriyabandara",
-       65,
-       93,
+       73,
+       108,
        "not out"
       ],
       [
@@ -4448,13 +4448,18 @@
       ],
       [
        "Dhananjaya de Silva",
-       4,
-       6,
+       8,
+       14,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       1,
+       5,
        "not out"
       ]
      ],
      "dnb": [
-      "Sonal Dinusha",
       "Niroshan Dickwella",
       "Keshara Nuwantha",
       "Lahiru Kumara",
@@ -4475,9 +4480,9 @@
       ],
       [
        "Manav Suthar",
-       "6",
-       38,
-       1
+       "8.4",
+       46,
+       2
       ],
       [
        "Mohammed Siraj",
@@ -4487,8 +4492,8 @@
       ],
       [
        "Prasidh Krishna",
-       "9",
-       35,
+       "11",
+       40,
        3
       ]
      ]
@@ -6801,7 +6806,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "bat": [
      {
       "no": "1",
