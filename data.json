@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T08:55:07Z",
+ "updated": "2026-08-25T09:30:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4254,7 +4254,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "173/7 (47.2 ov)",
+     "score": "203/7 (57.5 ov)",
      "winner": false
     },
     {
@@ -4264,7 +4264,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 330 runs",
+   "result": "Sri Lanka trail by 300 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4414,7 +4414,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "173/7 (47.2 ov)",
+     "total": "203/7 (57.3 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4454,8 +4454,8 @@
       ],
       [
        "Sonal Dinusha",
-       22,
-       38,
+       39,
+       64,
        "not out"
       ],
       [
@@ -4466,8 +4466,8 @@
       ],
       [
        "Keshara Nuwantha",
-       0,
-       5,
+       13,
+       39,
        "not out"
       ]
      ],
@@ -4478,26 +4478,26 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "6",
-       16,
+       "11",
+       25,
        1
       ],
       [
        "Saransh Jain",
-       "7",
-       21,
+       "10",
+       36,
        0
       ],
       [
        "Manav Suthar",
-       "12",
-       59,
+       "12.3",
+       60,
        2
       ],
       [
        "Mohammed Siraj",
-       "9.2",
-       28,
+       "11",
+       33,
        1
       ],
       [
