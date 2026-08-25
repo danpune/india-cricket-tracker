@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25T06:18:01Z",
+ "updated": "2026-08-25T07:12:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4249,12 +4249,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Lunch",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "119/3 (28.5 ov)",
+     "score": "130/4 (32 ov)",
      "winner": false
     },
     {
@@ -4264,7 +4264,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 385 runs",
+   "result": "Sri Lanka trail by 373 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4414,7 +4414,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "118/3 (28.4 ov)",
+     "total": "130/4 (32.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4436,19 +4436,24 @@
       ],
       [
        "Pasindu Sooriyabandara",
-       59,
-       83,
+       65,
+       93,
        "not out"
       ],
       [
        "Kamindu Mendis",
-       30,
-       54,
+       32,
+       58,
+       "c"
+      ],
+      [
+       "Dhananjaya de Silva",
+       4,
+       6,
        "not out"
       ]
      ],
      "dnb": [
-      "Dhananjaya de Silva",
       "Sonal Dinusha",
       "Niroshan Dickwella",
       "Keshara Nuwantha",
@@ -4464,14 +4469,14 @@
       ],
       [
        "Saransh Jain",
-       "6",
-       17,
+       "7",
+       21,
        0
       ],
       [
        "Manav Suthar",
-       "5.4",
-       36,
+       "6",
+       38,
        1
       ],
       [
@@ -4482,9 +4487,9 @@
       ],
       [
        "Prasidh Krishna",
-       "7",
-       29,
-       2
+       "9",
+       35,
+       3
       ]
      ]
     }
