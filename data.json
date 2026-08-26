@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T10:19:11Z",
+ "updated": "2026-08-26T10:55:17Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3809,7 +3809,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 218/5 (61.5 ov) (f/o)",
+     "score": "290 & 225/6 (70.2 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka lead by 5 runs",
+   "result": "Sri Lanka lead by 12 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "218/5 (61.5 ov)",
+     "total": "225/6 (70.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4108,52 +4108,57 @@
       ],
       [
        "Sonal Dinusha",
-       2,
        6,
+       31,
        "not out"
       ],
       [
        "Niroshan Dickwella",
        6,
-       4,
+       12,
+       "lbw"
+      ],
+      [
+       "Keshara Nuwantha",
+       1,
+       19,
        "not out"
       ]
      ],
      "dnb": [
       "Prabath Jayasuriya",
-      "Keshara Nuwantha",
       "Lahiru Kumara",
       "Asitha Fernando"
      ],
      "bowl": [
       [
        "Ravindra Jadeja",
-       "15",
-       43,
+       "17",
+       46,
        1
       ],
       [
        "Saransh Jain",
-       "14",
-       50,
-       0
+       "16.1",
+       53,
+       1
       ],
       [
        "Manav Suthar",
-       "17",
+       "18",
        81,
        2
       ],
       [
        "Mohammed Siraj",
-       "7.4",
+       "9",
        11,
        1
       ],
       [
        "Prasidh Krishna",
-       "8",
-       30,
+       "10",
+       31,
        1
       ]
      ]
