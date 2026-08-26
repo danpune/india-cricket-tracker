@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T10:55:17Z",
+ "updated": "2026-08-26T11:25:29Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3804,12 +3804,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 225/6 (70.2 ov) (f/o)",
+     "score": "290 & 229/6 (72.4 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka lead by 12 runs",
+   "result": "Sri Lanka lead by 16 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "225/6 (70.0 ov)",
+     "total": "229/6 (72.4 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4108,8 +4108,8 @@
       ],
       [
        "Sonal Dinusha",
-       6,
-       31,
+       7,
+       37,
        "not out"
       ],
       [
@@ -4120,8 +4120,8 @@
       ],
       [
        "Keshara Nuwantha",
-       1,
-       19,
+       3,
+       29,
        "not out"
       ]
      ],
@@ -4133,14 +4133,14 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "17",
-       46,
+       "18",
+       48,
        1
       ],
       [
        "Saransh Jain",
-       "16.1",
-       53,
+       "17.4",
+       55,
        1
       ],
       [
