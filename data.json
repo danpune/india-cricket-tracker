@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T04:21:22Z",
+ "updated": "2026-08-26T05:04:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3809,7 +3809,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "273/8 (84.4 ov)",
+     "score": "290 & 3/0 (1.3 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 236 runs",
+   "result": "Sri Lanka trail by 210 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -3969,7 +3969,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "267/8 (84.3 ov)",
+     "total": "290 (89.4 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4009,9 +4009,9 @@
       ],
       [
        "Sonal Dinusha",
-       87,
-       140,
-       "not out"
+       103,
+       162,
+       "c"
       ],
       [
        "Niroshan Dickwella",
@@ -4027,14 +4027,18 @@
       ],
       [
        "Lahiru Kumara",
-       8,
-       52,
+       12,
+       58,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       1,
+       4,
        "not out"
       ]
      ],
-     "dnb": [
-      "Asitha Fernando"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Ravindra Jadeja",
@@ -4044,14 +4048,14 @@
       ],
       [
        "Saransh Jain",
-       "18.3",
-       53,
-       0
+       "20.4",
+       69,
+       2
       ],
       [
        "Manav Suthar",
-       "21",
-       83,
+       "22",
+       85,
        3
       ],
       [
@@ -4062,9 +4066,52 @@
       ],
       [
        "Prasidh Krishna",
-       "14",
-       47,
+       "16",
+       52,
        3
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "3/0 (1.3 ov)",
+     "bat": [
+      [
+       "Lahiru Udara",
+       3,
+       7,
+       "not out"
+      ],
+      [
+       "Kamil Mishara",
+       0,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prabath Jayasuriya",
+      "Pasindu Sooriyabandara",
+      "Kamindu Mendis",
+      "Dhananjaya de Silva",
+      "Sonal Dinusha",
+      "Niroshan Dickwella",
+      "Keshara Nuwantha",
+      "Lahiru Kumara",
+      "Asitha Fernando"
+     ],
+     "bowl": [
+      [
+       "Mohammed Siraj",
+       "0.3",
+       0,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "1",
+       3,
+       0
       ]
      ]
     }
