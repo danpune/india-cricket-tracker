@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T08:57:45Z",
+ "updated": "2026-08-26T09:44:53Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3804,12 +3804,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Tea",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 185/3 (47.1 ov) (f/o)",
+     "score": "290 & 199/3 (56 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 28 runs",
+   "result": "Sri Lanka trail by 14 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "185/3 (47.1 ov)",
+     "total": "199/3 (56.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4090,8 +4090,8 @@
       ],
       [
        "Pasindu Sooriyabandara",
-       86,
-       128,
+       90,
+       157,
        "not out"
       ],
       [
@@ -4102,8 +4102,8 @@
       ],
       [
        "Dhananjaya de Silva",
-       4,
-       11,
+       14,
+       35,
        "not out"
       ]
      ],
@@ -4118,8 +4118,8 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "11",
-       34,
+       "15",
+       43,
        1
       ],
       [
@@ -4130,14 +4130,14 @@
       ],
       [
        "Manav Suthar",
-       "12",
-       65,
+       "15",
+       69,
        0
       ],
       [
        "Mohammed Siraj",
-       "3.1",
-       7,
+       "5",
+       8,
        1
       ],
       [
