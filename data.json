@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T05:04:10Z",
+ "updated": "2026-08-26T05:45:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3809,7 +3809,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 3/0 (1.3 ov) (f/o)",
+     "score": "290 & 36/1 (10.3 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 210 runs",
+   "result": "Sri Lanka trail by 182 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,24 +4074,29 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "3/0 (1.3 ov)",
+     "total": "31/1 (10.1 ov)",
      "bat": [
       [
        "Lahiru Udara",
        3,
-       7,
-       "not out"
+       15,
+       "c"
       ],
       [
        "Kamil Mishara",
-       0,
-       2,
+       15,
+       25,
+       "not out"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       13,
+       21,
        "not out"
       ]
      ],
      "dnb": [
       "Prabath Jayasuriya",
-      "Pasindu Sooriyabandara",
       "Kamindu Mendis",
       "Dhananjaya de Silva",
       "Sonal Dinusha",
@@ -4102,15 +4107,21 @@
      ],
      "bowl": [
       [
-       "Mohammed Siraj",
-       "0.3",
-       0,
+       "Manav Suthar",
+       "3.1",
+       17,
        0
       ],
       [
+       "Mohammed Siraj",
+       "3",
+       7,
+       1
+      ],
+      [
        "Prasidh Krishna",
-       "1",
-       3,
+       "4",
+       7,
        0
       ]
      ]
