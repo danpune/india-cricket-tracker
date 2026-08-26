@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T07:13:55Z",
+ "updated": "2026-08-26T08:02:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3809,7 +3809,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 84/2 (22.4 ov) (f/o)",
+     "score": "290 & 135/2 (36.2 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 129 runs",
+   "result": "Sri Lanka trail by 78 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "84/2 (22.5 ov)",
+     "total": "135/2 (36.2 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4090,14 +4090,14 @@
       ],
       [
        "Pasindu Sooriyabandara",
-       35,
-       52,
+       62,
+       93,
        "not out"
       ],
       [
        "Kamindu Mendis",
-       11,
-       30,
+       33,
+       73,
        "not out"
       ]
      ],
@@ -4113,20 +4113,20 @@
      "bowl": [
       [
        "Ravindra Jadeja",
-       "5.4",
-       14,
+       "10",
+       31,
        1
       ],
       [
        "Saransh Jain",
-       "6",
-       24,
+       "13",
+       46,
        0
       ],
       [
        "Manav Suthar",
-       "4",
-       29,
+       "6.2",
+       41,
        0
       ],
       [
@@ -5693,31 +5693,31 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-08-18",
+    "updated": "2026-08-25",
     "bat": [
      {
       "no": "1",
       "name": "Harry Brook",
       "team": "England",
-      "rating": "852"
+      "rating": "874"
      },
      {
       "no": "2",
       "name": "Joe Root",
       "team": "England",
-      "rating": "840"
+      "rating": "850"
      },
      {
       "no": "3",
       "name": "Steve Smith",
       "team": "Australia",
-      "rating": "833"
+      "rating": "840"
      },
      {
       "no": "4",
       "name": "Travis Head",
       "team": "Australia",
-      "rating": "819"
+      "rating": "811"
      },
      {
       "no": "5",
@@ -5727,95 +5727,95 @@
      },
      {
       "no": "6",
-      "name": "Kamindu Mendis",
-      "team": "Sri Lanka",
-      "rating": "744"
-     },
-     {
-      "no": "7",
-      "name": "Shubman Gill",
-      "team": "India",
-      "rating": "743"
-     },
-     {
-      "no": "8",
       "name": "Rachin Ravindra",
       "team": "New Zealand",
       "rating": "740"
      },
      {
-      "no": "9",
-      "name": "Yashasvi Jaiswal",
+      "no": "7",
+      "name": "Rishabh Pant",
       "team": "India",
-      "rating": "733"
+      "rating": "711"
+     },
+     {
+      "no": "=",
+      "name": "Shubman Gill",
+      "team": "India",
+      "rating": "711"
+     },
+     {
+      "no": "9",
+      "name": "Daryl Mitchell",
+      "team": "New Zealand",
+      "rating": "710"
      },
      {
       "no": "10",
       "name": "Babar Azam",
       "team": "Pakistan",
-      "rating": "716"
+      "rating": "709"
      }
     ],
     "bowl": [
      {
       "no": "1",
-      "name": "Jasprit Bumrah",
-      "team": "India",
-      "rating": "870"
+      "name": "Mitchell Starc",
+      "team": "Australia",
+      "rating": "872"
      },
      {
       "no": "2",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "862"
+     },
+     {
+      "no": "3",
       "name": "Matt Henry",
       "team": "New Zealand",
       "rating": "861"
      },
      {
-      "no": "3",
-      "name": "Mitchell Starc",
+      "no": "4",
+      "name": "Pat Cummins",
       "team": "Australia",
-      "rating": "826"
+      "rating": "841"
      },
      {
-      "no": "4",
+      "no": "5",
       "name": "Marco Jansen",
       "team": "South Africa",
       "rating": "825"
      },
      {
-      "no": "5",
-      "name": "Pat Cummins",
-      "team": "Australia",
-      "rating": "818"
-     },
-     {
       "no": "6",
-      "name": "Scott Boland",
-      "team": "Australia",
-      "rating": "812"
-     },
-     {
-      "no": "7",
       "name": "Kagiso Rabada",
       "team": "South Africa",
       "rating": "807"
      },
      {
+      "no": "7",
+      "name": "Scott Boland",
+      "team": "Australia",
+      "rating": "804"
+     },
+     {
       "no": "8",
       "name": "Noman Ali",
       "team": "Pakistan",
-      "rating": "800"
+      "rating": "792"
      },
      {
       "no": "9",
       "name": "Josh Hazlewood",
       "team": "Australia",
-      "rating": "795"
+      "rating": "783"
      },
      {
       "no": "10",
-      "name": "Gus Atkinson",
-      "team": "England",
-      "rating": "729"
+      "name": "Nathan Lyon",
+      "team": "Australia",
+      "rating": "731"
      }
     ]
    },
@@ -6071,7 +6071,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-08-18",
+    "updated": "2026-08-25",
     "bat": [
      {
       "no": "1",
