@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T09:44:53Z",
+ "updated": "2026-08-26T10:19:11Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3804,12 +3804,12 @@
    "venue": "Sinhalese Sports Club Ground, Colombo",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Tea",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 199/3 (56 ov) (f/o)",
+     "score": "290 & 218/5 (61.5 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,7 +3819,7 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka trail by 14 runs",
+   "result": "Sri Lanka lead by 5 runs",
    "india": "",
    "xi": {
     "Sri Lanka": [
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "199/3 (56.0 ov)",
+     "total": "218/5 (61.5 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4090,9 +4090,9 @@
       ],
       [
        "Pasindu Sooriyabandara",
-       90,
-       157,
-       "not out"
+       92,
+       173,
+       "st"
       ],
       [
        "Kamindu Mendis",
@@ -4102,15 +4102,25 @@
       ],
       [
        "Dhananjaya de Silva",
-       14,
-       35,
+       23,
+       44,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       2,
+       6,
+       "not out"
+      ],
+      [
+       "Niroshan Dickwella",
+       6,
+       4,
        "not out"
       ]
      ],
      "dnb": [
       "Prabath Jayasuriya",
-      "Sonal Dinusha",
-      "Niroshan Dickwella",
       "Keshara Nuwantha",
       "Lahiru Kumara",
       "Asitha Fernando"
@@ -4124,20 +4134,20 @@
       ],
       [
        "Saransh Jain",
-       "13",
-       46,
+       "14",
+       50,
        0
       ],
       [
        "Manav Suthar",
-       "15",
-       69,
-       0
+       "17",
+       81,
+       2
       ],
       [
        "Mohammed Siraj",
-       "5",
-       8,
+       "7.4",
+       11,
        1
       ],
       [
