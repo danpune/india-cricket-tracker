@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T11:09:26Z",
+ "updated": "2026-08-27T21:00:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3809,7 +3809,7 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 429/9 (154 ov) (f/o)",
+     "score": "290 & 429/9d (154 ov) (f/o)",
      "winner": false
     },
     {
@@ -3821,34 +3821,6 @@
    ],
    "result": "Match drawn",
    "india": "nr",
-   "xi": {
-    "Sri Lanka": [
-     "Lahiru Udara",
-     "Kamil Mishara",
-     "Prabath Jayasuriya",
-     "Pasindu Sooriyabandara",
-     "Kamindu Mendis",
-     "Dhananjaya de Silva (c)",
-     "Sonal Dinusha",
-     "Niroshan Dickwella",
-     "Keshara Nuwantha",
-     "Lahiru Kumara",
-     "Asitha Fernando"
-    ],
-    "India": [
-     "Yashasvi Jaiswal",
-     "KL Rahul",
-     "Devdutt Padikkal",
-     "Shubman Gill (c)",
-     "Rishabh Pant",
-     "Ravindra Jadeja",
-     "Dhruv Jurel",
-     "Saransh Jain",
-     "Manav Suthar",
-     "Mohammed Siraj",
-     "Prasidh Krishna"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -5706,7 +5678,7 @@
       "no": "4",
       "name": "India",
       "team": "India",
-      "rating": "104"
+      "rating": "105"
      },
      {
       "no": "5",
@@ -5724,7 +5696,7 @@
       "no": "7",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "76"
+      "rating": "75"
      },
      {
       "no": "8",
