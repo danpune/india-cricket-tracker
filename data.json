@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T01:03:14Z",
+ "updated": "2026-08-27T11:09:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -3802,14 +3802,14 @@
    "seriesId": "24567",
    "matchNo": "2nd Test",
    "venue": "Sinhalese Sports Club Ground, Colombo",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "290 & 229/6 (72.4 ov) (f/o)",
+     "score": "290 & 429/9 (154 ov) (f/o)",
      "winner": false
     },
     {
@@ -3819,8 +3819,8 @@
      "winner": false
     }
    ],
-   "result": "Sri Lanka lead by 16 runs",
-   "india": "",
+   "result": "Match drawn",
+   "india": "nr",
    "xi": {
     "Sri Lanka": [
      "Lahiru Udara",
@@ -4074,7 +4074,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "229/6 (72.4 ov)",
+     "total": "429/9 (154.0 ov)",
      "bat": [
       [
        "Lahiru Udara",
@@ -4108,8 +4108,8 @@
       ],
       [
        "Sonal Dinusha",
-       7,
-       37,
+       133,
+       264,
        "not out"
       ],
       [
@@ -4120,45 +4120,77 @@
       ],
       [
        "Keshara Nuwantha",
-       3,
-       29,
+       46,
+       150,
+       "c"
+      ],
+      [
+       "Prabath Jayasuriya",
+       2,
+       28,
+       "c"
+      ],
+      [
+       "Lahiru Kumara",
+       12,
+       90,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       0,
+       24,
        "not out"
       ]
      ],
-     "dnb": [
-      "Prabath Jayasuriya",
-      "Lahiru Kumara",
-      "Asitha Fernando"
-     ],
+     "dnb": [],
      "bowl": [
       [
+       "Yashasvi Jaiswal",
+       "1",
+       9,
+       0
+      ],
+      [
+       "Shubman Gill",
+       "2",
+       8,
+       0
+      ],
+      [
        "Ravindra Jadeja",
-       "18",
-       48,
-       1
+       "38.3",
+       94,
+       3
+      ],
+      [
+       "Dhruv Jurel",
+       "0.6",
+       1,
+       0
       ],
       [
        "Saransh Jain",
-       "17.4",
-       55,
+       "37",
+       98,
        1
       ],
       [
        "Manav Suthar",
-       "18",
-       81,
-       2
+       "41",
+       121,
+       3
       ],
       [
        "Mohammed Siraj",
-       "9",
-       11,
+       "15",
+       26,
        1
       ],
       [
        "Prasidh Krishna",
-       "10",
-       31,
+       "18.3",
+       57,
        1
       ]
      ]

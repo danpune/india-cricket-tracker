@@ -32222,6 +32222,375 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1544002",
+   "date": "2026-08-23",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of Sri Lanka 2026",
+   "matchNo": "2nd Test",
+   "venue": "Sinhalese Sports Club Ground, Colombo",
+   "city": "",
+   "teams": [
+    {
+     "name": "Sri Lanka",
+     "score": "290 & 429/9 (154 ov) (f/o)"
+    },
+    {
+     "name": "India",
+     "score": "503/9d"
+    }
+   ],
+   "result": "Match drawn",
+   "india": "nr",
+   "innings": [
+    {
+     "t": "India",
+     "total": "503/9 (138.0 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       45,
+       53,
+       "not out"
+      ],
+      [
+       "KL Rahul",
+       18,
+       33,
+       "c"
+      ],
+      [
+       "Devdutt Padikkal",
+       117,
+       193,
+       "not out"
+      ],
+      [
+       "Shubman Gill",
+       50,
+       108,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       63,
+       89,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       43,
+       83,
+       "not out"
+      ],
+      [
+       "Dhruv Jurel",
+       115,
+       177,
+       "not out"
+      ],
+      [
+       "Saransh Jain",
+       6,
+       8,
+       "c"
+      ],
+      [
+       "Manav Suthar",
+       18,
+       51,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       3,
+       29,
+       "lbw"
+      ],
+      [
+       "Prasidh Krishna",
+       4,
+       7,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Kamil Mishara",
+       "4",
+       16,
+       0
+      ],
+      [
+       "Prabath Jayasuriya",
+       "42",
+       132,
+       2
+      ],
+      [
+       "Dhananjaya de Silva",
+       "2",
+       8,
+       0
+      ],
+      [
+       "Sonal Dinusha",
+       "3",
+       8,
+       0
+      ],
+      [
+       "Keshara Nuwantha",
+       "38",
+       154,
+       2
+      ],
+      [
+       "Lahiru Kumara",
+       "20",
+       68,
+       1
+      ],
+      [
+       "Asitha Fernando",
+       "29",
+       106,
+       4
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "290 (89.4 ov)",
+     "bat": [
+      [
+       "Lahiru Udara",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Kamil Mishara",
+       19,
+       25,
+       "c"
+      ],
+      [
+       "Prabath Jayasuriya",
+       2,
+       7,
+       "lbw"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       80,
+       133,
+       "not out"
+      ],
+      [
+       "Kamindu Mendis",
+       32,
+       58,
+       "c"
+      ],
+      [
+       "Dhananjaya de Silva",
+       8,
+       14,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       103,
+       162,
+       "c"
+      ],
+      [
+       "Niroshan Dickwella",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Keshara Nuwantha",
+       18,
+       74,
+       "c"
+      ],
+      [
+       "Lahiru Kumara",
+       12,
+       58,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       1,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "20",
+       45,
+       1
+      ],
+      [
+       "Saransh Jain",
+       "20.4",
+       69,
+       2
+      ],
+      [
+       "Manav Suthar",
+       "22",
+       85,
+       3
+      ],
+      [
+       "Mohammed Siraj",
+       "11",
+       33,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "16",
+       52,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "429/9 (154.0 ov)",
+     "bat": [
+      [
+       "Lahiru Udara",
+       3,
+       15,
+       "c"
+      ],
+      [
+       "Kamil Mishara",
+       32,
+       39,
+       "lbw"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       92,
+       173,
+       "st"
+      ],
+      [
+       "Kamindu Mendis",
+       55,
+       92,
+       "c"
+      ],
+      [
+       "Dhananjaya de Silva",
+       23,
+       44,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       133,
+       264,
+       "not out"
+      ],
+      [
+       "Niroshan Dickwella",
+       6,
+       12,
+       "lbw"
+      ],
+      [
+       "Keshara Nuwantha",
+       46,
+       150,
+       "c"
+      ],
+      [
+       "Prabath Jayasuriya",
+       2,
+       28,
+       "c"
+      ],
+      [
+       "Lahiru Kumara",
+       12,
+       90,
+       "c"
+      ],
+      [
+       "Asitha Fernando",
+       0,
+       24,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Yashasvi Jaiswal",
+       "1",
+       9,
+       0
+      ],
+      [
+       "Shubman Gill",
+       "2",
+       8,
+       0
+      ],
+      [
+       "Ravindra Jadeja",
+       "38.3",
+       94,
+       3
+      ],
+      [
+       "Dhruv Jurel",
+       "0.6",
+       1,
+       0
+      ],
+      [
+       "Saransh Jain",
+       "37",
+       98,
+       1
+      ],
+      [
+       "Manav Suthar",
+       "41",
+       121,
+       3
+      ],
+      [
+       "Mohammed Siraj",
+       "15",
+       26,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "18.3",
+       57,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
