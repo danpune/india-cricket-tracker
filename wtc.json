@@ -4,13 +4,13 @@
  "finalNote": "Top 2 play the final in 2027",
  "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
- "verified": "2026-08-24",
+ "verified": "2026-08-27",
  "teams": 9,
  "india": {
   "rank": 5,
-  "played": 10,
-  "points": 64,
-  "pct": 53.33
+  "played": 11,
+  "points": 68,
+  "pct": 51.52
  },
  "top": [
   {
@@ -77,24 +77,24 @@
    "rank": 5,
    "abbr": "IND",
    "name": "India",
-   "played": 10,
+   "played": 11,
    "won": 5,
    "lost": 4,
-   "drawn": 1,
+   "drawn": 2,
    "deducted": 0,
-   "points": 64,
-   "pct": 53.33
+   "points": 68,
+   "pct": 51.52
   },
   {
    "rank": 6,
    "abbr": "SL",
    "name": "Sri Lanka",
-   "played": 5,
+   "played": 6,
    "won": 1,
    "lost": 2,
-   "drawn": 2,
+   "drawn": 3,
    "deducted": 0,
-   "points": 20,
+   "points": 24,
    "pct": 33.33
   },
   {
