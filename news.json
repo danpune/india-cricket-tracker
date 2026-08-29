@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Gurnoor Brar added to North Zone squad for Duleep semi-finals",
+   "u": "https://www.cricinfo.com/ci/content/story/1552096.html?ex_cid=OTC-RSS",
+   "d": "Sat, 29 Aug 2026"
+  },
+  {
    "t": "Dinusha's defiant 133* earns Sri Lanka epic draw in Colombo",
    "u": "https://www.cricinfo.com/ci/content/story/1551637.html?ex_cid=OTC-RSS",
    "d": "Thu, 27 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "Jaiswal and Asitha penalised after on-field confrontation in Colombo Test",
    "u": "https://www.cricinfo.com/ci/content/story/1551311.html?ex_cid=OTC-RSS",
    "d": "Mon, 24 Aug 2026"
-  },
-  {
-   "t": "Padikkal century puts India ahead on hard-fought day",
-   "u": "https://www.cricinfo.com/ci/content/story/1551233.html?ex_cid=OTC-RSS",
-   "d": "Sun, 23 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "P4qPix9P7Ls",
+     "t": "Key lessons for India from Sri Lanka? Harsha Bhogle answers"
+    },
     {
      "yt": "cDha2XjLMLg",
      "t": "Padikkal to be tested vs pace but has ticked boxes: Harsha Bhogle"
@@ -75,10 +79,6 @@
     {
      "yt": "ONI6SPZzdNs",
      "t": "India firmly ahead, Sri Lanka's tail holds on! Harsha Bhogle reviews"
-    },
-    {
-     "yt": "EhCyOEMtpU0",
-     "t": "India surge past 500 as Jurel hits ton; Harsha Bhogle reviews Day 2"
     }
    ]
   },
