@@ -132,6 +132,14 @@ LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
 DESCRIPTION:West Indies tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529234@india-cricket-tracker
+DTSTART:20261017T133000Z
+DTEND:20261017T173000Z
+SUMMARY:India v West Indies 🏏 5th T20I
+LOCATION:M.Chinnaswamy Stadium  Bengaluru
+DESCRIPTION:West Indies tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1529244@india-cricket-tracker
 DTSTART:20270121T040000Z
 DTEND:20270121T110000Z
