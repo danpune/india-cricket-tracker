@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1548897@india-cricket-tracker
+DTSTART:20260903T143000Z
+DTEND:20260903T183000Z
+SUMMARY:Hong Kong v India 🏏 7th Match Group A
+LOCATION:Dubai International Cricket Stadium
+DESCRIPTION:Women's Twenty20 Asia Cup
+END:VEVENT
+END:VCALENDAR

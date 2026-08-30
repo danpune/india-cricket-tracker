@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1548899@india-cricket-tracker
+DTSTART:20260905T143000Z
+DTEND:20260905T183000Z
+SUMMARY:India v Pakistan 🏏 9th Match Group A
+LOCATION:Dubai International Cricket Stadium
+DESCRIPTION:Women's Twenty20 Asia Cup
+END:VEVENT
+END:VCALENDAR
