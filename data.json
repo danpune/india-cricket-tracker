@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T15:02:58Z",
+ "updated": "2026-08-30T18:35:04Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4179,56 +4179,57 @@
    "seriesId": "8659",
    "matchNo": "3rd Match, Group A",
    "venue": "Dubai International Cricket Stadium",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "84/1 (8.3/20 ov)",
-     "winner": false
+     "score": "159/9",
+     "winner": true
     },
     {
      "name": "Thailand Women",
      "abbr": "THA-W",
-     "score": "",
+     "score": "65 (16.1/20 ov, target 160)",
      "winner": false
     }
    ],
-   "result": "THA Women won toss & fielded",
-   "india": "",
+   "result": "IND Women won by 94 runs",
+   "india": "won",
    "xi": {
     "India Women": [
      "Smriti Mandhana",
      "Shafali Verma",
      "Pratika Rawal",
      "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
      "Bharti Fulmali",
+     "Richa Ghosh",
      "Deepti Sharma",
      "Prema Rawat",
+     "Nandani Sharma",
      "Shree Charani",
-     "Kranti Gaud",
-     "Nandani Sharma"
+     "Kranti Gaud"
     ],
     "Thailand Women": [
-     "Nannapat Koncharoenkai",
-     "Chanida Sutthiruang",
-     "Suleeporn Laomi",
-     "Onnicha Kamchomphu",
-     "Thipatcha Putthawong (c)",
+     "Natthakan Chantham",
      "Phannita Maya",
+     "Nannapat Koncharoenkai",
      "Aphisara Suwanchonrathi",
-     "Sunida Chaturongrattana",
+     "Chanida Sutthiruang",
+     "Naomi Hamilton",
      "Nannaphat Chaihan",
-     "Naomi Hamilton"
+     "Suleeporn Laomi",
+     "Sunida Chaturongrattana",
+     "Onnicha Kamchomphu",
+     "Thipatcha Putthawong (c)"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "84/1 (8.1 ov)",
+     "total": "159/9 (20.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
@@ -4238,57 +4239,207 @@
       ],
       [
        "Shafali Verma",
-       43,
-       22,
-       "not out"
+       64,
+       36,
+       "c"
       ],
       [
        "Pratika Rawal",
        22,
-       17,
+       18,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       5,
+       9,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       13,
+       14,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Deepti Sharma",
+       5,
+       7,
+       "run out"
+      ],
+      [
+       "Prema Rawat",
+       6,
+       5,
+       "st"
+      ],
+      [
+       "Nandani Sharma",
+       1,
+       4,
+       "not out"
+      ],
+      [
+       "Shree Charani",
+       6,
+       8,
+       "not out"
+      ],
+      [
+       "Kranti Gaud",
+       15,
+       8,
        "not out"
       ]
      ],
-     "dnb": [
-      "Harmanpreet Kaur",
-      "Richa Ghosh",
-      "Bharti Fulmali",
-      "Deepti Sharma",
-      "Prema Rawat",
-      "Shree Charani",
-      "Kranti Gaud",
-      "Nandani Sharma"
-     ],
+     "dnb": [],
      "bowl": [
       [
-       "Suleeporn Laomi",
-       "0.1",
-       1,
+       "Phannita Maya",
+       "3",
+       31,
        0
       ],
       [
+       "Chanida Sutthiruang",
+       "3",
+       14,
+       1
+      ],
+      [
+       "Suleeporn Laomi",
+       "4",
+       26,
+       3
+      ],
+      [
+       "Sunida Chaturongrattana",
+       "3",
+       31,
+       2
+      ],
+      [
        "Onnicha Kamchomphu",
-       "2",
-       9,
+       "3",
+       19,
        0
       ],
       [
        "Thipatcha Putthawong",
-       "2",
-       22,
-       0
+       "4",
+       37,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Thailand Women",
+     "total": "65 (16.1 ov)",
+     "bat": [
+      [
+       "Natthakan Chantham",
+       4,
+       5,
+       "not out"
       ],
       [
        "Phannita Maya",
-       "2",
-       25,
-       0
+       6,
+       8,
+       "c"
+      ],
+      [
+       "Nannapat Koncharoenkai",
+       41,
+       48,
+       "c"
+      ],
+      [
+       "Aphisara Suwanchonrathi",
+       1,
+       6,
+       "lbw"
+      ],
+      [
+       "Chanida Sutthiruang",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Naomi Hamilton",
+       1,
+       3,
+       "lbw"
+      ],
+      [
+       "Nannaphat Chaihan",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Suleeporn Laomi",
+       6,
+       15,
+       "c"
       ],
       [
        "Sunida Chaturongrattana",
-       "2",
-       27,
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Onnicha Kamchomphu",
+       0,
+       0,
+       "run out"
+      ],
+      [
+       "Thipatcha Putthawong",
+       0,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Deepti Sharma",
+       "1.1",
+       0,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       11,
        0
+      ],
+      [
+       "Nandani Sharma",
+       "4",
+       18,
+       3
+      ],
+      [
+       "Shree Charani",
+       "3",
+       10,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "4",
+       26,
+       1
       ]
      ]
     }
