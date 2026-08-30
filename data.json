@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T10:40:12Z",
+ "updated": "2026-08-30T15:02:58Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4179,14 +4179,14 @@
    "seriesId": "8659",
    "matchNo": "3rd Match, Group A",
    "venue": "Dubai International Cricket Stadium",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "84/1 (8.3/20 ov)",
      "winner": false
     },
     {
@@ -4196,8 +4196,103 @@
      "winner": false
     }
    ],
-   "result": "Starts at 18:30 local time",
-   "india": ""
+   "result": "THA Women won toss & fielded",
+   "india": "",
+   "xi": {
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Pratika Rawal",
+     "Harmanpreet Kaur (c)",
+     "Richa Ghosh",
+     "Bharti Fulmali",
+     "Deepti Sharma",
+     "Prema Rawat",
+     "Shree Charani",
+     "Kranti Gaud",
+     "Nandani Sharma"
+    ],
+    "Thailand Women": [
+     "Nannapat Koncharoenkai",
+     "Chanida Sutthiruang",
+     "Suleeporn Laomi",
+     "Onnicha Kamchomphu",
+     "Thipatcha Putthawong (c)",
+     "Phannita Maya",
+     "Aphisara Suwanchonrathi",
+     "Sunida Chaturongrattana",
+     "Nannaphat Chaihan",
+     "Naomi Hamilton"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "84/1 (8.1 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       19,
+       10,
+       "run out"
+      ],
+      [
+       "Shafali Verma",
+       43,
+       22,
+       "not out"
+      ],
+      [
+       "Pratika Rawal",
+       22,
+       17,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Harmanpreet Kaur",
+      "Richa Ghosh",
+      "Bharti Fulmali",
+      "Deepti Sharma",
+      "Prema Rawat",
+      "Shree Charani",
+      "Kranti Gaud",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Suleeporn Laomi",
+       "0.1",
+       1,
+       0
+      ],
+      [
+       "Onnicha Kamchomphu",
+       "2",
+       9,
+       0
+      ],
+      [
+       "Thipatcha Putthawong",
+       "2",
+       22,
+       0
+      ],
+      [
+       "Phannita Maya",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Sunida Chaturongrattana",
+       "2",
+       27,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1548897",
