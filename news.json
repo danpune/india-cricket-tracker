@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Bumrah back in India squad for Afghanistan T20Is",
+   "u": "https://www.cricinfo.com/ci/content/story/1552434.html?ex_cid=OTC-RSS",
+   "d": "Tue, 01 Sep 2026"
+  },
+  {
    "t": "Mayank Agarwal joins Durham for remainder of County Championship",
    "u": "https://www.cricinfo.com/ci/content/story/1552352.html?ex_cid=OTC-RSS",
    "d": "Mon, 31 Aug 2026"
@@ -44,11 +49,6 @@
    "t": "India close in despite Sooriyabandara, Kamindu fifties",
    "u": "https://www.cricinfo.com/ci/content/story/1551507.html?ex_cid=OTC-RSS",
    "d": "Wed, 26 Aug 2026"
-  },
-  {
-   "t": "Starc goes past Bumrah to top Test bowling rankings for the first time",
-   "u": "https://www.cricinfo.com/ci/content/story/1551487.html?ex_cid=OTC-RSS",
-   "d": "Wed, 26 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "bBA6tLda8rE",
+     "t": "Injuries Hit India\u2019s Squad! Bumrah Returns\u2026 Where\u2019s Hardik?"
+    },
     {
      "yt": "P4qPix9P7Ls",
      "t": "Key lessons for India from Sri Lanka? Harsha Bhogle answers"
@@ -75,10 +79,6 @@
     {
      "yt": "aJe964ZnTg4",
      "t": "India closing in on 2-0? Can SL stage a fightback? Harsha Bhogle reviews"
-    },
-    {
-     "yt": "ONI6SPZzdNs",
-     "t": "India firmly ahead, Sri Lanka's tail holds on! Harsha Bhogle reviews"
     }
    ]
   },
