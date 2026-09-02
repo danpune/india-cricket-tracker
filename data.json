@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T20:58:46Z",
+ "updated": "2026-09-02T23:11:42Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4800,6 +4800,36 @@
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539432",
+   "eventId": "1539432",
+   "date": "2026-10-22T07:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "1st T20I",
+   "venue": "Hagley Oval, Christchurch",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
      "score": "",
      "winner": false
     }
