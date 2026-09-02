@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T05:52:43Z",
+ "updated": "2026-09-02T10:31:02Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4444,7 +4444,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 18:30 local time",
    "india": ""
   },
   {
@@ -6030,25 +6030,25 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-08-25",
+    "updated": "2026-09-01",
     "bat": [
      {
       "no": "1",
       "name": "Harry Brook",
       "team": "England",
-      "rating": "874"
+      "rating": "856"
      },
      {
       "no": "2",
-      "name": "Joe Root",
-      "team": "England",
-      "rating": "850"
-     },
-     {
-      "no": "3",
       "name": "Steve Smith",
       "team": "Australia",
       "rating": "840"
+     },
+     {
+      "no": "3",
+      "name": "Joe Root",
+      "team": "England",
+      "rating": "820"
      },
      {
       "no": "4",
@@ -6072,25 +6072,25 @@
       "no": "7",
       "name": "Rishabh Pant",
       "team": "India",
-      "rating": "711"
+      "rating": "713"
      },
      {
-      "no": "=",
-      "name": "Shubman Gill",
-      "team": "India",
-      "rating": "711"
-     },
-     {
-      "no": "9",
+      "no": "8",
       "name": "Daryl Mitchell",
       "team": "New Zealand",
       "rating": "710"
      },
      {
-      "no": "10",
-      "name": "Babar Azam",
-      "team": "Pakistan",
+      "no": "9",
+      "name": "Shubman Gill",
+      "team": "India",
       "rating": "709"
+     },
+     {
+      "no": "10",
+      "name": "Kamindu Mendis",
+      "team": "Sri Lanka",
+      "rating": "706"
      }
     ],
     "bowl": [
@@ -6102,15 +6102,15 @@
      },
      {
       "no": "2",
-      "name": "Jasprit Bumrah",
-      "team": "India",
-      "rating": "862"
-     },
-     {
-      "no": "3",
       "name": "Matt Henry",
       "team": "New Zealand",
       "rating": "861"
+     },
+     {
+      "no": "3",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "853"
      },
      {
       "no": "4",
@@ -6120,39 +6120,39 @@
      },
      {
       "no": "5",
+      "name": "Ollie Robinson",
+      "team": "England",
+      "rating": "831"
+     },
+     {
+      "no": "6",
       "name": "Marco Jansen",
       "team": "South Africa",
       "rating": "825"
      },
      {
-      "no": "6",
+      "no": "7",
       "name": "Kagiso Rabada",
       "team": "South Africa",
       "rating": "807"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Scott Boland",
       "team": "Australia",
       "rating": "804"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Noman Ali",
       "team": "Pakistan",
-      "rating": "792"
-     },
-     {
-      "no": "9",
-      "name": "Josh Hazlewood",
-      "team": "Australia",
-      "rating": "783"
+      "rating": "785"
      },
      {
       "no": "10",
-      "name": "Nathan Lyon",
+      "name": "Josh Hazlewood",
       "team": "Australia",
-      "rating": "731"
+      "rating": "783"
      }
     ]
    },
@@ -6408,7 +6408,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-08-25",
+    "updated": "2026-09-01",
     "bat": [
      {
       "no": "1",
@@ -6430,45 +6430,45 @@
      },
      {
       "no": "4",
+      "name": "Dewald Brevis",
+      "team": "South Africa",
+      "rating": "806"
+     },
+     {
+      "no": "5",
       "name": "Phil Salt",
       "team": "England",
       "rating": "799"
      },
      {
-      "no": "5",
+      "no": "6",
       "name": "Pathum Nissanka",
       "team": "Sri Lanka",
       "rating": "751"
      },
      {
-      "no": "6",
+      "no": "7",
       "name": "Tilak Varma",
       "team": "India",
       "rating": "750"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Jos Buttler",
       "team": "England",
       "rating": "748"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Harry Brook",
       "team": "England",
       "rating": "734"
      },
      {
-      "no": "9",
+      "no": "10",
       "name": "Mitchell Marsh",
       "team": "Australia",
       "rating": "706"
-     },
-     {
-      "no": "10",
-      "name": "Dewald Brevis",
-      "team": "South Africa",
-      "rating": "702"
      }
     ],
     "bowl": [
@@ -6504,18 +6504,12 @@
      },
      {
       "no": "6",
-      "name": "Corbin Bosch",
-      "team": "South Africa",
-      "rating": "669"
-     },
-     {
-      "no": "7",
       "name": "Wanindu Hasaranga",
       "team": "Sri Lanka",
       "rating": "668"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Mujeeb Ur Rahman",
       "team": "Afghanistan",
       "rating": "663"
@@ -6527,9 +6521,15 @@
       "rating": "663"
      },
      {
-      "no": "10",
+      "no": "9",
       "name": "Mohammad Nawaz",
       "team": "Pakistan",
+      "rating": "658"
+     },
+     {
+      "no": "=",
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
       "rating": "658"
      }
     ]
