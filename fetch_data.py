@@ -12,6 +12,7 @@ Fail-safe: if the fetch yields nothing, exits non-zero without touching files.
 import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -296,8 +297,17 @@ def innings_from_summary(d, fmt=""):
     per, team_players = {}, {}
     totals = {}
     is_test = fmt in ("Test", "FC")   # overs are meaningless on a Test total
+    declared = {}          # (team, nth innings for that team) -> True
     for comp in (d.get("header", {}).get("competitions") or [{}])[:1]:
         for c in comp.get("competitors", []):
+            name = c.get("team", {}).get("displayName")
+            # ESPN's own score string already marks declarations — use it rather than
+            # inferring. Guessing "a drawn Test's last innings was declared" is wrong in
+            # the common case (the side batting last simply survives to stumps), and
+            # inventing a "d" is exactly the fabrication this project refuses.
+            for i, seg in enumerate((c.get("score") or "").split("&")):
+                if re.search(r"\d+/\d+\s*d", seg):
+                    declared[(name, i + 1)] = True
             for ls in c.get("linescores", []):
                 r, w, o = ls.get("runs"), ls.get("wickets"), ls.get("overs")
                 if r is None:
@@ -305,7 +315,7 @@ def innings_from_summary(d, fmt=""):
                 t = str(int(r)) if w == 10 else f"{int(r)}/{int(w)}" if w is not None else str(int(r))
                 if o and not is_test:
                     t += f" ({o} ov)"
-                totals[(c.get("team", {}).get("displayName"), int(ls.get("period", 0)))] = t
+                totals[(name, int(ls.get("period", 0)))] = t
     for side in d.get("rosters", []):
         team = side.get("team", {}).get("displayName", "?")
         names = []
@@ -342,17 +352,9 @@ def innings_from_summary(d, fmt=""):
             continue
         batted = {b[1] for b in e["bat"]}
         total = totals.get((e["team"], pd), "")
-        # Tests: a completed innings that isn't 10-down and isn't the last innings of
-        # the match was declared. ESPN gives no flag, so infer it the same way a
-        # scorecard reader would.
-        # a drawn Test's final innings is usually declared too, so don't exclude the
-        # last innings when the match was drawn
-        drawn = "drawn" in (d.get("header", {}).get("competitions") or [{}])[0] \
-            .get("status", {}).get("summary", "").lower()
-        if is_test and total and "/" in total and (pd != order[-1] or drawn):
-            wkts = total.split("/")[1].split(" ")[0]
-            if wkts.isdigit() and int(wkts) < 10:
-                total += "d"
+        nth = sum(1 for q in order if q <= pd and per.get(q, {}).get("team") == e["team"])
+        if is_test and total and "/" in total and declared.get((e["team"], nth)):
+            total += "d"
         innings.append({
             "t": e["team"],
             "total": total,

@@ -356,7 +356,7 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
   .wtab td.wt{white-space:nowrap}
   .wtwrap{padding-left:10px;padding-right:10px}
   .mrow{gap:8px;padding:11px 12px}
-  .mrow .when{width:50px}
+  .mrow .when{width:58px}   /* fits "14:00 IST" on one line */
   .fmt{padding:2px 6px;font-size:10px;letter-spacing:.5px}
   .mrow .right{max-width:42%}
 }
@@ -1047,7 +1047,15 @@ function pollLive(m){
       if(!ev)return;
       var c=ev.competitions[0], st=ev.status.type;
       var by={};
-      c.competitors.forEach(function(t){by[t.team.displayName]=t.score||'';});
+      c.competitors.forEach(function(t){
+        by[t.team.displayName]=t.score||'';
+        /* the scoreboard has no result sentence (only /summary does), but it does have
+           the winner flag — enough to avoid a blank card until the next build */
+        if(String(t.winner).toLowerCase()==='true'&&!m.result){
+          m.result=norm(t.team.displayName)+' won';
+          m.india=norm(t.team.displayName)==='India'?'won':'lost';
+        }
+      });
       var changed=false;
       m.teams.forEach(function(t){
         if(by[t.name]!==undefined&&t.score!==by[t.name]){t.score=by[t.name];changed=true;}
@@ -1055,12 +1063,16 @@ function pollLive(m){
       if(st.detail&&st.detail!==m.statusDetail){m.statusDetail=st.detail;changed=true;}
       LIVE_AT=new Date();
       if(st.state!=='in'){
-        /* record the end ON the match object — render() re-derives `live` from
-           m.state, and data.json can keep saying 'in' for hours (the cron is not
-           punctual), so without this the poller re-arms itself forever. */
+        /* Record the end ON the match object — render() re-derives `live` from m.state,
+           and data.json can keep saying 'in' for hours (the cron is not punctual), so
+           without this the poller re-arms itself forever.
+           Two consecutive readings: one spurious 'post' would otherwise freeze the
+           score for the whole session. */
+        if(!m._ending){m._ending=1;stampLiveTime();return;}
         m.state=st.state;
         stopLive();render();return;
       }
+      m._ending=0;
       if(changed&&GENDER===m.gender)render();
       else stampLiveTime();
     }).catch(function(){});
