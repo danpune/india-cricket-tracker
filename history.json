@@ -32831,6 +32831,239 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1548897",
+   "date": "2026-09-03",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "matchNo": "7th Match, Group A",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "",
+   "teams": [
+    {
+     "name": "Hong Kong Women",
+     "score": "56 (16.2/20 ov, target 194)"
+    },
+    {
+     "name": "India Women",
+     "score": "193/5"
+    }
+   ],
+   "result": "IND Women won by 137 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "193/5 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       124,
+       64,
+       "run out"
+      ],
+      [
+       "Shafali Verma",
+       28,
+       17,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       10,
+       12,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       11,
+       13,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       10,
+       9,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       2,
+       4,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prema Rawat",
+      "Nandani Sharma",
+      "Shree Charani",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Kary Chan",
+       "3",
+       28,
+       0
+      ],
+      [
+       "Marina Lamplough",
+       "4",
+       46,
+       2
+      ],
+      [
+       "Maryam Bibi",
+       "2",
+       29,
+       0
+      ],
+      [
+       "Alison Siu",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Iqra Sahar",
+       "4",
+       28,
+       0
+      ],
+      [
+       "Joyleen Kaur",
+       "2",
+       12,
+       1
+      ],
+      [
+       "Ruchitha Venkatesh",
+       "2",
+       30,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Hong Kong Women",
+     "total": "56 (16.2 ov)",
+     "bat": [
+      [
+       "Natasha Miles",
+       15,
+       27,
+       "c"
+      ],
+      [
+       "Mariko Hill",
+       0,
+       4,
+       "b"
+      ],
+      [
+       "Yasmin Daswani",
+       11,
+       23,
+       "c"
+      ],
+      [
+       "Kary Chan",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Marina Lamplough",
+       14,
+       15,
+       "c"
+      ],
+      [
+       "Maryam Bibi",
+       7,
+       10,
+       "c"
+      ],
+      [
+       "Shanzeen Shahzad",
+       2,
+       6,
+       "st"
+      ],
+      [
+       "Alison Siu",
+       1,
+       3,
+       "b"
+      ],
+      [
+       "Iqra Sahar",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Joyleen Kaur",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "Ruchitha Venkatesh",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       9,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "3",
+       12,
+       2
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       6,
+       2
+      ],
+      [
+       "Shree Charani",
+       "3.2",
+       16,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       5,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

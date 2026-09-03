@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T14:29:24Z",
+ "updated": "2026-09-03T17:58:53Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4427,53 +4427,264 @@
    "seriesId": "8659",
    "matchNo": "7th Match, Group A",
    "venue": "Dubai International Cricket Stadium",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Hong Kong Women",
      "abbr": "HKG-W",
-     "score": "",
+     "score": "56 (16.2/20 ov, target 194)",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
-     "winner": false
+     "score": "193/5",
+     "winner": true
     }
    ],
-   "result": "HKG Women won toss & fielded",
-   "india": "",
+   "result": "IND Women won by 137 runs",
+   "india": "won",
    "xi": {
     "Hong Kong Women": [
      "Natasha Miles (c)",
-     "Maryam Bibi",
-     "Alison Siu",
      "Mariko Hill",
+     "Yasmin Daswani",
+     "Kary Chan",
+     "Marina Lamplough",
+     "Maryam Bibi",
+     "Shanzeen Shahzad",
+     "Alison Siu",
      "Iqra Sahar",
      "Joyleen Kaur",
-     "Marina Lamplough",
-     "Yasmin Daswani",
-     "Ruchitha Venkatesh",
-     "Shanzeen Shahzad",
-     "Kary Chan"
+     "Ruchitha Venkatesh"
     ],
     "India Women": [
      "Smriti Mandhana",
      "Shafali Verma",
      "Pratika Rawal",
+     "Richa Ghosh",
      "Harmanpreet Kaur (c)",
      "Bharti Fulmali",
-     "Richa Ghosh",
      "Deepti Sharma",
      "Prema Rawat",
      "Nandani Sharma",
      "Shree Charani",
      "Kranti Gaud"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "193/5 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       124,
+       64,
+       "run out"
+      ],
+      [
+       "Shafali Verma",
+       28,
+       17,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       10,
+       12,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       11,
+       13,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       10,
+       9,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       2,
+       4,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prema Rawat",
+      "Nandani Sharma",
+      "Shree Charani",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Kary Chan",
+       "3",
+       28,
+       0
+      ],
+      [
+       "Marina Lamplough",
+       "4",
+       46,
+       2
+      ],
+      [
+       "Maryam Bibi",
+       "2",
+       29,
+       0
+      ],
+      [
+       "Alison Siu",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Iqra Sahar",
+       "4",
+       28,
+       0
+      ],
+      [
+       "Joyleen Kaur",
+       "2",
+       12,
+       1
+      ],
+      [
+       "Ruchitha Venkatesh",
+       "2",
+       30,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Hong Kong Women",
+     "total": "56 (16.2 ov)",
+     "bat": [
+      [
+       "Natasha Miles",
+       15,
+       27,
+       "c"
+      ],
+      [
+       "Mariko Hill",
+       0,
+       4,
+       "b"
+      ],
+      [
+       "Yasmin Daswani",
+       11,
+       23,
+       "c"
+      ],
+      [
+       "Kary Chan",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Marina Lamplough",
+       14,
+       15,
+       "c"
+      ],
+      [
+       "Maryam Bibi",
+       7,
+       10,
+       "c"
+      ],
+      [
+       "Shanzeen Shahzad",
+       2,
+       6,
+       "st"
+      ],
+      [
+       "Alison Siu",
+       1,
+       3,
+       "b"
+      ],
+      [
+       "Iqra Sahar",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Joyleen Kaur",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "Ruchitha Venkatesh",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       9,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "3",
+       12,
+       2
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       6,
+       2
+      ],
+      [
+       "Shree Charani",
+       "3.2",
+       16,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       5,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1548899",
