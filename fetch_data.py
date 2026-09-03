@@ -123,7 +123,8 @@ def fetch_rankings():
                 # each type has its own rank_date; report the OLDEST so the stamp can
                 # never claim the table is fresher than it is
                 dt = rk.get("rank_date", "")
-                entry["updated"] = min(entry["updated"], dt) if entry.get("updated") else dt
+                if dt:
+                    entry["updated"] = min(entry["updated"], dt) if entry.get("updated") else dt
             g[RANK_FMT[ct]] = entry
         out[gender] = g
     return out
@@ -344,7 +345,11 @@ def innings_from_summary(d, fmt=""):
         # Tests: a completed innings that isn't 10-down and isn't the last innings of
         # the match was declared. ESPN gives no flag, so infer it the same way a
         # scorecard reader would.
-        if is_test and total and "/" in total and pd != order[-1]:
+        # a drawn Test's final innings is usually declared too, so don't exclude the
+        # last innings when the match was drawn
+        drawn = "drawn" in (d.get("header", {}).get("competitions") or [{}])[0] \
+            .get("status", {}).get("summary", "").lower()
+        if is_test and total and "/" in total and (pd != order[-1] or drawn):
             wkts = total.split("/")[1].split(" ")[0]
             if wkts.isdigit() and int(wkts) < 10:
                 total += "d"
@@ -366,7 +371,7 @@ def classify_outcome(result, india_flag):
     s = (result or "").lower()
     if "no result" in s or "abandon" in s:
         return "nr"
-    if "tied" in s or "tie" in s:
+    if "tied" in s:
         return "tie"
     if "draw" in s:
         return "draw"

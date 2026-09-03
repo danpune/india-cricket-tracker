@@ -159,7 +159,7 @@ a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap
 .subscribe a:hover{text-decoration:underline}
 .sub.cal a{color:var(--chakra);text-decoration:none;font-weight:600}
 /* ~14px tall was well under the 40px guideline — pad the hit box, keep the layout */
-.sub.cal a,a.hcal,.wtc-note a,.subscribe a{display:inline-block;padding:8px 6px;margin:-8px 0}
+.sub.cal a,a.hcal,.wtc-note a,.subscribe a,a.yt{display:inline-block;padding:8px 6px;margin:-8px 0}
 .sub.cal a:hover,a.hcal:hover{text-decoration:underline}
 a.hcal{color:var(--hero-muted);text-decoration:none;font-weight:700}
 .odds span{font-size:11px;color:var(--hero-muted)}
@@ -415,7 +415,7 @@ var FLAGS={India:'🇮🇳',England:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',Australia:'�
 'Sri Lanka':'🇱🇰',Bangladesh:'🇧🇩',Afghanistan:'🇦🇫',Zimbabwe:'🇿🇼',Ireland:'🇮🇪','West Indies':'🌴',
 Netherlands:'🇳🇱',Scotland:'🏴󠁧󠁢󠁳󠁣󠁴󠁿','United States of America':'🇺🇸',Namibia:'🇳🇦',
 'United Arab Emirates':'🇦🇪',Oman:'🇴🇲',Nepal:'🇳🇵',Canada:'🇨🇦',Italy:'🇮🇹',
-Thailand:'🇹🇭','Hong Kong':'🇭🇰',Malaysia:'🇲🇾',Singapore:'🇸🇬',Namibia:'🇳🇦'};
+Thailand:'🇹🇭','Hong Kong':'🇭🇰',Malaysia:'🇲🇾',Singapore:'🇸🇬'};
 
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function norm(n){return String(n||'').replace(/ Women$/,'');}
@@ -502,7 +502,9 @@ function rowHTML(m,opts){
   opts=opts||{};
   var d=new Date(m.date);
   var when='<b>'+esc(istDate(m.date))+'</b>';
-  when+=m.state==='pre'?d.toLocaleString([],{hour:'2-digit',minute:'2-digit'}):'&nbsp;';
+  when+=m.state==='pre'
+    ? new Date(m.date).toLocaleString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'})+' IST'
+    : '&nbsp;';
   var right='';
   if(m.state==='post'){
     var sc=m.teams.map(function(t){return t.score?'<div>'+esc(t.abbr||norm(t.name))+' '+esc(t.score.replace(/\s*\(.*$/,''))+'</div>':'';}).join('');
@@ -632,7 +634,7 @@ function followingHTML(){
     out+='<section id="follow" class="sec-follow"><h2>⭐ Following</h2><div class="card">';
     out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+esc(p.note||'')+
          ' · '+esc((apps[0]&&apps[0].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
-         bats.length+' innings · HS '+hs+'</div></div>';
+         bats.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
     if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
       fmtBadge(live.format)+' '+esc(live.matchNo)+' '+(live.state==='in'?'· live now':'· '+dstr(live.date,true))+'</div></div></div>';
     apps.slice(0,12).forEach(function(a){
@@ -802,8 +804,8 @@ function formHTML(hist){
       var home=ms.filter(inIndia), away=ms.filter(function(x){return !inIndia(x);});
       var rh=rec(home), ra=rec(away);
       h+='<div class="fsplit">'+
-        (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L of '+rh.P+'</i></span>':'')+
-        (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L of '+ra.P+'</i></span>':'')+
+        (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L'+(rh.D?'-'+rh.D+'D':'')+' of '+rh.P+'</i></span>':'')+
+        (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L'+(ra.D?'-'+ra.D+'D':'')+' of '+ra.P+'</i></span>':'')+
         '</div>';
       if(f==='Test')h+=wtcHTML();
       /* who and when */
@@ -857,12 +859,13 @@ function render(){
   });
   var app=document.getElementById('app');
   document.getElementById('jump').innerHTML='';
-  /* these tabs have no live match and no countdown — tear the timers down BEFORE any
-     early return, or the poller keeps hitting ESPN and the ticker writes to dead nodes */
-  stopLive();
+  /* news/about have no match and no countdown — tear the timers down BEFORE the early
+     returns. Don't stop unconditionally: the tail of render() manages the poller for
+     men/women, and killing it here re-armed it on every score change. */
+  if(GENDER==='news'||GENDER==='about')stopLive();
   if(TICK){clearInterval(TICK);TICK=null;}
   var stale=STALE_AT?staleBanner(STALE_AT,DATA&&DATA.updated):'';
-  writeFooter();
+  if(GENDER==='news'||GENDER==='about')writeFooter();
   if(GENDER==='about'){app.innerHTML=stale+aboutHTML();return;}
   if(GENDER==='news'){
     app.innerHTML=stale+(newsHTML()||'<div class="err">News is loading — try again in a moment.</div>');
@@ -889,7 +892,8 @@ function render(){
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
   /* a result from the last 48h beats a distant countdown — "what happened while I was
      asleep" is the site's stated job */
-  var fresh=lastPost&&Date.now()-Date.parse(lastPost.date)<48*3600000?lastPost:null;
+  var endMs=lastPost?Date.parse(lastPost.date)+(lastPost.format==='Test'?5*86400000:0):0;
+  var fresh=lastPost&&Date.now()-endMs<48*3600000?lastPost:null;
   var hero=live||fresh||next||lastPost;
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
     [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['wtc','WTC'],
@@ -1050,7 +1054,13 @@ function pollLive(m){
       });
       if(st.detail&&st.detail!==m.statusDetail){m.statusDetail=st.detail;changed=true;}
       LIVE_AT=new Date();
-      if(st.state!=='in'){stopLive();render();return;}   /* match ended → full refresh */
+      if(st.state!=='in'){
+        /* record the end ON the match object — render() re-derives `live` from
+           m.state, and data.json can keep saying 'in' for hours (the cron is not
+           punctual), so without this the poller re-arms itself forever. */
+        m.state=st.state;
+        stopLive();render();return;
+      }
       if(changed&&GENDER===m.gender)render();
       else stampLiveTime();
     }).catch(function(){});

@@ -44,7 +44,9 @@ and privacy statements, and a rights-holder contact route.
 - `seed_history.py` — backfill of the match record (2025→) from
   [cricsheet.org](https://cricsheet.org).
 
-Scores update within ~a few times a day of a match finishing. Data is unofficial and
+Scores can lag a few hours after a match finishes (GitHub schedules the job and is
+not punctual); while a match is in progress the score updates in your browser every
+45 seconds. Data is unofficial and
 may lag or contain errors; nothing here is affiliated with the BCCI, ICC, or ESPN.
 
 ## Architecture — how the machine runs itself

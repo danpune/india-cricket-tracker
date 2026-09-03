@@ -83,13 +83,13 @@ def sane(table):
     if any(not (0 <= t["pct"] <= 100) for t in table):
         return "pct out of range"
     for t in table:  # results must reconcile, and points must match the stated system
-        if t["won"] + t["lost"] + t["drawn"] != t["played"]:
-            return f"{t['abbr']} W+L+D != played"
-        # ties are worth 6; ICC gives no tie column, so allow the slack rather than
-        # rejecting a valid table forever after the first tied Test
-        base = t["won"] * 12 + t["drawn"] * 4 - t["deducted"]
-        if not (base - 12 <= t["points"] <= base + 12):
-            return f"{t['abbr']} points implausible vs 12W+4D-deductions"
+        # ICC publishes no tie column, so a tie shows up as the shortfall in W+L+D.
+        # Derive it rather than rejecting a valid table forever after the first tie.
+        ties = t["played"] - t["won"] - t["lost"] - t["drawn"]
+        if ties < 0:
+            return f"{t['abbr']} W+L+D exceeds played"
+        if t["won"] * 12 + ties * 6 + t["drawn"] * 4 - t["deducted"] != t["points"]:
+            return f"{t['abbr']} points don't match 12W+6T+4D-deductions"
     if table != sorted(table, key=lambda x: -x["pct"]):
         return "pct order disagrees with rank"
     return None
