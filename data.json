@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T17:58:53Z",
+ "updated": "2026-09-03T20:51:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4446,34 +4446,6 @@
    ],
    "result": "IND Women won by 137 runs",
    "india": "won",
-   "xi": {
-    "Hong Kong Women": [
-     "Natasha Miles (c)",
-     "Mariko Hill",
-     "Yasmin Daswani",
-     "Kary Chan",
-     "Marina Lamplough",
-     "Maryam Bibi",
-     "Shanzeen Shahzad",
-     "Alison Siu",
-     "Iqra Sahar",
-     "Joyleen Kaur",
-     "Ruchitha Venkatesh"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Pratika Rawal",
-     "Richa Ghosh",
-     "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
-     "Deepti Sharma",
-     "Prema Rawat",
-     "Nandani Sharma",
-     "Shree Charani",
-     "Kranti Gaud"
-    ]
-   },
    "innings": [
     {
      "t": "India Women",
