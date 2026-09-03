@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T10:06:26Z",
+ "updated": "2026-09-03T14:29:24Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4444,8 +4444,36 @@
      "winner": false
     }
    ],
-   "result": "Starts at 18:30 local time",
-   "india": ""
+   "result": "HKG Women won toss & fielded",
+   "india": "",
+   "xi": {
+    "Hong Kong Women": [
+     "Natasha Miles (c)",
+     "Maryam Bibi",
+     "Alison Siu",
+     "Mariko Hill",
+     "Iqra Sahar",
+     "Joyleen Kaur",
+     "Marina Lamplough",
+     "Yasmin Daswani",
+     "Ruchitha Venkatesh",
+     "Shanzeen Shahzad",
+     "Kary Chan"
+    ],
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Pratika Rawal",
+     "Harmanpreet Kaur (c)",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Deepti Sharma",
+     "Prema Rawat",
+     "Nandani Sharma",
+     "Shree Charani",
+     "Kranti Gaud"
+    ]
+   }
   },
   {
    "id": "espn_1548899",
