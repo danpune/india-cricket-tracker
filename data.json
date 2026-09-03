@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T05:45:18Z",
+ "updated": "2026-09-03T10:06:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4046,7 +4046,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "429/9",
+     "total": "429/9d",
      "bat": [
       [
        "Lahiru Udara",
@@ -6854,7 +6854,7 @@
     "bowl": [
      {
       "no": "1",
-      "name": "Shree Charani",
+      "name": "Sree Charani",
       "team": "India",
       "rating": "759"
      },
