@@ -1068,7 +1068,10 @@ function pollLive(m){
            without this the poller re-arms itself forever.
            Two consecutive readings: one spurious 'post' would otherwise freeze the
            score for the whole session. */
-        if(!m._ending){m._ending=1;stampLiveTime();return;}
+        if(!m._ending){m._ending=1;
+          /* still paint the final score now — the commit render is 45s away */
+          if(changed&&GENDER===m.gender)render();else stampLiveTime();
+          return;}
         m.state=st.state;
         stopLive();render();return;
       }
