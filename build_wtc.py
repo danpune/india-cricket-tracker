@@ -52,7 +52,9 @@ def scrape():
         finally:
             b.close()
     header = next((r["cells"] for r in rows if r["cells"] and r["cells"][0].upper() == "POS"), None)
-    if header and [h.lower() for h in header] != COLS[:len(header)]:
+    if not header:
+        raise ValueError("no POS header row — ICC changed the markup")
+    if [h.lower() for h in header] != COLS[:len(header)]:
         raise ValueError(f"ICC changed the columns: {header}")
     table = []
     for r in rows:
@@ -83,8 +85,11 @@ def sane(table):
     for t in table:  # results must reconcile, and points must match the stated system
         if t["won"] + t["lost"] + t["drawn"] != t["played"]:
             return f"{t['abbr']} W+L+D != played"
-        if t["won"] * 12 + t["drawn"] * 4 - t["deducted"] != t["points"]:
-            return f"{t['abbr']} points don't match 12W+4D-deductions"
+        # ties are worth 6; ICC gives no tie column, so allow the slack rather than
+        # rejecting a valid table forever after the first tied Test
+        base = t["won"] * 12 + t["drawn"] * 4 - t["deducted"]
+        if not (base - 12 <= t["points"] <= base + 12):
+            return f"{t['abbr']} points implausible vs 12W+4D-deductions"
     if table != sorted(table, key=lambda x: -x["pct"]):
         return "pct order disagrees with rank"
     return None
@@ -123,7 +128,11 @@ def main():
         except Exception:
             pass
     if old.get("table") == table:
-        print("wtc: unchanged")
+        # still re-stamp: "as of" should mean last VERIFIED, not last CHANGED
+        old["verified"] = doc["verified"]
+        with open(OUT, "w") as f:
+            json.dump(old, f, indent=1)
+        print("wtc: unchanged (re-stamped verified)")
         return 0
     with open(OUT, "w") as f:
         json.dump(doc, f, indent=1)

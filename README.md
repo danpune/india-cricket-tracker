@@ -13,7 +13,7 @@ the playing XIs, and every international result of the year.
 - **Scorecards** — every finished match expands into the full card: who scored
   (runs and balls, not-outs, who didn't bat) and the bowling figures.
 - **🎙 News & talk** — ESPNcricinfo headlines plus the latest from commentary
-  channels (Cricbuzz, Harsha Bhogle), links only, refreshed every 30 minutes.
+  channels (Cricbuzz, Harsha Bhogle), links only, refreshed a few times a day (GitHub schedules it; live scores update in-browser every 45s).
 - **⭐ Following** — per-player cards merging franchise (IPL) and international
   appearances with per-match batting/bowling lines.
 - **📺 Where to watch** — verified broadcaster/streaming per series for India and
@@ -39,8 +39,7 @@ and privacy statements, and a rights-holder contact route.
 
 - `index.html` — the whole site: one self-contained page, no dependencies,
   no cookies, no tracking.
-- `fetch_data.py` — pulls from ESPN's public (unofficial) cricket feeds every
-  30 minutes via GitHub Actions → `data.json` (current state) and
+- `fetch_data.py` — pulls from ESPN's public (unofficial) cricket feeds a few times a day via GitHub Actions → `data.json` (current state) and
   `history.json` (append-only season record).
 - `seed_history.py` — backfill of the match record (2025→) from
   [cricsheet.org](https://cricsheet.org).
@@ -60,7 +59,7 @@ flowchart LR
         BCCI["bcci.tv<br/>India home highlights"]
     end
 
-    subgraph CI["GitHub Actions — every 30 minutes"]
+    subgraph CI["GitHub Actions — a few times a day (GitHub schedules it; live scores update in-browser every 45s)"]
         FD["fetch_data.py<br/>retries · fail-safe · series discovery"]
         BH["build_highlights.py<br/>every video oEmbed-verified<br/>against the official channel"]
         SH["seed_history.py<br/>one-off 2025+ backfill"]

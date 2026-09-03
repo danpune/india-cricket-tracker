@@ -37,6 +37,7 @@
     --bg:#0d1320; --card:#161e2e; --ink:#e7ecf7; --muted:#94a0b8; --line:#25304a;
     --blue:#3468c4; --blue-deep:#0d2451; --win:#3fb865; --loss:#e05a68; --nr:#7c869c;
     --odi:#4d8fdd; --test:#c05577; --t20:#e87a3d;
+    --chakra:#7fa8ef;   /* ~6:1 on --card; the light value fails AA on dark */
   }
 }
 *{box-sizing:border-box}
@@ -74,7 +75,6 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
   color:#fff;vertical-align:1px}
 .fmt.Test{background:var(--test)} .fmt.ODI{background:var(--odi)} .fmt.T20I{background:var(--t20)}
 .fmt.other{background:var(--nr)}
-.fmt.Tour,.fmt.T20,.fmt\.List{background:var(--nr)}
 
 /* ---------- hero ---------- */
 .hero{background:linear-gradient(150deg,var(--blue-deep) 0%,var(--blue) 85%);color:var(--hero-ink);
@@ -158,6 +158,8 @@ a.yt{color:var(--chakra);text-decoration:none;font-weight:700;white-space:nowrap
 .subscribe a{color:var(--chakra);text-decoration:none;font-weight:700}
 .subscribe a:hover{text-decoration:underline}
 .sub.cal a{color:var(--chakra);text-decoration:none;font-weight:600}
+/* ~14px tall was well under the 40px guideline — pad the hit box, keep the layout */
+.sub.cal a,a.hcal,.wtc-note a,.subscribe a{display:inline-block;padding:8px 6px;margin:-8px 0}
 .sub.cal a:hover,a.hcal:hover{text-decoration:underline}
 a.hcal{color:var(--hero-muted);text-decoration:none;font-weight:700}
 .odds span{font-size:11px;color:var(--hero-muted)}
@@ -267,6 +269,9 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   .sec-up{grid-area:up}
   .sec-season{grid-area:season}
   #app>.err{grid-column:1/-1}
+  /* the offline warning must sit ABOVE the content, not be auto-placed after every
+     named grid area (that put it ~8000px down the page, i.e. invisible) */
+  #app>.stale{grid-column:1/-1;grid-row:1}
   h2{font-size:13.5px}
   .hero .teamrow{font-size:25px}
   .hero .series{font-size:14px}
@@ -367,10 +372,10 @@ details.yeard[open]>summary .yhint{transform:rotate(180deg)}
 
 <div class="wrap">
   <div class="toggle"><div class="seg">
-    <button id="btn-men" onclick="setGender('men')">MEN</button>
-    <button id="btn-women" onclick="setGender('women')">WOMEN</button>
-    <button id="btn-news" onclick="setGender('news')">🎙 NEWS</button>
-    <button id="btn-about" onclick="setGender('about')">ABOUT</button>
+    <button id="btn-men" onclick="setGender('men')" aria-pressed="true">MEN</button>
+    <button id="btn-women" onclick="setGender('women')" aria-pressed="false">WOMEN</button>
+    <button id="btn-news" onclick="setGender('news')" aria-pressed="false">🎙 NEWS</button>
+    <button id="btn-about" onclick="setGender('about')" aria-pressed="false">ABOUT</button>
   </div></div>
   <div id="jump"></div>
   <div id="app"><div class="err">Loading…</div></div>
@@ -402,20 +407,27 @@ function hlLink(m){
   var e=HL[(m.id||'').split('_')[1]];
   if(!e)return '';
   var href=e.yt?('https://www.youtube.com/watch?v='+e.yt):e.url;
-  if(!href)return '';
+  if(!href||!/^https?:\/\//i.test(href))return '';   /* scheme guard, as in newsHTML */
   return ' <a class="yt" href="'+esc(href)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">▶ Highlights</a>';
 }
 
 var FLAGS={India:'🇮🇳',England:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',Australia:'🇦🇺','New Zealand':'🇳🇿',Pakistan:'🇵🇰','South Africa':'🇿🇦',
 'Sri Lanka':'🇱🇰',Bangladesh:'🇧🇩',Afghanistan:'🇦🇫',Zimbabwe:'🇿🇼',Ireland:'🇮🇪','West Indies':'🌴',
 Netherlands:'🇳🇱',Scotland:'🏴󠁧󠁢󠁳󠁣󠁴󠁿','United States of America':'🇺🇸',Namibia:'🇳🇦',
-'United Arab Emirates':'🇦🇪',Oman:'🇴🇲',Nepal:'🇳🇵',Canada:'🇨🇦',Italy:'🇮🇹'};
+'United Arab Emirates':'🇦🇪',Oman:'🇴🇲',Nepal:'🇳🇵',Canada:'🇨🇦',Italy:'🇮🇹',
+Thailand:'🇹🇭','Hong Kong':'🇭🇰',Malaysia:'🇲🇾',Singapore:'🇸🇬',Namibia:'🇳🇦'};
 
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function norm(n){return String(n||'').replace(/ Women$/,'');}
 function flag(n){return FLAGS[norm(n)]||'🏏';}
 function fmtBadge(f){var cls=(f==='Test'||f==='ODI'||f==='T20I')?f:'other';return '<span class="fmt '+cls+'">'+esc(f)+'</span>';}
 function isIST(){return new Date().getTimezoneOffset()===-330;}
+/* Cricket names a match by its date IN INDIA. Using the viewer's local date shows
+   India home matches a day early from the Americas, so the row date is always IST and
+   the local start time sits beside it. */
+function istDate(iso){
+  return new Date(iso).toLocaleString('en-GB',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'});
+}
 function dstr(iso,withTime){
   var d=new Date(iso);
   var o={weekday:'short',day:'numeric',month:'short'};
@@ -489,7 +501,7 @@ function heroHTML(m){
 function rowHTML(m,opts){
   opts=opts||{};
   var d=new Date(m.date);
-  var when='<b>'+d.toLocaleString([],{day:'numeric',month:'short'})+'</b>';
+  var when='<b>'+esc(istDate(m.date))+'</b>';
   when+=m.state==='pre'?d.toLocaleString([],{hour:'2-digit',minute:'2-digit'}):'&nbsp;';
   var right='';
   if(m.state==='post'){
@@ -609,7 +621,7 @@ function followingHTML(){
         var k=m.date.slice(0,10);
         if(seen[k])return; seen[k]=1;
         apps.push({date:m.date.slice(0,10),label:esc(m.matchNo),vs:m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'',
-          intl:true,bat:bat,bowl:bowl,won:m.india==='won'});
+          intl:true,fmt:m.format||'T20I',bat:bat,bowl:bowl,won:m.india==='won'});
       }
     });
     if(!apps.length)return;
@@ -619,14 +631,15 @@ function followingHTML(){
     var hs=bats.reduce(function(s,a){return Math.max(s,a.bat[0]);},0);
     out+='<section id="follow" class="sec-follow"><h2>⭐ Following</h2><div class="card">';
     out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+esc(p.note||'')+
-         ' · 2026: <b>'+runs+' runs</b> in '+bats.length+' innings · HS '+hs+'</div></div>';
+         ' · '+esc((apps[0]&&apps[0].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
+         bats.length+' innings · HS '+hs+'</div></div>';
     if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
       fmtBadge(live.format)+' '+esc(live.matchNo)+' '+(live.state==='in'?'· live now':'· '+dstr(live.date,true))+'</div></div></div>';
     apps.slice(0,12).forEach(function(a){
       var line=[a.bat?('🏏 '+batStr(a.bat)):null,(a.bowl&&+a.bowl[2]>=0&&a.bowl[0]!=='0')?('⚾ '+a.bowl[2]+'/'+a.bowl[1]+' ('+a.bowl[0]+')'):null].filter(Boolean).join(' · ');
       out+='<div class="mrow" style="border-left:3px solid var(--'+(a.won===true?'win':a.won===false?'loss':'nr')+')">'+
         '<div class="when"><b>'+new Date(a.date+'T12:00:00Z').toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
-        '<div class="mid"><div class="no">'+(a.intl?fmtBadge('T20I')+' ':'<span class="fmt other">IPL</span> ')+a.label.replace(/^IPL /,'')+'</div>'+
+        '<div class="mid"><div class="no">'+(a.intl?fmtBadge(a.fmt||'T20I')+' ':'<span class="fmt other">IPL</span> ')+a.label.replace(/^IPL /,'')+'</div>'+
         '<div class="sub">'+(a.intl?flag(a.vs)+' ':'')+'vs '+esc(norm(a.vs))+'</div></div>'+
         '<div class="right"><div class="sc"><b>'+line+'</b></div></div></div>';
     });
@@ -693,7 +706,7 @@ function wtcSectionHTML(hist){
   }).slice(0,6).map(function(m){
     var opp=m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'';
     return '<div class="mrow"><div class="when"><b>'+
-      esc(new Date(m.date).toLocaleString([],{day:'numeric',month:'short'}))+'</b>&nbsp;</div>'+
+      esc(istDate(m.date))+'</b>&nbsp;</div>'+
       '<div class="mid"><div class="no">'+fmtBadge('Test')+' '+esc(m.matchNo)+'</div>'+
       '<div class="sub">'+flag(opp)+' vs '+esc(norm(opp))+' · '+esc((m.venue||'').split(',').pop().trim())+'</div></div>'+
       '<div class="right"><div class="sc">'+esc(m.series.replace(/\s+20\d\d.*$/,''))+'</div></div></div>';
@@ -837,16 +850,22 @@ function rankingsHTML(){
 
 /* ---------- sections ---------- */
 function render(){
-  document.getElementById('btn-men').className=GENDER==='men'?'on':'';
-  document.getElementById('btn-women').className=GENDER==='women'?'on':'';
-  document.getElementById('btn-about').className=GENDER==='about'?'on':'';
-  document.getElementById('btn-news').className=GENDER==='news'?'on':'';
+['men','women','about','news'].forEach(function(g){
+    var b=document.getElementById('btn-'+g);
+    b.className=GENDER===g?'on':'';
+    b.setAttribute('aria-pressed',GENDER===g?'true':'false');
+  });
   var app=document.getElementById('app');
   document.getElementById('jump').innerHTML='';
-  if(GENDER==='about'){app.innerHTML=aboutHTML();return;}
-  var stale=STALE_AT?staleBanner(STALE_AT):'';
+  /* these tabs have no live match and no countdown — tear the timers down BEFORE any
+     early return, or the poller keeps hitting ESPN and the ticker writes to dead nodes */
+  stopLive();
+  if(TICK){clearInterval(TICK);TICK=null;}
+  var stale=STALE_AT?staleBanner(STALE_AT,DATA&&DATA.updated):'';
+  writeFooter();
+  if(GENDER==='about'){app.innerHTML=stale+aboutHTML();return;}
   if(GENDER==='news'){
-    app.innerHTML=newsHTML()||'<div class="err">News is loading — try again in a moment.</div>';
+    app.innerHTML=stale+(newsHTML()||'<div class="err">News is loading — try again in a moment.</div>');
     return;
   }
   if(!DATA||!HIST){app.innerHTML='<div class="err">Could not load data. Please refresh.</div>';return;}
@@ -868,10 +887,17 @@ function render(){
   }
   var next=ms.filter(function(m){return m.state==='pre';})[0];
   var lastPost=ms.filter(function(m){return m.state==='post';}).slice(-1)[0];
-  var hero=live||next||lastPost;
+  /* a result from the last 48h beats a distant countdown — "what happened while I was
+     asleep" is the site's stated job */
+  var fresh=lastPost&&Date.now()-Date.parse(lastPost.date)<48*3600000?lastPost:null;
+  var hero=live||fresh||next||lastPost;
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
-    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['wtc','WTC'],['follow','⭐'],['schedule','Schedule'],['results','Results']]
-    .map(function(x){return '<a href="#'+x[0]+'">'+x[1]+'</a>';}).join('')+'</nav>';
+    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['wtc','WTC'],
+     ['follow','⭐','Following'],['schedule','Schedule'],['results','Results']]
+    .filter(function(x){ /* WTC and ⭐ render for men only — don't advertise dead anchors */
+      return GENDER==='men'||(x[0]!=='wtc'&&x[0]!=='follow');})
+    .map(function(x){return '<a href="#'+x[0]+'"'+(x[2]?' aria-label="'+x[2]+'"':'')+'>'+x[1]+'</a>';})
+    .join('')+'</nav>';
   var h='';
   if(hero)h+=heroHTML(hero);
 
@@ -965,10 +991,17 @@ function render(){
   if(live&&live.eventId){if(!LIVE_TIMER)pollLive(live);else stampLiveTime();}
   else stopLive();
 
-  var f='Updated '+new Date(DATA.updated).toLocaleString()+'<br>'+
+  writeFooter();
+}
+
+var VISITS=null;
+function writeFooter(){
+  var el=document.getElementById('foot');
+  if(!el)return;
+  el.innerHTML=(DATA&&DATA.updated?'Updated '+new Date(DATA.updated).toLocaleString()+'<br>':'')+
     'Data: ESPN public feeds & <a href="https://cricsheet.org">cricsheet.org</a> (attribution) · '+
-    '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a><span id="visits"></span>';
-  document.getElementById('foot').innerHTML=f;
+    '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a>'+
+    '<span id="visits">'+(VISITS!=null?' · 👀 '+VISITS.toLocaleString()+' visits':'')+'</span>';
 }
 
 function startTicker(){
@@ -1050,7 +1083,9 @@ function aboutHTML(){
   'and FIFA World Cup trackers.</p>'+
   '<h3>What it shows &amp; where the data comes from</h3>'+
   '<ul>'+
-  '<li><b>Live scores, fixtures, results and playing XIs</b> — read from ESPN / ESPNcricinfo\u2019s public feeds, refreshed every 30 minutes.</li>'+
+  '<li><b>Live scores, fixtures, results and playing XIs</b> — read from ESPN / ESPNcricinfo\u2019s public feeds, refreshed a few times a day (GitHub schedules the job, and it is not punctual). '+
+  'While a match is in progress the score updates in your browser every 45 seconds, '+
+  'independently of that job.</li>'+
   '<li><b>Scorecards for the two-year record</b> — computed from <a href="https://cricsheet.org" target="_blank" rel="noopener">cricsheet.org</a>\u2019s open ball-by-ball data (thank you!), and from ESPN feeds for new matches.</li>'+
   '<li><b>ICC rankings</b> — the official ICC world rankings, from the same feed icc-cricket.com uses.</li>'+
   '<li><b>\u25b6 Highlights</b> — nothing is hosted or re-uploaded here: links go to the home board\u2019s own official YouTube channel (every video verified against the official channel) or to <a href="https://www.bcci.tv" target="_blank" rel="noopener">bcci.tv</a> for India home matches.</li>'+
@@ -1088,7 +1123,8 @@ function aboutHTML(){
    loads, no cookies, fails silently if the service is down) */
 fetch('https://abacus.jasoncameron.dev/hit/danpune-india-cricket-tracker/visits')
   .then(function(r){return r.json();})
-  .then(function(d){if(d&&d.value!=null){var el=document.getElementById('visits');if(el)el.textContent=' · 👀 '+d.value.toLocaleString()+' visits';}})
+  .then(function(d){if(d&&d.value!=null){VISITS=d.value;var el=document.getElementById('visits');
+      if(el)el.textContent=' · 👀 '+VISITS.toLocaleString()+' visits';}})
   .catch(function(){});
 
 /* Last-known-good cache: a failed fetch (deploy mid-flight, flaky connection, Pages
@@ -1101,7 +1137,8 @@ function saveCache(p){
 function loadCache(){
   try{return JSON.parse(localStorage.getItem(CACHE_KEY)||'null');}catch(e){return null;}
 }
-function staleBanner(ts){
+function staleBanner(ts,built){
+  ts=built?Date.parse(built)||ts:ts;
   var when=new Date(ts).toLocaleString([],{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
   return '<div class="stale">⚠️ Couldn\u2019t reach live data — showing the last update from '+
          esc(when)+'. <a href="" onclick="location.reload();return false;">Retry</a></div>';

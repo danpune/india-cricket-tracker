@@ -26500,7 +26500,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "564/8 (127.0 ov)",
+     "total": "564/8d",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -26536,7 +26536,7 @@
        "Dhruv Jurel",
        19,
        20,
-       "not out"
+       "b"
       ],
       [
        "Washington Sundar",
@@ -26554,7 +26554,7 @@
        "Mohammed Siraj",
        22,
        12,
-       "not out"
+       "b"
       ],
       [
        "Kuldeep Yadav",
@@ -26607,7 +26607,7 @@
     },
     {
      "t": "Afghanistan",
-     "total": "152 (58.4 ov)",
+     "total": "152",
      "bat": [
       [
        "Abdul Malik",
@@ -26619,7 +26619,7 @@
        "Sediqullah Atal",
        17,
        27,
-       "not out"
+       "b"
       ],
       [
        "Rahmanullah Gurbaz",
@@ -26631,7 +26631,7 @@
        "Rahmat Shah",
        60,
        135,
-       "not out"
+       "b"
       ],
       [
        "Hashmatullah Shahidi",
@@ -26649,7 +26649,7 @@
        "Azmatullah Omarzai",
        0,
        10,
-       "not out"
+       "b"
       ],
       [
        "Sharafuddin Ashraf",
@@ -26712,7 +26712,7 @@
     },
     {
      "t": "Afghanistan",
-     "total": "112/9 (35.5 ov)",
+     "total": "112/9",
      "bat": [
       [
        "Sediqullah Atal",
@@ -26843,7 +26843,7 @@
        "Rahmanullah Gurbaz",
        102,
        51,
-       "not out"
+       "b"
       ],
       [
        "Ibrahim Zadran",
@@ -26885,7 +26885,7 @@
        "Rashid Khan",
        9,
        13,
-       "not out"
+       "b"
       ],
       [
        "AM Ghazanfar",
@@ -26966,7 +26966,7 @@
        "Ishan Kishan",
        34,
        22,
-       "not out"
+       "b"
       ],
       [
        "Shreyas Iyer",
@@ -27525,7 +27525,7 @@
        "Rohit Sharma",
        48,
        39,
-       "not out"
+       "b"
       ],
       [
        "Shubman Gill",
@@ -27660,13 +27660,13 @@
        "Hashmatullah Shahidi",
        4,
        2,
-       "not out"
+       "b"
       ],
       [
        "Nangeyalia Kharote",
        6,
        11,
-       "not out"
+       "b"
       ],
       [
        "Rashid Khan",
@@ -27684,7 +27684,7 @@
        "Mohammad Saleem",
        9,
        19,
-       "not out"
+       "b"
       ],
       [
        "Bilal Sami",
@@ -27801,7 +27801,7 @@
        "Mohammad Nabi",
        21,
        23,
-       "not out"
+       "b"
       ],
       [
        "Rashid Khan",
@@ -29418,7 +29418,7 @@
        "Jos Buttler",
        36,
        21,
-       "not out"
+       "b"
       ],
       [
        "Harry Brook",
@@ -29568,7 +29568,7 @@
        "Varun Chakravarthy",
        5,
        7,
-       "not out"
+       "b"
       ],
       [
        "Prince Yadav",
@@ -29818,7 +29818,7 @@
    "innings": [
     {
      "t": "India Women",
-     "total": "285 (74.5 ov)",
+     "total": "285",
      "bat": [
       [
        "Smriti Mandhana",
@@ -29836,19 +29836,19 @@
        "Yastika Bhatia",
        12,
        17,
-       "not out"
+       "b"
       ],
       [
        "Jemimah Rodrigues",
        35,
        38,
-       "not out"
+       "b"
       ],
       [
        "Harmanpreet Kaur",
        58,
        121,
-       "not out"
+       "b"
       ],
       [
        "Deepti Sharma",
@@ -29878,7 +29878,7 @@
        "Kranti Gaud",
        1,
        3,
-       "not out"
+       "b"
       ],
       [
        "Shree Charani",
@@ -29923,7 +29923,7 @@
     },
     {
      "t": "England Women",
-     "total": "170 (59.1 ov)",
+     "total": "170",
      "bat": [
       [
        "Maia Bouchier",
@@ -29953,7 +29953,7 @@
        "Alice Capsey",
        9,
        13,
-       "not out"
+       "b"
       ],
       [
        "Amy Jones",
@@ -29965,7 +29965,7 @@
        "Mady Villiers",
        10,
        33,
-       "not out"
+       "b"
       ],
       [
        "Sophie Ecclestone",
@@ -30028,7 +30028,7 @@
     },
     {
      "t": "India Women",
-     "total": "341/7 (86.3 ov)",
+     "total": "341/7d",
      "bat": [
       [
        "Smriti Mandhana",
@@ -30052,7 +30052,7 @@
        "Jemimah Rodrigues",
        3,
        12,
-       "not out"
+       "b"
       ],
       [
        "Harmanpreet Kaur",
@@ -30076,7 +30076,7 @@
        "Sneh Rana",
        1,
        14,
-       "not out"
+       "b"
       ],
       [
        "Sayali Satghare",
@@ -30124,7 +30124,7 @@
     },
     {
      "t": "England Women",
-     "total": "186 (62.5 ov)",
+     "total": "186",
      "bat": [
       [
        "Maia Bouchier",
@@ -30136,7 +30136,7 @@
        "Tammy Beaumont",
        0,
        1,
-       "not out"
+       "b"
       ],
       [
        "Heather Knight",
@@ -30148,13 +30148,13 @@
        "Nat Sciver-Brunt",
        11,
        25,
-       "not out"
+       "b"
       ],
       [
        "Alice Capsey",
        21,
        35,
-       "not out"
+       "b"
       ],
       [
        "Amy Jones",
@@ -30172,19 +30172,19 @@
        "Sophie Ecclestone",
        50,
        66,
-       "not out"
+       "b"
       ],
       [
        "Issy Wong",
        1,
        33,
-       "not out"
+       "b"
       ],
       [
        "Lauren Bell",
        0,
        10,
-       "not out"
+       "b"
       ],
       [
        "Lauren Filer",
@@ -30538,7 +30538,7 @@
        "Josh Tongue",
        0,
        2,
-       "not out"
+       "b"
       ]
      ],
      "dnb": [],
@@ -30619,7 +30619,7 @@
        "KL Rahul",
        1,
        3,
-       "not out"
+       "b"
       ],
       [
        "Axar Patel",
@@ -30771,7 +30771,7 @@
        "Prasidh Krishna",
        0,
        3,
-       "not out"
+       "b"
       ]
      ],
      "dnb": [],
@@ -30852,7 +30852,7 @@
        "Jos Buttler",
        17,
        18,
-       "not out"
+       "b"
       ],
       [
        "Will Jacks",
@@ -31013,7 +31013,7 @@
        "Rohit Sharma",
        138,
        110,
-       "not out"
+       "b"
       ],
       [
        "Shubman Gill",
@@ -31043,7 +31043,7 @@
        "KL Rahul",
        12,
        8,
-       "not out"
+       "b"
       ],
       [
        "Axar Patel",
@@ -31445,7 +31445,7 @@
        "Dion Myers",
        12,
        9,
-       "not out"
+       "b"
       ],
       [
        "Ryan Burl",
@@ -31469,19 +31469,19 @@
        "Tadiwanashe Marumani",
        24,
        19,
-       "not out"
+       "b"
       ],
       [
        "Brad Evans",
        19,
        11,
-       "not out"
+       "b"
       ],
       [
        "Newman Nyamhuri",
        3,
        6,
-       "not out"
+       "b"
       ],
       [
        "Richard Ngarava",
@@ -31586,7 +31586,7 @@
        "Ishan Kishan",
        29,
        26,
-       "not out"
+       "b"
       ],
       [
        "Shreyas Iyer",
@@ -31703,7 +31703,7 @@
        "Tadiwanashe Marumani",
        1,
        3,
-       "not out"
+       "b"
       ],
       [
        "Brad Evans",
@@ -31787,7 +31787,7 @@
    "innings": [
     {
      "t": "India",
-     "total": "462 (116.4 ov)",
+     "total": "462",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -31898,16 +31898,16 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "284 (79.4 ov)",
+     "total": "284",
      "bat": [
       [
-       "Nishan Madushka Fernando",
+       "Nishan Madushka",
        0,
        2,
        "c"
       ],
       [
-       "Lahiru Udara Igalagamage",
+       "Lahiru Udara",
        27,
        44,
        "c"
@@ -32005,7 +32005,7 @@
     },
     {
      "t": "India",
-     "total": "193 (48.5 ov)",
+     "total": "193",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -32110,16 +32110,16 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "206 (77.4 ov)",
+     "total": "206",
      "bat": [
       [
-       "Nishan Madushka Fernando",
+       "Nishan Madushka",
        6,
        27,
        "c"
       ],
       [
-       "Lahiru Udara Igalagamage",
+       "Lahiru Udara",
        16,
        58,
        "c"
@@ -32158,13 +32158,13 @@
        "Keshara Nuwantha",
        20,
        69,
-       "not out"
+       "b"
       ],
       [
        "Prabath Jayasuriya",
        0,
        1,
-       "not out"
+       "b"
       ],
       [
        "Lahiru Kumara",
@@ -32243,17 +32243,17 @@
     }
    ],
    "result": "Match drawn",
-   "india": "nr",
+   "india": "draw",
    "innings": [
     {
      "t": "India",
-     "total": "503/9 (138.0 ov)",
+     "total": "503/9d",
      "bat": [
       [
        "Yashasvi Jaiswal",
        45,
        53,
-       "not out"
+       "b"
       ],
       [
        "KL Rahul",
@@ -32265,7 +32265,7 @@
        "Devdutt Padikkal",
        117,
        193,
-       "not out"
+       "b"
       ],
       [
        "Shubman Gill",
@@ -32283,7 +32283,7 @@
        "Ravindra Jadeja",
        43,
        83,
-       "not out"
+       "b"
       ],
       [
        "Dhruv Jurel",
@@ -32364,7 +32364,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "290 (89.4 ov)",
+     "total": "290",
      "bat": [
       [
        "Lahiru Udara",
@@ -32388,7 +32388,7 @@
        "Pasindu Sooriyabandara",
        80,
        133,
-       "not out"
+       "b"
       ],
       [
        "Kamindu Mendis",
@@ -32469,7 +32469,7 @@
     },
     {
      "t": "Sri Lanka",
-     "total": "429/9 (154.0 ov)",
+     "total": "429/9",
      "bat": [
       [
        "Lahiru Udara",
@@ -32560,7 +32560,7 @@
       ],
       [
        "Dhruv Jurel",
-       "0.6",
+       "1",
        1,
        0
       ],
@@ -32634,7 +32634,7 @@
        "Pratika Rawal",
        22,
        18,
-       "not out"
+       "b"
       ],
       [
        "Harmanpreet Kaur",
@@ -32670,7 +32670,7 @@
        "Nandani Sharma",
        1,
        4,
-       "not out"
+       "b"
       ],
       [
        "Shree Charani",
@@ -32733,7 +32733,7 @@
        "Natthakan Chantham",
        4,
        5,
-       "not out"
+       "b"
       ],
       [
        "Phannita Maya",

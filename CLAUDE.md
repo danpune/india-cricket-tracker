@@ -24,7 +24,7 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   XIs for today's matches) + appends finalized matches to `history.json` (append-only
   season record, seeded from cricsheet by `seed_history.py`).
 - `.github/workflows/update-data.yml` — cron `*/10` BUT GitHub throttles scheduled
-  workflows on free/public repos: observed real cadence ~60-90 min regardless of the
+  workflows on free/public repos: MEASURED cadence from commit gaps: median ~3.8h, max 12h regardless of the
   requested interval. Nothing in our control fixes this; manual `gh workflow run` (or
   Actions tab) is the instant path. Don't 'fix' by lowering the interval further., SHA-pinned, rebase-before-push,
   fail-safe (exits non-zero without writing when the fetch comes back empty).

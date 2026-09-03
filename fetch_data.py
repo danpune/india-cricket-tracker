@@ -120,7 +120,10 @@ def fetch_rankings():
                     "team": r.get("Country_name") or r.get("team_name", ""),
                     "rating": r.get("Rating") or r.get("Points", ""),
                 } for r in rk.get("rank", [])[:10]]
-                entry["updated"] = rk.get("rank_date", "")
+                # each type has its own rank_date; report the OLDEST so the stamp can
+                # never claim the table is fresher than it is
+                dt = rk.get("rank_date", "")
+                entry["updated"] = min(entry["updated"], dt) if entry.get("updated") else dt
             g[RANK_FMT[ct]] = entry
         out[gender] = g
     return out
@@ -263,10 +266,11 @@ def parse_event(e, series_name, series_id, gender):
     other_won = any(t["winner"] and norm_team(t["name"]) != "India" for t in teams)
     india = ""
     if state == "post":
-        desc = st.get("description", "")
-        india = ("won" if india_won else "lost" if other_won else
-                 "nr" if "No result" in desc or "Abandoned" in desc else
-                 "tie" if "Tie" in desc else "draw" if "Draw" in desc else "nr")
+        # Only a winner flag is trustworthy here — ESPN's cricket `description` is the
+        # literal string "Result" for draws, ties AND wins, so a draw read as "nr".
+        # Anything undecided is re-classified in classify_outcome() once the summary
+        # endpoint has given us the actual result sentence.
+        india = "won" if india_won else "lost" if other_won else "nr"
     return {
         "id": f"espn_{e['id']}",
         "eventId": e["id"],
@@ -286,10 +290,11 @@ def parse_event(e, series_name, series_id, gender):
     }
 
 
-def innings_from_summary(d):
+def innings_from_summary(d, fmt=""):
     """Batting/bowling cards per innings from the summary rosters."""
     per, team_players = {}, {}
     totals = {}
+    is_test = fmt in ("Test", "FC")   # overs are meaningless on a Test total
     for comp in (d.get("header", {}).get("competitions") or [{}])[:1]:
         for c in comp.get("competitors", []):
             for ls in c.get("linescores", []):
@@ -297,7 +302,7 @@ def innings_from_summary(d):
                 if r is None:
                     continue
                 t = str(int(r)) if w == 10 else f"{int(r)}/{int(w)}" if w is not None else str(int(r))
-                if o:
+                if o and not is_test:
                     t += f" ({o} ov)"
                 totals[(c.get("team", {}).get("displayName"), int(ls.get("period", 0)))] = t
     for side in d.get("rosters", []):
@@ -314,9 +319,12 @@ def innings_from_summary(d):
                     e = per.setdefault(pd, {"team": None, "bat": [], "bowl": []})
                     if st.get("batted") == "1":
                         e["team"] = team
-                        how = st.get("dismissalCard") or ("not out" if st.get("outs") == "0" else "")
+                        # `outs` is the authority: ESPN leaves dismissalCard EMPTY for
+                        # bowled dismissals, so trusting the card alone invents not-outs.
+                        # "b" matches seed_history.HOW_SHORT so both sources render alike.
+                        how = st.get("dismissalCard") or ("not out" if st.get("outs") == "0" else "b")
                         e["bat"].append((int(st.get("battingPosition") or 99), nm,
-                                         int(st.get("runs") or 0), int(st.get("ballsFaced") or 0), how or "not out"))
+                                         int(st.get("runs") or 0), int(st.get("ballsFaced") or 0), how))
                     try:
                         ov = float(st.get("overs") or 0)
                     except ValueError:
@@ -326,19 +334,43 @@ def innings_from_summary(d):
                                           int(st.get("wickets") or 0)])
         team_players[team] = names
     innings = []
-    for pd in sorted(per):
+    order = sorted(per)
+    for pd in order:
         e = per[pd]
         if not e["bat"]:
             continue
         batted = {b[1] for b in e["bat"]}
+        total = totals.get((e["team"], pd), "")
+        # Tests: a completed innings that isn't 10-down and isn't the last innings of
+        # the match was declared. ESPN gives no flag, so infer it the same way a
+        # scorecard reader would.
+        if is_test and total and "/" in total and pd != order[-1]:
+            wkts = total.split("/")[1].split(" ")[0]
+            if wkts.isdigit() and int(wkts) < 10:
+                total += "d"
         innings.append({
             "t": e["team"],
-            "total": totals.get((e["team"], pd), ""),
+            "total": total,
             "bat": [[b[1], b[2], b[3], b[4]] for b in sorted(e["bat"])],
             "dnb": [n for n in team_players.get(e["team"], []) if n not in batted],
             "bowl": e["bowl"],
         })
     return innings
+
+
+def classify_outcome(result, india_flag):
+    """Draw / tie / no-result can only be told apart from the result SENTENCE.
+    Leaves a decided win/loss alone."""
+    if india_flag in ("won", "lost"):
+        return india_flag
+    s = (result or "").lower()
+    if "no result" in s or "abandon" in s:
+        return "nr"
+    if "tied" in s or "tie" in s:
+        return "tie"
+    if "draw" in s:
+        return "draw"
+    return india_flag or "nr"
 
 
 def enrich_from_summary(match):
@@ -349,6 +381,8 @@ def enrich_from_summary(match):
         return
     comp = (d.get("header", {}).get("competitions") or [{}])[0]
     match["result"] = html.unescape(comp.get("status", {}).get("summary", ""))
+    if match.get("state") == "post":
+        match["india"] = classify_outcome(match["result"], match.get("india"))
     for n in d.get("notes", []):
         if n.get("type") == "seriesnote":
             match["seriesNote"] = html.unescape(n.get("text", ""))
@@ -367,7 +401,7 @@ def enrich_from_summary(match):
             xi[side.get("team", {}).get("displayName", "?")] = players
     if xi:
         match["xi"] = xi
-    inns = innings_from_summary(d)
+    inns = innings_from_summary(d, match.get("format", ""))
     if inns:
         match["innings"] = inns
 
@@ -491,7 +525,6 @@ def main():
 
     rankings = fetch_rankings()
     if rankings is None:
-        rankings = old_meta.get("_rankings") or {}
         try:
             rankings = json.load(open(data_path)).get("rankings", {})
         except Exception:
