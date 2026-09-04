@@ -187,6 +187,59 @@ def write_ics(matches):
             os.remove(os.path.join(icsdir, f))
 
 
+# Indian domestic cricket — what the players are actually doing between tours.
+# Same API and same code path as everything else; verified league ids (Sep 2026).
+DOMESTIC = {
+    "men": [("8630", "Duleep Trophy"), ("8050", "Ranji Trophy"),
+            ("8661", "Syed Mushtaq Ali Trophy"), ("8890", "Vijay Hazare Trophy"),
+            ("8048", "Indian Premier League")],
+    "women": [("21282", "Women's Premier League"), ("20045", "Women's Senior One Day Trophy"),
+              ("21176", "Senior Women's T20 Challenger Trophy")],
+}
+
+
+def fetch_domestic(now):
+    """The Indian domestic competition currently in season, per gender, with its
+    nearest matches. Fail-safe: any error just omits that gender."""
+    today = now.strftime("%Y-%m-%d")
+    out = {}
+    for gender, leagues in DOMESTIC.items():
+        for lid, label in leagues:
+            try:
+                board = get(f"{BASE}/{lid}/scoreboard")
+                cal = [c[:10] for c in board["leagues"][0].get("calendar", [])]
+                if not cal or not (cal[0] <= today <= cal[-1]):
+                    continue                      # not in season
+                events = board.get("events", [])
+                if not events:                    # no play today — show the next date
+                    nxt = next((d for d in cal if d >= today), None)
+                    if nxt:
+                        events = get(f"{BASE}/{lid}/scoreboard"
+                                     f"?dates={nxt.replace('-', '')}").get("events", [])
+                ms = []
+                for e in events[:4]:
+                    if "id" not in e:
+                        continue
+                    c = e["competitions"][0]
+                    ms.append({
+                        "date": e["date"],
+                        "desc": c.get("description", ""),
+                        "state": e["status"]["type"].get("state", "pre"),
+                        "detail": e["status"]["type"].get("detail", ""),
+                        "venue": c.get("venue", {}).get("fullName", ""),
+                        "teams": [{"name": t["team"]["displayName"], "score": t.get("score") or ""}
+                                  for t in c["competitors"]],
+                    })
+                if ms:
+                    out[gender] = {"name": board["leagues"][0].get("name", label),
+                                   "leagueId": lid, "from": cal[0], "to": cal[-1],
+                                   "matches": ms}
+                break
+            except Exception:
+                continue
+    return out
+
+
 def stamp_odds(matches, now):
     """Polymarket win prices onto upcoming matches (same approach as the tennis
     tracker). Only unambiguous two-way winner markets: the main event (title has
@@ -419,10 +472,12 @@ def main():
     history_path = os.path.join(DIR, "history.json")
     data_path = os.path.join(DIR, "data.json")
     history = json.load(open(history_path)) if os.path.exists(history_path) else {"matches": []}
-    old_meta = {}
+    old_meta, old_domestic = {}, {}
     if os.path.exists(data_path):
         try:
-            old_meta = json.load(open(data_path)).get("meta", {})
+            _prev = json.load(open(data_path))
+            old_meta = _prev.get("meta", {})
+            old_domestic = _prev.get("domestic", {})
         except Exception:
             pass
 
@@ -529,6 +584,7 @@ def main():
 
     stamp_odds(matches, now)
     write_ics(matches)
+    domestic = fetch_domestic(now)
 
     rankings = fetch_rankings()
     if rankings is None:
@@ -544,6 +600,7 @@ def main():
             "matches": matches,
             "series": series_meta,
             "rankings": rankings,
+            "domestic": domestic or old_domestic,   # keep the last good one on a failed fetch
             "meta": {"discovered": all_discovered},
         }, f, indent=1)
     print(f"data.json: {len(matches)} matches across {len(series_meta)} series; history +{added}")

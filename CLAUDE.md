@@ -108,6 +108,20 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
   real feed periodically — ESPN's UA rules already changed once.
 
+## Domestic cricket ("Meanwhile in Indian cricket")
+- `fetch_data.fetch_domestic()` → `data.json.domestic.{men,women}`. Verified ESPN league
+  ids: Duleep 8630 · Ranji 8050 · Syed Mushtaq Ali 8661 · Vijay Hazare 8890 · IPL 8048;
+  women WPL 21282 · Senior One Day 20045 · T20 Challenger 21176. Picks the FIRST league
+  whose calendar spans today, so the season rolls over on its own (Duleep Aug–Sep →
+  Ranji Oct–Mar → SMAT Nov–Dec → Vijay Hazare Dec → IPL Mar–May).
+- UI `domesticHTML()` renders it ONLY when the national side has a gap: hidden while a
+  match is live and hidden when the next international is <7 days away. Deliberately a
+  "what's on" strip, not a domestic tracker — no standings, no full fixture list (Ranji
+  alone is 38 teams). Fail-safe: an empty fetch keeps the previous value.
+- FACT worth keeping: Indian internationals essentially do NOT play county cricket —
+  BCCI contracts require an NOC and it's rare. Don't build county tracking; it would be
+  an empty section ~99% of the time.
+
 ## Where to watch (curated — rights are contracts, not feeds)
 - `watch.json`: seriesId -> {in:{stream,streamUrl,tv}, us:{...}, verified, source}.
   ESPN's cricket feed has NO broadcast fields (checked: broadcasts/geoBroadcasts empty,

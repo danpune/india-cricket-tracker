@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T13:45:09Z",
+ "updated": "2026-09-04T14:34:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7125,6 +7125,33 @@
      }
     ]
    }
+  }
+ },
+ "domestic": {
+  "men": {
+   "name": "Duleep Trophy",
+   "leagueId": "8630",
+   "from": "2026-08-23",
+   "to": "2026-09-10",
+   "matches": [
+    {
+     "date": "2026-09-06T04:00Z",
+     "desc": "Final",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+     "teams": [
+      {
+       "name": "East Zone",
+       "score": ""
+      },
+      {
+       "name": "South Zone",
+       "score": ""
+      }
+     ]
+    }
+   ]
   }
  },
  "meta": {

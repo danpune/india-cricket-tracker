@@ -238,6 +238,8 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 .fr{flex:none;max-width:47%;text-align:right;font-size:11.5px;font-weight:700}
 .fnote.none{padding-top:0}
 
+.dlive{color:var(--saffron);font-size:11px;font-weight:800;letter-spacing:.4px}
+
 /* rankings */
 .rank3{padding:6px 14px 10px}
 .rank3 .sc{margin-bottom:10px}
@@ -256,7 +258,8 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "form form" "tour up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
+    grid-template-areas:"hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
+  .sec-dom{grid-area:dom}
   .sec-wtc{grid-area:wtc}
   .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
@@ -650,6 +653,31 @@ function followingHTML(){
   return out;
 }
 
+/* ---------- meanwhile: Indian domestic cricket ----------
+   Shown only when the national side has a gap. Between tours the players are at
+   home playing Duleep/Ranji/SMAT/Vijay Hazare (they are NOT off playing county
+   cricket — BCCI contracts make that rare), and this answers "what's on?". */
+function domesticHTML(live,next){
+  var dom=(DATA.domestic||{})[GENDER];
+  if(!dom||!dom.matches||!dom.matches.length)return '';
+  if(live)return '';                                   /* an India match wins the page */
+  if(next&&Date.parse(next.date)-Date.now()<7*86400000)return '';   /* tour imminent */
+  var rows=dom.matches.map(function(m){
+    var sc=m.teams.map(function(t){return t.score?esc(t.score):'';}).filter(Boolean).join(' · ');
+    return '<div class="mrow"><div class="when"><b>'+esc(istDate(m.date))+'</b>&nbsp;</div>'+
+      '<div class="mid"><div class="no">'+esc(m.desc||'')+
+        (m.state==='in'?' <span class="dlive">● live</span>':'')+'</div>'+
+      '<div class="sub">'+m.teams.map(function(t){return esc(t.name);}).join(' v ')+
+        (m.venue?' · '+esc(m.venue.split(',').pop().trim()):'')+'</div></div>'+
+      '<div class="right"><div class="sc">'+(sc||esc(m.detail||''))+'</div></div></div>';
+  }).join('');
+  return '<section id="domestic" class="sec-dom"><h2>Meanwhile in Indian cricket</h2><div class="card">'+
+    '<div class="serieshead"><div class="nm">'+esc(dom.name)+'</div>'+
+    '<div class="meta">No international this week — this is where the players are. '+
+      esc(istDate(dom.from+'T00:00Z'))+' – '+esc(istDate(dom.to+'T00:00Z'))+'</div></div>'+
+    rows+'</div></section>';
+}
+
 /* ---------- news & talk ---------- */
 function newsHTML(){
   var hs=NEWS.headlines||[], talk=NEWS.talk||[];
@@ -922,6 +950,7 @@ function render(){
     }
   }
 
+  h+=domesticHTML(live,next);
   h+=rankingsHTML();
   h+=wtcSectionHTML(hist);
   h+=followingHTML();
