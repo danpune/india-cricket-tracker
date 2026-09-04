@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T00:49:07Z",
+ "updated": "2026-09-04T05:09:47Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6759,7 +6759,7 @@
       "no": "2",
       "name": "England",
       "team": "England",
-      "rating": "125"
+      "rating": "126"
      },
      {
       "no": "3",
@@ -6807,7 +6807,7 @@
       "no": "10",
       "name": "Ireland",
       "team": "Ireland",
-      "rating": "46"
+      "rating": "45"
      }
     ],
     "updated": "2026-08-31",
