@@ -228,13 +228,12 @@ def fetch_domestic(now):
             continue                      # nothing on this week — say nothing
         away, lid, cal, board, nxt = best
         try:
-            # The plain scoreboard is whatever ESPN considers current for the league,
-            # which is not necessarily `nxt` — ask for the date we actually picked.
-            events = [e for e in board.get("events", [])
-                      if away == 0 and e.get("date", "")[:10] == nxt]
-            if not events:
-                events = get(f"{BASE}/{lid}/scoreboard"
-                             f"?dates={nxt.replace('-', '')}").get("events", [])
+            # ALWAYS ask for the date we picked. The plain scoreboard returns exactly
+            # ONE event for these league ids, so taking it on a match day collapsed a
+            # 19-match Ranji round to a single arbitrary fixture — on precisely the
+            # days the strip is worth showing. One request per gender per run.
+            events = get(f"{BASE}/{lid}/scoreboard"
+                         f"?dates={nxt.replace('-', '')}").get("events", [])
             ms = []
             for e in events:
                 if "id" not in e:

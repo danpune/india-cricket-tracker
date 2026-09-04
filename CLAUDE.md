@@ -123,6 +123,9 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   13 months. The 7-day window caps that; a 250-day clamp keeps it out of the shown range.
   Rollover is then automatic: Duleep Aug–Sep → Ranji Oct–Mar → SMAT Nov–Dec → Vijay
   Hazare Dec → IPL Mar–May, with nothing shown in the gaps.
+- Always fetch `?dates=<the date picked>`. ESPN's plain scoreboard returns exactly ONE
+  event for these league ids, so trusting it on a match day collapsed a 19-match Ranji
+  round to a single fixture — on precisely the days the strip is worth showing.
 - UI `domesticHTML()` renders it ONLY when the national side has a gap: hidden while a
   match is live and hidden when the next international is <7 days away. Deliberately a
   "what's on" strip, not a domestic tracker — no standings, no full fixture list (Ranji

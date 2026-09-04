@@ -122,7 +122,7 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
 .mrow .right .sc{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600;line-height:1.4}
 .mrow .right .res{font-weight:700}
 .res.won{color:var(--win)} .res.lost{color:var(--loss)} .res.nr,.res.tie,.res.draw{color:var(--nr)}
-.mrow.upnext .no::after{content:"· up next";color:var(--saffron);font-size:11px;margin-left:6px;font-weight:800;letter-spacing:.5px}
+.mrow.upnext .no::after{content:"· up next";color:var(--live);font-size:11px;margin-left:6px;font-weight:800;letter-spacing:.5px}
 .serieshead{padding:11px 14px 9px;background:color-mix(in srgb,var(--blue) 5%,var(--card));border-top:1px solid var(--line)}
 .serieshead:first-child{border-top:0}
 .serieshead .nm{font-weight:800;font-size:14px}
@@ -264,11 +264,11 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
+    grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
   .sec-dom{grid-area:dom}
   /* no strip ⇒ drop its row, or the tall right column donates slack to a gap */
-  #app:not(:has(.sec-dom)){grid-template-areas:"hero hero" "form form" "tour up"
-    "rank up" "wtc up" "follow up" "season season" "news news"}
+  #app:not(:has(.sec-dom)){grid-template-areas:"stale stale" "hero hero" "form form"
+    "tour up" "rank up" "wtc up" "follow up" "season season" "news news"}
   .sec-wtc{grid-area:wtc}
   .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
@@ -283,7 +283,8 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   #app>.err{grid-column:1/-1}
   /* the offline warning must sit ABOVE the content, not be auto-placed after every
      named grid area (that put it ~8000px down the page, i.e. invisible) */
-  #app>.stale{grid-column:1/-1;grid-row:1}
+  /* its own row: sharing row 1 with the hero let the hero card paint over it */
+  #app>.stale{grid-area:stale}
   h2{font-size:13.5px}
   .hero .teamrow{font-size:25px}
   .hero .series{font-size:14px}
@@ -439,6 +440,9 @@ function isIST(){return new Date().getTimezoneOffset()===-330;}
    the local start time sits beside it. */
 function istDate(iso){
   return new Date(iso).toLocaleString('en-GB',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'});
+}
+function istDay(){ /* today's YYYY-MM-DD in India — en-CA gives ISO order */
+  return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'});
 }
 function dstr(iso,withTime){
   var d=new Date(iso);
@@ -673,13 +677,13 @@ function domesticHTML(live,next){
   if(next&&Date.parse(next.date)-Date.now()<7*86400000)return '';   /* tour imminent */
   /* a cached payload can outlive the tournament it names — never present a finished
      competition as "where the players are" */
-  if(dom.to&&dom.to<new Date().toISOString().slice(0,10))return '';
+  if(dom.to&&dom.to<istDay())return '';
   var rows=dom.matches.map(function(m){
     /* scores drop ESPN's "(19.4/20 ov, target 204)" tail, as the result rows do */
     var sc=m.teams.map(function(t){return t.score?esc(t.score.replace(/\s*\(.*$/,'')):'';})
       .filter(Boolean).join(' · ');
     /* once it is over, WHO WON is the point — the scores alone don't say */
-    var res=m.state==='post'&&m.detail?'<div class="res">'+esc(m.detail)+'</div>':'';
+    var res=m.state!=='pre'&&m.detail?'<div class="res">'+esc(m.detail)+'</div>':'';
     return '<div class="mrow"><div class="when"><b>'+esc(istDate(m.date))+'</b>&nbsp;</div>'+
       '<div class="mid"><div class="no">'+esc(m.desc||'')+
         (m.state==='in'?' <span class="dlive">● live</span>':'')+'</div>'+
@@ -691,7 +695,9 @@ function domesticHTML(live,next){
   }).join('');
   return '<section id="domestic" class="sec-dom"><h2>Meanwhile in Indian cricket</h2><div class="card">'+
     '<div class="serieshead"><div class="nm">'+esc(dom.name)+'</div>'+
-    '<div class="meta">No international right now — this is where the players are. '+
+    '<div class="meta">'+(dom.from>istDay()
+      ?'No international right now — this is where the players go next. '
+      :'No international right now — this is where the players are. ')+
       esc(istDate(dom.from+'T00:00Z'))+' – '+esc(istDate(dom.to+'T00:00Z'))+'</div></div>'+
     rows+(dom.more?'<div class="rank-note">…and '+(dom.more|0)+' more in this round</div>':'')+
     '</div></section>';
