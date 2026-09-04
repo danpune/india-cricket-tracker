@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "'It's just the start' - Mandhana after record-breaking night",
+   "u": "https://www.cricinfo.com/ci/content/story/1552762.html?ex_cid=OTC-RSS",
+   "d": "Fri, 04 Sep 2026"
+  },
+  {
+   "t": "India Under-19 player Rohit Yadav banned for two years for age discrepancy",
+   "u": "https://www.cricinfo.com/ci/content/story/1552785.html?ex_cid=OTC-RSS",
+   "d": "Fri, 04 Sep 2026"
+  },
+  {
    "t": "BCCI 'trying to find ways' to avoid frequent player injuries",
    "u": "https://www.cricinfo.com/ci/content/story/1552692.html?ex_cid=OTC-RSS",
    "d": "Thu, 03 Sep 2026"
@@ -39,16 +49,6 @@
    "t": "Muzumdar: 'India hungry to win some tournaments'",
    "u": "https://www.cricinfo.com/ci/content/story/1552163.html?ex_cid=OTC-RSS",
    "d": "Sat, 29 Aug 2026"
-  },
-  {
-   "t": "Suryakumar on being dropped: 'When everything is going well, why the change?'",
-   "u": "https://www.cricinfo.com/ci/content/story/1552147.html?ex_cid=OTC-RSS",
-   "d": "Sat, 29 Aug 2026"
-  },
-  {
-   "t": "Mumbai Cricket Association awards equal pay to men and women players",
-   "u": "https://www.cricinfo.com/ci/content/story/1552145.html?ex_cid=OTC-RSS",
-   "d": "Sat, 29 Aug 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "tpaFxXc_mzg",
+     "t": "Match Forecast: India Women vs Pakistan Women, Asia Cup 2026"
+    },
     {
      "yt": "gZsxDew5a-A",
      "t": "Impact Player Rule Debate: Stay or Go?"
@@ -75,10 +79,6 @@
     {
      "yt": "cDha2XjLMLg",
      "t": "Padikkal to be tested vs pace but has ticked boxes: Harsha Bhogle"
-    },
-    {
-     "yt": "CfmYbftumnQ",
-     "t": "Can India still qualify for the WTC Final?"
     }
    ]
   },
