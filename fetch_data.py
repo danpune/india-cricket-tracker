@@ -189,54 +189,78 @@ def write_ics(matches):
 
 # Indian domestic cricket — what the players are actually doing between tours.
 # Same API and same code path as everything else; verified league ids (Sep 2026).
+# Order does not matter: selection is by which one is actually PLAYING.
 DOMESTIC = {
-    "men": [("8630", "Duleep Trophy"), ("8050", "Ranji Trophy"),
-            ("8661", "Syed Mushtaq Ali Trophy"), ("8890", "Vijay Hazare Trophy"),
-            ("8048", "Indian Premier League")],
-    "women": [("21282", "Women's Premier League"), ("20045", "Women's Senior One Day Trophy"),
-              ("21176", "Senior Women's T20 Challenger Trophy")],
+    "men": ["8630", "8050", "8661", "8890", "8048"],   # Duleep, Ranji, SMAT, Vijay Hazare, IPL
+    # ESPN's only live women's domestic id is the WPL (Jan-Feb). The Senior One Day
+    # (20045) and T20 Challenger (21176) ids exist but stopped at their 2021/2022
+    # seasons — they would never match, so they are not listed. Re-probe when the
+    # women's domestic season (Oct-Nov) starts if coverage is wanted.
+    "women": ["21282"],                                # Women's Premier League
 }
 
 
 def fetch_domestic(now):
-    """The Indian domestic competition currently in season, per gender, with its
-    nearest matches. Fail-safe: any error just omits that gender."""
-    today = now.strftime("%Y-%m-%d")
+    """The Indian domestic competition actually playing this week, per gender, with
+    its nearest matches. Fail-safe: any error just omits that gender."""
+    # Membership, not span: Ranji's calendar runs Oct-Mar but has a 72-day hole in
+    # the middle that SMAT and Vijay Hazare are played inside, so "first league whose
+    # calendar brackets today" names the wrong tournament for weeks at a time. Pick
+    # the league with the SOONEST upcoming calendar date instead, and only within a
+    # week — that also caps ESPN's mis-stamped Vijay Hazare tail (dates into 2028).
+    today = (now + timedelta(hours=5, minutes=30)).strftime("%Y-%m-%d")   # the Indian day
     out = {}
     for gender, leagues in DOMESTIC.items():
-        for lid, label in leagues:
+        best = None                       # (days_away, leagueId, calendar, board, date)
+        for lid in leagues:
             try:
                 board = get(f"{BASE}/{lid}/scoreboard")
                 cal = [c[:10] for c in board["leagues"][0].get("calendar", [])]
-                if not cal or not (cal[0] <= today <= cal[-1]):
-                    continue                      # not in season
-                events = board.get("events", [])
-                if not events:                    # no play today — show the next date
-                    nxt = next((d for d in cal if d >= today), None)
-                    if nxt:
-                        events = get(f"{BASE}/{lid}/scoreboard"
-                                     f"?dates={nxt.replace('-', '')}").get("events", [])
-                ms = []
-                for e in events[:4]:
-                    if "id" not in e:
-                        continue
-                    c = e["competitions"][0]
-                    ms.append({
-                        "date": e["date"],
-                        "desc": c.get("description", ""),
-                        "state": e["status"]["type"].get("state", "pre"),
-                        "detail": e["status"]["type"].get("detail", ""),
-                        "venue": c.get("venue", {}).get("fullName", ""),
-                        "teams": [{"name": t["team"]["displayName"], "score": t.get("score") or ""}
-                                  for t in c["competitors"]],
-                    })
-                if ms:
-                    out[gender] = {"name": board["leagues"][0].get("name", label),
-                                   "leagueId": lid, "from": cal[0], "to": cal[-1],
-                                   "matches": ms}
-                break
+                nxt = next((d for d in cal if d >= today), None)
+                if not nxt:
+                    continue              # season over
+                away = (datetime.fromisoformat(nxt) - datetime.fromisoformat(today)).days
+                if away <= 7 and (best is None or away < best[0]):
+                    best = (away, lid, cal, board, nxt)
             except Exception:
                 continue
+        if not best:
+            continue                      # nothing on this week — say nothing
+        away, lid, cal, board, nxt = best
+        try:
+            # The plain scoreboard is whatever ESPN considers current for the league,
+            # which is not necessarily `nxt` — ask for the date we actually picked.
+            events = [e for e in board.get("events", [])
+                      if away == 0 and e.get("date", "")[:10] == nxt]
+            if not events:
+                events = get(f"{BASE}/{lid}/scoreboard"
+                             f"?dates={nxt.replace('-', '')}").get("events", [])
+            ms = []
+            for e in events:
+                if "id" not in e:
+                    continue
+                c = e["competitions"][0]
+                ms.append({
+                    "date": e["date"],
+                    "desc": c.get("description", ""),
+                    "state": e["status"]["type"].get("state", "pre"),
+                    "detail": e["status"]["type"].get("detail", ""),
+                    "venue": c.get("venue", {}).get("fullName", ""),
+                    "teams": [{"name": t["team"]["displayName"], "score": t.get("score") or ""}
+                              for t in c["competitors"]],
+                })
+            if ms:
+                # ESPN's Vijay Hazare calendar carries a mis-stamped tail 13 months
+                # out; no Indian domestic season runs eight months, so ignore those
+                # for the displayed window. ponytail: 250-day clamp, not a season model.
+                season = [d for d in cal
+                          if (datetime.fromisoformat(d)
+                              - datetime.fromisoformat(cal[0])).days <= 250]
+                out[gender] = {"name": board["leagues"][0].get("name", ""),
+                               "leagueId": lid, "from": cal[0], "to": season[-1],
+                               "more": max(0, len(ms) - 4), "matches": ms[:4]}
+        except Exception:
+            continue
     return out
 
 
@@ -472,12 +496,11 @@ def main():
     history_path = os.path.join(DIR, "history.json")
     data_path = os.path.join(DIR, "data.json")
     history = json.load(open(history_path)) if os.path.exists(history_path) else {"matches": []}
-    old_meta, old_domestic = {}, {}
+    old_meta = {}
     if os.path.exists(data_path):
         try:
             _prev = json.load(open(data_path))
             old_meta = _prev.get("meta", {})
-            old_domestic = _prev.get("domestic", {})
         except Exception:
             pass
 
@@ -600,7 +623,10 @@ def main():
             "matches": matches,
             "series": series_meta,
             "rankings": rankings,
-            "domestic": domestic or old_domestic,   # keep the last good one on a failed fetch
+            # NOT carried over from the previous run: a stale block would keep
+            # claiming a finished tournament is "where the players are". One
+            # missed cycle is invisible; a month of wrong text is not.
+            "domestic": domestic,
             "meta": {"discovered": all_discovered},
         }, f, indent=1)
     print(f"data.json: {len(matches)} matches across {len(series_meta)} series; history +{added}")

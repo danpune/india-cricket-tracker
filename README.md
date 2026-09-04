@@ -14,7 +14,7 @@ the playing XIs, and every international result of the year.
   (runs and balls, not-outs, who didn't bat) and the bowling figures.
 - **Meanwhile in Indian cricket** — when there's no international on, shows the
   domestic competition the players are actually in (Duleep, Ranji, SMAT, Vijay
-  Hazare, IPL; WPL and the women's trophies on the women's tab).
+  Hazare, IPL; the WPL on the women's tab).
 - **🎙 News & talk** — ESPNcricinfo headlines plus the latest from commentary
   channels (Cricbuzz, Harsha Bhogle), links only, refreshed a few times a day (GitHub schedules it; live scores update in-browser every 45s).
 - **⭐ Following** — per-player cards merging franchise (IPL) and international

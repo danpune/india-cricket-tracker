@@ -29,6 +29,7 @@
   --bg:#edf0f6; --card:#ffffff; --ink:#182338; --muted:#657089; --line:#e2e7f0;
   --blue:#12408f; --blue-deep:#0d2f6b; --saffron:#ff9933; --chakra:#2a5cc8;
   --win:#1b8a3a; --loss:#bb2d3b; --nr:#8a93a6;
+  --live:#b35c00;   /* saffron itself is 2.1:1 on white — too light for 11px live text */
   --test:#8b1e3f; --odi:#1560bd; --t20:#d9560b;
   --hero-ink:#f4f7ff; --hero-muted:#b9c8e8;
 }
@@ -38,6 +39,7 @@
     --blue:#3468c4; --blue-deep:#0d2451; --win:#3fb865; --loss:#e05a68; --nr:#7c869c;
     --odi:#4d8fdd; --test:#c05577; --t20:#e87a3d;
     --chakra:#7fa8ef;   /* ~6:1 on --card; the light value fails AA on dark */
+    --live:#ff9933;     /* on dark the saffron is 7.8:1 — keep it */
   }
 }
 *{box-sizing:border-box}
@@ -238,7 +240,11 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 .fr{flex:none;max-width:47%;text-align:right;font-size:11.5px;font-weight:700}
 .fnote.none{padding-top:0}
 
-.dlive{color:var(--saffron);font-size:11px;font-weight:800;letter-spacing:.4px}
+.dlive{color:var(--live);font-size:11px;font-weight:800;letter-spacing:.4px}
+/* domestic rows carry TWO full team names ("Royal Challengers Bengaluru Women v
+   Delhi Capitals Women") — the shared nowrap row would hide the second one. */
+.sec-dom .mrow .mid .sub{white-space:normal;overflow:visible}
+.sec-dom .mrow .right{max-width:34%}
 
 /* rankings */
 .rank3{padding:6px 14px 10px}
@@ -260,6 +266,9 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
     grid-template-areas:"hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
   .sec-dom{grid-area:dom}
+  /* no strip ⇒ drop its row, or the tall right column donates slack to a gap */
+  #app:not(:has(.sec-dom)){grid-template-areas:"hero hero" "form form" "tour up"
+    "rank up" "wtc up" "follow up" "season season" "news news"}
   .sec-wtc{grid-area:wtc}
   .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
@@ -513,7 +522,7 @@ function rowHTML(m,opts){
     var sc=m.teams.map(function(t){return t.score?'<div>'+esc(t.abbr||norm(t.name))+' '+esc(t.score.replace(/\s*\(.*$/,''))+'</div>':'';}).join('');
     right='<div class="sc">'+sc+'</div><div class="res '+resClass(m.india)+'">'+esc(m.result||m.statusDesc||'')+'</div>';
   }else if(m.state==='in'){
-    right='<div class="res" style="color:var(--saffron)">● '+esc(m.statusDetail||'Live')+'</div>';
+    right='<div class="res" style="color:var(--live)">● '+esc(m.statusDetail||'Live')+'</div>';
   }else if(m.o){
     right='<div class="sc odds" title="Polymarket win prices — not betting advice">📊 '+oddsStr(m)+'</div>';
   }
@@ -662,20 +671,30 @@ function domesticHTML(live,next){
   if(!dom||!dom.matches||!dom.matches.length)return '';
   if(live)return '';                                   /* an India match wins the page */
   if(next&&Date.parse(next.date)-Date.now()<7*86400000)return '';   /* tour imminent */
+  /* a cached payload can outlive the tournament it names — never present a finished
+     competition as "where the players are" */
+  if(dom.to&&dom.to<new Date().toISOString().slice(0,10))return '';
   var rows=dom.matches.map(function(m){
-    var sc=m.teams.map(function(t){return t.score?esc(t.score):'';}).filter(Boolean).join(' · ');
+    /* scores drop ESPN's "(19.4/20 ov, target 204)" tail, as the result rows do */
+    var sc=m.teams.map(function(t){return t.score?esc(t.score.replace(/\s*\(.*$/,'')):'';})
+      .filter(Boolean).join(' · ');
+    /* once it is over, WHO WON is the point — the scores alone don't say */
+    var res=m.state==='post'&&m.detail?'<div class="res">'+esc(m.detail)+'</div>':'';
     return '<div class="mrow"><div class="when"><b>'+esc(istDate(m.date))+'</b>&nbsp;</div>'+
       '<div class="mid"><div class="no">'+esc(m.desc||'')+
         (m.state==='in'?' <span class="dlive">● live</span>':'')+'</div>'+
       '<div class="sub">'+m.teams.map(function(t){return esc(t.name);}).join(' v ')+
-        (m.venue?' · '+esc(m.venue.split(',').pop().trim()):'')+'</div></div>'+
-      '<div class="right"><div class="sc">'+(sc||esc(m.detail||''))+'</div></div></div>';
+        (m.venue?' · '+esc(m.venue.split(',').pop().replace(/\s*\(.*\)$/,'').trim()):'')+
+      '</div></div>'+
+      '<div class="right">'+(sc?'<div class="sc">'+sc+'</div>':'')+
+        (res||(sc?'':'<div class="sc">'+esc(m.detail||'')+'</div>'))+'</div></div>';
   }).join('');
   return '<section id="domestic" class="sec-dom"><h2>Meanwhile in Indian cricket</h2><div class="card">'+
     '<div class="serieshead"><div class="nm">'+esc(dom.name)+'</div>'+
-    '<div class="meta">No international this week — this is where the players are. '+
+    '<div class="meta">No international right now — this is where the players are. '+
       esc(istDate(dom.from+'T00:00Z'))+' – '+esc(istDate(dom.to+'T00:00Z'))+'</div></div>'+
-    rows+'</div></section>';
+    rows+(dom.more?'<div class="rank-note">…and '+(dom.more|0)+' more in this round</div>':'')+
+    '</div></section>';
 }
 
 /* ---------- news & talk ---------- */
@@ -923,10 +942,13 @@ function render(){
   var endMs=lastPost?Date.parse(lastPost.date)+(lastPost.format==='Test'?5*86400000:0):0;
   var fresh=lastPost&&Date.now()-endMs<48*3600000?lastPost:null;
   var hero=live||fresh||next||lastPost;
+  var domHTML=domesticHTML(live,next);
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
-    [['now','Now'],['form','Form'],['tour','Tour'],['rank','Rankings'],['wtc','WTC'],
+    [['now','Now'],['form','Form'],['tour','Tour'],['domestic','Domestic'],
+     ['rank','Rankings'],['wtc','WTC'],
      ['follow','⭐','Following'],['schedule','Schedule'],['results','Results']]
     .filter(function(x){ /* WTC and ⭐ render for men only — don't advertise dead anchors */
+      if(x[0]==='domestic')return !!domHTML;
       return GENDER==='men'||(x[0]!=='wtc'&&x[0]!=='follow');})
     .map(function(x){return '<a href="#'+x[0]+'"'+(x[2]?' aria-label="'+x[2]+'"':'')+'>'+x[1]+'</a>';})
     .join('')+'</nav>';
@@ -950,7 +972,7 @@ function render(){
     }
   }
 
-  h+=domesticHTML(live,next);
+  h+=domHTML;
   h+=rankingsHTML();
   h+=wtcSectionHTML(hist);
   h+=followingHTML();

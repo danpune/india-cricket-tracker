@@ -111,13 +111,25 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
 ## Domestic cricket ("Meanwhile in Indian cricket")
 - `fetch_data.fetch_domestic()` → `data.json.domestic.{men,women}`. Verified ESPN league
   ids: Duleep 8630 · Ranji 8050 · Syed Mushtaq Ali 8661 · Vijay Hazare 8890 · IPL 8048;
-  women WPL 21282 · Senior One Day 20045 · T20 Challenger 21176. Picks the FIRST league
-  whose calendar spans today, so the season rolls over on its own (Duleep Aug–Sep →
-  Ranji Oct–Mar → SMAT Nov–Dec → Vijay Hazare Dec → IPL Mar–May).
+  women WPL 21282 only — the Senior One Day (20045) and T20 Challenger (21176) ids stop
+  at their 2021/2022 seasons, so the women's strip can only appear during the WPL
+  (Jan–Feb). Re-probe if the Oct–Nov women's season is wanted; ESPN publishes no cricket
+  league listing, so there is no way to enumerate current ids.
+- Selection is by MEMBERSHIP, not span: the league whose calendar's next date is soonest,
+  and only within 7 days. Do NOT go back to "first league whose calendar brackets today"
+  — Ranji runs Oct–Mar with a 72-day hole (5 Nov – 17 Jan) that SMAT and Vijay Hazare are
+  played inside, so a span test names the wrong tournament for ~18 days a year, and ESPN's
+  Vijay Hazare calendar carries a mis-stamped tail into 2028 that made it "in season" for
+  13 months. The 7-day window caps that; a 250-day clamp keeps it out of the shown range.
+  Rollover is then automatic: Duleep Aug–Sep → Ranji Oct–Mar → SMAT Nov–Dec → Vijay
+  Hazare Dec → IPL Mar–May, with nothing shown in the gaps.
 - UI `domesticHTML()` renders it ONLY when the national side has a gap: hidden while a
   match is live and hidden when the next international is <7 days away. Deliberately a
   "what's on" strip, not a domestic tracker — no standings, no full fixture list (Ranji
-  alone is 38 teams). Fail-safe: an empty fetch keeps the previous value.
+  alone is 38 teams), plus an "…and N more" count. The block is NOT carried over from the
+  previous run and the UI hides one whose window has ended: a stale block would keep
+  claiming a finished tournament is where the players are, and one missed cycle is
+  invisible where a month of wrong text is not.
 - FACT worth keeping: Indian internationals essentially do NOT play county cricket —
   BCCI contracts require an NOC and it's rare. Don't build county tracking; it would be
   an empty section ~99% of the time.
