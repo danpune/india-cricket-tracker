@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T12:57:41Z",
+ "updated": "2026-09-05T15:51:07Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4668,9 +4668,9 @@
    "seriesId": "8659",
    "matchNo": "9th Match, Group A",
    "venue": "Dubai International Cricket Stadium",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "India Women",
@@ -4681,15 +4681,152 @@
     {
      "name": "Pakistan Women",
      "abbr": "PAK-W",
-     "score": "",
+     "score": "55 (18.1/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 18:30 local time",
+   "result": "PAK Women won toss & batted",
    "india": "",
-   "o": [
-    0.915,
-    0.085
+   "xi": {
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Pratika Rawal",
+     "Harmanpreet Kaur (c)",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Deepti Sharma",
+     "Prema Rawat",
+     "Shree Charani",
+     "Kranti Gaud",
+     "Nandani Sharma"
+    ],
+    "Pakistan Women": [
+     "Muneeba Ali",
+     "Shawaal Zulfiqar",
+     "Gull Feroza",
+     "Ayesha Zafar",
+     "Sadaf Shamas",
+     "Fatima Sana (c)",
+     "Eyman Fatima",
+     "Umm-e-Hani",
+     "Tuba Hassan",
+     "Nashra Sandhu",
+     "Sadia Iqbal"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Pakistan Women",
+     "total": "55 (18.1 ov)",
+     "bat": [
+      [
+       "Muneeba Ali",
+       13,
+       15,
+       "b"
+      ],
+      [
+       "Shawaal Zulfiqar",
+       14,
+       14,
+       "lbw"
+      ],
+      [
+       "Gull Feroza",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Ayesha Zafar",
+       2,
+       7,
+       "c"
+      ],
+      [
+       "Sadaf Shamas",
+       3,
+       8,
+       "b"
+      ],
+      [
+       "Fatima Sana",
+       0,
+       7,
+       "lbw"
+      ],
+      [
+       "Eyman Fatima",
+       5,
+       10,
+       "run out"
+      ],
+      [
+       "Umm-e-Hani",
+       6,
+       18,
+       "c"
+      ],
+      [
+       "Tuba Hassan",
+       9,
+       16,
+       "st"
+      ],
+      [
+       "Nashra Sandhu",
+       0,
+       5,
+       "c"
+      ],
+      [
+       "Sadia Iqbal",
+       0,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "3",
+       10,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3.1",
+       5,
+       2
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       9,
+       3
+      ],
+      [
+       "Shree Charani",
+       "4",
+       7,
+       3
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       9,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       14,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
