@@ -33064,6 +33064,211 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1548899",
+   "date": "2026-09-05",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "matchNo": "9th Match, Group A",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "",
+   "teams": [
+    {
+     "name": "India Women",
+     "score": "57/3 (8.4/20 ov, target 56)"
+    },
+    {
+     "name": "Pakistan Women",
+     "score": "55"
+    }
+   ],
+   "result": "IND Women won by 7 wkts (68b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Pakistan Women",
+     "total": "55 (18.1 ov)",
+     "bat": [
+      [
+       "Muneeba Ali",
+       13,
+       15,
+       "b"
+      ],
+      [
+       "Shawaal Zulfiqar",
+       14,
+       14,
+       "lbw"
+      ],
+      [
+       "Gull Feroza",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Ayesha Zafar",
+       2,
+       7,
+       "c"
+      ],
+      [
+       "Sadaf Shamas",
+       3,
+       8,
+       "b"
+      ],
+      [
+       "Fatima Sana",
+       0,
+       7,
+       "lbw"
+      ],
+      [
+       "Eyman Fatima",
+       5,
+       10,
+       "run out"
+      ],
+      [
+       "Umm-e-Hani",
+       6,
+       18,
+       "c"
+      ],
+      [
+       "Tuba Hassan",
+       9,
+       16,
+       "st"
+      ],
+      [
+       "Nashra Sandhu",
+       0,
+       5,
+       "c"
+      ],
+      [
+       "Sadia Iqbal",
+       0,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "3",
+       10,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3.1",
+       5,
+       2
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       9,
+       3
+      ],
+      [
+       "Shree Charani",
+       "4",
+       7,
+       3
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       9,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       14,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "57/3 (8.4 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       12,
+       6,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       9,
+       11,
+       "lbw"
+      ],
+      [
+       "Pratika Rawal",
+       4,
+       3,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       18,
+       18,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       12,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Bharti Fulmali",
+      "Richa Ghosh",
+      "Prema Rawat",
+      "Shree Charani",
+      "Kranti Gaud",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Fatima Sana",
+       "3",
+       17,
+       3
+      ],
+      [
+       "Umm-e-Hani",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Nashra Sandhu",
+       "1.4",
+       19,
+       0
+      ],
+      [
+       "Sadia Iqbal",
+       "3",
+       16,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

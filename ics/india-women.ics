@@ -115,4 +115,12 @@ SUMMARY:South Africa v India 🏏 3rd T20I
 LOCATION:Senwes Park  Potchefstroom
 DESCRIPTION:India Women tour of South Africa 2026/27
 END:VEVENT
+BEGIN:VEVENT
+UID:espn_1548903@india-cricket-tracker
+DTSTART:20260910T143000Z
+DTEND:20260910T183000Z
+SUMMARY:India v TBA 🏏 1st Semi-Final
+LOCATION:Dubai International Cricket Stadium
+DESCRIPTION:Women's Twenty20 Asia Cup
+END:VEVENT
 END:VCALENDAR

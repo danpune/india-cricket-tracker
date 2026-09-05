@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T15:51:07Z",
+ "updated": "2026-09-05T17:52:39Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4668,34 +4668,34 @@
    "seriesId": "8659",
    "matchNo": "9th Match, Group A",
    "venue": "Dubai International Cricket Stadium",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
-     "winner": false
+     "score": "57/3 (8.4/20 ov, target 56)",
+     "winner": true
     },
     {
      "name": "Pakistan Women",
      "abbr": "PAK-W",
-     "score": "55 (18.1/20 ov)",
+     "score": "55",
      "winner": false
     }
    ],
-   "result": "PAK Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 7 wkts (68b rem)",
+   "india": "won",
    "xi": {
     "India Women": [
-     "Smriti Mandhana",
      "Shafali Verma",
+     "Smriti Mandhana",
      "Pratika Rawal",
      "Harmanpreet Kaur (c)",
+     "Deepti Sharma",
      "Bharti Fulmali",
      "Richa Ghosh",
-     "Deepti Sharma",
      "Prema Rawat",
      "Shree Charani",
      "Kranti Gaud",
@@ -4826,8 +4826,108 @@
        0
       ]
      ]
+    },
+    {
+     "t": "India Women",
+     "total": "57/3 (8.4 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       12,
+       6,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       9,
+       11,
+       "lbw"
+      ],
+      [
+       "Pratika Rawal",
+       4,
+       3,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       18,
+       18,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       12,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Bharti Fulmali",
+      "Richa Ghosh",
+      "Prema Rawat",
+      "Shree Charani",
+      "Kranti Gaud",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Fatima Sana",
+       "3",
+       17,
+       3
+      ],
+      [
+       "Umm-e-Hani",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Nashra Sandhu",
+       "1.4",
+       19,
+       0
+      ],
+      [
+       "Sadia Iqbal",
+       "3",
+       16,
+       0
+      ]
+     ]
     }
    ]
+  },
+  {
+   "id": "espn_1548903",
+   "eventId": "1548903",
+   "date": "2026-09-10T14:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "seriesId": "8659",
+   "matchNo": "1st Semi-Final",
+   "venue": "Dubai International Cricket Stadium",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "TBA",
+     "abbr": "TBA",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
   },
   {
    "id": "espn_1529227",
@@ -7095,7 +7195,7 @@
       "no": "3",
       "name": "India",
       "team": "India",
-      "rating": "262"
+      "rating": "263"
      },
      {
       "no": "4",
@@ -7125,7 +7225,7 @@
       "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "212"
+      "rating": "211"
      },
      {
       "no": "9",
