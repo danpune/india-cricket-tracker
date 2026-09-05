@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T23:23:50Z",
+ "updated": "2026-09-05T01:13:17Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4686,7 +4686,11 @@
     }
    ],
    "result": "Starts at 18:30 local time",
-   "india": ""
+   "india": "",
+   "o": [
+    0.9,
+    0.1
+   ]
   },
   {
    "id": "espn_1529227",
