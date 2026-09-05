@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T17:52:39Z",
+ "updated": "2026-09-05T19:51:42Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4687,34 +4687,6 @@
    ],
    "result": "IND Women won by 7 wkts (68b rem)",
    "india": "won",
-   "xi": {
-    "India Women": [
-     "Shafali Verma",
-     "Smriti Mandhana",
-     "Pratika Rawal",
-     "Harmanpreet Kaur (c)",
-     "Deepti Sharma",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Prema Rawat",
-     "Shree Charani",
-     "Kranti Gaud",
-     "Nandani Sharma"
-    ],
-    "Pakistan Women": [
-     "Muneeba Ali",
-     "Shawaal Zulfiqar",
-     "Gull Feroza",
-     "Ayesha Zafar",
-     "Sadaf Shamas",
-     "Fatima Sana (c)",
-     "Eyman Fatima",
-     "Umm-e-Hani",
-     "Tuba Hassan",
-     "Nashra Sandhu",
-     "Sadia Iqbal"
-    ]
-   },
    "innings": [
     {
      "t": "Pakistan Women",
