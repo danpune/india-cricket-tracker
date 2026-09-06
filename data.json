@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T01:18:29Z",
+ "updated": "2026-09-06T06:02:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7351,13 +7351,13 @@
     {
      "date": "2026-09-06T04:00Z",
      "desc": "Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
      "teams": [
       {
        "name": "East Zone",
-       "score": ""
+       "score": "125/1 (20 ov)"
       },
       {
        "name": "South Zone",
