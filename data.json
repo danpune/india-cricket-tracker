@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T04:48:51Z",
+ "updated": "2026-09-08T09:09:50Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7023,7 +7023,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-08-31",
+    "updated": "2026-09-06",
     "bat": [
      {
       "no": "1",
@@ -7057,21 +7057,21 @@
      },
      {
       "no": "6",
-      "name": "Nat Sciver-Brunt",
-      "team": "England",
-      "rating": "693"
-     },
-     {
-      "no": "7",
       "name": "Maddy Green",
       "team": "New Zealand",
       "rating": "685"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Hayley Matthews",
       "team": "West Indies",
       "rating": "678"
+     },
+     {
+      "no": "8",
+      "name": "Nat Sciver-Brunt",
+      "team": "England",
+      "rating": "672"
      },
      {
       "no": "9",
@@ -7095,15 +7095,15 @@
      },
      {
       "no": "2",
-      "name": "Sophie Ecclestone",
-      "team": "England",
-      "rating": "717"
-     },
-     {
-      "no": "3",
       "name": "Ashleigh Gardner",
       "team": "Australia",
       "rating": "715"
+     },
+     {
+      "no": "3",
+      "name": "Sophie Ecclestone",
+      "team": "England",
+      "rating": "696"
      },
      {
       "no": "4",
@@ -7212,7 +7212,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "bat": [
      {
       "no": "1",
@@ -7242,19 +7242,19 @@
       "no": "5",
       "name": "Smriti Mandhana",
       "team": "India",
-      "rating": "744"
+      "rating": "743"
      },
      {
       "no": "6",
       "name": "Chamari Athapaththu",
       "team": "Sri Lanka",
-      "rating": "734"
+      "rating": "722"
      },
      {
       "no": "7",
       "name": "Shafali Verma",
       "team": "India",
-      "rating": "724"
+      "rating": "715"
      },
      {
       "no": "8",
@@ -7272,7 +7272,7 @@
       "no": "10",
       "name": "Harmanpreet Kaur",
       "team": "India",
-      "rating": "661"
+      "rating": "658"
      }
     ],
     "bowl": [
@@ -7280,7 +7280,7 @@
       "no": "1",
       "name": "Sree Charani",
       "team": "India",
-      "rating": "759"
+      "rating": "779"
      },
      {
       "no": "2",
@@ -7308,33 +7308,33 @@
      },
      {
       "no": "6",
+      "name": "Deepti Sharma",
+      "team": "India",
+      "rating": "709"
+     },
+     {
+      "no": "7",
       "name": "Linsey Smith",
       "team": "England",
       "rating": "704"
      },
      {
-      "no": "7",
+      "no": "8",
       "name": "Nashra Sundhu",
       "team": "Pakistan",
       "rating": "701"
      },
      {
-      "no": "8",
-      "name": "Deepti Sharma",
-      "team": "India",
-      "rating": "699"
-     },
-     {
       "no": "9",
-      "name": "Sadia Iqbal",
-      "team": "Pakistan",
-      "rating": "689"
-     },
-     {
-      "no": "10",
       "name": "Marizanne Kapp",
       "team": "South Africa",
       "rating": "681"
+     },
+     {
+      "no": "10",
+      "name": "Sadia Iqbal",
+      "team": "Pakistan",
+      "rating": "679"
      }
     ]
    }
@@ -7361,7 +7361,7 @@
       },
       {
        "name": "South Zone",
-       "score": "26/1 (9.1 ov)"
+       "score": "176/5 (55.2 ov)"
       }
      ]
     }
