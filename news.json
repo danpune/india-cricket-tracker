@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Hardik Pandya included in India A squad for one-dayers against Australia A",
+   "u": "https://www.cricinfo.com/ci/content/story/1553434.html?ex_cid=OTC-RSS",
+   "d": "Wed, 09 Sep 2026"
+  },
+  {
    "t": "Bangladesh bank on bowlers in bid to bring India down",
    "u": "https://www.cricinfo.com/ci/content/story/1553394.html?ex_cid=OTC-RSS",
    "d": "Wed, 09 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "India to host inaugural Women's Champions Trophy in February",
    "u": "https://www.cricinfo.com/ci/content/story/1552605.html?ex_cid=OTC-RSS",
    "d": "Wed, 02 Sep 2026"
-  },
-  {
-   "t": "India A to play three four-dayers in New Zealand before WTC Test series",
-   "u": "https://www.cricinfo.com/ci/content/story/1552525.html?ex_cid=OTC-RSS",
-   "d": "Wed, 02 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "zVZmC2UxFUs",
+     "t": "What If Kieron Pollard played for CSK or RCB?"
+    },
     {
      "yt": "hw3umwXj-gg",
      "t": "Preview: India ready for Afghanistan? The BIG Questions"
@@ -75,10 +79,6 @@
     {
      "yt": "bBA6tLda8rE",
      "t": "Injuries Hit India\u2019s Squad! Bumrah Returns\u2026 Where\u2019s Hardik?"
-    },
-    {
-     "yt": "P4qPix9P7Ls",
-     "t": "Key lessons for India from Sri Lanka? Harsha Bhogle answers"
     }
    ]
   },
