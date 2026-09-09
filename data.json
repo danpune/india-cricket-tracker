@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T05:11:25Z",
+ "updated": "2026-09-09T09:50:12Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4898,7 +4898,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 18:30 local time",
    "india": ""
   },
   {
@@ -6643,7 +6643,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-08-18",
+    "updated": "2026-09-08",
     "bat": [
      {
       "no": "1",
@@ -6832,7 +6832,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-09-01",
+    "updated": "2026-09-08",
     "bat": [
      {
       "no": "1",
@@ -6854,15 +6854,15 @@
      },
      {
       "no": "4",
-      "name": "Dewald Brevis",
-      "team": "South Africa",
-      "rating": "806"
-     },
-     {
-      "no": "5",
       "name": "Phil Salt",
       "team": "England",
       "rating": "799"
+     },
+     {
+      "no": "5",
+      "name": "Dewald Brevis",
+      "team": "South Africa",
+      "rating": "789"
      },
      {
       "no": "6",
@@ -7357,11 +7357,11 @@
      "teams": [
       {
        "name": "East Zone",
-       "score": "708"
+       "score": "708 & 127/2 (27.2 ov)"
       },
       {
        "name": "South Zone",
-       "score": "300/6 (92 ov)"
+       "score": "336"
       }
      ]
     }
