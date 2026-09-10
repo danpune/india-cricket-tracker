@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T19:48:22Z",
+ "updated": "2026-09-10T21:58:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4900,35 +4900,6 @@
    ],
    "result": "IND Women won by 40 runs",
    "india": "won",
-   "seriesNote": "India Women advanced",
-   "xi": {
-    "Bangladesh Women": [
-     "Dilara Akter",
-     "Juairiya Ferdous",
-     "Sobhana Mostary",
-     "Nigar Sultana (c)",
-     "Shorna Akter",
-     "Sharmin Akhter",
-     "Fahima Khatun",
-     "Rabeya Khan",
-     "Nahida Akter",
-     "Marufa Akter",
-     "Sultana Khatun"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Pratika Rawal",
-     "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
-     "Deepti Sharma",
-     "Bharti Fulmali",
-     "Prema Rawat",
-     "Shree Charani",
-     "Kranti Gaud",
-     "Nandani Sharma"
-    ]
-   },
    "innings": [
     {
      "t": "India Women",
@@ -6224,36 +6195,6 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1548868",
-   "eventId": "1548868",
-   "date": "2026-12-26T16:00Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "1st T20I",
-   "venue": "Willowmoore Park, Benoni",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
