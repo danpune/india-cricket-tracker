@@ -33,6 +33,12 @@ jobs:
       - name: Refresh news & talk (fail-safe)
         run: python build_news.py || true
 
+      # Gate, not a test suite: this runs BETWEEN fetch and commit and has no
+      # `|| true`, so a bad fetch is never published. The previous steps are
+      # fail-safe on purpose; this one must not be.
+      - name: Self-check the data before publishing it
+        run: python test_fetch.py
+
       - name: Commit if changed
         run: |
           git config user.name  "cricket-bot"
