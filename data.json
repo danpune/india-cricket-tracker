@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T13:48:44Z",
+ "updated": "2026-09-10T17:17:54Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4881,28 +4881,233 @@
    "seriesId": "8659",
    "matchNo": "1st Semi-Final",
    "venue": "Dubai International Cricket Stadium",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "Bangladesh Women",
      "abbr": "BAN-W",
-     "score": "",
+     "score": "76/4 (15/20 ov, target 150)",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "149/6",
      "winner": false
     }
    ],
-   "result": "Starts at 18:30 local time",
+   "result": "BAN Women require 74 runs",
    "india": "",
-   "o": [
-    0.055,
-    0.945
+   "xi": {
+    "Bangladesh Women": [
+     "Dilara Akter",
+     "Juairiya Ferdous",
+     "Sobhana Mostary",
+     "Nigar Sultana (c)",
+     "Shorna Akter",
+     "Sharmin Akhter",
+     "Fahima Khatun",
+     "Nahida Akter",
+     "Rabeya Khan",
+     "Marufa Akter",
+     "Sultana Khatun"
+    ],
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Pratika Rawal",
+     "Harmanpreet Kaur (c)",
+     "Richa Ghosh",
+     "Deepti Sharma",
+     "Bharti Fulmali",
+     "Prema Rawat",
+     "Shree Charani",
+     "Kranti Gaud",
+     "Nandani Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "149/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       64,
+       40,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       20,
+       24,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       24,
+       28,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       21,
+       16,
+       "st"
+      ],
+      [
+       "Deepti Sharma",
+       13,
+       6,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       0,
+       1,
+       "run out"
+      ]
+     ],
+     "dnb": [
+      "Prema Rawat",
+      "Shree Charani",
+      "Kranti Gaud",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Shorna Akter",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Fahima Khatun",
+       "4",
+       21,
+       0
+      ],
+      [
+       "Nahida Akter",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Rabeya Khan",
+       "4",
+       22,
+       1
+      ],
+      [
+       "Marufa Akter",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Sultana Khatun",
+       "3",
+       30,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Bangladesh Women",
+     "total": "80/4 (15.1 ov)",
+     "bat": [
+      [
+       "Dilara Akter",
+       21,
+       26,
+       "c"
+      ],
+      [
+       "Juairiya Ferdous",
+       14,
+       18,
+       "c"
+      ],
+      [
+       "Sobhana Mostary",
+       18,
+       24,
+       "b"
+      ],
+      [
+       "Nigar Sultana",
+       19,
+       17,
+       "c"
+      ],
+      [
+       "Shorna Akter",
+       8,
+       6,
+       "not out"
+      ],
+      [
+       "Sharmin Akhter",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Fahima Khatun",
+      "Nahida Akter",
+      "Rabeya Khan",
+      "Marufa Akter",
+      "Sultana Khatun"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "3",
+       15,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "3.1",
+       22,
+       2
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       21,
+       1
+      ],
+      [
+       "Shree Charani",
+       "2",
+       4,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       13,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "1",
+       5,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -5978,36 +6183,6 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1548868",
-   "eventId": "1548868",
-   "date": "2026-12-26T16:00Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "1st T20I",
-   "venue": "Willowmoore Park, Benoni",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
