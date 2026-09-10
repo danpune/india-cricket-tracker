@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T17:17:54Z",
+ "updated": "2026-09-10T19:48:22Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4881,25 +4881,26 @@
    "seriesId": "8659",
    "matchNo": "1st Semi-Final",
    "venue": "Dubai International Cricket Stadium",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Bangladesh Women",
      "abbr": "BAN-W",
-     "score": "76/4 (15/20 ov, target 150)",
+     "score": "109/7 (20 ov, target 150)",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
      "score": "149/6",
-     "winner": false
+     "winner": true
     }
    ],
-   "result": "BAN Women require 74 runs",
-   "india": "",
+   "result": "IND Women won by 40 runs",
+   "india": "won",
+   "seriesNote": "India Women advanced",
    "xi": {
     "Bangladesh Women": [
      "Dilara Akter",
@@ -4909,8 +4910,8 @@
      "Shorna Akter",
      "Sharmin Akhter",
      "Fahima Khatun",
-     "Nahida Akter",
      "Rabeya Khan",
+     "Nahida Akter",
      "Marufa Akter",
      "Sultana Khatun"
     ],
@@ -4996,15 +4997,15 @@
        0
       ],
       [
-       "Nahida Akter",
-       "4",
-       25,
-       1
-      ],
-      [
        "Rabeya Khan",
        "4",
        22,
+       1
+      ],
+      [
+       "Nahida Akter",
+       "4",
+       25,
        1
       ],
       [
@@ -5023,7 +5024,7 @@
     },
     {
      "t": "Bangladesh Women",
-     "total": "80/4 (15.1 ov)",
+     "total": "109/7 (20.0 ov)",
      "bat": [
       [
        "Dilara Akter",
@@ -5051,36 +5052,46 @@
       ],
       [
        "Shorna Akter",
-       8,
-       6,
+       22,
+       18,
        "not out"
       ],
       [
        "Sharmin Akhter",
+       1,
+       2,
+       "b"
+      ],
+      [
+       "Fahima Khatun",
+       14,
+       14,
+       "c"
+      ],
+      [
+       "Rabeya Khan",
        0,
-       0,
-       "not out"
+       1,
+       "hit wicket"
       ]
      ],
      "dnb": [
-      "Fahima Khatun",
       "Nahida Akter",
-      "Rabeya Khan",
       "Marufa Akter",
       "Sultana Khatun"
      ],
      "bowl": [
       [
        "Shafali Verma",
-       "3",
-       15,
+       "4",
+       25,
        0
       ],
       [
        "Deepti Sharma",
-       "3.1",
-       22,
-       2
+       "4",
+       26,
+       3
       ],
       [
        "Prema Rawat",
@@ -5090,8 +5101,8 @@
       ],
       [
        "Shree Charani",
-       "2",
-       4,
+       "4",
+       14,
        1
       ],
       [
@@ -5102,13 +5113,43 @@
       ],
       [
        "Nandani Sharma",
-       "1",
-       5,
-       0
+       "2",
+       10,
+       2
       ]
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1548905",
+   "eventId": "1548905",
+   "date": "2026-09-13T14:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "seriesId": "8659",
+   "matchNo": "Final",
+   "venue": "Dubai International Cricket Stadium",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "TBA",
+     "abbr": "TBA",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
   },
   {
    "id": "espn_1529227",
@@ -6183,6 +6224,36 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1548868",
+   "eventId": "1548868",
+   "date": "2026-12-26T16:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "1st T20I",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
@@ -7519,34 +7590,7 @@
    }
   }
  },
- "domestic": {
-  "men": {
-   "name": "Duleep Trophy",
-   "leagueId": "8630",
-   "from": "2026-08-23",
-   "to": "2026-09-10",
-   "more": 0,
-   "matches": [
-    {
-     "date": "2026-09-06T04:00Z",
-     "desc": "Final",
-     "state": "post",
-     "detail": "Final",
-     "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-     "teams": [
-      {
-       "name": "East Zone",
-       "score": "708 & 388/7d (99.2 ov)"
-      },
-      {
-       "name": "South Zone",
-       "score": "336"
-      }
-     ]
-    }
-   ]
-  }
- },
+ "domestic": {},
  "meta": {
   "discovered": {
    "8659": "women"

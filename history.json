@@ -33269,6 +33269,219 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1548903",
+   "date": "2026-09-10",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "matchNo": "1st Semi-Final",
+   "venue": "Dubai International Cricket Stadium",
+   "city": "",
+   "teams": [
+    {
+     "name": "Bangladesh Women",
+     "score": "109/7 (20 ov, target 150)"
+    },
+    {
+     "name": "India Women",
+     "score": "149/6"
+    }
+   ],
+   "result": "IND Women won by 40 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "149/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       64,
+       40,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       20,
+       24,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       24,
+       28,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       21,
+       16,
+       "st"
+      ],
+      [
+       "Deepti Sharma",
+       13,
+       6,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       0,
+       1,
+       "run out"
+      ]
+     ],
+     "dnb": [
+      "Prema Rawat",
+      "Shree Charani",
+      "Kranti Gaud",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Shorna Akter",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Fahima Khatun",
+       "4",
+       21,
+       0
+      ],
+      [
+       "Rabeya Khan",
+       "4",
+       22,
+       1
+      ],
+      [
+       "Nahida Akter",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Marufa Akter",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Sultana Khatun",
+       "3",
+       30,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Bangladesh Women",
+     "total": "109/7 (20.0 ov)",
+     "bat": [
+      [
+       "Dilara Akter",
+       21,
+       26,
+       "c"
+      ],
+      [
+       "Juairiya Ferdous",
+       14,
+       18,
+       "c"
+      ],
+      [
+       "Sobhana Mostary",
+       18,
+       24,
+       "b"
+      ],
+      [
+       "Nigar Sultana",
+       19,
+       17,
+       "c"
+      ],
+      [
+       "Shorna Akter",
+       22,
+       18,
+       "not out"
+      ],
+      [
+       "Sharmin Akhter",
+       1,
+       2,
+       "b"
+      ],
+      [
+       "Fahima Khatun",
+       14,
+       14,
+       "c"
+      ],
+      [
+       "Rabeya Khan",
+       0,
+       1,
+       "hit wicket"
+      ]
+     ],
+     "dnb": [
+      "Nahida Akter",
+      "Marufa Akter",
+      "Sultana Khatun"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       25,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       26,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       21,
+       1
+      ],
+      [
+       "Shree Charani",
+       "4",
+       14,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       13,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       10,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
