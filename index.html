@@ -339,6 +339,7 @@ footer a{color:var(--chakra);text-decoration:none}
 .stale{background:color-mix(in srgb,var(--saffron) 18%,var(--card));border:1px solid var(--saffron);
   border-radius:10px;padding:9px 13px;margin:0 0 12px;font-size:12.5px;color:var(--ink)}
 .stale a{color:var(--chakra);font-weight:700}
+.stale-age{color:var(--live);font-weight:700}
 .err{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
 /* sticky jump nav */
 #jump{position:sticky;top:0;z-index:40}
@@ -1055,11 +1056,27 @@ function render(){
   writeFooter();
 }
 
+/* An absolute timestamp tells nobody whether the build is current — relative age does,
+   and past the threshold it becomes a warning. staleBanner() only fires from the fetch
+   .catch(), so a SUCCESSFUL fetch of hours-old data used to show no signal anywhere.
+   Live scores are self-healed by pollLive() whatever the build's age, so this is about
+   everything else: finished results, rankings, news. Threshold is 90 min because
+   GitHub's scheduler really delivers this repo's 10-minute cron about every 2h. */
+function buildAge(iso){
+  var ms=Date.now()-Date.parse(iso);
+  if(!(ms>=0))return '';
+  var mins=Math.round(ms/6e4), h=Math.floor(mins/60), m=mins%60;
+  var ago=(h?h+'h ':'')+m+'m ago';
+  return ms>90*6e4
+    ? '<span class="stale-age">\u26a0 data may be delayed \u2014 updated '+ago+'</span>'
+    : 'Updated '+ago;
+}
+
 var VISITS=null;
 function writeFooter(){
   var el=document.getElementById('foot');
   if(!el)return;
-  el.innerHTML=(DATA&&DATA.updated?'Updated '+new Date(DATA.updated).toLocaleString()+'<br>':'')+
+  el.innerHTML=(DATA&&DATA.updated?buildAge(DATA.updated)+'<br>':'')+
     'Data: ESPN public feeds & <a href="https://cricsheet.org">cricsheet.org</a> (attribution) · '+
     '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a>'+
     '<span id="visits">'+(VISITS!=null?' · 👀 '+VISITS.toLocaleString()+' visits':'')+'</span>';

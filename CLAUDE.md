@@ -108,6 +108,15 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
   real feed periodically — ESPN's UA rules already changed once.
 
+## Build freshness
+- The footer shows the build's AGE, not an absolute timestamp, and turns into a warning
+  past 90 min (`buildAge()`). Before that, `staleBanner()` only fired from the fetch
+  `.catch()`, so a SUCCESSFUL fetch of hours-old data showed no signal anywhere — the
+  daily sweep found the site 2h13m behind with nothing on screen to say so.
+- 90 min, not grandslams' 45: GitHub really delivers this repo's 10-minute cron about
+  every 2h, and live scores are self-healed by `pollLive()` whatever the build's age,
+  so the age only matters for finished results, rankings and news.
+
 ## Domestic cricket ("Meanwhile in Indian cricket")
 - `fetch_data.fetch_domestic()` → `data.json.domestic.{men,women}`. Verified ESPN league
   ids: Duleep 8630 · Ranji 8050 · Syed Mushtaq Ali 8661 · Vijay Hazare 8890 · IPL 8048;
