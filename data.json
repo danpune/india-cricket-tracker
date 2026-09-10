@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T02:48:59Z",
+ "updated": "2026-09-10T05:07:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4901,8 +4901,8 @@
    "result": "Starts at 18:30 local time",
    "india": "",
    "o": [
-    0.05,
-    0.95
+    0.055,
+    0.945
    ]
   },
   {
@@ -7361,7 +7361,7 @@
      "teams": [
       {
        "name": "East Zone",
-       "score": "708 & 212/5 (51 ov)"
+       "score": "708 & 247/6 (62.1 ov)"
       },
       {
        "name": "South Zone",
