@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T21:58:10Z",
+ "updated": "2026-09-10T23:51:24Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6195,6 +6195,36 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1548868",
+   "eventId": "1548868",
+   "date": "2026-12-26T16:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026/27",
+   "seriesId": "24559",
+   "matchNo": "1st T20I",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
