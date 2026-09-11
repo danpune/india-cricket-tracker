@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T16:36:21Z",
+ "updated": "2026-09-11T19:15:57Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5113,10 +5113,10 @@
      "winner": false
     },
     {
-     "name": "TBA",
-     "abbr": "TBA",
+     "name": "Sri Lanka Women",
+     "abbr": "SL-W",
      "score": "",
-     "winner": true
+     "winner": false
     }
    ],
    "result": "",
@@ -6353,6 +6353,36 @@
    "india": ""
   },
   {
+   "id": "espn_1529242",
+   "eventId": "1529242",
+   "date": "2027-01-06T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Zimbabwe tour of India 2026/27",
+   "seriesId": "24283",
+   "matchNo": "2nd ODI",
+   "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Zimbabwe",
+     "abbr": "ZIM",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1529243",
    "eventId": "1529243",
    "date": "2027-01-09T08:30Z",
@@ -7388,7 +7418,7 @@
       "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "212"
+      "rating": "211"
      },
      {
       "no": "9",

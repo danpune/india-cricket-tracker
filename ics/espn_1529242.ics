@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1529242@india-cricket-tracker
+DTSTART:20270106T083000Z
+DTEND:20270106T170000Z
+SUMMARY:India v Zimbabwe 🏏 2nd ODI
+LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
+DESCRIPTION:Zimbabwe tour of India 2026/27
+END:VEVENT
+END:VCALENDAR
