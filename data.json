@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T19:15:57Z",
+ "updated": "2026-09-11T21:45:37Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6608,6 +6608,11 @@
    "id": "8659",
    "name": "Women's Twenty20 Asia Cup",
    "gender": "women"
+  },
+  {
+   "id": "24725",
+   "name": "Australia A Women tour of India 2026/27",
+   "gender": "women"
   }
  ],
  "rankings": {
@@ -7564,7 +7569,8 @@
  "domestic": {},
  "meta": {
   "discovered": {
-   "8659": "women"
+   "8659": "women",
+   "24725": "women"
   }
  }
 }
