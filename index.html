@@ -75,8 +75,19 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
 /* format badge */
 .fmt{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.8px;padding:2px 8px;border-radius:5px;
   color:#fff;vertical-align:1px}
-.fmt.Test{background:var(--test)} .fmt.ODI{background:var(--odi)} .fmt.T20I{background:var(--t20)}
-.fmt.other{background:var(--nr)}
+/* Chip backgrounds are set HERE, not from --test/--odi/--t20/--nr, because those tokens
+   also colour result text where they sit on the card and already pass. At 10.5px/800 the
+   chips are small text, so 4.5:1 applies: white on --t20 measured 3.97 and on --nr 3.09.
+   Dark mode inverts the problem — the tokens brighten there, so white fails on all four
+   (2.88-4.37) and the chips take DARK text instead. */
+.fmt.Test{background:var(--test)} .fmt.ODI{background:var(--odi)}
+.fmt.T20I{background:#c8500b}          /* 4.56:1 on #fff (--t20 itself is 3.97) */
+.fmt.other{background:#6c7382}         /* 4.76:1 on #fff (--nr itself is 3.09) */
+@media (prefers-color-scheme: dark){
+  .fmt{color:#0d1320}                  /* 5.1-6.4:1 on the dark chips; white was 2.9-4.4 */
+  .fmt.T20I{background:var(--t20)} .fmt.other{background:var(--nr)}
+  .fmt.Test{background:#d4718d}        /* lightened from #c05577 so dark text clears AA */
+}
 
 /* ---------- hero ---------- */
 .hero{background:linear-gradient(150deg,var(--blue-deep) 0%,var(--blue) 85%);color:var(--hero-ink);
@@ -634,7 +645,7 @@ function compTotals(apps,comp){
     if(a.bat)inns.push(a.bat); if(a.bat2)inns.push(a.bat2);
     [a.bowl,a.bowl2].forEach(function(b){if(b)wkts+=+b[2]||0;});
   });
-  if(!inns.length)return '';
+  if(!inns.length)return wkts?'<b>'+wkts+'</b> wkt'+(wkts>1?'s':''):'';
   var runs=inns.reduce(function(s,b){return s+b[0];},0);
   var hs=inns.reduce(function(s,b){return Math.max(s,b[0]);},0);
   return '<b>'+runs+'</b> runs in '+inns.length+' inning'+(inns.length>1?'s':'')+
@@ -647,11 +658,16 @@ function followSummary(apps,live){
   var last=apps[0];                                    /* apps are sorted newest-first */
   if(!last)return '';
   var when=istDate(last.date+'T12:00:00Z'), line;
-  if(dom&&!dom.upcoming&&dom.name===last.comp){
+  /* recency matters: matching the in-season competition is not proof he is still in it.
+     He plays one Ranji round, gets picked for a white-ball tour, and with no published XI
+     this branch would keep saying "Playing the Ranji Trophy" while he is abroad — the
+     same rot as the hand-written note this feature replaced. */
+  var fresh=Date.now()-Date.parse(last.date)<14*864e5;
+  if(dom&&!dom.upcoming&&dom.name===last.comp&&fresh){
     line='Playing the <b>'+esc(dom.name)+'</b>'+(last.team?' for '+esc(last.team):'')+
          ' — '+compTotals(apps,last.comp)+'.';
   }else if(last.intl){
-    line='No club fixture. Last out for <b>India</b> — '+esc(last.label||'')+
+    line='No club fixture. Last out for <b>India</b> — '+(last.label||'')+
          ' v '+esc(norm(last.vs||''))+', '+esc(when)+'.';
   }else{
     line='No fixture right now. Last out in the <b>'+esc(last.comp)+'</b>'+
@@ -711,7 +727,7 @@ function followingHTML(){
     var teams=['India'].concat(p.teams||[]).filter(function(t,i,l){return l.indexOf(t)===i;});
     out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+
          esc(teams.join(' · '))+'<br>'+
-         esc((apps[apps.length-1]&&apps[apps.length-1].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
+         esc((apps[0]&&apps[0].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
          inns.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
     var tldr=followSummary(apps,live);
     if(tldr)out+='<div class="tldr">'+tldr+'</div>';
@@ -1129,7 +1145,8 @@ function render(){
    GitHub's scheduler really delivers this repo's 10-minute cron about every 2h. */
 function buildAge(iso){
   var ms=Date.now()-Date.parse(iso);
-  if(!(ms>=0))return '';
+  if(isNaN(ms))return '';
+  if(ms<0)ms=0;            /* a viewer's clock running fast must not hide the line */
   var mins=Math.round(ms/6e4), h=Math.floor(mins/60), m=mins%60;
   var ago=(h?h+'h ':'')+m+'m ago';
   return ms>90*6e4
@@ -1146,6 +1163,11 @@ function writeFooter(){
     '<a href="https://github.com/danpune/india-cricket-tracker">Source on GitHub</a>'+
     '<span id="visits">'+(VISITS!=null?' · 👀 '+VISITS.toLocaleString()+' visits':'')+'</span>';
 }
+
+/* buildAge() is only as good as the last render. A tab left open never crossed the
+   90-minute threshold — the same silent staleness 57e2618 set out to remove, just moved
+   from "loads stale" to "goes stale while you watch". */
+setInterval(writeFooter,60000);
 
 function startTicker(){
   if(TICK)clearInterval(TICK);

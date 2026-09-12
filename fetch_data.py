@@ -226,7 +226,12 @@ def fetch_domestic(now):
             try:
                 board = get(f"{BASE}/{lid}/scoreboard")
                 cal = [c[:10] for c in board["leagues"][0].get("calendar", [])]
-                nxt = next((d for d in cal if d >= today), None)
+                # Clamp BEFORE picking. Taking the next RAW calendar date hands back the
+                # very dates _clamp exists to reject: on 73 days of the coming year the
+                # Vijay Hazare tail makes `next` 2028-01-02 while `to` is 2026-12-29, and
+                # istDate() prints no year, so the card reads "starts 2 Jan" — imminent.
+                end = _clamp(cal) if cal else ""
+                nxt = next((d for d in cal if today <= d <= end), None)
                 if not nxt:
                     continue              # season over
                 away = (datetime.fromisoformat(nxt) - datetime.fromisoformat(today)).days

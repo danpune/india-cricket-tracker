@@ -147,7 +147,11 @@ def espn_card(lid, comp, eid, aid):
                                      else (d.get("dismissalCard") or "b")])
                     if d.get("overs") and d.get("overs") not in ("0", "0.0"):
                         bowls.append([d.get("overs"), _int(d.get("conceded")), _int(d.get("wickets"))])
-    done = (c.get("status", {}).get("type", {}) or {}).get("state") == "post"
+    # Only trust "he did not play" when a roster was actually present. ESPN does return
+    # HTTP 200 with an empty rosters[], and marking that event seen would drop a real
+    # appearance permanently — nothing ever looks at it again.
+    done = ((c.get("status", {}).get("type", {}) or {}).get("state") == "post"
+            and bool(s.get("rosters")))
     if not team or not (bats or bowls):
         return None, done
     sides = c.get("competitors", [])
