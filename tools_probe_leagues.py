@@ -8,6 +8,8 @@ scan ABOVE 25600 when the women's season starts.
 
     python3 tools_probe_leagues.py 25600 27000 | grep -i women
 """
+import json, urllib.request, concurrent.futures as cf
+
 UA={"User-Agent":"india-cricket-tracker (+https://github.com/danpune/india-cricket-tracker)"}
 def peek(lid):
     try:
