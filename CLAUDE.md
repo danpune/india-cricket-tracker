@@ -108,6 +108,19 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
   real feed periodically — ESPN's UA rules already changed once.
 
+## Live poller
+- `pollLive()` polls `?dates=` — and ESPN files an event under the VENUE's day, not the
+  UTC day. The Nov 2026 NZ Tests start 22:00Z, i.e. the NEXT day in New Zealand:
+  `?dates=20261118` returns 0 events, `20261119` returns the match. The poller therefore
+  tries the UTC day and its two neighbours and keeps whichever answers. This is the SAME
+  day-boundary trap that lost the Zimbabwe T20I in the fetcher — it will keep reappearing
+  anywhere a date is handed to ESPN, so reach for the venue day every time.
+- The build can say 'pre' while ESPN says 'in' (the cron is not punctual), so the poller
+  writes `m.state='in'` back. Without it the hero keeps the match under UP NEXT with a
+  frozen 00:00:00 countdown and live scores underneath.
+- `startTicker()` re-renders ONCE when the countdown hits zero (and clears its interval
+  first) — otherwise an open tab sits at 00:00:00 and the poller never arms until reload.
+
 ## Build freshness
 - The footer shows the build's AGE, not an absolute timestamp, and turns into a warning
   past 90 min (`buildAge()`). Before that, `staleBanner()` only fired from the fetch

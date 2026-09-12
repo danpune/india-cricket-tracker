@@ -129,6 +129,8 @@ h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mu
 .mrow .mid{flex:1;min-width:0}
 .mrow .mid .no{font-size:13.5px;font-weight:700}
 .mrow .mid .sub{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* the result sentence is the point of a finished row — never truncate it to "India won by 16…" */
+.mrow .mid .sub.res{white-space:normal;overflow:visible}
 .mrow .right{flex:none;text-align:right;font-size:12.5px;max-width:46%}
 .mrow .right .sc{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600;line-height:1.4}
 .mrow .right .res{font-weight:700}
@@ -699,9 +701,11 @@ function followingHTML(){
     var pool=DATA.matches.concat(HIST.matches.filter(function(hm){
       return !DATA.matches.some(function(dm){return dm.id.split('_')[1]===hm.id.split('_')[1];});}));
     pool.forEach(function(m){
-      var bat=null,bowl=null,inXI=false;
+      var bat=null,bat2=null,bowl=null,inXI=false;
       (m.innings||[]).forEach(function(inn){
-        (inn.bat||[]).forEach(function(b){if(re.test(b[0]))bat=[b[1],b[2],b[3]];});
+        /* a Test is two innings — plain assignment kept only the last one */
+        (inn.bat||[]).forEach(function(b){if(re.test(b[0])){
+          if(bat)bat2=[b[1],b[2],b[3]];else bat=[b[1],b[2],b[3]];}});
         (inn.bowl||[]).forEach(function(b){if(re.test(b[0]))bowl=[b[1],b[2],b[3]];});
       });
       Object.keys(m.xi||{}).forEach(function(t){(m.xi[t]||[]).forEach(function(n){if(re.test(n))inXI=true;});});
@@ -710,7 +714,7 @@ function followingHTML(){
         var k=m.date.slice(0,10);
         if(seen[k])return; seen[k]=1;
         apps.push({date:m.date.slice(0,10),label:esc(m.matchNo),vs:m.teams.map(function(t){return t.name;}).filter(function(n){return norm(n)!=='India';})[0]||'',
-          intl:true,fmt:m.format||'T20I',bat:bat,bowl:bowl,won:m.india==='won'});
+          intl:true,fmt:m.format||'T20I',bat:bat,bat2:bat2,bowl:bowl,won:m.india==='won'});
       }
     });
     if(!apps.length)return;
@@ -734,7 +738,7 @@ function followingHTML(){
     apps.slice(0,12).forEach(function(a){
       var bat=[a.bat,a.bat2].filter(Boolean).map(batStr).join(' & ');
       var bw=[a.bowl,a.bowl2].filter(function(b){return b&&b[0]!=='0';})
-              .map(function(b){return b[2]+'/'+b[1]+' ('+b[0]+')';}).join(' & ');
+              .map(function(b){return esc(b[2])+'/'+esc(b[1])+' ('+esc(b[0])+')';}).join(' & ');
       var line=[bat?'🏏 '+bat:null, bw?'⚾ '+bw:null].filter(Boolean).join(' · ');
       out+='<div class="mrow" style="border-left:3px solid var(--'+(a.won===true?'win':a.won===false?'loss':'nr')+')">'+
         '<div class="when"><b>'+new Date(a.date+'T12:00:00Z').toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
@@ -1174,13 +1178,17 @@ function startTicker(){
   var el=document.querySelector('.cdwrap');
   if(!el)return;
   var ts=+el.getAttribute('data-ts');
+  var fired=false;
   function tick(){
     var s=Math.max(0,Math.floor((ts-Date.now())/1000));
     var v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];
     var cells=el.querySelectorAll('.cd-cell b');
     for(var i=0;i<4;i++)cells[i].textContent=i?String(v[i]).padStart(2,'0'):v[i];
+    /* start time reached: re-render ONCE so the match moves out of UP NEXT and the
+       poller arms. Without this an open tab sits at 00:00:00 until someone reloads. */
+    if(s===0&&!fired){fired=true;clearInterval(TICK);TICK=null;render();}
   }
-  tick();TICK=setInterval(tick,1000);
+  tick();if(!fired)TICK=setInterval(tick,1000);
 }
 
 /* ---- live poller ----
@@ -1197,15 +1205,33 @@ document.addEventListener('visibilitychange',function(){
   if(!document.hidden&&LIVE_TICK)LIVE_TICK();
 });
 window.addEventListener('pageshow',function(){if(LIVE_TICK)LIVE_TICK();});
+function shiftDay(ymd,delta){
+  var d=new Date(ymd.slice(0,4)+'-'+ymd.slice(4,6)+'-'+ymd.slice(6,8)+'T12:00:00Z');
+  d.setUTCDate(d.getUTCDate()+delta);
+  return d.toISOString().slice(0,10).replace(/-/g,'');
+}
 function pollLive(m){
   stopLive();
   if(!m||!m.seriesId||!m.eventId)return;
-  var url='https://site.api.espn.com/apis/site/v2/sports/cricket/'+encodeURIComponent(m.seriesId)+
-          '/scoreboard?dates='+m.date.slice(0,10).replace(/-/g,'');
+  /* ESPN files an event under the VENUE's day, not the UTC day. A 22:00Z start in New
+     Zealand belongs to the NEXT calendar day there, so ?dates=<utc day> returns [] and
+     the poller finds nothing for the whole of day one — verified against both Nov 2026
+     NZ Tests (20261118 → 0 events, 20261119 → the match). This is the same day-boundary
+     trap that cost us the Zimbabwe T20I in the fetcher; try the neighbouring days and
+     keep whichever one answers. */
+  var days=[m.date.slice(0,10).replace(/-/g,'')];
+  days.push(shiftDay(days[0],1),shiftDay(days[0],-1));
+  var di=0;
+  function url(){return 'https://site.api.espn.com/apis/site/v2/sports/cricket/'+
+    encodeURIComponent(m.seriesId)+'/scoreboard?dates='+days[di];}
   function tick(){
-    fetch(url,{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+    var tried=0;
+    (function attempt(){
+    fetch(url(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
       var ev=(d.events||[]).filter(function(e){return String(e.id)===String(m.eventId);})[0];
-      if(!ev)return;
+      if(!ev){ /* wrong day for this venue — walk the candidates once per tick */
+        if(++tried<days.length){di=(di+1)%days.length;attempt();}
+        return;}
       var c=ev.competitions[0], st=ev.status.type;
       var by={};
       c.competitors.forEach(function(t){
@@ -1237,9 +1263,14 @@ function pollLive(m){
         stopLive();render();return;
       }
       m._ending=0;
+      /* The build can still say 'pre' while ESPN says the match has started — the cron
+         is not punctual. Without writing state back, the hero keeps the match under
+         UP NEXT with a frozen 00:00:00 countdown and live scores beneath it. */
+      if(m.state!=='in'){m.state='in';if(GENDER===m.gender){render();return;}}
       if(changed&&GENDER===m.gender)render();
       else stampLiveTime();
     }).catch(function(){});
+    })();
   }
   LIVE_TICK=tick;
   tick();
