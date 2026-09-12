@@ -123,15 +123,20 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   women WPL 21282 only — the Senior One Day (20045) and T20 Challenger (21176) ids stop
   at their 2021/2022 seasons, so the women's strip can only appear during the WPL
   (Jan–Feb).
-- DON'T RE-PROBE FOR WOMEN'S DOMESTIC IDS — it has been done. Sep 2026: scanned ~4,200
-  league ids (8000–9000 and 20000–23200, the ranges that hold every id this project uses,
-  including WPL 21282 and the dead pair above). ESPN carries plenty of women's domestic
-  cricket — Australia's WNCL 8628/8897, NZ 8818/8819, WBBL 21284, The Hundred Women
-  21376, CSA 8733/8734 — but NOT India's current state competitions. There is also no
-  league listing to enumerate from (`sports.core.api.espn.com/v2/sports/cricket/leagues`
-  returns count 0). So the women's tab showing nothing between WPL seasons is the feed's
-  limit, not a bug: don't invent coverage, and don't spend another scan on it. Re-check
-  only if ESPN starts publishing a league index.
+- Women's domestic ids, probe of Sep 2026 (~8,800 ids: 8000–9000, 20000–25600). ESPN HAS
+  carried BCCI women's domestic — three ids exist, all now dead:
+      20045  Women's Senior One Day Trophy          2021-10-28 → 2021-11-20
+      21176  Senior Women's T20 Challenger Trophy   2022-11-20 → 2022-11-26
+      22578  Senior Women Inter Zonal Multi-Day     2024-03-28 → 2024-04-11
+             (real BCCI zonal cricket — "East Zone Women v North East Zone Women")
+  Nothing in the scanned space has a 2025 or 2026 season, and there is no league index to
+  enumerate from (`sports.core.api.espn.com/v2/sports/cricket/leagues` returns count 0).
+  So the women's tab is silent between WPL seasons because the feed is, not because of a
+  bug — but note the ids are scattered (2021→20045, 2022→21176, 2024→22578), i.e. each
+  season gets a NEW id rather than a rolling one like men's Ranji 8050. A 2026/27 season,
+  if ESPN covers it, will appear at an id nobody has seen yet. Worth one re-probe of the
+  newest id range when the women's season starts (Oct–Nov) — not a standing task.
+  DON'T repeat the ranges above; they are settled.
 - Selection is by MEMBERSHIP, not span: the league whose calendar's next date is soonest,
   and only within 7 days. Do NOT go back to "first league whose calendar brackets today"
   — Ranji runs Oct–Mar with a 72-day hole (5 Nov – 17 Jan) that SMAT and Vijay Hazare are
