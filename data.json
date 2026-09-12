@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T11:08:34Z",
+ "updated": "2026-09-12T14:05:33Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6651,7 +6651,7 @@
       "no": "5",
       "name": "England",
       "team": "England",
-      "rating": "99"
+      "rating": "102"
      },
      {
       "no": "6",
@@ -6667,15 +6667,15 @@
      },
      {
       "no": "8",
-      "name": "Pakistan",
-      "team": "Pakistan",
-      "rating": "75"
-     },
-     {
-      "no": "9",
       "name": "West Indies",
       "team": "West Indies",
       "rating": "74"
+     },
+     {
+      "no": "9",
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "71"
      },
      {
       "no": "10",
@@ -6684,7 +6684,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-08-27",
+    "updated": "2026-09-01",
     "bat": [
      {
       "no": "1",
