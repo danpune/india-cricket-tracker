@@ -267,4 +267,28 @@ SUMMARY:New Zealand v India 🏏 2nd Test
 LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
+BEGIN:VEVENT
+UID:espn_1549586@india-cricket-tracker
+DTSTART:20260913T140000Z
+DTEND:20260913T180000Z
+SUMMARY:India v Afghanistan 🏏 1st T20I
+LOCATION:Arun Jaitley Stadium  Delhi
+DESCRIPTION:Afghanistan tour of India [Sep 2026] 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1549587@india-cricket-tracker
+DTSTART:20260915T140000Z
+DTEND:20260915T180000Z
+SUMMARY:India v Afghanistan 🏏 2nd T20I
+LOCATION:Arun Jaitley Stadium  Delhi
+DESCRIPTION:Afghanistan tour of India [Sep 2026] 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1549588@india-cricket-tracker
+DTSTART:20260917T140000Z
+DTEND:20260917T180000Z
+SUMMARY:India v Afghanistan 🏏 3rd T20I
+LOCATION:Arun Jaitley Stadium  Delhi
+DESCRIPTION:Afghanistan tour of India [Sep 2026] 2026
+END:VEVENT
 END:VCALENDAR
