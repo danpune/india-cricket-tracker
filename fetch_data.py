@@ -200,6 +200,15 @@ DOMESTIC = {
 }
 
 
+def _clamp(cal):
+    """Last date of the season that `cal` starts. ESPN's Vijay Hazare calendar carries a
+    mis-stamped tail 13 months out; no Indian domestic season runs eight months, so those
+    are ignored. ponytail: 250-day clamp, not a real season model."""
+    season = [d for d in cal
+              if (datetime.fromisoformat(d) - datetime.fromisoformat(cal[0])).days <= 250]
+    return season[-1] if season else cal[-1]
+
+
 def fetch_domestic(now):
     """The Indian domestic competition actually playing this week, per gender, with
     its nearest matches. Fail-safe: any error just omits that gender."""
@@ -212,6 +221,7 @@ def fetch_domestic(now):
     out = {}
     for gender, leagues in DOMESTIC.items():
         best = None                       # (days_away, leagueId, calendar, board, date)
+        soon = None                       # same, but with no 7-day cap
         for lid in leagues:
             try:
                 board = get(f"{BASE}/{lid}/scoreboard")
@@ -220,12 +230,22 @@ def fetch_domestic(now):
                 if not nxt:
                     continue              # season over
                 away = (datetime.fromisoformat(nxt) - datetime.fromisoformat(today)).days
+                if away <= 150 and (soon is None or away < soon[0]):
+                    soon = (away, lid, cal, board, nxt)
                 if away <= 7 and (best is None or away < best[0]):
                     best = (away, lid, cal, board, nxt)
             except Exception:
                 continue
         if not best:
-            continue                      # nothing on this week — say nothing
+            # Nothing on this week, so the strip stays silent — but record WHEN the
+            # domestic game resumes. The ⭐ summary needs it to say "Ranji starts
+            # 11 Oct" in the gap, and a block with no `matches` renders nothing.
+            if soon:
+                _, lid, cal, board, nxt = soon
+                out[gender] = {"name": board["leagues"][0].get("name", ""),
+                               "leagueId": lid, "from": cal[0], "to": _clamp(cal),
+                               "next": nxt, "upcoming": True, "matches": []}
+            continue
         away, lid, cal, board, nxt = best
         try:
             # ALWAYS ask for the date we picked. The plain scoreboard returns exactly
@@ -249,14 +269,8 @@ def fetch_domestic(now):
                               for t in c["competitors"]],
                 })
             if ms:
-                # ESPN's Vijay Hazare calendar carries a mis-stamped tail 13 months
-                # out; no Indian domestic season runs eight months, so ignore those
-                # for the displayed window. ponytail: 250-day clamp, not a season model.
-                season = [d for d in cal
-                          if (datetime.fromisoformat(d)
-                              - datetime.fromisoformat(cal[0])).days <= 250]
                 out[gender] = {"name": board["leagues"][0].get("name", ""),
-                               "leagueId": lid, "from": cal[0], "to": season[-1],
+                               "leagueId": lid, "from": cal[0], "to": _clamp(cal),
                                "more": max(0, len(ms) - 4), "matches": ms[:4]}
         except Exception:
             continue

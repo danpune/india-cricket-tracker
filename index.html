@@ -247,6 +247,8 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 /* ⭐ rows now name BOTH sides ("East Zone vs South Zone"), which does not fit the
    shared nowrap row on a phone — same fix as the domestic strip above. */
 .sec-follow .mrow .mid .sub{white-space:normal;overflow:visible}
+.tldr{padding:10px 14px;font-size:12.5px;line-height:1.5;border-top:1px solid var(--line)}
+.tldr b{color:var(--chakra)}
 .sec-dom .mrow .right{max-width:34%}
 
 /* rankings */
@@ -619,6 +621,48 @@ function calLinks(m){
 
 /* ---------- following ---------- */
 function batStr(b){if(!b)return '';return b[0]+(b[2]==='not out'?'*':'')+' ('+b[1]+')';}
+/* One derived line answering "what is he up to right now".
+   Every word comes from data we already hold. A hand-written version rots: this card's
+   own note field read "India & Rajasthan Royals" and was wrong for seven weeks while he
+   played the entire Duleep Trophy for East Zone. Anything not derivable is left out —
+   in particular it never names India's next fixture, because saying that inside a
+   player's card reads as "he is playing it", and selection is not ours to predict. */
+function compTotals(apps,comp){
+  var inns=[],wkts=0;
+  apps.forEach(function(a){
+    if(a.comp!==comp)return;
+    if(a.bat)inns.push(a.bat); if(a.bat2)inns.push(a.bat2);
+    [a.bowl,a.bowl2].forEach(function(b){if(b)wkts+=+b[2]||0;});
+  });
+  if(!inns.length)return '';
+  var runs=inns.reduce(function(s,b){return s+b[0];},0);
+  var hs=inns.reduce(function(s,b){return Math.max(s,b[0]);},0);
+  return '<b>'+runs+'</b> runs in '+inns.length+' inning'+(inns.length>1?'s':'')+
+         ', best '+hs+(wkts?' · '+wkts+' wkt'+(wkts>1?'s':''):'');
+}
+function followSummary(apps,live){
+  var dom=(DATA.domestic||{})[GENDER]||null;
+  if(live)return 'In the XI — '+fmtBadge(live.format)+' '+esc(live.matchNo||'')+
+    (live.state==='in'?', <b>live now</b>.':', '+esc(dstr(live.date,false))+'.');
+  var last=apps[0];                                    /* apps are sorted newest-first */
+  if(!last)return '';
+  var when=istDate(last.date+'T12:00:00Z'), line;
+  if(dom&&!dom.upcoming&&dom.name===last.comp){
+    line='Playing the <b>'+esc(dom.name)+'</b>'+(last.team?' for '+esc(last.team):'')+
+         ' — '+compTotals(apps,last.comp)+'.';
+  }else if(last.intl){
+    line='No club fixture. Last out for <b>India</b> — '+esc(last.label||'')+
+         ' v '+esc(norm(last.vs||''))+', '+esc(when)+'.';
+  }else{
+    line='No fixture right now. Last out in the <b>'+esc(last.comp)+'</b>'+
+         (last.team?' for '+esc(last.team):'')+' ('+esc(when)+') — '+
+         compTotals(apps,last.comp)+'.';
+  }
+  if(dom&&dom.upcoming&&dom.next)
+    line+=' <b>'+esc(dom.name)+'</b> starts '+esc(istDate(dom.next+'T12:00:00Z'))+'.';
+  return line;
+}
+
 /* "Duleep Trophy" is too wide for the format chip next to a match number */
 function compShort(c){
   c=c||'';
@@ -669,8 +713,8 @@ function followingHTML(){
          esc(teams.join(' · '))+'<br>'+
          esc((apps[apps.length-1]&&apps[apps.length-1].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
          inns.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
-    if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
-      fmtBadge(live.format)+' '+esc(live.matchNo)+' '+(live.state==='in'?'· live now':'· '+dstr(live.date,true))+'</div></div></div>';
+    var tldr=followSummary(apps,live);
+    if(tldr)out+='<div class="tldr">'+tldr+'</div>';
     apps.slice(0,12).forEach(function(a){
       var bat=[a.bat,a.bat2].filter(Boolean).map(batStr).join(' & ');
       var bw=[a.bowl,a.bowl2].filter(function(b){return b&&b[0]!=='0';})

@@ -251,6 +251,13 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   final did). ESPN's own match note names the winner — parse that, don't infer from scores.
 - A first-class match gives two innings, so appearances carry `bat2`/`bowl2`; the card's
   aggregate and HS must count both.
+- `followSummary()` is the one-line "what is he up to". DERIVED, never written — the
+  hand-typed `note` field is exactly what rotted. Five states: in an XI · playing the
+  in-season competition · no fixture (last out in X) · last out for India · nothing.
+  It must NEVER name India's next fixture: inside a player's card that reads as "he is
+  playing it", and selection is not ours to predict. The forward clause comes only from
+  `data.json.domestic.<gender>.upcoming`, which fetch_domestic emits (with `matches: []`,
+  so the strip stays silent) when the next domestic season is 8-150 days out.
 - SPELLING TRAP: ESPN says "Vaibhav Sooryavanshi", cricsheet says "V Suryavanshi" —
   pattern `s[ou]{1,2}ryavanshi` catches both (the {2} version silently missed cricsheet).
 - To follow another player: add to FOLLOW in build_following.py (name/pattern/gender/

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T14:05:33Z",
+ "updated": "2026-09-12T16:11:32Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5122,8 +5122,8 @@
    "result": "Starts at 18:30 local time",
    "india": "",
    "o": [
-    0.84,
-    0.16
+    0.835,
+    0.165
    ]
   },
   {
@@ -7570,7 +7570,17 @@
    }
   }
  },
- "domestic": {},
+ "domestic": {
+  "men": {
+   "name": "Ranji Trophy",
+   "leagueId": "8050",
+   "from": "2026-10-11",
+   "to": "2027-03-03",
+   "next": "2026-10-11",
+   "upcoming": true,
+   "matches": []
+  }
+ },
  "meta": {
   "discovered": {
    "8659": "women",
