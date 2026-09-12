@@ -2,9 +2,20 @@
  "players": [
   {
    "name": "Vaibhav Sooryavanshi",
-   "note": "India & Rajasthan Royals",
+   "note": "India \u00b7 Rajasthan Royals \u00b7 East Zone",
    "gender": "men",
    "pattern": "s[ou]{1,2}ryavanshi",
+   "espnId": "1408688",
+   "teams": [
+    "East Zone",
+    "Rajasthan Royals"
+   ],
+   "seen": [
+    "1546437",
+    "1546439",
+    "1546440",
+    "1546441"
+   ],
    "appearances": [
     {
      "date": "2026-03-30",
@@ -245,6 +256,73 @@
      ],
      "bowl": null,
      "won": false
+    },
+    {
+     "date": "2026-08-23",
+     "comp": "Duleep Trophy",
+     "label": "Quarter-Final",
+     "team": "East Zone",
+     "vs": "North East Zone",
+     "city": "",
+     "bat": [
+      8,
+      6,
+      "c"
+     ],
+     "bat2": null,
+     "bowl": [
+      "3",
+      11,
+      2
+     ],
+     "bowl2": null,
+     "won": true
+    },
+    {
+     "date": "2026-08-30",
+     "comp": "Duleep Trophy",
+     "label": "1st Semi-Final",
+     "team": "East Zone",
+     "vs": "Central Zone",
+     "city": "",
+     "bat": [
+      92,
+      81,
+      "c"
+     ],
+     "bat2": [
+      40,
+      43,
+      "c"
+     ],
+     "bowl": null,
+     "bowl2": null,
+     "won": true
+    },
+    {
+     "date": "2026-09-06",
+     "comp": "Duleep Trophy",
+     "label": "Final",
+     "team": "East Zone",
+     "vs": "South Zone",
+     "city": "",
+     "bat": [
+      44,
+      37,
+      "c"
+     ],
+     "bat2": [
+      8,
+      16,
+      "st"
+     ],
+     "bowl": [
+      "4",
+      10,
+      0
+     ],
+     "bowl2": null,
+     "won": true
     }
    ]
   }

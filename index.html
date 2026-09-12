@@ -244,6 +244,9 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 /* domestic rows carry TWO full team names ("Royal Challengers Bengaluru Women v
    Delhi Capitals Women") — the shared nowrap row would hide the second one. */
 .sec-dom .mrow .mid .sub{white-space:normal;overflow:visible}
+/* ⭐ rows now name BOTH sides ("East Zone vs South Zone"), which does not fit the
+   shared nowrap row on a phone — same fix as the domestic strip above. */
+.sec-follow .mrow .mid .sub{white-space:normal;overflow:visible}
 .sec-dom .mrow .right{max-width:34%}
 
 /* rankings */
@@ -616,13 +619,20 @@ function calLinks(m){
 
 /* ---------- following ---------- */
 function batStr(b){if(!b)return '';return b[0]+(b[2]==='not out'?'*':'')+' ('+b[1]+')';}
+/* "Duleep Trophy" is too wide for the format chip next to a match number */
+function compShort(c){
+  c=c||'';
+  if(/mushtaq/i.test(c))return 'SMAT';
+  return c.replace(/\s*Trophy$/i,'');
+}
 function followingHTML(){
   var out='';
   FOLLOW.forEach(function(p){
     if((p.gender||'men')!==GENDER)return;
     var re=new RegExp(p.pattern,'i');
     var apps=(p.appearances||[]).map(function(a){
-      return {date:a.date,label:esc(a.comp)+' '+esc(a.label||''),vs:a.vs,intl:false,bat:a.bat,bowl:a.bowl,won:a.won};
+      return {date:a.date,label:esc(a.label||a.comp),comp:a.comp,team:a.team,vs:a.vs,intl:false,
+              bat:a.bat,bat2:a.bat2,bowl:a.bowl,bowl2:a.bowl2,won:a.won};
     });
     /* internationals: scan matches we already have (stays fresh via the cron) */
     var seen={},live=null;
@@ -645,21 +655,32 @@ function followingHTML(){
     });
     if(!apps.length)return;
     apps.sort(function(a,b){return a.date<b.date?1:-1;});
-    var bats=apps.filter(function(a){return a.bat;});
-    var runs=bats.reduce(function(s,a){return s+a.bat[0];},0);
-    var hs=bats.reduce(function(s,a){return Math.max(s,a.bat[0]);},0);
+    /* a first-class match gives him two innings — counting only the first would
+       under-report both the aggregate and the high score */
+    var inns=[];
+    apps.forEach(function(a){if(a.bat)inns.push(a.bat);if(a.bat2)inns.push(a.bat2);});
+    var runs=inns.reduce(function(s,b){return s+b[0];},0);
+    var hs=inns.reduce(function(s,b){return Math.max(s,b[0]);},0);
     out+='<section id="follow" class="sec-follow"><h2>⭐ Following</h2><div class="card">';
-    out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+esc(p.note||'')+
-         ' · '+esc((apps[0]&&apps[0].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
-         bats.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
+    /* every shirt he has actually worn this year, so the card reads as a whole career
+       rather than whichever competition happened to be captured */
+    var teams=['India'].concat(p.teams||[]).filter(function(t,i,l){return l.indexOf(t)===i;});
+    out+='<div class="serieshead"><div class="nm">'+esc(p.name)+'</div><div class="meta">'+
+         esc(teams.join(' · '))+'<br>'+
+         esc((apps[apps.length-1]&&apps[apps.length-1].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
+         inns.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
     if(live)out+='<div class="mrow" style="border-left:3px solid var(--saffron)"><div class="mid"><div class="no">In the XI — '+
       fmtBadge(live.format)+' '+esc(live.matchNo)+' '+(live.state==='in'?'· live now':'· '+dstr(live.date,true))+'</div></div></div>';
     apps.slice(0,12).forEach(function(a){
-      var line=[a.bat?('🏏 '+batStr(a.bat)):null,(a.bowl&&+a.bowl[2]>=0&&a.bowl[0]!=='0')?('⚾ '+a.bowl[2]+'/'+a.bowl[1]+' ('+a.bowl[0]+')'):null].filter(Boolean).join(' · ');
+      var bat=[a.bat,a.bat2].filter(Boolean).map(batStr).join(' & ');
+      var bw=[a.bowl,a.bowl2].filter(function(b){return b&&b[0]!=='0';})
+              .map(function(b){return b[2]+'/'+b[1]+' ('+b[0]+')';}).join(' & ');
+      var line=[bat?'🏏 '+bat:null, bw?'⚾ '+bw:null].filter(Boolean).join(' · ');
       out+='<div class="mrow" style="border-left:3px solid var(--'+(a.won===true?'win':a.won===false?'loss':'nr')+')">'+
         '<div class="when"><b>'+new Date(a.date+'T12:00:00Z').toLocaleString([],{day:'numeric',month:'short'})+'</b>&nbsp;</div>'+
-        '<div class="mid"><div class="no">'+(a.intl?fmtBadge(a.fmt||'T20I')+' ':'<span class="fmt other">IPL</span> ')+a.label.replace(/^IPL /,'')+'</div>'+
-        '<div class="sub">'+(a.intl?flag(a.vs)+' ':'')+'vs '+esc(norm(a.vs))+'</div></div>'+
+        '<div class="mid"><div class="no">'+(a.intl?fmtBadge(a.fmt||'T20I')+' ':
+          '<span class="fmt other">'+esc(compShort(a.comp))+'</span> ')+a.label+'</div>'+
+        '<div class="sub">'+(a.intl?flag(a.vs)+' ':esc(a.team||'')+' ')+'vs '+esc(norm(a.vs))+'</div></div>'+
         '<div class="right"><div class="sc"><b>'+line+'</b></div></div></div>';
     });
     out+='</div></section>';

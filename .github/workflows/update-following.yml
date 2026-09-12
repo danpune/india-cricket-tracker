@@ -1,0 +1,46 @@
+name: Refresh ⭐ Following
+
+# The ⭐ card's international half is computed client-side from data.json/history.json
+# and stays fresh on the main cron. This job covers the half that does not: Indian
+# DOMESTIC appearances, read from ESPN by athlete id. Without it the card went silent
+# for seven weeks while its subject opened the batting through the Duleep Trophy.
+#
+# Daily, not every 10 minutes: a first-class match takes four days to produce a result,
+# and the script walks several league calendars (~50s). It is deliberately SEPARATE from
+# the data pipeline so a slow or failing scan can never hold up live scores.
+on:
+  schedule:
+    - cron: "40 2 * * *"     # daily, 02:40 UTC (08:10 IST — after a domestic day ends)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-following
+  cancel-in-progress: false
+
+jobs:
+  following:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # a hung job otherwise runs to GitHub's 360-minute default
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6 (SHA-pinned)
+
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6 (SHA-pinned)
+        with:
+          python-version: "3.12"
+
+      - name: Refresh followed players
+        run: python build_following.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "cricket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add follow.json
+          git diff --staged --quiet || git commit -m "Update ⭐ Following $(date -u +%FT%TZ)"
+          git diff --quiet HEAD origin/main -- follow.json 2>/dev/null || {
+            git pull --rebase origin main
+            git push
+          }

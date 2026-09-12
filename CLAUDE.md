@@ -239,6 +239,18 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   cricsheet TEAM archives (rajasthan_royals_json.zip) — one-off, re-run after a season.
 - International appearances are computed CLIENT-SIDE in followingHTML() by regex-scanning
   the innings/xi of data.json+history.json (stays fresh via the cron, zero extra calls).
+- DOMESTIC appearances (Duleep/Ranji/SMAT/Vijay Hazare) come from ESPN by ATHLETE ID, not
+  the name regex — `espnId` in build_following.FOLLOW (Sooryavanshi = 1408688). Refreshed
+  daily by `.github/workflows/update-following.yml`. This existed nowhere until Sep 2026:
+  the card sat silent for seven weeks while he opened the batting for East Zone through
+  the whole Duleep Trophy, including the final the site was showing on its own front page.
+  IPL is NOT in DOM_LEAGUES — cricsheet already covers it, and scanning both double-counts.
+- TRAP: only mark an event id `seen` once its state is "post". A four-day first-class match
+  checked on day one would otherwise be frozen at day-one figures forever.
+- TRAP: domestic finals come back with `winner: 'false'` on BOTH sides (the 2026/27 Duleep
+  final did). ESPN's own match note names the winner — parse that, don't infer from scores.
+- A first-class match gives two innings, so appearances carry `bat2`/`bowl2`; the card's
+  aggregate and HS must count both.
 - SPELLING TRAP: ESPN says "Vaibhav Sooryavanshi", cricsheet says "V Suryavanshi" —
   pattern `s[ou]{1,2}ryavanshi` catches both (the {2} version silently missed cricsheet).
 - To follow another player: add to FOLLOW in build_following.py (name/pattern/gender/
