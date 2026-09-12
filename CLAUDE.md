@@ -123,14 +123,17 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   women WPL 21282 only — the Senior One Day (20045) and T20 Challenger (21176) ids stop
   at their 2021/2022 seasons, so the women's strip can only appear during the WPL
   (Jan–Feb).
-- Women's domestic ids, probe of Sep 2026 (~8,800 ids: 8000–9000, 20000–25600). ESPN HAS
-  carried BCCI women's domestic — three ids exist, all now dead:
+- Women's domestic ids, probe of Sep 2026. Swept ESPN league ids 8000–25600 CONTIGUOUSLY
+  (~17,600 ids, 10,755 real leagues catalogued) — that is every id this project has ever
+  used, men's domestic 8xxx through the newest tours at 24xxx. ESPN HAS carried BCCI
+  women's domestic; exactly three ids exist in that whole space, all now dead:
       20045  Women's Senior One Day Trophy          2021-10-28 → 2021-11-20
       21176  Senior Women's T20 Challenger Trophy   2022-11-20 → 2022-11-26
       22578  Senior Women Inter Zonal Multi-Day     2024-03-28 → 2024-04-11
              (real BCCI zonal cricket — "East Zone Women v North East Zone Women")
-  Nothing in the scanned space has a 2025 or 2026 season, and there is no league index to
-  enumerate from (`sports.core.api.espn.com/v2/sports/cricket/leagues` returns count 0).
+  A broad re-check of all 10,755 catalogued names (any women's league that is Indian and
+  not an international tour) turns up nothing else. Nothing in the swept space has a 2025
+  or 2026 season, and there is no league index to enumerate from (`sports.core.api.espn.com/v2/sports/cricket/leagues` returns count 0).
   So the women's tab is silent between WPL seasons because the feed is, not because of a
   bug — but note the ids are scattered (2021→20045, 2022→21176, 2024→22578), i.e. each
   season gets a NEW id rather than a rolling one like men's Ranji 8050. A 2026/27 season,
