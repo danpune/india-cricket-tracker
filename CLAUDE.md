@@ -122,8 +122,16 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   ids: Duleep 8630 · Ranji 8050 · Syed Mushtaq Ali 8661 · Vijay Hazare 8890 · IPL 8048;
   women WPL 21282 only — the Senior One Day (20045) and T20 Challenger (21176) ids stop
   at their 2021/2022 seasons, so the women's strip can only appear during the WPL
-  (Jan–Feb). Re-probe if the Oct–Nov women's season is wanted; ESPN publishes no cricket
-  league listing, so there is no way to enumerate current ids.
+  (Jan–Feb).
+- DON'T RE-PROBE FOR WOMEN'S DOMESTIC IDS — it has been done. Sep 2026: scanned ~4,200
+  league ids (8000–9000 and 20000–23200, the ranges that hold every id this project uses,
+  including WPL 21282 and the dead pair above). ESPN carries plenty of women's domestic
+  cricket — Australia's WNCL 8628/8897, NZ 8818/8819, WBBL 21284, The Hundred Women
+  21376, CSA 8733/8734 — but NOT India's current state competitions. There is also no
+  league listing to enumerate from (`sports.core.api.espn.com/v2/sports/cricket/leagues`
+  returns count 0). So the women's tab showing nothing between WPL seasons is the feed's
+  limit, not a bug: don't invent coverage, and don't spend another scan on it. Re-check
+  only if ESPN starts publishing a league index.
 - Selection is by MEMBERSHIP, not span: the league whose calendar's next date is soonest,
   and only within 7 days. Do NOT go back to "first league whose calendar brackets today"
   — Ranji runs Oct–Mar with a 72-day hole (5 Nov – 17 Jan) that SMAT and Vijay Hazare are
