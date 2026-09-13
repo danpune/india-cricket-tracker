@@ -20,6 +20,14 @@ LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
 DESCRIPTION:Zimbabwe tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529243@india-cricket-tracker
+DTSTART:20270109T083000Z
+DTEND:20270109T170000Z
+SUMMARY:India v Zimbabwe 🏏 3rd ODI
+LOCATION:Wankhede Stadium  Mumbai
+DESCRIPTION:Zimbabwe tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1529235@india-cricket-tracker
 DTSTART:20261213T083000Z
 DTEND:20261213T170000Z
@@ -57,6 +65,14 @@ DTSTART:20261224T133000Z
 DTEND:20261224T173000Z
 SUMMARY:India v Sri Lanka 🏏 2nd T20I
 LOCATION:Barabati Stadium  Cuttack
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529240@india-cricket-tracker
+DTSTART:20261227T133000Z
+DTEND:20261227T173000Z
+SUMMARY:India v Sri Lanka 🏏 3rd T20I
+LOCATION:Maharashtra Cricket Association Stadium  Pune
 DESCRIPTION:Sri Lanka tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
