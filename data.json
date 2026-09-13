@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T15:05:07Z",
+ "updated": "2026-09-13T18:07:30Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5102,25 +5102,26 @@
    "seriesId": "24677",
    "matchNo": "1st T20I",
    "venue": "Arun Jaitley Stadium, Delhi",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "157/3 (13.4/20 ov, target 157)",
+     "winner": true
     },
     {
      "name": "Afghanistan",
      "abbr": "AFG",
-     "score": "77/5 (12.2/20 ov)",
+     "score": "156/8",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "India won by 7 wkts (38b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 1-0",
    "xi": {
     "India": [
      "Sanju Samson",
@@ -5144,15 +5145,15 @@
      "Azmatullah Omarzai",
      "Mohammad Nabi",
      "Rashid Khan",
-     "Mujeeb Ur Rahman",
      "Noor Ahmad",
+     "Mujeeb Ur Rahman",
      "Fazalhaq Farooqi"
     ]
    },
    "innings": [
     {
      "t": "Afghanistan",
-     "total": "78/5 (12.3 ov)",
+     "total": "156/8 (20.0 ov)",
      "bat": [
       [
        "Rahmanullah Gurbaz",
@@ -5186,53 +5187,162 @@
       ],
       [
        "Azmatullah Omarzai",
-       20,
-       23,
+       64,
+       44,
        "not out"
       ],
       [
        "Mohammad Nabi",
-       13,
-       17,
+       33,
+       27,
+       "b"
+      ],
+      [
+       "Rashid Khan",
+       1,
+       10,
+       "c"
+      ],
+      [
+       "Noor Ahmad",
+       0,
+       1,
+       "run out"
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       9,
+       3,
        "not out"
       ]
      ],
      "dnb": [
-      "Rashid Khan",
-      "Mujeeb Ur Rahman",
-      "Noor Ahmad",
       "Fazalhaq Farooqi"
      ],
      "bowl": [
       [
-       "Nitish Kumar Reddy",
+       "Abhishek Sharma",
        "1",
-       13,
+       8,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "2",
+       30,
+       0
+      ],
+      [
+       "Shivam Dube",
+       "1",
+       21,
        0
       ],
       [
        "Axar Patel",
-       "3",
-       11,
+       "4",
+       27,
        1
       ],
       [
        "Varun Chakravarthy",
-       "3.3",
-       15,
+       "4",
+       16,
        1
       ],
       [
        "Jasprit Bumrah",
-       "3",
-       24,
+       "4",
+       26,
        1
       ],
       [
        "Arshdeep Singh",
-       "2",
+       "4",
+       19,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "157/3 (13.4 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       10,
        8,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       82,
+       32,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       42,
+       33,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       8,
+       5,
+       "not out"
+      ],
+      [
+       "Tilak Varma",
+       3,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nitish Kumar Reddy",
+      "Shivam Dube",
+      "Axar Patel",
+      "Varun Chakravarthy",
+      "Jasprit Bumrah",
+      "Arshdeep Singh"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "1",
+       14,
        1
+      ],
+      [
+       "Mohammad Nabi",
+       "3",
+       28,
+       2
+      ],
+      [
+       "Rashid Khan",
+       "3.4",
+       34,
+       0
+      ],
+      [
+       "Noor Ahmad",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       "2",
+       16,
+       0
+      ],
+      [
+       "Fazalhaq Farooqi",
+       "2",
+       38,
+       0
       ]
      ]
     }
@@ -5248,77 +5358,103 @@
    "seriesId": "8659",
    "matchNo": "Final",
    "venue": "Dubai International Cricket Stadium",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "76/0 (7.4/20 ov)",
-     "winner": false
+     "score": "183/5",
+     "winner": true
     },
     {
      "name": "Sri Lanka Women",
      "abbr": "SL-W",
-     "score": "",
+     "score": "111 (20 ov, target 184)",
      "winner": false
     }
    ],
-   "result": "IND Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 72 runs",
+   "india": "won",
+   "seriesNote": "India Women won the 2026 Women's Twenty20 Asia Cup ",
    "xi": {
     "India Women": [
      "Smriti Mandhana",
      "Shafali Verma",
-     "Gunalan Kamalini",
      "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
      "Richa Ghosh",
      "Deepti Sharma",
+     "Bharti Fulmali",
+     "Gunalan Kamalini",
      "Prema Rawat",
      "Shree Charani",
      "Kranti Gaud",
      "Nandani Sharma"
     ],
     "Sri Lanka Women": [
-     "Chamari Athapaththu (c)",
      "Imesha Dulani",
+     "Chamari Athapaththu (c)",
      "Vishmi Gunaratne",
-     "Hasini Perera",
      "Harshitha Samarawickrama",
-     "Kavisha Dilhari",
      "Nilakshika Silva",
+     "Kavisha Dilhari",
+     "Hasini Perera",
      "Kaushini Nuthyangana",
      "Sugandika Kumari",
-     "Chamudi Praboda",
-     "Mithali Ayodhya"
+     "Mithali Ayodhya",
+     "Chamudi Praboda"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "77/0 (7.5 ov)",
+     "total": "183/5 (20.0 ov)",
      "bat": [
       [
        "Smriti Mandhana",
-       24,
-       23,
-       "not out"
+       59,
+       39,
+       "run out"
       ],
       [
        "Shafali Verma",
-       53,
-       25,
+       68,
+       39,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       14,
+       14,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       17,
+       13,
+       "c"
+      ],
+      [
+       "Deepti Sharma",
+       5,
+       7,
+       "run out"
+      ],
+      [
+       "Bharti Fulmali",
+       2,
+       3,
+       "not out"
+      ],
+      [
+       "Gunalan Kamalini",
+       15,
+       5,
        "not out"
       ]
      ],
      "dnb": [
-      "Gunalan Kamalini",
-      "Harmanpreet Kaur",
-      "Bharti Fulmali",
-      "Richa Ghosh",
-      "Deepti Sharma",
       "Prema Rawat",
       "Shree Charani",
       "Kranti Gaud",
@@ -5327,32 +5463,149 @@
      "bowl": [
       [
        "Chamari Athapaththu",
+       "4",
+       34,
+       1
+      ],
+      [
+       "Nilakshika Silva",
        "1",
-       20,
+       15,
        0
       ],
       [
        "Kavisha Dilhari",
-       "2",
-       21,
+       "3",
+       29,
        0
       ],
       [
        "Sugandika Kumari",
-       "2",
-       8,
-       0
-      ],
-      [
-       "Chamudi Praboda",
-       "1",
-       12,
+       "4",
+       31,
        0
       ],
       [
        "Mithali Ayodhya",
-       "2",
+       "4",
+       33,
+       1
+      ],
+      [
+       "Chamudi Praboda",
+       "4",
+       40,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka Women",
+     "total": "111 (20.0 ov)",
+     "bat": [
+      [
+       "Imesha Dulani",
+       4,
+       4,
+       "b"
+      ],
+      [
+       "Chamari Athapaththu",
+       36,
+       32,
+       "st"
+      ],
+      [
+       "Vishmi Gunaratne",
+       20,
+       22,
+       "b"
+      ],
+      [
+       "Harshitha Samarawickrama",
+       9,
+       14,
+       "c"
+      ],
+      [
+       "Nilakshika Silva",
+       22,
        16,
+       "c"
+      ],
+      [
+       "Kavisha Dilhari",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Hasini Perera",
+       1,
+       3,
+       "c"
+      ],
+      [
+       "Kaushini Nuthyangana",
+       9,
+       14,
+       "b"
+      ],
+      [
+       "Sugandika Kumari",
+       1,
+       7,
+       "c"
+      ],
+      [
+       "Mithali Ayodhya",
+       0,
+       3,
+       "st"
+      ],
+      [
+       "Chamudi Praboda",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       23,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       19,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "3",
+       22,
+       1
+      ],
+      [
+       "Shree Charani",
+       "4",
+       20,
+       4
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       8,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       17,
        0
       ]
      ]
@@ -5387,11 +5640,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.91,
-    0.09
-   ]
+   "india": ""
   },
   {
    "id": "espn_1549588",
