@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Muzumdar sees 'scope for improvement' after India drop five catches",
+   "u": "https://www.cricinfo.com/ci/content/story/1554172.html?ex_cid=OTC-RSS",
+   "d": "Mon, 14 Sep 2026"
+  },
+  {
    "t": "Shafali, Mandhana power India to eighth Asia Cup title",
    "u": "https://www.cricinfo.com/ci/content/story/1554152.html?ex_cid=OTC-RSS",
    "d": "Sun, 13 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "Bangladesh bowl against India, both teams unchanged",
    "u": "https://www.cricinfo.com/ci/content/story/1553632.html?ex_cid=OTC-RSS",
    "d": "Thu, 10 Sep 2026"
-  },
-  {
-   "t": "Bumrah fit, Yash Thakur replaces Harshit for Afghanistan T20Is and Asian Games",
-   "u": "https://www.cricinfo.com/ci/content/story/1553560.html?ex_cid=OTC-RSS",
-   "d": "Thu, 10 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "Bxs_8NkfVmk",
+     "t": "Sooryavanshi bound to be disappointed being benched: Mohammad Kaif"
+    },
     {
      "yt": "KRAX0p2Rmss",
      "t": "Match Forecast: Women's Asia Cup - IND W vs SL W, Final"
@@ -75,10 +79,6 @@
     {
      "yt": "zVZmC2UxFUs",
      "t": "How did Mumbai Indians beat everyone to Pollard?"
-    },
-    {
-     "yt": "hw3umwXj-gg",
-     "t": "Preview: India ready for Afghanistan? The BIG Questions"
     }
    ]
   },
