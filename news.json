@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Varun to miss rest of Afghanistan T20Is with injury",
+   "u": "https://www.cricinfo.com/ci/content/story/1554235.html?ex_cid=OTC-RSS",
+   "d": "Mon, 14 Sep 2026"
+  },
+  {
    "t": "Afghanistan look for better result as India hope for a repeat of near-perfect opener",
    "u": "https://www.cricinfo.com/ci/content/story/1554188.html?ex_cid=OTC-RSS",
    "d": "Mon, 14 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "Pakistan or Sri Lanka in the final? 'Doesn't matter,' says Deepti Sharma",
    "u": "https://www.cricinfo.com/ci/content/story/1553708.html?ex_cid=OTC-RSS",
    "d": "Fri, 11 Sep 2026"
-  },
-  {
-   "t": "Shafali, Deepti power India into sixth T20 Asia Cup final",
-   "u": "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS",
-   "d": "Fri, 11 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "tn5tjG4Ew8s",
+     "t": "Preview: Afghanistan vs India, 2nd T20I"
+    },
+    {
+     "yt": "109DAJu_2P4",
+     "t": "Talent? Captaincy chaos? What\u2019s really wrong with Pakistan?"
+    },
     {
      "yt": "Bxs_8NkfVmk",
      "t": "Sooryavanshi bound to be disappointed being benched: Mohammad Kaif"
@@ -71,14 +79,6 @@
     {
      "yt": "a4nl6coIbPo",
      "t": "Match Forecast: Women's Asia Cup - SL W vs PAK W, Semi Final 2"
-    },
-    {
-     "yt": "G5Su9-kTkwg",
-     "t": "Match Forecast: Women's Asia Cup - IND W vs BAN W, Semi Final 1"
-    },
-    {
-     "yt": "zVZmC2UxFUs",
-     "t": "Did Mumbai Indians have a secret bid for Pollard?"
     }
    ]
   },
