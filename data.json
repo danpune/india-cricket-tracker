@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T06:45:55Z",
+ "updated": "2026-09-15T12:12:51Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7935,7 +7935,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-09-07",
+    "updated": "2026-09-13",
     "bat": [
      {
       "no": "1",
@@ -7953,7 +7953,7 @@
       "no": "3",
       "name": "Laura Wolvaardt",
       "team": "South Africa",
-      "rating": "771"
+      "rating": "762"
      },
      {
       "no": "4",
@@ -7965,19 +7965,19 @@
       "no": "5",
       "name": "Smriti Mandhana",
       "team": "India",
-      "rating": "743"
+      "rating": "745"
      },
      {
       "no": "6",
-      "name": "Chamari Athapaththu",
-      "team": "Sri Lanka",
-      "rating": "722"
+      "name": "Shafali Verma",
+      "team": "India",
+      "rating": "741"
      },
      {
       "no": "7",
-      "name": "Shafali Verma",
-      "team": "India",
-      "rating": "715"
+      "name": "Chamari Athapaththu",
+      "team": "Sri Lanka",
+      "rating": "719"
      },
      {
       "no": "8",
@@ -7995,7 +7995,7 @@
       "no": "10",
       "name": "Harmanpreet Kaur",
       "team": "India",
-      "rating": "658"
+      "rating": "657"
      }
     ],
     "bowl": [
@@ -8003,25 +8003,25 @@
       "no": "1",
       "name": "Sree Charani",
       "team": "India",
-      "rating": "779"
+      "rating": "804"
      },
      {
       "no": "2",
+      "name": "Deepti Sharma",
+      "team": "India",
+      "rating": "729"
+     },
+     {
+      "no": "3",
       "name": "Sophie Ecclestone",
       "team": "England",
       "rating": "723"
      },
      {
-      "no": "3",
+      "no": "4",
       "name": "Charlie Dean",
       "team": "England",
       "rating": "722"
-     },
-     {
-      "no": "4",
-      "name": "Nonkululeko Mlaba",
-      "team": "South Africa",
-      "rating": "718"
      },
      {
       "no": "5",
@@ -8031,33 +8031,33 @@
      },
      {
       "no": "6",
-      "name": "Deepti Sharma",
-      "team": "India",
-      "rating": "709"
-     },
-     {
-      "no": "7",
       "name": "Linsey Smith",
       "team": "England",
+      "rating": "704"
+     },
+     {
+      "no": "=",
+      "name": "Nonkululeko Mlaba",
+      "team": "South Africa",
       "rating": "704"
      },
      {
       "no": "8",
       "name": "Nashra Sundhu",
       "team": "Pakistan",
-      "rating": "701"
+      "rating": "692"
      },
      {
       "no": "9",
-      "name": "Marizanne Kapp",
-      "team": "South Africa",
-      "rating": "681"
+      "name": "Sadia Iqbal",
+      "team": "Pakistan",
+      "rating": "689"
      },
      {
       "no": "10",
-      "name": "Sadia Iqbal",
-      "team": "Pakistan",
-      "rating": "679"
+      "name": "Annabel Sutherland",
+      "team": "Australia",
+      "rating": "673"
      }
     ]
    }
