@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T17:04:13Z",
+ "updated": "2026-09-15T20:11:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5583,35 +5583,6 @@
    ],
    "result": "India won by 7 wkts (31b rem)",
    "india": "won",
-   "seriesNote": "India led the 3-match series 2-0",
-   "xi": {
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Nitish Kumar Reddy",
-     "Shivam Dube",
-     "Axar Patel",
-     "Ravi Bishnoi",
-     "Jasprit Bumrah",
-     "Arshdeep Singh"
-    ],
-    "Afghanistan": [
-     "Ibrahim Zadran (c)",
-     "Rahmanullah Gurbaz",
-     "Sediqullah Atal",
-     "Gulbadin Naib",
-     "Darwish Rasooli",
-     "Azmatullah Omarzai",
-     "Mohammad Nabi",
-     "Rashid Khan",
-     "Noor Ahmad",
-     "Mujeeb Ur Rahman",
-     "Fazalhaq Farooqi"
-    ]
-   },
    "innings": [
     {
      "t": "Afghanistan",
