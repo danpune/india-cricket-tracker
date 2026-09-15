@@ -33928,6 +33928,219 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1549587",
+   "date": "2026-09-15",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Afghanistan tour of India [Sep 2026] 2026",
+   "matchNo": "2nd T20I",
+   "venue": "Arun Jaitley Stadium, Delhi",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "163/3 (14.5/20 ov, target 160)"
+    },
+    {
+     "name": "Afghanistan",
+     "score": "159/8"
+    }
+   ],
+   "result": "India won by 7 wkts (31b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Afghanistan",
+     "total": "159/8 (20.0 ov)",
+     "bat": [
+      [
+       "Ibrahim Zadran",
+       37,
+       33,
+       "c"
+      ],
+      [
+       "Rahmanullah Gurbaz",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Sediqullah Atal",
+       12,
+       15,
+       "c"
+      ],
+      [
+       "Gulbadin Naib",
+       10,
+       8,
+       "c"
+      ],
+      [
+       "Darwish Rasooli",
+       26,
+       15,
+       "c"
+      ],
+      [
+       "Azmatullah Omarzai",
+       11,
+       10,
+       "c"
+      ],
+      [
+       "Mohammad Nabi",
+       20,
+       14,
+       "c"
+      ],
+      [
+       "Rashid Khan",
+       28,
+       16,
+       "c"
+      ],
+      [
+       "Noor Ahmad",
+       7,
+       3,
+       "not out"
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       4,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Fazalhaq Farooqi"
+     ],
+     "bowl": [
+      [
+       "Nitish Kumar Reddy",
+       "3",
+       24,
+       3
+      ],
+      [
+       "Shivam Dube",
+       "1",
+       13,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       28,
+       1
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       32,
+       1
+      ],
+      [
+       "Jasprit Bumrah",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       35,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "163/3 (14.5 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       57,
+       22,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       39,
+       19,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       38,
+       23,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       11,
+       11,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       15,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nitish Kumar Reddy",
+      "Shivam Dube",
+      "Axar Patel",
+      "Ravi Bishnoi",
+      "Jasprit Bumrah",
+      "Arshdeep Singh"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Mohammad Nabi",
+       "3",
+       44,
+       0
+      ],
+      [
+       "Rashid Khan",
+       "3.5",
+       36,
+       3
+      ],
+      [
+       "Noor Ahmad",
+       "2",
+       14,
+       0
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       "3",
+       37,
+       0
+      ],
+      [
+       "Fazalhaq Farooqi",
+       "1",
+       6,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

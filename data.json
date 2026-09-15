@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T12:12:51Z",
+ "updated": "2026-09-15T17:04:13Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5564,25 +5564,245 @@
    "seriesId": "24677",
    "matchNo": "2nd T20I",
    "venue": "Arun Jaitley Stadium, Delhi",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "163/3 (14.5/20 ov, target 160)",
+     "winner": true
     },
     {
      "name": "Afghanistan",
      "abbr": "AFG",
-     "score": "",
+     "score": "159/8",
      "winner": false
     }
    ],
-   "result": "Starts at 19:30 local time",
-   "india": ""
+   "result": "India won by 7 wkts (31b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 2-0",
+   "xi": {
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Nitish Kumar Reddy",
+     "Shivam Dube",
+     "Axar Patel",
+     "Ravi Bishnoi",
+     "Jasprit Bumrah",
+     "Arshdeep Singh"
+    ],
+    "Afghanistan": [
+     "Ibrahim Zadran (c)",
+     "Rahmanullah Gurbaz",
+     "Sediqullah Atal",
+     "Gulbadin Naib",
+     "Darwish Rasooli",
+     "Azmatullah Omarzai",
+     "Mohammad Nabi",
+     "Rashid Khan",
+     "Noor Ahmad",
+     "Mujeeb Ur Rahman",
+     "Fazalhaq Farooqi"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Afghanistan",
+     "total": "159/8 (20.0 ov)",
+     "bat": [
+      [
+       "Ibrahim Zadran",
+       37,
+       33,
+       "c"
+      ],
+      [
+       "Rahmanullah Gurbaz",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Sediqullah Atal",
+       12,
+       15,
+       "c"
+      ],
+      [
+       "Gulbadin Naib",
+       10,
+       8,
+       "c"
+      ],
+      [
+       "Darwish Rasooli",
+       26,
+       15,
+       "c"
+      ],
+      [
+       "Azmatullah Omarzai",
+       11,
+       10,
+       "c"
+      ],
+      [
+       "Mohammad Nabi",
+       20,
+       14,
+       "c"
+      ],
+      [
+       "Rashid Khan",
+       28,
+       16,
+       "c"
+      ],
+      [
+       "Noor Ahmad",
+       7,
+       3,
+       "not out"
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       4,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Fazalhaq Farooqi"
+     ],
+     "bowl": [
+      [
+       "Nitish Kumar Reddy",
+       "3",
+       24,
+       3
+      ],
+      [
+       "Shivam Dube",
+       "1",
+       13,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       28,
+       1
+      ],
+      [
+       "Ravi Bishnoi",
+       "4",
+       32,
+       1
+      ],
+      [
+       "Jasprit Bumrah",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       35,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "163/3 (14.5 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       57,
+       22,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       39,
+       19,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       38,
+       23,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       11,
+       11,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       15,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nitish Kumar Reddy",
+      "Shivam Dube",
+      "Axar Patel",
+      "Ravi Bishnoi",
+      "Jasprit Bumrah",
+      "Arshdeep Singh"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Mohammad Nabi",
+       "3",
+       44,
+       0
+      ],
+      [
+       "Rashid Khan",
+       "3.5",
+       36,
+       3
+      ],
+      [
+       "Noor Ahmad",
+       "2",
+       14,
+       0
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       "3",
+       37,
+       0
+      ],
+      [
+       "Fazalhaq Farooqi",
+       "1",
+       6,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1549588",
@@ -7327,7 +7547,7 @@
       "no": "4",
       "name": "Australia",
       "team": "Australia",
-      "rating": "102"
+      "rating": "103"
      },
      {
       "no": "5",
@@ -7498,7 +7718,7 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "268"
+      "rating": "269"
      },
      {
       "no": "2",
@@ -7935,7 +8155,7 @@
       "rating": "196"
      }
     ],
-    "updated": "2026-09-13",
+    "updated": "2026-09-14",
     "bat": [
      {
       "no": "1",
