@@ -1,13 +1,13 @@
 {
  "headlines": [
   {
-   "t": "Yuvraj: India must avoid 'massive changes' ahead of 2027 ODI World Cup",
-   "u": "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
-   "d": "Tue, 15 Sep 2026"
-  },
-  {
    "t": "Samson, Abhishek and Reddy power India to series win",
    "u": "https://www.cricinfo.com/ci/content/story/1554367.html?ex_cid=OTC-RSS",
+   "d": "Wed, 16 Sep 2026"
+  },
+  {
+   "t": "Yuvraj: India must avoid 'massive changes' ahead of 2027 ODI World Cup",
+   "u": "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
    "d": "Tue, 15 Sep 2026"
   },
   {
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "UKXm6OgoQBs",
+     "t": "Samson\u2019s ability was never in doubt, consistency was: Mohammad Kaif"
+    },
+    {
      "yt": "WIOwFYdF-Jg",
      "t": "Match Forecast: Afghanistan vs India, 2nd T20I"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "Bxs_8NkfVmk",
      "t": "Sooryavanshi bound to be disappointed being benched: Mohammad Kaif"
-    },
-    {
-     "yt": "KRAX0p2Rmss",
-     "t": "Match Forecast: Women's Asia Cup - IND W vs SL W, Final"
     }
    ]
   },
