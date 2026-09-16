@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T05:56:41Z",
+ "updated": "2026-09-16T10:56:19Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5802,7 +5802,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 19:30 local time",
    "india": ""
   },
   {
@@ -7368,13 +7368,13 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-09-01",
+    "updated": "2026-09-12",
     "bat": [
      {
       "no": "1",
       "name": "Harry Brook",
       "team": "England",
-      "rating": "856"
+      "rating": "861"
      },
      {
       "no": "2",
@@ -7386,7 +7386,7 @@
       "no": "3",
       "name": "Joe Root",
       "team": "England",
-      "rating": "820"
+      "rating": "816"
      },
      {
       "no": "4",
@@ -7446,21 +7446,21 @@
      },
      {
       "no": "3",
+      "name": "Ollie Robinson",
+      "team": "England",
+      "rating": "856"
+     },
+     {
+      "no": "4",
       "name": "Jasprit Bumrah",
       "team": "India",
       "rating": "853"
      },
      {
-      "no": "4",
+      "no": "5",
       "name": "Pat Cummins",
       "team": "Australia",
       "rating": "841"
-     },
-     {
-      "no": "5",
-      "name": "Ollie Robinson",
-      "team": "England",
-      "rating": "831"
      },
      {
       "no": "6",
@@ -7482,15 +7482,15 @@
      },
      {
       "no": "9",
-      "name": "Noman Ali",
-      "team": "Pakistan",
-      "rating": "785"
-     },
-     {
-      "no": "10",
       "name": "Josh Hazlewood",
       "team": "Australia",
       "rating": "783"
+     },
+     {
+      "no": "10",
+      "name": "Noman Ali",
+      "team": "Pakistan",
+      "rating": "777"
      }
     ]
    },
@@ -7557,7 +7557,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-09-08",
+    "updated": "2026-09-15",
     "bat": [
      {
       "no": "1",
@@ -7641,45 +7641,45 @@
      },
      {
       "no": "4",
-      "name": "Keshav Maharaj",
-      "team": "South Africa",
-      "rating": "645"
-     },
-     {
-      "no": "5",
       "name": "Mitchell Santner",
       "team": "New Zealand",
       "rating": "644"
      },
      {
-      "no": "6",
+      "no": "5",
       "name": "Maheesh Theekshana",
       "team": "Sri Lanka",
       "rating": "641"
      },
      {
-      "no": "7",
-      "name": "Bernard Scholtz",
-      "team": "Namibia",
-      "rating": "613"
+      "no": "6",
+      "name": "Keshav Maharaj",
+      "team": "South Africa",
+      "rating": "626"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "604"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Mehidy Hasan Miraz",
       "team": "Bangladesh",
       "rating": "602"
      },
      {
-      "no": "10",
+      "no": "9",
       "name": "Adil Rashid",
       "team": "England",
       "rating": "599"
+     },
+     {
+      "no": "10",
+      "name": "Kuldeep Yadav",
+      "team": "India",
+      "rating": "596"
      }
     ]
    },
@@ -7746,25 +7746,25 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-09-08",
+    "updated": "2026-09-15",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "910"
+      "rating": "913"
      },
      {
       "no": "2",
-      "name": "Sahibzada Farhan",
-      "team": "Pakistan",
-      "rating": "848"
+      "name": "Abhishek Sharma",
+      "team": "India",
+      "rating": "862"
      },
      {
       "no": "3",
-      "name": "Abhishek Sharma",
-      "team": "India",
-      "rating": "819"
+      "name": "Sahibzada Farhan",
+      "team": "Pakistan",
+      "rating": "848"
      },
      {
       "no": "4",
@@ -7786,15 +7786,15 @@
      },
      {
       "no": "7",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "750"
-     },
-     {
-      "no": "8",
       "name": "Jos Buttler",
       "team": "England",
       "rating": "748"
+     },
+     {
+      "no": "8",
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "740"
      },
      {
       "no": "9",
@@ -7814,7 +7814,7 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "753"
+      "rating": "744"
      },
      {
       "no": "2",
@@ -7836,30 +7836,24 @@
      },
      {
       "no": "5",
+      "name": "Varun Chakaravarthy",
+      "team": "India",
+      "rating": "678"
+     },
+     {
+      "no": "6",
       "name": "Nathan Ellis",
       "team": "Australia",
       "rating": "675"
      },
      {
-      "no": "6",
+      "no": "7",
       "name": "Wanindu Hasaranga",
       "team": "Sri Lanka",
       "rating": "668"
      },
      {
-      "no": "7",
-      "name": "Mujeeb Ur Rahman",
-      "team": "Afghanistan",
-      "rating": "663"
-     },
-     {
-      "no": "=",
-      "name": "Varun Chakaravarthy",
-      "team": "India",
-      "rating": "663"
-     },
-     {
-      "no": "9",
+      "no": "8",
       "name": "Mohammad Nawaz",
       "team": "Pakistan",
       "rating": "658"
@@ -7869,6 +7863,12 @@
       "name": "Maheesh Theekshana",
       "team": "Sri Lanka",
       "rating": "658"
+     },
+     {
+      "no": "10",
+      "name": "Jasprit Bumrah",
+      "team": "India",
+      "rating": "650"
      }
     ]
    }
