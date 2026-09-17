@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T18:27:49Z",
+ "updated": "2026-09-17T21:37:13Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5804,35 +5804,6 @@
    ],
    "result": "India won by 127 runs",
    "india": "won",
-   "seriesNote": "India won the 3-match series 3-0",
-   "xi": {
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Tilak Varma",
-     "Shreyas Iyer (c)",
-     "Shivam Dube",
-     "Ishan Kishan",
-     "Nitish Kumar Reddy",
-     "Axar Patel",
-     "Ravi Bishnoi",
-     "Jasprit Bumrah",
-     "Yash Thakur"
-    ],
-    "Afghanistan": [
-     "Rahmanullah Gurbaz",
-     "Ibrahim Zadran (c)",
-     "Sediqullah Atal",
-     "Darwish Rasooli",
-     "Azmatullah Omarzai",
-     "Noor ul Rahman",
-     "Mohammad Nabi",
-     "Rashid Khan",
-     "Mujeeb Ur Rahman",
-     "Abdollah Ahmadzai",
-     "Fazalhaq Farooqi"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -7968,7 +7939,7 @@
       "no": "2",
       "name": "England",
       "team": "England",
-      "rating": "268"
+      "rating": "269"
      },
      {
       "no": "3",
