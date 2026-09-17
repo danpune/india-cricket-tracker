@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Afghanistan bowl; India pick Thakur for Arshdeep",
+   "u": "https://www.cricinfo.com/ci/content/story/1554691.html?ex_cid=OTC-RSS",
+   "d": "Thu, 17 Sep 2026"
+  },
+  {
+   "t": "India's bench strength and Naveen-ul-Haq's match-fitness in focus for final T20I",
+   "u": "https://www.cricinfo.com/ci/content/story/1554452.html?ex_cid=OTC-RSS",
+   "d": "Thu, 17 Sep 2026"
+  },
+  {
    "t": "Varun Chakravarthy ruled out of Japan T20I and Asian Games, Vipraj Nigam named replacement",
    "u": "https://www.cricinfo.com/ci/content/story/1554438.html?ex_cid=OTC-RSS",
    "d": "Wed, 16 Sep 2026"
@@ -26,11 +36,6 @@
    "d": "Wed, 16 Sep 2026"
   },
   {
-   "t": "India's bench strength and Naveen-ul-Haq's match-fitness in focus for final T20I",
-   "u": "https://www.cricinfo.com/ci/content/story/1554452.html?ex_cid=OTC-RSS",
-   "d": "Wed, 16 Sep 2026"
-  },
-  {
    "t": "Samson, Abhishek and Reddy power India to series win",
    "u": "https://www.cricinfo.com/ci/content/story/1554367.html?ex_cid=OTC-RSS",
    "d": "Wed, 16 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "Mack's unbeaten 83 seals Australia A series win against India A",
    "u": "https://www.cricinfo.com/ci/content/story/1554353.html?ex_cid=OTC-RSS",
    "d": "Tue, 15 Sep 2026"
-  },
-  {
-   "t": "India bowl with Bishnoi in as the only change",
-   "u": "https://www.cricinfo.com/ci/content/story/1554318.html?ex_cid=OTC-RSS",
-   "d": "Tue, 15 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "Hf8zDYMzh7c",
+     "t": "Match Forecast: England vs Sri Lanka, 2nd T20I"
+    },
     {
      "yt": "LGxaZdEkxus",
      "t": "Match Forecast: Afghanistan vs India, 3rd T20I"
@@ -75,10 +79,6 @@
     {
      "yt": "WIOwFYdF-Jg",
      "t": "Match Forecast: Afghanistan vs India, 2nd T20I"
-    },
-    {
-     "yt": "B2uuJLkc664",
-     "t": "Ultra-smart Bumrah knows how to plan his fitness: Mohit Sharma"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "L8Bp-0VXpyI",
+     "t": "Harsha Bhogle on India\u2019s selection calls"
+    },
     {
      "yt": "3Ss1KnMe2PU",
      "t": "Harsha Bhogle on India's 1-0 triumph"
@@ -105,10 +109,6 @@
     {
      "yt": "q_fjNlVbfjk",
      "t": "Harsha Bhogle looks ahead to Team India's Test in Sri Lanka"
-    },
-    {
-     "yt": "Nd45jpj9BZQ",
-     "t": "Harsha Bhogle on the retirement of Ajinkya Rahane"
     }
    ]
   }

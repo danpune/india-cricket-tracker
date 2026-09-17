@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T09:40:33Z",
+ "updated": "2026-09-17T14:28:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -5785,14 +5785,14 @@
    "seriesId": "24677",
    "matchNo": "3rd T20I",
    "venue": "Arun Jaitley Stadium, Delhi",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "100/0 (6/20 ov)",
      "winner": false
     },
     {
@@ -5802,8 +5802,99 @@
      "winner": false
     }
    ],
-   "result": "Starts at 19:30 local time",
-   "india": ""
+   "result": "Afghanistan won toss & fielded",
+   "india": "",
+   "xi": {
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Nitish Kumar Reddy",
+     "Shivam Dube",
+     "Axar Patel",
+     "Ravi Bishnoi",
+     "Jasprit Bumrah",
+     "Yash Thakur"
+    ],
+    "Afghanistan": [
+     "Ibrahim Zadran (c)",
+     "Rahmanullah Gurbaz",
+     "Sediqullah Atal",
+     "Abdollah Ahmadzai",
+     "Darwish Rasooli",
+     "Noor ul Rahman",
+     "Azmatullah Omarzai",
+     "Mohammad Nabi",
+     "Rashid Khan",
+     "Mujeeb Ur Rahman",
+     "Fazalhaq Farooqi"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "100/0 (6.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       24,
+       14,
+       "not out"
+      ],
+      [
+       "Abhishek Sharma",
+       76,
+       22,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ishan Kishan",
+      "Shreyas Iyer",
+      "Tilak Varma",
+      "Nitish Kumar Reddy",
+      "Shivam Dube",
+      "Axar Patel",
+      "Ravi Bishnoi",
+      "Jasprit Bumrah",
+      "Yash Thakur"
+     ],
+     "bowl": [
+      [
+       "Azmatullah Omarzai",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Mohammad Nabi",
+       "1",
+       29,
+       0
+      ],
+      [
+       "Rashid Khan",
+       "0.6",
+       15,
+       0
+      ],
+      [
+       "Mujeeb Ur Rahman",
+       "1",
+       11,
+       0
+      ],
+      [
+       "Fazalhaq Farooqi",
+       "2",
+       28,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1529227",
