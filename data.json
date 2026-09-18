@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T23:39:41Z",
+ "updated": "2026-09-18T01:30:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6684,6 +6684,36 @@
    "seriesId": "24469",
    "matchNo": "3rd ODI",
    "venue": "Seddon Park, Hamilton",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1539440",
+   "eventId": "1539440",
+   "date": "2026-11-13T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "4th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
