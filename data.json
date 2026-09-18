@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T06:31:32Z",
+ "updated": "2026-09-18T11:45:57Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6024,25 +6024,26 @@
    "seriesId": "22546",
    "matchNo": "4th Quarter-Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Japan Women",
      "abbr": "JPN-W",
-     "score": "57 (19.5/20 ov)",
+     "score": "57",
      "winner": false
     },
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
-     "winner": false
+     "score": "59/2 (5/20 ov, target 58)",
+     "winner": true
     }
    ],
-   "result": "IND Women won toss & fielded",
-   "india": "",
+   "result": "IND Women won by 8 wkts (90b rem)",
+   "india": "won",
+   "seriesNote": "India Women advanced",
    "xi": {
     "Japan Women": [
      "Haruna Iwasaki",
@@ -6058,12 +6059,12 @@
      "Nonoha Yasumoto"
     ],
     "India Women": [
-     "Smriti Mandhana",
      "Shafali Verma",
-     "Bharti Fulmali",
-     "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
      "Gunalan Kamalini",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Smriti Mandhana",
+     "Harmanpreet Kaur (c)",
      "Deepti Sharma",
      "Shreyanka Patil",
      "Shree Charani",
@@ -6182,8 +6183,103 @@
        0
       ]
      ]
+    },
+    {
+     "t": "India Women",
+     "total": "59/2 (5.0 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       40,
+       15,
+       "not out"
+      ],
+      [
+       "Gunalan Kamalini",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       6,
+       7,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       12,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Smriti Mandhana",
+      "Harmanpreet Kaur",
+      "Deepti Sharma",
+      "Shreyanka Patil",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Ayaka Kato-Stafford",
+       "1",
+       14,
+       1
+      ],
+      [
+       "Shimako Kato",
+       "1",
+       20,
+       0
+      ],
+      [
+       "Ahilya Chandel",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Nonoha Yasumoto",
+       "2",
+       8,
+       1
+      ]
+     ]
     }
    ]
+  },
+  {
+   "id": "espn_1550479",
+   "eventId": "1550479",
+   "date": "2026-09-20T05:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Asian Games Women's Cricket Competition",
+   "seriesId": "22546",
+   "matchNo": "2nd Semi-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Bangladesh Women",
+     "abbr": "BAN-W",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
   },
   {
    "id": "espn_1529227",
@@ -8466,7 +8562,7 @@
       "no": "3",
       "name": "India",
       "team": "India",
-      "rating": "263"
+      "rating": "264"
      },
      {
       "no": "4",
