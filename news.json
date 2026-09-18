@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "BCCI secretary assures Asia Cup trophies 'will land up' at their head office",
+   "u": "https://www.cricinfo.com/ci/content/story/1554929.html?ex_cid=OTC-RSS",
+   "d": "Fri, 18 Sep 2026"
+  },
+  {
+   "t": "Chauhan, Anvay Dravid shine as India Under-19s clinch thriller",
+   "u": "https://www.cricinfo.com/ci/content/story/1554914.html?ex_cid=OTC-RSS",
+   "d": "Fri, 18 Sep 2026"
+  },
+  {
    "t": "'He cannot bowl ten overs yet' - Gambhir charts out Hardik's comeback route",
    "u": "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS",
    "d": "Fri, 18 Sep 2026"
@@ -39,16 +49,6 @@
    "t": "Naman Dhir, Auqib Nabi get maiden ODI call-ups for West Indies series",
    "u": "https://www.cricinfo.com/ci/content/story/1554508.html?ex_cid=OTC-RSS",
    "d": "Wed, 16 Sep 2026"
-  },
-  {
-   "t": "WPL 2027 to be played from January 14 to February 7",
-   "u": "https://www.cricinfo.com/ci/content/story/1554458.html?ex_cid=OTC-RSS",
-   "d": "Wed, 16 Sep 2026"
-  },
-  {
-   "t": "Abhishek second among T20I batters; Robinson climbs to No. 3 in Test bowling",
-   "u": "https://www.cricinfo.com/ci/content/story/1554431.html?ex_cid=OTC-RSS",
-   "d": "Wed, 16 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "u9ctuBImeiI",
+     "t": "Others have surpassed Pant in white-ball cricket: Mohammad Kaif"
+    },
     {
      "yt": "XXizeKvs3QU",
      "t": "Why does age matter only for Shami & Bhuvi? - Kaif questions!"
@@ -75,10 +79,6 @@
     {
      "yt": "WOwjYbFVhnE",
      "t": "Should Vaibhav Sooryavanshi feature in the 3rd T20I vs Afghanistan?"
-    },
-    {
-     "yt": "EikjzKQeDpM",
-     "t": "Bumrah needs to tweak his run-up to stave off injuries: Mohammad Kaif"
     }
    ]
   },

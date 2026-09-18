@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T11:45:57Z",
+ "updated": "2026-09-18T15:12:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6043,35 +6043,6 @@
    ],
    "result": "IND Women won by 8 wkts (90b rem)",
    "india": "won",
-   "seriesNote": "India Women advanced",
-   "xi": {
-    "Japan Women": [
-     "Haruna Iwasaki",
-     "Ayaka Kato-Stafford",
-     "Mai Yanagida (c)",
-     "Erika Oda",
-     "Shimako Kato",
-     "Akari Nishimura",
-     "Hinase Goto",
-     "Ahilya Chandel",
-     "Ayumi Fujikawa",
-     "Erika Toguchi-Quinn",
-     "Nonoha Yasumoto"
-    ],
-    "India Women": [
-     "Shafali Verma",
-     "Gunalan Kamalini",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Smriti Mandhana",
-     "Harmanpreet Kaur (c)",
-     "Deepti Sharma",
-     "Shreyanka Patil",
-     "Shree Charani",
-     "Nandani Sharma",
-     "Kranti Gaud"
-    ]
-   },
    "innings": [
     {
      "t": "Japan Women",
@@ -6279,7 +6250,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.24,
+    0.76
+   ]
   },
   {
    "id": "espn_1529227",
@@ -7191,36 +7166,6 @@
    "seriesId": "24286",
    "matchNo": "2nd ODI",
    "venue": "M.Chinnaswamy Stadium, Bengaluru",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Sri Lanka",
-     "abbr": "SL",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1529237",
-   "eventId": "1529237",
-   "date": "2026-12-19T08:30Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "Sri Lanka tour of India 2026/27",
-   "seriesId": "24286",
-   "matchNo": "3rd ODI",
-   "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
