@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T01:30:01Z",
+ "updated": "2026-09-18T06:31:32Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6024,14 +6024,14 @@
    "seriesId": "22546",
    "matchNo": "4th Quarter-Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Innings break",
    "teams": [
     {
      "name": "Japan Women",
      "abbr": "JPN-W",
-     "score": "",
+     "score": "57 (19.5/20 ov)",
      "winner": false
     },
     {
@@ -6041,8 +6041,149 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
-   "india": ""
+   "result": "IND Women won toss & fielded",
+   "india": "",
+   "xi": {
+    "Japan Women": [
+     "Haruna Iwasaki",
+     "Ayaka Kato-Stafford",
+     "Mai Yanagida (c)",
+     "Erika Oda",
+     "Shimako Kato",
+     "Akari Nishimura",
+     "Hinase Goto",
+     "Ahilya Chandel",
+     "Ayumi Fujikawa",
+     "Erika Toguchi-Quinn",
+     "Nonoha Yasumoto"
+    ],
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Bharti Fulmali",
+     "Harmanpreet Kaur (c)",
+     "Richa Ghosh",
+     "Gunalan Kamalini",
+     "Deepti Sharma",
+     "Shreyanka Patil",
+     "Shree Charani",
+     "Nandani Sharma",
+     "Kranti Gaud"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Japan Women",
+     "total": "57 (19.5 ov)",
+     "bat": [
+      [
+       "Haruna Iwasaki",
+       10,
+       22,
+       "c"
+      ],
+      [
+       "Ayaka Kato-Stafford",
+       25,
+       47,
+       "c"
+      ],
+      [
+       "Mai Yanagida",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Erika Oda",
+       5,
+       14,
+       "c"
+      ],
+      [
+       "Shimako Kato",
+       3,
+       10,
+       "c"
+      ],
+      [
+       "Akari Nishimura",
+       2,
+       9,
+       "c"
+      ],
+      [
+       "Hinase Goto",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "Ahilya Chandel",
+       0,
+       2,
+       "run out"
+      ],
+      [
+       "Ayumi Fujikawa",
+       4,
+       6,
+       "not out"
+      ],
+      [
+       "Erika Toguchi-Quinn",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Nonoha Yasumoto",
+       0,
+       5,
+       "b"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       13,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       14,
+       1
+      ],
+      [
+       "Shreyanka Patil",
+       "3.5",
+       8,
+       1
+      ],
+      [
+       "Shree Charani",
+       "4",
+       10,
+       4
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       6,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       4,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1529227",

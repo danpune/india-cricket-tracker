@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "'He cannot bowl ten overs [yet]' - Gambhir charts out Hardik's comeback route",
+   "u": "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS",
+   "d": "Fri, 18 Sep 2026"
+  },
+  {
    "t": "Abhishek's record century delivers India's clean sweep of Afghanistan",
    "u": "https://www.cricinfo.com/ci/content/story/1554750.html?ex_cid=OTC-RSS",
    "d": "Thu, 17 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "Abhishek second among T20I batters; Robinson climbs to No. 3 in Test bowling",
    "u": "https://www.cricinfo.com/ci/content/story/1554431.html?ex_cid=OTC-RSS",
    "d": "Wed, 16 Sep 2026"
-  },
-  {
-   "t": "Samson, Abhishek and Reddy power India to series win",
-   "u": "https://www.cricinfo.com/ci/content/story/1554367.html?ex_cid=OTC-RSS",
-   "d": "Wed, 16 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "XXizeKvs3QU",
+     "t": "Why does age matter only for Shami & Bhuvi? - Kaif questions!"
+    },
+    {
+     "yt": "Rk8qRHiEfl8",
+     "t": "Incredible Abhishek Sharma shatters all records!"
+    },
     {
      "yt": "Hf8zDYMzh7c",
      "t": "Match Forecast: England vs Sri Lanka, 2nd T20I"
@@ -71,14 +79,6 @@
     {
      "yt": "EikjzKQeDpM",
      "t": "Bumrah needs to tweak his run-up to stave off injuries: Mohammad Kaif"
-    },
-    {
-     "yt": "UKXm6OgoQBs",
-     "t": "Samson\u2019s ability was never in doubt, consistency was: Mohammad Kaif"
-    },
-    {
-     "yt": "WIOwFYdF-Jg",
-     "t": "Match Forecast: Afghanistan vs India, 2nd T20I"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "C-AY0twT0CM",
+     "t": "Harsha Bhogle on India's injury breakdowns"
+    },
     {
      "yt": "L8Bp-0VXpyI",
      "t": "Harsha Bhogle on India\u2019s selection calls"
@@ -105,10 +109,6 @@
     {
      "yt": "Y-GH0Rx9Ti8",
      "t": "Harsha Bhogle on India's Test batting stocks"
-    },
-    {
-     "yt": "q_fjNlVbfjk",
-     "t": "Harsha Bhogle looks ahead to Team India's Test in Sri Lanka"
     }
    ]
   }
