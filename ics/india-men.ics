@@ -44,6 +44,14 @@ LOCATION:M.Chinnaswamy Stadium  Bengaluru
 DESCRIPTION:Sri Lanka tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529237@india-cricket-tracker
+DTSTART:20261219T083000Z
+DTEND:20261219T170000Z
+SUMMARY:India v Sri Lanka 🏏 3rd ODI
+LOCATION:Narendra Modi Stadium  Motera  Ahmedabad
+DESCRIPTION:Sri Lanka tour of India 2026/27
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1529238@india-cricket-tracker
 DTSTART:20261222T133000Z
 DTEND:20261222T173000Z

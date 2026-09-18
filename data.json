@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T15:12:01Z",
+ "updated": "2026-09-18T18:31:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6252,8 +6252,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.24,
-    0.76
+    0.18,
+    0.82
    ]
   },
   {
@@ -7166,6 +7166,36 @@
    "seriesId": "24286",
    "matchNo": "2nd ODI",
    "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529237",
+   "eventId": "1529237",
+   "date": "2026-12-19T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "3rd ODI",
+   "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
