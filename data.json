@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T14:21:37Z",
+ "updated": "2026-09-19T17:21:04Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6252,8 +6252,8 @@
    "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.065,
-    0.935
+    0.06,
+    0.94
    ]
   },
   {
@@ -8143,14 +8143,14 @@
     "team": [
      {
       "no": "1",
-      "name": "India",
-      "team": "India",
+      "name": "England",
+      "team": "England",
       "rating": "269"
      },
      {
       "no": "2",
-      "name": "England",
-      "team": "England",
+      "name": "India",
+      "team": "India",
       "rating": "269"
      },
      {
