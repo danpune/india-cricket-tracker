@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T12:02:04Z",
+ "updated": "2026-09-20T15:59:07Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6251,35 +6251,6 @@
    ],
    "result": "IND Women won by 114 runs",
    "india": "won",
-   "seriesNote": "India Women advanced",
-   "xi": {
-    "Bangladesh Women": [
-     "Dilara Akter",
-     "Juairiya Ferdous",
-     "Sobhana Mostary",
-     "Nigar Sultana (c)",
-     "Shorna Akter",
-     "Sharmin Akhter",
-     "Nahida Akter",
-     "Rabeya Khan",
-     "Sultana Khatun",
-     "Marufa Akter",
-     "Sanjida Akter Meghla"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Gunalan Kamalini",
-     "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
-     "Bharti Fulmali",
-     "Deepti Sharma",
-     "Shreyanka Patil",
-     "Shree Charani",
-     "Nandani Sharma",
-     "Kranti Gaud"
-    ]
-   },
    "innings": [
     {
      "t": "India Women",
@@ -6503,7 +6474,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.84,
+    0.16
+   ]
   },
   {
    "id": "espn_1529227",
