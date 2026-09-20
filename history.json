@@ -34572,6 +34572,222 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1550479",
+   "date": "2026-09-20",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Asian Games Women's Cricket Competition",
+   "matchNo": "2nd Semi-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "city": "",
+   "teams": [
+    {
+     "name": "Bangladesh Women",
+     "score": "81 (15.4/20 ov, target 196)"
+    },
+    {
+     "name": "India Women",
+     "score": "195/4"
+    }
+   ],
+   "result": "IND Women won by 114 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "195/4 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       37,
+       19,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       100,
+       49,
+       "not out"
+      ],
+      [
+       "Gunalan Kamalini",
+       3,
+       10,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       40,
+       33,
+       "st"
+      ],
+      [
+       "Richa Ghosh",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       9,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Deepti Sharma",
+      "Shreyanka Patil",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Shorna Akter",
+       "2",
+       19,
+       0
+      ],
+      [
+       "Nahida Akter",
+       "4",
+       48,
+       1
+      ],
+      [
+       "Rabeya Khan",
+       "4",
+       35,
+       1
+      ],
+      [
+       "Sultana Khatun",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Marufa Akter",
+       "4",
+       43,
+       1
+      ],
+      [
+       "Sanjida Akter Meghla",
+       "4",
+       25,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Bangladesh Women",
+     "total": "81 (15.4 ov)",
+     "bat": [
+      [
+       "Dilara Akter",
+       27,
+       23,
+       "c"
+      ],
+      [
+       "Juairiya Ferdous",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Sobhana Mostary",
+       4,
+       7,
+       "c"
+      ],
+      [
+       "Nigar Sultana",
+       9,
+       9,
+       "c"
+      ],
+      [
+       "Shorna Akter",
+       5,
+       8,
+       "c"
+      ],
+      [
+       "Sharmin Akhter",
+       10,
+       20,
+       "st"
+      ],
+      [
+       "Nahida Akter",
+       4,
+       5,
+       "c"
+      ],
+      [
+       "Rabeya Khan",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Sultana Khatun",
+       12,
+       8,
+       "not out"
+      ],
+      [
+       "Marufa Akter",
+       5,
+       10,
+       "lbw"
+      ],
+      [
+       "Sanjida Akter Meghla",
+       0,
+       2,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Deepti Sharma",
+       "2.4",
+       7,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "3",
+       22,
+       1
+      ],
+      [
+       "Shree Charani",
+       "3",
+       7,
+       2
+      ],
+      [
+       "Nandani Sharma",
+       "4",
+       25,
+       3
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       20,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

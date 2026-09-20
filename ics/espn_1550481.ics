@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1550481@india-cricket-tracker
+DTSTART:20260922T050000Z
+DTEND:20260922T090000Z
+SUMMARY:India v Sri Lanka 🏏 Final
+LOCATION:Korogi Sports Park  Nisshin
+DESCRIPTION:Asian Games Women's Cricket Competition
+END:VEVENT
+END:VCALENDAR
