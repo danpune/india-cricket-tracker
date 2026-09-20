@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T15:59:07Z",
+ "updated": "2026-09-20T18:38:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6476,8 +6476,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.84,
-    0.16
+    0.845,
+    0.155
    ]
   },
   {
@@ -8190,14 +8190,14 @@
      },
      {
       "no": "3",
-      "name": "South Africa",
-      "team": "South Africa",
+      "name": "Australia",
+      "team": "Australia",
       "rating": "103"
      },
      {
       "no": "4",
-      "name": "Australia",
-      "team": "Australia",
+      "name": "South Africa",
+      "team": "South Africa",
       "rating": "103"
      },
      {
