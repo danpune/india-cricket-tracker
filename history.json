@@ -34788,6 +34788,380 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1550481",
+   "date": "2026-09-22",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Asian Games Women's Cricket Competition",
+   "matchNo": "Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "city": "",
+   "teams": [
+    {
+     "name": "India Women",
+     "score": "216/3"
+    },
+    {
+     "name": "Sri Lanka Women",
+     "score": "69 (15.4/20 ov, target 217)"
+    }
+   ],
+   "result": "IND Women won by 147 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "216/3 (20.0 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       48,
+       29,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       79,
+       45,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       19,
+       17,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       49,
+       22,
+       "not out"
+      ],
+      [
+       "Bharti Fulmali",
+       7,
+       7,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Gunalan Kamalini",
+      "Deepti Sharma",
+      "Shreyanka Patil",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Chamari Athapaththu",
+       "2",
+       27,
+       0
+      ],
+      [
+       "Kavisha Dilhari",
+       "4",
+       35,
+       1
+      ],
+      [
+       "Kawya Kavindi",
+       "3",
+       40,
+       0
+      ],
+      [
+       "Sugandika Kumari",
+       "4",
+       37,
+       1
+      ],
+      [
+       "Mithali Ayodhya",
+       "3",
+       42,
+       0
+      ],
+      [
+       "Chamudi Praboda",
+       "4",
+       34,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka Women",
+     "total": "69 (15.4 ov)",
+     "bat": [
+      [
+       "Chamari Athapaththu",
+       29,
+       21,
+       "c"
+      ],
+      [
+       "Imesha Dulani",
+       3,
+       10,
+       "st"
+      ],
+      [
+       "Hasini Perera",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Kavisha Dilhari",
+       11,
+       13,
+       "c"
+      ],
+      [
+       "Harshitha Samarawickrama",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Hansima Karunaratne",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Kaushini Nuthyangana",
+       14,
+       14,
+       "b"
+      ],
+      [
+       "Kawya Kavindi",
+       2,
+       6,
+       "c"
+      ],
+      [
+       "Sugandika Kumari",
+       3,
+       12,
+       "c"
+      ],
+      [
+       "Mithali Ayodhya",
+       0,
+       5,
+       "run out"
+      ],
+      [
+       "Chamudi Praboda",
+       0,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       3,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       6,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "1.4",
+       9,
+       2
+      ],
+      [
+       "Shree Charani",
+       "4",
+       13,
+       2
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       23,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       11,
+       0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1552859",
+   "date": "2026-09-22",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Japan 2026",
+   "matchNo": "Only T20I",
+   "venue": "Sano International Cricket Ground",
+   "city": "",
+   "teams": [
+    {
+     "name": "Japan",
+     "score": "30/3 (5 ov, target 33)"
+    },
+    {
+     "name": "India",
+     "score": "32/4 (5/5 ov)"
+    }
+   ],
+   "result": "India won by 2 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "32/4 (5.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       9,
+       7,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       16,
+       12,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Shivam Dube",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Axar Patel",
+      "Yash Thakur",
+      "Ravi Bishnoi",
+      "Arshdeep Singh",
+      "Washington Sundar"
+     ],
+     "bowl": [
+      [
+       "Ibrahim Takahashi",
+       "2",
+       13,
+       1
+      ],
+      [
+       "Benjamin Ito-Davis",
+       "1",
+       2,
+       1
+      ],
+      [
+       "Charlie Hara-Hinze",
+       "2",
+       17,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Japan",
+     "total": "30/3 (5.0 ov)",
+     "bat": [
+      [
+       "Kendel Kadowaki-Fleming",
+       12,
+       12,
+       "c"
+      ],
+      [
+       "Lachlan Yamamoto-Lake",
+       1,
+       4,
+       "run out"
+      ],
+      [
+       "Ibrahim Takahashi",
+       4,
+       3,
+       "c"
+      ],
+      [
+       "Benjamin Ito-Davis",
+       9,
+       8,
+       "not out"
+      ],
+      [
+       "Shirai-Patmore",
+       2,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Reo Sakurano-Thomas",
+      "Charlie Hara-Hinze",
+      "Wataru Miyauchi",
+      "Declan Suzuki",
+      "Makoto Taniyama",
+      "Shoma Sugaya-Slater"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "2",
+       7,
+       0
+      ],
+      [
+       "Ravi Bishnoi",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Washington Sundar",
+       "2",
+       13,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

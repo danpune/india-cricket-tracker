@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T05:47:59Z",
+ "updated": "2026-09-22T10:22:33Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6456,25 +6456,189 @@
    "seriesId": "24746",
    "matchNo": "Only T20I",
    "venue": "Sano International Cricket Ground",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Match delayed by a wet outfield",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Japan",
      "abbr": "JPN",
-     "score": "",
+     "score": "30/3 (5 ov, target 33)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "32/4 (5/5 ov)",
+     "winner": true
     }
    ],
-   "result": "Starts at 13:00 local time",
-   "india": ""
+   "result": "India won by 2 runs",
+   "india": "won",
+   "seriesNote": "India won the one-off match",
+   "xi": {
+    "Japan": [
+     "Kendel Kadowaki-Fleming (c)",
+     "Lachlan Yamamoto-Lake",
+     "Ibrahim Takahashi",
+     "Benjamin Ito-Davis",
+     "Shirai-Patmore",
+     "Reo Sakurano-Thomas",
+     "Charlie Hara-Hinze",
+     "Wataru Miyauchi",
+     "Declan Suzuki",
+     "Makoto Taniyama",
+     "Shoma Sugaya-Slater"
+    ],
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Shivam Dube",
+     "Axar Patel",
+     "Yash Thakur",
+     "Ravi Bishnoi",
+     "Arshdeep Singh",
+     "Washington Sundar"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "32/4 (5.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       9,
+       7,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       16,
+       12,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       1,
+       3,
+       "not out"
+      ],
+      [
+       "Shivam Dube",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Axar Patel",
+      "Yash Thakur",
+      "Ravi Bishnoi",
+      "Arshdeep Singh",
+      "Washington Sundar"
+     ],
+     "bowl": [
+      [
+       "Ibrahim Takahashi",
+       "2",
+       13,
+       1
+      ],
+      [
+       "Benjamin Ito-Davis",
+       "1",
+       2,
+       1
+      ],
+      [
+       "Charlie Hara-Hinze",
+       "2",
+       17,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "Japan",
+     "total": "30/3 (5.0 ov)",
+     "bat": [
+      [
+       "Kendel Kadowaki-Fleming",
+       12,
+       12,
+       "c"
+      ],
+      [
+       "Lachlan Yamamoto-Lake",
+       1,
+       4,
+       "run out"
+      ],
+      [
+       "Ibrahim Takahashi",
+       4,
+       3,
+       "c"
+      ],
+      [
+       "Benjamin Ito-Davis",
+       9,
+       8,
+       "not out"
+      ],
+      [
+       "Shirai-Patmore",
+       2,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Reo Sakurano-Thomas",
+      "Charlie Hara-Hinze",
+      "Wataru Miyauchi",
+      "Declan Suzuki",
+      "Makoto Taniyama",
+      "Shoma Sugaya-Slater"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "2",
+       7,
+       0
+      ],
+      [
+       "Ravi Bishnoi",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Washington Sundar",
+       "2",
+       13,
+       2
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1550481",
@@ -6486,32 +6650,33 @@
    "seriesId": "22546",
    "matchNo": "Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "111/1 (11.3/20 ov)",
-     "winner": false
+     "score": "216/3",
+     "winner": true
     },
     {
      "name": "Sri Lanka Women",
      "abbr": "SL-W",
-     "score": "",
+     "score": "69 (15.4/20 ov, target 217)",
      "winner": false
     }
    ],
-   "result": "IND Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 147 runs",
+   "india": "won",
+   "seriesNote": "India Women won the 2026 Asian Games Women's Cricket Competition",
    "xi": {
     "India Women": [
      "Shafali Verma",
      "Smriti Mandhana",
      "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
      "Richa Ghosh",
+     "Bharti Fulmali",
      "Gunalan Kamalini",
      "Deepti Sharma",
      "Shreyanka Patil",
@@ -6520,23 +6685,23 @@
      "Kranti Gaud"
     ],
     "Sri Lanka Women": [
-     "Imesha Dulani",
      "Chamari Athapaththu (c)",
+     "Imesha Dulani",
      "Hasini Perera",
-     "Harshitha Samarawickrama",
      "Kavisha Dilhari",
+     "Harshitha Samarawickrama",
      "Hansima Karunaratne",
-     "Mithali Ayodhya",
      "Kaushini Nuthyangana",
-     "Chamudi Praboda",
+     "Kawya Kavindi",
      "Sugandika Kumari",
-     "Kawya Kavindi"
+     "Mithali Ayodhya",
+     "Chamudi Praboda"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "110/1 (11.2 ov)",
+     "total": "216/3 (20.0 ov)",
      "bat": [
       [
        "Shafali Verma",
@@ -6546,20 +6711,30 @@
       ],
       [
        "Smriti Mandhana",
-       59,
-       36,
-       "not out"
+       79,
+       45,
+       "c"
       ],
       [
        "Harmanpreet Kaur",
-       3,
-       3,
+       19,
+       17,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       49,
+       22,
+       "not out"
+      ],
+      [
+       "Bharti Fulmali",
+       7,
+       7,
        "not out"
       ]
      ],
      "dnb": [
-      "Bharti Fulmali",
-      "Richa Ghosh",
       "Gunalan Kamalini",
       "Deepti Sharma",
       "Shreyanka Patil",
@@ -6576,32 +6751,143 @@
       ],
       [
        "Kavisha Dilhari",
-       "2",
-       18,
+       "4",
+       35,
+       1
+      ],
+      [
+       "Kawya Kavindi",
+       "3",
+       40,
        0
       ],
       [
+       "Sugandika Kumari",
+       "4",
+       37,
+       1
+      ],
+      [
        "Mithali Ayodhya",
-       "2",
-       18,
+       "3",
+       42,
        0
       ],
       [
        "Chamudi Praboda",
-       "2.2",
-       17,
+       "4",
+       34,
        1
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka Women",
+     "total": "69 (15.4 ov)",
+     "bat": [
+      [
+       "Chamari Athapaththu",
+       29,
+       21,
+       "c"
       ],
       [
-       "Sugandika Kumari",
-       "2",
-       22,
-       0
+       "Imesha Dulani",
+       3,
+       10,
+       "st"
+      ],
+      [
+       "Hasini Perera",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Kavisha Dilhari",
+       11,
+       13,
+       "c"
+      ],
+      [
+       "Harshitha Samarawickrama",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Hansima Karunaratne",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Kaushini Nuthyangana",
+       14,
+       14,
+       "b"
       ],
       [
        "Kawya Kavindi",
-       "1",
-       8,
+       2,
+       6,
+       "c"
+      ],
+      [
+       "Sugandika Kumari",
+       3,
+       12,
+       "c"
+      ],
+      [
+       "Mithali Ayodhya",
+       0,
+       5,
+       "run out"
+      ],
+      [
+       "Chamudi Praboda",
+       0,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       3,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       6,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "1.4",
+       9,
+       2
+      ],
+      [
+       "Shree Charani",
+       "4",
+       13,
+       2
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       23,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       11,
        0
       ]
      ]
@@ -6638,8 +6924,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.75,
-    0.25
+    0.805,
+    0.195
    ]
   },
   {
@@ -8534,14 +8820,14 @@
     "team": [
      {
       "no": "1",
-      "name": "England",
-      "team": "England",
+      "name": "India",
+      "team": "India",
       "rating": "269"
      },
      {
       "no": "2",
-      "name": "India",
-      "team": "India",
+      "name": "England",
+      "team": "England",
       "rating": "269"
      },
      {
@@ -8973,7 +9259,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-09-14",
+    "updated": "2026-09-21",
     "bat": [
      {
       "no": "1",
@@ -8991,31 +9277,31 @@
       "no": "3",
       "name": "Laura Wolvaardt",
       "team": "South Africa",
-      "rating": "762"
+      "rating": "766"
      },
      {
       "no": "4",
+      "name": "Shafali Verma",
+      "team": "India",
+      "rating": "756"
+     },
+     {
+      "no": "5",
       "name": "Hayley Matthews",
       "team": "West Indies",
       "rating": "754"
      },
      {
-      "no": "5",
+      "no": "6",
       "name": "Smriti Mandhana",
       "team": "India",
-      "rating": "745"
-     },
-     {
-      "no": "6",
-      "name": "Shafali Verma",
-      "team": "India",
-      "rating": "741"
+      "rating": "746"
      },
      {
       "no": "7",
       "name": "Chamari Athapaththu",
       "team": "Sri Lanka",
-      "rating": "719"
+      "rating": "734"
      },
      {
       "no": "8",
@@ -9033,7 +9319,7 @@
       "no": "10",
       "name": "Harmanpreet Kaur",
       "team": "India",
-      "rating": "657"
+      "rating": "659"
      }
     ],
     "bowl": [
@@ -9041,7 +9327,7 @@
       "no": "1",
       "name": "Sree Charani",
       "team": "India",
-      "rating": "804"
+      "rating": "799"
      },
      {
       "no": "2",
@@ -9074,28 +9360,28 @@
       "rating": "704"
      },
      {
-      "no": "=",
+      "no": "7",
       "name": "Nonkululeko Mlaba",
       "team": "South Africa",
-      "rating": "704"
+      "rating": "683"
      },
      {
       "no": "8",
-      "name": "Nashra Sundhu",
+      "name": "Sadia Iqbal",
       "team": "Pakistan",
-      "rating": "692"
+      "rating": "675"
      },
      {
       "no": "9",
-      "name": "Sadia Iqbal",
-      "team": "Pakistan",
-      "rating": "689"
-     },
-     {
-      "no": "10",
       "name": "Annabel Sutherland",
       "team": "Australia",
       "rating": "673"
+     },
+     {
+      "no": "10",
+      "name": "Georgia Wareham",
+      "team": "Australia",
+      "rating": "671"
      }
     ]
    }
