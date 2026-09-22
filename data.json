@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T10:22:33Z",
+ "updated": "2026-09-22T15:05:58Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6475,35 +6475,6 @@
    ],
    "result": "India won by 2 runs",
    "india": "won",
-   "seriesNote": "India won the one-off match",
-   "xi": {
-    "Japan": [
-     "Kendel Kadowaki-Fleming (c)",
-     "Lachlan Yamamoto-Lake",
-     "Ibrahim Takahashi",
-     "Benjamin Ito-Davis",
-     "Shirai-Patmore",
-     "Reo Sakurano-Thomas",
-     "Charlie Hara-Hinze",
-     "Wataru Miyauchi",
-     "Declan Suzuki",
-     "Makoto Taniyama",
-     "Shoma Sugaya-Slater"
-    ],
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Shivam Dube",
-     "Axar Patel",
-     "Yash Thakur",
-     "Ravi Bishnoi",
-     "Arshdeep Singh",
-     "Washington Sundar"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -6669,35 +6640,6 @@
    ],
    "result": "IND Women won by 147 runs",
    "india": "won",
-   "seriesNote": "India Women won the 2026 Asian Games Women's Cricket Competition",
-   "xi": {
-    "India Women": [
-     "Shafali Verma",
-     "Smriti Mandhana",
-     "Harmanpreet Kaur (c)",
-     "Richa Ghosh",
-     "Bharti Fulmali",
-     "Gunalan Kamalini",
-     "Deepti Sharma",
-     "Shreyanka Patil",
-     "Shree Charani",
-     "Nandani Sharma",
-     "Kranti Gaud"
-    ],
-    "Sri Lanka Women": [
-     "Chamari Athapaththu (c)",
-     "Imesha Dulani",
-     "Hasini Perera",
-     "Kavisha Dilhari",
-     "Harshitha Samarawickrama",
-     "Hansima Karunaratne",
-     "Kaushini Nuthyangana",
-     "Kawya Kavindi",
-     "Sugandika Kumari",
-     "Mithali Ayodhya",
-     "Chamudi Praboda"
-    ]
-   },
    "innings": [
     {
      "t": "India Women",
@@ -6924,8 +6866,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.805,
-    0.195
+    0.86,
+    0.14
    ]
   },
   {

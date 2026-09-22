@@ -1,8 +1,28 @@
 {
  "headlines": [
   {
+   "t": "The wide that wasn't: why the right call was made in a tight finish",
+   "u": "https://www.cricinfo.com/ci/content/story/1555354.html?ex_cid=OTC-RSS",
+   "d": "Tue, 22 Sep 2026"
+  },
+  {
+   "t": "ICC's agenda for 2027-31: more T20Is, fewer bilateral ODIs",
+   "u": "https://www.cricinfo.com/ci/content/story/1555369.html?ex_cid=OTC-RSS",
+   "d": "Tue, 22 Sep 2026"
+  },
+  {
    "t": "Iyer after India's close shave: 'It was a very difficult wicket to bat on'",
    "u": "https://www.cricinfo.com/ci/content/story/1555347.html?ex_cid=OTC-RSS",
+   "d": "Tue, 22 Sep 2026"
+  },
+  {
+   "t": "India survive Japan scare in thrilling Sano contest",
+   "u": "https://www.cricinfo.com/ci/content/story/1555337.html?ex_cid=OTC-RSS",
+   "d": "Tue, 22 Sep 2026"
+  },
+  {
+   "t": "Japan captain Kadowaki-Fleming: 'Emotions running pretty high' after close India contest",
+   "u": "https://www.cricinfo.com/ci/content/story/1555348.html?ex_cid=OTC-RSS",
    "d": "Tue, 22 Sep 2026"
   },
   {
@@ -13,11 +33,6 @@
   {
    "t": "DDCA to look into DPL corruption allegations",
    "u": "https://www.cricinfo.com/ci/content/story/1555343.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
-  },
-  {
-   "t": "India survive Japan scare in thrilling Sano contest",
-   "u": "https://www.cricinfo.com/ci/content/story/1555337.html?ex_cid=OTC-RSS",
    "d": "Tue, 22 Sep 2026"
   },
   {
@@ -34,21 +49,6 @@
    "t": "Yashbardhan Chauhan's all-round show seals series for India Under-19",
    "u": "https://www.cricinfo.com/ci/content/story/1555237.html?ex_cid=OTC-RSS",
    "d": "Mon, 21 Sep 2026"
-  },
-  {
-   "t": "It's Shafali vs Athapaththu as Sri Lanka seek to stop India juggernaut",
-   "u": "https://www.cricinfo.com/ci/content/story/1555225.html?ex_cid=OTC-RSS",
-   "d": "Mon, 21 Sep 2026"
-  },
-  {
-   "t": "Dot balls the big concern as Bangladesh look to test favourites India",
-   "u": "https://www.cricinfo.com/ci/content/story/1554986.html?ex_cid=OTC-RSS",
-   "d": "Sat, 19 Sep 2026"
-  },
-  {
-   "t": "Agarkar not seeking extension as chief selector",
-   "u": "https://www.cricinfo.com/ci/content/story/1554931.html?ex_cid=OTC-RSS",
-   "d": "Fri, 18 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "_UzmuC6l-V8",
+     "t": "No debate around Rohit & Kohli; selection is a must: Mohit"
+    },
     {
      "yt": "gX0XhaZd_U0",
      "t": "Match Forecast: Asian Games - INDW vs SLW, Final"
@@ -66,7 +70,7 @@
     },
     {
      "yt": "VVehD2mIbqc",
-     "t": "Auction strategy? Team over Superstars? What changed for RCB?"
+     "t": "How did RCB break the curse and start winning IPL titles?"
     },
     {
      "yt": "KO4qXcAuzQM",
@@ -75,10 +79,6 @@
     {
      "yt": "soNGtmtV8-Q",
      "t": "Match Forecast: Asian Games - INDW vs BANW, 2nd Semi Final"
-    },
-    {
-     "yt": "TwibxvnnG1M",
-     "t": "Match Forecast: England vs Sri Lanka, 3rd T20I"
     }
    ]
   },
