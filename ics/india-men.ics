@@ -268,14 +268,6 @@ LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1552859@india-cricket-tracker
-DTSTART:20260922T040000Z
-DTEND:20260922T080000Z
-SUMMARY:Japan v India 🏏 Only T20I
-LOCATION:Sano International Cricket Ground
-DESCRIPTION:India tour of Japan 2026
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1552773@india-cricket-tracker
 DTSTART:20260928T050000Z
 DTEND:20260928T090000Z

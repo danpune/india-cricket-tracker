@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T00:52:49Z",
+ "updated": "2026-09-22T05:47:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6456,9 +6456,9 @@
    "seriesId": "24746",
    "matchNo": "Only T20I",
    "venue": "Sano International Cricket Ground",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Match delayed by a wet outfield",
    "teams": [
     {
      "name": "Japan",
@@ -6486,14 +6486,14 @@
    "seriesId": "22546",
    "matchNo": "Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "111/1 (11.3/20 ov)",
      "winner": false
     },
     {
@@ -6503,11 +6503,109 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
+   "result": "IND Women won toss & batted",
    "india": "",
-   "o": [
-    0.895,
-    0.105
+   "xi": {
+    "India Women": [
+     "Shafali Verma",
+     "Smriti Mandhana",
+     "Harmanpreet Kaur (c)",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Gunalan Kamalini",
+     "Deepti Sharma",
+     "Shreyanka Patil",
+     "Shree Charani",
+     "Nandani Sharma",
+     "Kranti Gaud"
+    ],
+    "Sri Lanka Women": [
+     "Imesha Dulani",
+     "Chamari Athapaththu (c)",
+     "Hasini Perera",
+     "Harshitha Samarawickrama",
+     "Kavisha Dilhari",
+     "Hansima Karunaratne",
+     "Mithali Ayodhya",
+     "Kaushini Nuthyangana",
+     "Chamudi Praboda",
+     "Sugandika Kumari",
+     "Kawya Kavindi"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "110/1 (11.2 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       48,
+       29,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       59,
+       36,
+       "not out"
+      ],
+      [
+       "Harmanpreet Kaur",
+       3,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Bharti Fulmali",
+      "Richa Ghosh",
+      "Gunalan Kamalini",
+      "Deepti Sharma",
+      "Shreyanka Patil",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Chamari Athapaththu",
+       "2",
+       27,
+       0
+      ],
+      [
+       "Kavisha Dilhari",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Mithali Ayodhya",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Chamudi Praboda",
+       "2.2",
+       17,
+       1
+      ],
+      [
+       "Sugandika Kumari",
+       "2",
+       22,
+       0
+      ],
+      [
+       "Kawya Kavindi",
+       "1",
+       8,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -6538,7 +6636,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.75,
+    0.25
+   ]
   },
   {
    "id": "espn_1552773",
@@ -8856,7 +8958,7 @@
       "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "211"
+      "rating": "212"
      },
      {
       "no": "9",
