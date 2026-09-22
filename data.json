@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T18:49:11Z",
+ "updated": "2026-09-22T21:41:51Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6866,8 +6866,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.86,
-    0.14
+    0.865,
+    0.135
    ]
   },
   {
@@ -8603,15 +8603,15 @@
      },
      {
       "no": "6",
-      "name": "Sri Lanka",
-      "team": "Sri Lanka",
-      "rating": "96"
+      "name": "England",
+      "team": "England",
+      "rating": "95"
      },
      {
       "no": "7",
-      "name": "England",
-      "team": "England",
-      "rating": "93"
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "95"
      },
      {
       "no": "8",
