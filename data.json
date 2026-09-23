@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T03:04:17Z",
+ "updated": "2026-09-23T08:29:33Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8632,7 +8632,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-09-15",
+    "updated": "2026-09-22",
     "bat": [
      {
       "no": "1",
@@ -8674,7 +8674,7 @@
       "no": "7",
       "name": "Joe Root",
       "team": "England",
-      "rating": "674"
+      "rating": "675"
      },
      {
       "no": "8",
@@ -8684,15 +8684,15 @@
      },
      {
       "no": "9",
-      "name": "Charith Asalanka",
-      "team": "Sri Lanka",
-      "rating": "659"
-     },
-     {
-      "no": "10",
       "name": "Harry Tector",
       "team": "Ireland",
       "rating": "653"
+     },
+     {
+      "no": "10",
+      "name": "Kusal Mendis",
+      "team": "Sri Lanka",
+      "rating": "648"
      }
     ],
     "bowl": [
@@ -8710,21 +8710,21 @@
      },
      {
       "no": "3",
-      "name": "Jofra Archer",
-      "team": "England",
-      "rating": "649"
-     },
-     {
-      "no": "4",
       "name": "Mitchell Santner",
       "team": "New Zealand",
       "rating": "644"
      },
      {
-      "no": "5",
+      "no": "4",
       "name": "Maheesh Theekshana",
       "team": "Sri Lanka",
-      "rating": "641"
+      "rating": "635"
+     },
+     {
+      "no": "5",
+      "name": "Jofra Archer",
+      "team": "England",
+      "rating": "633"
      },
      {
       "no": "6",
@@ -8746,14 +8746,14 @@
      },
      {
       "no": "9",
-      "name": "Adil Rashid",
-      "team": "England",
-      "rating": "599"
-     },
-     {
-      "no": "10",
       "name": "Kuldeep Yadav",
       "team": "India",
+      "rating": "596"
+     },
+     {
+      "no": "=",
+      "name": "Gudakesh Motie",
+      "team": "West Indies",
       "rating": "596"
      }
     ]
@@ -8821,19 +8821,19 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-09-15",
+    "updated": "2026-09-22",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "913"
+      "rating": "904"
      },
      {
       "no": "2",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "862"
+      "rating": "893"
      },
      {
       "no": "3",
@@ -8843,39 +8843,39 @@
      },
      {
       "no": "4",
-      "name": "Phil Salt",
+      "name": "Harry Brook",
       "team": "England",
-      "rating": "799"
+      "rating": "793"
      },
      {
       "no": "5",
+      "name": "Jos Buttler",
+      "team": "England",
+      "rating": "789"
+     },
+     {
+      "no": "=",
       "name": "Dewald Brevis",
       "team": "South Africa",
       "rating": "789"
      },
      {
-      "no": "6",
-      "name": "Pathum Nissanka",
-      "team": "Sri Lanka",
-      "rating": "751"
-     },
-     {
       "no": "7",
-      "name": "Jos Buttler",
+      "name": "Phil Salt",
       "team": "England",
-      "rating": "748"
+      "rating": "775"
      },
      {
       "no": "8",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "740"
+      "name": "Pathum Nissanka",
+      "team": "Sri Lanka",
+      "rating": "757"
      },
      {
       "no": "9",
-      "name": "Harry Brook",
-      "team": "England",
-      "rating": "734"
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "726"
      },
      {
       "no": "10",
@@ -8887,45 +8887,45 @@
     "bowl": [
      {
       "no": "1",
-      "name": "Rashid Khan",
-      "team": "Afghanistan",
-      "rating": "744"
-     },
-     {
-      "no": "2",
       "name": "Abrar Ahmed",
       "team": "Pakistan",
       "rating": "736"
      },
      {
-      "no": "3",
-      "name": "Adil Rashid",
-      "team": "England",
-      "rating": "710"
+      "no": "2",
+      "name": "Rashid Khan",
+      "team": "Afghanistan",
+      "rating": "735"
      },
      {
-      "no": "4",
+      "no": "3",
       "name": "Adam Zampa",
       "team": "Australia",
       "rating": "700"
      },
      {
-      "no": "5",
-      "name": "Varun Chakaravarthy",
-      "team": "India",
-      "rating": "678"
+      "no": "4",
+      "name": "Adil Rashid",
+      "team": "England",
+      "rating": "695"
      },
      {
-      "no": "6",
+      "no": "5",
       "name": "Nathan Ellis",
       "team": "Australia",
       "rating": "675"
      },
      {
+      "no": "6",
+      "name": "Jamie Overton",
+      "team": "England",
+      "rating": "674"
+     },
+     {
       "no": "7",
-      "name": "Wanindu Hasaranga",
-      "team": "Sri Lanka",
-      "rating": "668"
+      "name": "Varun Chakaravarthy",
+      "team": "India",
+      "rating": "671"
      },
      {
       "no": "8",
@@ -8934,16 +8934,16 @@
       "rating": "658"
      },
      {
-      "no": "=",
-      "name": "Maheesh Theekshana",
+      "no": "9",
+      "name": "Wanindu Hasaranga",
       "team": "Sri Lanka",
-      "rating": "658"
+      "rating": "656"
      },
      {
       "no": "10",
       "name": "Jasprit Bumrah",
       "team": "India",
-      "rating": "650"
+      "rating": "651"
      }
     ]
    }
