@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T06:41:10Z",
+ "updated": "2026-09-25T12:19:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8810,15 +8810,15 @@
      },
      {
       "no": "9",
-      "name": "Afghanistan",
-      "team": "Afghanistan",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
       "rating": "220"
      },
      {
       "no": "10",
-      "name": "Sri Lanka",
-      "team": "Sri Lanka",
-      "rating": "220"
+      "name": "Afghanistan",
+      "team": "Afghanistan",
+      "rating": "218"
      }
     ],
     "updated": "2026-09-22",
