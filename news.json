@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Gill takes a hit to the elbow in the nets ahead of West Indies ODIs",
+   "u": "https://www.cricinfo.com/ci/content/story/1555732.html?ex_cid=OTC-RSS",
+   "d": "Fri, 25 Sep 2026"
+  },
+  {
    "t": "'Can't go to the World Cup half-cooked' - Gambhir on Hardik and Bumrah's fitness",
    "u": "https://www.cricinfo.com/ci/content/story/1555650.html?ex_cid=OTC-RSS",
    "d": "Fri, 25 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "Mandhana, Shafali and Ghosh lead dominant India to Asian Games gold",
    "u": "https://www.cricinfo.com/ci/content/story/1555338.html?ex_cid=OTC-RSS",
    "d": "Tue, 22 Sep 2026"
-  },
-  {
-   "t": "DDCA to look into DPL corruption allegations",
-   "u": "https://www.cricinfo.com/ci/content/story/1555343.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "L6QxFq3_K5s",
+     "t": "Preview: India vs West Indies - ODIs"
+    },
     {
      "yt": "-irlLSAHGgg",
      "t": "Virat? Dhoni? Mohit Sharma lists out his \u2018Best of\u2019"
@@ -75,10 +79,6 @@
     {
      "yt": "gX0XhaZd_U0",
      "t": "Match Forecast: Asian Games - INDW vs SLW, Final"
-    },
-    {
-     "yt": "FQngXnBZX7M",
-     "t": "Zaheer Khan CSK\u2019s new coach! Dhoni\u2019s big call for IPL 2027?"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "F3QuHQOC0nM",
+     "t": "Harsha Bhogle looks ahead to the India vs West Indies ODIs"
+    },
     {
      "yt": "C-AY0twT0CM",
      "t": "Harsha Bhogle on India's injury breakdowns"
@@ -105,10 +109,6 @@
     {
      "yt": "wmNgJqjxTLI",
      "t": "Harsha Bhogle on a historic Bangladesh victory"
-    },
-    {
-     "yt": "Y-GH0Rx9Ti8",
-     "t": "Harsha Bhogle on India's Test batting stocks"
     }
    ]
   }
