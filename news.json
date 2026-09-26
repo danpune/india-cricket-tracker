@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Asian Games: India to face Afghanistan in quarter-finals in repeat of the last final",
+   "u": "https://www.cricinfo.com/ci/content/story/1555765.html?ex_cid=OTC-RSS",
+   "d": "Sat, 26 Sep 2026"
+  },
+  {
    "t": "Hardik set to miss Australia A one-dayers after fresh injury",
    "u": "https://www.cricinfo.com/ci/content/story/1555757.html?ex_cid=OTC-RSS",
    "d": "Sat, 26 Sep 2026"
@@ -44,11 +49,6 @@
    "t": "ICC's agenda for 2027-31: more T20Is, fewer bilateral ODIs",
    "u": "https://www.cricinfo.com/ci/content/story/1555369.html?ex_cid=OTC-RSS",
    "d": "Tue, 22 Sep 2026"
-  },
-  {
-   "t": "Iyer after India's close shave: 'It was a very difficult wicket to bat on'",
-   "u": "https://www.cricinfo.com/ci/content/story/1555347.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "fPy712h6Yc4",
+     "t": "Match Forecast: India vs West Indies, 1st ODI"
+    },
     {
      "yt": "L6QxFq3_K5s",
      "t": "Preview: India vs West Indies - ODIs"
@@ -75,10 +79,6 @@
     {
      "yt": "_UzmuC6l-V8",
      "t": "No debate around Rohit & Kohli; selection is a must: Mohit"
-    },
-    {
-     "yt": "gX0XhaZd_U0",
-     "t": "Match Forecast: Asian Games - INDW vs SLW, Final"
     }
    ]
   },
