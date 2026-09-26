@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "West Indies' long route to 2027 ODI World Cup starts in India",
+   "u": "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
+   "d": "Sat, 26 Sep 2026"
+  },
+  {
+   "t": "Kotak: We have not been 'unfair' to Jaiswal, he needs to 'wait for his opportunity'",
+   "u": "https://www.cricinfo.com/ci/content/story/1555803.html?ex_cid=OTC-RSS",
+   "d": "Sat, 26 Sep 2026"
+  },
+  {
    "t": "Asian Games: India to face Afghanistan in quarter-finals in repeat of the last final",
    "u": "https://www.cricinfo.com/ci/content/story/1555765.html?ex_cid=OTC-RSS",
    "d": "Sat, 26 Sep 2026"
@@ -11,14 +21,14 @@
    "d": "Sat, 26 Sep 2026"
   },
   {
-   "t": "Morkel: Reddy can 'compete for allrounder's spot'",
-   "u": "https://www.cricinfo.com/ci/content/story/1555741.html?ex_cid=OTC-RSS",
+   "t": "Gill takes a hit to the elbow in the nets ahead of West Indies ODIs",
+   "u": "https://www.cricinfo.com/ci/content/story/1555732.html?ex_cid=OTC-RSS",
    "d": "Sat, 26 Sep 2026"
   },
   {
-   "t": "Gill takes a hit to the elbow in the nets ahead of West Indies ODIs",
-   "u": "https://www.cricinfo.com/ci/content/story/1555732.html?ex_cid=OTC-RSS",
-   "d": "Fri, 25 Sep 2026"
+   "t": "Morkel: Reddy can 'compete for allrounder's spot'",
+   "u": "https://www.cricinfo.com/ci/content/story/1555741.html?ex_cid=OTC-RSS",
+   "d": "Sat, 26 Sep 2026"
   },
   {
    "t": "'Can't go to the World Cup half-cooked' - Gambhir on Hardik and Bumrah's fitness",
@@ -39,16 +49,6 @@
    "t": "Japan captain Kadowaki-Fleming: 'Emotions running pretty high' after close India contest",
    "u": "https://www.cricinfo.com/ci/content/story/1555348.html?ex_cid=OTC-RSS",
    "d": "Tue, 22 Sep 2026"
-  },
-  {
-   "t": "The wide that wasn't: why the right call was made in a tight finish",
-   "u": "https://www.cricinfo.com/ci/content/story/1555354.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
-  },
-  {
-   "t": "ICC's agenda for 2027-31: more T20Is, fewer bilateral ODIs",
-   "u": "https://www.cricinfo.com/ci/content/story/1555369.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "_gZ0wWTrqAs",
+     "t": "Match Forecast: South Africa vs Australia, 2nd ODI"
+    },
     {
      "yt": "fPy712h6Yc4",
      "t": "Match Forecast: India vs West Indies, 1st ODI"
@@ -75,10 +79,6 @@
     {
      "yt": "qV8OBFLFhtE",
      "t": "2026 Asian Games: Do India enter as favourites? Mohammad Kaif answers"
-    },
-    {
-     "yt": "_UzmuC6l-V8",
-     "t": "No debate around Rohit & Kohli; selection is a must: Mohit"
     }
    ]
   },
