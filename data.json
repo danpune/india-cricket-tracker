@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T10:42:42Z",
+ "updated": "2026-09-27T15:19:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6848,22 +6848,22 @@
    "venue": "Greenfield International Stadium, Thiruvananthapuram",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Drinks",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "217/1 (33/50 ov, target 296)",
      "winner": false
     },
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "170/1 (29/50 ov)",
+     "score": "295/7",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
+   "result": "India require 79 runs",
    "india": "",
    "xi": {
     "India": [
@@ -6896,7 +6896,7 @@
    "innings": [
     {
      "t": "West Indies",
-     "total": "170/1 (29.0 ov)",
+     "total": "295/7 (50.0 ov)",
      "bat": [
       [
        "John Campbell",
@@ -6906,62 +6906,158 @@
       ],
       [
        "Justin Greaves",
-       88,
-       88,
-       "not out"
+       101,
+       108,
+       "lbw"
       ],
       [
        "Keacy Carty",
+       13,
+       31,
+       "c"
+      ],
+      [
+       "Shai Hope",
+       12,
        11,
-       27,
+       "c"
+      ],
+      [
+       "Amir Jangoo",
+       58,
+       43,
+       "not out"
+      ],
+      [
+       "Jewel Andrew",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Roston Chase",
+       24,
+       32,
+       "b"
+      ],
+      [
+       "Matthew Forde",
+       7,
+       12,
+       "c"
+      ],
+      [
+       "Gudakesh Motie",
+       4,
+       4,
        "not out"
       ]
      ],
      "dnb": [
-      "Shai Hope",
-      "Amir Jangoo",
-      "Jewel Andrew",
-      "Roston Chase",
-      "Matthew Forde",
-      "Gudakesh Motie",
       "Alzarri Joseph",
       "Jayden Seales"
      ],
      "bowl": [
       [
        "Ravindra Jadeja",
-       "7",
-       45,
+       "10",
+       54,
        0
       ],
       [
        "Naman Dhir",
-       "3",
-       18,
-       0
-      ],
-      [
-       "Nitish Kumar Reddy",
-       "2",
-       24,
-       0
-      ],
-      [
-       "Kuldeep Yadav",
-       "6",
-       26,
-       1
-      ],
-      [
-       "Gurnoor Brar",
-       "6",
+       "5",
        33,
        0
       ],
       [
-       "Prasidh Krishna",
+       "Nitish Kumar Reddy",
        "5",
-       23,
+       45,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       40,
+       4
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       60,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "10",
+       60,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "217/1 (33.0 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       32,
+       35,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       109,
+       106,
+       "not out"
+      ],
+      [
+       "Virat Kohli",
+       75,
+       57,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ruturaj Gaikwad",
+      "Ravindra Jadeja",
+      "KL Rahul",
+      "Naman Dhir",
+      "Nitish Kumar Reddy",
+      "Kuldeep Yadav",
+      "Gurnoor Brar",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Roston Chase",
+       "9",
+       56,
+       0
+      ],
+      [
+       "Matthew Forde",
+       "5",
+       39,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "7",
+       41,
+       0
+      ],
+      [
+       "Alzarri Joseph",
+       "6",
+       52,
+       1
+      ],
+      [
+       "Jayden Seales",
+       "6",
+       29,
        0
       ]
      ]
@@ -6998,8 +7094,8 @@
    "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.225,
-    0.775
+    0.27,
+    0.73
    ]
   },
   {
@@ -9091,21 +9187,21 @@
      },
      {
       "no": "7",
-      "name": "West Indies",
-      "team": "West Indies",
-      "rating": "75"
-     },
-     {
-      "no": "8",
       "name": "Bangladesh",
       "team": "Bangladesh",
       "rating": "73"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
       "rating": "73"
+     },
+     {
+      "no": "9",
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "72"
      },
      {
       "no": "10",
