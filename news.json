@@ -1,6 +1,26 @@
 {
  "headlines": [
   {
+   "t": "Shreyas Iyer: 'There is rain, but we can't use that as an excuse'",
+   "u": "https://www.cricinfo.com/ci/content/story/1555903.html?ex_cid=OTC-RSS",
+   "d": "Sun, 27 Sep 2026"
+  },
+  {
+   "t": "Rain threat looms over lopsided India vs Afghanistan quarter-final",
+   "u": "https://www.cricinfo.com/ci/content/story/1555862.html?ex_cid=OTC-RSS",
+   "d": "Sun, 27 Sep 2026"
+  },
+  {
+   "t": "Naman Dhir makes his debut, India ask West Indies to bat in ODI series opener",
+   "u": "https://www.cricinfo.com/ci/content/story/1555884.html?ex_cid=OTC-RSS",
+   "d": "Sun, 27 Sep 2026"
+  },
+  {
+   "t": "Kohli has 'unfinished business' at his 'last World Cup' in 2027",
+   "u": "https://www.cricinfo.com/ci/content/story/1555869.html?ex_cid=OTC-RSS",
+   "d": "Sun, 27 Sep 2026"
+  },
+  {
    "t": "India start their final lap for 2027 ODI World Cup without Bumrah, Hardik",
    "u": "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
    "d": "Sat, 26 Sep 2026"
@@ -29,26 +49,6 @@
    "t": "Morkel: Reddy can 'compete for allrounder's spot'",
    "u": "https://www.cricinfo.com/ci/content/story/1555741.html?ex_cid=OTC-RSS",
    "d": "Sat, 26 Sep 2026"
-  },
-  {
-   "t": "'Can't go to the World Cup half-cooked' - Gambhir on Hardik and Bumrah's fitness",
-   "u": "https://www.cricinfo.com/ci/content/story/1555650.html?ex_cid=OTC-RSS",
-   "d": "Fri, 25 Sep 2026"
-  },
-  {
-   "t": "IPL 2027 auction to be held in Goa in December",
-   "u": "https://www.cricinfo.com/ci/content/story/1555498.html?ex_cid=OTC-RSS",
-   "d": "Wed, 23 Sep 2026"
-  },
-  {
-   "t": "Ravindra ruled out of India T20I series after promo shoot injury",
-   "u": "https://www.cricinfo.com/ci/content/story/1555433.html?ex_cid=OTC-RSS",
-   "d": "Wed, 23 Sep 2026"
-  },
-  {
-   "t": "Japan captain Kadowaki-Fleming: 'Emotions running pretty high' after close India contest",
-   "u": "https://www.cricinfo.com/ci/content/story/1555348.html?ex_cid=OTC-RSS",
-   "d": "Tue, 22 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "UdWBnoR0Jxs",
+     "t": "Really want to see Rohit lift the 2027 World Cup: Ajinkya Rahane"
+    },
     {
      "yt": "_gZ0wWTrqAs",
      "t": "Match Forecast: South Africa vs Australia, 2nd ODI"
@@ -75,10 +79,6 @@
     {
      "yt": "9pAX6u_LL1o",
      "t": "Match Forecast: South Africa vs Australia, 1st ODI"
-    },
-    {
-     "yt": "qV8OBFLFhtE",
-     "t": "2026 Asian Games: Do India enter as favourites? Mohammad Kaif answers"
     }
    ]
   },

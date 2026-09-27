@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T05:32:21Z",
+ "updated": "2026-09-27T10:42:42Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6846,9 +6846,9 @@
    "seriesId": "24289",
    "matchNo": "1st ODI",
    "venue": "Greenfield International Stadium, Thiruvananthapuram",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
@@ -6859,12 +6859,114 @@
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
+     "score": "170/1 (29/50 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
-   "india": ""
+   "result": "India won toss & fielded",
+   "india": "",
+   "xi": {
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Ruturaj Gaikwad",
+     "Ravindra Jadeja",
+     "KL Rahul",
+     "Naman Dhir",
+     "Nitish Kumar Reddy",
+     "Kuldeep Yadav",
+     "Gurnoor Brar",
+     "Prasidh Krishna"
+    ],
+    "West Indies": [
+     "John Campbell",
+     "Justin Greaves",
+     "Keacy Carty",
+     "Shai Hope (c)",
+     "Amir Jangoo",
+     "Jewel Andrew",
+     "Roston Chase",
+     "Matthew Forde",
+     "Gudakesh Motie",
+     "Alzarri Joseph",
+     "Jayden Seales"
+    ]
+   },
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "170/1 (29.0 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       62,
+       60,
+       "c"
+      ],
+      [
+       "Justin Greaves",
+       88,
+       88,
+       "not out"
+      ],
+      [
+       "Keacy Carty",
+       11,
+       27,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shai Hope",
+      "Amir Jangoo",
+      "Jewel Andrew",
+      "Roston Chase",
+      "Matthew Forde",
+      "Gudakesh Motie",
+      "Alzarri Joseph",
+      "Jayden Seales"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "7",
+       45,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "3",
+       18,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "2",
+       24,
+       0
+      ],
+      [
+       "Kuldeep Yadav",
+       "6",
+       26,
+       1
+      ],
+      [
+       "Gurnoor Brar",
+       "6",
+       33,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       23,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1552773",
@@ -6893,11 +6995,11 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.23,
-    0.77
+    0.225,
+    0.775
    ]
   },
   {
