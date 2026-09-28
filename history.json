@@ -35365,6 +35365,29 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1552773",
+   "date": "2026-09-28",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of Japan 2026",
+   "matchNo": "2nd Quarter-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "city": "",
+   "teams": [
+    {
+     "name": "Afghanistan",
+     "score": ""
+    },
+    {
+     "name": "India",
+     "score": ""
+    }
+   ],
+   "result": "Starts at 14:00 local time",
+   "india": "nr",
+   "innings": []
   }
  ]
 }

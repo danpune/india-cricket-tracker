@@ -1,13 +1,23 @@
 {
  "headlines": [
   {
-   "t": "Kuldeep reels West Indies in, Gill and Kohli tons knock them out",
-   "u": "https://www.cricinfo.com/ci/content/story/1555973.html?ex_cid=OTC-RSS",
+   "t": "Washout against Afghanistan sends India into semi-finals",
+   "u": "https://www.cricinfo.com/ci/content/story/1556015.html?ex_cid=OTC-RSS",
+   "d": "Mon, 28 Sep 2026"
+  },
+  {
+   "t": "'There is clarity within the team, there is clarity in me' - Prasidh on his growth as a bowler",
+   "u": "https://www.cricinfo.com/ci/content/story/1556001.html?ex_cid=OTC-RSS",
    "d": "Mon, 28 Sep 2026"
   },
   {
    "t": "Kohli determined to 'unlock a new version' of himself",
    "u": "https://www.cricinfo.com/ci/content/story/1555974.html?ex_cid=OTC-RSS",
+   "d": "Mon, 28 Sep 2026"
+  },
+  {
+   "t": "Kuldeep reels West Indies in, Gill and Kohli tons knock them out",
+   "u": "https://www.cricinfo.com/ci/content/story/1555973.html?ex_cid=OTC-RSS",
    "d": "Mon, 28 Sep 2026"
   },
   {
@@ -39,16 +49,6 @@
    "t": "Kohli has 'unfinished business' at his 'last World Cup' in 2027",
    "u": "https://www.cricinfo.com/ci/content/story/1555869.html?ex_cid=OTC-RSS",
    "d": "Sun, 27 Sep 2026"
-  },
-  {
-   "t": "India start their final lap for 2027 ODI World Cup without Bumrah, Hardik",
-   "u": "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
-   "d": "Sat, 26 Sep 2026"
-  },
-  {
-   "t": "Kotak: We have not been 'unfair' to Jaiswal, he needs to 'wait for his opportunity'",
-   "u": "https://www.cricinfo.com/ci/content/story/1555803.html?ex_cid=OTC-RSS",
-   "d": "Sat, 26 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "pFSTPNbNN6w",
+     "t": "Gill\u2019s elegant stroke play, a treat to watch: Dinesh Karthik"
+    },
+    {
+     "yt": "U3zAEOcTOzM",
+     "t": "Will Virat Kohli reach 100 centuries? DK & Rahane answer"
+    },
+    {
+     "yt": "PUXTlfKch-w",
+     "t": "Genius! Giant! G.O.A.T - Dinesh Karthik salutes King Kohli"
+    },
     {
      "yt": "UdWBnoR0Jxs",
      "t": "Really want to see Rohit lift the 2027 World Cup: Ajinkya Rahane"
@@ -67,18 +79,6 @@
     {
      "yt": "fPy712h6Yc4",
      "t": "Match Forecast: India vs West Indies, 1st ODI"
-    },
-    {
-     "yt": "L6QxFq3_K5s",
-     "t": "Preview: India vs West Indies - ODIs"
-    },
-    {
-     "yt": "-irlLSAHGgg",
-     "t": "Virat? Dhoni? Mohit Sharma lists out his \u2018Best of\u2019"
-    },
-    {
-     "yt": "9pAX6u_LL1o",
-     "t": "Match Forecast: South Africa vs Australia, 1st ODI"
     }
    ]
   },

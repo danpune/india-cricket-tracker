@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T03:08:56Z",
+ "updated": "2026-09-28T05:50:19Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6865,35 +6865,6 @@
    ],
    "result": "India won by 8 wkts (50b rem)",
    "india": "won",
-   "seriesNote": "India led the 3-match series 1-0",
-   "xi": {
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Ruturaj Gaikwad",
-     "Ravindra Jadeja",
-     "KL Rahul",
-     "Naman Dhir",
-     "Nitish Kumar Reddy",
-     "Kuldeep Yadav",
-     "Gurnoor Brar",
-     "Prasidh Krishna"
-    ],
-    "West Indies": [
-     "John Campbell",
-     "Justin Greaves",
-     "Keacy Carty",
-     "Shai Hope (c)",
-     "Amir Jangoo",
-     "Jewel Andrew",
-     "Roston Chase",
-     "Matthew Forde",
-     "Gudakesh Motie",
-     "Alzarri Joseph",
-     "Jayden Seales"
-    ]
-   },
    "innings": [
     {
      "t": "West Indies",
@@ -7086,9 +7057,9 @@
    "seriesId": "24746",
    "matchNo": "2nd Quarter-Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Abandoned",
    "teams": [
     {
      "name": "Afghanistan",
@@ -7104,11 +7075,7 @@
     }
    ],
    "result": "Starts at 14:00 local time",
-   "india": "",
-   "o": [
-    0.365,
-    0.635
-   ]
+   "india": "nr"
   },
   {
    "id": "espn_1529228",
@@ -7133,6 +7100,36 @@
     {
      "name": "West Indies",
      "abbr": "WI",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1552777",
+   "eventId": "1552777",
+   "date": "2026-10-01T05:00Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Asian Games Men's Cricket Competition",
+   "seriesId": "22547",
+   "matchNo": "2nd Semi-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "TBA",
+     "abbr": "TBA",
      "score": "",
      "winner": false
     }

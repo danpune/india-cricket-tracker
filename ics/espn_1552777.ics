@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1552777@india-cricket-tracker
+DTSTART:20261001T050000Z
+DTEND:20261001T090000Z
+SUMMARY:India v TBA 🏏 2nd Semi-Final
+LOCATION:Korogi Sports Park  Nisshin
+DESCRIPTION:Asian Games Men's Cricket Competition
+END:VEVENT
+END:VCALENDAR
