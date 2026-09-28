@@ -35162,6 +35162,209 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529227",
+   "date": "2026-09-27",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "1st ODI",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "300/2 (41.4/50 ov, target 296)"
+    },
+    {
+     "name": "West Indies",
+     "score": "295/7"
+    }
+   ],
+   "result": "India won by 8 wkts (50b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "295/7 (50.0 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       62,
+       60,
+       "c"
+      ],
+      [
+       "Justin Greaves",
+       101,
+       108,
+       "lbw"
+      ],
+      [
+       "Keacy Carty",
+       13,
+       31,
+       "c"
+      ],
+      [
+       "Shai Hope",
+       12,
+       11,
+       "c"
+      ],
+      [
+       "Amir Jangoo",
+       58,
+       43,
+       "not out"
+      ],
+      [
+       "Jewel Andrew",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Roston Chase",
+       24,
+       32,
+       "b"
+      ],
+      [
+       "Matthew Forde",
+       7,
+       12,
+       "c"
+      ],
+      [
+       "Gudakesh Motie",
+       4,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Alzarri Joseph",
+      "Jayden Seales"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "10",
+       54,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "5",
+       33,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "5",
+       45,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       40,
+       4
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       60,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "10",
+       60,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "300/2 (41.4 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       32,
+       35,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       110,
+       108,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       139,
+       88,
+       "not out"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       13,
+       19,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ravindra Jadeja",
+      "KL Rahul",
+      "Naman Dhir",
+      "Nitish Kumar Reddy",
+      "Kuldeep Yadav",
+      "Gurnoor Brar",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Keacy Carty",
+       "0.4",
+       17,
+       0
+      ],
+      [
+       "Roston Chase",
+       "10",
+       64,
+       1
+      ],
+      [
+       "Matthew Forde",
+       "5",
+       39,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "10",
+       66,
+       0
+      ],
+      [
+       "Alzarri Joseph",
+       "9",
+       81,
+       1
+      ],
+      [
+       "Jayden Seales",
+       "7",
+       32,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

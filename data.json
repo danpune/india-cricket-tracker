@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T15:19:36Z",
+ "updated": "2026-09-28T03:08:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6846,15 +6846,15 @@
    "seriesId": "24289",
    "matchNo": "1st ODI",
    "venue": "Greenfield International Stadium, Thiruvananthapuram",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Drinks",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "217/1 (33/50 ov, target 296)",
-     "winner": false
+     "score": "300/2 (41.4/50 ov, target 296)",
+     "winner": true
     },
     {
      "name": "West Indies",
@@ -6863,8 +6863,9 @@
      "winner": false
     }
    ],
-   "result": "India require 79 runs",
-   "india": "",
+   "result": "India won by 8 wkts (50b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 1-0",
    "xi": {
     "India": [
      "Rohit Sharma",
@@ -6998,7 +6999,7 @@
     },
     {
      "t": "India",
-     "total": "217/1 (33.0 ov)",
+     "total": "300/2 (41.4 ov)",
      "bat": [
       [
        "Rohit Sharma",
@@ -7008,19 +7009,24 @@
       ],
       [
        "Shubman Gill",
-       109,
-       106,
-       "not out"
+       110,
+       108,
+       "c"
       ],
       [
        "Virat Kohli",
-       75,
-       57,
+       139,
+       88,
+       "not out"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       13,
+       19,
        "not out"
       ]
      ],
      "dnb": [
-      "Ruturaj Gaikwad",
       "Ravindra Jadeja",
       "KL Rahul",
       "Naman Dhir",
@@ -7031,10 +7037,16 @@
      ],
      "bowl": [
       [
-       "Roston Chase",
-       "9",
-       56,
+       "Keacy Carty",
+       "0.4",
+       17,
        0
+      ],
+      [
+       "Roston Chase",
+       "10",
+       64,
+       1
       ],
       [
        "Matthew Forde",
@@ -7044,20 +7056,20 @@
       ],
       [
        "Gudakesh Motie",
-       "7",
-       41,
+       "10",
+       66,
        0
       ],
       [
        "Alzarri Joseph",
-       "6",
-       52,
+       "9",
+       81,
        1
       ],
       [
        "Jayden Seales",
-       "6",
-       29,
+       "7",
+       32,
        0
       ]
      ]
@@ -7094,8 +7106,8 @@
    "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.27,
-    0.73
+    0.365,
+    0.635
    ]
   },
   {
@@ -8574,6 +8586,11 @@
    "id": "24746",
    "name": "India tour of Japan 2026",
    "gender": "men"
+  },
+  {
+   "id": "22547",
+   "name": "Asian Games Men's Cricket Competition",
+   "gender": "men"
   }
  ],
  "rankings": {
@@ -8773,7 +8790,7 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "116"
+      "rating": "117"
      },
      {
       "no": "2",
@@ -8785,31 +8802,31 @@
       "no": "3",
       "name": "South Africa",
       "team": "South Africa",
-      "rating": "105"
+      "rating": "106"
      },
      {
       "no": "4",
-      "name": "Australia",
-      "team": "Australia",
-      "rating": "102"
-     },
-     {
-      "no": "5",
       "name": "Pakistan",
       "team": "Pakistan",
       "rating": "100"
      },
      {
+      "no": "5",
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "100"
+     },
+     {
       "no": "6",
-      "name": "Sri Lanka",
-      "team": "Sri Lanka",
-      "rating": "96"
+      "name": "England",
+      "team": "England",
+      "rating": "95"
      },
      {
       "no": "7",
-      "name": "England",
-      "team": "England",
-      "rating": "94"
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
+      "rating": "95"
      },
      {
       "no": "8",
@@ -9544,7 +9561,8 @@
    "24725": "women",
    "24677": "men",
    "22546": "women",
-   "24746": "men"
+   "24746": "men",
+   "22547": "men"
   }
  }
 }
