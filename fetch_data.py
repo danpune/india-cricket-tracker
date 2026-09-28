@@ -534,6 +534,11 @@ def main():
     hist_ids = {m["id"] for m in history["matches"]}
 
     matches, series_meta = [], []
+    # ESPN files one match under several series — the Asian Games India v Afghanistan
+    # tie is in both 'Asian Games Men's Cricket Competition' and 'India tour of Japan
+    # 2026'. Two copies of one match is a duplicate id, which the self-check rejects,
+    # so the whole run stops publishing. First series to carry it keeps it.
+    claimed = {}
     for sid, gender in known.items():
         try:
             board = get(f"{BASE}/{sid}/scoreboard")
@@ -568,9 +573,10 @@ def main():
                 continue
         for e in events:
             # some dates return a bare {} event
-            if "id" not in e or e["id"] in seen or not is_india_match(e):
+            if "id" not in e or e["id"] in seen or e["id"] in claimed or not is_india_match(e):
                 continue
             seen.add(e["id"])
+            claimed[e["id"]] = sid
             m = parse_event(e, name, sid, gender)
             # summary call only where it adds something: finals need the result
             # sentence, live/today matches need XIs and the series note
