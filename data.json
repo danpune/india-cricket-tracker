@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T05:50:19Z",
+ "updated": "2026-09-28T12:46:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7074,8 +7074,42 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
-   "india": "nr"
+   "result": "Match abandoned without a ball bowled",
+   "india": "nr",
+   "seriesNote": "India advanced",
+   "xi": {
+    "Afghanistan": [
+     "Abdollah Ahmadzai",
+     "Arab Gul",
+     "Darwish Rasooli (c)",
+     "Faisal Khan Ahmadzai",
+     "Faridoon Dawoodzai",
+     "Farmanullah",
+     "Hassan Eisakhil",
+     "Imran Mir",
+     "Ismat Alam",
+     "Karim Janat",
+     "Mohammad Akram",
+     "Mohammad Ishaq",
+     "Najibullah Zadran",
+     "Nangeyalia Khan"
+    ],
+    "India": [
+     "Abhishek Sharma",
+     "Arshdeep Singh",
+     "Jasprit Bumrah",
+     "Shivam Dube",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Axar Patel",
+     "Ravi Bishnoi",
+     "Sanju Samson",
+     "Vaibhav Sooryavanshi",
+     "Yash Thakur",
+     "Tilak Varma",
+     "Washington Sundar"
+    ]
+   }
   },
   {
    "id": "espn_1529228",
