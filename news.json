@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "iW03u8ilAmA",
+     "t": "ODI Cricket Is DYING! How to save it? DK & Rahane answer"
+    },
+    {
      "yt": "bhqwgH9cB7M",
      "t": "From a brash youngster to a calm soul - DK decodes Kohli 2.0"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "UdWBnoR0Jxs",
      "t": "Really want to see Rohit lift the 2027 World Cup: Ajinkya Rahane"
-    },
-    {
-     "yt": "_gZ0wWTrqAs",
-     "t": "Match Forecast: South Africa vs Australia, 2nd ODI"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-09-29T01:28:51Z"
+ "updated": "2026-09-29T05:41:10Z"
 }
