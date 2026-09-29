@@ -260,6 +260,19 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 /* ⭐ rows now name BOTH sides ("East Zone vs South Zone"), which does not fit the
    shared nowrap row on a phone — same fix as the domestic strip above. */
 .sec-follow .mrow .mid .sub{white-space:normal;overflow:visible}
+/* knockout bracket */
+.brk-round{padding:8px 14px 4px;font-size:11px;font-weight:800;letter-spacing:.7px;
+  text-transform:uppercase;color:var(--muted);background:color-mix(in srgb,var(--blue) 4%,var(--card));
+  border-top:1px solid var(--line)}
+.brk-tie{display:flex;gap:10px;padding:8px 14px;border-top:1px solid var(--line);align-items:center}
+.brk-tie .sides{flex:1;min-width:0;font-size:13px}
+.brk-tie .side{display:flex;justify-content:space-between;gap:10px;line-height:1.5}
+.brk-tie .side.won{font-weight:800}
+.brk-tie .side.out{color:var(--muted)}
+.brk-tie .side .sc{font-variant-numeric:tabular-nums;font-size:12px;text-align:right;flex:none}
+.brk-tie.ind{border-left:3px solid var(--saffron)}
+.brk-tie .when{width:58px;flex:none;font-size:11.5px;color:var(--muted)}
+.brk-note{padding:9px 14px 12px;font-size:12px;color:var(--muted)}
 .tldr{padding:10px 14px;font-size:12.5px;line-height:1.5;border-top:1px solid var(--line)}
 .tldr b{color:var(--chakra)}
 .sec-dom .mrow .right{max-width:34%}
@@ -282,11 +295,15 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
   header .wrap{max-width:1200px}
   body{font-size:16px}
   #app{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;
-    grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
+    grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "brk up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news";align-items:start}
   .sec-dom{grid-area:dom}
-  /* no strip ⇒ drop its row, or the tall right column donates slack to a gap */
-  #app:not(:has(.sec-dom)){grid-template-areas:"stale stale" "hero hero" "form form"
-    "tour up" "rank up" "wtc up" "follow up" "season season" "news news"}
+  .sec-brk{grid-area:brk}
+  /* Both the bracket and the domestic strip come and go, and a named row that nothing
+     occupies still takes slack from the tall right column — a visible gap. Four
+     combinations, spelled out, because grid-template-areas cannot be composed. */
+  #app:not(:has(.sec-dom)){grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "brk up" "rank up" "wtc up" "follow up" "season season" "news news"}
+  #app:not(:has(.sec-brk)){grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "dom up" "rank up" "wtc up" "follow up" "season season" "news news"}
+  #app:not(:has(.sec-dom)):not(:has(.sec-brk)){grid-template-areas:"stale stale" "hero hero" "form form" "tour up" "rank up" "wtc up" "follow up" "season season" "news news"}
   .sec-wtc{grid-area:wtc}
   .sec-form{grid-area:form}
   .sec-follow{grid-area:follow}
@@ -802,6 +819,69 @@ function domesticHTML(live,next){
     '</div></section>';
 }
 
+/* ---------- knockout bracket ----------
+   data.json carries only India's own fixtures, so "India play the semi-final" could never
+   say who is waiting in the other half or who they beat to get there. fetch_bracket()
+   sweeps the whole draw; this draws it. Generic on purpose — the Asian Games is the first
+   user, the next T20 World Cup or Asia Cup is the same shape. */
+function bracketHTML(){
+  var b=(DATA.bracket||{})[GENDER];
+  if(!b||!b.matches||!b.matches.length)return '';
+  var ms=b.matches, last=ms[ms.length-1];
+  /* gone from the page a week after the final — a finished draw is history, not news */
+  if(ms.every(function(m){return m.state==='post';})&&
+     Date.now()-Date.parse(last.date)>7*864e5)return '';
+  var isInd=function(t){return /^India( Women)?$/.test(t.name);};
+  /* a washed-out tie has no winner flag — ESPN's "X advanced" note is the authority */
+  var advancer=function(m){
+    if(!m.advanced)return null;
+    return m.teams.filter(function(t){return m.advanced.indexOf(t.name)===0;})[0]||null;
+  };
+  var through=function(m,t){var w=m.teams.filter(function(x){return x.winner;})[0]||advancer(m);
+    return w?w===t:null;};
+  var mine=ms.filter(function(m){return m.teams.some(isInd);});
+
+  /* status line: won it / knocked out / next up — all read off the draw, never guessed */
+  var head='';
+  var fin=ms.filter(function(m){return /^Final$/i.test(m.round);})[0];
+  var nextMine=mine.filter(function(m){return m.state!=='post';})[0];
+  if(fin&&fin.state==='post'&&fin.teams.some(isInd)){
+    var w=fin.teams.filter(function(t){return t.winner;})[0]||advancer(fin);
+    head=w&&isInd(w)?'🥇 <b>Champions.</b>':'🥈 Runners-up.';
+  }else if(nextMine){
+    var opp=nextMine.teams.filter(function(t){return !isInd(t);})[0];
+    head='Next: <b>'+esc(nextMine.round)+'</b> · '+esc(dstr(nextMine.date,true))+
+         (opp&&!/^TBA$/i.test(opp.name)?' v <b>'+esc(norm(opp.name))+'</b>':'');
+  }else if(mine.length){
+    var lastMine=mine[mine.length-1];
+    var lw=lastMine.teams.filter(function(t){return t.winner;})[0]||advancer(lastMine);
+    head=lw&&!isInd(lw)?'Knocked out in the '+esc(lastMine.round)+'.':
+         'Last out: '+esc(lastMine.round)+'.';
+  }
+
+  var out='',round='';
+  ms.forEach(function(m){
+    if(m.round!==round){round=m.round;out+='<div class="brk-round">'+esc(round)+'</div>';}
+    var done=m.state==='post', decided=m.teams.some(function(t){return t.winner;})||!!advancer(m);
+    out+='<div class="brk-tie'+(m.teams.some(isInd)?' ind':'')+'">'+
+      '<div class="when">'+esc(istDate(m.date))+'</div><div class="sides">'+
+      m.teams.map(function(t){
+        var cls=done&&decided?(through(m,t)?' won':' out'):'';
+        return '<div class="side'+cls+'"><span>'+(/^TBA$/i.test(t.name)?'<i>TBA</i>':esc(norm(t.name)))+
+          '</span><span class="sc">'+esc((t.score||'').replace(/\s*\(.*$/,''))+'</span></div>';
+      }).join('')+'</div></div>';
+    /* say WHY a tie has no score — every 2026 Asian Games quarter-final was washed out
+       and decided on seeding, which a blank row would silently misrepresent */
+    if(done&&!m.teams.some(function(t){return t.score;}))
+      out+='<div class="brk-note">'+esc(m.detail||'')+
+        (m.advanced?' · <b>'+esc(m.advanced)+'</b>':'')+'</div>';
+  });
+  return '<section id="bracket" class="sec-brk"><h2>🏟 '+esc(b.name)+'</h2><div class="card">'+
+    (head?'<div class="tldr">'+head+'</div>':'')+out+
+    '<div class="brk-note">Every tie in the draw, not just India\u2019s — scores from the ESPN feed.</div>'+
+    '</div></section>';
+}
+
 /* ---------- news & talk ---------- */
 function newsHTML(){
   var hs=NEWS.headlines||[], talk=NEWS.talk||[];
@@ -1057,13 +1137,14 @@ function render(){
   var endMs=lastPost?Date.parse(lastPost.date)+(lastPost.format==='Test'?5*86400000:0):0;
   var fresh=lastPost&&Date.now()-endMs<48*3600000?lastPost:null;
   var hero=live||fresh||next||lastPost;
-  var domHTML=domesticHTML(live,next);
+  var domHTML=domesticHTML(live,next), brkHTML=bracketHTML();
   document.getElementById('jump').innerHTML='<nav class="subnav">'+
-    [['now','Now'],['form','Form'],['tour','Tour'],['domestic','Domestic'],
+    [['now','Now'],['form','Form'],['tour','Tour'],['bracket','Bracket'],['domestic','Domestic'],
      ['rank','Rankings'],['wtc','WTC'],
      ['follow','⭐','Following'],['schedule','Schedule'],['results','Results']]
     .filter(function(x){ /* WTC and ⭐ render for men only — don't advertise dead anchors */
       if(x[0]==='domestic')return !!domHTML;
+      if(x[0]==='bracket')return !!brkHTML;
       return GENDER==='men'||(x[0]!=='wtc'&&x[0]!=='follow');})
     .map(function(x){return '<a href="#'+x[0]+'"'+(x[2]?' aria-label="'+x[2]+'"':'')+'>'+x[1]+'</a>';})
     .join('')+'</nav>';
@@ -1087,6 +1168,7 @@ function render(){
     }
   }
 
+  h+=brkHTML;
   h+=domHTML;
   h+=rankingsHTML();
   h+=wtcSectionHTML(hist);

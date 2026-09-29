@@ -108,6 +108,22 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
   real feed periodically — ESPN's UA rules already changed once.
 
+## Knockout bracket
+- `fetch_bracket()` → `data.json.bracket.{men,women}`. Triggered by a knockout `matchNo`
+  on any India match, then sweeps THAT league's whole calendar — data.json otherwise
+  carries only India's fixtures, so the page could say "India play the semi-final" and
+  never say who was waiting in the other half.
+- TRAP: a washed-out knockout tie has NO winner flag and NO score on either side. Every
+  2026 Asian Games quarter-final was abandoned without a ball bowled and decided on
+  SEEDING — the bracket would have shown four blank ties and then semi-finalists from
+  nowhere. ESPN's own `notes[]` carries "X advanced"; that is the authority, so a summary
+  call is made only for finished ties with no winner (4 calls, not 8).
+- `bracketHTML()` hides the section a week after the final. Generic on purpose: the Asian
+  Games is the first user, a T20 World Cup or Asia Cup is the same shape.
+- The desktop grid spells out FOUR `grid-template-areas` (bracket × domestic, present or
+  not). An unoccupied named row still takes slack from the tall right column and shows as
+  a gap, and grid-template-areas cannot be composed.
+
 ## One match, two series
 - ESPN files a match under EVERY series that carries it — the Asian Games India v
   Afghanistan QF is in both `Asian Games Men's Cricket Competition` and `India tour of

@@ -282,6 +282,75 @@ def fetch_domestic(now):
     return out
 
 
+KNOCKOUT = re.compile(r"(quarter-final|semi-final|3rd place|final)\b", re.I)
+
+
+def fetch_bracket(matches, now):
+    """The FULL knockout draw of a competition India is in, per gender.
+
+    data.json only ever carries India's own fixtures, so it can say India play the
+    semi-final and still not say who is waiting in the other half, or who India beat to
+    get there. A bracket needs the whole draw, so this sweeps the league's calendar.
+
+    Fail-safe: any error just omits that gender.
+    """
+    out = {}
+    for gender in ("men", "women"):
+        ko = [m for m in matches
+              if m["gender"] == gender and KNOCKOUT.search(m.get("matchNo") or "")]
+        if not ko:
+            continue
+        sid = max(ko, key=lambda m: m["date"])["seriesId"]
+        try:
+            board = get(f"{BASE}/{sid}/scoreboard")
+            league = board["leagues"][0]
+            cal = [c[:10] for c in league.get("calendar", [])]
+            rounds = []
+            for d in cal:
+                for e in get(f"{BASE}/{sid}/scoreboard"
+                             f"?dates={d.replace('-', '')}").get("events", []):
+                    if "id" not in e:
+                        continue
+                    c = e["competitions"][0]
+                    desc = c.get("description", "")
+                    if not KNOCKOUT.search(desc):
+                        continue            # group games belong to the table, not the draw
+                    st = e["status"]["type"]
+                    tie = {
+                        "id": e["id"], "date": e["date"], "round": desc,
+                        "state": st.get("state", "pre"),
+                        "detail": st.get("description") or st.get("detail", ""),
+                        "teams": [{"name": t["team"]["displayName"],
+                                   "abbr": t["team"].get("abbreviation", ""),
+                                   "score": t.get("score") or "",
+                                   "winner": str(t.get("winner", "")).lower() == "true"}
+                                  for t in c["competitors"]],
+                    }
+                    # A washed-out knockout tie has NO winner flag and NO score — every
+                    # 2026 Asian Games quarter-final was abandoned without a ball bowled
+                    # and decided on seeding. Without ESPN's own "X advanced" note the
+                    # bracket shows four blank ties and then semi-finalists from nowhere.
+                    if tie["state"] == "post" and not any(t["winner"] for t in tie["teams"]):
+                        try:
+                            sm = get(f"{BASE}/{sid}/summary?event={e['id']}")
+                            hc = (sm.get("header", {}).get("competitions") or [{}])[0]
+                            tie["detail"] = (hc.get("status", {}) or {}).get("summary") or tie["detail"]
+                            note = next((n.get("text", "") for n in (sm.get("notes") or [])
+                                         if " advanced" in n.get("text", "")), "")
+                            if note:
+                                tie["advanced"] = note
+                        except Exception:
+                            pass
+                    rounds.append(tie)
+            if rounds:
+                rounds.sort(key=lambda r: r["date"])
+                out[gender] = {"name": league.get("name", ""), "leagueId": sid,
+                               "matches": rounds}
+        except Exception:
+            continue
+    return out
+
+
 def stamp_odds(matches, now):
     """Polymarket win prices onto upcoming matches (same approach as the tennis
     tracker). Only unambiguous two-way winner markets: the main event (title has
@@ -663,6 +732,7 @@ def main():
     stamp_odds(matches, now)
     write_ics(matches)
     domestic = fetch_domestic(now)
+    bracket = fetch_bracket(matches, now)
 
     rankings = fetch_rankings()
     if rankings is None:
@@ -682,6 +752,7 @@ def main():
             # claiming a finished tournament is "where the players are". One
             # missed cycle is invisible; a month of wrong text is not.
             "domestic": domestic,
+            "bracket": bracket,
             "meta": {"discovered": all_discovered},
         }, f, indent=1)
     print(f"data.json: {len(matches)} matches across {len(series_meta)} series; history +{added}")
