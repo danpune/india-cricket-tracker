@@ -273,6 +273,10 @@ table.wtab{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-num
 .brk-tie.ind{border-left:3px solid var(--saffron)}
 .brk-tie .when{width:58px;flex:none;font-size:11.5px;color:var(--muted)}
 .brk-note{padding:9px 14px 12px;font-size:12px;color:var(--muted)}
+.grp{padding:4px 14px 12px}
+.grp h3{margin:10px 0 4px;font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted)}
+@media(min-width:560px){.grp.two{display:grid;grid-template-columns:1fr 1fr;column-gap:20px}
+  .grp.two h3:first-child{margin-top:0}}
 .tldr{padding:10px 14px;font-size:12.5px;line-height:1.5;border-top:1px solid var(--line)}
 .tldr b{color:var(--chakra)}
 .sec-dom .mrow .right{max-width:34%}
@@ -876,9 +880,33 @@ function bracketHTML(){
       out+='<div class="brk-note">'+esc(m.detail||'')+
         (m.advanced?' · <b>'+esc(m.advanced)+'</b>':'')+'</div>';
   });
+  /* Group tables, where a group stage was actually played. India Men are in NEITHER
+     2026 Asian Games group — the top seeds skip straight to the quarter-finals — so say
+     that, or the tables read as a bug rather than as the format. */
+  var grps=b.groups||[], gout='';
+  if(grps.length){
+    var inGroup=grps.some(function(t){return t.rows.some(function(r){
+      return /^India( Women)?$/.test(r.team);});});
+    gout='<div class="brk-round">Group stage</div><div class="grp'+(grps.length===2?' two':'')+'">';
+    grps.forEach(function(t){
+      gout+='<div><h3>'+esc(t.name)+'</h3><table class="wtab">'+
+        '<tr><th></th><th>Team</th><th>P</th><th>W</th><th>L</th><th>NR</th><th>Pts</th><th>NRR</th></tr>';
+      t.rows.forEach(function(r,i){
+        var me=/^India( Women)?$/.test(r.team);
+        gout+='<tr'+(me?' class="me"':'')+'><td class="wr">'+(i+1)+'</td><td class="wt">'+
+          esc(norm(r.team))+'</td><td>'+esc(r.p)+'</td><td>'+esc(r.w)+'</td><td>'+esc(r.l)+
+          '</td><td>'+esc(r.nr)+'</td><td class="wp"><b>'+esc(r.pts)+'</b></td><td>'+
+          esc(r.nrr||'—')+'</td></tr>';
+      });
+      gout+='</table></div>';
+    });
+    gout+='</div>';
+    if(!inGroup)gout+='<div class="brk-note">India entered at the quarter-final stage — '+
+      'the group stage decided the other four places.</div>';
+  }
   return '<section id="bracket" class="sec-brk"><h2>🏟 '+esc(b.name)+'</h2><div class="card">'+
-    (head?'<div class="tldr">'+head+'</div>':'')+out+
-    '<div class="brk-note">Every tie in the draw, not just India\u2019s — scores from the ESPN feed.</div>'+
+    (head?'<div class="tldr">'+head+'</div>':'')+out+gout+
+    '<div class="brk-note">Every tie in the draw, not just India\u2019s — scores and tables from the ESPN feed.</div>'+
     '</div></section>';
 }
 

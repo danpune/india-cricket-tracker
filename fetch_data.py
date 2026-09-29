@@ -285,6 +285,36 @@ def fetch_domestic(now):
 KNOCKOUT = re.compile(r"(quarter-final|semi-final|3rd place|final)\b", re.I)
 
 
+def group_tables(sid, eid):
+    """Group standings for a tournament, from the same summary payload the bracket uses.
+
+    ONLY groups that have actually been played. ESPN also returns an "Overall Standings"
+    child that is just the participant list with every figure zero — the 2026 women's
+    event, a pure knockout, returns all eight teams at P0 W0 L0. Rendering that would
+    show a finished tournament India WON as an untouched table.
+    """
+    try:
+        sm = get(f"{BASE}/{sid}/summary?event={eid}")
+    except Exception:
+        return []
+    tables = []
+    for child in (sm.get("standings") or {}).get("children", []):
+        rows = []
+        for ent in (child.get("standings") or {}).get("entries", []):
+            st = {x.get("name"): x.get("displayValue") for x in ent.get("stats", [])}
+            rows.append({
+                "team": ent.get("team", {}).get("displayName", ""),
+                "abbr": ent.get("team", {}).get("abbreviation", ""),
+                "p": st.get("matchesPlayed", "0"), "w": st.get("matchesWon", "0"),
+                "l": st.get("matchesLost", "0"), "nr": st.get("noresult", "0"),
+                "pts": st.get("matchPoints", "0"), "nrr": st.get("netrr") or "",
+            })
+        if not any((r["p"] or "0").strip() not in ("", "0") for r in rows):
+            continue                       # nothing played — a participant list, not a table
+        tables.append({"name": child.get("name") or "Standings", "rows": rows})
+    return tables
+
+
 def fetch_bracket(matches, now):
     """The FULL knockout draw of a competition India is in, per gender.
 
@@ -345,7 +375,7 @@ def fetch_bracket(matches, now):
             if rounds:
                 rounds.sort(key=lambda r: r["date"])
                 out[gender] = {"name": league.get("name", ""), "leagueId": sid,
-                               "matches": rounds}
+                               "matches": rounds, "groups": group_tables(sid, rounds[0]["id"])}
         except Exception:
             continue
     return out

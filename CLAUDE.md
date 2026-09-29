@@ -120,6 +120,13 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   call is made only for finished ties with no winner (4 calls, not 8).
 - `bracketHTML()` hides the section a week after the final. Generic on purpose: the Asian
   Games is the first user, a T20 World Cup or Asia Cup is the same shape.
+- Group tables come from `standings.children[]` in that SAME summary payload (`group_tables`).
+  TRAP: ESPN also returns an "Overall Standings" child that is just the participant list
+  with every figure zero — the 2026 women's event, a pure knockout, returns all eight
+  teams at P0 W0 L0. Rendering that would show a tournament India WON as an untouched
+  table, so only groups with a played match are kept.
+- India Men are in NEITHER 2026 Asian Games group: the top seeds skip to the quarter-finals.
+  The section says so, because otherwise the tables look like a bug rather than the format.
 - The desktop grid spells out FOUR `grid-template-areas` (bracket × domestic, present or
   not). An unoccupied named row still takes slack from the tall right column and shows as
   a gap, and grid-template-areas cannot be composed.
