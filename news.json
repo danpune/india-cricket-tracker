@@ -1,13 +1,18 @@
 {
  "headlines": [
   {
-   "t": "Shree Charani stays No. 1 T20I bowler, breaks all-time record for rating points",
-   "u": "https://www.cricinfo.com/ci/content/story/1556100.html?ex_cid=OTC-RSS",
+   "t": "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
+   "u": "https://www.cricinfo.com/ci/content/story/1556106.html?ex_cid=OTC-RSS",
    "d": "Tue, 29 Sep 2026"
   },
   {
-   "t": "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
-   "u": "https://www.cricinfo.com/ci/content/story/1556106.html?ex_cid=OTC-RSS",
+   "t": "Jadeja or Axar? India to make 'utility' decision ahead of 2027 World Cup",
+   "u": "https://www.cricinfo.com/ci/content/story/1556124.html?ex_cid=OTC-RSS",
+   "d": "Tue, 29 Sep 2026"
+  },
+  {
+   "t": "Shree Charani stays No. 1 T20I bowler, breaks all-time record for rating points",
+   "u": "https://www.cricinfo.com/ci/content/story/1556100.html?ex_cid=OTC-RSS",
    "d": "Tue, 29 Sep 2026"
   },
   {
@@ -44,11 +49,6 @@
    "t": "Om five-for bowls Australia Under-19 out for 217 despite Cattle century",
    "u": "https://www.cricinfo.com/ci/content/story/1555921.html?ex_cid=OTC-RSS",
    "d": "Sun, 27 Sep 2026"
-  },
-  {
-   "t": "Shreyas Iyer: 'There is rain, but we can't use that as an excuse'",
-   "u": "https://www.cricinfo.com/ci/content/story/1555903.html?ex_cid=OTC-RSS",
-   "d": "Sun, 27 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "Iz5hIkf0h4s",
+     "t": "Match Forecast: South Africa vs Australia, 3rd ODI"
+    },
+    {
+     "yt": "M5n-NOtkVj8",
+     "t": "Match Forecast: India vs West Indies, 2nd ODI"
+    },
+    {
+     "yt": "M2FV5QFWSiQ",
+     "t": "Preview: India vs West Indies - 2nd ODI"
+    },
     {
      "yt": "iW03u8ilAmA",
      "t": "ODI Cricket Is DYING! How to save it? DK & Rahane answer"
@@ -67,18 +79,6 @@
     {
      "yt": "pFSTPNbNN6w",
      "t": "Gill\u2019s elegant stroke play, a treat to watch: Dinesh Karthik"
-    },
-    {
-     "yt": "U3zAEOcTOzM",
-     "t": "Will Virat Kohli reach 100 centuries? DK & Rahane answer"
-    },
-    {
-     "yt": "PUXTlfKch-w",
-     "t": "Genius! Giant! G.O.A.T - Dinesh Karthik salutes King Kohli"
-    },
-    {
-     "yt": "UdWBnoR0Jxs",
-     "t": "Really want to see Rohit lift the 2027 World Cup: Ajinkya Rahane"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-09-29T11:35:38Z"
+ "updated": "2026-09-29T17:01:01Z"
 }
