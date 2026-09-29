@@ -542,7 +542,10 @@ function heroHTML(m){
   if(m.state!=='post'){var w=watchHTML(m);if(w)h+='<div class="when watch">'+w+'</div>';}
   if(m.seriesNote)h+='<div class="when">'+esc(m.seriesNote)+'</div>';
   if(m.xi){
-    h+='<details><summary>Playing XIs</summary><div class="xi-grid">';
+    /* "Playing XIs" overclaims when nobody played: the abandoned Asian Games QF lists
+       13 named for India, and no XI ever took the field. Call it what it is. */
+    var played=(m.innings||[]).length>0;
+    h+='<details><summary>'+(played?'Playing XIs':'Named squads')+'</summary><div class="xi-grid">';
     Object.keys(m.xi).forEach(function(team){
       h+='<div><h4>'+flag(team)+' '+esc(norm(team))+'</h4><ol>'+
          m.xi[team].map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ol></div>';
