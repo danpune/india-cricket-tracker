@@ -25608,7 +25608,7 @@
    "date": "2026-04-27",
    "gender": "women",
    "format": "T20I",
-   "series": "India Women tour of South Africa",
+   "series": "India Women tour of South Africa 2026",
    "matchNo": "5th T20I",
    "venue": "Willowmoore Park, Benoni",
    "city": "Benoni",
@@ -28619,7 +28619,7 @@
    "date": "2026-06-28",
    "gender": "men",
    "format": "T20I",
-   "series": "India tour of Ireland",
+   "series": "India tour of Ireland 2026",
    "matchNo": "2nd T20I",
    "venue": "Civil Service Cricket Club, Stormont, Belfast",
    "city": "Belfast",
@@ -35371,7 +35371,7 @@
    "date": "2026-09-28",
    "gender": "men",
    "format": "T20I",
-   "series": "India tour of Japan 2026",
+   "series": "Asian Games Men's Cricket Competition",
    "matchNo": "2nd Quarter-Final",
    "venue": "Korogi Sports Park, Nisshin",
    "city": "",
@@ -35385,7 +35385,7 @@
      "score": ""
     }
    ],
-   "result": "Starts at 14:00 local time",
+   "result": "Match abandoned without a ball bowled",
    "india": "nr",
    "innings": []
   }

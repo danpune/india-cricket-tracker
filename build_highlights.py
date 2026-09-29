@@ -103,6 +103,18 @@ def official(video_id, handle):
         f"https://www.youtube.com/{handle}".lower()
 
 
+def bcci_url_alive(url):
+    """bcci.tv rotates its video slugs; a stale one 302s to the generic /videos listing.
+    A link that promises one match's highlights and delivers a catalogue is worse than
+    no link, so check where it actually lands before storing it."""
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return "/videos?" not in r.geturl() and r.geturl().rstrip("/") != "https://www.bcci.tv"
+    except Exception:
+        return False
+
+
 def bcci_slugs(path):
     """data-videoslug entries ("5569764/ind-vs-afg-2026-3rd-odi-match-highlights?tag...")."""
     html = fetch(f"https://www.bcci.tv{path}")
@@ -194,7 +206,11 @@ def main():
                     cache[listing] = []
             for slug in cache[listing]:
                 if bcci_slug_matches(slug, m):
-                    hl[m["id"]] = {"url": f"https://www.bcci.tv{listing}/{slug}", "title": slug}
+                    url = f"https://www.bcci.tv{listing}/{slug}"
+                    if not bcci_url_alive(url):
+                        print(f"  {m['matchNo']} bcci slug no longer resolves — skipping", file=sys.stderr)
+                        continue
+                    hl[m["id"]] = {"url": url, "title": slug}
                     added += 1
                     print(f"  {m['matchNo']} {m['series'][:30]} -> bcci.tv | {slug[:55]}")
                     break

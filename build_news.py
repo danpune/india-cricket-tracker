@@ -11,6 +11,7 @@ Fully rebuilt each run; fail-safe per source (a dead source keeps its previous
 section). Runs in CI with `|| true`.
 """
 import json
+from datetime import datetime, timezone
 import os
 import sys
 import xml.etree.ElementTree as ET
@@ -67,6 +68,9 @@ def main():
     if talk:
         doc["talk"] = talk
     with open(OUT, "w") as f:
+        # without this a failed build leaves yesterday's clips on the page with nothing
+        # on screen to say so — the headlines carry their own dates, the videos do not
+        doc["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         json.dump(doc, f, indent=1)
     print(f"news.json: {len(doc['headlines'])} headlines, "
           f"{sum(len(s['videos']) for s in doc['talk'])} videos from {len(doc['talk'])} channels")

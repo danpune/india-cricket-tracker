@@ -108,6 +108,26 @@ Sibling of `~/grandslams` (tennis) and `~/worldcup2026` — same playbook, delib
   shows the as-of date, so staleness is visible rather than disguised. Re-probe for a
   real feed periodically — ESPN's UA rules already changed once.
 
+## One match, two series
+- ESPN files a match under EVERY series that carries it — the Asian Games India v
+  Afghanistan QF is in both `Asian Games Men's Cricket Competition` and `India tour of
+  Japan 2026`. Exactly one must own it or the duplicate-id self-check stops the run.
+- The owner is the MULTI-TEAM COMPETITION, never the bilateral tour (`" tour of "` in the
+  name loses). "First series to carry it wins" was dict order, which filed a quarter-final
+  under a two-match friendly, stripped the Asian Games context from the hero and Current
+  Tour, and split one series into two blocks in Results.
+- history.json stores the series name, so the repair also rewrites `rec["series"]` when
+  ownership changes — Results groups by the STORED name.
+
+## "post" does not mean played
+- ESPN's Asian Games feed reports `state: "post"` / `"Final"` on matches that have not
+  been played, handing back the PRE-MATCH line as the status. `NOT_A_RESULT` rejects
+  those sentences at the append, and repairs any that got in — one did: the 28 Sep QF sat
+  in append-only history as `"result": "Starts at 14:00 local time"`, rendered on the page
+  as the result of a finished match, and nothing would ever have corrected it.
+- Never assume a stored history value is right just because history is the memory. The
+  `if rec:` branch prefers the stored copy, so a bad value there is permanent by default.
+
 ## Live poller
 - `pollLive()` polls `?dates=` — and ESPN files an event under the VENUE's day, not the
   UTC day. The Nov 2026 NZ Tests start 22:00Z, i.e. the NEXT day in New Zealand:

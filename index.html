@@ -653,8 +653,11 @@ function compTotals(apps,comp){
   return '<b>'+runs+'</b> runs in '+inns.length+' inning'+(inns.length>1?'s':'')+
          ', best '+hs+(wkts?' · '+wkts+' wkt'+(wkts>1?'s':''):'');
 }
-function followSummary(apps,live){
+function followSummary(apps,live,squad){
   var dom=(DATA.domestic||{})[GENDER]||null;
+  /* named in an XI within the last 4 days = still away with the squad. Says where he is,
+     never that he will play the next one — selection is not ours to predict. */
+  var withSquad=squad&&Date.now()-Date.parse(squad.date)<4*864e5?squad:null;
   if(live)return 'In the XI — '+fmtBadge(live.format)+' '+esc(live.matchNo||'')+
     (live.state==='in'?', <b>live now</b>.':', '+esc(dstr(live.date,false))+'.');
   var last=apps[0];                                    /* apps are sorted newest-first */
@@ -668,6 +671,11 @@ function followSummary(apps,live){
   if(dom&&!dom.upcoming&&dom.name===last.comp&&fresh){
     line='Playing the <b>'+esc(dom.name)+'</b>'+(last.team?' for '+esc(last.team):'')+
          ' — '+compTotals(apps,last.comp)+'.';
+  }else if(withSquad){
+    line='With the <b>India</b> squad — named in the XI for '+esc(withSquad.matchNo||'')+
+         ', '+esc(istDate(withSquad.date))+'.'+
+         (last.comp?' Last innings in the <b>'+esc(last.comp)+'</b> ('+esc(when)+') — '+
+           compTotals(apps,last.comp)+'.':'');
   }else if(last.intl){
     line='No club fixture. Last out for <b>India</b> — '+(last.label||'')+
          ' v '+esc(norm(last.vs||''))+', '+esc(when)+'.';
@@ -697,7 +705,7 @@ function followingHTML(){
               bat:a.bat,bat2:a.bat2,bowl:a.bowl,bowl2:a.bowl2,won:a.won};
     });
     /* internationals: scan matches we already have (stays fresh via the cron) */
-    var seen={},live=null;
+    var seen={},live=null,squad=null;
     var pool=DATA.matches.concat(HIST.matches.filter(function(hm){
       return !DATA.matches.some(function(dm){return dm.id.split('_')[1]===hm.id.split('_')[1];});}));
     pool.forEach(function(m){
@@ -710,6 +718,11 @@ function followingHTML(){
       });
       Object.keys(m.xi||{}).forEach(function(t){(m.xi[t]||[]).forEach(function(n){if(re.test(n))inXI=true;});});
       if((m.state==='pre'||m.state==='in')&&inXI)live=m;
+      /* A finished match he was NAMED in still proves he is with the squad. When the
+         abandoned Asian Games quarter-final flipped to 'post' the card went straight
+         back to "No fixture right now" while he was in Japan with India — less correct
+         than a minute earlier. */
+      else if(m.state==='post'&&inXI&&(!squad||m.date>squad.date))squad=m;
       if(bat||bowl){
         var k=m.date.slice(0,10);
         if(seen[k])return; seen[k]=1;
@@ -733,7 +746,7 @@ function followingHTML(){
          esc(teams.join(' · '))+'<br>'+
          esc((apps[0]&&apps[0].date||'').slice(0,4))+': <b>'+runs+'</b> runs in '+
          inns.length+' innings'+(apps.length>12?' (last 12 shown)':'')+' · HS '+hs+'</div></div>';
-    var tldr=followSummary(apps,live);
+    var tldr=followSummary(apps,live,squad);
     if(tldr)out+='<div class="tldr">'+tldr+'</div>';
     apps.slice(0,12).forEach(function(a){
       var bat=[a.bat,a.bat2].filter(Boolean).map(batStr).join(' & ');
@@ -793,7 +806,17 @@ function domesticHTML(live,next){
 function newsHTML(){
   var hs=NEWS.headlines||[], talk=NEWS.talk||[];
   if(!hs.length&&!talk.length)return '';
-  var out='<section class="sec-news"><h2>🎙 News & talk — what the cricket world is saying</h2><div class="newswrap">';
+  /* headlines carry their own dates, the video cards do not — so a frozen or failed
+     news build would leave yesterday's clips looking current. One stamp for the whole
+     section, and it says how old rather than just when. */
+  var age='';
+  if(NEWS.updated){
+    var mins=Math.round((Date.now()-Date.parse(NEWS.updated))/6e4);
+    if(mins>=0)age=' <span class="src">— '+(mins<90?mins+'m ago':
+      Math.floor(mins/60)+'h '+(mins%60)+'m ago')+'</span>';
+  }
+  var out='<section class="sec-news"><h2>🎙 News & talk — what the cricket world is saying'+age+
+    '</h2><div class="newswrap">';
   if(hs.length){
     out+='<div class="card headlines"><div class="serieshead"><div class="nm">Headlines <span class="src">— ESPNcricinfo India feed</span></div></div>';
     hs.slice(0,8).forEach(function(x){
@@ -943,8 +966,8 @@ function formHTML(hist){
       var home=ms.filter(inIndia), away=ms.filter(function(x){return !inIndia(x);});
       var rh=rec(home), ra=rec(away);
       h+='<div class="fsplit">'+
-        (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L'+(rh.D?'-'+rh.D+'D':'')+' of '+rh.P+'</i></span>':'')+
-        (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L'+(ra.D?'-'+ra.D+'D':'')+' of '+ra.P+'</i></span>':'')+
+        (rh.P?'<span>🏠 In India <b>'+(rh.pct===null?'—':rh.pct+'%')+'</b><i>'+rh.W+'W-'+rh.L+'L'+(rh.D?'-'+rh.D+'D':'')+(rh.NR?'-'+rh.NR+'NR':'')+' of '+rh.P+'</i></span>':'')+
+        (ra.P?'<span>✈️ Overseas <b>'+(ra.pct===null?'—':ra.pct+'%')+'</b><i>'+ra.W+'W-'+ra.L+'L'+(ra.D?'-'+ra.D+'D':'')+(ra.NR?'-'+ra.NR+'NR':'')+' of '+ra.P+'</i></span>':'')+
         '</div>';
       if(f==='Test')h+=wtcHTML();
       /* who and when */
@@ -1123,7 +1146,7 @@ function render(){
       groups.forEach(function(g){
         var w=g.items.filter(function(m){return m.india==='won';}).length;
         var l=g.items.filter(function(m){return m.india==='lost';}).length;
-        var champion=/World Cup|Trophy|Asia Cup/.test(g.name)&&g.items.some(function(m){return m.matchNo==='Final'&&m.india==='won';});
+        var champion=/World Cup|Trophy|Asia Cup|Asian Games/.test(g.name)&&g.items.some(function(m){return m.matchNo==='Final'&&m.india==='won';});
         if(champion)h+='<div class="trophy">🏆 '+esc(g.name)+' — CHAMPIONS</div>';
         h+='<div class="serieshead"><div class="nm">'+(champion?'':esc(g.name))+'</div>'+
            '<div class="meta rec">'+w+'W – '+l+'L'+(g.items.length-w-l?' – '+(g.items.length-w-l)+' other':'')+'</div></div>';

@@ -460,6 +460,12 @@ def innings_from_summary(d, fmt=""):
     return innings
 
 
+# ESPN's Asian Games feed reports state "post" / "Final" on matches that have not been
+# played yet, handing back the pre-match line as the status. Stored in append-only
+# history that becomes permanent, so refuse it at the door and repair it if it got in.
+NOT_A_RESULT = re.compile(r"^\s*(starts at|match (starts|scheduled)|scheduled|tba)\b", re.I)
+
+
 def classify_outcome(result, india_flag):
     """Draw / tie / no-result can only be told apart from the result SENTENCE.
     Leaves a decided win/loss alone."""
@@ -537,8 +543,10 @@ def main():
     # ESPN files one match under several series — the Asian Games India v Afghanistan
     # tie is in both 'Asian Games Men's Cricket Competition' and 'India tour of Japan
     # 2026'. Two copies of one match is a duplicate id, which the self-check rejects,
-    # so the whole run stops publishing. First series to carry it keeps it.
-    claimed = {}
+    # so exactly one series must own it. NOT "first one wins": dict order put the tour
+    # first, which filed a quarter-final under a two-match bilateral tour and split the
+    # same series into two blocks in Results. A multi-team competition wins.
+    claimed = {}          # event id -> owning series NAME
     for sid, gender in known.items():
         try:
             board = get(f"{BASE}/{sid}/scoreboard")
@@ -573,10 +581,15 @@ def main():
                 continue
         for e in events:
             # some dates return a bare {} event
-            if "id" not in e or e["id"] in seen or e["id"] in claimed or not is_india_match(e):
+            if "id" not in e or not is_india_match(e):
                 continue
+            prev = claimed.get(e["id"])
+            if prev is not None:
+                if " tour of " not in prev or " tour of " in name:
+                    continue                      # incumbent is as good or better
+                matches[:] = [x for x in matches if x["id"] != "espn_" + str(e["id"])]
             seen.add(e["id"])
-            claimed[e["id"]] = sid
+            claimed[e["id"]] = name
             m = parse_event(e, name, sid, gender)
             # summary call only where it adds something: finals need the result
             # sentence, live/today matches need XIs and the series note
@@ -586,6 +599,22 @@ def main():
                             if h["id"] == m["id"]
                             or hist_key(h["date"], [t["name"] for t in h["teams"]], h["gender"]) == key), None)
                 if rec:
+                    if m["series"] and rec.get("series") != m["series"]:
+                        # Results groups by the STORED series name, so a match that
+                        # changed owner (see the claim rule above) would otherwise stay
+                        # filed under the old one and split the series into two blocks.
+                        rec["series"] = m["series"]
+                        hist_dirty[0] = True
+                    if NOT_A_RESULT.match(rec.get("result") or ""):
+                        # history captured a pre-match line as the result; the feed knows
+                        # better now. Repair the stored copy — Results reads from history,
+                        # so without this the page shows "Starts at 14:00 local time" for
+                        # a finished match, for ever.
+                        enrich_from_summary(m)
+                        if m.get("result") and not NOT_A_RESULT.match(m["result"]):
+                            rec["result"] = m["result"]
+                            rec["india"] = m["india"]
+                            hist_dirty[0] = True
                     m["result"] = rec["result"]
                     m["india"] = rec["india"]
                     if rec.get("innings"):
@@ -615,6 +644,8 @@ def main():
             continue  # warm-ups/tour games don't belong in the year record
         if hist_key(m["date"], [t["name"] for t in m["teams"]], m["gender"]) in hist_keys:
             continue
+        if NOT_A_RESULT.match(m["result"] or m["statusDesc"] or ""):
+            continue    # "post" but not actually played — leave it for a later run
         history["matches"].append({
             "id": m["id"], "date": m["date"][:10], "gender": m["gender"],
             "format": m["format"], "series": m["series"], "matchNo": m["matchNo"],
