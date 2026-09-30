@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Kohli closes in on Gill at the top of men's ODI batters' rankings",
+   "u": "https://www.cricinfo.com/ci/content/story/1556565.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
+   "t": "Nabi handed debut as India field; West Indies make four changes",
+   "u": "https://www.cricinfo.com/ci/content/story/1556562.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
+   "t": "Rain stays away as India and Sri Lanka look for fair contest to enter final",
+   "u": "https://www.cricinfo.com/ci/content/story/1556538.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
    "t": "India look to solidify 2027 World Cup plans, West Indies seek more bowling bite",
    "u": "https://www.cricinfo.com/ci/content/story/1556106.html?ex_cid=OTC-RSS",
    "d": "Tue, 29 Sep 2026"
@@ -34,21 +49,6 @@
    "t": "Kohli determined to 'unlock a new version' of himself",
    "u": "https://www.cricinfo.com/ci/content/story/1555974.html?ex_cid=OTC-RSS",
    "d": "Mon, 28 Sep 2026"
-  },
-  {
-   "t": "Kuldeep reels West Indies in, Gill and Kohli tons knock them out",
-   "u": "https://www.cricinfo.com/ci/content/story/1555973.html?ex_cid=OTC-RSS",
-   "d": "Mon, 28 Sep 2026"
-  },
-  {
-   "t": "Kuldeep four-for trips West Indies up after Greaves' century",
-   "u": "https://www.cricinfo.com/ci/content/story/1555935.html?ex_cid=OTC-RSS",
-   "d": "Sun, 27 Sep 2026"
-  },
-  {
-   "t": "Om five-for bowls Australia Under-19 out for 217 despite Cattle century",
-   "u": "https://www.cricinfo.com/ci/content/story/1555921.html?ex_cid=OTC-RSS",
-   "d": "Sun, 27 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "VNJNdg3VQb4",
+     "t": "IPL has massively increased Kohli's risk-appetite: Dinesh Karthik"
+    },
     {
      "yt": "Iz5hIkf0h4s",
      "t": "Match Forecast: South Africa vs Australia, 3rd ODI"
@@ -75,10 +79,6 @@
     {
      "yt": "bhqwgH9cB7M",
      "t": "From a brash youngster to a calm soul - DK decodes Kohli 2.0"
-    },
-    {
-     "yt": "pFSTPNbNN6w",
-     "t": "Gill\u2019s elegant stroke play, a treat to watch: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-09-30T05:57:44Z"
+ "updated": "2026-09-30T11:56:23Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T05:55:42Z",
+ "updated": "2026-09-30T11:53:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7121,9 +7121,9 @@
    "seriesId": "24289",
    "matchNo": "2nd ODI",
    "venue": "Barsapara Cricket Stadium, Guwahati",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
@@ -7134,12 +7134,129 @@
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
+     "score": "347/4 (41.4/50 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
-   "india": ""
+   "result": "India won toss & fielded",
+   "india": "",
+   "xi": {
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Ruturaj Gaikwad",
+     "Ravindra Jadeja",
+     "KL Rahul",
+     "Naman Dhir",
+     "Auqib Nabi",
+     "Kuldeep Yadav",
+     "Gurnoor Brar",
+     "Prasidh Krishna"
+    ],
+    "West Indies": [
+     "John Campbell",
+     "Keacy Carty",
+     "Shai Hope (c)",
+     "Amir Jangoo",
+     "Sherfane Rutherford",
+     "Roston Chase",
+     "Keemo Paul",
+     "Alzarri Joseph",
+     "Shamar Joseph",
+     "Jayden Seales",
+     "Vitel Lawes"
+    ]
+   },
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "347/4 (41.5 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       101,
+       68,
+       "c"
+      ],
+      [
+       "Keacy Carty",
+       9,
+       10,
+       "c"
+      ],
+      [
+       "Shai Hope",
+       104,
+       94,
+       "c"
+      ],
+      [
+       "Amir Jangoo",
+       114,
+       74,
+       "not out"
+      ],
+      [
+       "Sherfane Rutherford",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Roston Chase",
+       1,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Keemo Paul",
+      "Alzarri Joseph",
+      "Shamar Joseph",
+      "Jayden Seales",
+      "Vitel Lawes"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "8",
+       62,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "6.1",
+       38,
+       0
+      ],
+      [
+       "Auqib Nabi",
+       "5.5",
+       61,
+       0
+      ],
+      [
+       "Kuldeep Yadav",
+       "7.4",
+       51,
+       1
+      ],
+      [
+       "Gurnoor Brar",
+       "9",
+       89,
+       2
+      ],
+      [
+       "Prasidh Krishna",
+       "5",
+       45,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1552777",
@@ -7168,11 +7285,11 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.865,
-    0.135
+    0.86,
+    0.14
    ]
   },
   {
@@ -8882,31 +8999,31 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-09-22",
+    "updated": "2026-09-27",
     "bat": [
      {
       "no": "1",
       "name": "Shubman Gill",
       "team": "India",
-      "rating": "801"
+      "rating": "816"
      },
      {
       "no": "2",
+      "name": "Virat Kohli",
+      "team": "India",
+      "rating": "796"
+     },
+     {
+      "no": "3",
       "name": "Daryl Mitchell",
       "team": "New Zealand",
       "rating": "794"
      },
      {
-      "no": "3",
-      "name": "Virat Kohli",
-      "team": "India",
-      "rating": "767"
-     },
-     {
       "no": "4",
       "name": "Rohit Sharma",
       "team": "India",
-      "rating": "758"
+      "rating": "753"
      },
      {
       "no": "5",
@@ -8922,27 +9039,27 @@
      },
      {
       "no": "7",
-      "name": "Joe Root",
-      "team": "England",
-      "rating": "675"
+      "name": "Kusal Mendis",
+      "team": "Sri Lanka",
+      "rating": "674"
      },
      {
       "no": "8",
       "name": "Shai Hope",
       "team": "West Indies",
-      "rating": "673"
+      "rating": "664"
      },
      {
       "no": "9",
-      "name": "Harry Tector",
-      "team": "Ireland",
-      "rating": "653"
+      "name": "Joe Root",
+      "team": "England",
+      "rating": "660"
      },
      {
       "no": "10",
-      "name": "Kusal Mendis",
-      "team": "Sri Lanka",
-      "rating": "648"
+      "name": "Harry Tector",
+      "team": "Ireland",
+      "rating": "653"
      }
     ],
     "bowl": [
@@ -8960,51 +9077,51 @@
      },
      {
       "no": "3",
+      "name": "Keshav Maharaj",
+      "team": "South Africa",
+      "rating": "667"
+     },
+     {
+      "no": "4",
       "name": "Mitchell Santner",
       "team": "New Zealand",
       "rating": "644"
      },
      {
-      "no": "4",
-      "name": "Maheesh Theekshana",
-      "team": "Sri Lanka",
-      "rating": "635"
-     },
-     {
       "no": "5",
-      "name": "Jofra Archer",
-      "team": "England",
-      "rating": "633"
+      "name": "Kuldeep Yadav",
+      "team": "India",
+      "rating": "623"
      },
      {
       "no": "6",
-      "name": "Keshav Maharaj",
-      "team": "South Africa",
-      "rating": "626"
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
+      "rating": "622"
      },
      {
       "no": "7",
+      "name": "Jofra Archer",
+      "team": "England",
+      "rating": "617"
+     },
+     {
+      "no": "8",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "604"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Mehidy Hasan Miraz",
       "team": "Bangladesh",
       "rating": "602"
      },
      {
-      "no": "9",
-      "name": "Kuldeep Yadav",
-      "team": "India",
-      "rating": "596"
-     },
-     {
-      "no": "=",
-      "name": "Gudakesh Motie",
-      "team": "West Indies",
-      "rating": "596"
+      "no": "10",
+      "name": "Josh Hazlewood",
+      "team": "Australia",
+      "rating": "591"
      }
     ]
    },
@@ -9071,19 +9188,19 @@
       "rating": "218"
      }
     ],
-    "updated": "2026-09-22",
+    "updated": "2026-09-28",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "904"
+      "rating": "892"
      },
      {
       "no": "2",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "893"
+      "rating": "887"
      },
      {
       "no": "3",
@@ -9125,7 +9242,7 @@
       "no": "9",
       "name": "Tilak Varma",
       "team": "India",
-      "rating": "726"
+      "rating": "719"
      },
      {
       "no": "10",
@@ -9145,7 +9262,7 @@
       "no": "2",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "735"
+      "rating": "720"
      },
      {
       "no": "3",
@@ -9175,7 +9292,7 @@
       "no": "7",
       "name": "Varun Chakaravarthy",
       "team": "India",
-      "rating": "671"
+      "rating": "665"
      },
      {
       "no": "8",
@@ -9191,9 +9308,9 @@
      },
      {
       "no": "10",
-      "name": "Jasprit Bumrah",
-      "team": "India",
-      "rating": "651"
+      "name": "Liam Dawson",
+      "team": "England",
+      "rating": "648"
      }
     ]
    }
