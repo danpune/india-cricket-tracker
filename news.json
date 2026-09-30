@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "'This is not cricket, this is only batting' - Gambhir after India's record ODI chase",
+   "u": "https://www.cricinfo.com/ci/content/story/1556654.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
+   "t": "Gill 223* sets up record chase for India",
+   "u": "https://www.cricinfo.com/ci/content/story/1556615.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
+   "t": "Gill and Rohit flip the script - 'After the powerplay, the pressure wasn't on us'",
+   "u": "https://www.cricinfo.com/ci/content/story/1556651.html?ex_cid=OTC-RSS",
+   "d": "Wed, 30 Sep 2026"
+  },
+  {
    "t": "Kohli closes in on Gill at the top of men's ODI batters' rankings",
    "u": "https://www.cricinfo.com/ci/content/story/1556565.html?ex_cid=OTC-RSS",
    "d": "Wed, 30 Sep 2026"
@@ -34,21 +49,6 @@
    "t": "Pakistan meet Bangladesh, India meet Sri Lanka in Asian Games men's semi-finals",
    "u": "https://www.cricinfo.com/ci/content/story/1556088.html?ex_cid=OTC-RSS",
    "d": "Tue, 29 Sep 2026"
-  },
-  {
-   "t": "'There is clarity within the team, there is clarity in me' - Prasidh on his growth as a bowler",
-   "u": "https://www.cricinfo.com/ci/content/story/1556001.html?ex_cid=OTC-RSS",
-   "d": "Mon, 28 Sep 2026"
-  },
-  {
-   "t": "Washout against Afghanistan sends India into semi-finals",
-   "u": "https://www.cricinfo.com/ci/content/story/1556015.html?ex_cid=OTC-RSS",
-   "d": "Mon, 28 Sep 2026"
-  },
-  {
-   "t": "Kohli determined to 'unlock a new version' of himself",
-   "u": "https://www.cricinfo.com/ci/content/story/1555974.html?ex_cid=OTC-RSS",
-   "d": "Mon, 28 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "NjE6PZi_iWQ",
+     "t": "Match Forecast: Asian Games - IND vs SL, 2nd Semi-Final"
+    },
     {
      "yt": "VNJNdg3VQb4",
      "t": "IPL has massively increased Kohli's risk-appetite: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "iW03u8ilAmA",
      "t": "ODI Cricket Is DYING! How to save it? DK & Rahane answer"
-    },
-    {
-     "yt": "bhqwgH9cB7M",
-     "t": "From a brash youngster to a calm soul - DK decodes Kohli 2.0"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-09-30T11:56:23Z"
+ "updated": "2026-09-30T21:33:16Z"
 }

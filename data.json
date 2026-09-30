@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T11:53:56Z",
+ "updated": "2026-09-30T21:31:37Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7121,25 +7121,26 @@
    "seriesId": "24289",
    "matchNo": "2nd ODI",
    "venue": "Barsapara Cricket Stadium, Guwahati",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "406/2 (43.3/50 ov, target 406)",
+     "winner": true
     },
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "347/4 (41.4/50 ov)",
+     "score": "405/7",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "India won by 8 wkts (39b rem)",
+   "india": "won",
+   "seriesNote": "India led the 3-match series 2-0",
    "xi": {
     "India": [
      "Rohit Sharma",
@@ -7171,7 +7172,7 @@
    "innings": [
     {
      "t": "West Indies",
-     "total": "347/4 (41.5 ov)",
+     "total": "405/7 (50.0 ov)",
      "bat": [
       [
        "John Campbell",
@@ -7194,8 +7195,8 @@
       [
        "Amir Jangoo",
        114,
-       74,
-       "not out"
+       77,
+       "c"
       ],
       [
        "Sherfane Rutherford",
@@ -7205,24 +7206,39 @@
       ],
       [
        "Roston Chase",
-       1,
-       4,
+       29,
+       25,
+       "not out"
+      ],
+      [
+       "Keemo Paul",
+       3,
+       8,
+       "c"
+      ],
+      [
+       "Alzarri Joseph",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "Shamar Joseph",
+       14,
+       8,
        "not out"
       ]
      ],
      "dnb": [
-      "Keemo Paul",
-      "Alzarri Joseph",
-      "Shamar Joseph",
       "Jayden Seales",
       "Vitel Lawes"
      ],
      "bowl": [
       [
        "Ravindra Jadeja",
-       "8",
-       62,
-       0
+       "10",
+       75,
+       2
       ],
       [
        "Naman Dhir",
@@ -7232,20 +7248,20 @@
       ],
       [
        "Auqib Nabi",
-       "5.5",
-       61,
+       "8.5",
+       84,
        0
       ],
       [
        "Kuldeep Yadav",
-       "7.4",
-       51,
-       1
+       "10",
+       65,
+       2
       ],
       [
        "Gurnoor Brar",
-       "9",
-       89,
+       "10",
+       96,
        2
       ],
       [
@@ -7253,6 +7269,83 @@
        "5",
        45,
        1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "406/2 (43.3 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       101,
+       75,
+       "lbw"
+      ],
+      [
+       "Shubman Gill",
+       223,
+       133,
+       "not out"
+      ],
+      [
+       "Virat Kohli",
+       29,
+       19,
+       "c"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       31,
+       37,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ravindra Jadeja",
+      "KL Rahul",
+      "Naman Dhir",
+      "Auqib Nabi",
+      "Kuldeep Yadav",
+      "Gurnoor Brar",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Roston Chase",
+       "8.3",
+       63,
+       0
+      ],
+      [
+       "Keemo Paul",
+       "3",
+       49,
+       0
+      ],
+      [
+       "Alzarri Joseph",
+       "8",
+       89,
+       0
+      ],
+      [
+       "Shamar Joseph",
+       "6",
+       52,
+       1
+      ],
+      [
+       "Jayden Seales",
+       "8",
+       78,
+       1
+      ],
+      [
+       "Vitel Lawes",
+       "10",
+       73,
+       0
       ]
      ]
     }
@@ -7288,8 +7381,8 @@
    "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.86,
-    0.14
+    0.845,
+    0.155
    ]
   },
   {
@@ -8743,6 +8836,11 @@
    "id": "22547",
    "name": "Asian Games Men's Cricket Competition",
    "gender": "men"
+  },
+  {
+   "id": "24609",
+   "name": "Irani Cup 2026/27",
+   "gender": "men"
   }
  ],
  "rankings": {
@@ -8954,18 +9052,18 @@
       "no": "3",
       "name": "South Africa",
       "team": "South Africa",
-      "rating": "106"
+      "rating": "104"
      },
      {
       "no": "4",
-      "name": "Pakistan",
-      "team": "Pakistan",
-      "rating": "100"
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "102"
      },
      {
       "no": "5",
-      "name": "Australia",
-      "team": "Australia",
+      "name": "Pakistan",
+      "team": "Pakistan",
       "rating": "100"
      },
      {
@@ -8999,7 +9097,7 @@
       "rating": "77"
      }
     ],
-    "updated": "2026-09-27",
+    "updated": "2026-09-29",
     "bat": [
      {
       "no": "1",
@@ -9379,7 +9477,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "bat": [
      {
       "no": "1",
@@ -10142,7 +10240,8 @@
    "24677": "men",
    "22546": "women",
    "24746": "men",
-   "22547": "men"
+   "22547": "men",
+   "24609": "men"
   }
  }
 }
