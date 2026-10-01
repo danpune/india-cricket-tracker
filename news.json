@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Wanderers to host 2027 men's ODI World Cup final as well as India vs Pakistan",
+   "u": "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
+   "d": "Thu, 01 Oct 2026"
+  },
+  {
    "t": "Kamboj replaces injured Prasidh for final India vs West Indies ODI",
    "u": "https://www.cricinfo.com/ci/content/story/1556731.html?ex_cid=OTC-RSS",
    "d": "Thu, 01 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Nabi handed debut as India field; West Indies make four changes",
    "u": "https://www.cricinfo.com/ci/content/story/1556562.html?ex_cid=OTC-RSS",
    "d": "Wed, 30 Sep 2026"
-  },
-  {
-   "t": "Rain stays away as India and Sri Lanka look for fair contest to enter final",
-   "u": "https://www.cricinfo.com/ci/content/story/1556538.html?ex_cid=OTC-RSS",
-   "d": "Wed, 30 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "4Zeeakg0r2w",
+     "t": "400+ scores not good, bowlers need to have a say in the game: Rahane"
+    },
     {
      "yt": "BptORBCzq1U",
      "t": "Ajit Agarkar\u2019s tenure as selector: What\u2019s the verdict?"
@@ -75,10 +79,6 @@
     {
      "yt": "VNJNdg3VQb4",
      "t": "IPL has massively increased Kohli's risk-appetite: Dinesh Karthik"
-    },
-    {
-     "yt": "Iz5hIkf0h4s",
-     "t": "Match Forecast: South Africa vs Australia, 3rd ODI"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-01T13:53:44Z"
+ "updated": "2026-10-01T19:15:44Z"
 }
