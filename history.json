@@ -35591,6 +35591,243 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1552777",
+   "date": "2026-10-01",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Asian Games Men's Cricket Competition",
+   "matchNo": "2nd Semi-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "169/7"
+    },
+    {
+     "name": "Sri Lanka",
+     "score": "45 (9.5/20 ov, target 170)"
+    }
+   ],
+   "result": "India won by 124 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "169/7 (20.0 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       38,
+       21,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       7,
+       3,
+       "c"
+      ],
+      [
+       "Sanju Samson",
+       7,
+       9,
+       "b"
+      ],
+      [
+       "Shreyas Iyer",
+       13,
+       13,
+       "b"
+      ],
+      [
+       "Ishan Kishan",
+       80,
+       46,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       8,
+       13,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       2,
+       4,
+       "st"
+      ],
+      [
+       "Shivam Dube",
+       3,
+       9,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       7,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ravi Bishnoi",
+      "Jasprit Bumrah"
+     ],
+     "bowl": [
+      [
+       "Lasith Croospulle",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Nuwanidu Fernando",
+       "2",
+       20,
+       1
+      ],
+      [
+       "Sahan Arachchige",
+       "4",
+       28,
+       2
+      ],
+      [
+       "Wanuja Sahan",
+       "2",
+       17,
+       1
+      ],
+      [
+       "Tharindu Ratnayake",
+       "4",
+       32,
+       2
+      ],
+      [
+       "Vijayakanth Viyaskanth",
+       "1",
+       9,
+       0
+      ],
+      [
+       "Binura Fernando",
+       "3",
+       37,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "45 (9.5 ov)",
+     "bat": [
+      [
+       "Sineth Jayawardena",
+       0,
+       2,
+       "lbw"
+      ],
+      [
+       "Lasith Croospulle",
+       0,
+       0,
+       "run out"
+      ],
+      [
+       "Sohan de Livera",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Nuwanidu Fernando",
+       15,
+       11,
+       "run out"
+      ],
+      [
+       "Sahan Arachchige",
+       9,
+       8,
+       "c"
+      ],
+      [
+       "Ashen Bandara",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Chamika Karunaratne",
+       4,
+       8,
+       "st"
+      ],
+      [
+       "Wanuja Sahan",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Tharindu Ratnayake",
+       5,
+       15,
+       "run out"
+      ],
+      [
+       "Vijayakanth Viyaskanth",
+       0,
+       0,
+       "not out"
+      ],
+      [
+       "Binura Fernando",
+       0,
+       1,
+       "b"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "0.5",
+       2,
+       2
+      ],
+      [
+       "Axar Patel",
+       "3",
+       8,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "3",
+       18,
+       1
+      ],
+      [
+       "Ravi Bishnoi",
+       "1",
+       4,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "2",
+       7,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
