@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T21:31:37Z",
+ "updated": "2026-10-01T00:48:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7140,35 +7140,6 @@
    ],
    "result": "India won by 8 wkts (39b rem)",
    "india": "won",
-   "seriesNote": "India led the 3-match series 2-0",
-   "xi": {
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Ruturaj Gaikwad",
-     "Ravindra Jadeja",
-     "KL Rahul",
-     "Naman Dhir",
-     "Auqib Nabi",
-     "Kuldeep Yadav",
-     "Gurnoor Brar",
-     "Prasidh Krishna"
-    ],
-    "West Indies": [
-     "John Campbell",
-     "Keacy Carty",
-     "Shai Hope (c)",
-     "Amir Jangoo",
-     "Sherfane Rutherford",
-     "Roston Chase",
-     "Keemo Paul",
-     "Alzarri Joseph",
-     "Shamar Joseph",
-     "Jayden Seales",
-     "Vitel Lawes"
-    ]
-   },
    "innings": [
     {
      "t": "West Indies",
@@ -7354,7 +7325,7 @@
   {
    "id": "espn_1552777",
    "eventId": "1552777",
-   "date": "2026-10-01T05:00Z",
+   "date": "2026-10-01T04:30Z",
    "gender": "men",
    "format": "T20I",
    "series": "Asian Games Men's Cricket Competition",
@@ -7378,11 +7349,11 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
+   "result": "Starts at 13:30 local time",
    "india": "",
    "o": [
-    0.845,
-    0.155
+    0.85,
+    0.15
    ]
   },
   {
@@ -9902,8 +9873,8 @@
      "id": "1552776",
      "date": "2026-10-01T00:00Z",
      "round": "1st Semi-Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Match delayed by a wet outfield",
      "teams": [
       {
        "name": "Bangladesh",
@@ -9921,7 +9892,7 @@
     },
     {
      "id": "1552777",
-     "date": "2026-10-01T05:00Z",
+     "date": "2026-10-01T04:30Z",
      "round": "2nd Semi-Final",
      "state": "pre",
      "detail": "Scheduled",
@@ -9963,7 +9934,7 @@
     },
     {
      "id": "1552779",
-     "date": "2026-10-03T05:00Z",
+     "date": "2026-10-03T04:30Z",
      "round": "Final",
      "state": "pre",
      "detail": "Scheduled",
