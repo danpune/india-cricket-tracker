@@ -251,12 +251,4 @@ SUMMARY:New Zealand v India 🏏 2nd Test
 LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
-BEGIN:VEVENT
-UID:espn_1552777@india-cricket-tracker
-DTSTART:20261001T043000Z
-DTEND:20261001T083000Z
-SUMMARY:India v Sri Lanka 🏏 2nd Semi-Final
-LOCATION:Korogi Sports Park  Nisshin
-DESCRIPTION:Asian Games Men's Cricket Competition
-END:VEVENT
 END:VCALENDAR

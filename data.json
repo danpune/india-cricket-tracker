@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T00:48:18Z",
+ "updated": "2026-10-01T06:36:41Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7332,28 +7332,236 @@
    "seriesId": "22547",
    "matchNo": "2nd Semi-Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "169/7",
      "winner": false
     },
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
+     "score": "25/5 (4.1/20 ov, target 170)",
      "winner": false
     }
    ],
-   "result": "Starts at 13:30 local time",
+   "result": "Sri Lanka require 145 runs",
    "india": "",
-   "o": [
-    0.85,
-    0.15
+   "xi": {
+    "India": [
+     "Vaibhav Sooryavanshi",
+     "Abhishek Sharma",
+     "Sanju Samson",
+     "Shreyas Iyer (c)",
+     "Ishan Kishan",
+     "Axar Patel",
+     "Tilak Varma",
+     "Shivam Dube",
+     "Washington Sundar",
+     "Ravi Bishnoi",
+     "Jasprit Bumrah"
+    ],
+    "Sri Lanka": [
+     "Sineth Jayawardena",
+     "Lasith Croospulle",
+     "Sohan de Livera",
+     "Nuwanidu Fernando",
+     "Sahan Arachchige (c)",
+     "Ashen Bandara",
+     "Chamika Karunaratne",
+     "Wanuja Sahan",
+     "Tharindu Ratnayake",
+     "Vijayakanth Viyaskanth",
+     "Binura Fernando"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "169/7 (20.0 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       38,
+       21,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       7,
+       3,
+       "c"
+      ],
+      [
+       "Sanju Samson",
+       7,
+       9,
+       "b"
+      ],
+      [
+       "Shreyas Iyer",
+       13,
+       13,
+       "b"
+      ],
+      [
+       "Ishan Kishan",
+       80,
+       46,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       8,
+       13,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       2,
+       4,
+       "st"
+      ],
+      [
+       "Shivam Dube",
+       3,
+       9,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       7,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ravi Bishnoi",
+      "Jasprit Bumrah"
+     ],
+     "bowl": [
+      [
+       "Lasith Croospulle",
+       "4",
+       25,
+       1
+      ],
+      [
+       "Nuwanidu Fernando",
+       "2",
+       20,
+       1
+      ],
+      [
+       "Sahan Arachchige",
+       "4",
+       28,
+       2
+      ],
+      [
+       "Wanuja Sahan",
+       "2",
+       17,
+       1
+      ],
+      [
+       "Tharindu Ratnayake",
+       "4",
+       32,
+       2
+      ],
+      [
+       "Vijayakanth Viyaskanth",
+       "1",
+       9,
+       0
+      ],
+      [
+       "Binura Fernando",
+       "3",
+       37,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka",
+     "total": "25/5 (4.1 ov)",
+     "bat": [
+      [
+       "Sineth Jayawardena",
+       0,
+       2,
+       "lbw"
+      ],
+      [
+       "Lasith Croospulle",
+       0,
+       0,
+       "run out"
+      ],
+      [
+       "Sohan de Livera",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Nuwanidu Fernando",
+       9,
+       7,
+       "not out"
+      ],
+      [
+       "Sahan Arachchige",
+       9,
+       8,
+       "c"
+      ],
+      [
+       "Ashen Bandara",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Chamika Karunaratne",
+       0,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Wanuja Sahan",
+      "Tharindu Ratnayake",
+      "Vijayakanth Viyaskanth",
+      "Binura Fernando"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "2",
+       6,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "0.1",
+       7,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "2",
+       7,
+       2
+      ]
+     ]
+    }
    ]
   },
   {
@@ -8164,7 +8372,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.998,
+    0.003
+   ]
   },
   {
    "id": "espn_1543893",
@@ -9230,7 +9442,7 @@
       "no": "6",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "240"
+      "rating": "241"
      },
      {
       "no": "7",
@@ -9242,7 +9454,7 @@
       "no": "8",
       "name": "Bangladesh",
       "team": "Bangladesh",
-      "rating": "224"
+      "rating": "223"
      },
      {
       "no": "9",
@@ -9257,7 +9469,7 @@
       "rating": "218"
      }
     ],
-    "updated": "2026-09-28",
+    "updated": "2026-09-29",
     "bat": [
      {
       "no": "1",
@@ -9873,20 +10085,20 @@
      "id": "1552776",
      "date": "2026-10-01T00:00Z",
      "round": "1st Semi-Final",
-     "state": "in",
-     "detail": "Match delayed by a wet outfield",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Bangladesh",
        "abbr": "BAN",
-       "score": "",
+       "score": "111/7 (13/13 ov)",
        "winner": false
       },
       {
        "name": "Pakistan",
        "abbr": "PAK",
-       "score": "",
-       "winner": false
+       "score": "112/4 (11.3/13 ov, target 112)",
+       "winner": true
       }
      ]
     },
@@ -9894,19 +10106,19 @@
      "id": "1552777",
      "date": "2026-10-01T04:30Z",
      "round": "2nd Semi-Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "teams": [
       {
        "name": "India",
        "abbr": "IND",
-       "score": "",
+       "score": "169/7",
        "winner": false
       },
       {
        "name": "Sri Lanka",
        "abbr": "SL",
-       "score": "",
+       "score": "25/5 (4.2/20 ov, target 170)",
        "winner": false
       }
      ]
@@ -9919,8 +10131,8 @@
      "detail": "Scheduled",
      "teams": [
       {
-       "name": "TBA",
-       "abbr": "TBA",
+       "name": "Bangladesh",
+       "abbr": "BAN",
        "score": "",
        "winner": false
       },
@@ -9940,8 +10152,8 @@
      "detail": "Scheduled",
      "teams": [
       {
-       "name": "TBA",
-       "abbr": "TBA",
+       "name": "Pakistan",
+       "abbr": "PAK",
        "score": "",
        "winner": false
       },
