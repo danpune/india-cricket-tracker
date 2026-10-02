@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Chahal retires from first-class cricket, hunger for ODIs and T20Is 'very much alive'",
+   "u": "https://www.cricinfo.com/ci/content/story/1556901.html?ex_cid=OTC-RSS",
+   "d": "Fri, 02 Oct 2026"
+  },
+  {
    "t": "Wanderers to host 2027 men's ODI World Cup final as well as India vs Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
    "d": "Thu, 01 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Kohli closes in on Gill at the top of men's ODI batters' rankings",
    "u": "https://www.cricinfo.com/ci/content/story/1556565.html?ex_cid=OTC-RSS",
    "d": "Wed, 30 Sep 2026"
-  },
-  {
-   "t": "Nabi handed debut as India field; West Indies make four changes",
-   "u": "https://www.cricinfo.com/ci/content/story/1556562.html?ex_cid=OTC-RSS",
-   "d": "Wed, 30 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "8QjEkMNSAkE",
+     "t": "Who are cricket\u2019s \u2018NEXT FAB 4\u2019? Shubman & who else?"
+    },
     {
      "yt": "4Zeeakg0r2w",
      "t": "400+ scores not good, bowlers need to have a say in the game: Rahane"
@@ -75,10 +79,6 @@
     {
      "yt": "NjE6PZi_iWQ",
      "t": "Match Forecast: Asian Games - IND vs SL, 2nd Semi-Final"
-    },
-    {
-     "yt": "VNJNdg3VQb4",
-     "t": "IPL has massively increased Kohli's risk-appetite: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-02T02:19:32Z"
+ "updated": "2026-10-02T08:40:15Z"
 }

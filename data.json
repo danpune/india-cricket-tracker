@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T02:18:25Z",
+ "updated": "2026-10-02T08:39:14Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7304,7 +7304,7 @@
   {
    "id": "espn_1552779",
    "eventId": "1552779",
-   "date": "2026-10-03T04:30Z",
+   "date": "2026-10-03T05:00Z",
    "gender": "men",
    "format": "T20I",
    "series": "Asian Games Men's Cricket Competition",
@@ -7328,11 +7328,11 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 14:00 local time",
    "india": "",
    "o": [
-    0.81,
-    0.19
+    0.8,
+    0.2
    ]
   },
   {
@@ -7362,7 +7362,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 14:00 local time",
    "india": ""
   },
   {
@@ -9913,7 +9913,7 @@
     },
     {
      "id": "1552779",
-     "date": "2026-10-03T04:30Z",
+     "date": "2026-10-03T05:00Z",
      "round": "Final",
      "state": "pre",
      "detail": "Scheduled",
