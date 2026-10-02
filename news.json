@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Dogra and Nasir earn a first-innings lead for Jammu & Kashmir",
+   "u": "https://www.cricinfo.com/ci/content/story/1556925.html?ex_cid=OTC-RSS",
+   "d": "Fri, 02 Oct 2026"
+  },
+  {
+   "t": "Can West Indies quell India's batting might in New Chandigarh's ODI debut?",
+   "u": "https://www.cricinfo.com/ci/content/story/1556914.html?ex_cid=OTC-RSS",
+   "d": "Fri, 02 Oct 2026"
+  },
+  {
+   "t": "Asian Games final: India favourites to strike gold against Pakistan",
+   "u": "https://www.cricinfo.com/ci/content/story/1556898.html?ex_cid=OTC-RSS",
+   "d": "Fri, 02 Oct 2026"
+  },
+  {
    "t": "Chahal retires from first-class cricket, hunger for ODIs and T20Is 'very much alive'",
    "u": "https://www.cricinfo.com/ci/content/story/1556901.html?ex_cid=OTC-RSS",
    "d": "Fri, 02 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "'This is not cricket, this is only batting' - Gambhir after India's record ODI chase",
    "u": "https://www.cricinfo.com/ci/content/story/1556654.html?ex_cid=OTC-RSS",
    "d": "Thu, 01 Oct 2026"
-  },
-  {
-   "t": "Gill 223* sets up record chase for India",
-   "u": "https://www.cricinfo.com/ci/content/story/1556615.html?ex_cid=OTC-RSS",
-   "d": "Wed, 30 Sep 2026"
-  },
-  {
-   "t": "Gill and Rohit flip the script - 'After the powerplay, the pressure wasn't on us'",
-   "u": "https://www.cricinfo.com/ci/content/story/1556651.html?ex_cid=OTC-RSS",
-   "d": "Wed, 30 Sep 2026"
-  },
-  {
-   "t": "Kohli closes in on Gill at the top of men's ODI batters' rankings",
-   "u": "https://www.cricinfo.com/ci/content/story/1556565.html?ex_cid=OTC-RSS",
-   "d": "Wed, 30 Sep 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "cqvZ_CynCBU",
+     "t": "Preview: India vs West Indies - 3rd ODI"
+    },
     {
      "yt": "8QjEkMNSAkE",
      "t": "Who are cricket\u2019s \u2018NEXT FAB 4\u2019? Shubman & who else?"
@@ -75,10 +79,6 @@
     {
      "yt": "3UeqyTKOOY4",
      "t": "Get Rohit on the flight to SA, his bat will do the rest: Dinesh Karthik"
-    },
-    {
-     "yt": "NjE6PZi_iWQ",
-     "t": "Match Forecast: Asian Games - IND vs SL, 2nd Semi-Final"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-02T08:40:15Z"
+ "updated": "2026-10-02T15:01:19Z"
 }
