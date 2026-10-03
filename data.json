@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T23:31:27Z",
+ "updated": "2026-10-03T02:17:41Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7597,8 +7597,8 @@
    "result": "Starts at 13:30 local time",
    "india": "",
    "o": [
-    0.8,
-    0.2
+    0.805,
+    0.195
    ]
   },
   {
@@ -7629,7 +7629,11 @@
     }
    ],
    "result": "Starts at 14:00 local time",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1529230",
@@ -10160,19 +10164,19 @@
      "id": "1552778",
      "date": "2026-10-03T00:00Z",
      "round": "3rd Place Play-off",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "teams": [
       {
        "name": "Bangladesh",
        "abbr": "BAN",
-       "score": "",
+       "score": "25/4 (5/20 ov, target 166)",
        "winner": false
       },
       {
        "name": "Sri Lanka",
        "abbr": "SL",
-       "score": "",
+       "score": "165/9",
        "winner": false
       }
      ]
