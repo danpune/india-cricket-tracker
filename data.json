@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T17:32:09Z",
+ "updated": "2026-10-03T20:10:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7817,34 +7817,6 @@
    ],
    "result": "West Indies won by 5 wkts (10b rem)",
    "india": "lost",
-   "xi": {
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Ruturaj Gaikwad",
-     "KL Rahul",
-     "Naman Dhir",
-     "Nitish Kumar Reddy",
-     "Anshul Kamboj",
-     "Gurnoor Brar",
-     "Kuldeep Yadav",
-     "Mohammed Siraj"
-    ],
-    "West Indies": [
-     "John Campbell",
-     "Shai Hope (c)",
-     "Amir Jangoo",
-     "Sherfane Rutherford",
-     "Keemo Paul",
-     "Matthew Forde",
-     "Gudakesh Motie",
-     "Jewel Andrew",
-     "Alzarri Joseph",
-     "Vitel Lawes",
-     "Jayden Seales"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -9671,7 +9643,7 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "117"
+      "rating": "115"
      },
      {
       "no": "2",
@@ -9725,7 +9697,7 @@
       "no": "10",
       "name": "West Indies",
       "team": "West Indies",
-      "rating": "77"
+      "rating": "79"
      }
     ],
     "updated": "2026-09-29",
@@ -10431,9 +10403,77 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "next": "2026-10-11",
-   "upcoming": true,
-   "matches": []
+   "more": 15,
+   "matches": [
+    {
+     "date": "2026-10-11T04:00Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground, Mulapadu, Vijayawada",
+     "teams": [
+      {
+       "name": "Andhra",
+       "score": ""
+      },
+      {
+       "name": "Karnataka",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-11T04:00Z",
+     "desc": "Plate Group",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "ADSA Railways Cricket Ground, Ahmedabad",
+     "teams": [
+      {
+       "name": "Arunachal Pradesh",
+       "score": ""
+      },
+      {
+       "name": "Nagaland",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-11T04:00Z",
+     "desc": "Elite, Group C",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Bengal Cricket Academy Ground, Kalyani",
+     "teams": [
+      {
+       "name": "Bengal",
+       "score": ""
+      },
+      {
+       "name": "Delhi",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-11T04:00Z",
+     "desc": "Elite, Group A",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Rajgir International Cricket Stadium, Rajgir",
+     "teams": [
+      {
+       "name": "Bihar",
+       "score": ""
+      },
+      {
+       "name": "Uttar Pradesh",
+       "score": ""
+      }
+     ]
+    }
+   ]
   }
  },
  "bracket": {

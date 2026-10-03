@@ -1,7 +1,12 @@
 {
  "headlines": [
   {
-   "t": "Rahul 129*, Rohit and Gaikwad fifties set West Indies 352 target",
+   "t": "Gill: India's fielding and death bowling needs to improve",
+   "u": "https://www.cricinfo.com/ci/content/story/1557083.html?ex_cid=OTC-RSS",
+   "d": "Sat, 03 Oct 2026"
+  },
+  {
+   "t": "Hope 162* beats Rahul 129* as West Indies pull off record chase",
    "u": "https://www.cricinfo.com/ci/content/story/1557059.html?ex_cid=OTC-RSS",
    "d": "Sat, 03 Oct 2026"
   },
@@ -44,11 +49,6 @@
    "t": "Chahal retires from first-class cricket, hunger for ODIs and T20Is 'very much alive'",
    "u": "https://www.cricinfo.com/ci/content/story/1556901.html?ex_cid=OTC-RSS",
    "d": "Fri, 02 Oct 2026"
-  },
-  {
-   "t": "Wanderers to host 2027 men's ODI World Cup final as well as India vs Pakistan",
-   "u": "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
-   "d": "Thu, 01 Oct 2026"
   }
  ],
  "talk": [
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-03T17:33:12Z"
+ "updated": "2026-10-03T20:11:23Z"
 }
