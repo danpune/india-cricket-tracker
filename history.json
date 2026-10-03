@@ -35828,6 +35828,219 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1552779",
+   "date": "2026-10-03",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Asian Games Men's Cricket Competition",
+   "matchNo": "Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "211/6"
+    },
+    {
+     "name": "Pakistan",
+     "score": "192/6 (20 ov, target 212)"
+    }
+   ],
+   "result": "India won by 19 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "211/6 (20.0 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       15,
+       9,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       61,
+       28,
+       "st"
+      ],
+      [
+       "Sanju Samson",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       21,
+       24,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       20,
+       18,
+       "b"
+      ],
+      [
+       "Tilak Varma",
+       51,
+       22,
+       "not out"
+      ],
+      [
+       "Shivam Dube",
+       27,
+       15,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Washington Sundar",
+      "Ravi Bishnoi",
+      "Jasprit Bumrah"
+     ],
+     "bowl": [
+      [
+       "Saim Ayub",
+       "4",
+       47,
+       1
+      ],
+      [
+       "Saad Masood",
+       "3",
+       33,
+       0
+      ],
+      [
+       "Arafat Minhas",
+       "3",
+       25,
+       2
+      ],
+      [
+       "Ahmed Daniyal",
+       "3",
+       43,
+       2
+      ],
+      [
+       "Abrar Ahmed",
+       "4",
+       29,
+       1
+      ],
+      [
+       "Sufyan Moqim",
+       "3",
+       33,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Pakistan",
+     "total": "192/6 (20.0 ov)",
+     "bat": [
+      [
+       "Sahibzada Farhan",
+       10,
+       11,
+       "c"
+      ],
+      [
+       "Maaz Sadaqat",
+       23,
+       18,
+       "c"
+      ],
+      [
+       "Usman Khan",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Hasan Nawaz",
+       96,
+       51,
+       "c"
+      ],
+      [
+       "Saim Ayub",
+       29,
+       22,
+       "c"
+      ],
+      [
+       "Abdul Samad",
+       9,
+       9,
+       "c"
+      ],
+      [
+       "Saad Masood",
+       12,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Arafat Minhas",
+      "Ahmed Daniyal",
+      "Abrar Ahmed",
+      "Sufyan Moqim"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "2",
+       23,
+       0
+      ],
+      [
+       "Shivam Dube",
+       "3",
+       33,
+       2
+      ],
+      [
+       "Axar Patel",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Ravi Bishnoi",
+       "3",
+       44,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "4",
+       33,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

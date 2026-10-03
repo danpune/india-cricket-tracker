@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T02:17:41Z",
+ "updated": "2026-10-03T08:16:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7577,28 +7577,244 @@
    "seriesId": "22547",
    "matchNo": "Final",
    "venue": "Korogi Sports Park, Nisshin",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "211/6",
+     "winner": true
     },
     {
      "name": "Pakistan",
      "abbr": "PAK",
-     "score": "",
+     "score": "192/6 (20 ov, target 212)",
      "winner": false
     }
    ],
-   "result": "Starts at 13:30 local time",
-   "india": "",
-   "o": [
-    0.805,
-    0.195
+   "result": "India won by 19 runs",
+   "india": "won",
+   "seriesNote": "India won the 2026 Asian Games Men's Cricket Competition",
+   "xi": {
+    "India": [
+     "Vaibhav Sooryavanshi",
+     "Abhishek Sharma",
+     "Sanju Samson",
+     "Shreyas Iyer (c)",
+     "Ishan Kishan",
+     "Tilak Varma",
+     "Shivam Dube",
+     "Axar Patel",
+     "Washington Sundar",
+     "Ravi Bishnoi",
+     "Jasprit Bumrah"
+    ],
+    "Pakistan": [
+     "Sahibzada Farhan (c)",
+     "Maaz Sadaqat",
+     "Usman Khan",
+     "Hasan Nawaz",
+     "Saim Ayub",
+     "Abdul Samad",
+     "Saad Masood",
+     "Arafat Minhas",
+     "Ahmed Daniyal",
+     "Abrar Ahmed",
+     "Sufyan Moqim"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "211/6 (20.0 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       15,
+       9,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       61,
+       28,
+       "st"
+      ],
+      [
+       "Sanju Samson",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       21,
+       24,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       20,
+       18,
+       "b"
+      ],
+      [
+       "Tilak Varma",
+       51,
+       22,
+       "not out"
+      ],
+      [
+       "Shivam Dube",
+       27,
+       15,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Washington Sundar",
+      "Ravi Bishnoi",
+      "Jasprit Bumrah"
+     ],
+     "bowl": [
+      [
+       "Saim Ayub",
+       "4",
+       47,
+       1
+      ],
+      [
+       "Saad Masood",
+       "3",
+       33,
+       0
+      ],
+      [
+       "Arafat Minhas",
+       "3",
+       25,
+       2
+      ],
+      [
+       "Ahmed Daniyal",
+       "3",
+       43,
+       2
+      ],
+      [
+       "Abrar Ahmed",
+       "4",
+       29,
+       1
+      ],
+      [
+       "Sufyan Moqim",
+       "3",
+       33,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Pakistan",
+     "total": "192/6 (20.0 ov)",
+     "bat": [
+      [
+       "Sahibzada Farhan",
+       10,
+       11,
+       "c"
+      ],
+      [
+       "Maaz Sadaqat",
+       23,
+       18,
+       "c"
+      ],
+      [
+       "Usman Khan",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Hasan Nawaz",
+       96,
+       51,
+       "c"
+      ],
+      [
+       "Saim Ayub",
+       29,
+       22,
+       "c"
+      ],
+      [
+       "Abdul Samad",
+       9,
+       9,
+       "c"
+      ],
+      [
+       "Saad Masood",
+       12,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Arafat Minhas",
+      "Ahmed Daniyal",
+      "Abrar Ahmed",
+      "Sufyan Moqim"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "2",
+       23,
+       0
+      ],
+      [
+       "Shivam Dube",
+       "3",
+       33,
+       2
+      ],
+      [
+       "Axar Patel",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Ravi Bishnoi",
+       "3",
+       44,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "4",
+       33,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -7628,8 +7844,36 @@
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
+   "result": "India won toss & batted",
    "india": "",
+   "xi": {
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Ruturaj Gaikwad",
+     "KL Rahul",
+     "Nitish Kumar Reddy",
+     "Naman Dhir",
+     "Anshul Kamboj",
+     "Kuldeep Yadav",
+     "Mohammed Siraj",
+     "Gurnoor Brar"
+    ],
+    "West Indies": [
+     "John Campbell",
+     "Jewel Andrew",
+     "Shai Hope (c)",
+     "Amir Jangoo",
+     "Sherfane Rutherford",
+     "Keemo Paul",
+     "Matthew Forde",
+     "Gudakesh Motie",
+     "Alzarri Joseph",
+     "Vitel Lawes",
+     "Jayden Seales"
+    ]
+   },
    "o": [
     0.5,
     0.5
@@ -9479,7 +9723,7 @@
       "no": "6",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "241"
+      "rating": "240"
      },
      {
       "no": "7",
@@ -9491,13 +9735,13 @@
       "no": "8",
       "name": "Bangladesh",
       "team": "Bangladesh",
-      "rating": "223"
+      "rating": "222"
      },
      {
       "no": "9",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "220"
+      "rating": "221"
      },
      {
       "no": "10",
@@ -10164,20 +10408,20 @@
      "id": "1552778",
      "date": "2026-10-03T00:00Z",
      "round": "3rd Place Play-off",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Bangladesh",
        "abbr": "BAN",
-       "score": "25/4 (5/20 ov, target 166)",
+       "score": "102 (17.3/20 ov, target 166)",
        "winner": false
       },
       {
        "name": "Sri Lanka",
        "abbr": "SL",
        "score": "165/9",
-       "winner": false
+       "winner": true
       }
      ]
     },
@@ -10185,19 +10429,19 @@
      "id": "1552779",
      "date": "2026-10-03T04:30Z",
      "round": "Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "India",
        "abbr": "IND",
-       "score": "",
-       "winner": false
+       "score": "211/6",
+       "winner": true
       },
       {
        "name": "Pakistan",
        "abbr": "PAK",
-       "score": "",
+       "score": "192/6 (20 ov, target 212)",
        "winner": false
       }
      ]
