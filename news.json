@@ -1,6 +1,26 @@
 {
  "headlines": [
   {
+   "t": "Rahul 129*, Rohit and Gaikwad fifties set West Indies 352 target",
+   "u": "https://www.cricinfo.com/ci/content/story/1557059.html?ex_cid=OTC-RSS",
+   "d": "Sat, 03 Oct 2026"
+  },
+  {
+   "t": "Shreyas Iyer 'ecstatic' after 'collective effort and comprehensive win' over Pakistan",
+   "u": "https://www.cricinfo.com/ci/content/story/1557029.html?ex_cid=OTC-RSS",
+   "d": "Sat, 03 Oct 2026"
+  },
+  {
+   "t": "Abhishek, Tilak and spinners secure gold for India at Asian Games again",
+   "u": "https://www.cricinfo.com/ci/content/story/1557020.html?ex_cid=OTC-RSS",
+   "d": "Sat, 03 Oct 2026"
+  },
+  {
+   "t": "Kamboj debuts, Siraj and Reddy back as India bat",
+   "u": "https://www.cricinfo.com/ci/content/story/1557018.html?ex_cid=OTC-RSS",
+   "d": "Sat, 03 Oct 2026"
+  },
+  {
    "t": "Unchanged India bat in Asian Games gold medal contest against Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1556988.html?ex_cid=OTC-RSS",
    "d": "Sat, 03 Oct 2026"
@@ -29,26 +49,6 @@
    "t": "Wanderers to host 2027 men's ODI World Cup final as well as India vs Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
    "d": "Thu, 01 Oct 2026"
-  },
-  {
-   "t": "Kamboj replaces injured Prasidh for final India vs West Indies ODI",
-   "u": "https://www.cricinfo.com/ci/content/story/1556731.html?ex_cid=OTC-RSS",
-   "d": "Thu, 01 Oct 2026"
-  },
-  {
-   "t": "Batters face five-run penalty for time wasting in new ICC playing conditions",
-   "u": "https://www.cricinfo.com/ci/content/story/1556758.html?ex_cid=OTC-RSS",
-   "d": "Thu, 01 Oct 2026"
-  },
-  {
-   "t": "India enter Asian Games final after Kishan and Bumrah ride roughshod over Sri Lanka",
-   "u": "https://www.cricinfo.com/ci/content/story/1556732.html?ex_cid=OTC-RSS",
-   "d": "Thu, 01 Oct 2026"
-  },
-  {
-   "t": "India bring in Sooryavanshi; Sri Lanka hand three debuts and field",
-   "u": "https://www.cricinfo.com/ci/content/story/1556705.html?ex_cid=OTC-RSS",
-   "d": "Thu, 01 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "_ZJ0Lb4-5MI",
+     "t": "India beat Pakistan to clinch gold in Asian Games! DK & Rahane react"
+    },
     {
      "yt": "cqvZ_CynCBU",
      "t": "Preview: India vs West Indies - 3rd ODI"
@@ -75,10 +79,6 @@
     {
      "yt": "_m2tL62C5k8",
      "t": "Gill's 223* was laced with finesse like a cold-blooded killer: Dinesh Karthik"
-    },
-    {
-     "yt": "3UeqyTKOOY4",
-     "t": "Get Rohit on the flight to SA, his bat will do the rest: Dinesh Karthik"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "OAW5o4gsmSs",
+     "t": "Harsh Bhogle on India\u2019s Asian Games victory"
+    },
     {
      "yt": "DrXxS9itihI",
      "t": "Harsha Bhogle looks ahead at India's GOLD prospects"
@@ -105,13 +109,9 @@
     {
      "yt": "3Ss1KnMe2PU",
      "t": "Harsha Bhogle on India's 1-0 triumph"
-    },
-    {
-     "yt": "q56d2VMGuXk",
-     "t": "Harsha Bhogle on India\u2019s Galle victory"
     }
    ]
   }
  ],
- "updated": "2026-10-03T08:17:09Z"
+ "updated": "2026-10-03T13:29:47Z"
 }

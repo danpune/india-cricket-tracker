@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T08:16:10Z",
+ "updated": "2026-10-03T13:28:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7596,35 +7596,6 @@
    ],
    "result": "India won by 19 runs",
    "india": "won",
-   "seriesNote": "India won the 2026 Asian Games Men's Cricket Competition",
-   "xi": {
-    "India": [
-     "Vaibhav Sooryavanshi",
-     "Abhishek Sharma",
-     "Sanju Samson",
-     "Shreyas Iyer (c)",
-     "Ishan Kishan",
-     "Tilak Varma",
-     "Shivam Dube",
-     "Axar Patel",
-     "Washington Sundar",
-     "Ravi Bishnoi",
-     "Jasprit Bumrah"
-    ],
-    "Pakistan": [
-     "Sahibzada Farhan (c)",
-     "Maaz Sadaqat",
-     "Usman Khan",
-     "Hasan Nawaz",
-     "Saim Ayub",
-     "Abdul Samad",
-     "Saad Masood",
-     "Arafat Minhas",
-     "Ahmed Daniyal",
-     "Abrar Ahmed",
-     "Sufyan Moqim"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -7827,24 +7798,24 @@
    "seriesId": "24289",
    "matchNo": "3rd ODI",
    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "351/7",
      "winner": false
     },
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
+     "score": "33/0 (2.5/50 ov, target 352)",
      "winner": false
     }
    ],
-   "result": "India won toss & batted",
+   "result": "West Indies require 319 runs",
    "india": "",
    "xi": {
     "India": [
@@ -7853,17 +7824,17 @@
      "Virat Kohli",
      "Ruturaj Gaikwad",
      "KL Rahul",
-     "Nitish Kumar Reddy",
      "Naman Dhir",
+     "Nitish Kumar Reddy",
      "Anshul Kamboj",
+     "Gurnoor Brar",
      "Kuldeep Yadav",
-     "Mohammed Siraj",
-     "Gurnoor Brar"
+     "Mohammed Siraj"
     ],
     "West Indies": [
      "John Campbell",
-     "Jewel Andrew",
      "Shai Hope (c)",
+     "Jewel Andrew",
      "Amir Jangoo",
      "Sherfane Rutherford",
      "Keemo Paul",
@@ -7874,9 +7845,152 @@
      "Jayden Seales"
     ]
    },
-   "o": [
-    0.5,
-    0.5
+   "innings": [
+    {
+     "t": "India",
+     "total": "351/7 (50.0 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       92,
+       85,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       57,
+       69,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       129,
+       87,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       30,
+       21,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       9,
+       16,
+       "c"
+      ],
+      [
+       "Anshul Kamboj",
+       17,
+       9,
+       "run out"
+      ],
+      [
+       "Gurnoor Brar",
+       8,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Kuldeep Yadav",
+      "Mohammed Siraj"
+     ],
+     "bowl": [
+      [
+       "Keemo Paul",
+       "9",
+       71,
+       2
+      ],
+      [
+       "Matthew Forde",
+       "6",
+       26,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "10",
+       67,
+       1
+      ],
+      [
+       "Alzarri Joseph",
+       "10",
+       70,
+       0
+      ],
+      [
+       "Vitel Lawes",
+       "5",
+       54,
+       0
+      ],
+      [
+       "Jayden Seales",
+       "10",
+       62,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "West Indies",
+     "total": "33/0 (2.5 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       9,
+       5,
+       "not out"
+      ],
+      [
+       "Shai Hope",
+       20,
+       12,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Jewel Andrew",
+      "Amir Jangoo",
+      "Sherfane Rutherford",
+      "Keemo Paul",
+      "Matthew Forde",
+      "Gudakesh Motie",
+      "Alzarri Joseph",
+      "Vitel Lawes",
+      "Jayden Seales"
+     ],
+     "bowl": [
+      [
+       "Anshul Kamboj",
+       "1",
+       11,
+       0
+      ],
+      [
+       "Mohammed Siraj",
+       "1.5",
+       18,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -7907,7 +8021,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1529231",
