@@ -36041,6 +36041,224 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529229",
+   "date": "2026-10-03",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "3rd ODI",
+   "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "351/7"
+    },
+    {
+     "name": "West Indies",
+     "score": "352/5 (48.2/50 ov, target 352)"
+    }
+   ],
+   "result": "West Indies won by 5 wkts (10b rem)",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "351/7 (50.0 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       92,
+       85,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       57,
+       69,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       129,
+       87,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       30,
+       21,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       9,
+       16,
+       "c"
+      ],
+      [
+       "Anshul Kamboj",
+       17,
+       9,
+       "run out"
+      ],
+      [
+       "Gurnoor Brar",
+       8,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Kuldeep Yadav",
+      "Mohammed Siraj"
+     ],
+     "bowl": [
+      [
+       "Keemo Paul",
+       "9",
+       71,
+       2
+      ],
+      [
+       "Matthew Forde",
+       "6",
+       26,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "10",
+       67,
+       1
+      ],
+      [
+       "Alzarri Joseph",
+       "10",
+       70,
+       0
+      ],
+      [
+       "Vitel Lawes",
+       "5",
+       54,
+       0
+      ],
+      [
+       "Jayden Seales",
+       "10",
+       62,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "West Indies",
+     "total": "352/5 (48.2 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       10,
+       7,
+       "b"
+      ],
+      [
+       "Shai Hope",
+       162,
+       143,
+       "not out"
+      ],
+      [
+       "Amir Jangoo",
+       67,
+       56,
+       "run out"
+      ],
+      [
+       "Sherfane Rutherford",
+       24,
+       25,
+       "c"
+      ],
+      [
+       "Keemo Paul",
+       44,
+       35,
+       "c"
+      ],
+      [
+       "Matthew Forde",
+       7,
+       12,
+       "c"
+      ],
+      [
+       "Gudakesh Motie",
+       19,
+       14,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Jewel Andrew",
+      "Alzarri Joseph",
+      "Vitel Lawes",
+      "Jayden Seales"
+     ],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "5.2",
+       33,
+       1
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "6.5",
+       50,
+       0
+      ],
+      [
+       "Anshul Kamboj",
+       "9",
+       82,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "9.1",
+       64,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       62,
+       1
+      ],
+      [
+       "Mohammed Siraj",
+       "8",
+       52,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

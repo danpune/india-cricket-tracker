@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T13:28:35Z",
+ "updated": "2026-10-03T17:32:09Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7798,9 +7798,9 @@
    "seriesId": "24289",
    "matchNo": "3rd ODI",
    "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
@@ -7811,12 +7811,12 @@
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "33/0 (2.5/50 ov, target 352)",
-     "winner": false
+     "score": "352/5 (48.2/50 ov, target 352)",
+     "winner": true
     }
    ],
-   "result": "West Indies require 319 runs",
-   "india": "",
+   "result": "West Indies won by 5 wkts (10b rem)",
+   "india": "lost",
    "xi": {
     "India": [
      "Rohit Sharma",
@@ -7834,12 +7834,12 @@
     "West Indies": [
      "John Campbell",
      "Shai Hope (c)",
-     "Jewel Andrew",
      "Amir Jangoo",
      "Sherfane Rutherford",
      "Keemo Paul",
      "Matthew Forde",
      "Gudakesh Motie",
+     "Jewel Andrew",
      "Alzarri Joseph",
      "Vitel Lawes",
      "Jayden Seales"
@@ -7950,44 +7950,93 @@
     },
     {
      "t": "West Indies",
-     "total": "33/0 (2.5 ov)",
+     "total": "352/5 (48.2 ov)",
      "bat": [
       [
        "John Campbell",
-       9,
-       5,
-       "not out"
+       10,
+       7,
+       "b"
       ],
       [
        "Shai Hope",
-       20,
+       162,
+       143,
+       "not out"
+      ],
+      [
+       "Amir Jangoo",
+       67,
+       56,
+       "run out"
+      ],
+      [
+       "Sherfane Rutherford",
+       24,
+       25,
+       "c"
+      ],
+      [
+       "Keemo Paul",
+       44,
+       35,
+       "c"
+      ],
+      [
+       "Matthew Forde",
+       7,
        12,
+       "c"
+      ],
+      [
+       "Gudakesh Motie",
+       19,
+       14,
        "not out"
       ]
      ],
      "dnb": [
       "Jewel Andrew",
-      "Amir Jangoo",
-      "Sherfane Rutherford",
-      "Keemo Paul",
-      "Matthew Forde",
-      "Gudakesh Motie",
       "Alzarri Joseph",
       "Vitel Lawes",
       "Jayden Seales"
      ],
      "bowl": [
       [
-       "Anshul Kamboj",
-       "1",
-       11,
+       "Naman Dhir",
+       "5.2",
+       33,
+       1
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "6.5",
+       50,
        0
       ],
       [
-       "Mohammed Siraj",
-       "1.5",
-       18,
+       "Anshul Kamboj",
+       "9",
+       82,
        0
+      ],
+      [
+       "Gurnoor Brar",
+       "9.1",
+       64,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       62,
+       1
+      ],
+      [
+       "Mohammed Siraj",
+       "8",
+       52,
+       1
       ]
      ]
     }
@@ -10227,7 +10276,7 @@
       "no": "7",
       "name": "West Indies",
       "team": "West Indies",
-      "rating": "237"
+      "rating": "238"
      },
      {
       "no": "8",
@@ -10248,7 +10297,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-09-25",
+    "updated": "2026-09-28",
     "bat": [
      {
       "no": "1",
