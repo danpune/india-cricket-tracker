@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T08:44:09Z",
+ "updated": "2026-10-04T14:25:02Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8042,11 +8042,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.62,
-    0.38
-   ]
+   "india": ""
   },
   {
    "id": "espn_1529231",
@@ -8821,6 +8817,36 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529236",
+   "eventId": "1529236",
+   "date": "2026-12-16T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd ODI",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
