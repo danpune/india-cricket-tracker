@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "'My happy place is there in the middle' - Raghuvanshi is back after long layoff",
+   "u": "https://www.cricinfo.com/ci/content/story/1557144.html?ex_cid=OTC-RSS",
+   "d": "Mon, 05 Oct 2026"
+  },
+  {
    "t": "Gill: India's fielding and death bowling needs to improve",
    "u": "https://www.cricinfo.com/ci/content/story/1557083.html?ex_cid=OTC-RSS",
    "d": "Sun, 04 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Asian Games final: India favourites to strike gold against Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1556898.html?ex_cid=OTC-RSS",
    "d": "Fri, 02 Oct 2026"
-  },
-  {
-   "t": "Chahal retires from first-class cricket, hunger for ODIs and T20Is 'very much alive'",
-   "u": "https://www.cricinfo.com/ci/content/story/1556901.html?ex_cid=OTC-RSS",
-   "d": "Fri, 02 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "p-wketpmVSE",
+     "t": "Fans tune in to watch Shubman just like Rohit & Kohli: Ajinkya Rahane"
+    },
+    {
+     "yt": "gYYeOY1bNFY",
+     "t": "Rohit\u2019s knock showed why he'll be crucial in 2027 WC: Dinesh Karthik"
+    },
     {
      "yt": "TxZ9Sii4rBA",
      "t": "HOT TAKES: Can Kohli score 100 centuries? Shami for ODI World Cup?"
@@ -71,14 +79,6 @@
     {
      "yt": "kur67g2-Nt8",
      "t": "ODI WC Schedule: Can India play Pakistan 3 times?"
-    },
-    {
-     "yt": "_ZJ0Lb4-5MI",
-     "t": "India beat Pakistan to clinch gold in Asian Games! DK & Rahane react"
-    },
-    {
-     "yt": "cqvZ_CynCBU",
-     "t": "Preview: India vs West Indies - 3rd ODI"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-05T00:09:34Z"
+ "updated": "2026-10-05T05:34:21Z"
 }
