@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T01:31:12Z",
+ "updated": "2026-10-06T15:03:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8024,9 +8024,9 @@
    "seriesId": "24289",
    "matchNo": "1st T20I",
    "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
@@ -8037,15 +8037,142 @@
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
+     "score": "160/8 (18/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
+   "result": "India won toss & fielded",
    "india": "",
-   "o": [
-    0.505,
-    0.495
+   "xi": {
+    "India": [
+     "Abhishek Sharma",
+     "Sanju Samson",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Shivam Dube",
+     "Naman Dhir",
+     "Axar Patel",
+     "Arshdeep Singh",
+     "Mayank Yadav",
+     "Kuldeep Yadav"
+    ],
+    "West Indies": [
+     "Shai Hope (c)",
+     "Kamil Pooran",
+     "Shimron Hetmyer",
+     "Rovman Powell",
+     "Sherfane Rutherford",
+     "Roston Chase",
+     "Romario Shepherd",
+     "Matthew Forde",
+     "Shamar Springer",
+     "Akeal Hosein",
+     "Shamar Joseph"
+    ]
+   },
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "160/8 (17.6 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       52,
+       37,
+       "c"
+      ],
+      [
+       "Kamil Pooran",
+       12,
+       11,
+       "b"
+      ],
+      [
+       "Shimron Hetmyer",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Rovman Powell",
+       0,
+       3,
+       "b"
+      ],
+      [
+       "Sherfane Rutherford",
+       50,
+       31,
+       "not out"
+      ],
+      [
+       "Roston Chase",
+       5,
+       3,
+       "lbw"
+      ],
+      [
+       "Romario Shepherd",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Matthew Forde",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Shamar Springer",
+       9,
+       7,
+       "c"
+      ],
+      [
+       "Akeal Hosein",
+       11,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shamar Joseph"
+     ],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "4",
+       31,
+       3
+      ],
+      [
+       "Axar Patel",
+       "3",
+       26,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       34,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "3",
+       30,
+       0
+      ],
+      [
+       "Kuldeep Yadav",
+       "4",
+       33,
+       2
+      ]
+     ]
+    }
    ]
   },
   {
@@ -8076,7 +8203,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1529232",
@@ -10080,7 +10211,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-09-28",
+    "updated": "2026-09-30",
     "bat": [
      {
       "no": "1",
@@ -10104,7 +10235,7 @@
       "no": "4",
       "name": "Hayley Matthews",
       "team": "West Indies",
-      "rating": "711"
+      "rating": "731"
      },
      {
       "no": "5",
@@ -10178,7 +10309,7 @@
       "no": "6",
       "name": "Hayley Matthews",
       "team": "West Indies",
-      "rating": "634"
+      "rating": "639"
      },
      {
       "no": "7",
@@ -10269,7 +10400,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "bat": [
      {
       "no": "1",
@@ -10302,10 +10433,10 @@
       "rating": "754"
      },
      {
-      "no": "=",
+      "no": "6",
       "name": "Hayley Matthews",
       "team": "West Indies",
-      "rating": "754"
+      "rating": "739"
      },
      {
       "no": "7",
