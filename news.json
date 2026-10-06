@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Morkel: Mayank, Prince 'still learning the trade' in small windows",
+   "u": "https://www.cricinfo.com/ci/content/story/1557225.html?ex_cid=OTC-RSS",
+   "d": "Mon, 05 Oct 2026"
+  },
+  {
+   "t": "No guarantees for Sooryavanshi as India look to build on Asian Games success",
+   "u": "https://www.cricinfo.com/ci/content/story/1557193.html?ex_cid=OTC-RSS",
+   "d": "Mon, 05 Oct 2026"
+  },
+  {
    "t": "India and West Indies fined for slow over-rates in third ODI",
    "u": "https://www.cricinfo.com/ci/content/story/1557159.html?ex_cid=OTC-RSS",
    "d": "Mon, 05 Oct 2026"
@@ -39,16 +49,6 @@
    "t": "Unchanged India bat in Asian Games gold medal contest against Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1556988.html?ex_cid=OTC-RSS",
    "d": "Sat, 03 Oct 2026"
-  },
-  {
-   "t": "Dogra and Nasir earn a first-innings lead for Jammu & Kashmir",
-   "u": "https://www.cricinfo.com/ci/content/story/1556925.html?ex_cid=OTC-RSS",
-   "d": "Fri, 02 Oct 2026"
-  },
-  {
-   "t": "Can West Indies quell India's batting might in New Chandigarh's ODI debut?",
-   "u": "https://www.cricinfo.com/ci/content/story/1556914.html?ex_cid=OTC-RSS",
-   "d": "Fri, 02 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "aFnbudUIy8I",
+     "t": "ODI scenarios: Rahane makes some bold calls"
+    },
     {
      "yt": "p-wketpmVSE",
      "t": "Fans tune in to watch Shubman just like Rohit & Kohli: Ajinkya Rahane"
@@ -75,10 +79,6 @@
     {
      "yt": "rpN1NmLNoSc",
      "t": "Despite series win, bowling ought to worry India: Ajinkya Rahane"
-    },
-    {
-     "yt": "kur67g2-Nt8",
-     "t": "ODI WC Schedule: Can India play Pakistan 3 times?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-05T12:36:59Z"
+ "updated": "2026-10-06T01:32:56Z"
 }
