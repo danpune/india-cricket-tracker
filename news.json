@@ -1,6 +1,26 @@
 {
  "headlines": [
   {
+   "t": "Shreyas Iyer's maiden ton hands India crushing win",
+   "u": "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
+   "d": "Tue, 06 Oct 2026"
+  },
+  {
+   "t": "Rahul and Jaiswal in India A squad for red-ball matches in New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1557353.html?ex_cid=OTC-RSS",
+   "d": "Tue, 06 Oct 2026"
+  },
+  {
+   "t": "India recall Bhuvneshwar Kumar for New Zealand T20Is",
+   "u": "https://www.cricinfo.com/ci/content/story/1557336.html?ex_cid=OTC-RSS",
+   "d": "Tue, 06 Oct 2026"
+  },
+  {
+   "t": "McSweeney 123, Beardman four-for down India A",
+   "u": "https://www.cricinfo.com/ci/content/story/1557352.html?ex_cid=OTC-RSS",
+   "d": "Tue, 06 Oct 2026"
+  },
+  {
    "t": "Harmanpreet Kaur steps down as India captain",
    "u": "https://www.cricinfo.com/ci/content/story/1557275.html?ex_cid=OTC-RSS",
    "d": "Tue, 06 Oct 2026"
@@ -29,26 +49,6 @@
    "t": "'My happy place is there in the middle' - Raghuvanshi is back after long layoff",
    "u": "https://www.cricinfo.com/ci/content/story/1557144.html?ex_cid=OTC-RSS",
    "d": "Mon, 05 Oct 2026"
-  },
-  {
-   "t": "Gill: India's fielding and death bowling needs to improve",
-   "u": "https://www.cricinfo.com/ci/content/story/1557083.html?ex_cid=OTC-RSS",
-   "d": "Sun, 04 Oct 2026"
-  },
-  {
-   "t": "Shreyas Iyer 'ecstatic' after 'collective effort and comprehensive win' over Pakistan",
-   "u": "https://www.cricinfo.com/ci/content/story/1557029.html?ex_cid=OTC-RSS",
-   "d": "Sun, 04 Oct 2026"
-  },
-  {
-   "t": "Hope 162* beats Rahul 129* as West Indies pull off record chase",
-   "u": "https://www.cricinfo.com/ci/content/story/1557059.html?ex_cid=OTC-RSS",
-   "d": "Sun, 04 Oct 2026"
-  },
-  {
-   "t": "Abhishek, Tilak and spinners secure gold for India at Asian Games again",
-   "u": "https://www.cricinfo.com/ci/content/story/1557020.html?ex_cid=OTC-RSS",
-   "d": "Sat, 03 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "c-XMvPrW4AU",
+     "t": "Bhuvneshwar back for India! \u201cWell Deserved\u201d, say DK & Rahane"
+    },
     {
      "yt": "6M3Xh5OZ1QY",
      "t": "Harmanpreet\u2019s fearless leadership changed Indian women\u2019s cricket: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "p-wketpmVSE",
      "t": "Fans tune in to watch Shubman just like Rohit & Kohli: Ajinkya Rahane"
-    },
-    {
-     "yt": "gYYeOY1bNFY",
-     "t": "Rohit\u2019s knock showed why he'll be crucial in 2027 WC: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-06T15:05:21Z"
+ "updated": "2026-10-06T20:14:05Z"
 }

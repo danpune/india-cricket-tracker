@@ -36259,6 +36259,212 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529230",
+   "date": "2026-10-06",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "1st T20I",
+   "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "172/2 (14.4/20 ov, target 172)"
+    },
+    {
+     "name": "West Indies",
+     "score": "171"
+    }
+   ],
+   "result": "India won by 8 wkts (32b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "171 (19.1 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       52,
+       37,
+       "c"
+      ],
+      [
+       "Kamil Pooran",
+       12,
+       11,
+       "b"
+      ],
+      [
+       "Shimron Hetmyer",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Rovman Powell",
+       0,
+       3,
+       "b"
+      ],
+      [
+       "Sherfane Rutherford",
+       56,
+       34,
+       "c"
+      ],
+      [
+       "Roston Chase",
+       5,
+       3,
+       "lbw"
+      ],
+      [
+       "Romario Shepherd",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Matthew Forde",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Shamar Springer",
+       9,
+       7,
+       "c"
+      ],
+      [
+       "Akeal Hosein",
+       15,
+       9,
+       "c"
+      ],
+      [
+       "Shamar Joseph",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "4",
+       31,
+       3
+      ],
+      [
+       "Axar Patel",
+       "3.1",
+       26,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       34,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "4",
+       33,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "172/2 (14.4 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       11,
+       9,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       37,
+       27,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       102,
+       43,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tilak Varma",
+      "Shivam Dube",
+      "Naman Dhir",
+      "Axar Patel",
+      "Arshdeep Singh",
+      "Mayank Yadav",
+      "Kuldeep Yadav"
+     ],
+     "bowl": [
+      [
+       "Roston Chase",
+       "3.4",
+       37,
+       1
+      ],
+      [
+       "Romario Shepherd",
+       "2",
+       24,
+       0
+      ],
+      [
+       "Matthew Forde",
+       "2",
+       39,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "1",
+       12,
+       0
+      ],
+      [
+       "Akeal Hosein",
+       "4",
+       37,
+       1
+      ],
+      [
+       "Shamar Joseph",
+       "2",
+       23,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

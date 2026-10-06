@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T15:03:46Z",
+ "updated": "2026-10-06T20:12:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8024,29 +8024,30 @@
    "seriesId": "24289",
    "matchNo": "1st T20I",
    "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "172/2 (14.4/20 ov, target 172)",
+     "winner": true
     },
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "160/8 (18/20 ov)",
+     "score": "171",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "India won by 8 wkts (32b rem)",
+   "india": "won",
+   "seriesNote": "India led the 5-match series 1-0",
    "xi": {
     "India": [
-     "Abhishek Sharma",
      "Sanju Samson",
+     "Abhishek Sharma",
      "Ishan Kishan",
      "Shreyas Iyer (c)",
      "Tilak Varma",
@@ -8074,7 +8075,7 @@
    "innings": [
     {
      "t": "West Indies",
-     "total": "160/8 (17.6 ov)",
+     "total": "171 (19.1 ov)",
      "bat": [
       [
        "Shai Hope",
@@ -8102,9 +8103,9 @@
       ],
       [
        "Sherfane Rutherford",
-       50,
-       31,
-       "not out"
+       56,
+       34,
+       "c"
       ],
       [
        "Roston Chase",
@@ -8132,14 +8133,18 @@
       ],
       [
        "Akeal Hosein",
-       11,
-       6,
+       15,
+       9,
+       "c"
+      ],
+      [
+       "Shamar Joseph",
+       0,
+       1,
        "not out"
       ]
      ],
-     "dnb": [
-      "Shamar Joseph"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Naman Dhir",
@@ -8149,9 +8154,9 @@
       ],
       [
        "Axar Patel",
-       "3",
+       "3.1",
        26,
-       1
+       2
       ],
       [
        "Arshdeep Singh",
@@ -8161,15 +8166,92 @@
       ],
       [
        "Mayank Yadav",
-       "3",
-       30,
-       0
+       "4",
+       40,
+       1
       ],
       [
        "Kuldeep Yadav",
        "4",
        33,
        2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "172/2 (14.4 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       11,
+       9,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       37,
+       27,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       102,
+       43,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tilak Varma",
+      "Shivam Dube",
+      "Naman Dhir",
+      "Axar Patel",
+      "Arshdeep Singh",
+      "Mayank Yadav",
+      "Kuldeep Yadav"
+     ],
+     "bowl": [
+      [
+       "Roston Chase",
+       "3.4",
+       37,
+       1
+      ],
+      [
+       "Romario Shepherd",
+       "2",
+       24,
+       0
+      ],
+      [
+       "Matthew Forde",
+       "2",
+       39,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "1",
+       12,
+       0
+      ],
+      [
+       "Akeal Hosein",
+       "4",
+       37,
+       1
+      ],
+      [
+       "Shamar Joseph",
+       "2",
+       23,
+       0
       ]
      ]
     }
@@ -8205,8 +8287,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.5,
-    0.5
+    0.71,
+    0.29
    ]
   },
   {
@@ -9963,7 +10045,7 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "269"
+      "rating": "270"
      },
      {
       "no": "2",
@@ -9999,7 +10081,7 @@
       "no": "7",
       "name": "West Indies",
       "team": "West Indies",
-      "rating": "234"
+      "rating": "233"
      },
      {
       "no": "8",
