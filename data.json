@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T23:51:29Z",
+ "updated": "2026-10-07T04:02:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4170,6 +4170,254 @@
    ]
   },
   {
+   "id": "espn_1548893",
+   "eventId": "1548893",
+   "date": "2026-08-30T14:30Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Women's Twenty20 Asia Cup",
+   "seriesId": "8659",
+   "matchNo": "3rd Match, Group A",
+   "venue": "Dubai International Cricket Stadium",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "159/9",
+     "winner": true
+    },
+    {
+     "name": "Thailand Women",
+     "abbr": "THA-W",
+     "score": "65 (16.1/20 ov, target 160)",
+     "winner": false
+    }
+   ],
+   "result": "IND Women won by 94 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "159/9 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       19,
+       10,
+       "run out"
+      ],
+      [
+       "Shafali Verma",
+       64,
+       36,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       22,
+       18,
+       "b"
+      ],
+      [
+       "Harmanpreet Kaur",
+       5,
+       9,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       13,
+       14,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Deepti Sharma",
+       5,
+       7,
+       "run out"
+      ],
+      [
+       "Prema Rawat",
+       6,
+       5,
+       "st"
+      ],
+      [
+       "Nandani Sharma",
+       1,
+       4,
+       "b"
+      ],
+      [
+       "Shree Charani",
+       6,
+       8,
+       "not out"
+      ],
+      [
+       "Kranti Gaud",
+       15,
+       8,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Phannita Maya",
+       "3",
+       31,
+       0
+      ],
+      [
+       "Chanida Sutthiruang",
+       "3",
+       14,
+       1
+      ],
+      [
+       "Suleeporn Laomi",
+       "4",
+       26,
+       3
+      ],
+      [
+       "Sunida Chaturongrattana",
+       "3",
+       31,
+       2
+      ],
+      [
+       "Onnicha Kamchomphu",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Thipatcha Putthawong",
+       "4",
+       37,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Thailand Women",
+     "total": "65 (16.1 ov)",
+     "bat": [
+      [
+       "Natthakan Chantham",
+       4,
+       5,
+       "b"
+      ],
+      [
+       "Phannita Maya",
+       6,
+       8,
+       "c"
+      ],
+      [
+       "Nannapat Koncharoenkai",
+       41,
+       48,
+       "c"
+      ],
+      [
+       "Aphisara Suwanchonrathi",
+       1,
+       6,
+       "lbw"
+      ],
+      [
+       "Chanida Sutthiruang",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Naomi Hamilton",
+       1,
+       3,
+       "lbw"
+      ],
+      [
+       "Nannaphat Chaihan",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Suleeporn Laomi",
+       6,
+       15,
+       "c"
+      ],
+      [
+       "Sunida Chaturongrattana",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Onnicha Kamchomphu",
+       0,
+       0,
+       "run out"
+      ],
+      [
+       "Thipatcha Putthawong",
+       0,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Deepti Sharma",
+       "1.1",
+       0,
+       3
+      ],
+      [
+       "Prema Rawat",
+       "4",
+       11,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "4",
+       18,
+       3
+      ],
+      [
+       "Shree Charani",
+       "3",
+       10,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "4",
+       26,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1548897",
    "eventId": "1548897",
    "date": "2026-09-03T14:30Z",
@@ -8008,11 +8256,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.71,
-    0.29
-   ]
+   "india": ""
   },
   {
    "id": "espn_1529232",
@@ -8757,6 +9001,36 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529236",
+   "eventId": "1529236",
+   "date": "2026-12-16T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd ODI",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
