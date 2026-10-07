@@ -1,18 +1,33 @@
 {
  "headlines": [
   {
-   "t": "Shreyas Iyer's maiden ton hands India crushing win",
-   "u": "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
-   "d": "Tue, 06 Oct 2026"
+   "t": "Iyer: 'If it's your day, make sure that you win the match for your team'",
+   "u": "https://www.cricinfo.com/ci/content/story/1557440.html?ex_cid=OTC-RSS",
+   "d": "Wed, 07 Oct 2026"
   },
   {
-   "t": "Rahul and Jaiswal in India A squad for red-ball matches in New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1557353.html?ex_cid=OTC-RSS",
-   "d": "Tue, 06 Oct 2026"
+   "t": "Shreyas Iyer rises to No. 7 in ICC rankings after maiden T20I century",
+   "u": "https://www.cricinfo.com/ci/content/story/1557428.html?ex_cid=OTC-RSS",
+   "d": "Wed, 07 Oct 2026"
+  },
+  {
+   "t": "Baloda takes 14 to script three-day win for India U-19 over Australia U-19",
+   "u": "https://www.cricinfo.com/ci/content/story/1557391.html?ex_cid=OTC-RSS",
+   "d": "Wed, 07 Oct 2026"
   },
   {
    "t": "India recall Bhuvneshwar Kumar for New Zealand T20Is",
    "u": "https://www.cricinfo.com/ci/content/story/1557336.html?ex_cid=OTC-RSS",
+   "d": "Wed, 07 Oct 2026"
+  },
+  {
+   "t": "Shreyas Iyer's maiden ton hands India crushing win",
+   "u": "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
+   "d": "Wed, 07 Oct 2026"
+  },
+  {
+   "t": "Rahul and Jaiswal in India A squad for red-ball matches in New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1557353.html?ex_cid=OTC-RSS",
    "d": "Tue, 06 Oct 2026"
   },
   {
@@ -34,21 +49,6 @@
    "t": "Morkel: Mayank, Prince 'still learning the trade' in small windows",
    "u": "https://www.cricinfo.com/ci/content/story/1557225.html?ex_cid=OTC-RSS",
    "d": "Mon, 05 Oct 2026"
-  },
-  {
-   "t": "No guarantees for Sooryavanshi as India look to build on Asian Games success",
-   "u": "https://www.cricinfo.com/ci/content/story/1557193.html?ex_cid=OTC-RSS",
-   "d": "Mon, 05 Oct 2026"
-  },
-  {
-   "t": "India and West Indies fined for slow over-rates in third ODI",
-   "u": "https://www.cricinfo.com/ci/content/story/1557159.html?ex_cid=OTC-RSS",
-   "d": "Mon, 05 Oct 2026"
-  },
-  {
-   "t": "'My happy place is there in the middle' - Raghuvanshi is back after long layoff",
-   "u": "https://www.cricinfo.com/ci/content/story/1557144.html?ex_cid=OTC-RSS",
-   "d": "Mon, 05 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "IGNP71PgWUg",
+     "t": "Good to see Shreyas walk the talk of aggressive cricket: Dinesh Karthik"
+    },
     {
      "yt": "hdnSSyqCCnA",
      "t": "Smriti has shown the world she is ready to be captain: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "QKSAgcPV6-w",
      "t": "Preview: India vs West Indies - 1st T20I"
-    },
-    {
-     "yt": "aFnbudUIy8I",
-     "t": "ODI scenarios: Rahane makes some bold calls"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-07T04:03:57Z"
+ "updated": "2026-10-07T11:02:32Z"
 }
