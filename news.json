@@ -57,8 +57,12 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "ELPR-d5gDY0",
+     "t": "Tough on Vaibhav; but the pressure increases on Samson: Dinesh Karthik"
+    },
+    {
      "yt": "QvZpz81rtAI",
-     "t": "7th to World No. 1! How Kohli changed Indian Test cricket?"
+     "t": "How did Kohli save Indian Test cricket?"
     },
     {
      "yt": "IGNP71PgWUg",
@@ -75,10 +79,6 @@
     {
      "yt": "6M3Xh5OZ1QY",
      "t": "Harmanpreet\u2019s fearless leadership changed Indian women\u2019s cricket: Dinesh Karthik"
-    },
-    {
-     "yt": "A0wLy19KvEM",
-     "t": "Match Forecast: India vs West Indies, 1st T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-08T02:04:28Z"
+ "updated": "2026-10-08T08:53:06Z"
 }

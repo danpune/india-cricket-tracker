@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T02:03:15Z",
+ "updated": "2026-10-08T08:52:03Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8255,12 +8255,8 @@
      "winner": false
     }
    ],
-   "result": "",
-   "india": "",
-   "o": [
-    0.71,
-    0.29
-   ]
+   "result": "Starts at 19:00 local time",
+   "india": ""
   },
   {
    "id": "espn_1529232",
