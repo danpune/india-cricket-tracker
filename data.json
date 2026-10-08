@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T16:05:19Z",
+ "updated": "2026-10-08T21:15:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9397,126 +9397,6 @@
    ],
    "result": "",
    "india": ""
-  },
-  {
-   "id": "espn_1529244",
-   "eventId": "1529244",
-   "date": "2027-01-21T04:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "1st Test",
-   "venue": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1529245",
-   "eventId": "1529245",
-   "date": "2027-01-29T04:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "2nd Test",
-   "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1529246",
-   "eventId": "1529246",
-   "date": "2027-02-11T03:30Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "3rd Test",
-   "venue": "Barsapara Cricket Stadium, Guwahati",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1529247",
-   "eventId": "1529247",
-   "date": "2027-02-19T04:00Z",
-   "gender": "men",
-   "format": "Test",
-   "series": "Australia tour of India 2026/27",
-   "seriesId": "24281",
-   "matchNo": "4th Test",
-   "venue": "JSCA International Stadium Complex, Ranchi",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "Australia",
-     "abbr": "AUS",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
   }
  ],
  "series": [
@@ -9558,11 +9438,6 @@
   {
    "id": "24289",
    "name": "West Indies tour of India 2026/27",
-   "gender": "men"
-  },
-  {
-   "id": "24281",
-   "name": "Australia tour of India 2026/27",
    "gender": "men"
   },
   {
