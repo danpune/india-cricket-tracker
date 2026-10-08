@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Kotak: Bhuvneshwar probably recalled to add experience in Bumrah's absence",
+   "u": "https://www.cricinfo.com/ci/content/story/1557658.html?ex_cid=OTC-RSS",
+   "d": "Thu, 08 Oct 2026"
+  },
+  {
+   "t": "Can West Indies find a way to halt India's home juggernaut?",
+   "u": "https://www.cricinfo.com/ci/content/story/1557628.html?ex_cid=OTC-RSS",
+   "d": "Thu, 08 Oct 2026"
+  },
+  {
    "t": "Iyer: 'If it's your day, make sure that you win the match for your team'",
    "u": "https://www.cricinfo.com/ci/content/story/1557440.html?ex_cid=OTC-RSS",
    "d": "Wed, 07 Oct 2026"
@@ -39,16 +49,6 @@
    "t": "Harmanpreet Kaur steps down as India captain",
    "u": "https://www.cricinfo.com/ci/content/story/1557275.html?ex_cid=OTC-RSS",
    "d": "Tue, 06 Oct 2026"
-  },
-  {
-   "t": "Naman Dhir and Kamil Pooran debut in Lucknow after India opt to bowl",
-   "u": "https://www.cricinfo.com/ci/content/story/1557314.html?ex_cid=OTC-RSS",
-   "d": "Tue, 06 Oct 2026"
-  },
-  {
-   "t": "Morkel: Mayank, Prince 'still learning the trade' in small windows",
-   "u": "https://www.cricinfo.com/ci/content/story/1557225.html?ex_cid=OTC-RSS",
-   "d": "Mon, 05 Oct 2026"
   }
  ],
  "talk": [
@@ -57,12 +57,16 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "tpjYTXcrtDw",
+     "t": "India vs West Indies, 2nd T20I: Preview"
+    },
+    {
      "yt": "ELPR-d5gDY0",
      "t": "Tough on Vaibhav; but the pressure increases on Samson: Dinesh Karthik"
     },
     {
      "yt": "QvZpz81rtAI",
-     "t": "How did Kohli save Indian Test cricket?"
+     "t": "7th to World No. 1! How Kohli changed Indian Test cricket?"
     },
     {
      "yt": "IGNP71PgWUg",
@@ -75,10 +79,6 @@
     {
      "yt": "c-XMvPrW4AU",
      "t": "Bhuvneshwar back for India! \u201cWell Deserved\u201d, say DK & Rahane"
-    },
-    {
-     "yt": "6M3Xh5OZ1QY",
-     "t": "Harmanpreet\u2019s fearless leadership changed Indian women\u2019s cricket: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-08T08:53:06Z"
+ "updated": "2026-10-08T16:07:02Z"
 }
