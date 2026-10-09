@@ -36465,6 +36465,215 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529231",
+   "date": "2026-10-09",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "2nd T20I",
+   "venue": "JSCA International Stadium Complex, Ranchi",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "249/5"
+    },
+    {
+     "name": "West Indies",
+     "score": "252/4 (18.3/20 ov, target 250)"
+    }
+   ],
+   "result": "West Indies won by 6 wkts (9b rem)",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "249/5 (20.0 ov)",
+     "bat": [
+      [
+       "Abhishek Sharma",
+       20,
+       12,
+       "c"
+      ],
+      [
+       "Sanju Samson",
+       82,
+       41,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       43,
+       22,
+       "b"
+      ],
+      [
+       "Shivam Dube",
+       7,
+       10,
+       "b"
+      ],
+      [
+       "Shreyas Iyer",
+       40,
+       18,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       44,
+       18,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       4,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Axar Patel",
+      "Arshdeep Singh",
+      "Mayank Yadav",
+      "Kuldeep Yadav"
+     ],
+     "bowl": [
+      [
+       "Rovman Powell",
+       "0.2",
+       7,
+       0
+      ],
+      [
+       "Romario Shepherd",
+       "3.4",
+       47,
+       0
+      ],
+      [
+       "Roston Chase",
+       "4",
+       24,
+       3
+      ],
+      [
+       "Shamar Springer",
+       "4",
+       64,
+       2
+      ],
+      [
+       "Akeal Hosein",
+       "3",
+       46,
+       0
+      ],
+      [
+       "Shamar Joseph",
+       "3",
+       39,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "2",
+       21,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "West Indies",
+     "total": "252/4 (18.3 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       102,
+       45,
+       "not out"
+      ],
+      [
+       "Kamil Pooran",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Shimron Hetmyer",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Rovman Powell",
+       24,
+       13,
+       "b"
+      ],
+      [
+       "Sherfane Rutherford",
+       84,
+       37,
+       "c"
+      ],
+      [
+       "Romario Shepherd",
+       34,
+       13,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Roston Chase",
+      "Shamar Springer",
+      "Akeal Hosein",
+      "Shamar Joseph",
+      "Gudakesh Motie"
+     ],
+     "bowl": [
+      [
+       "Shivam Dube",
+       "2",
+       30,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "2",
+       25,
+       0
+      ],
+      [
+       "Axar Patel",
+       "3.3",
+       63,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       45,
+       0
+      ],
+      [
+       "Mayank Yadav",
+       "3",
+       36,
+       3
+      ],
+      [
+       "Kuldeep Yadav",
+       "4",
+       53,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
