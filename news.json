@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Factionalism leaves Arunachal in danger of forfeiting Ranji season opener",
+   "u": "https://www.cricinfo.com/ci/content/story/1557679.html?ex_cid=OTC-RSS",
+   "d": "Fri, 09 Oct 2026"
+  },
+  {
    "t": "Kotak: Bhuvneshwar probably recalled to add experience in Bumrah's absence",
    "u": "https://www.cricinfo.com/ci/content/story/1557658.html?ex_cid=OTC-RSS",
    "d": "Thu, 08 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "McSweeney 123, Beardman four-for down India A",
    "u": "https://www.cricinfo.com/ci/content/story/1557352.html?ex_cid=OTC-RSS",
    "d": "Tue, 06 Oct 2026"
-  },
-  {
-   "t": "Harmanpreet Kaur steps down as India captain",
-   "u": "https://www.cricinfo.com/ci/content/story/1557275.html?ex_cid=OTC-RSS",
-   "d": "Tue, 06 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "Vn4SDgm1CNE",
+     "t": "Match Forecast: India vs West Indies, 2nd T20I"
+    },
     {
      "yt": "tpjYTXcrtDw",
      "t": "India vs West Indies, 2nd T20I: Preview"
@@ -66,7 +70,7 @@
     },
     {
      "yt": "QvZpz81rtAI",
-     "t": "India\u2019s Best Captain? How Kohli conquered Test cricket"
+     "t": "How did Kohli save Indian Test cricket?"
     },
     {
      "yt": "IGNP71PgWUg",
@@ -75,10 +79,6 @@
     {
      "yt": "hdnSSyqCCnA",
      "t": "Smriti has shown the world she is ready to be captain: Dinesh Karthik"
-    },
-    {
-     "yt": "c-XMvPrW4AU",
-     "t": "Bhuvneshwar back for India! \u201cWell Deserved\u201d, say DK & Rahane"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-09T01:17:00Z"
+ "updated": "2026-10-09T07:28:41Z"
 }

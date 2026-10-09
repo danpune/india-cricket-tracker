@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T01:15:18Z",
+ "updated": "2026-10-09T07:27:22Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10586,35 +10586,18 @@
    "more": 15,
    "matches": [
     {
-     "date": "2026-10-11T04:00Z",
-     "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground, Mulapadu, Vijayawada",
-     "teams": [
-      {
-       "name": "Andhra",
-       "score": ""
-      },
-      {
-       "name": "Karnataka",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-10-11T04:00Z",
+     "date": "2026-10-11T02:45Z",
      "desc": "Plate Group",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+     "venue": "SICA ground, Rangpo",
      "teams": [
       {
-       "name": "Arunachal Pradesh",
+       "name": "Sikkim",
        "score": ""
       },
       {
-       "name": "Nagaland",
+       "name": "Meghalaya",
        "score": ""
       }
      ]
@@ -10649,6 +10632,23 @@
       },
       {
        "name": "Uttar Pradesh",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-11T03:30Z",
+     "desc": "Elite, Group C",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Keenan Stadium, Jamshedpur",
+     "teams": [
+      {
+       "name": "Jharkhand",
+       "score": ""
+      },
+      {
+       "name": "Kerala",
        "score": ""
       }
      ]
