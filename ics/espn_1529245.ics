@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:indiacricket
+BEGIN:VEVENT
+UID:espn_1529245@india-cricket-tracker
+DTSTART:20270129T040000Z
+DTEND:20270129T110000Z
+SUMMARY:India v Australia 🏏 2nd Test
+LOCATION:MA Chidambaram Stadium  Chepauk  Chennai
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+END:VCALENDAR

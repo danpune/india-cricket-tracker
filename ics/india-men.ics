@@ -108,6 +108,38 @@ LOCATION:M.Chinnaswamy Stadium  Bengaluru
 DESCRIPTION:West Indies tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
+UID:espn_1529244@india-cricket-tracker
+DTSTART:20270121T040000Z
+DTEND:20270121T110000Z
+SUMMARY:India v Australia 🏏 1st Test
+LOCATION:Vidarbha Cricket Association Stadium  Jamtha  Nagpur
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529245@india-cricket-tracker
+DTSTART:20270129T040000Z
+DTEND:20270129T110000Z
+SUMMARY:India v Australia 🏏 2nd Test
+LOCATION:MA Chidambaram Stadium  Chepauk  Chennai
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529246@india-cricket-tracker
+DTSTART:20270211T033000Z
+DTEND:20270211T103000Z
+SUMMARY:India v Australia 🏏 3rd Test
+LOCATION:Barsapara Cricket Stadium  Guwahati
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
+UID:espn_1529247@india-cricket-tracker
+DTSTART:20270219T040000Z
+DTEND:20270219T110000Z
+SUMMARY:India v Australia 🏏 4th Test
+LOCATION:JSCA International Stadium Complex  Ranchi
+DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
+END:VEVENT
+BEGIN:VEVENT
 UID:espn_1539432@india-cricket-tracker
 DTSTART:20261022T070000Z
 DTEND:20261022T110000Z
