@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "India and West Indies head to Indore for potential run-fest with series level",
+   "u": "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
+   "d": "Sat, 10 Oct 2026"
+  },
+  {
    "t": "Gambhir: 'Bowlers' careers are at stake'",
    "u": "https://www.cricinfo.com/ci/content/story/1557814.html?ex_cid=OTC-RSS",
    "d": "Sat, 10 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Shreyas Iyer rises to No. 7 in ICC rankings after maiden T20I century",
    "u": "https://www.cricinfo.com/ci/content/story/1557428.html?ex_cid=OTC-RSS",
    "d": "Wed, 07 Oct 2026"
-  },
-  {
-   "t": "Baloda takes 14 to script three-day win for India U-19 over Australia U-19",
-   "u": "https://www.cricinfo.com/ci/content/story/1557391.html?ex_cid=OTC-RSS",
-   "d": "Wed, 07 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "OKPQVVhWMsw",
+     "t": "IPL Impact player rule: Stay or Go? DK and Rahane debate"
+    },
+    {
+     "yt": "FSE0zGni9pI",
+     "t": "Was gutsy of Ishan Kishan to take a \u2018mental-health\u2019 break: Rahane"
+    },
     {
      "yt": "65EyODOrK3I",
      "t": "\u2018India\u2019s fielding standards have dropped\u2019! DK\u2019s honest take"
@@ -71,14 +79,6 @@
     {
      "yt": "ELPR-d5gDY0",
      "t": "Tough on Vaibhav; but the pressure increases on Samson: Dinesh Karthik"
-    },
-    {
-     "yt": "QvZpz81rtAI",
-     "t": "How Kohli Took India From 7th to No. 1 in Test Cricket"
-    },
-    {
-     "yt": "IGNP71PgWUg",
-     "t": "Good to see Shreyas walk the talk of aggressive cricket: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-10T09:06:58Z"
+ "updated": "2026-10-10T15:19:34Z"
 }
