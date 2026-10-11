@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T18:57:58Z",
+ "updated": "2026-10-11T22:43:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6015,6 +6015,214 @@
    ]
   },
   {
+   "id": "espn_1550477",
+   "eventId": "1550477",
+   "date": "2026-09-18T05:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Asian Games Women's Cricket Competition",
+   "seriesId": "22546",
+   "matchNo": "4th Quarter-Final",
+   "venue": "Korogi Sports Park, Nisshin",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "Japan Women",
+     "abbr": "JPN-W",
+     "score": "57",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "59/2 (5/20 ov, target 58)",
+     "winner": true
+    }
+   ],
+   "result": "IND Women won by 8 wkts (90b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Japan Women",
+     "total": "57 (19.5 ov)",
+     "bat": [
+      [
+       "Haruna Iwasaki",
+       10,
+       22,
+       "c"
+      ],
+      [
+       "Ayaka Kato-Stafford",
+       25,
+       47,
+       "c"
+      ],
+      [
+       "Mai Yanagida",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Erika Oda",
+       5,
+       14,
+       "c"
+      ],
+      [
+       "Shimako Kato",
+       3,
+       10,
+       "c"
+      ],
+      [
+       "Akari Nishimura",
+       2,
+       9,
+       "c"
+      ],
+      [
+       "Hinase Goto",
+       1,
+       1,
+       "run out"
+      ],
+      [
+       "Ahilya Chandel",
+       0,
+       2,
+       "run out"
+      ],
+      [
+       "Ayumi Fujikawa",
+       4,
+       6,
+       "not out"
+      ],
+      [
+       "Erika Toguchi-Quinn",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Nonoha Yasumoto",
+       0,
+       5,
+       "b"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       13,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       14,
+       1
+      ],
+      [
+       "Shreyanka Patil",
+       "3.5",
+       8,
+       1
+      ],
+      [
+       "Shree Charani",
+       "4",
+       10,
+       4
+      ],
+      [
+       "Nandani Sharma",
+       "2",
+       6,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       4,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "59/2 (5.0 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       40,
+       15,
+       "not out"
+      ],
+      [
+       "Gunalan Kamalini",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       6,
+       7,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       12,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Smriti Mandhana",
+      "Harmanpreet Kaur",
+      "Deepti Sharma",
+      "Shreyanka Patil",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Ayaka Kato-Stafford",
+       "1",
+       14,
+       1
+      ],
+      [
+       "Shimako Kato",
+       "1",
+       20,
+       0
+      ],
+      [
+       "Ahilya Chandel",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Nonoha Yasumoto",
+       "2",
+       8,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1550479",
    "eventId": "1550479",
    "date": "2026-09-20T05:00Z",
@@ -8266,35 +8474,6 @@
    ],
    "result": "India won by 14 runs",
    "india": "won",
-   "seriesNote": "India led the 5-match series 2-1",
-   "xi": {
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Naman Dhir",
-     "Nitish Kumar Reddy",
-     "Axar Patel",
-     "Arshdeep Singh",
-     "Prince Yadav",
-     "Mayank Yadav"
-    ],
-    "West Indies": [
-     "Shai Hope (c)",
-     "Kamil Pooran",
-     "Shimron Hetmyer",
-     "Rovman Powell",
-     "Sherfane Rutherford",
-     "Quentin Sampson",
-     "Keemo Paul",
-     "Shamar Springer",
-     "Roston Chase",
-     "Shamar Joseph",
-     "Gudakesh Motie"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -8535,8 +8714,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.71,
-    0.29
+    0.72,
+    0.28
    ]
   },
   {
@@ -8567,11 +8746,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.93,
-    0.07
-   ]
+   "india": ""
   },
   {
    "id": "espn_1529234",
@@ -9174,6 +9349,36 @@
    "india": ""
   },
   {
+   "id": "espn_1529235",
+   "eventId": "1529235",
+   "date": "2026-12-13T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st ODI",
+   "venue": "Arun Jaitley Stadium, Delhi",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1543893",
    "eventId": "1543893",
    "date": "2026-12-16T08:00Z",
@@ -9196,6 +9401,66 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529236",
+   "eventId": "1529236",
+   "date": "2026-12-16T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd ODI",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529237",
+   "eventId": "1529237",
+   "date": "2026-12-19T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "3rd ODI",
+   "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
@@ -9264,6 +9529,66 @@
    "india": ""
   },
   {
+   "id": "espn_1529238",
+   "eventId": "1529238",
+   "date": "2026-12-22T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st T20I",
+   "venue": "Niranjan Shah Stadium, Rajkot",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529239",
+   "eventId": "1529239",
+   "date": "2026-12-24T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "2nd T20I",
+   "venue": "Barabati Stadium, Cuttack",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1548868",
    "eventId": "1548868",
    "date": "2026-12-26T16:00Z",
@@ -9286,6 +9611,36 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529240",
+   "eventId": "1529240",
+   "date": "2026-12-27T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "3rd T20I",
+   "venue": "Maharashtra Cricket Association Stadium, Pune",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
@@ -9593,6 +9948,11 @@
   {
    "id": "24283",
    "name": "Zimbabwe tour of India 2026/27",
+   "gender": "men"
+  },
+  {
+   "id": "24286",
+   "name": "Sri Lanka tour of India 2026/27",
    "gender": "men"
   },
   {
