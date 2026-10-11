@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T01:19:45Z",
+ "updated": "2026-10-11T07:20:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -1651,245 +1651,6 @@
        "4",
        21,
        0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1528549",
-   "eventId": "1528549",
-   "date": "2026-06-28T12:30Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "India tour of Ireland 2026",
-   "seriesId": "24258",
-   "matchNo": "2nd T20I",
-   "venue": "Civil Service Cricket Club, Stormont, Belfast",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "Ireland",
-     "abbr": "IRE",
-     "score": "154/8",
-     "winner": true
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "153/9 (20 ov, target 155)",
-     "winner": false
-    }
-   ],
-   "result": "Ireland won by 1 run",
-   "india": "lost",
-   "innings": [
-    {
-     "t": "Ireland",
-     "total": "154/8 (20 ov)",
-     "bat": [
-      [
-       "TH Tector",
-       5,
-       6,
-       "c"
-      ],
-      [
-       "GR Adair",
-       16,
-       7,
-       "c"
-      ],
-      [
-       "HT Tector",
-       53,
-       47,
-       "c"
-      ],
-      [
-       "L Tucker",
-       15,
-       18,
-       "c"
-      ],
-      [
-       "BF Calitz",
-       37,
-       23,
-       "c"
-      ],
-      [
-       "GJ Delany",
-       0,
-       1,
-       "b"
-      ],
-      [
-       "GH Dockrell",
-       19,
-       14,
-       "c"
-      ],
-      [
-       "L McCarthy",
-       2,
-       4,
-       "c"
-      ],
-      [
-       "J Moondra",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "MK Hollard",
-      "MJ Humphreys"
-     ],
-     "bowl": [
-      [
-       "Arshdeep Singh",
-       "4",
-       35,
-       2
-      ],
-      [
-       "Harshit Rana",
-       "3",
-       17,
-       1
-      ],
-      [
-       "Prince Yadav",
-       "4",
-       22,
-       3
-      ],
-      [
-       "S Dube",
-       "3",
-       25,
-       2
-      ],
-      [
-       "Suryansh Shedge",
-       "2",
-       25,
-       0
-      ],
-      [
-       "AR Patel",
-       "4",
-       28,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "153/9 (20 ov)",
-     "bat": [
-      [
-       "SV Samson",
-       0,
-       1,
-       "lbw"
-      ],
-      [
-       "Abhishek Sharma",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Ishan Kishan",
-       12,
-       11,
-       "run out"
-      ],
-      [
-       "SS Iyer",
-       10,
-       7,
-       "b"
-      ],
-      [
-       "Tilak Varma",
-       55,
-       46,
-       "c"
-      ],
-      [
-       "AR Patel",
-       14,
-       18,
-       "c"
-      ],
-      [
-       "S Dube",
-       20,
-       16,
-       "c"
-      ],
-      [
-       "Suryansh Shedge",
-       1,
-       5,
-       "c"
-      ],
-      [
-       "Harshit Rana",
-       21,
-       10,
-       "c"
-      ],
-      [
-       "Arshdeep Singh",
-       4,
-       5,
-       "not out"
-      ],
-      [
-       "Prince Yadav",
-       6,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "J Moondra",
-       "4",
-       32,
-       3
-      ],
-      [
-       "MJ Humphreys",
-       "4",
-       28,
-       1
-      ],
-      [
-       "MK Hollard",
-       "4",
-       26,
-       3
-      ],
-      [
-       "L McCarthy",
-       "4",
-       22,
-       0
-      ],
-      [
-       "HT Tector",
-       "4",
-       40,
-       1
       ]
      ]
     }
@@ -8473,7 +8234,11 @@
     }
    ],
    "result": "Starts at 19:00 local time",
-   "india": ""
+   "india": "",
+   "o": [
+    0.735,
+    0.265
+   ]
   },
   {
    "id": "espn_1529233",
@@ -8849,36 +8614,6 @@
    "seriesId": "24469",
    "matchNo": "5th T20I",
    "venue": "Seddon Park, Hamilton",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "New Zealand",
-     "abbr": "NZ",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1539437",
-   "eventId": "1539437",
-   "date": "2026-11-04T02:00Z",
-   "gender": "men",
-   "format": "ODI",
-   "series": "India tour of New Zealand 2026/27",
-   "seriesId": "24469",
-   "matchNo": "1st ODI",
-   "venue": "Eden Park, Auckland",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -9714,11 +9449,6 @@
   {
    "id": "23810",
    "name": "India tour of England 2026",
-   "gender": "men"
-  },
-  {
-   "id": "24258",
-   "name": "India tour of Ireland 2026",
    "gender": "men"
   },
   {
@@ -10784,13 +10514,13 @@
     {
      "date": "2026-10-11T02:45Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "SICA ground, Rangpo",
      "teams": [
       {
        "name": "Sikkim",
-       "score": ""
+       "score": "162/7 (51 ov)"
       },
       {
        "name": "Meghalaya",
@@ -10801,8 +10531,8 @@
     {
      "date": "2026-10-11T03:30Z",
      "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Bengal Cricket Academy Ground, Kalyani",
      "teams": [
       {
@@ -10811,15 +10541,15 @@
       },
       {
        "name": "Delhi",
-       "score": ""
+       "score": "103/3 (35 ov)"
       }
      ]
     },
     {
      "date": "2026-10-11T03:30Z",
      "desc": "Elite, Group A",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Rajgir International Cricket Stadium, Rajgir",
      "teams": [
       {
@@ -10828,20 +10558,20 @@
       },
       {
        "name": "Uttar Pradesh",
-       "score": ""
+       "score": "75/2 (27 ov)"
       }
      ]
     },
     {
      "date": "2026-10-11T03:30Z",
      "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Keenan Stadium, Jamshedpur",
      "teams": [
       {
        "name": "Jharkhand",
-       "score": ""
+       "score": "151/1 (42 ov)"
       },
       {
        "name": "Kerala",

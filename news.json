@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "5zTrpwZgVMc",
+     "t": "India vs West Indies, 3rd T20I: Preview"
+    },
+    {
      "yt": "OKPQVVhWMsw",
      "t": "IPL Impact player rule: Stay or Go? DK and Rahane debate"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "tpjYTXcrtDw",
      "t": "India vs West Indies, 2nd T20I: Preview"
-    },
-    {
-     "yt": "ELPR-d5gDY0",
-     "t": "Tough on Vaibhav; but the pressure increases on Samson: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-11T01:21:14Z"
+ "updated": "2026-10-11T07:23:06Z"
 }
