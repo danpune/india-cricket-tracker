@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Arshdeep and Abhishek power India to 2-1 lead",
+   "u": "https://www.cricinfo.com/ci/content/story/1558036.html?ex_cid=OTC-RSS",
+   "d": "Sun, 11 Oct 2026"
+  },
+  {
    "t": "West Indies bowl; India bring in Reddy and Prince",
    "u": "https://www.cricinfo.com/ci/content/story/1557996.html?ex_cid=OTC-RSS",
    "d": "Sun, 11 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Can West Indies find a way to halt India's home juggernaut?",
    "u": "https://www.cricinfo.com/ci/content/story/1557628.html?ex_cid=OTC-RSS",
    "d": "Thu, 08 Oct 2026"
-  },
-  {
-   "t": "Iyer: 'If it's your day, make sure that you win the match for your team'",
-   "u": "https://www.cricinfo.com/ci/content/story/1557440.html?ex_cid=OTC-RSS",
-   "d": "Wed, 07 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "_Bh0koWYEew",
+     "t": "Cricbuzz Live: India go 2-1 up after a commanding win over West Indies"
+    },
+    {
+     "yt": "QTBLg5Eujd0",
+     "t": "Error of Judgement from Tilak Varma? Rahane & DK explain"
+    },
     {
      "yt": "5zTrpwZgVMc",
      "t": "India vs West Indies, 3rd T20I: Preview"
@@ -71,14 +79,6 @@
     {
      "yt": "65EyODOrK3I",
      "t": "\u2018India\u2019s fielding standards have dropped\u2019! DK\u2019s honest take"
-    },
-    {
-     "yt": "Vn4SDgm1CNE",
-     "t": "Match Forecast: India vs West Indies, 2nd T20I"
-    },
-    {
-     "yt": "tpjYTXcrtDw",
-     "t": "India vs West Indies, 2nd T20I: Preview"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-11T14:13:07Z"
+ "updated": "2026-10-11T19:01:24Z"
 }

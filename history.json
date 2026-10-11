@@ -36674,6 +36674,237 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529232",
+   "date": "2026-10-11",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "3rd T20I",
+   "venue": "Holkar Cricket Stadium, Indore",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "223"
+    },
+    {
+     "name": "West Indies",
+     "score": "209/7 (20 ov, target 224)"
+    }
+   ],
+   "result": "India won by 14 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "223 (20.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       69,
+       30,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       37,
+       18,
+       "st"
+      ],
+      [
+       "Shreyas Iyer",
+       1,
+       2,
+       "lbw"
+      ],
+      [
+       "Tilak Varma",
+       28,
+       16,
+       "run out"
+      ],
+      [
+       "Naman Dhir",
+       10,
+       5,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       21,
+       14,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       20,
+       14,
+       "run out"
+      ],
+      [
+       "Arshdeep Singh",
+       11,
+       8,
+       "lbw"
+      ],
+      [
+       "Prince Yadav",
+       13,
+       6,
+       "not out"
+      ],
+      [
+       "Mayank Yadav",
+       0,
+       1,
+       "b"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Keemo Paul",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Shamar Springer",
+       "4",
+       50,
+       2
+      ],
+      [
+       "Roston Chase",
+       "4",
+       38,
+       2
+      ],
+      [
+       "Shamar Joseph",
+       "4",
+       54,
+       2
+      ],
+      [
+       "Gudakesh Motie",
+       "4",
+       37,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "West Indies",
+     "total": "209/7 (20.0 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       5,
+       5,
+       "b"
+      ],
+      [
+       "Kamil Pooran",
+       42,
+       27,
+       "c"
+      ],
+      [
+       "Shimron Hetmyer",
+       43,
+       26,
+       "b"
+      ],
+      [
+       "Rovman Powell",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Sherfane Rutherford",
+       32,
+       20,
+       "b"
+      ],
+      [
+       "Quentin Sampson",
+       21,
+       15,
+       "c"
+      ],
+      [
+       "Keemo Paul",
+       10,
+       6,
+       "c"
+      ],
+      [
+       "Shamar Springer",
+       35,
+       11,
+       "not out"
+      ],
+      [
+       "Roston Chase",
+       5,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shamar Joseph",
+      "Gudakesh Motie"
+     ],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "3",
+       39,
+       2
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "2",
+       19,
+       1
+      ],
+      [
+       "Axar Patel",
+       "3",
+       33,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       44,
+       3
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       37,
+       0
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       34,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
