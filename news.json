@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Springer: 'Not much you can really do besides be defensive' against Abhishek",
+   "u": "https://www.cricinfo.com/ci/content/story/1558062.html?ex_cid=OTC-RSS",
+   "d": "Mon, 12 Oct 2026"
+  },
+  {
    "t": "Arshdeep and Abhishek power India to 2-1 lead",
    "u": "https://www.cricinfo.com/ci/content/story/1558036.html?ex_cid=OTC-RSS",
    "d": "Sun, 11 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Kotak: Bhuvneshwar probably recalled to add experience in Bumrah's absence",
    "u": "https://www.cricinfo.com/ci/content/story/1557658.html?ex_cid=OTC-RSS",
    "d": "Thu, 08 Oct 2026"
-  },
-  {
-   "t": "Can West Indies find a way to halt India's home juggernaut?",
-   "u": "https://www.cricinfo.com/ci/content/story/1557628.html?ex_cid=OTC-RSS",
-   "d": "Thu, 08 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "zGZ_O69HbUk",
+     "t": "Abhishek Sharma dominating like a \u2018world superpower\u2019: Dinesh Karthik"
+    },
     {
      "yt": "_Bh0koWYEew",
      "t": "Cricbuzz Live: India go 2-1 up after a commanding win over West Indies"
@@ -75,10 +79,6 @@
     {
      "yt": "FSE0zGni9pI",
      "t": "Was gutsy of Ishan Kishan to take a \u2018mental-health\u2019 break: Rahane"
-    },
-    {
-     "yt": "65EyODOrK3I",
-     "t": "\u2018India\u2019s fielding standards have dropped\u2019! DK\u2019s honest take"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-12T01:51:40Z"
+ "updated": "2026-10-12T08:08:09Z"
 }

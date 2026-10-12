@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T01:49:01Z",
+ "updated": "2026-10-12T08:06:26Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -6571,6 +6571,217 @@
    ]
   },
   {
+   "id": "espn_1529227",
+   "eventId": "1529227",
+   "date": "2026-09-27T08:30Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "West Indies tour of India 2026/27",
+   "seriesId": "24289",
+   "matchNo": "1st ODI",
+   "venue": "Greenfield International Stadium, Thiruvananthapuram",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "300/2 (41.4/50 ov, target 296)",
+     "winner": true
+    },
+    {
+     "name": "West Indies",
+     "abbr": "WI",
+     "score": "295/7",
+     "winner": false
+    }
+   ],
+   "result": "India won by 8 wkts (50b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "295/7 (50.0 ov)",
+     "bat": [
+      [
+       "John Campbell",
+       62,
+       60,
+       "c"
+      ],
+      [
+       "Justin Greaves",
+       101,
+       108,
+       "lbw"
+      ],
+      [
+       "Keacy Carty",
+       13,
+       31,
+       "c"
+      ],
+      [
+       "Shai Hope",
+       12,
+       11,
+       "c"
+      ],
+      [
+       "Amir Jangoo",
+       58,
+       43,
+       "not out"
+      ],
+      [
+       "Jewel Andrew",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Roston Chase",
+       24,
+       32,
+       "b"
+      ],
+      [
+       "Matthew Forde",
+       7,
+       12,
+       "c"
+      ],
+      [
+       "Gudakesh Motie",
+       4,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Alzarri Joseph",
+      "Jayden Seales"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "10",
+       54,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "5",
+       33,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "5",
+       45,
+       1
+      ],
+      [
+       "Kuldeep Yadav",
+       "10",
+       40,
+       4
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       60,
+       0
+      ],
+      [
+       "Prasidh Krishna",
+       "10",
+       60,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "300/2 (41.4 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       32,
+       35,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       110,
+       108,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       139,
+       88,
+       "not out"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       13,
+       19,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ravindra Jadeja",
+      "KL Rahul",
+      "Naman Dhir",
+      "Nitish Kumar Reddy",
+      "Kuldeep Yadav",
+      "Gurnoor Brar",
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Keacy Carty",
+       "0.4",
+       17,
+       0
+      ],
+      [
+       "Roston Chase",
+       "10",
+       64,
+       1
+      ],
+      [
+       "Matthew Forde",
+       "5",
+       39,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "10",
+       66,
+       0
+      ],
+      [
+       "Alzarri Joseph",
+       "9",
+       81,
+       1
+      ],
+      [
+       "Jayden Seales",
+       "7",
+       32,
+       0
+      ]
+     ]
+    }
+   ]
+  },
+  {
    "id": "espn_1552773",
    "eventId": "1552773",
    "date": "2026-09-28T05:00Z",
@@ -8237,8 +8448,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.75,
-    0.25
+    0.745,
+    0.255
    ]
   },
   {
@@ -8722,6 +8933,36 @@
    "india": ""
   },
   {
+   "id": "espn_1539441",
+   "eventId": "1539441",
+   "date": "2026-11-15T02:00Z",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "seriesId": "24469",
+   "matchNo": "5th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "abbr": "NZ",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
    "id": "espn_1539442",
    "eventId": "1539442",
    "date": "2026-11-18T22:00Z",
@@ -9014,6 +9255,36 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529238",
+   "eventId": "1529238",
+   "date": "2026-12-22T13:30Z",
+   "gender": "men",
+   "format": "T20I",
+   "series": "Sri Lanka tour of India 2026/27",
+   "seriesId": "24286",
+   "matchNo": "1st T20I",
+   "venue": "Niranjan Shah Stadium, Rajkot",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Sri Lanka",
+     "abbr": "SL",
      "score": "",
      "winner": false
     }
@@ -10466,7 +10737,7 @@
       },
       {
        "name": "Meghalaya",
-       "score": "2/0 (1 ov)"
+       "score": "167/5 (61.5 ov)"
       }
      ]
     },
@@ -10479,11 +10750,11 @@
      "teams": [
       {
        "name": "Bengal",
-       "score": ""
+       "score": "168/3 (42 ov)"
       },
       {
        "name": "Delhi",
-       "score": "240 (77.3 ov)"
+       "score": "240"
       }
      ]
     },
@@ -10500,7 +10771,7 @@
       },
       {
        "name": "Uttar Pradesh",
-       "score": "287/3 (84 ov)"
+       "score": "449/6 (133 ov)"
       }
      ]
     },
@@ -10513,7 +10784,7 @@
      "teams": [
       {
        "name": "Jharkhand",
-       "score": "289/5 (90 ov)"
+       "score": "423/5 (143 ov)"
       },
       {
        "name": "Kerala",
