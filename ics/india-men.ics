@@ -52,14 +52,6 @@ LOCATION:Narendra Modi Stadium  Motera  Ahmedabad
 DESCRIPTION:Sri Lanka tour of India 2026/27
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1529238@india-cricket-tracker
-DTSTART:20261222T133000Z
-DTEND:20261222T173000Z
-SUMMARY:India v Sri Lanka 🏏 1st T20I
-LOCATION:Niranjan Shah Stadium  Rajkot
-DESCRIPTION:Sri Lanka tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1529239@india-cricket-tracker
 DTSTART:20261224T133000Z
 DTEND:20261224T173000Z
@@ -192,14 +184,6 @@ UID:espn_1539440@india-cricket-tracker
 DTSTART:20261113T020000Z
 DTEND:20261113T103000Z
 SUMMARY:New Zealand v India 🏏 4th ODI
-LOCATION:Bay Oval  Mount Maunganui
-DESCRIPTION:India tour of New Zealand 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1539441@india-cricket-tracker
-DTSTART:20261115T020000Z
-DTEND:20261115T103000Z
-SUMMARY:New Zealand v India 🏏 5th ODI
 LOCATION:Bay Oval  Mount Maunganui
 DESCRIPTION:India tour of New Zealand 2026/27
 END:VEVENT
