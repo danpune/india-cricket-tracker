@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:48:54Z",
+ "updated": "2026-10-13T03:57:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8746,7 +8746,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.95,
+    0.05
+   ]
   },
   {
    "id": "espn_1529234",
@@ -11003,7 +11007,7 @@
       },
       {
        "name": "Meghalaya",
-       "score": "238/5 (89 ov)"
+       "score": "261/7 (101 ov)"
       }
      ]
     },
@@ -11016,7 +11020,7 @@
      "teams": [
       {
        "name": "Bengal",
-       "score": "304/3 (79 ov)"
+       "score": "328/3 (83.4 ov)"
       },
       {
        "name": "Delhi",
@@ -11033,7 +11037,7 @@
      "teams": [
       {
        "name": "Bihar",
-       "score": "44/2 (18 ov)"
+       "score": "49/2 (19 ov)"
       },
       {
        "name": "Uttar Pradesh",
@@ -11050,11 +11054,11 @@
      "teams": [
       {
        "name": "Jharkhand",
-       "score": "587 (179.5 ov)"
+       "score": "587"
       },
       {
        "name": "Kerala",
-       "score": ""
+       "score": "20/0 (4 ov)"
       }
      ]
     }
