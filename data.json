@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T11:30:28Z",
+ "updated": "2026-10-13T23:01:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8714,8 +8714,8 @@
    "result": "Starts at 19:00 local time",
    "india": "",
    "o": [
-    0.72,
-    0.28
+    0.73,
+    0.27
    ]
   },
   {
@@ -8746,11 +8746,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.955,
-    0.045
-   ]
+   "india": ""
   },
   {
    "id": "espn_1529234",
@@ -9683,36 +9679,6 @@
    "india": ""
   },
   {
-   "id": "espn_1548870",
-   "eventId": "1548870",
-   "date": "2026-12-30T16:00Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "3rd T20I",
-   "venue": "Senwes Park, Potchefstroom",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
    "id": "espn_1529241",
    "eventId": "1529241",
    "date": "2027-01-03T08:30Z",
@@ -10073,7 +10039,7 @@
       "no": "6",
       "name": "Bangladesh",
       "team": "Bangladesh",
-      "rating": "78"
+      "rating": "77"
      },
      {
       "no": "7",
@@ -10100,7 +10066,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-09-12",
+    "updated": "2026-09-13",
     "bat": [
      {
       "no": "1",
@@ -10451,7 +10417,7 @@
       "no": "6",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "241"
+      "rating": "240"
      },
      {
       "no": "7",
@@ -10469,7 +10435,7 @@
       "no": "9",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "220"
+      "rating": "221"
      },
      {
       "no": "10",
@@ -10992,7 +10958,7 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "more": 15,
+   "more": 12,
    "matches": [
     {
      "date": "2026-10-11T02:45Z",
@@ -11046,19 +11012,19 @@
      ]
     },
     {
-     "date": "2026-10-11T03:30Z",
-     "desc": "Elite, Group A",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Rajgir International Cricket Stadium, Rajgir",
+     "date": "2026-10-11T04:00Z",
+     "desc": "Elite, Group B",
+     "state": "in",
+     "detail": "Live",
+     "venue": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground, Mulapadu, Vijayawada",
      "teams": [
       {
-       "name": "Bihar",
-       "score": "141 & 132 (36.4 ov) (f/o)"
+       "name": "Andhra",
+       "score": "418"
       },
       {
-       "name": "Uttar Pradesh",
-       "score": "540"
+       "name": "Karnataka",
+       "score": "274 & 176/4 (60 ov)"
       }
      ]
     }

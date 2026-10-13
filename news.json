@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Delhi Capitals unveil Yuvraj as assistant and batting coach",
+   "u": "https://www.cricinfo.com/ci/content/story/1558307.html?ex_cid=OTC-RSS",
+   "d": "Tue, 13 Oct 2026"
+  },
+  {
    "t": "Another batting paradise greets India and West Indies in Hyderabad",
    "u": "https://www.cricinfo.com/ci/content/story/1558270.html?ex_cid=OTC-RSS",
    "d": "Tue, 13 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Konstas, Philippe and Johnson secure 2-0 lead for Australia A",
    "u": "https://www.cricinfo.com/ci/content/story/1557747.html?ex_cid=OTC-RSS",
    "d": "Fri, 09 Oct 2026"
-  },
-  {
-   "t": "Factionalism leaves Arunachal in danger of forfeiting Ranji season opener",
-   "u": "https://www.cricinfo.com/ci/content/story/1557679.html?ex_cid=OTC-RSS",
-   "d": "Fri, 09 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "FNbGmNOa9fE",
+     "t": "India vs West Indies, 4th T20I: Preview"
+    },
     {
      "yt": "hGj_hrK39PM",
      "t": "India must strengthen their bowling, not just bat deep: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "QTBLg5Eujd0",
      "t": "Error of Judgement from Tilak Varma? Rahane & DK explain"
-    },
-    {
-     "yt": "5zTrpwZgVMc",
-     "t": "India vs West Indies, 3rd T20I: Preview"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-13T11:31:56Z"
+ "updated": "2026-10-13T23:03:27Z"
 }
