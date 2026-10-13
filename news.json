@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Another batting paradise greets India and West Indies in Hyderabad",
+   "u": "https://www.cricinfo.com/ci/content/story/1558270.html?ex_cid=OTC-RSS",
+   "d": "Tue, 13 Oct 2026"
+  },
+  {
    "t": "Springer: 'Not much you can really do besides be defensive' against Abhishek",
    "u": "https://www.cricinfo.com/ci/content/story/1558062.html?ex_cid=OTC-RSS",
    "d": "Mon, 12 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Factionalism leaves Arunachal in danger of forfeiting Ranji season opener",
    "u": "https://www.cricinfo.com/ci/content/story/1557679.html?ex_cid=OTC-RSS",
    "d": "Fri, 09 Oct 2026"
-  },
-  {
-   "t": "Kotak: Bhuvneshwar probably recalled to add experience in Bumrah's absence",
-   "u": "https://www.cricinfo.com/ci/content/story/1557658.html?ex_cid=OTC-RSS",
-   "d": "Thu, 08 Oct 2026"
   }
  ],
  "talk": [
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-13T04:00:19Z"
+ "updated": "2026-10-13T11:31:56Z"
 }

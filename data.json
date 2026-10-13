@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T03:57:31Z",
+ "updated": "2026-10-13T11:30:28Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8711,11 +8711,11 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 19:00 local time",
    "india": "",
    "o": [
-    0.73,
-    0.27
+    0.72,
+    0.28
    ]
   },
   {
@@ -8748,8 +8748,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.95,
-    0.05
+    0.955,
+    0.045
    ]
   },
   {
@@ -10669,7 +10669,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-10-05",
+    "updated": "2026-10-11",
     "bat": [
      {
       "no": "1",
@@ -10685,21 +10685,21 @@
      },
      {
       "no": "3",
-      "name": "Beth Mooney",
-      "team": "Australia",
-      "rating": "744"
-     },
-     {
-      "no": "4",
       "name": "Hayley Matthews",
       "team": "West Indies",
+      "rating": "731"
+     },
+     {
+      "no": "=",
+      "name": "Beth Mooney",
+      "team": "Australia",
       "rating": "731"
      },
      {
       "no": "5",
       "name": "Phoebe Litchfield",
       "team": "Australia",
-      "rating": "709"
+      "rating": "727"
      },
      {
       "no": "6",
@@ -10727,9 +10727,9 @@
      },
      {
       "no": "10",
-      "name": "Sidra Amin",
-      "team": "Pakistan",
-      "rating": "648"
+      "name": "Ellyse Perry",
+      "team": "Australia",
+      "rating": "650"
      }
     ],
     "bowl": [
@@ -10737,13 +10737,13 @@
       "no": "1",
       "name": "Alana King",
       "team": "Australia",
-      "rating": "753"
+      "rating": "745"
      },
      {
       "no": "2",
       "name": "Ashleigh Gardner",
       "team": "Australia",
-      "rating": "715"
+      "rating": "698"
      },
      {
       "no": "3",
@@ -10753,36 +10753,36 @@
      },
      {
       "no": "4",
+      "name": "Annabel Sutherland",
+      "team": "Australia",
+      "rating": "662"
+     },
+     {
+      "no": "5",
+      "name": "Megan Schutt",
+      "team": "Australia",
+      "rating": "657"
+     },
+     {
+      "no": "6",
       "name": "Marizanne Kapp",
       "team": "South Africa",
       "rating": "650"
      },
      {
-      "no": "5",
-      "name": "Annabel Sutherland",
-      "team": "Australia",
-      "rating": "646"
-     },
-     {
-      "no": "6",
+      "no": "7",
       "name": "Hayley Matthews",
       "team": "West Indies",
       "rating": "639"
      },
      {
-      "no": "7",
-      "name": "Megan Schutt",
-      "team": "Australia",
-      "rating": "624"
-     },
-     {
       "no": "8",
       "name": "Kim Garth",
       "team": "Australia",
-      "rating": "614"
+      "rating": "616"
      },
      {
-      "no": "=",
+      "no": "9",
       "name": "Deepti Sharma",
       "team": "India",
       "rating": "614"
@@ -10858,7 +10858,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-10-05",
+    "updated": "2026-10-07",
     "bat": [
      {
       "no": "1",
@@ -10892,15 +10892,15 @@
      },
      {
       "no": "6",
-      "name": "Hayley Matthews",
-      "team": "West Indies",
-      "rating": "739"
-     },
-     {
-      "no": "7",
       "name": "Chamari Athapaththu",
       "team": "Sri Lanka",
       "rating": "735"
+     },
+     {
+      "no": "7",
+      "name": "Hayley Matthews",
+      "team": "West Indies",
+      "rating": "732"
      },
      {
       "no": "8",
@@ -11003,11 +11003,11 @@
      "teams": [
       {
        "name": "Sikkim",
-       "score": "245"
+       "score": "245 & 44/0 (28 ov)"
       },
       {
        "name": "Meghalaya",
-       "score": "261/7 (101 ov)"
+       "score": "395"
       }
      ]
     },
@@ -11020,28 +11020,11 @@
      "teams": [
       {
        "name": "Bengal",
-       "score": "328/3 (83.4 ov)"
+       "score": "429"
       },
       {
        "name": "Delhi",
-       "score": "240"
-      }
-     ]
-    },
-    {
-     "date": "2026-10-11T03:30Z",
-     "desc": "Elite, Group A",
-     "state": "in",
-     "detail": "Live",
-     "venue": "Rajgir International Cricket Stadium, Rajgir",
-     "teams": [
-      {
-       "name": "Bihar",
-       "score": "49/2 (19 ov)"
-      },
-      {
-       "name": "Uttar Pradesh",
-       "score": "540"
+       "score": "240 & 101/3 (45 ov)"
       }
      ]
     },
@@ -11058,7 +11041,24 @@
       },
       {
        "name": "Kerala",
-       "score": "20/0 (4 ov)"
+       "score": "269/6 (90 ov)"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-11T03:30Z",
+     "desc": "Elite, Group A",
+     "state": "post",
+     "detail": "Final",
+     "venue": "Rajgir International Cricket Stadium, Rajgir",
+     "teams": [
+      {
+       "name": "Bihar",
+       "score": "141 & 132 (36.4 ov) (f/o)"
+      },
+      {
+       "name": "Uttar Pradesh",
+       "score": "540"
       }
      ]
     }
