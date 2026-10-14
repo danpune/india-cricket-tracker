@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T06:46:24Z",
+ "updated": "2026-10-14T12:27:50Z",
  "matches": [
   {
    "id": "espn_1538226",
@@ -7585,8 +7585,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.925,
-    0.075
+    0.94,
+    0.06
    ]
   },
   {
@@ -8937,7 +8937,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-09-15",
+    "updated": "2026-10-13",
     "bat": [
      {
       "no": "1",
@@ -8949,7 +8949,7 @@
       "no": "2",
       "name": "Steve Smith",
       "team": "Australia",
-      "rating": "840"
+      "rating": "822"
      },
      {
       "no": "3",
@@ -8961,19 +8961,19 @@
       "no": "4",
       "name": "Travis Head",
       "team": "Australia",
-      "rating": "811"
+      "rating": "778"
      },
      {
       "no": "5",
-      "name": "Temba Bavuma",
-      "team": "South Africa",
-      "rating": "775"
-     },
-     {
-      "no": "6",
       "name": "Rachin Ravindra",
       "team": "New Zealand",
       "rating": "740"
+     },
+     {
+      "no": "6",
+      "name": "Temba Bavuma",
+      "team": "South Africa",
+      "rating": "735"
      },
      {
       "no": "7",
@@ -8995,8 +8995,8 @@
      },
      {
       "no": "10",
-      "name": "Kamindu Mendis",
-      "team": "Sri Lanka",
+      "name": "Aiden Markram",
+      "team": "South Africa",
       "rating": "706"
      }
     ],
@@ -9005,7 +9005,7 @@
       "no": "1",
       "name": "Mitchell Starc",
       "team": "Australia",
-      "rating": "872"
+      "rating": "865"
      },
      {
       "no": "2",
@@ -9029,31 +9029,31 @@
       "no": "5",
       "name": "Pat Cummins",
       "team": "Australia",
-      "rating": "841"
+      "rating": "846"
      },
      {
       "no": "6",
       "name": "Marco Jansen",
       "team": "South Africa",
-      "rating": "825"
+      "rating": "831"
      },
      {
       "no": "7",
-      "name": "Kagiso Rabada",
-      "team": "South Africa",
-      "rating": "807"
+      "name": "Josh Hazlewood",
+      "team": "Australia",
+      "rating": "818"
      },
      {
       "no": "8",
-      "name": "Scott Boland",
-      "team": "Australia",
-      "rating": "804"
+      "name": "Kagiso Rabada",
+      "team": "South Africa",
+      "rating": "799"
      },
      {
       "no": "9",
-      "name": "Josh Hazlewood",
+      "name": "Scott Boland",
       "team": "Australia",
-      "rating": "783"
+      "rating": "796"
      },
      {
       "no": "10",
@@ -9126,7 +9126,7 @@
       "rating": "79"
      }
     ],
-    "updated": "2026-10-06",
+    "updated": "2026-10-13",
     "bat": [
      {
       "no": "1",
@@ -9315,34 +9315,40 @@
       "rating": "218"
      }
     ],
-    "updated": "2026-10-06",
+    "updated": "2026-10-13",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "902"
+      "rating": "904"
      },
      {
       "no": "2",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "887"
+      "rating": "891"
      },
      {
       "no": "3",
       "name": "Sahibzada Farhan",
       "team": "Pakistan",
-      "rating": "818"
+      "rating": "883"
      },
      {
       "no": "4",
+      "name": "Shreyas Iyer",
+      "team": "India",
+      "rating": "798"
+     },
+     {
+      "no": "5",
       "name": "Harry Brook",
       "team": "England",
       "rating": "793"
      },
      {
-      "no": "5",
+      "no": "6",
       "name": "Jos Buttler",
       "team": "England",
       "rating": "789"
@@ -9354,12 +9360,6 @@
       "rating": "789"
      },
      {
-      "no": "7",
-      "name": "Shreyas Iyer",
-      "team": "India",
-      "rating": "786"
-     },
-     {
       "no": "8",
       "name": "Phil Salt",
       "team": "England",
@@ -9367,15 +9367,15 @@
      },
      {
       "no": "9",
-      "name": "Pathum Nissanka",
-      "team": "Sri Lanka",
-      "rating": "742"
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "731"
      },
      {
       "no": "10",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "719"
+      "name": "Pathum Nissanka",
+      "team": "Sri Lanka",
+      "rating": "720"
      }
     ],
     "bowl": [
@@ -9387,20 +9387,20 @@
      },
      {
       "no": "2",
-      "name": "Abrar Ahmed",
-      "team": "Pakistan",
-      "rating": "718"
-     },
-     {
-      "no": "3",
       "name": "Adam Zampa",
       "team": "Australia",
       "rating": "700"
      },
      {
-      "no": "4",
+      "no": "3",
       "name": "Adil Rashid",
       "team": "England",
+      "rating": "695"
+     },
+     {
+      "no": "=",
+      "name": "Abrar Ahmed",
+      "team": "Pakistan",
       "rating": "695"
      },
      {
@@ -9417,27 +9417,27 @@
      },
      {
       "no": "7",
-      "name": "Axar Patel",
-      "team": "India",
-      "rating": "664"
-     },
-     {
-      "no": "8",
       "name": "Nasum Ahmed",
       "team": "Bangladesh",
       "rating": "661"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Mahedi Hasan",
       "team": "Bangladesh",
       "rating": "654"
      },
      {
-      "no": "10",
-      "name": "Jasprit Bumrah",
+      "no": "9",
+      "name": "Axar Patel",
       "team": "India",
       "rating": "649"
+     },
+     {
+      "no": "10",
+      "name": "Liam Dawson",
+      "team": "England",
+      "rating": "648"
      }
     ]
    }
@@ -9489,14 +9489,14 @@
      },
      {
       "no": "8",
-      "name": "Bangladesh",
-      "team": "Bangladesh",
+      "name": "West Indies",
+      "team": "West Indies",
       "rating": "72"
      },
      {
       "no": "9",
-      "name": "West Indies",
-      "team": "West Indies",
+      "name": "Bangladesh",
+      "team": "Bangladesh",
       "rating": "72"
      },
      {
@@ -9506,7 +9506,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "bat": [
      {
       "no": "1",
@@ -9834,13 +9834,13 @@
     {
      "date": "2026-10-11T02:45Z",
      "desc": "Plate Group",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "SICA ground, Rangpo",
      "teams": [
       {
        "name": "Sikkim",
-       "score": "245 & 190/4 (62 ov)"
+       "score": "245 & 291/7 (96.1 ov)"
       },
       {
        "name": "Meghalaya",
@@ -9851,25 +9851,25 @@
     {
      "date": "2026-10-11T03:30Z",
      "desc": "Elite, Group C",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Bengal Cricket Academy Ground, Kalyani",
      "teams": [
       {
        "name": "Bengal",
-       "score": "429"
+       "score": "429 & 89/1 (15.3 ov, target 89)"
       },
       {
        "name": "Delhi",
-       "score": "240 & 199/5 (76.2 ov)"
+       "score": "240 & 277"
       }
      ]
     },
     {
      "date": "2026-10-11T03:30Z",
      "desc": "Elite, Group C",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Keenan Stadium, Jamshedpur",
      "teams": [
       {
@@ -9878,24 +9878,24 @@
       },
       {
        "name": "Kerala",
-       "score": "369/8 (122 ov)"
+       "score": "395 & 60/2 (19.3 ov) (f/o)"
       }
      ]
     },
     {
      "date": "2026-10-11T04:00Z",
      "desc": "Elite, Group B",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground, Mulapadu, Vijayawada",
      "teams": [
       {
        "name": "Andhra",
-       "score": "418"
+       "score": "418 & 104/4 (44 ov, target 194)"
       },
       {
        "name": "Karnataka",
-       "score": "274 & 301/8 (95 ov)"
+       "score": "274 & 337/9d"
       }
      ]
     }
