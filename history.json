@@ -36905,6 +36905,223 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529233",
+   "date": "2026-10-14",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "4th T20I",
+   "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "223 (19.3/20 ov, target 248)"
+    },
+    {
+     "name": "West Indies",
+     "score": "247/3"
+    }
+   ],
+   "result": "West Indies won by 24 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "247/3 (20.0 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       102,
+       50,
+       "not out"
+      ],
+      [
+       "Jewel Andrew",
+       21,
+       16,
+       "lbw"
+      ],
+      [
+       "Shimron Hetmyer",
+       33,
+       12,
+       "c"
+      ],
+      [
+       "Rovman Powell",
+       24,
+       17,
+       "c"
+      ],
+      [
+       "Sherfane Rutherford",
+       49,
+       26,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Romario Shepherd",
+      "Keemo Paul",
+      "Roston Chase",
+      "Shamar Springer",
+      "Shamar Joseph",
+      "Gudakesh Motie"
+     ],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "1",
+       19,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "3",
+       39,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       45,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       36,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       52,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       52,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "223/9 (19.3 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       56,
+       23,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       29,
+       24,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       6,
+       3,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       16,
+       11,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       43,
+       25,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       0,
+       1,
+       "st"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       41,
+       20,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       3,
+       5,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Arshdeep Singh",
+       5,
+       4,
+       "retired not out"
+      ],
+      [
+       "Mayank Yadav",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Romario Shepherd",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Keemo Paul",
+       "4",
+       41,
+       5
+      ],
+      [
+       "Roston Chase",
+       "4",
+       43,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Shamar Joseph",
+       "2.3",
+       47,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "2",
+       13,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
