@@ -1,6 +1,242 @@
 {
- "updated": "2026-10-14T12:27:50Z",
+ "updated": "2026-10-14T17:29:10Z",
  "matches": [
+  {
+   "id": "espn_1527257",
+   "eventId": "1527257",
+   "date": "2026-04-27T12:00Z",
+   "gender": "women",
+   "format": "T20I",
+   "series": "India Women tour of South Africa 2026",
+   "seriesId": "24233",
+   "matchNo": "5th T20I",
+   "venue": "Willowmoore Park, Benoni",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "South Africa Women",
+     "abbr": "SA-W",
+     "score": "155/6",
+     "winner": true
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "132/8 (20 ov, target 156)",
+     "winner": false
+    }
+   ],
+   "result": "South Africa won by 23 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "South Africa",
+     "total": "155/6 (20 ov)",
+     "bat": [
+      [
+       "L Wolvaardt",
+       92,
+       56,
+       "not out"
+      ],
+      [
+       "S Luus",
+       23,
+       23,
+       "st"
+      ],
+      [
+       "T Brits",
+       2,
+       6,
+       "b"
+      ],
+      [
+       "A Dercksen",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "A Bosch",
+       8,
+       11,
+       "b"
+      ],
+      [
+       "CL Tryon",
+       12,
+       10,
+       "c"
+      ],
+      [
+       "N de Klerk",
+       1,
+       2,
+       "lbw"
+      ],
+      [
+       "S Jafta",
+       16,
+       8,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "E Marx",
+      "A Khaka",
+      "N Mlaba"
+     ],
+     "bowl": [
+      [
+       "K Goud",
+       "3",
+       29,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "4",
+       21,
+       2
+      ],
+      [
+       "N Shree Charani",
+       "4",
+       22,
+       2
+      ],
+      [
+       "A Reddy",
+       "4",
+       37,
+       0
+      ],
+      [
+       "DB Sharma",
+       "4",
+       37,
+       2
+      ],
+      [
+       "Shafali Verma",
+       "1",
+       8,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "132/8 (20 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       4,
+       5,
+       "c"
+      ],
+      [
+       "AB Sharma",
+       17,
+       21,
+       "c"
+      ],
+      [
+       "JI Rodrigues",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "H Kaur",
+       22,
+       28,
+       "c"
+      ],
+      [
+       "BS Fulmali",
+       40,
+       30,
+       "lbw"
+      ],
+      [
+       "DB Sharma",
+       8,
+       10,
+       "st"
+      ],
+      [
+       "RM Ghosh",
+       25,
+       15,
+       "not out"
+      ],
+      [
+       "A Reddy",
+       1,
+       2,
+       "b"
+      ],
+      [
+       "K Goud",
+       0,
+       4,
+       "run out"
+      ],
+      [
+       "N Shree Charani",
+       1,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Renuka Singh"
+     ],
+     "bowl": [
+      [
+       "E Marx",
+       "3",
+       12,
+       1
+      ],
+      [
+       "CL Tryon",
+       "4",
+       28,
+       1
+      ],
+      [
+       "A Khaka",
+       "4",
+       29,
+       1
+      ],
+      [
+       "N Mlaba",
+       "4",
+       15,
+       2
+      ],
+      [
+       "N de Klerk",
+       "3",
+       26,
+       2
+      ],
+      [
+       "A Dercksen",
+       "2",
+       20,
+       0
+      ]
+     ]
+    }
+   ]
+  },
   {
    "id": "espn_1538226",
    "eventId": "1538226",
@@ -7535,25 +7771,248 @@
    "seriesId": "24289",
    "matchNo": "4th T20I",
    "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "218/9 (19.3/20 ov, target 248)",
      "winner": false
     },
     {
      "name": "West Indies",
      "abbr": "WI",
-     "score": "",
+     "score": "247/3",
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
-   "india": ""
+   "result": "India require 30 runs",
+   "india": "",
+   "xi": {
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Naman Dhir",
+     "Nitish Kumar Reddy",
+     "Axar Patel",
+     "Prince Yadav",
+     "Arshdeep Singh",
+     "Mayank Yadav"
+    ],
+    "West Indies": [
+     "Shai Hope (c)",
+     "Jewel Andrew",
+     "Shimron Hetmyer",
+     "Rovman Powell",
+     "Sherfane Rutherford",
+     "Romario Shepherd",
+     "Keemo Paul",
+     "Roston Chase",
+     "Shamar Springer",
+     "Shamar Joseph",
+     "Gudakesh Motie"
+    ]
+   },
+   "innings": [
+    {
+     "t": "West Indies",
+     "total": "247/3 (20.0 ov)",
+     "bat": [
+      [
+       "Shai Hope",
+       102,
+       50,
+       "not out"
+      ],
+      [
+       "Jewel Andrew",
+       21,
+       16,
+       "lbw"
+      ],
+      [
+       "Shimron Hetmyer",
+       33,
+       12,
+       "c"
+      ],
+      [
+       "Rovman Powell",
+       24,
+       17,
+       "c"
+      ],
+      [
+       "Sherfane Rutherford",
+       49,
+       26,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Romario Shepherd",
+      "Keemo Paul",
+      "Roston Chase",
+      "Shamar Springer",
+      "Shamar Joseph",
+      "Gudakesh Motie"
+     ],
+     "bowl": [
+      [
+       "Naman Dhir",
+       "1",
+       19,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "3",
+       39,
+       0
+      ],
+      [
+       "Axar Patel",
+       "4",
+       45,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       36,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       52,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       52,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "218/9 (19.3 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       56,
+       23,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       29,
+       24,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       6,
+       3,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       16,
+       11,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       43,
+       25,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       0,
+       1,
+       "st"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       41,
+       20,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       3,
+       5,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       0,
+       1,
+       "b"
+      ],
+      [
+       "Arshdeep Singh",
+       5,
+       4,
+       "not out"
+      ],
+      [
+       "Mayank Yadav",
+       0,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Romario Shepherd",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Keemo Paul",
+       "4",
+       41,
+       5
+      ],
+      [
+       "Roston Chase",
+       "4",
+       43,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Shamar Joseph",
+       "2.3",
+       42,
+       0
+      ],
+      [
+       "Gudakesh Motie",
+       "2",
+       13,
+       2
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1535652",
@@ -7585,8 +8044,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.94,
-    0.06
+    0.935,
+    0.065
    ]
   },
   {
@@ -8302,36 +8761,6 @@
     {
      "name": "Sri Lanka",
      "abbr": "SL",
-     "score": "",
-     "winner": false
-    }
-   ],
-   "result": "",
-   "india": ""
-  },
-  {
-   "id": "espn_1543894",
-   "eventId": "1543894",
-   "date": "2026-12-19T12:00Z",
-   "gender": "women",
-   "format": "ODI",
-   "series": "India Women tour of South Africa 2026/27",
-   "seriesId": "24559",
-   "matchNo": "2nd ODI",
-   "venue": "Mangaung Oval, Bloemfontein",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
      "score": "",
      "winner": false
     }
@@ -9884,18 +10313,18 @@
     },
     {
      "date": "2026-10-11T04:00Z",
-     "desc": "Elite, Group B",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground, Mulapadu, Vijayawada",
+     "desc": "Plate Group",
+     "state": "in",
+     "detail": "Live",
+     "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
      "teams": [
       {
-       "name": "Andhra",
-       "score": "418 & 104/4 (44 ov, target 194)"
+       "name": "Arunachal Pradesh",
+       "score": ""
       },
       {
-       "name": "Karnataka",
-       "score": "274 & 337/9d"
+       "name": "Nagaland",
+       "score": ""
       }
      ]
     }
