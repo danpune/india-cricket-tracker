@@ -1,9 +1,14 @@
 {
  "headlines": [
   {
+   "t": "Samson: Tilak's wicket the 'turning point' in India's loss",
+   "u": "https://www.cricinfo.com/ci/content/story/1558515.html?ex_cid=OTC-RSS",
+   "d": "Thu, 15 Oct 2026"
+  },
+  {
    "t": "Hope ton, Paul five-for help West Indies level series 2-2",
    "u": "https://www.cricinfo.com/ci/content/story/1558497.html?ex_cid=OTC-RSS",
-   "d": "Wed, 14 Oct 2026"
+   "d": "Thu, 15 Oct 2026"
   },
   {
    "t": "Unchanged India bowl first in bid to win series, West Indies make two changes",
@@ -44,11 +49,6 @@
    "t": "India and West Indies head to Indore for potential run-fest with series level",
    "u": "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
    "d": "Sat, 10 Oct 2026"
-  },
-  {
-   "t": "Gambhir: 'Bowlers' careers are at stake'",
-   "u": "https://www.cricinfo.com/ci/content/story/1557814.html?ex_cid=OTC-RSS",
-   "d": "Sat, 10 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "LcF38iUxYio",
+     "t": "How has Shai Hope haunted India this tour? Kaif explains!"
+    },
+    {
+     "yt": "5t3B_OZBXPM",
+     "t": "Can\u2019t blame batters, India\u2019s bowling was all over the place: Kaif"
+    },
     {
      "yt": "yZtl5SZbbCg",
      "t": "Match Forecast: India vs West Indies, 4th T20I"
@@ -71,14 +79,6 @@
     {
      "yt": "CcCftuhxcZg",
      "t": "Are \"Flat Pitches\" hurting cricket? Rahane & DK react!"
-    },
-    {
-     "yt": "zGZ_O69HbUk",
-     "t": "Abhishek Sharma dominating like a \u2018world superpower\u2019: Dinesh Karthik"
-    },
-    {
-     "yt": "_Bh0koWYEew",
-     "t": "Cricbuzz Live: India go 2-1 up after a commanding win over West Indies"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-15T01:50:29Z"
+ "updated": "2026-10-15T06:34:32Z"
 }
