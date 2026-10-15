@@ -4,30 +4,6 @@ PRODID:indiacricket
 X-WR-CALNAME:India men's cricket fixtures
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:espn_1529241@india-cricket-tracker
-DTSTART:20270103T083000Z
-DTEND:20270103T170000Z
-SUMMARY:India v Zimbabwe 🏏 1st ODI
-LOCATION:Eden Gardens  Kolkata
-DESCRIPTION:Zimbabwe tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529242@india-cricket-tracker
-DTSTART:20270106T083000Z
-DTEND:20270106T170000Z
-SUMMARY:India v Zimbabwe 🏏 2nd ODI
-LOCATION:Rajiv Gandhi International Stadium  Uppal  Hyderabad
-DESCRIPTION:Zimbabwe tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
-UID:espn_1529243@india-cricket-tracker
-DTSTART:20270109T083000Z
-DTEND:20270109T170000Z
-SUMMARY:India v Zimbabwe 🏏 3rd ODI
-LOCATION:Wankhede Stadium  Mumbai
-DESCRIPTION:Zimbabwe tour of India 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1529235@india-cricket-tracker
 DTSTART:20261213T083000Z
 DTEND:20261213T170000Z

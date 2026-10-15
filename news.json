@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Punam Raut retires from international cricket",
+   "u": "https://www.cricinfo.com/ci/content/story/1558630.html?ex_cid=OTC-RSS",
+   "d": "Thu, 15 Oct 2026"
+  },
+  {
    "t": "Raipur the stage for the start of India's Mandhana era",
    "u": "https://www.cricinfo.com/ci/content/story/1558544.html?ex_cid=OTC-RSS",
    "d": "Thu, 15 Oct 2026"
@@ -43,11 +48,6 @@
   {
    "t": "West Indies bowl; India bring in Reddy and Prince",
    "u": "https://www.cricinfo.com/ci/content/story/1557996.html?ex_cid=OTC-RSS",
-   "d": "Mon, 12 Oct 2026"
-  },
-  {
-   "t": "Arshdeep and Abhishek power India to 2-1 lead",
-   "u": "https://www.cricinfo.com/ci/content/story/1558036.html?ex_cid=OTC-RSS",
    "d": "Mon, 12 Oct 2026"
   }
  ],
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-15T16:55:24Z"
+ "updated": "2026-10-15T20:12:36Z"
 }
