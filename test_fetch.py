@@ -66,5 +66,19 @@ if prev:
         assert now_n >= was_n * 0.9, \
             f"{label} fell {was_n} -> {now_n}: refusing to publish a partial picture"
 
+    # The ratio above tolerates a 10% fall, which is larger than a whole series
+    # leg -- 7 upcoming fixtures could vanish (including tomorrow's match) and
+    # still pass. An HTTP 200 returning {"events": []} for a date is not a fetch
+    # failure, so the `failed` guard does not catch it either, and write_ics then
+    # deletes those .ics files and drops them from the subscribed feeds.
+    # A scheduled fixture never legitimately disappears, so require identity.
+    was_upcoming = {m["id"]: m for m in prev["matches"]
+                    if m.get("state") == "pre" and m["date"] > stamp}
+    have = {m["id"] for m in M}
+    gone = sorted(i for i in was_upcoming if i not in have)
+    assert not gone, (f"{len(gone)} scheduled fixture(s) disappeared from the build, "
+                      f"e.g. {gone[0]} ({was_upcoming[gone[0]].get('matchNo') or ''} "
+                      f"{was_upcoming[gone[0]]['date']}): refusing to publish")
+
 print(f"all checks passed — {len(M)} matches, {len(d['series'])} series, "
       f"updated {d['updated']}")

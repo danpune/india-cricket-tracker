@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T14:58:59Z",
+ "updated": "2026-10-16T16:18:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8003,27 +8003,27 @@
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "91/4 (11.4/20 ov, target 115)",
      "winner": false
     },
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "109/3 (18.5/20 ov)",
+     "score": "114/5",
      "winner": false
     }
    ],
-   "result": "IND Women won toss & fielded",
+   "result": "IND Women require 24 runs",
    "india": "",
    "xi": {
     "India Women": [
-     "Shafali Verma",
      "Smriti Mandhana (c)",
+     "Shafali Verma",
      "Anushka Sharma",
      "Harmanpreet Kaur",
      "Niki Prasad",
-     "Richa Ghosh",
      "Deepti Sharma",
+     "Richa Ghosh",
      "Shree Charani",
      "Arundhati Reddy",
      "Nandani Sharma",
@@ -8035,9 +8035,9 @@
      "Modester Mupachikwa",
      "Sharne Mayers",
      "Nyasha Gwanzura",
+     "Michelle Mavunga",
      "Chipo Mugeri-Tiripano",
      "Josephine Nkomo (c)",
-     "Michelle Mavunga",
      "Francisca Chipare",
      "Tendai Makusha",
      "Olinder Chare"
@@ -8046,7 +8046,7 @@
    "innings": [
     {
      "t": "Zimbabwe Women",
-     "total": "109/3 (18.5 ov)",
+     "total": "114/5 (20.0 ov)",
      "bat": [
       [
        "Kelis Ndhlovu",
@@ -8068,21 +8068,31 @@
       ],
       [
        "Sharne Mayers",
-       40,
-       31,
+       43,
+       33,
        "not out"
       ],
       [
        "Nyasha Gwanzura",
-       8,
-       8,
+       9,
+       11,
+       "st"
+      ],
+      [
+       "Michelle Mavunga",
+       0,
+       1,
+       "st"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       1,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Chipo Mugeri-Tiripano",
       "Josephine Nkomo",
-      "Michelle Mavunga",
       "Francisca Chipare",
       "Tendai Makusha",
       "Olinder Chare"
@@ -8096,8 +8106,8 @@
       ],
       [
        "Deepti Sharma",
-       "3.5",
-       20,
+       "4",
+       22,
        0
       ],
       [
@@ -8114,15 +8124,102 @@
       ],
       [
        "Nandani Sharma",
-       "3",
-       8,
-       0
+       "4",
+       11,
+       2
       ],
       [
        "Kranti Gaud",
        "2",
        16,
        1
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "91/4 (11.4 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       9,
+       6,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Anushka Sharma",
+       4,
+       3,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Niki Prasad",
+       29,
+       25,
+       "not out"
+      ],
+      [
+       "Deepti Sharma",
+       43,
+       30,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Shree Charani",
+      "Arundhati Reddy",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Beloved Biza",
+       "2",
+       14,
+       0
+      ],
+      [
+       "Nyasha Gwanzura",
+       "3",
+       18,
+       3
+      ],
+      [
+       "Michelle Mavunga",
+       "2.4",
+       15,
+       1
+      ],
+      [
+       "Francisca Chipare",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Tendai Makusha",
+       "1",
+       14,
+       0
+      ],
+      [
+       "Olinder Chare",
+       "2",
+       20,
+       0
       ]
      ]
     }
@@ -9402,16 +9499,6 @@
   {
    "id": "22547",
    "name": "Asian Games Men's Cricket Competition",
-   "gender": "men"
-  },
-  {
-   "id": "24609",
-   "name": "Irani Cup 2026/27",
-   "gender": "men"
-  },
-  {
-   "id": "8050",
-   "name": "Ranji Trophy",
    "gender": "men"
   }
  ],
@@ -10880,9 +10967,7 @@
    "24677": "men",
    "22546": "women",
    "24746": "men",
-   "22547": "men",
-   "24609": "men",
-   "8050": "men"
+   "22547": "men"
   }
  }
 }

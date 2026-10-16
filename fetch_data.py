@@ -437,10 +437,17 @@ def discover(known):
             lid = str(lg.get("id"))
             if lid in known or any(x in lg.get("name", "") for x in EXCLUDE):
                 continue
-            names = " ".join(e.get("name", "") for e in lg.get("events", []))
-            if "India Women" in names or ("India" in names and "Women" in lg.get("name", "")):
+            # Test the TEAMS, not the event-name text. "India" as a substring
+            # matched domestic sides -- "Hyderabad (India)" and "Rest of India"
+            # permanently enrolled the Ranji Trophy and the Irani Cup as India
+            # series. They produce no India match (is_india_match rejects them)
+            # but their 48-date calendars were swept on every run.
+            sides = [c.get("displayName", "")
+                     for e in lg.get("events", [])
+                     for c in (e.get("competitors") or [])]
+            if any(norm_team(x) == "India" and "Women" in x for x in sides):
                 found[lid] = "women"
-            elif "India" in names and "India Under" not in names and "India A " not in names:
+            elif any(norm_team(x) == "India" and "Women" not in x for x in sides):
                 found[lid] = "men"
     return found
 
@@ -580,14 +587,28 @@ def classify_outcome(result, india_flag):
     return india_flag or "nr"
 
 
+SUMMARY_FAILED = []       # summary calls that did not answer this run, for the log
+
+
 def enrich_from_summary(match):
     """Result sentence, series note and playing XIs live in the summary feed."""
     try:
         d = get(f"{BASE}/{match['seriesId']}/summary?event={match['eventId']}")
-    except Exception:
+    except Exception as e:
+        # Not fatal: a cached result from the previous build covers this, and the
+        # self-check still refuses to publish a finished match with no result.
+        # Silence was the problem -- a blip looked identical to a healthy run.
+        SUMMARY_FAILED.append(f"{match['id']} ({type(e).__name__})")
         return
     comp = (d.get("header", {}).get("competitions") or [{}])[0]
-    match["result"] = html.unescape(comp.get("status", {}).get("summary", ""))
+    # Only overwrite with something. A degraded-but-valid 200 (no header.competitions)
+    # used to blank the result: for a match restored from history that destroyed a
+    # good value two lines after the code restored it, and for the four tour/warm-up
+    # matches excluded from history it emptied the only copy there is -- which is the
+    # AssertionError that failed 5 of the last 60 runs.
+    res = html.unescape(comp.get("status", {}).get("summary", ""))
+    if res:
+        match["result"] = res
     if match.get("state") == "post":
         match["india"] = classify_outcome(match["result"], match.get("india"))
     for n in d.get("notes", []):
@@ -619,7 +640,7 @@ def main():
     history_path = os.path.join(DIR, "history.json")
     data_path = os.path.join(DIR, "data.json")
     history = json.load(open(history_path)) if os.path.exists(history_path) else {"matches": []}
-    old_meta = {}
+    old_meta, _prev = {}, None
     if os.path.exists(data_path):
         try:
             _prev = json.load(open(data_path))
@@ -633,6 +654,12 @@ def main():
     discovered = discover(known)
     known.update(discovered)
     all_discovered = {**old_meta.get("discovered", {}), **discovered}
+
+    # Last published result per match: the four tour/warm-up matches are excluded
+    # from history by design, so the summary feed is their ONLY source and every
+    # run re-fetches them. One flaky call used to cost a whole publish cycle.
+    prev_results = {m["id"]: m["result"] for m in (_prev or {}).get("matches", [])
+                    if m.get("result")}
 
     hist_dirty = [False]
     hist_keys = {hist_key(m["date"], [t["name"] for t in m["teams"]], m["gender"]) for m in history["matches"]}
@@ -659,7 +686,14 @@ def main():
             board = get(f"{BASE}/{sid}/scoreboard")
             league = board["leagues"][0]
         except Exception as e:
-            failed.append(f"series {sid} ({e})")
+            if sid in SERIES:
+                failed.append(f"series {sid} ({e})")
+            else:
+                # Discovered ids are guesses and are never pruned, so a league
+                # that retires would otherwise abort every run for ever with no
+                # way out but hand-editing data.json.
+                print(f"  discovered series {sid} did not answer ({e}) — dropping it")
+                all_discovered.pop(sid, None)
             continue
         name = league.get("name", "")
         calendar = league.get("calendar", [])
@@ -738,6 +772,10 @@ def main():
                     enrich_from_summary(m)
             elif m["state"] == "in" or (m["state"] == "pre" and m["date"][:10] <= (now + timedelta(hours=18)).strftime("%Y-%m-%d")):
                 enrich_from_summary(m)
+            if m["state"] == "post" and not m.get("result") and prev_results.get(m["id"]):
+                # the summary feed did not answer, or answered without a result
+                m["result"] = prev_results[m["id"]]
+                m["india"] = classify_outcome(m["result"], m.get("india"))
             matches.append(m)
 
     if not matches:
