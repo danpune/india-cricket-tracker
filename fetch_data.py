@@ -646,11 +646,20 @@ def main():
     # first, which filed a quarter-final under a two-match bilateral tour and split the
     # same series into two blocks in Results. A multi-team competition wins.
     claimed = {}          # event id -> owning series NAME
+    # A swallowed fetch reads as "this series has nothing", and three destructive
+    # things then act on that: write_ics() prunes the calendar files of matches it
+    # can no longer see, the claim rule hands the event to whichever series DID
+    # answer, and the history row's series name is rewritten to match. One failed
+    # call was enough to delete tomorrow's fixture from every subscribed calendar
+    # and re-file the Asian Games under a two-match bilateral tour — with the gate
+    # passing. A total outage was already fatal below; a partial one must be too.
+    failed = []
     for sid, gender in known.items():
         try:
             board = get(f"{BASE}/{sid}/scoreboard")
             league = board["leagues"][0]
-        except Exception:
+        except Exception as e:
+            failed.append(f"series {sid} ({e})")
             continue
         name = league.get("name", "")
         calendar = league.get("calendar", [])
@@ -676,7 +685,8 @@ def main():
             try:
                 time.sleep(0.2)  # stay polite: ~40 calls/run against an unofficial API
                 events += get(f"{BASE}/{sid}/scoreboard?dates={date.replace('-', '')}").get("events", [])
-            except Exception:
+            except Exception as e:
+                failed.append(f"series {sid} date {date} ({e})")
                 continue
         for e in events:
             # some dates return a bare {} event
@@ -732,6 +742,15 @@ def main():
 
     if not matches:
         print("fetch yielded no matches — keeping existing files", file=sys.stderr)
+        sys.exit(1)
+
+    if failed:
+        # Publishing now would publish an incomplete picture as if it were the whole
+        # one. The next clean run repairs it, so the right move is to skip this cycle.
+        print(f"{len(failed)} upstream fetch(es) failed after retries — "
+              f"refusing to publish a partial picture:", file=sys.stderr)
+        for f in failed[:5]:
+            print(f"  {f}", file=sys.stderr)
         sys.exit(1)
 
     # append newly finalized matches to history
