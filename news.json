@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "LjO1eJolzqQ",
+     "t": "Kohli, Buttler & who else? DK & Rahane pick their Top 5 T20 batters"
+    },
+    {
      "yt": "bk3TMBT0FhE",
      "t": "Abhishek Sharma\u2019s powerplay struggles a rare sight: Kaif"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "yZtl5SZbbCg",
      "t": "Match Forecast: India vs West Indies, 4th T20I"
-    },
-    {
-     "yt": "FNbGmNOa9fE",
-     "t": "India vs West Indies, 4th T20I: Preview"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-16T01:16:13Z"
+ "updated": "2026-10-16T05:55:35Z"
 }
