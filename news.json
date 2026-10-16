@@ -11,13 +11,13 @@
    "d": "Fri, 16 Oct 2026"
   },
   {
-   "t": "Punam Raut retires from international cricket",
-   "u": "https://www.cricinfo.com/ci/content/story/1558630.html?ex_cid=OTC-RSS",
-   "d": "Thu, 15 Oct 2026"
-  },
-  {
    "t": "Raipur the stage for the start of India's Mandhana era",
    "u": "https://www.cricinfo.com/ci/content/story/1558544.html?ex_cid=OTC-RSS",
+   "d": "Fri, 16 Oct 2026"
+  },
+  {
+   "t": "Punam Raut retires from international cricket",
+   "u": "https://www.cricinfo.com/ci/content/story/1558630.html?ex_cid=OTC-RSS",
    "d": "Thu, 15 Oct 2026"
   },
   {
@@ -57,6 +57,18 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "DLNkTw3SrLQ",
+     "t": "India vs West Indies, 5th T20I: Preview"
+    },
+    {
+     "yt": "et39e1KnH-U",
+     "t": "Match Forecast: India vs West Indies, 5th T20I"
+    },
+    {
+     "yt": "ADthu8H3ieo",
+     "t": "How to solve India\u2019s catching problem? Kaif explains"
+    },
+    {
      "yt": "LjO1eJolzqQ",
      "t": "Kohli, Buttler & who else? DK & Rahane pick their Top 5 T20 batters"
     },
@@ -67,18 +79,6 @@
     {
      "yt": "S2TgOUyCeUk",
      "t": "Gautam Gambhir \u2013 A Misunderstood, Polarising figure in Indian Cricket?"
-    },
-    {
-     "yt": "LcF38iUxYio",
-     "t": "How has Shai Hope haunted India this tour? Kaif explains!"
-    },
-    {
-     "yt": "5t3B_OZBXPM",
-     "t": "Can\u2019t blame batters, India\u2019s bowling was all over the place: Kaif"
-    },
-    {
-     "yt": "yZtl5SZbbCg",
-     "t": "Match Forecast: India vs West Indies, 4th T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-16T10:36:17Z"
+ "updated": "2026-10-16T15:00:45Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T10:35:10Z",
+ "updated": "2026-10-16T14:58:59Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7996,9 +7996,9 @@
    "seriesId": "24371",
    "matchNo": "1st T20I",
    "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India Women",
@@ -8009,12 +8009,124 @@
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
+     "score": "109/3 (18.5/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
-   "india": ""
+   "result": "IND Women won toss & fielded",
+   "india": "",
+   "xi": {
+    "India Women": [
+     "Shafali Verma",
+     "Smriti Mandhana (c)",
+     "Anushka Sharma",
+     "Harmanpreet Kaur",
+     "Niki Prasad",
+     "Richa Ghosh",
+     "Deepti Sharma",
+     "Shree Charani",
+     "Arundhati Reddy",
+     "Nandani Sharma",
+     "Kranti Gaud"
+    ],
+    "Zimbabwe Women": [
+     "Kelis Ndhlovu",
+     "Beloved Biza",
+     "Modester Mupachikwa",
+     "Sharne Mayers",
+     "Nyasha Gwanzura",
+     "Chipo Mugeri-Tiripano",
+     "Josephine Nkomo (c)",
+     "Michelle Mavunga",
+     "Francisca Chipare",
+     "Tendai Makusha",
+     "Olinder Chare"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Zimbabwe Women",
+     "total": "109/3 (18.5 ov)",
+     "bat": [
+      [
+       "Kelis Ndhlovu",
+       42,
+       44,
+       "b"
+      ],
+      [
+       "Beloved Biza",
+       0,
+       4,
+       "lbw"
+      ],
+      [
+       "Modester Mupachikwa",
+       16,
+       26,
+       "c"
+      ],
+      [
+       "Sharne Mayers",
+       40,
+       31,
+       "not out"
+      ],
+      [
+       "Nyasha Gwanzura",
+       8,
+       8,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Chipo Mugeri-Tiripano",
+      "Josephine Nkomo",
+      "Michelle Mavunga",
+      "Francisca Chipare",
+      "Tendai Makusha",
+      "Olinder Chare"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "3",
+       20,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "3.5",
+       20,
+       0
+      ],
+      [
+       "Shree Charani",
+       "4",
+       14,
+       1
+      ],
+      [
+       "Arundhati Reddy",
+       "3",
+       30,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       8,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       16,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1529234",
@@ -8074,7 +8186,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1535654",
