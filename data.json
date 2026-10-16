@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T21:45:02Z",
+ "updated": "2026-10-16T23:56:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8015,35 +8015,6 @@
    ],
    "result": "IND Women won by 4 wkts (26b rem)",
    "india": "won",
-   "seriesNote": "India Women led the 3-match series 1-0",
-   "xi": {
-    "India Women": [
-     "Smriti Mandhana (c)",
-     "Shafali Verma",
-     "Anushka Sharma",
-     "Harmanpreet Kaur",
-     "Niki Prasad",
-     "Deepti Sharma",
-     "Richa Ghosh",
-     "Arundhati Reddy",
-     "Shree Charani",
-     "Nandani Sharma",
-     "Kranti Gaud"
-    ],
-    "Zimbabwe Women": [
-     "Kelis Ndhlovu",
-     "Beloved Biza",
-     "Modester Mupachikwa",
-     "Sharne Mayers",
-     "Nyasha Gwanzura",
-     "Michelle Mavunga",
-     "Chipo Mugeri-Tiripano",
-     "Josephine Nkomo (c)",
-     "Francisca Chipare",
-     "Tendai Makusha",
-     "Olinder Chare"
-    ]
-   },
    "innings": [
     {
      "t": "Zimbabwe Women",
@@ -8358,7 +8329,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1535655",
