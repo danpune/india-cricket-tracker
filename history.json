@@ -37335,6 +37335,111 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1529234",
+   "date": "2026-10-17",
+   "gender": "men",
+   "format": "T20I",
+   "series": "West Indies tour of India 2026/27",
+   "matchNo": "5th T20I",
+   "venue": "M.Chinnaswamy Stadium, Bengaluru",
+   "city": "",
+   "teams": [
+    {
+     "name": "India",
+     "score": "118/5 (7.4 ov)"
+    },
+    {
+     "name": "West Indies",
+     "score": ""
+    }
+   ],
+   "result": "No result",
+   "india": "nr",
+   "innings": [
+    {
+     "t": "India",
+     "total": "118/5 (7.4 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       16,
+       7,
+       "b"
+      ],
+      [
+       "Abhishek Sharma",
+       6,
+       4,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       30,
+       10,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       22,
+       14,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       7,
+       6,
+       "b"
+      ],
+      [
+       "Naman Dhir",
+       24,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shivam Dube",
+      "Axar Patel",
+      "Prince Yadav",
+      "Arshdeep Singh",
+      "Bhuvneshwar Kumar"
+     ],
+     "bowl": [
+      [
+       "Romario Shepherd",
+       "1",
+       24,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "1.4",
+       17,
+       2
+      ],
+      [
+       "Keemo Paul",
+       "2",
+       34,
+       2
+      ],
+      [
+       "Shamar Joseph",
+       "1",
+       18,
+       1
+      ],
+      [
+       "Gudakesh Motie",
+       "2",
+       25,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:37:09Z",
+ "updated": "2026-10-17T21:43:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8217,8 +8217,8 @@
    "seriesId": "24289",
    "matchNo": "5th T20I",
    "venue": "M.Chinnaswamy Stadium, Bengaluru",
-   "state": "in",
-   "statusDetail": "Live",
+   "state": "post",
+   "statusDetail": "Final",
    "statusDesc": "No result",
    "teams": [
     {
@@ -8235,7 +8235,7 @@
     }
    ],
    "result": "No result",
-   "india": "",
+   "india": "nr",
    "seriesNote": "5-match series drawn 2-2",
    "xi": {
     "India": [
