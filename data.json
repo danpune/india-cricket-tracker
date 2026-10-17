@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:27:29Z",
+ "updated": "2026-10-17T17:26:38Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8219,12 +8219,12 @@
    "venue": "M.Chinnaswamy Stadium, Bengaluru",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed by rain",
+   "statusDesc": "No result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "118/5 (7.4 ov)",
      "winner": false
     },
     {
@@ -8234,8 +8234,120 @@
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
-   "india": ""
+   "result": "No result",
+   "india": "",
+   "seriesNote": "5-match series drawn 2-2",
+   "xi": {
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Naman Dhir",
+     "Shivam Dube",
+     "Axar Patel",
+     "Prince Yadav",
+     "Arshdeep Singh",
+     "Bhuvneshwar Kumar"
+    ],
+    "West Indies": [
+     "Shai Hope (c)",
+     "Jewel Andrew",
+     "Shimron Hetmyer",
+     "Rovman Powell",
+     "Sherfane Rutherford",
+     "Romario Shepherd",
+     "Roston Chase",
+     "Shamar Springer",
+     "Keemo Paul",
+     "Shamar Joseph",
+     "Gudakesh Motie"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "118/5 (7.4 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       16,
+       7,
+       "b"
+      ],
+      [
+       "Abhishek Sharma",
+       6,
+       4,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       30,
+       10,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       22,
+       14,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       7,
+       6,
+       "b"
+      ],
+      [
+       "Naman Dhir",
+       24,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Shivam Dube",
+      "Axar Patel",
+      "Prince Yadav",
+      "Arshdeep Singh",
+      "Bhuvneshwar Kumar"
+     ],
+     "bowl": [
+      [
+       "Romario Shepherd",
+       "1",
+       24,
+       0
+      ],
+      [
+       "Shamar Springer",
+       "1.4",
+       17,
+       2
+      ],
+      [
+       "Keemo Paul",
+       "2",
+       34,
+       2
+      ],
+      [
+       "Shamar Joseph",
+       "1",
+       18,
+       1
+      ],
+      [
+       "Gudakesh Motie",
+       "2",
+       25,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1535653",
@@ -10444,7 +10556,41 @@
    "more": 15,
    "matches": [
     {
-     "date": "2026-10-18T03:30Z",
+     "date": "2026-10-18T03:00Z",
+     "desc": "Plate Group",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Meghalaya Cricket Association Cricket Ground, Shillong",
+     "teams": [
+      {
+       "name": "Meghalaya",
+       "score": ""
+      },
+      {
+       "name": "Manipur",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-18T03:00Z",
+     "desc": "Plate Group",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Nagaland Cricket Stadium, Sovima",
+     "teams": [
+      {
+       "name": "Nagaland",
+       "score": ""
+      },
+      {
+       "name": "Mizoram",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-10-18T03:15Z",
      "desc": "Elite, Group B",
      "state": "pre",
      "detail": "Scheduled",
@@ -10473,40 +10619,6 @@
       },
       {
        "name": "Hyderabad (India)",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-10-18T04:00Z",
-     "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Gokulbhai Somabhai Patel Stadium, Nadiad",
-     "teams": [
-      {
-       "name": "Arunachal Pradesh",
-       "score": ""
-      },
-      {
-       "name": "Sikkim",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-10-18T04:00Z",
-     "desc": "Elite, Group A",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Reliance Stadium, Vadodara",
-     "teams": [
-      {
-       "name": "Baroda",
-       "score": ""
-      },
-      {
-       "name": "Bihar",
        "score": ""
       }
      ]
