@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:43:06Z",
+ "updated": "2026-10-17T23:29:11Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8236,35 +8236,6 @@
    ],
    "result": "No result",
    "india": "nr",
-   "seriesNote": "5-match series drawn 2-2",
-   "xi": {
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Naman Dhir",
-     "Shivam Dube",
-     "Axar Patel",
-     "Prince Yadav",
-     "Arshdeep Singh",
-     "Bhuvneshwar Kumar"
-    ],
-    "West Indies": [
-     "Shai Hope (c)",
-     "Jewel Andrew",
-     "Shimron Hetmyer",
-     "Rovman Powell",
-     "Sherfane Rutherford",
-     "Romario Shepherd",
-     "Roston Chase",
-     "Shamar Springer",
-     "Keemo Paul",
-     "Shamar Joseph",
-     "Gudakesh Motie"
-    ]
-   },
    "innings": [
     {
      "t": "India",
