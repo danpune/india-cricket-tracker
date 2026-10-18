@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T11:31:35Z",
+ "updated": "2026-10-18T17:34:48Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -232,272 +232,6 @@
        "2",
        20,
        0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1538226",
-   "eventId": "1538226",
-   "date": "2026-05-25T10:00Z",
-   "gender": "women",
-   "format": "T20",
-   "series": "India Women tour of England 2026",
-   "seriesId": "23814",
-   "matchNo": "Tour Match",
-   "venue": "The Ambassador Cruise Line Ground, Chelmsford",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "ECB Development Women's XI",
-     "abbr": "ECB-D",
-     "score": "154/6",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "200/6 (20 ov, target 155)",
-     "winner": true
-    }
-   ],
-   "result": "IND Women won by 7 wkts (22b rem)",
-   "india": "won",
-   "xi": {
-    "ECB Development Women's XI": [
-     "Tilly Kesteven",
-     "Liberty Heap",
-     "Ariana Dowse",
-     "Bethan Gammon",
-     "Florence Miller",
-     "Joanne Gardner",
-     "Sophia Smale (c)",
-     "Prisha Thanawala",
-     "Sophie Munro",
-     "Ellie Anderson",
-     "Clara Thaker",
-     "Maria Andrews"
-    ],
-    "India Women": [
-     "Smriti Mandhana (c)",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Bharti Fulmali",
-     "Arundhati Reddy",
-     "Jemimah Rodrigues",
-     "Shreyanka Patil",
-     "Deepti Sharma",
-     "Richa Ghosh",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "ECB Development Women's XI",
-     "total": "154/6 (20.0 ov)",
-     "bat": [
-      [
-       "Tilly Kesteven",
-       8,
-       10,
-       "c"
-      ],
-      [
-       "Liberty Heap",
-       8,
-       6,
-       "b"
-      ],
-      [
-       "Ariana Dowse",
-       13,
-       17,
-       "b"
-      ],
-      [
-       "Bethan Gammon",
-       0,
-       1,
-       "lbw"
-      ],
-      [
-       "Florence Miller",
-       48,
-       41,
-       "b"
-      ],
-      [
-       "Joanne Gardner",
-       36,
-       27,
-       "c"
-      ],
-      [
-       "Sophia Smale",
-       27,
-       18,
-       "not out"
-      ],
-      [
-       "Prisha Thanawala",
-       3,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Sophie Munro",
-      "Ellie Anderson",
-      "Clara Thaker",
-      "Maria Andrews"
-     ],
-     "bowl": [
-      [
-       "Arundhati Reddy",
-       "3",
-       29,
-       3
-      ],
-      [
-       "Shreyanka Patil",
-       "3",
-       31,
-       1
-      ],
-      [
-       "Deepti Sharma",
-       "3",
-       23,
-       1
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ],
-      [
-       "Shree Charani",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "3",
-       19,
-       0
-      ],
-      [
-       "Nandani Sharma",
-       "3",
-       18,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "200/6 (20.0 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       21,
-       10,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       50,
-       25,
-       "retired out"
-      ],
-      [
-       "Yastika Bhatia",
-       47,
-       35,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       48,
-       29,
-       "st"
-      ],
-      [
-       "Arundhati Reddy",
-       20,
-       16,
-       "b"
-      ],
-      [
-       "Jemimah Rodrigues",
-       2,
-       2,
-       "not out"
-      ],
-      [
-       "Shreyanka Patil",
-       5,
-       2,
-       "run out"
-      ],
-      [
-       "Deepti Sharma",
-       2,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Richa Ghosh",
-      "Kranti Gaud",
-      "Shree Charani",
-      "Renuka Singh",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Sophia Smale",
-       "2",
-       26,
-       0
-      ],
-      [
-       "Prisha Thanawala",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Sophie Munro",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Ellie Anderson",
-       "4",
-       39,
-       2
-      ],
-      [
-       "Clara Thaker",
-       "3",
-       32,
-       1
-      ],
-      [
-       "Maria Andrews",
-       "3",
-       30,
-       1
       ]
      ]
     }
@@ -849,314 +583,6 @@
    ]
   },
   {
-   "id": "espn_1538611",
-   "eventId": "1538611",
-   "date": "2026-06-08T09:00Z",
-   "gender": "women",
-   "format": "T20",
-   "series": "India Women tour of England 2026",
-   "seriesId": "23814",
-   "matchNo": "Warm-up",
-   "venue": "Sophia Gardens, Cardiff",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "179/8",
-     "winner": true
-    },
-    {
-     "name": "West Indies Women",
-     "abbr": "WI-W",
-     "score": "153/8 (20 ov, target 180)",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 26 runs",
-   "india": "won",
-   "xi": {
-    "India Women": [
-     "Shafali Verma",
-     "Smriti Mandhana (c)",
-     "Jemimah Rodrigues",
-     "Yastika Bhatia",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Radha Yadav",
-     "Shreyanka Patil",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Arundhati Reddy",
-     "Harmanpreet Kaur",
-     "Deepti Sharma",
-     "Renuka Singh",
-     "Nandani Sharma"
-    ],
-    "West Indies Women": [
-     "Deandra Dottin",
-     "Shemaine Campbelle",
-     "Qiana Joseph",
-     "Jahzara Claxton",
-     "Aaliyah Alleyne",
-     "Chinelle Henry (c)",
-     "Jannillea Glasgow",
-     "Zaida James",
-     "Shawnisha Hector",
-     "Afy Fletcher",
-     "Hayley Matthews",
-     "Mandy Mangru",
-     "Ashmini Munisar",
-     "Karishma Ramharack",
-     "Stafanie Taylor"
-    ]
-   },
-   "innings": [
-    {
-     "t": "India Women",
-     "total": "179/8 (20.0 ov)",
-     "bat": [
-      [
-       "Shafali Verma",
-       29,
-       13,
-       "c"
-      ],
-      [
-       "Smriti Mandhana",
-       39,
-       23,
-       "c"
-      ],
-      [
-       "Jemimah Rodrigues",
-       7,
-       7,
-       "c"
-      ],
-      [
-       "Yastika Bhatia",
-       36,
-       26,
-       "retired out"
-      ],
-      [
-       "Bharti Fulmali",
-       56,
-       40,
-       "not out"
-      ],
-      [
-       "Richa Ghosh",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Radha Yadav",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Shreyanka Patil",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Kranti Gaud",
-       4,
-       2,
-       "b"
-      ],
-      [
-       "Shree Charani",
-       2,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Arundhati Reddy",
-      "Harmanpreet Kaur",
-      "Deepti Sharma",
-      "Renuka Singh",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Deandra Dottin",
-       "2",
-       19,
-       1
-      ],
-      [
-       "Qiana Joseph",
-       "2",
-       21,
-       0
-      ],
-      [
-       "Jahzara Claxton",
-       "2",
-       19,
-       0
-      ],
-      [
-       "Aaliyah Alleyne",
-       "2",
-       17,
-       1
-      ],
-      [
-       "Chinelle Henry",
-       "2",
-       21,
-       0
-      ],
-      [
-       "Zaida James",
-       "1",
-       13,
-       0
-      ],
-      [
-       "Afy Fletcher",
-       "4",
-       23,
-       4
-      ],
-      [
-       "Ashmini Munisar",
-       "2",
-       14,
-       0
-      ],
-      [
-       "Karishma Ramharack",
-       "3",
-       32,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "West Indies Women",
-     "total": "153/8 (20.0 ov)",
-     "bat": [
-      [
-       "Deandra Dottin",
-       49,
-       44,
-       "lbw"
-      ],
-      [
-       "Shemaine Campbelle",
-       25,
-       22,
-       "retired out"
-      ],
-      [
-       "Qiana Joseph",
-       5,
-       4,
-       "b"
-      ],
-      [
-       "Jahzara Claxton",
-       6,
-       4,
-       "c"
-      ],
-      [
-       "Aaliyah Alleyne",
-       13,
-       7,
-       "c"
-      ],
-      [
-       "Chinelle Henry",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Jannillea Glasgow",
-       19,
-       18,
-       "c"
-      ],
-      [
-       "Zaida James",
-       1,
-       2,
-       "b"
-      ],
-      [
-       "Shawnisha Hector",
-       19,
-       11,
-       "not out"
-      ],
-      [
-       "Afy Fletcher",
-       7,
-       6,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Hayley Matthews",
-      "Mandy Mangru",
-      "Ashmini Munisar",
-      "Karishma Ramharack",
-      "Stafanie Taylor"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "2",
-       9,
-       0
-      ],
-      [
-       "Radha Yadav",
-       "4",
-       25,
-       3
-      ],
-      [
-       "Shreyanka Patil",
-       "4",
-       36,
-       4
-      ],
-      [
-       "Kranti Gaud",
-       "4",
-       43,
-       0
-      ],
-      [
-       "Shree Charani",
-       "2",
-       9,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       30,
-       0
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1538617",
    "eventId": "1538617",
    "date": "2026-06-10T09:00Z",
@@ -1184,262 +610,7 @@
     }
    ],
    "result": "ENG Women won by 5 runs",
-   "india": "lost",
-   "xi": {
-    "England Women": [
-     "Amy Jones",
-     "Danni Wyatt-Hodge",
-     "Nat Sciver-Brunt (c)",
-     "Alice Capsey",
-     "Freya Kemp",
-     "Dani Gibson",
-     "Charlie Dean",
-     "Issy Wong",
-     "Lauren Filer",
-     "Tilly Corteen-Coleman",
-     "Sophie Ecclestone",
-     "Lauren Bell",
-     "Linsey Smith",
-     "Heather Knight",
-     "Sophia Dunkley"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Radha Yadav",
-     "Shreyanka Patil",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Arundhati Reddy",
-     "Deepti Sharma",
-     "Jemimah Rodrigues",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "England Women",
-     "total": "171/6 (20.0 ov)",
-     "bat": [
-      [
-       "Amy Jones",
-       64,
-       45,
-       "b"
-      ],
-      [
-       "Danni Wyatt-Hodge",
-       3,
-       6,
-       "c"
-      ],
-      [
-       "Nat Sciver-Brunt",
-       57,
-       45,
-       "c"
-      ],
-      [
-       "Alice Capsey",
-       2,
-       4,
-       "c"
-      ],
-      [
-       "Freya Kemp",
-       7,
-       6,
-       "c"
-      ],
-      [
-       "Dani Gibson",
-       30,
-       12,
-       "not out"
-      ],
-      [
-       "Charlie Dean",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Issy Wong",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Lauren Filer",
-      "Tilly Corteen-Coleman",
-      "Sophie Ecclestone",
-      "Lauren Bell",
-      "Linsey Smith",
-      "Heather Knight",
-      "Sophia Dunkley"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "2",
-       18,
-       1
-      ],
-      [
-       "Radha Yadav",
-       "4",
-       38,
-       1
-      ],
-      [
-       "Shreyanka Patil",
-       "4",
-       29,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Shree Charani",
-       "3",
-       24,
-       1
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       44,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "166 (19.5 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       1,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       13,
-       6,
-       "b"
-      ],
-      [
-       "Yastika Bhatia",
-       15,
-       17,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       17,
-       18,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       18,
-       17,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       68,
-       36,
-       "st"
-      ],
-      [
-       "Radha Yadav",
-       16,
-       9,
-       "c"
-      ],
-      [
-       "Shreyanka Patil",
-       1,
-       5,
-       "c"
-      ],
-      [
-       "Kranti Gaud",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Shree Charani",
-       6,
-       3,
-       "not out"
-      ],
-      [
-       "Renuka Singh",
-       0,
-       1,
-       "c"
-      ]
-     ],
-     "dnb": [
-      "Arundhati Reddy",
-      "Deepti Sharma",
-      "Jemimah Rodrigues",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Dani Gibson",
-       "2",
-       17,
-       2
-      ],
-      [
-       "Charlie Dean",
-       "3",
-       16,
-       2
-      ],
-      [
-       "Issy Wong",
-       "4",
-       42,
-       1
-      ],
-      [
-       "Lauren Filer",
-       "3",
-       27,
-       0
-      ],
-      [
-       "Tilly Corteen-Coleman",
-       "4",
-       22,
-       2
-      ],
-      [
-       "Linsey Smith",
-       "3.5",
-       42,
-       3
-      ]
-     ]
-    }
-   ]
+   "india": "lost"
   },
   {
    "id": "espn_1527153",
@@ -7882,28 +7053,229 @@
    "seriesId": "24371",
    "matchNo": "2nd T20I",
    "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
-     "winner": false
+     "score": "104/1 (8.5/20 ov, target 103)",
+     "winner": true
     },
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
+     "score": "102/8",
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
-   "india": "",
-   "o": [
-    0.755,
-    0.245
+   "result": "IND Women won by 9 wkts (67b rem)",
+   "india": "won",
+   "seriesNote": "India Women led the 3-match series 2-0",
+   "xi": {
+    "India Women": [
+     "Shafali Verma",
+     "Smriti Mandhana (c)",
+     "Anushka Sharma",
+     "Harmanpreet Kaur",
+     "Niki Prasad",
+     "Deepti Sharma",
+     "Richa Ghosh",
+     "Arundhati Reddy",
+     "Shree Charani",
+     "Nandani Sharma",
+     "Kranti Gaud"
+    ],
+    "Zimbabwe Women": [
+     "Kelis Ndhlovu",
+     "Beloved Biza",
+     "Chipo Mugeri-Tiripano",
+     "Sharne Mayers",
+     "Josephine Nkomo (c)",
+     "Nyasha Gwanzura",
+     "Modester Mupachikwa",
+     "Michelle Mavunga",
+     "Francisca Chipare",
+     "Tendai Makusha",
+     "Olinder Chare"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Zimbabwe Women",
+     "total": "102/8 (20.0 ov)",
+     "bat": [
+      [
+       "Kelis Ndhlovu",
+       0,
+       11,
+       "b"
+      ],
+      [
+       "Beloved Biza",
+       7,
+       13,
+       "c"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       34,
+       32,
+       "c"
+      ],
+      [
+       "Sharne Mayers",
+       9,
+       10,
+       "c"
+      ],
+      [
+       "Josephine Nkomo",
+       27,
+       35,
+       "not out"
+      ],
+      [
+       "Nyasha Gwanzura",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Modester Mupachikwa",
+       9,
+       11,
+       "run out"
+      ],
+      [
+       "Michelle Mavunga",
+       4,
+       4,
+       "c"
+      ],
+      [
+       "Francisca Chipare",
+       0,
+       3,
+       "run out"
+      ]
+     ],
+     "dnb": [
+      "Tendai Makusha",
+      "Olinder Chare"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       7,
+       0
+      ],
+      [
+       "Niki Prasad",
+       "2",
+       7,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       13,
+       1
+      ],
+      [
+       "Arundhati Reddy",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Shree Charani",
+       "4",
+       21,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       17,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "4",
+       15,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "104/1 (8.5 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       55,
+       25,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       47,
+       25,
+       "not out"
+      ],
+      [
+       "Anushka Sharma",
+       1,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Harmanpreet Kaur",
+      "Niki Prasad",
+      "Deepti Sharma",
+      "Richa Ghosh",
+      "Arundhati Reddy",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Beloved Biza",
+       "1",
+       9,
+       1
+      ],
+      [
+       "Nyasha Gwanzura",
+       "3",
+       42,
+       0
+      ],
+      [
+       "Michelle Mavunga",
+       "1",
+       15,
+       0
+      ],
+      [
+       "Tendai Makusha",
+       "2",
+       19,
+       0
+      ],
+      [
+       "Olinder Chare",
+       "1.5",
+       19,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -9340,7 +8712,7 @@
       "no": "5",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "100"
+      "rating": "102"
      },
      {
       "no": "6",
@@ -9352,7 +8724,7 @@
       "no": "7",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "95"
+      "rating": "94"
      },
      {
       "no": "8",
@@ -10138,11 +9510,11 @@
      "teams": [
       {
        "name": "Andhra",
-       "score": ""
+       "score": "9/0 (2 ov)"
       },
       {
        "name": "Hyderabad (India)",
-       "score": "211/7 (70 ov)"
+       "score": "275"
       }
      ]
     }
@@ -10225,7 +9597,7 @@
      "date": "2026-09-29T05:00Z",
      "round": "4th Quarter-Final",
      "state": "post",
-     "detail": "Match abandoned without a ball bowled",
+     "detail": "Abandoned",
      "teams": [
       {
        "name": "Bangladesh",
@@ -10239,8 +9611,7 @@
        "score": "",
        "winner": false
       }
-     ],
-     "advanced": "Bangladesh advanced"
+     ]
     },
     {
      "id": "1552776",

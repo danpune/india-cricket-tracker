@@ -37440,6 +37440,204 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1535653",
+   "date": "2026-10-18",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "matchNo": "2nd T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "city": "",
+   "teams": [
+    {
+     "name": "India Women",
+     "score": "104/1 (8.5/20 ov, target 103)"
+    },
+    {
+     "name": "Zimbabwe Women",
+     "score": "102/8"
+    }
+   ],
+   "result": "IND Women won by 9 wkts (67b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Zimbabwe Women",
+     "total": "102/8 (20.0 ov)",
+     "bat": [
+      [
+       "Kelis Ndhlovu",
+       0,
+       11,
+       "b"
+      ],
+      [
+       "Beloved Biza",
+       7,
+       13,
+       "c"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       34,
+       32,
+       "c"
+      ],
+      [
+       "Sharne Mayers",
+       9,
+       10,
+       "c"
+      ],
+      [
+       "Josephine Nkomo",
+       27,
+       35,
+       "not out"
+      ],
+      [
+       "Nyasha Gwanzura",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Modester Mupachikwa",
+       9,
+       11,
+       "run out"
+      ],
+      [
+       "Michelle Mavunga",
+       4,
+       4,
+       "c"
+      ],
+      [
+       "Francisca Chipare",
+       0,
+       3,
+       "run out"
+      ]
+     ],
+     "dnb": [
+      "Tendai Makusha",
+      "Olinder Chare"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       7,
+       0
+      ],
+      [
+       "Niki Prasad",
+       "2",
+       7,
+       2
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       13,
+       1
+      ],
+      [
+       "Arundhati Reddy",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Shree Charani",
+       "4",
+       21,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       17,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "4",
+       15,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "104/1 (8.5 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       55,
+       25,
+       "c"
+      ],
+      [
+       "Smriti Mandhana",
+       47,
+       25,
+       "not out"
+      ],
+      [
+       "Anushka Sharma",
+       1,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Harmanpreet Kaur",
+      "Niki Prasad",
+      "Deepti Sharma",
+      "Richa Ghosh",
+      "Arundhati Reddy",
+      "Shree Charani",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Beloved Biza",
+       "1",
+       9,
+       1
+      ],
+      [
+       "Nyasha Gwanzura",
+       "3",
+       42,
+       0
+      ],
+      [
+       "Michelle Mavunga",
+       "1",
+       15,
+       0
+      ],
+      [
+       "Tendai Makusha",
+       "2",
+       19,
+       0
+      ],
+      [
+       "Olinder Chare",
+       "1.5",
+       19,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
