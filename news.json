@@ -1,14 +1,14 @@
 {
  "headlines": [
   {
-   "t": "Shreyas Iyer on Shai Hope: 'He was cruising through in the series'",
-   "u": "https://www.cricinfo.com/ci/content/story/1558895.html?ex_cid=OTC-RSS",
-   "d": "Sat, 17 Oct 2026"
-  },
-  {
    "t": "Kishan and Dhir impress but rain forces series to end 2-2",
    "u": "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
-   "d": "Sat, 17 Oct 2026"
+   "d": "Sun, 18 Oct 2026"
+  },
+  {
+   "t": "Shreyas Iyer on Shai Hope: 'He was cruising through in the series'",
+   "u": "https://www.cricinfo.com/ci/content/story/1558895.html?ex_cid=OTC-RSS",
+   "d": "Sun, 18 Oct 2026"
   },
   {
    "t": "WI bowl in rain-reduced game; India bring in Bhuvneshwar",
@@ -57,6 +57,14 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "h93ivoqLs8s",
+     "t": "Match Forecast: IND W vs ZIM W, 2nd T20I"
+    },
+    {
+     "yt": "JvA5ulAJP2g",
+     "t": "Is Shami\u2019s India career over? Kaif questions plans"
+    },
+    {
      "yt": "DLNkTw3SrLQ",
      "t": "India vs West Indies, 5th T20I: Preview"
     },
@@ -71,14 +79,6 @@
     {
      "yt": "LjO1eJolzqQ",
      "t": "Kohli, Buttler & who else? DK & Rahane pick their Top 5 T20 batters"
-    },
-    {
-     "yt": "bk3TMBT0FhE",
-     "t": "Abhishek Sharma\u2019s powerplay struggles a rare sight: Kaif"
-    },
-    {
-     "yt": "S2TgOUyCeUk",
-     "t": "Gautam Gambhir \u2013 A Misunderstood, Polarising figure in Indian Cricket?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-18T01:27:53Z"
+ "updated": "2026-10-18T06:22:53Z"
 }

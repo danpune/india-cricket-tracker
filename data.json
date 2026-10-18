@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T01:26:16Z",
+ "updated": "2026-10-18T06:21:36Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7902,8 +7902,8 @@
    "result": "Starts at 19:00 local time",
    "india": "",
    "o": [
-    0.51,
-    0.49
+    0.76,
+    0.24
    ]
   },
   {
@@ -10081,13 +10081,13 @@
     {
      "date": "2026-10-18T03:00Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Meghalaya Cricket Association Cricket Ground, Shillong",
      "teams": [
       {
        "name": "Meghalaya",
-       "score": ""
+       "score": "168/1 (32 ov)"
       },
       {
        "name": "Manipur",
@@ -10098,8 +10098,8 @@
     {
      "date": "2026-10-18T03:00Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Nagaland Cricket Stadium, Sovima",
      "teams": [
       {
@@ -10108,20 +10108,20 @@
       },
       {
        "name": "Mizoram",
-       "score": ""
+       "score": "130/3 (30 ov)"
       }
      ]
     },
     {
      "date": "2026-10-18T03:15Z",
      "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Barsapara Cricket Stadium, Guwahati",
      "teams": [
       {
        "name": "Assam",
-       "score": ""
+       "score": "77/1 (33 ov)"
       },
       {
        "name": "Tripura",
@@ -10132,8 +10132,8 @@
     {
      "date": "2026-10-18T04:00Z",
      "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Andhra Cricket Assocition Grounds, Mulapadu",
      "teams": [
       {
@@ -10142,7 +10142,7 @@
       },
       {
        "name": "Hyderabad (India)",
-       "score": ""
+       "score": "68/0 (18.5 ov)"
       }
      ]
     }
