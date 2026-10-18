@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T06:21:36Z",
+ "updated": "2026-10-18T11:31:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7902,8 +7902,8 @@
    "result": "Starts at 19:00 local time",
    "india": "",
    "o": [
-    0.76,
-    0.24
+    0.755,
+    0.245
    ]
   },
   {
@@ -10087,7 +10087,7 @@
      "teams": [
       {
        "name": "Meghalaya",
-       "score": "168/1 (32 ov)"
+       "score": "325/6 (82 ov)"
       },
       {
        "name": "Manipur",
@@ -10108,7 +10108,7 @@
       },
       {
        "name": "Mizoram",
-       "score": "130/3 (30 ov)"
+       "score": "331/5 (88 ov)"
       }
      ]
     },
@@ -10121,7 +10121,7 @@
      "teams": [
       {
        "name": "Assam",
-       "score": "77/1 (33 ov)"
+       "score": "228/6 (86 ov)"
       },
       {
        "name": "Tripura",
@@ -10142,7 +10142,7 @@
       },
       {
        "name": "Hyderabad (India)",
-       "score": "68/0 (18.5 ov)"
+       "score": "211/7 (70 ov)"
       }
      ]
     }

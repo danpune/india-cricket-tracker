@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "1VAWom_VbHg",
+     "t": "Why has India failed to find backups for Bumrah? Kaif explains"
+    },
+    {
      "yt": "h93ivoqLs8s",
      "t": "Match Forecast: IND W vs ZIM W, 2nd T20I"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "ADthu8H3ieo",
      "t": "How to solve India\u2019s catching problem? Kaif explains"
-    },
-    {
-     "yt": "LjO1eJolzqQ",
-     "t": "Kohli, Buttler & who else? DK & Rahane pick their Top 5 T20 batters"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-18T06:22:53Z"
+ "updated": "2026-10-18T11:32:46Z"
 }
