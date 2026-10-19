@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Chinmay Sutar scores 400* for Mizoram in Ranji Trophy",
+   "u": "https://www.cricinfo.com/ci/content/story/1559036.html?ex_cid=OTC-RSS",
+   "d": "Mon, 19 Oct 2026"
+  },
+  {
+   "t": "Powar appointed men's national selector; Ojha to serve as chair",
+   "u": "https://www.cricinfo.com/ci/content/story/1559046.html?ex_cid=OTC-RSS",
+   "d": "Mon, 19 Oct 2026"
+  },
+  {
+   "t": "Abhimanyu: The 'dream' to play for India is 'still there'",
+   "u": "https://www.cricinfo.com/ci/content/story/1559015.html?ex_cid=OTC-RSS",
+   "d": "Mon, 19 Oct 2026"
+  },
+  {
    "t": "Kishan and Dhir impress but rain forces series to end 2-2",
    "u": "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
    "d": "Sun, 18 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "Bumrah, Pant in India squad for New Zealand Test series",
    "u": "https://www.cricinfo.com/ci/content/story/1558772.html?ex_cid=OTC-RSS",
    "d": "Fri, 16 Oct 2026"
-  },
-  {
-   "t": "Jaffer applies for India men's national selector post",
-   "u": "https://www.cricinfo.com/ci/content/story/1558791.html?ex_cid=OTC-RSS",
-   "d": "Fri, 16 Oct 2026"
-  },
-  {
-   "t": "Arshdeep doubtful for Bengaluru T20I, Bhuvneshwar added to India squad",
-   "u": "https://www.cricinfo.com/ci/content/story/1558724.html?ex_cid=OTC-RSS",
-   "d": "Fri, 16 Oct 2026"
-  },
-  {
-   "t": "High-scoring series reaches tense decider in rainy Bengaluru",
-   "u": "https://www.cricinfo.com/ci/content/story/1558719.html?ex_cid=OTC-RSS",
-   "d": "Fri, 16 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "umXPAsO70TU",
+     "t": "Match Forecast: IND W vs ZIM W, 3rd T20I"
+    },
+    {
+     "yt": "3JD1rMl6u4o",
+     "t": "Baffled by Jaiswal\u2019s omission from India\u2019s ODI squad: Kaif"
+    },
+    {
+     "yt": "wy639Us95tI",
+     "t": "Bhuvneshwar no less than Bumrah in T20s: Kaif"
+    },
     {
      "yt": "PNLR4Yb5X2E",
      "t": "Naman deserves more respect for his performance: Kaif"
@@ -67,18 +79,6 @@
     {
      "yt": "h93ivoqLs8s",
      "t": "Match Forecast: IND W vs ZIM W, 2nd T20I"
-    },
-    {
-     "yt": "JvA5ulAJP2g",
-     "t": "Is Shami\u2019s India career over? Kaif questions plans"
-    },
-    {
-     "yt": "DLNkTw3SrLQ",
-     "t": "India vs West Indies, 5th T20I: Preview"
-    },
-    {
-     "yt": "et39e1KnH-U",
-     "t": "Match Forecast: India vs West Indies, 5th T20I"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "Q0cg-Exnj5U",
+     "t": "Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
+    },
     {
      "yt": "75R7AnUygu0",
      "t": "Harsha Bhogle on one-sided nature of T20 games"
@@ -105,13 +109,9 @@
     {
      "yt": "F3QuHQOC0nM",
      "t": "Harsha Bhogle looks ahead to the India vs West Indies ODIs"
-    },
-    {
-     "yt": "C-AY0twT0CM",
-     "t": "Harsha Bhogle on India's injury breakdowns"
     }
    ]
   }
  ],
- "updated": "2026-10-18T23:54:22Z"
+ "updated": "2026-10-19T20:52:20Z"
 }

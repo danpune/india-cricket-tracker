@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T23:52:43Z",
+ "updated": "2026-10-19T20:51:01Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8105,8 +8105,12 @@
      "winner": false
     }
    ],
-   "result": "",
-   "india": ""
+   "result": "Starts at 19:00 local time",
+   "india": "",
+   "o": [
+    0.963,
+    0.037
+   ]
   },
   {
    "id": "espn_1539432",
@@ -10248,7 +10252,7 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "more": 15,
+   "more": 14,
    "matches": [
     {
      "date": "2026-10-18T03:00Z",
@@ -10259,11 +10263,11 @@
      "teams": [
       {
        "name": "Meghalaya",
-       "score": "325/6 (82 ov)"
+       "score": "380"
       },
       {
        "name": "Manipur",
-       "score": ""
+       "score": "173/2 (64 ov)"
       }
      ]
     },
@@ -10276,11 +10280,11 @@
      "teams": [
       {
        "name": "Nagaland",
-       "score": ""
+       "score": "50/1 (13 ov)"
       },
       {
        "name": "Mizoram",
-       "score": "331/5 (88 ov)"
+       "score": "581/9d"
       }
      ]
     },
@@ -10293,11 +10297,11 @@
      "teams": [
       {
        "name": "Assam",
-       "score": "228/6 (86 ov)"
+       "score": "334"
       },
       {
        "name": "Tripura",
-       "score": ""
+       "score": "62 & 143/5 (30 ov) (f/o)"
       }
      ]
     },
@@ -10310,11 +10314,11 @@
      "teams": [
       {
        "name": "Andhra",
-       "score": "9/0 (2 ov)"
+       "score": "184"
       },
       {
        "name": "Hyderabad (India)",
-       "score": "275"
+       "score": "275 & 78/2 (23 ov)"
       }
      ]
     }
