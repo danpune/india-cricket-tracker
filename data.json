@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:28:52Z",
+ "updated": "2026-10-20T18:38:34Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8088,63 +8088,64 @@
    "seriesId": "24371",
    "matchNo": "3rd T20I",
    "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "120/2 (12.2/20 ov)",
-     "winner": false
+     "score": "216/7",
+     "winner": true
     },
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
+     "score": "124/7 (20 ov, target 217)",
      "winner": false
     }
    ],
-   "result": "IND Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 92 runs",
+   "india": "won",
+   "seriesNote": "India Women won the 3-match series 3-0",
    "xi": {
     "India Women": [
      "Shafali Verma",
      "Anushka Sharma",
      "Niki Prasad",
      "Harmanpreet Kaur",
-     "Smriti Mandhana (c)",
      "Richa Ghosh",
      "Deepti Sharma",
      "Arundhati Reddy",
      "Prema Rawat",
-     "Nandani Sharma",
-     "Kranti Gaud"
+     "Kranti Gaud",
+     "Smriti Mandhana (c)",
+     "Nandani Sharma"
     ],
     "Zimbabwe Women": [
      "Kelis Ndhlovu",
-     "Beloved Biza",
-     "Chipo Mugeri-Tiripano",
      "Sharne Mayers",
-     "Josephine Nkomo (c)",
-     "Nyasha Gwanzura",
      "Modester Mupachikwa",
-     "Kudzai Chigora",
+     "Beloved Biza",
+     "Nyasha Gwanzura",
+     "Chipo Mugeri-Tiripano",
      "Loryn Phiri",
      "Tendai Makusha",
-     "Nomvelo Sibanda"
+     "Nomvelo Sibanda",
+     "Josephine Nkomo (c)",
+     "Kudzai Chigora"
     ]
    },
    "innings": [
     {
      "t": "India Women",
-     "total": "120/2 (12.2 ov)",
+     "total": "216/7 (20.0 ov)",
      "bat": [
       [
        "Shafali Verma",
-       63,
-       32,
-       "not out"
+       69,
+       37,
+       "c"
       ],
       [
        "Anushka Sharma",
@@ -8160,38 +8161,57 @@
       ],
       [
        "Harmanpreet Kaur",
-       10,
-       10,
+       91,
+       41,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       1,
+       3,
+       "c"
+      ],
+      [
+       "Deepti Sharma",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Arundhati Reddy",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Prema Rawat",
+       4,
+       2,
+       "run out"
+      ],
+      [
+       "Kranti Gaud",
+       0,
+       0,
        "not out"
       ]
      ],
      "dnb": [
       "Smriti Mandhana",
-      "Richa Ghosh",
-      "Deepti Sharma",
-      "Arundhati Reddy",
-      "Prema Rawat",
-      "Nandani Sharma",
-      "Kranti Gaud"
+      "Nandani Sharma"
      ],
      "bowl": [
       [
        "Beloved Biza",
-       "0.2",
-       6,
-       0
+       "4",
+       50,
+       3
       ],
       [
        "Nyasha Gwanzura",
        "2",
        15,
        1
-      ],
-      [
-       "Kudzai Chigora",
-       "2",
-       20,
-       0
       ],
       [
        "Loryn Phiri",
@@ -8201,15 +8221,129 @@
       ],
       [
        "Tendai Makusha",
-       "2",
-       26,
-       0
+       "4",
+       45,
+       1
       ],
       [
        "Nomvelo Sibanda",
-       "3",
-       20,
+       "4",
+       33,
        1
+      ],
+      [
+       "Kudzai Chigora",
+       "3",
+       40,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe Women",
+     "total": "124/7 (20.0 ov)",
+     "bat": [
+      [
+       "Kelis Ndhlovu",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Sharne Mayers",
+       60,
+       49,
+       "c"
+      ],
+      [
+       "Modester Mupachikwa",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Beloved Biza",
+       44,
+       50,
+       "b"
+      ],
+      [
+       "Nyasha Gwanzura",
+       2,
+       7,
+       "b"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Loryn Phiri",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Tendai Makusha",
+       1,
+       1,
+       "not out"
+      ],
+      [
+       "Nomvelo Sibanda",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Josephine Nkomo",
+      "Kudzai Chigora"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       2,
+       0
+      ],
+      [
+       "Niki Prasad",
+       "2",
+       5,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       18,
+       1
+      ],
+      [
+       "Arundhati Reddy",
+       "3",
+       26,
+       1
+      ],
+      [
+       "Prema Rawat",
+       "3",
+       36,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       19,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "4",
+       18,
+       3
       ]
      ]
     }
@@ -8279,8 +8413,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.889,
-    0.111
+    0.865,
+    0.136
    ]
   },
   {
@@ -9619,21 +9753,21 @@
      },
      {
       "no": "4",
-      "name": "Australia",
-      "team": "Australia",
-      "rating": "102"
+      "name": "Pakistan",
+      "team": "Pakistan",
+      "rating": "103"
      },
      {
       "no": "5",
-      "name": "Pakistan",
-      "team": "Pakistan",
+      "name": "Australia",
+      "team": "Australia",
       "rating": "102"
      },
      {
       "no": "6",
       "name": "England",
       "team": "England",
-      "rating": "95"
+      "rating": "94"
      },
      {
       "no": "7",
@@ -10363,7 +10497,7 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "more": 14,
+   "more": 7,
    "matches": [
     {
      "date": "2026-10-18T03:00Z",
@@ -10400,23 +10534,6 @@
      ]
     },
     {
-     "date": "2026-10-18T03:15Z",
-     "desc": "Elite, Group B",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Barsapara Cricket Stadium, Guwahati",
-     "teams": [
-      {
-       "name": "Assam",
-       "score": "334 & 36/1 (13.2 ov, target 36)"
-      },
-      {
-       "name": "Tripura",
-       "score": "62 & 307 (f/o)"
-      }
-     ]
-    },
-    {
      "date": "2026-10-18T04:00Z",
      "desc": "Elite, Group B",
      "state": "in",
@@ -10430,6 +10547,23 @@
       {
        "name": "Hyderabad (India)",
        "score": "275 & 306/7d"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-18T04:00Z",
+     "desc": "Elite, Group C",
+     "state": "in",
+     "detail": "Live",
+     "venue": "Palam B Stadium, New Delhi",
+     "teams": [
+      {
+       "name": "Delhi",
+       "score": "648/6d"
+      },
+      {
+       "name": "Gujarat",
+       "score": "363/5 (120 ov)"
       }
      ]
     }

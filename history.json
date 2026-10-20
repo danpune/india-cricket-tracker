@@ -37638,6 +37638,240 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1535654",
+   "date": "2026-10-20",
+   "gender": "women",
+   "format": "T20I",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "matchNo": "3rd T20I",
+   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+   "city": "",
+   "teams": [
+    {
+     "name": "India Women",
+     "score": "216/7"
+    },
+    {
+     "name": "Zimbabwe Women",
+     "score": "124/7 (20 ov, target 217)"
+    }
+   ],
+   "result": "IND Women won by 92 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "216/7 (20.0 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       69,
+       37,
+       "c"
+      ],
+      [
+       "Anushka Sharma",
+       28,
+       20,
+       "c"
+      ],
+      [
+       "Niki Prasad",
+       9,
+       12,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       91,
+       41,
+       "not out"
+      ],
+      [
+       "Richa Ghosh",
+       1,
+       3,
+       "c"
+      ],
+      [
+       "Deepti Sharma",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Arundhati Reddy",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Prema Rawat",
+       4,
+       2,
+       "run out"
+      ],
+      [
+       "Kranti Gaud",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Smriti Mandhana",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Beloved Biza",
+       "4",
+       50,
+       3
+      ],
+      [
+       "Nyasha Gwanzura",
+       "2",
+       15,
+       1
+      ],
+      [
+       "Loryn Phiri",
+       "3",
+       33,
+       0
+      ],
+      [
+       "Tendai Makusha",
+       "4",
+       45,
+       1
+      ],
+      [
+       "Nomvelo Sibanda",
+       "4",
+       33,
+       1
+      ],
+      [
+       "Kudzai Chigora",
+       "3",
+       40,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe Women",
+     "total": "124/7 (20.0 ov)",
+     "bat": [
+      [
+       "Kelis Ndhlovu",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Sharne Mayers",
+       60,
+       49,
+       "c"
+      ],
+      [
+       "Modester Mupachikwa",
+       1,
+       4,
+       "c"
+      ],
+      [
+       "Beloved Biza",
+       44,
+       50,
+       "b"
+      ],
+      [
+       "Nyasha Gwanzura",
+       2,
+       7,
+       "b"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       7,
+       5,
+       "c"
+      ],
+      [
+       "Loryn Phiri",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Tendai Makusha",
+       1,
+       1,
+       "not out"
+      ],
+      [
+       "Nomvelo Sibanda",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Josephine Nkomo",
+      "Kudzai Chigora"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "1",
+       2,
+       0
+      ],
+      [
+       "Niki Prasad",
+       "2",
+       5,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "4",
+       18,
+       1
+      ],
+      [
+       "Arundhati Reddy",
+       "3",
+       26,
+       1
+      ],
+      [
+       "Prema Rawat",
+       "3",
+       36,
+       0
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       19,
+       1
+      ],
+      [
+       "Nandani Sharma",
+       "4",
+       18,
+       3
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
