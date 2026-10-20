@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T04:40:30Z",
+ "updated": "2026-10-20T14:28:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8088,14 +8088,14 @@
    "seriesId": "24371",
    "matchNo": "3rd T20I",
    "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
+     "score": "120/2 (12.2/20 ov)",
      "winner": false
     },
     {
@@ -8105,11 +8105,114 @@
      "winner": false
     }
    ],
-   "result": "Starts at 19:00 local time",
+   "result": "IND Women won toss & batted",
    "india": "",
-   "o": [
-    0.889,
-    0.111
+   "xi": {
+    "India Women": [
+     "Shafali Verma",
+     "Anushka Sharma",
+     "Niki Prasad",
+     "Harmanpreet Kaur",
+     "Smriti Mandhana (c)",
+     "Richa Ghosh",
+     "Deepti Sharma",
+     "Arundhati Reddy",
+     "Prema Rawat",
+     "Nandani Sharma",
+     "Kranti Gaud"
+    ],
+    "Zimbabwe Women": [
+     "Kelis Ndhlovu",
+     "Beloved Biza",
+     "Chipo Mugeri-Tiripano",
+     "Sharne Mayers",
+     "Josephine Nkomo (c)",
+     "Nyasha Gwanzura",
+     "Modester Mupachikwa",
+     "Kudzai Chigora",
+     "Loryn Phiri",
+     "Tendai Makusha",
+     "Nomvelo Sibanda"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India Women",
+     "total": "120/2 (12.2 ov)",
+     "bat": [
+      [
+       "Shafali Verma",
+       63,
+       32,
+       "not out"
+      ],
+      [
+       "Anushka Sharma",
+       28,
+       20,
+       "c"
+      ],
+      [
+       "Niki Prasad",
+       9,
+       12,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       10,
+       10,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Smriti Mandhana",
+      "Richa Ghosh",
+      "Deepti Sharma",
+      "Arundhati Reddy",
+      "Prema Rawat",
+      "Nandani Sharma",
+      "Kranti Gaud"
+     ],
+     "bowl": [
+      [
+       "Beloved Biza",
+       "0.2",
+       6,
+       0
+      ],
+      [
+       "Nyasha Gwanzura",
+       "2",
+       15,
+       1
+      ],
+      [
+       "Kudzai Chigora",
+       "2",
+       20,
+       0
+      ],
+      [
+       "Loryn Phiri",
+       "3",
+       33,
+       0
+      ],
+      [
+       "Tendai Makusha",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Nomvelo Sibanda",
+       "3",
+       20,
+       1
+      ]
+     ]
+    }
    ]
   },
   {
@@ -8140,7 +8243,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1535655",
@@ -8170,7 +8277,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.889,
+    0.111
+   ]
   },
   {
    "id": "espn_1539433",
@@ -9929,7 +10040,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-10-12",
+    "updated": "2026-10-14",
     "bat": [
      {
       "no": "1",
@@ -9950,16 +10061,16 @@
       "rating": "731"
      },
      {
-      "no": "=",
+      "no": "4",
       "name": "Beth Mooney",
       "team": "Australia",
-      "rating": "731"
+      "rating": "723"
      },
      {
       "no": "5",
       "name": "Phoebe Litchfield",
       "team": "Australia",
-      "rating": "727"
+      "rating": "720"
      },
      {
       "no": "6",
@@ -9981,15 +10092,15 @@
      },
      {
       "no": "9",
-      "name": "Harmanpreet Kaur",
-      "team": "India",
-      "rating": "652"
+      "name": "Ellyse Perry",
+      "team": "Australia",
+      "rating": "664"
      },
      {
       "no": "10",
-      "name": "Ellyse Perry",
-      "team": "Australia",
-      "rating": "650"
+      "name": "Harmanpreet Kaur",
+      "team": "India",
+      "rating": "652"
      }
     ],
     "bowl": [
@@ -9997,31 +10108,31 @@
       "no": "1",
       "name": "Alana King",
       "team": "Australia",
-      "rating": "745"
+      "rating": "743"
      },
      {
       "no": "2",
-      "name": "Ashleigh Gardner",
-      "team": "Australia",
-      "rating": "698"
-     },
-     {
-      "no": "3",
       "name": "Sophie Ecclestone",
       "team": "England",
       "rating": "696"
      },
      {
-      "no": "4",
-      "name": "Annabel Sutherland",
+      "no": "3",
+      "name": "Ashleigh Gardner",
       "team": "Australia",
-      "rating": "662"
+      "rating": "692"
+     },
+     {
+      "no": "4",
+      "name": "Megan Schutt",
+      "team": "Australia",
+      "rating": "673"
      },
      {
       "no": "5",
-      "name": "Megan Schutt",
+      "name": "Annabel Sutherland",
       "team": "Australia",
-      "rating": "657"
+      "rating": "667"
      },
      {
       "no": "6",
@@ -10039,7 +10150,7 @@
       "no": "8",
       "name": "Kim Garth",
       "team": "Australia",
-      "rating": "616"
+      "rating": "619"
      },
      {
       "no": "9",
@@ -10061,7 +10172,7 @@
       "no": "1",
       "name": "Australia",
       "team": "Australia",
-      "rating": "291"
+      "rating": "292"
      },
      {
       "no": "2",
@@ -10079,7 +10190,7 @@
       "no": "4",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "249"
+      "rating": "248"
      },
      {
       "no": "5",
@@ -10118,7 +10229,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-10-12",
+    "updated": "2026-10-19",
     "bat": [
      {
       "no": "1",
@@ -10128,27 +10239,27 @@
      },
      {
       "no": "2",
-      "name": "Georgia Voll",
-      "team": "Australia",
-      "rating": "779"
-     },
-     {
-      "no": "3",
       "name": "Laura Wolvaardt",
       "team": "South Africa",
       "rating": "766"
      },
      {
+      "no": "3",
+      "name": "Georgia Voll",
+      "team": "Australia",
+      "rating": "762"
+     },
+     {
       "no": "4",
       "name": "Shafali Verma",
       "team": "India",
-      "rating": "759"
+      "rating": "757"
      },
      {
       "no": "5",
       "name": "Smriti Mandhana",
       "team": "India",
-      "rating": "754"
+      "rating": "753"
      },
      {
       "no": "6",
@@ -10166,7 +10277,7 @@
       "no": "8",
       "name": "Amelia Kerr",
       "team": "New Zealand",
-      "rating": "696"
+      "rating": "688"
      },
      {
       "no": "9",
@@ -10178,7 +10289,7 @@
       "no": "10",
       "name": "Harmanpreet Kaur",
       "team": "India",
-      "rating": "656"
+      "rating": "649"
      }
     ],
     "bowl": [
@@ -10186,13 +10297,13 @@
       "no": "1",
       "name": "Sree Charani",
       "team": "India",
-      "rating": "817"
+      "rating": "811"
      },
      {
       "no": "2",
       "name": "Deepti Sharma",
       "team": "India",
-      "rating": "754"
+      "rating": "748"
      },
      {
       "no": "3",
@@ -10226,21 +10337,21 @@
      },
      {
       "no": "8",
+      "name": "Annabel Sutherland",
+      "team": "Australia",
+      "rating": "677"
+     },
+     {
+      "no": "9",
       "name": "Nashra Sundhu",
       "team": "Pakistan",
       "rating": "676"
      },
      {
-      "no": "9",
-      "name": "Annabel Sutherland",
-      "team": "Australia",
-      "rating": "673"
-     },
-     {
       "no": "10",
-      "name": "Georgia Wareham",
-      "team": "Australia",
-      "rating": "671"
+      "name": "Sadia Iqbal",
+      "team": "Pakistan",
+      "rating": "669"
      }
     ]
    }
@@ -10263,11 +10374,11 @@
      "teams": [
       {
        "name": "Meghalaya",
-       "score": "380"
+       "score": "380 & 172"
       },
       {
        "name": "Manipur",
-       "score": "230/6 (81 ov)"
+       "score": "277 & 11/0 (3 ov, target 276)"
       }
      ]
     },
@@ -10280,7 +10391,7 @@
      "teams": [
       {
        "name": "Nagaland",
-       "score": "92/1 (28 ov)"
+       "score": "324/3 (101 ov)"
       },
       {
        "name": "Mizoram",
@@ -10291,17 +10402,17 @@
     {
      "date": "2026-10-18T03:15Z",
      "desc": "Elite, Group B",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Barsapara Cricket Stadium, Guwahati",
      "teams": [
       {
        "name": "Assam",
-       "score": "334"
+       "score": "334 & 36/1 (13.2 ov, target 36)"
       },
       {
        "name": "Tripura",
-       "score": "62 & 190/6 (43.2 ov) (f/o)"
+       "score": "62 & 307 (f/o)"
       }
      ]
     },
@@ -10314,11 +10425,11 @@
      "teams": [
       {
        "name": "Andhra",
-       "score": "184"
+       "score": "184 & 7/2 (4 ov, target 398)"
       },
       {
        "name": "Hyderabad (India)",
-       "score": "275 & 78/2 (25 ov)"
+       "score": "275 & 306/7d"
       }
      ]
     }
