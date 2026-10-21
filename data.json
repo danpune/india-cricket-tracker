@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T05:06:40Z",
+ "updated": "2026-10-21T10:04:07Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -842,314 +842,6 @@
        "Prasidh Krishna",
        "3",
        6,
-       0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1538611",
-   "eventId": "1538611",
-   "date": "2026-06-08T09:00Z",
-   "gender": "women",
-   "format": "T20",
-   "series": "India Women tour of England 2026",
-   "seriesId": "23814",
-   "matchNo": "Warm-up",
-   "venue": "Sophia Gardens, Cardiff",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "179/8",
-     "winner": true
-    },
-    {
-     "name": "West Indies Women",
-     "abbr": "WI-W",
-     "score": "153/8 (20 ov, target 180)",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 26 runs",
-   "india": "won",
-   "xi": {
-    "India Women": [
-     "Shafali Verma",
-     "Smriti Mandhana (c)",
-     "Jemimah Rodrigues",
-     "Yastika Bhatia",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Radha Yadav",
-     "Shreyanka Patil",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Arundhati Reddy",
-     "Harmanpreet Kaur",
-     "Deepti Sharma",
-     "Renuka Singh",
-     "Nandani Sharma"
-    ],
-    "West Indies Women": [
-     "Deandra Dottin",
-     "Shemaine Campbelle",
-     "Qiana Joseph",
-     "Jahzara Claxton",
-     "Aaliyah Alleyne",
-     "Chinelle Henry (c)",
-     "Jannillea Glasgow",
-     "Zaida James",
-     "Shawnisha Hector",
-     "Afy Fletcher",
-     "Hayley Matthews",
-     "Mandy Mangru",
-     "Ashmini Munisar",
-     "Karishma Ramharack",
-     "Stafanie Taylor"
-    ]
-   },
-   "innings": [
-    {
-     "t": "India Women",
-     "total": "179/8 (20.0 ov)",
-     "bat": [
-      [
-       "Shafali Verma",
-       29,
-       13,
-       "c"
-      ],
-      [
-       "Smriti Mandhana",
-       39,
-       23,
-       "c"
-      ],
-      [
-       "Jemimah Rodrigues",
-       7,
-       7,
-       "c"
-      ],
-      [
-       "Yastika Bhatia",
-       36,
-       26,
-       "retired out"
-      ],
-      [
-       "Bharti Fulmali",
-       56,
-       40,
-       "not out"
-      ],
-      [
-       "Richa Ghosh",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Radha Yadav",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Shreyanka Patil",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Kranti Gaud",
-       4,
-       2,
-       "b"
-      ],
-      [
-       "Shree Charani",
-       2,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Arundhati Reddy",
-      "Harmanpreet Kaur",
-      "Deepti Sharma",
-      "Renuka Singh",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Deandra Dottin",
-       "2",
-       19,
-       1
-      ],
-      [
-       "Qiana Joseph",
-       "2",
-       21,
-       0
-      ],
-      [
-       "Jahzara Claxton",
-       "2",
-       19,
-       0
-      ],
-      [
-       "Aaliyah Alleyne",
-       "2",
-       17,
-       1
-      ],
-      [
-       "Chinelle Henry",
-       "2",
-       21,
-       0
-      ],
-      [
-       "Zaida James",
-       "1",
-       13,
-       0
-      ],
-      [
-       "Afy Fletcher",
-       "4",
-       23,
-       4
-      ],
-      [
-       "Ashmini Munisar",
-       "2",
-       14,
-       0
-      ],
-      [
-       "Karishma Ramharack",
-       "3",
-       32,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "West Indies Women",
-     "total": "153/8 (20.0 ov)",
-     "bat": [
-      [
-       "Deandra Dottin",
-       49,
-       44,
-       "lbw"
-      ],
-      [
-       "Shemaine Campbelle",
-       25,
-       22,
-       "retired out"
-      ],
-      [
-       "Qiana Joseph",
-       5,
-       4,
-       "b"
-      ],
-      [
-       "Jahzara Claxton",
-       6,
-       4,
-       "c"
-      ],
-      [
-       "Aaliyah Alleyne",
-       13,
-       7,
-       "c"
-      ],
-      [
-       "Chinelle Henry",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Jannillea Glasgow",
-       19,
-       18,
-       "c"
-      ],
-      [
-       "Zaida James",
-       1,
-       2,
-       "b"
-      ],
-      [
-       "Shawnisha Hector",
-       19,
-       11,
-       "not out"
-      ],
-      [
-       "Afy Fletcher",
-       7,
-       6,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Hayley Matthews",
-      "Mandy Mangru",
-      "Ashmini Munisar",
-      "Karishma Ramharack",
-      "Stafanie Taylor"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "2",
-       9,
-       0
-      ],
-      [
-       "Radha Yadav",
-       "4",
-       25,
-       3
-      ],
-      [
-       "Shreyanka Patil",
-       "4",
-       36,
-       4
-      ],
-      [
-       "Kranti Gaud",
-       "4",
-       43,
-       0
-      ],
-      [
-       "Shree Charani",
-       "2",
-       9,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       30,
        0
       ]
      ]
@@ -8347,7 +8039,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 20:00 local time",
    "india": "",
    "o": [
     0.5,
@@ -9761,7 +9453,7 @@
       "rating": "79"
      }
     ],
-    "updated": "2026-10-13",
+    "updated": "2026-10-20",
     "bat": [
      {
       "no": "1",
@@ -9791,7 +9483,7 @@
       "no": "5",
       "name": "Ibrahim Zadran",
       "team": "Afghanistan",
-      "rating": "719"
+      "rating": "742"
      },
      {
       "no": "6",
@@ -9803,19 +9495,19 @@
       "no": "7",
       "name": "Babar Azam",
       "team": "Pakistan",
-      "rating": "689"
+      "rating": "684"
      },
      {
       "no": "8",
       "name": "Kusal Mendis",
       "team": "Sri Lanka",
-      "rating": "674"
+      "rating": "667"
      },
      {
       "no": "9",
       "name": "Joe Root",
       "team": "England",
-      "rating": "660"
+      "rating": "659"
      },
      {
       "no": "10",
@@ -9829,13 +9521,13 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "714"
+      "rating": "742"
      },
      {
       "no": "2",
       "name": "Abrar Ahmed",
       "team": "Pakistan",
-      "rating": "675"
+      "rating": "662"
      },
      {
       "no": "3",
@@ -9851,33 +9543,33 @@
      },
      {
       "no": "5",
-      "name": "Maheesh Theekshana",
-      "team": "Sri Lanka",
-      "rating": "622"
-     },
-     {
-      "no": "6",
       "name": "Kuldeep Yadav",
       "team": "India",
       "rating": "620"
      },
      {
+      "no": "6",
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
+      "rating": "616"
+     },
+     {
       "no": "7",
       "name": "Jofra Archer",
       "team": "England",
-      "rating": "617"
+      "rating": "611"
      },
      {
       "no": "8",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
-      "rating": "604"
+      "rating": "601"
      },
      {
       "no": "9",
       "name": "Mehidy Hasan Miraz",
       "team": "Bangladesh",
-      "rating": "602"
+      "rating": "596"
      },
      {
       "no": "10",
@@ -9950,19 +9642,19 @@
       "rating": "218"
      }
     ],
-    "updated": "2026-10-13",
+    "updated": "2026-10-20",
     "bat": [
      {
       "no": "1",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "904"
+      "rating": "893"
      },
      {
       "no": "2",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "891"
+      "rating": "884"
      },
      {
       "no": "3",
@@ -10002,15 +9694,15 @@
      },
      {
       "no": "9",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "731"
+      "name": "Shai Hope",
+      "team": "West Indies",
+      "rating": "759"
      },
      {
       "no": "10",
-      "name": "Pathum Nissanka",
-      "team": "Sri Lanka",
-      "rating": "720"
+      "name": "Tilak Varma",
+      "team": "India",
+      "rating": "726"
      }
     ],
     "bowl": [
@@ -10064,15 +9756,15 @@
      },
      {
       "no": "9",
-      "name": "Axar Patel",
-      "team": "India",
-      "rating": "649"
-     },
-     {
-      "no": "10",
       "name": "Liam Dawson",
       "team": "England",
       "rating": "648"
+     },
+     {
+      "no": "10",
+      "name": "Axar Patel",
+      "team": "India",
+      "rating": "646"
      }
     ]
    }
@@ -10469,8 +10161,8 @@
     {
      "date": "2026-10-18T03:00Z",
      "desc": "Plate Group",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Meghalaya Cricket Association Cricket Ground, Shillong",
      "teams": [
       {
@@ -10479,7 +10171,7 @@
       },
       {
        "name": "Manipur",
-       "score": "277 & 63/1 (21 ov, target 276)"
+       "score": "277 & 272 (75.2 ov, target 276)"
       }
      ]
     },
@@ -10492,7 +10184,7 @@
      "teams": [
       {
        "name": "Nagaland",
-       "score": "351/5 (113 ov)"
+       "score": "516 (181 ov)"
       },
       {
        "name": "Mizoram",
@@ -10502,26 +10194,9 @@
     },
     {
      "date": "2026-10-18T04:00Z",
-     "desc": "Elite, Group B",
-     "state": "in",
-     "detail": "Live",
-     "venue": "Andhra Cricket Assocition Grounds, Mulapadu",
-     "teams": [
-      {
-       "name": "Andhra",
-       "score": "184 & 25/2 (11 ov, target 398)"
-      },
-      {
-       "name": "Hyderabad (India)",
-       "score": "275 & 306/7d"
-      }
-     ]
-    },
-    {
-     "date": "2026-10-18T04:00Z",
      "desc": "Elite, Group C",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Palam B Stadium, New Delhi",
      "teams": [
       {
@@ -10530,7 +10205,24 @@
       },
       {
        "name": "Gujarat",
-       "score": "396/6 (132.5 ov)"
+       "score": "479 & 15/1 (8 ov) (f/o)"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-18T04:00Z",
+     "desc": "Elite, Group B",
+     "state": "in",
+     "detail": "Live",
+     "venue": "KSCA Cricket Ground, Alur",
+     "teams": [
+      {
+       "name": "Karnataka",
+       "score": "342 & 243/7d"
+      },
+      {
+       "name": "Saurashtra",
+       "score": "349 & 69/1 (24.1 ov, target 237)"
       }
      ]
     }
