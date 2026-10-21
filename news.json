@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Santner: 'Bhuvi will love these conditions in New Zealand'",
+   "u": "https://www.cricinfo.com/ci/content/story/1559269.html?ex_cid=OTC-RSS",
+   "d": "Wed, 21 Oct 2026"
+  },
+  {
    "t": "Harmanpreet, Shafali fifties and Nandani three-for seal 3-0 series sweep for India",
    "u": "https://www.cricinfo.com/ci/content/story/1559253.html?ex_cid=OTC-RSS",
    "d": "Tue, 20 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "\u0930\u0923\u091c\u0940 \u091f\u094d\u0930\u0949\u092b\u093c\u0940 \u0915\u0947 \u0926\u0942\u0938\u0930\u0947 \u0930\u093e\u0909\u0902\u0921 \u092e\u0947\u0902 \u092a\u0902\u091c\u093e\u092c \u0915\u0947 \u0932\u093f\u090f \u0916\u0947\u0932\u0947\u0902\u0917\u0947 \u0936\u0941\u092d\u092e\u0928 \u0917\u093f\u0932",
    "u": "https://www.cricinfo.com/ci/content/story/1558868.html?ex_cid=OTC-RSS",
    "d": "Sat, 17 Oct 2026"
-  },
-  {
-   "t": "Gill to feature for Punjab in second round of Ranji Trophy",
-   "u": "https://www.cricinfo.com/ci/content/story/1558865.html?ex_cid=OTC-RSS",
-   "d": "Sat, 17 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "-T0PprSIEz0",
+     "t": "Rohit & Kohli make sure fans are tuned in to ODIs: Joy Bhattacharjya"
+    },
     {
      "yt": "u1UBB3v1f7A",
      "t": "Preview: New Zealand vs India, 5 T20Is"
@@ -75,10 +79,6 @@
     {
      "yt": "wy639Us95tI",
      "t": "Bhuvneshwar no less than Bumrah in T20s: Kaif"
-    },
-    {
-     "yt": "PNLR4Yb5X2E",
-     "t": "Naman deserves more respect for his performance: Kaif"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-21T00:21:54Z"
+ "updated": "2026-10-21T05:07:37Z"
 }

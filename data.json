@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T00:21:03Z",
+ "updated": "2026-10-21T05:06:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -7776,7 +7776,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "118/5 (7.4 ov)",
+     "score": "118/5 (7.4/9 ov)",
      "winner": false
     },
     {
@@ -10479,7 +10479,7 @@
       },
       {
        "name": "Manipur",
-       "score": "277 & 11/0 (3 ov, target 276)"
+       "score": "277 & 63/1 (21 ov, target 276)"
       }
      ]
     },
@@ -10492,7 +10492,7 @@
      "teams": [
       {
        "name": "Nagaland",
-       "score": "324/3 (101 ov)"
+       "score": "351/5 (113 ov)"
       },
       {
        "name": "Mizoram",
@@ -10509,7 +10509,7 @@
      "teams": [
       {
        "name": "Andhra",
-       "score": "184 & 7/2 (4 ov, target 398)"
+       "score": "184 & 25/2 (11 ov, target 398)"
       },
       {
        "name": "Hyderabad (India)",
@@ -10530,7 +10530,7 @@
       },
       {
        "name": "Gujarat",
-       "score": "363/5 (120 ov)"
+       "score": "396/6 (132.5 ov)"
       }
      ]
     }
