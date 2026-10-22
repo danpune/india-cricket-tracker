@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Shreyas Iyer: Pitch got flatter in second innings in Christchurch",
+   "u": "https://www.cricinfo.com/ci/content/story/1559570.html?ex_cid=OTC-RSS",
+   "d": "Thu, 22 Oct 2026"
+  },
+  {
+   "t": "Samson, Iyer and Dhir pull off record chase against NZ in T20I series opener",
+   "u": "https://www.cricinfo.com/ci/content/story/1559554.html?ex_cid=OTC-RSS",
+   "d": "Thu, 22 Oct 2026"
+  },
+  {
    "t": "India bring in Reddy and Mayank, ask New Zealand to bat in first T20I",
    "u": "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
    "d": "Thu, 22 Oct 2026"
@@ -39,16 +49,6 @@
    "t": "Powar appointed men's national selector; Ojha to serve as chair",
    "u": "https://www.cricinfo.com/ci/content/story/1559046.html?ex_cid=OTC-RSS",
    "d": "Mon, 19 Oct 2026"
-  },
-  {
-   "t": "Abhimanyu: The 'dream' to play for India is 'still there'",
-   "u": "https://www.cricinfo.com/ci/content/story/1559015.html?ex_cid=OTC-RSS",
-   "d": "Mon, 19 Oct 2026"
-  },
-  {
-   "t": "Kishan and Dhir impress but rain forces series to end 2-2",
-   "u": "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
-   "d": "Sun, 18 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "VbaUSpMdFcc",
+     "t": "Noise around Sooryavanshi not playing worries me more: Harsha Bhogle"
+    },
+    {
+     "yt": "YmhCnz7yD6k",
+     "t": "Players like Samson need to be backed - and they deliver: Harsha Bhogle"
+    },
+    {
+     "yt": "1__0HiFSFSM",
+     "t": "How India chased 226? Harsha Bhogle & Dinesh Karthik review"
+    },
     {
      "yt": "mpPlyqrqRNA",
      "t": "Ishan Kishan is emerging as a big-match player: Kaif"
@@ -67,18 +79,6 @@
     {
      "yt": "-T0PprSIEz0",
      "t": "Rohit & Kohli make sure fans are tuned in to ODIs: Joy Bhattacharjya"
-    },
-    {
-     "yt": "u1UBB3v1f7A",
-     "t": "Preview: New Zealand vs India, 5 T20Is"
-    },
-    {
-     "yt": "Dii3eG1HIJ0",
-     "t": "Salute Indian selectors for rewarding Bhuvi\u2019s hardwork: Kaif"
-    },
-    {
-     "yt": "umXPAsO70TU",
-     "t": "Match Forecast: IND W vs ZIM W, 3rd T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-22T10:31:42Z"
+ "updated": "2026-10-22T15:33:51Z"
 }
