@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Injured Ishan Kishan ruled out of second T20I against New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1559676.html?ex_cid=OTC-RSS",
+   "d": "Fri, 23 Oct 2026"
+  },
+  {
    "t": "Shreyas Iyer: Pitch got flatter in second innings in Christchurch",
    "u": "https://www.cricinfo.com/ci/content/story/1559570.html?ex_cid=OTC-RSS",
    "d": "Thu, 22 Oct 2026"
@@ -44,11 +49,6 @@
    "t": "Chinmay Sutar scores 400* for Mizoram in Ranji Trophy",
    "u": "https://www.cricinfo.com/ci/content/story/1559036.html?ex_cid=OTC-RSS",
    "d": "Mon, 19 Oct 2026"
-  },
-  {
-   "t": "Powar appointed men's national selector; Ojha to serve as chair",
-   "u": "https://www.cricinfo.com/ci/content/story/1559046.html?ex_cid=OTC-RSS",
-   "d": "Mon, 19 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "FB4L9-FcU2o",
+     "t": "Naman has put pressure on Nitish & Dube for T20I spots: Harsha Bhogle"
+    },
     {
      "yt": "VbaUSpMdFcc",
      "t": "Noise around Sooryavanshi not playing worries me more: Harsha Bhogle"
@@ -75,10 +79,6 @@
     {
      "yt": "4ikmD0f_LrI",
      "t": "We have plans for Sooryavanshi if he plays: Santner"
-    },
-    {
-     "yt": "-T0PprSIEz0",
-     "t": "Rohit & Kohli make sure fans are tuned in to ODIs: Joy Bhattacharjya"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-23T00:56:55Z"
+ "updated": "2026-10-23T05:42:39Z"
 }
