@@ -1,16 +1,6 @@
 {
  "headlines": [
   {
-   "t": "S Meghana retires from all formats at 30",
-   "u": "https://www.cricinfo.com/ci/content/story/1559723.html?ex_cid=OTC-RSS",
-   "d": "Fri, 23 Oct 2026"
-  },
-  {
-   "t": "Hype around Sooryavanshi not good for him or team, says Sitanshu Kotak",
-   "u": "https://www.cricinfo.com/ci/content/story/1559703.html?ex_cid=OTC-RSS",
-   "d": "Fri, 23 Oct 2026"
-  },
-  {
    "t": "Sooryavanshi set to get in as New Zealand and India prepare for another slugfest",
    "u": "https://www.cricinfo.com/ci/content/story/1559705.html?ex_cid=OTC-RSS",
    "d": "Fri, 23 Oct 2026"
@@ -18,6 +8,16 @@
   {
    "t": "Injured Ishan Kishan ruled out of second T20I against New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1559676.html?ex_cid=OTC-RSS",
+   "d": "Fri, 23 Oct 2026"
+  },
+  {
+   "t": "S Meghana retires from all formats at 30",
+   "u": "https://www.cricinfo.com/ci/content/story/1559723.html?ex_cid=OTC-RSS",
+   "d": "Fri, 23 Oct 2026"
+  },
+  {
+   "t": "Hype around Sooryavanshi not good for him or team, says Sitanshu Kotak",
+   "u": "https://www.cricinfo.com/ci/content/story/1559703.html?ex_cid=OTC-RSS",
    "d": "Fri, 23 Oct 2026"
   },
   {
@@ -57,6 +57,14 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "5zIvdHJj1eQ",
+     "t": "Match Forecast: New Zealand vs India, 2nd T20I"
+    },
+    {
+     "yt": "MzSWBFf3xb4",
+     "t": "New Zealand vs India, 2nd T20I: Preview"
+    },
+    {
      "yt": "FB4L9-FcU2o",
      "t": "Naman has put pressure on Nitish & Dube for T20I spots: Harsha Bhogle"
     },
@@ -71,14 +79,6 @@
     {
      "yt": "1__0HiFSFSM",
      "t": "How India chased 226? Harsha Bhogle & Dinesh Karthik review"
-    },
-    {
-     "yt": "mpPlyqrqRNA",
-     "t": "Ishan Kishan is emerging as a big-match player: Kaif"
-    },
-    {
-     "yt": "4ikmD0f_LrI",
-     "t": "We have plans for Sooryavanshi if he plays: Santner"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-23T10:33:51Z"
+ "updated": "2026-10-23T15:27:18Z"
 }
