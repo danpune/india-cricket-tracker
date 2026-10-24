@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Tilak, Reddy, Dhir seal thriller for India to go 2-0 up against sloppy New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
+   "d": "Sat, 24 Oct 2026"
+  },
+  {
    "t": "Tilak Varma: I have done what everyone believed",
    "u": "https://www.cricinfo.com/ci/content/story/1559848.html?ex_cid=OTC-RSS",
    "d": "Sat, 24 Oct 2026"
@@ -8,11 +13,6 @@
   {
    "t": "'The small stuff can change games quickly' - Santner rues dropped catches and misfields",
    "u": "https://www.cricinfo.com/ci/content/story/1559854.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "Tilak, Reddy, Dhir seal thriller for India to go 2-0 up against sloppy New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
    "d": "Sat, 24 Oct 2026"
   },
   {
@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "wLMJqE-WnLk",
+     "t": "Will Rohit Sharma return as Mumbai captain?"
+    },
+    {
      "yt": "EkbOvFSC7SE",
      "t": "Tilak Varma is irreplaceable as a finisher for India: Harsha Bhogle"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "MzSWBFf3xb4",
      "t": "New Zealand vs India, 2nd T20I: Preview"
-    },
-    {
-     "yt": "FB4L9-FcU2o",
-     "t": "Naman has put pressure on Nitish & Dube for T20I spots: Harsha Bhogle"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-24T13:39:32Z"
+ "updated": "2026-10-24T16:58:05Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T13:38:02Z",
+ "updated": "2026-10-24T16:56:43Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8040,35 +8040,6 @@
    ],
    "result": "India won by 4 wkts (1b rem)",
    "india": "won",
-   "seriesNote": "India led the 5-match series 2-0",
-   "xi": {
-    "New Zealand": [
-     "Tim Seifert",
-     "Finn Allen",
-     "Daryl Mitchell",
-     "Glenn Phillips",
-     "Bevon Jacobs",
-     "Mitchell Santner (c)",
-     "Michael Bracewell",
-     "Nathan Smith",
-     "Matt Henry",
-     "Jacob Duffy",
-     "Lockie Ferguson"
-    ],
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Vaibhav Sooryavanshi",
-     "Shreyas Iyer (c)",
-     "Axar Patel",
-     "Tilak Varma",
-     "Naman Dhir",
-     "Nitish Kumar Reddy",
-     "Bhuvneshwar Kumar",
-     "Arshdeep Singh",
-     "Prince Yadav"
-    ]
-   },
    "innings": [
     {
      "t": "New Zealand",
