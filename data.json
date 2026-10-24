@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:35:41Z",
+ "updated": "2026-10-24T09:45:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -265,243 +265,7 @@
     }
    ],
    "result": "IND Women won by 7 wkts (22b rem)",
-   "india": "won",
-   "xi": {
-    "ECB Development Women's XI": [
-     "Tilly Kesteven",
-     "Liberty Heap",
-     "Ariana Dowse",
-     "Bethan Gammon",
-     "Florence Miller",
-     "Joanne Gardner",
-     "Sophia Smale (c)",
-     "Prisha Thanawala",
-     "Sophie Munro",
-     "Ellie Anderson",
-     "Clara Thaker",
-     "Maria Andrews"
-    ],
-    "India Women": [
-     "Smriti Mandhana (c)",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Bharti Fulmali",
-     "Arundhati Reddy",
-     "Jemimah Rodrigues",
-     "Shreyanka Patil",
-     "Deepti Sharma",
-     "Richa Ghosh",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "ECB Development Women's XI",
-     "total": "154/6 (20.0 ov)",
-     "bat": [
-      [
-       "Tilly Kesteven",
-       8,
-       10,
-       "c"
-      ],
-      [
-       "Liberty Heap",
-       8,
-       6,
-       "b"
-      ],
-      [
-       "Ariana Dowse",
-       13,
-       17,
-       "b"
-      ],
-      [
-       "Bethan Gammon",
-       0,
-       1,
-       "lbw"
-      ],
-      [
-       "Florence Miller",
-       48,
-       41,
-       "b"
-      ],
-      [
-       "Joanne Gardner",
-       36,
-       27,
-       "c"
-      ],
-      [
-       "Sophia Smale",
-       27,
-       18,
-       "not out"
-      ],
-      [
-       "Prisha Thanawala",
-       3,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Sophie Munro",
-      "Ellie Anderson",
-      "Clara Thaker",
-      "Maria Andrews"
-     ],
-     "bowl": [
-      [
-       "Arundhati Reddy",
-       "3",
-       29,
-       3
-      ],
-      [
-       "Shreyanka Patil",
-       "3",
-       31,
-       1
-      ],
-      [
-       "Deepti Sharma",
-       "3",
-       23,
-       1
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ],
-      [
-       "Shree Charani",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "3",
-       19,
-       0
-      ],
-      [
-       "Nandani Sharma",
-       "3",
-       18,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "200/6 (20.0 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       21,
-       10,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       50,
-       25,
-       "retired out"
-      ],
-      [
-       "Yastika Bhatia",
-       47,
-       35,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       48,
-       29,
-       "st"
-      ],
-      [
-       "Arundhati Reddy",
-       20,
-       16,
-       "b"
-      ],
-      [
-       "Jemimah Rodrigues",
-       2,
-       2,
-       "not out"
-      ],
-      [
-       "Shreyanka Patil",
-       5,
-       2,
-       "run out"
-      ],
-      [
-       "Deepti Sharma",
-       2,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Richa Ghosh",
-      "Kranti Gaud",
-      "Shree Charani",
-      "Renuka Singh",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Sophia Smale",
-       "2",
-       26,
-       0
-      ],
-      [
-       "Prisha Thanawala",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Sophie Munro",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Ellie Anderson",
-       "4",
-       39,
-       2
-      ],
-      [
-       "Clara Thaker",
-       "3",
-       32,
-       1
-      ],
-      [
-       "Maria Andrews",
-       "3",
-       30,
-       1
-      ]
-     ]
-    }
-   ]
+   "india": "won"
   },
   {
    "id": "espn_1527150",
@@ -8329,25 +8093,229 @@
    "seriesId": "24469",
    "matchNo": "2nd T20I",
    "venue": "Hagley Oval, Christchurch",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Drinks",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "",
+     "score": "180/5",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "66/3 (10/20 ov, target 181)",
      "winner": false
     }
    ],
-   "result": "Starts at 20:00 local time",
-   "india": ""
+   "result": "India require 115 runs",
+   "india": "",
+   "xi": {
+    "New Zealand": [
+     "Tim Seifert",
+     "Finn Allen",
+     "Daryl Mitchell",
+     "Glenn Phillips",
+     "Bevon Jacobs",
+     "Mitchell Santner (c)",
+     "Michael Bracewell",
+     "Nathan Smith",
+     "Matt Henry",
+     "Jacob Duffy",
+     "Lockie Ferguson"
+    ],
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Vaibhav Sooryavanshi",
+     "Shreyas Iyer (c)",
+     "Axar Patel",
+     "Tilak Varma",
+     "Naman Dhir",
+     "Nitish Kumar Reddy",
+     "Bhuvneshwar Kumar",
+     "Arshdeep Singh",
+     "Prince Yadav"
+    ]
+   },
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "180/5 (20.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       7,
+       6,
+       "c"
+      ],
+      [
+       "Finn Allen",
+       16,
+       14,
+       "b"
+      ],
+      [
+       "Daryl Mitchell",
+       6,
+       5,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       70,
+       43,
+       "c"
+      ],
+      [
+       "Bevon Jacobs",
+       58,
+       46,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       4,
+       5,
+       "not out"
+      ],
+      [
+       "Michael Bracewell",
+       10,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nathan Smith",
+      "Matt Henry",
+      "Jacob Duffy",
+      "Lockie Ferguson"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "4",
+       28,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "1",
+       7,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "3",
+       31,
+       1
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       "4",
+       50,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       33,
+       2
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       30,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "66/3 (10.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       14,
+       17,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       27,
+       21,
+       "c"
+      ],
+      [
+       "Vaibhav Sooryavanshi",
+       4,
+       8,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       7,
+       10,
+       "not out"
+      ],
+      [
+       "Axar Patel",
+       8,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tilak Varma",
+      "Naman Dhir",
+      "Nitish Kumar Reddy",
+      "Bhuvneshwar Kumar",
+      "Arshdeep Singh",
+      "Prince Yadav"
+     ],
+     "bowl": [
+      [
+       "Mitchell Santner",
+       "1",
+       2,
+       1
+      ],
+      [
+       "Michael Bracewell",
+       "3",
+       20,
+       0
+      ],
+      [
+       "Nathan Smith",
+       "1",
+       3,
+       1
+      ],
+      [
+       "Matt Henry",
+       "2",
+       11,
+       0
+      ],
+      [
+       "Jacob Duffy",
+       "2",
+       13,
+       1
+      ],
+      [
+       "Lockie Ferguson",
+       "1",
+       15,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1535656",
@@ -8376,7 +8344,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 14:00 local time",
    "india": ""
   },
   {
