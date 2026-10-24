@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Tilak Varma: I have done what everyone believed",
+   "u": "https://www.cricinfo.com/ci/content/story/1559848.html?ex_cid=OTC-RSS",
+   "d": "Sat, 24 Oct 2026"
+  },
+  {
+   "t": "'The small stuff can change games quickly' - Santner rues dropped catches and misfields",
+   "u": "https://www.cricinfo.com/ci/content/story/1559854.html?ex_cid=OTC-RSS",
+   "d": "Sat, 24 Oct 2026"
+  },
+  {
+   "t": "Tilak, Reddy, Dhir seal thriller for India to go 2-0 up against sloppy New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
+   "d": "Sat, 24 Oct 2026"
+  },
+  {
    "t": "Vaibhav Sooryavanshi in as India choose to chase in Christchurch",
    "u": "https://www.cricinfo.com/ci/content/story/1559813.html?ex_cid=OTC-RSS",
    "d": "Sat, 24 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "Samson, Iyer and Dhir pull off record chase against NZ in T20I series opener",
    "u": "https://www.cricinfo.com/ci/content/story/1559554.html?ex_cid=OTC-RSS",
    "d": "Thu, 22 Oct 2026"
-  },
-  {
-   "t": "India bring in Reddy and Mayank, ask New Zealand to bat in first T20I",
-   "u": "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
-   "d": "Thu, 22 Oct 2026"
-  },
-  {
-   "t": "Jetlagged India brace for New Zealand challenge",
-   "u": "https://www.cricinfo.com/ci/content/story/1559280.html?ex_cid=OTC-RSS",
-   "d": "Wed, 21 Oct 2026"
-  },
-  {
-   "t": "Bangladesh and Nepal to host Women's Under-19 T20 World Cup from January 21 to February 6",
-   "u": "https://www.cricinfo.com/ci/content/story/1559294.html?ex_cid=OTC-RSS",
-   "d": "Wed, 21 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "EkbOvFSC7SE",
+     "t": "Tilak Varma is irreplaceable as a finisher for India: Harsha Bhogle"
+    },
+    {
+     "yt": "Zy4pasZqe-4",
+     "t": "How clutch Tilak helped India pull off a heist? DK & Harsha review"
+    },
     {
      "yt": "mw-mp_sfI0A",
      "t": "Pollard named Mumbai Indians' head coach! Harsha & DK decode"
@@ -71,14 +79,6 @@
     {
      "yt": "FB4L9-FcU2o",
      "t": "Naman has put pressure on Nitish & Dube for T20I spots: Harsha Bhogle"
-    },
-    {
-     "yt": "VbaUSpMdFcc",
-     "t": "Noise around Sooryavanshi not playing worries me more: Harsha Bhogle"
-    },
-    {
-     "yt": "YmhCnz7yD6k",
-     "t": "Players like Samson need to be backed - and they deliver: Harsha Bhogle"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-24T09:47:39Z"
+ "updated": "2026-10-24T13:39:32Z"
 }
