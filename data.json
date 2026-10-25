@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T01:42:38Z",
+ "updated": "2026-10-25T06:56:10Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10644,18 +10644,18 @@
      ]
     },
     {
-     "date": "2026-10-26T03:45Z",
-     "desc": "Elite, Group B",
+     "date": "2026-10-26T04:00Z",
+     "desc": "Elite, Group A",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Andhra Cricket Assocition Grounds, Mulapadu",
+     "venue": "Reliance Stadium, Vadodara",
      "teams": [
       {
-       "name": "Chhattisgarh",
+       "name": "Baroda",
        "score": ""
       },
       {
-       "name": "Andhra",
+       "name": "Jammu & Kashmir",
        "score": ""
       }
      ]

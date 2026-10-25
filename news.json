@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "T_wupTaJBQA",
+     "t": "\u2018Fashionable to criticise Gambhir!' Harsha Bhogle defends India coach"
+    },
+    {
      "yt": "wLMJqE-WnLk",
      "t": "Will Rohit Sharma return as Mumbai captain?"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "5zIvdHJj1eQ",
      "t": "Match Forecast: New Zealand vs India, 2nd T20I"
-    },
-    {
-     "yt": "MzSWBFf3xb4",
-     "t": "New Zealand vs India, 2nd T20I: Preview"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-25T01:43:57Z"
+ "updated": "2026-10-25T06:57:08Z"
 }
