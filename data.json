@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:20:40Z",
+ "updated": "2026-10-25T16:39:34Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8550,25 +8550,25 @@
    "seriesId": "24371",
    "matchNo": "2nd ODI",
    "venue": "Kotambi Stadium, Vadodara",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Innings break",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "328/6 (50 ov)",
-     "winner": false
+     "score": "328/6",
+     "winner": true
     },
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
+     "score": "207 (48.5/50 ov, target 329)",
      "winner": false
     }
    ],
-   "result": "IND Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 121 runs",
+   "india": "won",
    "xi": {
     "India Women": [
      "Pratika Rawal",
@@ -8589,9 +8589,9 @@
      "Chipo Mugeri-Tiripano",
      "Beloved Biza",
      "Josephine Nkomo (c)",
+     "Michelle Mavunga",
      "Nyasha Gwanzura",
      "Chiedza Dhururu",
-     "Michelle Mavunga",
      "Nomvelo Sibanda",
      "Tendai Makusha",
      "Olinder Chare"
@@ -8670,15 +8670,15 @@
        0
       ],
       [
-       "Nyasha Gwanzura",
-       "7",
-       43,
-       1
-      ],
-      [
        "Michelle Mavunga",
        "10",
        47,
+       1
+      ],
+      [
+       "Nyasha Gwanzura",
+       "7",
+       43,
        1
       ],
       [
@@ -8698,6 +8698,117 @@
        "9",
        61,
        1
+      ]
+     ]
+    },
+    {
+     "t": "Zimbabwe Women",
+     "total": "207 (48.5 ov)",
+     "bat": [
+      [
+       "Modester Mupachikwa",
+       49,
+       70,
+       "c"
+      ],
+      [
+       "Loryn Phiri",
+       6,
+       23,
+       "c"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       46,
+       57,
+       "b"
+      ],
+      [
+       "Beloved Biza",
+       34,
+       49,
+       "lbw"
+      ],
+      [
+       "Josephine Nkomo",
+       22,
+       36,
+       "lbw"
+      ],
+      [
+       "Michelle Mavunga",
+       3,
+       6,
+       "b"
+      ],
+      [
+       "Nyasha Gwanzura",
+       20,
+       18,
+       "lbw"
+      ],
+      [
+       "Chiedza Dhururu",
+       12,
+       28,
+       "c"
+      ],
+      [
+       "Nomvelo Sibanda",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Tendai Makusha",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Olinder Chare",
+       0,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "5",
+       28,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "9",
+       32,
+       3
+      ],
+      [
+       "Sayali Satghare",
+       "9",
+       33,
+       1
+      ],
+      [
+       "Shree Charani",
+       "8",
+       37,
+       1
+      ],
+      [
+       "Jintimani Kalita",
+       "7.5",
+       34,
+       1
+      ],
+      [
+       "Vaishnavi Sharma",
+       "10",
+       39,
+       4
       ]
      ]
     }
@@ -9981,7 +10092,7 @@
       "no": "4",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "103"
+      "rating": "104"
      },
      {
       "no": "5",
@@ -10005,7 +10116,7 @@
       "no": "8",
       "name": "England",
       "team": "England",
-      "rating": "93"
+      "rating": "91"
      },
      {
       "no": "9",
@@ -10777,18 +10888,18 @@
      ]
     },
     {
-     "date": "2026-10-26T04:00Z",
-     "desc": "Elite, Group A",
+     "date": "2026-10-26T03:45Z",
+     "desc": "Elite, Group B",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Reliance Stadium, Vadodara",
+     "venue": "Andhra Cricket Assocition Grounds, Mulapadu",
      "teams": [
       {
-       "name": "Baroda",
+       "name": "Chhattisgarh",
        "score": ""
       },
       {
-       "name": "Jammu & Kashmir",
+       "name": "Andhra",
        "score": ""
       }
      ]
