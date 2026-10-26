@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T01:47:42Z",
+ "updated": "2026-10-26T07:03:44Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8813,7 +8813,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 20:00 local time",
    "india": ""
   },
   {
@@ -10811,8 +10811,8 @@
     {
      "date": "2026-10-26T02:45Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "SICA ground, Rangpo",
      "teams": [
       {
@@ -10821,15 +10821,15 @@
       },
       {
        "name": "Nagaland",
-       "score": ""
+       "score": "112/7 (50 ov)"
       }
      ]
     },
     {
      "date": "2026-10-26T03:30Z",
      "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "JSCA International Stadium Complex, Ranchi",
      "teams": [
       {
@@ -10838,20 +10838,20 @@
       },
       {
        "name": "Delhi",
-       "score": ""
+       "score": "102/2 (37 ov)"
       }
      ]
     },
     {
      "date": "2026-10-26T03:30Z",
      "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "KIIT Stadium, Bhubaneswar",
      "teams": [
       {
        "name": "Odisha",
-       "score": ""
+       "score": "100/2 (37 ov)"
       },
       {
        "name": "Services",
@@ -10860,18 +10860,18 @@
      ]
     },
     {
-     "date": "2026-10-26T03:45Z",
-     "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Andhra Cricket Assocition Grounds, Mulapadu",
+     "date": "2026-10-26T04:00Z",
+     "desc": "Elite, Group A",
+     "state": "in",
+     "detail": "Live",
+     "venue": "Reliance Stadium, Vadodara",
      "teams": [
       {
-       "name": "Chhattisgarh",
-       "score": ""
+       "name": "Baroda",
+       "score": "80/3 (32 ov)"
       },
       {
-       "name": "Andhra",
+       "name": "Jammu & Kashmir",
        "score": ""
       }
      ]

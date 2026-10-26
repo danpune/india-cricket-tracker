@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Padikkal leads the way with 199 as India A go 284 runs ahead",
+   "u": "https://www.cricinfo.com/ci/content/story/1560067.html?ex_cid=OTC-RSS",
+   "d": "Mon, 26 Oct 2026"
+  },
+  {
+   "t": "New Zealand hope to salvage series as India brace for Wellington wind",
+   "u": "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
+   "d": "Mon, 26 Oct 2026"
+  },
+  {
+   "t": "Morkel wants Bhuvneshwar to 'block the expectation factor out'",
+   "u": "https://www.cricinfo.com/ci/content/story/1560056.html?ex_cid=OTC-RSS",
+   "d": "Mon, 26 Oct 2026"
+  },
+  {
    "t": "India opt to bat in second ODI; Vaishnavi replaces rested Gaud",
    "u": "https://www.cricinfo.com/ci/content/story/1559916.html?ex_cid=OTC-RSS",
    "d": "Sun, 25 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "Sooryavanshi set to get in as New Zealand and India prepare for another slugfest",
    "u": "https://www.cricinfo.com/ci/content/story/1559705.html?ex_cid=OTC-RSS",
    "d": "Fri, 23 Oct 2026"
-  },
-  {
-   "t": "S Meghana retires from all formats at 30",
-   "u": "https://www.cricinfo.com/ci/content/story/1559723.html?ex_cid=OTC-RSS",
-   "d": "Fri, 23 Oct 2026"
-  },
-  {
-   "t": "Hype around Sooryavanshi not good for him or team, says Sitanshu Kotak",
-   "u": "https://www.cricinfo.com/ci/content/story/1559703.html?ex_cid=OTC-RSS",
-   "d": "Fri, 23 Oct 2026"
-  },
-  {
-   "t": "Shreyas Iyer: Pitch got flatter in second innings in Christchurch",
-   "u": "https://www.cricinfo.com/ci/content/story/1559570.html?ex_cid=OTC-RSS",
-   "d": "Thu, 22 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "ugAsWV_mlQc",
+     "t": "Unfair on Samson-Abhishek to force-fit Sooryavanshi: Dinesh Karthik"
+    },
     {
      "yt": "Xjc7jm15Aw4",
      "t": "160-180 run games make T20s more exciting: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "Zy4pasZqe-4",
      "t": "How clutch Tilak helped India pull off a heist? DK & Harsha review"
-    },
-    {
-     "yt": "mw-mp_sfI0A",
-     "t": "Pollard named Mumbai Indians' head coach! Harsha & DK decode"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-26T01:48:53Z"
+ "updated": "2026-10-26T07:05:04Z"
 }
