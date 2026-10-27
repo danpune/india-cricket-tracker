@@ -681,6 +681,7 @@ def main():
     # and re-file the Asian Games under a two-match bilateral tour — with the gate
     # passing. A total outage was already fatal below; a partial one must be too.
     failed = []
+    stale_before = (now - timedelta(days=7)).strftime("%Y-%m-%d")
     for sid, gender in known.items():
         try:
             board = get(f"{BASE}/{sid}/scoreboard")
@@ -720,6 +721,16 @@ def main():
                 time.sleep(0.2)  # stay polite: ~40 calls/run against an unofficial API
                 events += get(f"{BASE}/{sid}/scoreboard?dates={date.replace('-', '')}").get("events", [])
             except Exception as e:
+                # A date more than a week old cannot change, and any India match on it is
+                # already in history from an earlier run — so a transient upstream blip
+                # there must not block publishing. Three consecutive runs died on
+                # "series 22547 date 2026-09-24 (HTTP Error 502)" — a group game India
+                # was never in, in a tournament that finished three weeks earlier — and
+                # froze the site's data for nine hours. Recent dates stay strict: that is
+                # the window the guard was written to protect.
+                if date < stale_before:
+                    print(f"  ignoring old date {date} for series {sid} ({e})", file=sys.stderr)
+                    continue
                 failed.append(f"series {sid} date {date} ({e})")
                 continue
         for e in events:

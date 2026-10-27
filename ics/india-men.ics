@@ -108,14 +108,6 @@ LOCATION:JSCA International Stadium Complex  Ranchi
 DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1539434@india-cricket-tracker
-DTSTART:20261027T070000Z
-DTEND:20261027T110000Z
-SUMMARY:New Zealand v India 🏏 3rd T20I
-LOCATION:Hnry Stadium  Wellington
-DESCRIPTION:India tour of New Zealand 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1539435@india-cricket-tracker
 DTSTART:20261030T070000Z
 DTEND:20261030T110000Z
