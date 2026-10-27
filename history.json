@@ -38738,6 +38738,193 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539434",
+   "date": "2026-10-27",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "3rd T20I",
+   "venue": "Hnry Stadium, Wellington",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "198/3"
+    },
+    {
+     "name": "India",
+     "score": "199/4 (13.2/20 ov, target 199)"
+    }
+   ],
+   "result": "India won by 6 wkts (40b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "198/3 (20.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       2,
+       6,
+       "c"
+      ],
+      [
+       "Finn Allen",
+       40,
+       25,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       89,
+       52,
+       "not out"
+      ],
+      [
+       "Glenn Phillips",
+       17,
+       14,
+       "c"
+      ],
+      [
+       "Bevon Jacobs",
+       39,
+       23,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Michael Bracewell",
+      "Mitchell Santner",
+      "Kyle Jamieson",
+      "Jacob Duffy",
+      "Adam Milne",
+      "Matthew Fisher"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "4",
+       36,
+       1
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       "4",
+       40,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       33,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       44,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "199/4 (13.2 ov)",
+     "bat": [
+      [
+       "Vaibhav Sooryavanshi",
+       45,
+       19,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       113,
+       38,
+       "c"
+      ],
+      [
+       "Sanju Samson",
+       18,
+       13,
+       "b"
+      ],
+      [
+       "Shreyas Iyer",
+       5,
+       10,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       1,
+       1,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       4,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Axar Patel",
+      "Nitish Kumar Reddy",
+      "Bhuvneshwar Kumar",
+      "Arshdeep Singh",
+      "Prince Yadav"
+     ],
+     "bowl": [
+      [
+       "Michael Bracewell",
+       "2",
+       36,
+       0
+      ],
+      [
+       "Mitchell Santner",
+       "3",
+       17,
+       1
+      ],
+      [
+       "Kyle Jamieson",
+       "3.2",
+       45,
+       2
+      ],
+      [
+       "Jacob Duffy",
+       "2",
+       44,
+       0
+      ],
+      [
+       "Adam Milne",
+       "2",
+       33,
+       0
+      ],
+      [
+       "Matthew Fisher",
+       "1",
+       23,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

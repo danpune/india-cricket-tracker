@@ -1,6 +1,31 @@
 {
  "headlines": [
   {
+   "t": "Bhuvneshwar proud of comeback, but 'did not chase it'",
+   "u": "https://www.cricinfo.com/ci/content/story/1560282.html?ex_cid=OTC-RSS",
+   "d": "Tue, 27 Oct 2026"
+  },
+  {
+   "t": "Abhishek 'pretty much manifested' his 35-ball century",
+   "u": "https://www.cricinfo.com/ci/content/story/1560257.html?ex_cid=OTC-RSS",
+   "d": "Tue, 27 Oct 2026"
+  },
+  {
+   "t": "Abhishek and Sooryavanshi power India to T20I series win in New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1560243.html?ex_cid=OTC-RSS",
+   "d": "Tue, 27 Oct 2026"
+  },
+  {
+   "t": "Bad light, Heaphy 90* deny India A by one wicket",
+   "u": "https://www.cricinfo.com/ci/content/story/1560135.html?ex_cid=OTC-RSS",
+   "d": "Tue, 27 Oct 2026"
+  },
+  {
+   "t": "Unchanged India bowl, NZ make three changes",
+   "u": "https://www.cricinfo.com/ci/content/story/1560132.html?ex_cid=OTC-RSS",
+   "d": "Tue, 27 Oct 2026"
+  },
+  {
    "t": "Bumrah and Pant likely to play for India A in third unofficial Test against New Zealand A",
    "u": "https://www.cricinfo.com/ci/content/story/1560088.html?ex_cid=OTC-RSS",
    "d": "Mon, 26 Oct 2026"
@@ -24,31 +49,6 @@
    "t": "India opt to bat in second ODI; Vaishnavi replaces rested Gaud",
    "u": "https://www.cricinfo.com/ci/content/story/1559916.html?ex_cid=OTC-RSS",
    "d": "Sun, 25 Oct 2026"
-  },
-  {
-   "t": "Tilak, Reddy, Dhir seal thriller for India to go 2-0 up against sloppy New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "Tilak Varma: I have done what everyone believed",
-   "u": "https://www.cricinfo.com/ci/content/story/1559848.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "'The small stuff can change games quickly' - Santner rues dropped catches and misfields",
-   "u": "https://www.cricinfo.com/ci/content/story/1559854.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "Vaibhav Sooryavanshi in as India choose to chase in Christchurch",
-   "u": "https://www.cricinfo.com/ci/content/story/1559813.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "Injured Ishan Kishan ruled out of second T20I against New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1559676.html?ex_cid=OTC-RSS",
-   "d": "Sat, 24 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "DYHOPa2zMZ0",
+     "t": "On-song Abhishek ends bowlers' spirits: Dinesh Karthik"
+    },
+    {
+     "yt": "H6y2Slb1mVY",
+     "t": "Abhishek\u2019s MADNESS stuns NZ! Harsha & DK react to India\u2019s win"
+    },
+    {
+     "yt": "hLDWONLYMXQ",
+     "t": "Bavuma was expected to fail, has surprised all critics: Harsha Bhogle"
+    },
     {
      "yt": "MlkJOp0hF84",
      "t": "Match Forecast: New Zealand vs India, 3rd T20I"
@@ -67,18 +79,6 @@
     {
      "yt": "ugAsWV_mlQc",
      "t": "Unfair on Samson-Abhishek to force-fit Sooryavanshi: Dinesh Karthik"
-    },
-    {
-     "yt": "Xjc7jm15Aw4",
-     "t": "160-180 run games make T20s more exciting: Dinesh Karthik"
-    },
-    {
-     "yt": "T_wupTaJBQA",
-     "t": "\u2018Fashionable to criticise Gambhir!' Harsha Bhogle defends India coach"
-    },
-    {
-     "yt": "wLMJqE-WnLk",
-     "t": "Will Rohit Sharma return as Mumbai captain?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-27T02:24:49Z"
+ "updated": "2026-10-27T14:29:43Z"
 }
