@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Bumrah and Pant likely to play for India A in third unofficial Test against New Zealand A",
+   "u": "https://www.cricinfo.com/ci/content/story/1560088.html?ex_cid=OTC-RSS",
+   "d": "Mon, 26 Oct 2026"
+  },
+  {
+   "t": "Morkel wants Bhuvneshwar to 'block the expectation factor out'",
+   "u": "https://www.cricinfo.com/ci/content/story/1560056.html?ex_cid=OTC-RSS",
+   "d": "Mon, 26 Oct 2026"
+  },
+  {
    "t": "Padikkal leads the way with 199 as India A go 284 runs ahead",
    "u": "https://www.cricinfo.com/ci/content/story/1560067.html?ex_cid=OTC-RSS",
    "d": "Mon, 26 Oct 2026"
@@ -8,11 +18,6 @@
   {
    "t": "New Zealand hope to salvage series as India brace for Wellington wind",
    "u": "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
-   "d": "Mon, 26 Oct 2026"
-  },
-  {
-   "t": "Morkel wants Bhuvneshwar to 'block the expectation factor out'",
-   "u": "https://www.cricinfo.com/ci/content/story/1560056.html?ex_cid=OTC-RSS",
    "d": "Mon, 26 Oct 2026"
   },
   {
@@ -44,11 +49,6 @@
    "t": "Injured Ishan Kishan ruled out of second T20I against New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1559676.html?ex_cid=OTC-RSS",
    "d": "Sat, 24 Oct 2026"
-  },
-  {
-   "t": "Sooryavanshi set to get in as New Zealand and India prepare for another slugfest",
-   "u": "https://www.cricinfo.com/ci/content/story/1559705.html?ex_cid=OTC-RSS",
-   "d": "Fri, 23 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "MlkJOp0hF84",
+     "t": "Match Forecast: New Zealand vs India, 3rd T20I"
+    },
+    {
+     "yt": "J6aC4oBSQe0",
+     "t": "Preview: New Zealand vs India, 3rd T20I"
+    },
     {
      "yt": "ugAsWV_mlQc",
      "t": "Unfair on Samson-Abhishek to force-fit Sooryavanshi: Dinesh Karthik"
@@ -71,14 +79,6 @@
     {
      "yt": "wLMJqE-WnLk",
      "t": "Will Rohit Sharma return as Mumbai captain?"
-    },
-    {
-     "yt": "EkbOvFSC7SE",
-     "t": "Tilak Varma is irreplaceable as a finisher for India: Harsha Bhogle"
-    },
-    {
-     "yt": "Zy4pasZqe-4",
-     "t": "How clutch Tilak helped India pull off a heist? DK & Harsha review"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-26T07:05:04Z"
+ "updated": "2026-10-27T02:24:49Z"
 }
