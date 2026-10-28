@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:06:59Z",
+ "updated": "2026-10-28T08:39:16Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -2815,514 +2815,7 @@
     }
    ],
    "result": "India won by 6 wkts",
-   "india": "won",
-   "xi": {
-    "Sri Lanka Cricket XI": [
-     "Nishan Madushka",
-     "Ravindu Rasantha",
-     "Pasindu Sooriyabandara",
-     "Pavan Rathnayake",
-     "Ahan Wickramasinghe",
-     "Sonal Dinusha (c)",
-     "Anjala Bandara",
-     "Ramesh Mendis",
-     "Keshara Nuwantha",
-     "Dilum Sudeera",
-     "Isitha Wijesundara",
-     "Nipun Dhananjaya",
-     "Asanka Manoj",
-     "Lahiru Kumara",
-     "Vishwa Fernando"
-    ],
-    "India": [
-     "Yashasvi Jaiswal",
-     "KL Rahul (c)",
-     "Devdutt Padikkal",
-     "Ravindra Jadeja",
-     "Rishabh Pant",
-     "Dhruv Jurel",
-     "Manav Suthar",
-     "Kuldeep Yadav",
-     "Mohammed Siraj",
-     "Saransh Jain",
-     "Gurnoor Brar",
-     "Prasidh Krishna",
-     "Shubman Gill",
-     "Sai Sudharsan",
-     "Auqib Nabi"
-    ]
-   },
-   "innings": [
-    {
-     "t": "Sri Lanka Cricket XI",
-     "total": "363/8 (90.0 ov)",
-     "bat": [
-      [
-       "Nishan Madushka",
-       66,
-       65,
-       "run out"
-      ],
-      [
-       "Ravindu Rasantha",
-       71,
-       143,
-       "c"
-      ],
-      [
-       "Pasindu Sooriyabandara",
-       35,
-       63,
-       "b"
-      ],
-      [
-       "Pavan Rathnayake",
-       39,
-       47,
-       "c"
-      ],
-      [
-       "Ahan Wickramasinghe",
-       31,
-       43,
-       "c"
-      ],
-      [
-       "Sonal Dinusha",
-       52,
-       72,
-       "lbw"
-      ],
-      [
-       "Anjala Bandara",
-       13,
-       35,
-       "lbw"
-      ],
-      [
-       "Ramesh Mendis",
-       32,
-       49,
-       "c"
-      ],
-      [
-       "Keshara Nuwantha",
-       9,
-       20,
-       "not out"
-      ],
-      [
-       "Dilum Sudeera",
-       1,
-       5,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Isitha Wijesundara",
-      "Nipun Dhananjaya",
-      "Asanka Manoj",
-      "Lahiru Kumara",
-      "Vishwa Fernando"
-     ],
-     "bowl": [
-      [
-       "Ravindra Jadeja",
-       "15",
-       64,
-       2
-      ],
-      [
-       "Manav Suthar",
-       "13",
-       33,
-       2
-      ],
-      [
-       "Kuldeep Yadav",
-       "18",
-       76,
-       2
-      ],
-      [
-       "Mohammed Siraj",
-       "13",
-       44,
-       0
-      ],
-      [
-       "Saransh Jain",
-       "11",
-       54,
-       0
-      ],
-      [
-       "Gurnoor Brar",
-       "12",
-       49,
-       1
-      ],
-      [
-       "Prasidh Krishna",
-       "8",
-       32,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "357/6 (90.0 ov)",
-     "bat": [
-      [
-       "Yashasvi Jaiswal",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "KL Rahul",
-       40,
-       67,
-       "b"
-      ],
-      [
-       "Devdutt Padikkal",
-       142,
-       164,
-       "not out"
-      ],
-      [
-       "Ravindra Jadeja",
-       63,
-       117,
-       "retired not out"
-      ],
-      [
-       "Rishabh Pant",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Dhruv Jurel",
-       1,
-       9,
-       "c"
-      ],
-      [
-       "Manav Suthar",
-       41,
-       90,
-       "lbw"
-      ],
-      [
-       "Kuldeep Yadav",
-       1,
-       15,
-       "retired not out"
-      ],
-      [
-       "Mohammed Siraj",
-       1,
-       8,
-       "c"
-      ],
-      [
-       "Saransh Jain",
-       22,
-       45,
-       "retired not out"
-      ],
-      [
-       "Gurnoor Brar",
-       36,
-       18,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Prasidh Krishna",
-      "Shubman Gill",
-      "Sai Sudharsan",
-      "Auqib Nabi"
-     ],
-     "bowl": [
-      [
-       "Sonal Dinusha",
-       "4",
-       9,
-       0
-      ],
-      [
-       "Ramesh Mendis",
-       "18",
-       77,
-       2
-      ],
-      [
-       "Keshara Nuwantha",
-       "17",
-       40,
-       1
-      ],
-      [
-       "Dilum Sudeera",
-       "9",
-       58,
-       0
-      ],
-      [
-       "Isitha Wijesundara",
-       "8",
-       51,
-       0
-      ],
-      [
-       "Asanka Manoj",
-       "8",
-       32,
-       2
-      ],
-      [
-       "Lahiru Kumara",
-       "12",
-       42,
-       0
-      ],
-      [
-       "Vishwa Fernando",
-       "14",
-       42,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "Sri Lanka Cricket XI",
-     "total": "200/6 (45.0 ov)",
-     "bat": [
-      [
-       "Nishan Madushka",
-       63,
-       73,
-       "retired not out"
-      ],
-      [
-       "Ravindu Rasantha",
-       8,
-       16,
-       "lbw"
-      ],
-      [
-       "Pasindu Sooriyabandara",
-       4,
-       7,
-       "b"
-      ],
-      [
-       "Pavan Rathnayake",
-       16,
-       32,
-       "c"
-      ],
-      [
-       "Anjala Bandara",
-       35,
-       48,
-       "c"
-      ],
-      [
-       "Nipun Dhananjaya",
-       46,
-       56,
-       "st"
-      ],
-      [
-       "Sonal Dinusha",
-       9,
-       14,
-       "c"
-      ],
-      [
-       "Ramesh Mendis",
-       16,
-       19,
-       "not out"
-      ],
-      [
-       "Keshara Nuwantha",
-       1,
-       5,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Ahan Wickramasinghe",
-      "Dilum Sudeera",
-      "Isitha Wijesundara",
-      "Asanka Manoj",
-      "Lahiru Kumara",
-      "Vishwa Fernando"
-     ],
-     "bowl": [
-      [
-       "Ravindra Jadeja",
-       "7",
-       33,
-       2
-      ],
-      [
-       "Manav Suthar",
-       "5",
-       26,
-       0
-      ],
-      [
-       "Mohammed Siraj",
-       "8",
-       25,
-       1
-      ],
-      [
-       "Saransh Jain",
-       "4",
-       16,
-       0
-      ],
-      [
-       "Gurnoor Brar",
-       "8",
-       37,
-       2
-      ],
-      [
-       "Prasidh Krishna",
-       "8",
-       35,
-       1
-      ],
-      [
-       "Auqib Nabi",
-       "5",
-       27,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "214/4 (45.0 ov)",
-     "bat": [
-      [
-       "Yashasvi Jaiswal",
-       61,
-       46,
-       "retired not out"
-      ],
-      [
-       "Shubman Gill",
-       44,
-       54,
-       "c"
-      ],
-      [
-       "Rishabh Pant",
-       28,
-       68,
-       "c"
-      ],
-      [
-       "Dhruv Jurel",
-       17,
-       20,
-       "c"
-      ],
-      [
-       "Ravindra Jadeja",
-       22,
-       32,
-       "retired not out"
-      ],
-      [
-       "Manav Suthar",
-       4,
-       24,
-       "retired not out"
-      ],
-      [
-       "Gurnoor Brar",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Saransh Jain",
-       2,
-       7,
-       "not out"
-      ],
-      [
-       "Mohammed Siraj",
-       32,
-       15,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "KL Rahul",
-      "Devdutt Padikkal",
-      "Kuldeep Yadav",
-      "Prasidh Krishna",
-      "Sai Sudharsan",
-      "Auqib Nabi"
-     ],
-     "bowl": [
-      [
-       "Sonal Dinusha",
-       "5",
-       22,
-       0
-      ],
-      [
-       "Ramesh Mendis",
-       "13",
-       53,
-       1
-      ],
-      [
-       "Keshara Nuwantha",
-       "10",
-       57,
-       2
-      ],
-      [
-       "Dilum Sudeera",
-       "4",
-       9,
-       0
-      ],
-      [
-       "Isitha Wijesundara",
-       "3",
-       9,
-       0
-      ],
-      [
-       "Lahiru Kumara",
-       "4",
-       29,
-       0
-      ],
-      [
-       "Vishwa Fernando",
-       "6",
-       34,
-       1
-      ]
-     ]
-    }
-   ]
+   "india": "won"
   },
   {
    "id": "espn_1544001",
@@ -8991,9 +8484,9 @@
    "seriesId": "24371",
    "matchNo": "3rd ODI",
    "venue": "Kotambi Stadium, Vadodara",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India Women",
@@ -9004,12 +8497,90 @@
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "",
+     "score": "11/1 (1.5/50 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 14:00 local time",
-   "india": ""
+   "result": "ZIM Women won toss & batted",
+   "india": "",
+   "xi": {
+    "India Women": [
+     "Pratika Rawal",
+     "Smriti Mandhana (c)",
+     "Shafali Verma",
+     "Harmanpreet Kaur",
+     "Yastika Bhatia",
+     "Harleen Deol",
+     "Deepti Sharma",
+     "Sayali Satghare",
+     "Vaishnavi Sharma",
+     "Kranti Gaud",
+     "Jintimani Kalita"
+    ],
+    "Zimbabwe Women": [
+     "Modester Mupachikwa",
+     "Loryn Phiri",
+     "Chipo Mugeri-Tiripano",
+     "Beloved Biza",
+     "Josephine Nkomo (c)",
+     "Michelle Mavunga",
+     "Nyasha Gwanzura",
+     "Chiedza Dhururu",
+     "Nomvelo Sibanda",
+     "Francisca Chipare",
+     "Olinder Chare"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Zimbabwe Women",
+     "total": "11/1 (1.4 ov)",
+     "bat": [
+      [
+       "Modester Mupachikwa",
+       6,
+       3,
+       "not out"
+      ],
+      [
+       "Loryn Phiri",
+       0,
+       6,
+       "c"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       4,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Beloved Biza",
+      "Josephine Nkomo",
+      "Michelle Mavunga",
+      "Nyasha Gwanzura",
+      "Chiedza Dhururu",
+      "Nomvelo Sibanda",
+      "Francisca Chipare",
+      "Olinder Chare"
+     ],
+     "bowl": [
+      [
+       "Sayali Satghare",
+       "0.4",
+       6,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "1",
+       5,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1539435",
@@ -9041,8 +8612,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.36,
-    0.64
+    0.49,
+    0.51
    ]
   },
   {
@@ -10093,9 +9664,9 @@
      },
      {
       "no": "2",
-      "name": "Steve Smith",
-      "team": "Australia",
-      "rating": "822"
+      "name": "Temba Bavuma",
+      "team": "South Africa",
+      "rating": "818"
      },
      {
       "no": "3",
@@ -10107,19 +9678,19 @@
       "no": "4",
       "name": "Travis Head",
       "team": "Australia",
-      "rating": "778"
+      "rating": "813"
      },
      {
       "no": "5",
-      "name": "Rachin Ravindra",
-      "team": "New Zealand",
-      "rating": "740"
+      "name": "Steve Smith",
+      "team": "Australia",
+      "rating": "798"
      },
      {
       "no": "6",
-      "name": "Temba Bavuma",
-      "team": "South Africa",
-      "rating": "735"
+      "name": "Rachin Ravindra",
+      "team": "New Zealand",
+      "rating": "740"
      },
      {
       "no": "7",
@@ -10141,65 +9712,65 @@
      },
      {
       "no": "10",
-      "name": "Aiden Markram",
-      "team": "South Africa",
+      "name": "Kamindu Mendis",
+      "team": "Sri Lanka",
       "rating": "706"
      }
     ],
     "bowl": [
      {
       "no": "1",
-      "name": "Mitchell Starc",
-      "team": "Australia",
-      "rating": "865"
+      "name": "Marco Jansen",
+      "team": "South Africa",
+      "rating": "876"
      },
      {
       "no": "2",
+      "name": "Mitchell Starc",
+      "team": "Australia",
+      "rating": "861"
+     },
+     {
+      "no": "=",
       "name": "Matt Henry",
       "team": "New Zealand",
       "rating": "861"
      },
      {
-      "no": "3",
+      "no": "4",
       "name": "Ollie Robinson",
       "team": "England",
       "rating": "856"
      },
      {
-      "no": "4",
+      "no": "5",
       "name": "Jasprit Bumrah",
       "team": "India",
       "rating": "853"
      },
      {
-      "no": "5",
-      "name": "Pat Cummins",
-      "team": "Australia",
-      "rating": "846"
-     },
-     {
       "no": "6",
-      "name": "Marco Jansen",
-      "team": "South Africa",
-      "rating": "831"
+      "name": "Scott Boland",
+      "team": "Australia",
+      "rating": "829"
      },
      {
       "no": "7",
-      "name": "Josh Hazlewood",
+      "name": "Pat Cummins",
       "team": "Australia",
-      "rating": "818"
+      "rating": "817"
      },
      {
       "no": "8",
       "name": "Kagiso Rabada",
       "team": "South Africa",
-      "rating": "799"
+      "rating": "808"
      },
      {
       "no": "9",
-      "name": "Scott Boland",
+      "name": "Josh Hazlewood",
       "team": "Australia",
-      "rating": "796"
+      "rating": "805"
      },
      {
       "no": "10",
@@ -10272,7 +9843,7 @@
       "rating": "79"
      }
     ],
-    "updated": "2026-10-20",
+    "updated": "2026-10-27",
     "bat": [
      {
       "no": "1",
@@ -10302,7 +9873,7 @@
       "no": "5",
       "name": "Ibrahim Zadran",
       "team": "Afghanistan",
-      "rating": "742"
+      "rating": "752"
      },
      {
       "no": "6",
@@ -10312,21 +9883,21 @@
      },
      {
       "no": "7",
-      "name": "Babar Azam",
-      "team": "Pakistan",
-      "rating": "684"
+      "name": "Ben Duckett",
+      "team": "England",
+      "rating": "679"
      },
      {
       "no": "8",
-      "name": "Kusal Mendis",
-      "team": "Sri Lanka",
-      "rating": "667"
+      "name": "Harry Brook",
+      "team": "England",
+      "rating": "675"
      },
      {
       "no": "9",
-      "name": "Joe Root",
-      "team": "England",
-      "rating": "659"
+      "name": "Babar Azam",
+      "team": "Pakistan",
+      "rating": "672"
      },
      {
       "no": "10",
@@ -10340,19 +9911,19 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "742"
+      "rating": "760"
      },
      {
       "no": "2",
-      "name": "Abrar Ahmed",
-      "team": "Pakistan",
-      "rating": "662"
-     },
-     {
-      "no": "3",
       "name": "Keshav Maharaj",
       "team": "South Africa",
       "rating": "660"
+     },
+     {
+      "no": "3",
+      "name": "Abrar Ahmed",
+      "team": "Pakistan",
+      "rating": "648"
      },
      {
       "no": "4",
@@ -10368,33 +9939,33 @@
      },
      {
       "no": "6",
-      "name": "Maheesh Theekshana",
-      "team": "Sri Lanka",
+      "name": "Shaheen Afridi",
+      "team": "Pakistan",
       "rating": "616"
      },
      {
       "no": "7",
-      "name": "Jofra Archer",
-      "team": "England",
-      "rating": "611"
+      "name": "Azmatullah Omarzai",
+      "team": "Afghanistan",
+      "rating": "610"
      },
      {
       "no": "8",
-      "name": "Shaheen Afridi",
-      "team": "Pakistan",
-      "rating": "601"
+      "name": "Bernard Scholtz",
+      "team": "Namibia",
+      "rating": "606"
      },
      {
       "no": "9",
-      "name": "Mehidy Hasan Miraz",
-      "team": "Bangladesh",
-      "rating": "596"
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
+      "rating": "603"
      },
      {
       "no": "10",
-      "name": "Jayden Seales",
-      "team": "West Indies",
-      "rating": "591"
+      "name": "Jofra Archer",
+      "team": "England",
+      "rating": "599"
      }
     ]
    },
@@ -10461,40 +10032,34 @@
       "rating": "219"
      }
     ],
-    "updated": "2026-10-20",
+    "updated": "2026-10-27",
     "bat": [
      {
       "no": "1",
-      "name": "Ishan Kishan",
+      "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "893"
+      "rating": "897"
      },
      {
       "no": "2",
-      "name": "Abhishek Sharma",
-      "team": "India",
-      "rating": "884"
-     },
-     {
-      "no": "3",
       "name": "Sahibzada Farhan",
       "team": "Pakistan",
       "rating": "883"
      },
      {
-      "no": "4",
-      "name": "Shreyas Iyer",
+      "no": "3",
+      "name": "Ishan Kishan",
       "team": "India",
-      "rating": "798"
+      "rating": "866"
      },
      {
-      "no": "5",
+      "no": "4",
       "name": "Harry Brook",
       "team": "England",
       "rating": "793"
      },
      {
-      "no": "6",
+      "no": "5",
       "name": "Jos Buttler",
       "team": "England",
       "rating": "789"
@@ -10506,22 +10071,28 @@
       "rating": "789"
      },
      {
-      "no": "8",
+      "no": "7",
       "name": "Phil Salt",
       "team": "England",
       "rating": "775"
      },
      {
-      "no": "9",
+      "no": "8",
       "name": "Shai Hope",
       "team": "West Indies",
       "rating": "759"
      },
      {
+      "no": "9",
+      "name": "Shreyas Iyer",
+      "team": "India",
+      "rating": "758"
+     },
+     {
       "no": "10",
       "name": "Tilak Varma",
       "team": "India",
-      "rating": "726"
+      "rating": "724"
      }
     ],
     "bowl": [
@@ -10529,7 +10100,7 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "720"
+      "rating": "733"
      },
      {
       "no": "2",
@@ -10563,27 +10134,27 @@
      },
      {
       "no": "7",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "665"
+     },
+     {
+      "no": "8",
       "name": "Nasum Ahmed",
       "team": "Bangladesh",
       "rating": "661"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Mahedi Hasan",
       "team": "Bangladesh",
       "rating": "654"
      },
      {
-      "no": "9",
+      "no": "10",
       "name": "Liam Dawson",
       "team": "England",
       "rating": "648"
-     },
-     {
-      "no": "10",
-      "name": "Axar Patel",
-      "team": "India",
-      "rating": "646"
      }
     ]
    }
@@ -10986,11 +10557,11 @@
      "teams": [
       {
        "name": "Sikkim",
-       "score": "184"
+       "score": "184 & 30/1 (14.5 ov, target 212)"
       },
       {
        "name": "Nagaland",
-       "score": "187 & 46/4 (34 ov)"
+       "score": "187 & 208"
       }
      ]
     },
@@ -11041,7 +10612,7 @@
       },
       {
        "name": "Jammu & Kashmir",
-       "score": "6/0 (4 ov)"
+       "score": "88/4 (36 ov)"
       }
      ]
     }
