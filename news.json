@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Jansen becomes top-ranked Test bowler, Abhishek takes back crown for T20I batters",
+   "u": "https://www.cricinfo.com/ci/content/story/1560404.html?ex_cid=OTC-RSS",
+   "d": "Wed, 28 Oct 2026"
+  },
+  {
+   "t": "Zimbabwe bat first; India bring in Bhatia, Gaud and Deol",
+   "u": "https://www.cricinfo.com/ci/content/story/1560402.html?ex_cid=OTC-RSS",
+   "d": "Wed, 28 Oct 2026"
+  },
+  {
    "t": "Abhishek 'pretty much manifested' his 35-ball century",
    "u": "https://www.cricinfo.com/ci/content/story/1560257.html?ex_cid=OTC-RSS",
    "d": "Tue, 27 Oct 2026"
@@ -39,16 +49,6 @@
    "t": "Padikkal leads the way with 199 as India A go 284 runs ahead",
    "u": "https://www.cricinfo.com/ci/content/story/1560067.html?ex_cid=OTC-RSS",
    "d": "Mon, 26 Oct 2026"
-  },
-  {
-   "t": "New Zealand hope to salvage series as India brace for Wellington wind",
-   "u": "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
-   "d": "Mon, 26 Oct 2026"
-  },
-  {
-   "t": "India opt to bat in second ODI; Vaishnavi replaces rested Gaud",
-   "u": "https://www.cricinfo.com/ci/content/story/1559916.html?ex_cid=OTC-RSS",
-   "d": "Sun, 25 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "ab05B0la0b4",
+     "t": "RELEASE or RETAIN? Hardik, Green & IPL\u2019s BIG Decisions | Harsha Picks"
+    },
     {
      "yt": "X5H0_xEYoMw",
      "t": "The secret behind Sooryavanshi\u2019s batting? DK explains the science"
@@ -75,10 +79,6 @@
     {
      "yt": "MlkJOp0hF84",
      "t": "Match Forecast: New Zealand vs India, 3rd T20I"
-    },
-    {
-     "yt": "J6aC4oBSQe0",
-     "t": "Preview: New Zealand vs India, 3rd T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-28T08:40:46Z"
+ "updated": "2026-10-28T15:27:38Z"
 }

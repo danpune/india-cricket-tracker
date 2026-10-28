@@ -38925,6 +38925,218 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1535657",
+   "date": "2026-10-28",
+   "gender": "women",
+   "format": "ODI",
+   "series": "Zimbabwe Women tour of India 2026/27",
+   "matchNo": "3rd ODI",
+   "venue": "Kotambi Stadium, Vadodara",
+   "city": "",
+   "teams": [
+    {
+     "name": "India Women",
+     "score": "133/2 (17/50 ov, target 132)"
+    },
+    {
+     "name": "Zimbabwe Women",
+     "score": "131"
+    }
+   ],
+   "result": "IND Women won by 8 wkts (198b rem)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "Zimbabwe Women",
+     "total": "131 (39.5 ov)",
+     "bat": [
+      [
+       "Modester Mupachikwa",
+       37,
+       48,
+       "st"
+      ],
+      [
+       "Loryn Phiri",
+       0,
+       6,
+       "c"
+      ],
+      [
+       "Chipo Mugeri-Tiripano",
+       4,
+       8,
+       "c"
+      ],
+      [
+       "Beloved Biza",
+       1,
+       16,
+       "c"
+      ],
+      [
+       "Josephine Nkomo",
+       35,
+       67,
+       "c"
+      ],
+      [
+       "Chiedza Dhururu",
+       20,
+       39,
+       "c"
+      ],
+      [
+       "Michelle Mavunga",
+       6,
+       9,
+       "c"
+      ],
+      [
+       "Nyasha Gwanzura",
+       10,
+       13,
+       "b"
+      ],
+      [
+       "Olinder Chare",
+       0,
+       10,
+       "b"
+      ],
+      [
+       "Nomvelo Sibanda",
+       3,
+       12,
+       "run out"
+      ],
+      [
+       "Francisca Chipare",
+       4,
+       13,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       17,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "6.5",
+       12,
+       0
+      ],
+      [
+       "Sayali Satghare",
+       "6",
+       11,
+       2
+      ],
+      [
+       "Vaishnavi Sharma",
+       "10",
+       39,
+       5
+      ],
+      [
+       "Kranti Gaud",
+       "7",
+       23,
+       2
+      ],
+      [
+       "Jintimani Kalita",
+       "6",
+       27,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "133/2 (17.0 ov)",
+     "bat": [
+      [
+       "Yastika Bhatia",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       59,
+       56,
+       "not out"
+      ],
+      [
+       "Harleen Deol",
+       19,
+       19,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       51,
+       26,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Smriti Mandhana",
+      "Harmanpreet Kaur",
+      "Deepti Sharma",
+      "Sayali Satghare",
+      "Vaishnavi Sharma",
+      "Kranti Gaud",
+      "Jintimani Kalita"
+     ],
+     "bowl": [
+      [
+       "Loryn Phiri",
+       "3",
+       28,
+       1
+      ],
+      [
+       "Beloved Biza",
+       "2",
+       17,
+       0
+      ],
+      [
+       "Michelle Mavunga",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Olinder Chare",
+       "3",
+       26,
+       0
+      ],
+      [
+       "Nomvelo Sibanda",
+       "3",
+       18,
+       1
+      ],
+      [
+       "Francisca Chipare",
+       "4",
+       25,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:39:16Z",
+ "updated": "2026-10-28T15:26:28Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -2815,7 +2815,514 @@
     }
    ],
    "result": "India won by 6 wkts",
-   "india": "won"
+   "india": "won",
+   "xi": {
+    "Sri Lanka Cricket XI": [
+     "Nishan Madushka",
+     "Ravindu Rasantha",
+     "Pasindu Sooriyabandara",
+     "Pavan Rathnayake",
+     "Ahan Wickramasinghe",
+     "Sonal Dinusha (c)",
+     "Anjala Bandara",
+     "Ramesh Mendis",
+     "Keshara Nuwantha",
+     "Dilum Sudeera",
+     "Isitha Wijesundara",
+     "Nipun Dhananjaya",
+     "Asanka Manoj",
+     "Lahiru Kumara",
+     "Vishwa Fernando"
+    ],
+    "India": [
+     "Yashasvi Jaiswal",
+     "KL Rahul (c)",
+     "Devdutt Padikkal",
+     "Ravindra Jadeja",
+     "Rishabh Pant",
+     "Dhruv Jurel",
+     "Manav Suthar",
+     "Kuldeep Yadav",
+     "Mohammed Siraj",
+     "Saransh Jain",
+     "Gurnoor Brar",
+     "Prasidh Krishna",
+     "Shubman Gill",
+     "Sai Sudharsan",
+     "Auqib Nabi"
+    ]
+   },
+   "innings": [
+    {
+     "t": "Sri Lanka Cricket XI",
+     "total": "363/8 (90.0 ov)",
+     "bat": [
+      [
+       "Nishan Madushka",
+       66,
+       65,
+       "run out"
+      ],
+      [
+       "Ravindu Rasantha",
+       71,
+       143,
+       "c"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       35,
+       63,
+       "b"
+      ],
+      [
+       "Pavan Rathnayake",
+       39,
+       47,
+       "c"
+      ],
+      [
+       "Ahan Wickramasinghe",
+       31,
+       43,
+       "c"
+      ],
+      [
+       "Sonal Dinusha",
+       52,
+       72,
+       "lbw"
+      ],
+      [
+       "Anjala Bandara",
+       13,
+       35,
+       "lbw"
+      ],
+      [
+       "Ramesh Mendis",
+       32,
+       49,
+       "c"
+      ],
+      [
+       "Keshara Nuwantha",
+       9,
+       20,
+       "not out"
+      ],
+      [
+       "Dilum Sudeera",
+       1,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Isitha Wijesundara",
+      "Nipun Dhananjaya",
+      "Asanka Manoj",
+      "Lahiru Kumara",
+      "Vishwa Fernando"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "15",
+       64,
+       2
+      ],
+      [
+       "Manav Suthar",
+       "13",
+       33,
+       2
+      ],
+      [
+       "Kuldeep Yadav",
+       "18",
+       76,
+       2
+      ],
+      [
+       "Mohammed Siraj",
+       "13",
+       44,
+       0
+      ],
+      [
+       "Saransh Jain",
+       "11",
+       54,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "12",
+       49,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "8",
+       32,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "357/6 (90.0 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       40,
+       67,
+       "b"
+      ],
+      [
+       "Devdutt Padikkal",
+       142,
+       164,
+       "not out"
+      ],
+      [
+       "Ravindra Jadeja",
+       63,
+       117,
+       "retired not out"
+      ],
+      [
+       "Rishabh Pant",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       1,
+       9,
+       "c"
+      ],
+      [
+       "Manav Suthar",
+       41,
+       90,
+       "lbw"
+      ],
+      [
+       "Kuldeep Yadav",
+       1,
+       15,
+       "retired not out"
+      ],
+      [
+       "Mohammed Siraj",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Saransh Jain",
+       22,
+       45,
+       "retired not out"
+      ],
+      [
+       "Gurnoor Brar",
+       36,
+       18,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prasidh Krishna",
+      "Shubman Gill",
+      "Sai Sudharsan",
+      "Auqib Nabi"
+     ],
+     "bowl": [
+      [
+       "Sonal Dinusha",
+       "4",
+       9,
+       0
+      ],
+      [
+       "Ramesh Mendis",
+       "18",
+       77,
+       2
+      ],
+      [
+       "Keshara Nuwantha",
+       "17",
+       40,
+       1
+      ],
+      [
+       "Dilum Sudeera",
+       "9",
+       58,
+       0
+      ],
+      [
+       "Isitha Wijesundara",
+       "8",
+       51,
+       0
+      ],
+      [
+       "Asanka Manoj",
+       "8",
+       32,
+       2
+      ],
+      [
+       "Lahiru Kumara",
+       "12",
+       42,
+       0
+      ],
+      [
+       "Vishwa Fernando",
+       "14",
+       42,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Sri Lanka Cricket XI",
+     "total": "200/6 (45.0 ov)",
+     "bat": [
+      [
+       "Nishan Madushka",
+       63,
+       73,
+       "retired not out"
+      ],
+      [
+       "Ravindu Rasantha",
+       8,
+       16,
+       "lbw"
+      ],
+      [
+       "Pasindu Sooriyabandara",
+       4,
+       7,
+       "b"
+      ],
+      [
+       "Pavan Rathnayake",
+       16,
+       32,
+       "c"
+      ],
+      [
+       "Anjala Bandara",
+       35,
+       48,
+       "c"
+      ],
+      [
+       "Nipun Dhananjaya",
+       46,
+       56,
+       "st"
+      ],
+      [
+       "Sonal Dinusha",
+       9,
+       14,
+       "c"
+      ],
+      [
+       "Ramesh Mendis",
+       16,
+       19,
+       "not out"
+      ],
+      [
+       "Keshara Nuwantha",
+       1,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Ahan Wickramasinghe",
+      "Dilum Sudeera",
+      "Isitha Wijesundara",
+      "Asanka Manoj",
+      "Lahiru Kumara",
+      "Vishwa Fernando"
+     ],
+     "bowl": [
+      [
+       "Ravindra Jadeja",
+       "7",
+       33,
+       2
+      ],
+      [
+       "Manav Suthar",
+       "5",
+       26,
+       0
+      ],
+      [
+       "Mohammed Siraj",
+       "8",
+       25,
+       1
+      ],
+      [
+       "Saransh Jain",
+       "4",
+       16,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "8",
+       37,
+       2
+      ],
+      [
+       "Prasidh Krishna",
+       "8",
+       35,
+       1
+      ],
+      [
+       "Auqib Nabi",
+       "5",
+       27,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "214/4 (45.0 ov)",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       61,
+       46,
+       "retired not out"
+      ],
+      [
+       "Shubman Gill",
+       44,
+       54,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       28,
+       68,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       17,
+       20,
+       "c"
+      ],
+      [
+       "Ravindra Jadeja",
+       22,
+       32,
+       "retired not out"
+      ],
+      [
+       "Manav Suthar",
+       4,
+       24,
+       "retired not out"
+      ],
+      [
+       "Gurnoor Brar",
+       2,
+       5,
+       "c"
+      ],
+      [
+       "Saransh Jain",
+       2,
+       7,
+       "not out"
+      ],
+      [
+       "Mohammed Siraj",
+       32,
+       15,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "KL Rahul",
+      "Devdutt Padikkal",
+      "Kuldeep Yadav",
+      "Prasidh Krishna",
+      "Sai Sudharsan",
+      "Auqib Nabi"
+     ],
+     "bowl": [
+      [
+       "Sonal Dinusha",
+       "5",
+       22,
+       0
+      ],
+      [
+       "Ramesh Mendis",
+       "13",
+       53,
+       1
+      ],
+      [
+       "Keshara Nuwantha",
+       "10",
+       57,
+       2
+      ],
+      [
+       "Dilum Sudeera",
+       "4",
+       9,
+       0
+      ],
+      [
+       "Isitha Wijesundara",
+       "3",
+       9,
+       0
+      ],
+      [
+       "Lahiru Kumara",
+       "4",
+       29,
+       0
+      ],
+      [
+       "Vishwa Fernando",
+       "6",
+       34,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1544001",
@@ -8484,33 +8991,34 @@
    "seriesId": "24371",
    "matchNo": "3rd ODI",
    "venue": "Kotambi Stadium, Vadodara",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India Women",
      "abbr": "IND-W",
-     "score": "",
-     "winner": false
+     "score": "133/2 (17/50 ov, target 132)",
+     "winner": true
     },
     {
      "name": "Zimbabwe Women",
      "abbr": "ZIM-W",
-     "score": "11/1 (1.5/50 ov)",
+     "score": "131",
      "winner": false
     }
    ],
-   "result": "ZIM Women won toss & batted",
-   "india": "",
+   "result": "IND Women won by 8 wkts (198b rem)",
+   "india": "won",
+   "seriesNote": "India Women won the 3-match series 3-0",
    "xi": {
     "India Women": [
-     "Pratika Rawal",
-     "Smriti Mandhana (c)",
-     "Shafali Verma",
-     "Harmanpreet Kaur",
      "Yastika Bhatia",
+     "Pratika Rawal",
      "Harleen Deol",
+     "Shafali Verma",
+     "Smriti Mandhana (c)",
+     "Harmanpreet Kaur",
      "Deepti Sharma",
      "Sayali Satghare",
      "Vaishnavi Sharma",
@@ -8523,24 +9031,24 @@
      "Chipo Mugeri-Tiripano",
      "Beloved Biza",
      "Josephine Nkomo (c)",
+     "Chiedza Dhururu",
      "Michelle Mavunga",
      "Nyasha Gwanzura",
-     "Chiedza Dhururu",
+     "Olinder Chare",
      "Nomvelo Sibanda",
-     "Francisca Chipare",
-     "Olinder Chare"
+     "Francisca Chipare"
     ]
    },
    "innings": [
     {
      "t": "Zimbabwe Women",
-     "total": "11/1 (1.4 ov)",
+     "total": "131 (39.5 ov)",
      "bat": [
       [
        "Modester Mupachikwa",
-       6,
-       3,
-       "not out"
+       37,
+       48,
+       "st"
       ],
       [
        "Loryn Phiri",
@@ -8551,31 +9059,171 @@
       [
        "Chipo Mugeri-Tiripano",
        4,
+       8,
+       "c"
+      ],
+      [
+       "Beloved Biza",
        1,
+       16,
+       "c"
+      ],
+      [
+       "Josephine Nkomo",
+       35,
+       67,
+       "c"
+      ],
+      [
+       "Chiedza Dhururu",
+       20,
+       39,
+       "c"
+      ],
+      [
+       "Michelle Mavunga",
+       6,
+       9,
+       "c"
+      ],
+      [
+       "Nyasha Gwanzura",
+       10,
+       13,
+       "b"
+      ],
+      [
+       "Olinder Chare",
+       0,
+       10,
+       "b"
+      ],
+      [
+       "Nomvelo Sibanda",
+       3,
+       12,
+       "run out"
+      ],
+      [
+       "Francisca Chipare",
+       4,
+       13,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "4",
+       17,
+       0
+      ],
+      [
+       "Deepti Sharma",
+       "6.5",
+       12,
+       0
+      ],
+      [
+       "Sayali Satghare",
+       "6",
+       11,
+       2
+      ],
+      [
+       "Vaishnavi Sharma",
+       "10",
+       39,
+       5
+      ],
+      [
+       "Kranti Gaud",
+       "7",
+       23,
+       2
+      ],
+      [
+       "Jintimani Kalita",
+       "6",
+       27,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "133/2 (17.0 ov)",
+     "bat": [
+      [
+       "Yastika Bhatia",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Pratika Rawal",
+       59,
+       56,
+       "not out"
+      ],
+      [
+       "Harleen Deol",
+       19,
+       19,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       51,
+       26,
        "not out"
       ]
      ],
      "dnb": [
-      "Beloved Biza",
-      "Josephine Nkomo",
-      "Michelle Mavunga",
-      "Nyasha Gwanzura",
-      "Chiedza Dhururu",
-      "Nomvelo Sibanda",
-      "Francisca Chipare",
-      "Olinder Chare"
+      "Smriti Mandhana",
+      "Harmanpreet Kaur",
+      "Deepti Sharma",
+      "Sayali Satghare",
+      "Vaishnavi Sharma",
+      "Kranti Gaud",
+      "Jintimani Kalita"
      ],
      "bowl": [
       [
-       "Sayali Satghare",
-       "0.4",
-       6,
+       "Loryn Phiri",
+       "3",
+       28,
        1
       ],
       [
-       "Kranti Gaud",
-       "1",
-       5,
+       "Beloved Biza",
+       "2",
+       17,
+       0
+      ],
+      [
+       "Michelle Mavunga",
+       "2",
+       18,
+       0
+      ],
+      [
+       "Olinder Chare",
+       "3",
+       26,
+       0
+      ],
+      [
+       "Nomvelo Sibanda",
+       "3",
+       18,
+       1
+      ],
+      [
+       "Francisca Chipare",
+       "4",
+       25,
        0
       ]
      ]
@@ -8612,8 +9260,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.49,
-    0.51
+    0.465,
+    0.535
    ]
   },
   {
@@ -10178,7 +10826,7 @@
       "no": "3",
       "name": "India",
       "team": "India",
-      "rating": "124"
+      "rating": "125"
      },
      {
       "no": "4",
@@ -10223,7 +10871,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-10-25",
+    "updated": "2026-10-26",
     "bat": [
      {
       "no": "1",
@@ -10557,7 +11205,7 @@
      "teams": [
       {
        "name": "Sikkim",
-       "score": "184 & 30/1 (14.5 ov, target 212)"
+       "score": "184 & 87/4 (32 ov, target 212)"
       },
       {
        "name": "Nagaland",
@@ -10612,7 +11260,7 @@
       },
       {
        "name": "Jammu & Kashmir",
-       "score": "88/4 (36 ov)"
+       "score": "303 & 8/1 (6 ov) (f/o)"
       }
      ]
     }
