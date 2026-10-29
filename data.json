@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:11:40Z",
+ "updated": "2026-10-29T18:30:31Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9202,6 +9202,56 @@
    ]
   },
   {
+   "id": "espn_1559199",
+   "eventId": "1559199",
+   "date": "2026-10-30T06:15Z",
+   "gender": "men",
+   "format": "List A",
+   "series": "Hong Kong International Cricket Sixes",
+   "seriesId": "8768",
+   "matchNo": "Group C",
+   "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Pakistan",
+     "abbr": "PAK",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "Starts at 14:15 local time",
+   "india": "",
+   "xi": {
+    "India": [
+     "Kulwant Khejroliya (c)",
+     "T Natarajan",
+     "Krunal Pandya",
+     "Nitish Rana",
+     "Shashank Singh",
+     "Rahul Tewatia",
+     "Rahul Tripathi"
+    ],
+    "Pakistan": [
+     "Abbas Afridi (c)",
+     "Abdul Samad",
+     "Ahmed Daniyal",
+     "Irfan Khan",
+     "Khawaja Nafay",
+     "Muhammad Shahzad",
+     "Saad Masood"
+    ]
+   }
+  },
+  {
    "id": "espn_1539435",
    "eventId": "1539435",
    "date": "2026-10-30T07:00Z",
@@ -9234,6 +9284,36 @@
     0.37,
     0.63
    ]
+  },
+  {
+   "id": "espn_1559204",
+   "eventId": "1559204",
+   "date": "2026-10-31T02:35Z",
+   "gender": "men",
+   "format": "List A",
+   "series": "Hong Kong International Cricket Sixes",
+   "seriesId": "8768",
+   "matchNo": "Group C",
+   "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "United Arab Emirates",
+     "abbr": "UAE",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
   },
   {
    "id": "espn_1539436",
@@ -10206,6 +10286,11 @@
    "id": "22547",
    "name": "Asian Games Men's Cricket Competition",
    "gender": "men"
+  },
+  {
+   "id": "8768",
+   "name": "Hong Kong International Cricket Sixes",
+   "gender": "men"
   }
  ],
  "rankings": {
@@ -10435,7 +10520,7 @@
       "no": "6",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "96"
+      "rating": "95"
      },
      {
       "no": "7",
@@ -10447,7 +10532,7 @@
       "no": "8",
       "name": "England",
       "team": "England",
-      "rating": "91"
+      "rating": "93"
      },
      {
       "no": "9",
@@ -11165,73 +11250,73 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "more": 13,
+   "more": 15,
    "matches": [
     {
-     "date": "2026-10-26T02:45Z",
-     "desc": "Plate Group",
-     "state": "post",
-     "detail": "Final",
-     "venue": "SICA ground, Rangpo",
+     "date": "2026-11-02T04:00Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Barsapara Cricket Stadium, Guwahati",
      "teams": [
       {
-       "name": "Sikkim",
-       "score": "184 & 117/5 (46 ov, target 212)"
+       "name": "Assam",
+       "score": ""
       },
       {
-       "name": "Nagaland",
-       "score": "187 & 208"
+       "name": "Karnataka",
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-10-26T03:30Z",
+     "date": "2026-11-02T04:00Z",
      "desc": "Elite, Group C",
-     "state": "post",
-     "detail": "Final",
-     "venue": "JSCA International Stadium Complex, Ranchi",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Eden Gardens, Kolkata",
      "teams": [
       {
-       "name": "Jharkhand",
-       "score": "131/4 (47 ov)"
+       "name": "Bengal",
+       "score": ""
       },
       {
-       "name": "Delhi",
-       "score": "515/5d"
+       "name": "Maharashtra",
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-10-26T03:30Z",
-     "desc": "Elite, Group C",
-     "state": "post",
-     "detail": "Final",
-     "venue": "KIIT Stadium, Bhubaneswar",
+     "date": "2026-11-02T04:00Z",
+     "desc": "Elite, Group D",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Sector 16 Stadium, Chandigarh",
      "teams": [
       {
-       "name": "Odisha",
-       "score": "194"
+       "name": "Chandigarh",
+       "score": ""
       },
       {
-       "name": "Services",
-       "score": "40/0 (12 ov)"
+       "name": "Tamil Nadu",
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-10-26T04:00Z",
-     "desc": "Elite, Group A",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Reliance Stadium, Vadodara",
+     "date": "2026-11-02T04:00Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
      "teams": [
       {
-       "name": "Baroda",
-       "score": "616"
+       "name": "Chhattisgarh",
+       "score": ""
       },
       {
-       "name": "Jammu & Kashmir",
-       "score": "303 & 316/6 (96 ov) (f/o)"
+       "name": "Hyderabad (India)",
+       "score": ""
       }
      ]
     }
@@ -11673,7 +11758,8 @@
    "24677": "men",
    "22546": "women",
    "24746": "men",
-   "22547": "men"
+   "22547": "men",
+   "8768": "men"
   }
  }
 }
