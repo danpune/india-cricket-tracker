@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T05:54:32Z",
+ "updated": "2026-10-29T12:11:40Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9228,7 +9228,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 20:00 local time",
    "india": "",
    "o": [
     0.37,
@@ -11170,8 +11170,8 @@
     {
      "date": "2026-10-26T02:45Z",
      "desc": "Plate Group",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "SICA ground, Rangpo",
      "teams": [
       {
@@ -11187,8 +11187,8 @@
     {
      "date": "2026-10-26T03:30Z",
      "desc": "Elite, Group C",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "JSCA International Stadium Complex, Ranchi",
      "teams": [
       {
@@ -11204,8 +11204,8 @@
     {
      "date": "2026-10-26T03:30Z",
      "desc": "Elite, Group C",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "KIIT Stadium, Bhubaneswar",
      "teams": [
       {
@@ -11214,15 +11214,15 @@
       },
       {
        "name": "Services",
-       "score": "13/0 (5 ov)"
+       "score": "40/0 (12 ov)"
       }
      ]
     },
     {
      "date": "2026-10-26T04:00Z",
      "desc": "Elite, Group A",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Reliance Stadium, Vadodara",
      "teams": [
       {
@@ -11231,7 +11231,7 @@
       },
       {
        "name": "Jammu & Kashmir",
-       "score": "303 & 67/4 (29 ov) (f/o)"
+       "score": "303 & 316/6 (96 ov) (f/o)"
       }
      ]
     }
