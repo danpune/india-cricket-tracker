@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:27:17Z",
+ "updated": "2026-10-29T05:54:32Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9231,8 +9231,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.485,
-    0.515
+    0.37,
+    0.63
    ]
   },
   {
@@ -11176,7 +11176,7 @@
      "teams": [
       {
        "name": "Sikkim",
-       "score": "184 & 87/4 (32 ov, target 212)"
+       "score": "184 & 117/5 (46 ov, target 212)"
       },
       {
        "name": "Nagaland",
@@ -11231,7 +11231,7 @@
       },
       {
        "name": "Jammu & Kashmir",
-       "score": "303 & 8/1 (6 ov) (f/o)"
+       "score": "303 & 67/4 (29 ov) (f/o)"
       }
      ]
     }
@@ -11488,6 +11488,182 @@
      ]
     }
    ]
+  },
+  "women": {
+   "name": "Asian Games Women's Cricket Competition",
+   "leagueId": "22546",
+   "matches": [
+    {
+     "id": "1550474",
+     "date": "2026-09-17T00:00Z",
+     "round": "1st Quarter-Final",
+     "state": "post",
+     "detail": "Match abandoned without a ball bowled",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "",
+       "winner": false
+      },
+      {
+       "name": "China Women",
+       "abbr": "CHN-W",
+       "score": "",
+       "winner": false
+      }
+     ],
+     "advanced": "Bangladesh Women advanced"
+    },
+    {
+     "id": "1550475",
+     "date": "2026-09-17T05:00Z",
+     "round": "2nd Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "92/7 (10.4/11 ov, target 92)",
+       "winner": true
+      },
+      {
+       "name": "Thailand Women",
+       "abbr": "THA-W",
+       "score": "91/4 (11/11 ov)",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1550476",
+     "date": "2026-09-18T00:00Z",
+     "round": "3rd Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Malaysia Women",
+       "abbr": "MAL-W",
+       "score": "74/7 (20 ov, target 161)",
+       "winner": false
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "160/4",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550477",
+     "date": "2026-09-18T05:00Z",
+     "round": "4th Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Japan Women",
+       "abbr": "JPN-W",
+       "score": "57",
+       "winner": false
+      },
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "59/2 (5/20 ov, target 58)",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550478",
+     "date": "2026-09-20T00:00Z",
+     "round": "1st Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "177/4",
+       "winner": false
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "178/2 (17.5/20 ov, target 178)",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550479",
+     "date": "2026-09-20T05:00Z",
+     "round": "2nd Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "81 (15.4/20 ov, target 196)",
+       "winner": false
+      },
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "195/4",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550480",
+     "date": "2026-09-22T00:00Z",
+     "round": "3rd Place Play-off",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "114/7 (20 ov, target 146)",
+       "winner": false
+      },
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "145/8",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550481",
+     "date": "2026-09-22T05:00Z",
+     "round": "Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "216/3",
+       "winner": true
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "69 (15.4/20 ov, target 217)",
+       "winner": false
+      }
+     ]
+    }
+   ],
+   "groups": []
   }
  },
  "meta": {
