@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T08:50:54Z",
+ "updated": "2026-10-30T15:29:21Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9218,7 +9218,7 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "88",
+     "score": "88/5",
      "winner": false
     },
     {
@@ -9396,25 +9396,26 @@
    "seriesId": "24469",
    "matchNo": "4th T20I",
    "venue": "Eden Park, Auckland",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "246/6 (19/20 ov)",
-     "winner": false
+     "score": "259/7",
+     "winner": true
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "172/9 (20 ov, target 260)",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
-   "india": "",
+   "result": "New Zealand won by 87 runs",
+   "india": "lost",
+   "seriesNote": "India led the 5-match series 3-1",
    "xi": {
     "New Zealand": [
      "Tim Seifert",
@@ -9434,10 +9435,10 @@
      "Abhishek Sharma",
      "Ishan Kishan",
      "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Nitish Kumar Reddy",
-     "Naman Dhir",
      "Axar Patel",
+     "Nitish Kumar Reddy",
+     "Tilak Varma",
+     "Naman Dhir",
      "Arshdeep Singh",
      "Prince Yadav",
      "Mayank Yadav"
@@ -9446,7 +9447,7 @@
    "innings": [
     {
      "t": "New Zealand",
-     "total": "246/6 (19.0 ov)",
+     "total": "259/7 (20.0 ov)",
      "bat": [
       [
        "Tim Seifert",
@@ -9469,8 +9470,8 @@
       [
        "Glenn Phillips",
        107,
-       48,
-       "not out"
+       49,
+       "c"
       ],
       [
        "Bevon Jacobs",
@@ -9492,34 +9493,39 @@
       ],
       [
        "Nathan Smith",
-       0,
-       0,
+       6,
+       3,
+       "not out"
+      ],
+      [
+       "Adam Milne",
+       1,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Adam Milne",
       "Jacob Duffy",
       "Matthew Fisher"
      ],
      "bowl": [
       [
+       "Axar Patel",
+       "3",
+       43,
+       1
+      ],
+      [
        "Nitish Kumar Reddy",
-       "3.1",
-       57,
-       0
+       "4",
+       64,
+       1
       ],
       [
        "Naman Dhir",
        "1",
        16,
        0
-      ],
-      [
-       "Axar Patel",
-       "3",
-       43,
-       1
       ],
       [
        "Arshdeep Singh",
@@ -9538,6 +9544,111 @@
        "4",
        48,
        3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "172/9 (20.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       27,
+       15,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       22,
+       11,
+       "b"
+      ],
+      [
+       "Axar Patel",
+       7,
+       9,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       35,
+       35,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       28,
+       13,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       18,
+       17,
+       "not out"
+      ],
+      [
+       "Mayank Yadav",
+       3,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Mitchell Santner",
+       "4",
+       24,
+       2
+      ],
+      [
+       "Nathan Smith",
+       "4",
+       47,
+       0
+      ],
+      [
+       "Adam Milne",
+       "4",
+       35,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "4",
+       23,
+       4
+      ],
+      [
+       "Matthew Fisher",
+       "4",
+       40,
+       2
       ]
      ]
     }
@@ -9603,8 +9714,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.27,
-    0.73
+    0.49,
+    0.51
    ]
   },
   {
@@ -10947,7 +11058,7 @@
       "no": "2",
       "name": "India",
       "team": "India",
-      "rating": "269"
+      "rating": "268"
      },
      {
       "no": "3",
@@ -10959,7 +11070,7 @@
       "no": "4",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "245"
+      "rating": "247"
      },
      {
       "no": "5",

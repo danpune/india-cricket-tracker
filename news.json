@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "'Hamstring has been declared fit' - Rodrigues eyes return to action after three months of rehab",
+   "u": "https://www.cricinfo.com/ci/content/story/1560774.html?ex_cid=OTC-RSS",
+   "d": "Fri, 30 Oct 2026"
+  },
+  {
+   "t": "Phillips' century, Duffy's four-for topple India",
+   "u": "https://www.cricinfo.com/ci/content/story/1560744.html?ex_cid=OTC-RSS",
+   "d": "Fri, 30 Oct 2026"
+  },
+  {
+   "t": "Sehwag, Dravid in India squad for Under-19 Asia Cup; Raichandani to lead",
+   "u": "https://www.cricinfo.com/ci/content/story/1560735.html?ex_cid=OTC-RSS",
+   "d": "Fri, 30 Oct 2026"
+  },
+  {
    "t": "Kishan, Mayank in as India bowl; Smith back for New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1560688.html?ex_cid=OTC-RSS",
    "d": "Fri, 30 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "Bhuvneshwar proud of comeback, but 'did not chase it'",
    "u": "https://www.cricinfo.com/ci/content/story/1560282.html?ex_cid=OTC-RSS",
    "d": "Tue, 27 Oct 2026"
-  },
-  {
-   "t": "Bad light, Heaphy 90* deny India A by one wicket",
-   "u": "https://www.cricinfo.com/ci/content/story/1560135.html?ex_cid=OTC-RSS",
-   "d": "Tue, 27 Oct 2026"
-  },
-  {
-   "t": "Unchanged India bowl, NZ make three changes",
-   "u": "https://www.cricinfo.com/ci/content/story/1560132.html?ex_cid=OTC-RSS",
-   "d": "Tue, 27 Oct 2026"
-  },
-  {
-   "t": "Bumrah and Pant likely to play for India A in third unofficial Test against New Zealand A",
-   "u": "https://www.cricinfo.com/ci/content/story/1560088.html?ex_cid=OTC-RSS",
-   "d": "Mon, 26 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "eUa6o0rVFak",
+     "t": "Sooryavanshi's chances may be delayed, never denied: Dinesh Karthik"
+    },
+    {
+     "yt": "9gg8xnCM5cY",
+     "t": "Why can\u2019t India stop leaking runs? What needs to change?"
+    },
+    {
+     "yt": "uimeyUgQAMU",
+     "t": "India crushed by NZ! Bowling CRISIS? | DK & Rayudu Review"
+    },
     {
      "yt": "4cKwqiCIpJM",
      "t": "Match Forecast: New Zealand vs India, 4th T20I"
@@ -67,18 +79,6 @@
     {
      "yt": "vQ8Jpz3yL5o",
      "t": "Preview: New Zealand vs India, 4th T20I"
-    },
-    {
-     "yt": "ab05B0la0b4",
-     "t": "RELEASE or RETAIN? Hardik, Green & IPL\u2019s BIG Decisions | Harsha Picks"
-    },
-    {
-     "yt": "X5H0_xEYoMw",
-     "t": "The secret behind Sooryavanshi\u2019s batting? DK explains the science"
-    },
-    {
-     "yt": "DYHOPa2zMZ0",
-     "t": "On-song Abhishek ends bowlers' spirits: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-30T08:52:42Z"
+ "updated": "2026-10-30T15:30:33Z"
 }

@@ -39137,6 +39137,237 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539435",
+   "date": "2026-10-30",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "4th T20I",
+   "venue": "Eden Park, Auckland",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "259/7"
+    },
+    {
+     "name": "India",
+     "score": "172/9 (20 ov, target 260)"
+    }
+   ],
+   "result": "New Zealand won by 87 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "259/7 (20.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       3,
+       5,
+       "c"
+      ],
+      [
+       "Finn Allen",
+       31,
+       17,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       24,
+       9,
+       "lbw"
+      ],
+      [
+       "Glenn Phillips",
+       107,
+       49,
+       "c"
+      ],
+      [
+       "Bevon Jacobs",
+       7,
+       7,
+       "c"
+      ],
+      [
+       "Michael Bracewell",
+       65,
+       25,
+       "lbw"
+      ],
+      [
+       "Mitchell Santner",
+       5,
+       6,
+       "c"
+      ],
+      [
+       "Nathan Smith",
+       6,
+       3,
+       "not out"
+      ],
+      [
+       "Adam Milne",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Jacob Duffy",
+      "Matthew Fisher"
+     ],
+     "bowl": [
+      [
+       "Axar Patel",
+       "3",
+       43,
+       1
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "4",
+       64,
+       1
+      ],
+      [
+       "Naman Dhir",
+       "1",
+       16,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       49,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       48,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "172/9 (20.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       4,
+       2,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       27,
+       15,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       0,
+       3,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       22,
+       11,
+       "b"
+      ],
+      [
+       "Axar Patel",
+       7,
+       9,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       35,
+       35,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       28,
+       13,
+       "c"
+      ],
+      [
+       "Arshdeep Singh",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       18,
+       17,
+       "not out"
+      ],
+      [
+       "Mayank Yadav",
+       3,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Mitchell Santner",
+       "4",
+       24,
+       2
+      ],
+      [
+       "Nathan Smith",
+       "4",
+       47,
+       0
+      ],
+      [
+       "Adam Milne",
+       "4",
+       35,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "4",
+       23,
+       4
+      ],
+      [
+       "Matthew Fisher",
+       "4",
+       40,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
