@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:29:21Z",
+ "updated": "2026-10-30T20:03:08Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9415,35 +9415,6 @@
    ],
    "result": "New Zealand won by 87 runs",
    "india": "lost",
-   "seriesNote": "India led the 5-match series 3-1",
-   "xi": {
-    "New Zealand": [
-     "Tim Seifert",
-     "Finn Allen",
-     "Daryl Mitchell",
-     "Glenn Phillips",
-     "Bevon Jacobs",
-     "Michael Bracewell",
-     "Mitchell Santner (c)",
-     "Nathan Smith",
-     "Adam Milne",
-     "Jacob Duffy",
-     "Matthew Fisher"
-    ],
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Axar Patel",
-     "Nitish Kumar Reddy",
-     "Tilak Varma",
-     "Naman Dhir",
-     "Arshdeep Singh",
-     "Prince Yadav",
-     "Mayank Yadav"
-    ]
-   },
    "innings": [
     {
      "t": "New Zealand",
@@ -9682,7 +9653,27 @@
     }
    ],
    "result": "Starts at 10:35 local time",
-   "india": ""
+   "india": "",
+   "xi": {
+    "India": [
+     "Kulwant Khejroliya",
+     "T Natarajan",
+     "Krunal Pandya (c)",
+     "Nitish Rana",
+     "Shashank Singh",
+     "Rahul Tewatia",
+     "Rahul Tripathi"
+    ],
+    "United Arab Emirates": [
+     "Ansh Tandon",
+     "Khalid Shah (c)",
+     "Maroof Merchant",
+     "Mohammed Faraazuddin",
+     "Muhammad Farooq",
+     "Zahid Ali",
+     "Muhammad Zuhaib"
+    ]
+   }
   },
   {
    "id": "espn_1539436",
@@ -9714,8 +9705,8 @@
    "result": "",
    "india": "",
    "o": [
-    0.49,
-    0.51
+    0.475,
+    0.525
    ]
   },
   {
