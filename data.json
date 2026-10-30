@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T02:25:39Z",
+ "updated": "2026-10-30T08:50:54Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9211,45 +9211,180 @@
    "seriesId": "8768",
    "matchNo": "Group C",
    "venue": "Mission Road Ground, Mong Kok, Hong Kong",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "88",
      "winner": false
     },
     {
      "name": "Pakistan",
      "abbr": "PAK",
-     "score": "",
-     "winner": false
+     "score": "91/2 (3.5/6 ov, target 89)",
+     "winner": true
     }
    ],
-   "result": "Starts at 14:15 local time",
-   "india": "",
+   "result": "Pakistan won by 4 wkts (13b rem)",
+   "india": "lost",
    "xi": {
     "India": [
-     "Kulwant Khejroliya (c)",
-     "T Natarajan",
-     "Krunal Pandya",
+     "Rahul Tripathi",
      "Nitish Rana",
      "Shashank Singh",
      "Rahul Tewatia",
-     "Rahul Tripathi"
+     "Krunal Pandya (c)",
+     "T Natarajan"
     ],
     "Pakistan": [
+     "Khawaja Nafay",
      "Abbas Afridi (c)",
      "Abdul Samad",
-     "Ahmed Daniyal",
      "Irfan Khan",
-     "Khawaja Nafay",
      "Muhammad Shahzad",
-     "Saad Masood"
+     "Ahmed Daniyal"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "88/5 (6.0 ov)",
+     "bat": [
+      [
+       "Rahul Tripathi",
+       9,
+       5,
+       "c"
+      ],
+      [
+       "Nitish Rana",
+       19,
+       14,
+       "retired out"
+      ],
+      [
+       "Shashank Singh",
+       40,
+       11,
+       "b"
+      ],
+      [
+       "Rahul Tewatia",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Krunal Pandya",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "T Natarajan",
+       12,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Abbas Afridi",
+       "1",
+       10,
+       0
+      ],
+      [
+       "Abdul Samad",
+       "1",
+       10,
+       2
+      ],
+      [
+       "Irfan Khan",
+       "1",
+       24,
+       0
+      ],
+      [
+       "Muhammad Shahzad",
+       "1",
+       22,
+       1
+      ],
+      [
+       "Ahmed Daniyal",
+       "2",
+       21,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Pakistan",
+     "total": "91/2 (3.5 ov)",
+     "bat": [
+      [
+       "Khawaja Nafay",
+       41,
+       12,
+       "c"
+      ],
+      [
+       "Abbas Afridi",
+       35,
+       8,
+       "c"
+      ],
+      [
+       "Abdul Samad",
+       7,
+       3,
+       "not out"
+      ],
+      [
+       "Irfan Khan",
+       6,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Muhammad Shahzad",
+      "Ahmed Daniyal"
+     ],
+     "bowl": [
+      [
+       "Shashank Singh",
+       "1",
+       14,
+       1
+      ],
+      [
+       "Rahul Tewatia",
+       "0.5",
+       18,
+       1
+      ],
+      [
+       "Krunal Pandya",
+       "1",
+       31,
+       0
+      ],
+      [
+       "T Natarajan",
+       "1",
+       28,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1539435",
@@ -9261,14 +9396,14 @@
    "seriesId": "24469",
    "matchNo": "4th T20I",
    "venue": "Eden Park, Auckland",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "",
+     "score": "246/6 (19/20 ov)",
      "winner": false
     },
     {
@@ -9278,11 +9413,134 @@
      "winner": false
     }
    ],
-   "result": "Starts at 20:00 local time",
+   "result": "India won toss & fielded",
    "india": "",
-   "o": [
-    0.37,
-    0.63
+   "xi": {
+    "New Zealand": [
+     "Tim Seifert",
+     "Finn Allen",
+     "Daryl Mitchell",
+     "Glenn Phillips",
+     "Bevon Jacobs",
+     "Michael Bracewell",
+     "Mitchell Santner (c)",
+     "Nathan Smith",
+     "Adam Milne",
+     "Jacob Duffy",
+     "Matthew Fisher"
+    ],
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Nitish Kumar Reddy",
+     "Naman Dhir",
+     "Axar Patel",
+     "Arshdeep Singh",
+     "Prince Yadav",
+     "Mayank Yadav"
+    ]
+   },
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "246/6 (19.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       3,
+       5,
+       "c"
+      ],
+      [
+       "Finn Allen",
+       31,
+       17,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       24,
+       9,
+       "lbw"
+      ],
+      [
+       "Glenn Phillips",
+       107,
+       48,
+       "not out"
+      ],
+      [
+       "Bevon Jacobs",
+       7,
+       7,
+       "c"
+      ],
+      [
+       "Michael Bracewell",
+       65,
+       25,
+       "lbw"
+      ],
+      [
+       "Mitchell Santner",
+       5,
+       6,
+       "c"
+      ],
+      [
+       "Nathan Smith",
+       0,
+       0,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Adam Milne",
+      "Jacob Duffy",
+      "Matthew Fisher"
+     ],
+     "bowl": [
+      [
+       "Nitish Kumar Reddy",
+       "3.1",
+       57,
+       0
+      ],
+      [
+       "Naman Dhir",
+       "1",
+       16,
+       0
+      ],
+      [
+       "Axar Patel",
+       "3",
+       43,
+       1
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Prince Yadav",
+       "4",
+       49,
+       1
+      ],
+      [
+       "Mayank Yadav",
+       "4",
+       48,
+       3
+      ]
+     ]
+    }
    ]
   },
   {
@@ -9312,7 +9570,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 10:35 local time",
    "india": ""
   },
   {
@@ -9343,7 +9601,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.27,
+    0.73
+   ]
   },
   {
    "id": "espn_1539437",
@@ -11253,6 +11515,40 @@
    "more": 15,
    "matches": [
     {
+     "date": "2026-11-02T03:30Z",
+     "desc": "Elite, Group C",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Eden Gardens, Kolkata",
+     "teams": [
+      {
+       "name": "Bengal",
+       "score": ""
+      },
+      {
+       "name": "Maharashtra",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02T03:30Z",
+     "desc": "Elite, Group C",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "KIIT Stadium, Bhubaneswar",
+     "teams": [
+      {
+       "name": "Odisha",
+       "score": ""
+      },
+      {
+       "name": "Jharkhand",
+       "score": ""
+      }
+     ]
+    },
+    {
      "date": "2026-11-02T04:00Z",
      "desc": "Elite, Group B",
      "state": "pre",
@@ -11271,23 +11567,6 @@
     },
     {
      "date": "2026-11-02T04:00Z",
-     "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Eden Gardens, Kolkata",
-     "teams": [
-      {
-       "name": "Bengal",
-       "score": ""
-      },
-      {
-       "name": "Maharashtra",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T04:00Z",
      "desc": "Elite, Group D",
      "state": "pre",
      "detail": "Scheduled",
@@ -11299,23 +11578,6 @@
       },
       {
        "name": "Tamil Nadu",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T04:00Z",
-     "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-     "teams": [
-      {
-       "name": "Chhattisgarh",
-       "score": ""
-      },
-      {
-       "name": "Hyderabad (India)",
        "score": ""
       }
      ]
