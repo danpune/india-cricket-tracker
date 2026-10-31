@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T02:42:56Z",
+ "updated": "2026-10-31T08:55:50Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9635,34 +9635,33 @@
    "seriesId": "8768",
    "matchNo": "Group C",
    "venue": "Mission Road Ground, Mong Kok, Hong Kong",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "94",
      "winner": false
     },
     {
      "name": "United Arab Emirates",
      "abbr": "UAE",
-     "score": "",
-     "winner": false
+     "score": "97/0 (4.2/6 ov, target 95)",
+     "winner": true
     }
    ],
-   "result": "U.A.E. won toss & fielded",
-   "india": "",
+   "result": "U.A.E. won by 6 wkts (10b rem)",
+   "india": "lost",
    "xi": {
     "India": [
      "Nitish Rana",
      "Rahul Tripathi",
-     "Shashank Singh",
      "Rahul Tewatia",
+     "Shashank Singh",
      "Krunal Pandya (c)",
-     "T Natarajan",
-     "Kulwant Khejroliya"
+     "T Natarajan"
     ],
     "United Arab Emirates": [
      "Khalid Shah (c)",
@@ -9670,10 +9669,357 @@
      "Muhammad Zuhaib",
      "Zahid Ali",
      "Muhammad Farooq",
-     "Mohammed Faraazuddin",
-     "Maroof Merchant"
+     "Mohammed Faraazuddin"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "94/6 (6.0 ov)",
+     "bat": [
+      [
+       "Nitish Rana",
+       6,
+       2,
+       "c"
+      ],
+      [
+       "Rahul Tripathi",
+       24,
+       7,
+       "c"
+      ],
+      [
+       "Rahul Tewatia",
+       1,
+       2,
+       "lbw"
+      ],
+      [
+       "Shashank Singh",
+       1,
+       3,
+       "c"
+      ],
+      [
+       "Krunal Pandya",
+       15,
+       8,
+       "c"
+      ],
+      [
+       "T Natarajan",
+       38,
+       14,
+       "run out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Ansh Tandon",
+       "1",
+       13,
+       0
+      ],
+      [
+       "Muhammad Zuhaib",
+       "1",
+       23,
+       0
+      ],
+      [
+       "Zahid Ali",
+       "2",
+       32,
+       3
+      ],
+      [
+       "Muhammad Farooq",
+       "1",
+       11,
+       1
+      ],
+      [
+       "Mohammed Faraazuddin",
+       "1",
+       15,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "United Arab Emirates",
+     "total": "97/0 (4.2 ov)",
+     "bat": [
+      [
+       "Khalid Shah",
+       52,
+       14,
+       "not out"
+      ],
+      [
+       "Ansh Tandon",
+       39,
+       12,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Muhammad Zuhaib",
+      "Zahid Ali",
+      "Muhammad Farooq",
+      "Mohammed Faraazuddin"
+     ],
+     "bowl": [
+      [
+       "Nitish Rana",
+       "1",
+       24,
+       0
+      ],
+      [
+       "Shashank Singh",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Krunal Pandya",
+       "0.2",
+       12,
+       0
+      ],
+      [
+       "T Natarajan",
+       "2",
+       43,
+       0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1559206",
+   "eventId": "1559206",
+   "date": "2026-10-31T04:25Z",
+   "gender": "men",
+   "format": "List A",
+   "series": "Hong Kong International Cricket Sixes",
+   "seriesId": "8768",
+   "matchNo": "Bowl, 2nd Semi-Final",
+   "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "England",
+     "abbr": "ENG",
+     "score": "124/2",
+     "winner": true
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "121/4 (6 ov, target 125)",
+     "winner": false
+    }
+   ],
+   "result": "England won by 3 runs",
+   "india": "lost",
+   "xi": {
+    "England": [
+     "Martin Andersson",
+     "John Simpson (c)",
+     "Ed Barnard",
+     "Luke Hollman",
+     "Nathan Gilchrist",
+     "Jack Carson"
+    ],
+    "India": [
+     "Nitish Rana",
+     "Shashank Singh",
+     "Rahul Tripathi",
+     "Rahul Tewatia",
+     "Krunal Pandya (c)",
+     "Kulwant Khejroliya"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England",
+     "total": "124/2 (6.0 ov)",
+     "bat": [
+      [
+       "Martin Andersson",
+       51,
+       13,
+       "retired not out"
+      ],
+      [
+       "John Simpson",
+       7,
+       3,
+       "c"
+      ],
+      [
+       "Ed Barnard",
+       35,
+       14,
+       "not out"
+      ],
+      [
+       "Luke Hollman",
+       13,
+       6,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Nathan Gilchrist",
+      "Jack Carson"
+     ],
+     "bowl": [
+      [
+       "Nitish Rana",
+       "1",
+       18,
+       1
+      ],
+      [
+       "Rahul Tripathi",
+       "1",
+       22,
+       1
+      ],
+      [
+       "Rahul Tewatia",
+       "1",
+       20,
+       0
+      ],
+      [
+       "Krunal Pandya",
+       "1",
+       19,
+       0
+      ],
+      [
+       "Kulwant Khejroliya",
+       "2",
+       37,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "121/4 (6.0 ov)",
+     "bat": [
+      [
+       "Nitish Rana",
+       4,
+       4,
+       "c"
+      ],
+      [
+       "Shashank Singh",
+       29,
+       9,
+       "c"
+      ],
+      [
+       "Rahul Tripathi",
+       56,
+       14,
+       "not out"
+      ],
+      [
+       "Rahul Tewatia",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Krunal Pandya",
+       28,
+       7,
+       "not out"
+      ],
+      [
+       "Kulwant Khejroliya",
+       0,
+       0,
+       "retired out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Martin Andersson",
+       "1",
+       30,
+       0
+      ],
+      [
+       "Ed Barnard",
+       "1",
+       17,
+       0
+      ],
+      [
+       "Luke Hollman",
+       "1",
+       30,
+       0
+      ],
+      [
+       "Nathan Gilchrist",
+       "2",
+       25,
+       2
+      ],
+      [
+       "Jack Carson",
+       "1",
+       18,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1559211",
+   "eventId": "1559211",
+   "date": "2026-11-01T01:40Z",
+   "gender": "men",
+   "format": "List A",
+   "series": "Hong Kong International Cricket Sixes",
+   "seriesId": "8768",
+   "matchNo": "11th Place Play-off",
+   "venue": "Mission Road Ground, Mong Kok, Hong Kong",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "Bangladesh",
+     "abbr": "BAN",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "Starts at 09:40 local time",
+   "india": ""
   },
   {
    "id": "espn_1539436",
@@ -9702,7 +10048,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 20:00 local time",
    "india": ""
   },
   {
@@ -11685,177 +12031,215 @@
  },
  "bracket": {
   "men": {
-   "name": "Asian Games Men's Cricket Competition",
-   "leagueId": "22547",
+   "name": "Hong Kong International Cricket Sixes",
+   "leagueId": "8768",
    "matches": [
     {
-     "id": "1552772",
-     "date": "2026-09-28T00:00Z",
-     "round": "1st Quarter-Final",
+     "id": "1559205",
+     "date": "2026-10-31T03:30Z",
+     "round": "Bowl, 1st Semi-Final",
      "state": "post",
-     "detail": "Match abandoned without a ball bowled",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Bangladesh",
+       "abbr": "BAN",
+       "score": "129/4",
+       "winner": false
+      },
+      {
+       "name": "South Africa",
+       "abbr": "SA",
+       "score": "132/5 (6 ov, target 130)",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1559206",
+     "date": "2026-10-31T04:25Z",
+     "round": "Bowl, 2nd Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "England",
+       "abbr": "ENG",
+       "score": "124/2",
+       "winner": true
+      },
+      {
+       "name": "India",
+       "abbr": "IND",
+       "score": "121/4 (6 ov, target 125)",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1559207",
+     "date": "2026-10-31T05:20Z",
+     "round": "Plate, 1st Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Oman",
+       "abbr": "OMA",
+       "score": "93/1 (4.4/6 ov, target 93)",
+       "winner": true
+      },
+      {
+       "name": "Sri Lanka",
+       "abbr": "SL",
+       "score": "92/5",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1559208",
+     "date": "2026-10-31T06:15Z",
+     "round": "Plate, 2nd Semi-Final",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Hong Kong",
        "abbr": "HKG",
-       "score": "",
+       "score": "106/3",
        "winner": false
       },
       {
        "name": "Pakistan",
        "abbr": "PAK",
-       "score": "",
-       "winner": false
+       "score": "107/0 (4.3/6 ov, target 107)",
+       "winner": true
       }
-     ],
-     "advanced": "Pakistan advanced"
+     ]
     },
     {
-     "id": "1552773",
-     "date": "2026-09-28T05:00Z",
-     "round": "2nd Quarter-Final",
-     "state": "post",
-     "detail": "Match abandoned without a ball bowled",
-     "teams": [
-      {
-       "name": "Afghanistan",
-       "abbr": "AFG",
-       "score": "",
-       "winner": false
-      },
-      {
-       "name": "India",
-       "abbr": "IND",
-       "score": "",
-       "winner": false
-      }
-     ],
-     "advanced": "India advanced"
-    },
-    {
-     "id": "1552774",
-     "date": "2026-09-29T00:00Z",
-     "round": "3rd Quarter-Final",
-     "state": "post",
-     "detail": "Match abandoned without a ball bowled",
-     "teams": [
-      {
-       "name": "Nepal",
-       "abbr": "NEP",
-       "score": "",
-       "winner": false
-      },
-      {
-       "name": "Sri Lanka",
-       "abbr": "SL",
-       "score": "",
-       "winner": false
-      }
-     ],
-     "advanced": "Sri Lanka advanced"
-    },
-    {
-     "id": "1552775",
-     "date": "2026-09-29T05:00Z",
-     "round": "4th Quarter-Final",
-     "state": "post",
-     "detail": "Match abandoned without a ball bowled",
-     "teams": [
-      {
-       "name": "Bangladesh",
-       "abbr": "BAN",
-       "score": "",
-       "winner": false
-      },
-      {
-       "name": "Malaysia",
-       "abbr": "MAS",
-       "score": "",
-       "winner": false
-      }
-     ],
-     "advanced": "Bangladesh advanced"
-    },
-    {
-     "id": "1552776",
-     "date": "2026-10-01T00:00Z",
+     "id": "1559209",
+     "date": "2026-10-31T07:10Z",
      "round": "1st Semi-Final",
      "state": "post",
      "detail": "Result",
      "teams": [
       {
-       "name": "Bangladesh",
-       "abbr": "BAN",
-       "score": "111/7 (13/13 ov)",
-       "winner": false
+       "name": "Australia",
+       "abbr": "AUS",
+       "score": "141/3",
+       "winner": true
       },
       {
-       "name": "Pakistan",
-       "abbr": "PAK",
-       "score": "112/4 (11.3/13 ov, target 112)",
-       "winner": true
+       "name": "United Arab Emirates",
+       "abbr": "UAE",
+       "score": "88/6 (5.3/6 ov, target 142)",
+       "winner": false
       }
      ]
     },
     {
-     "id": "1552777",
-     "date": "2026-10-01T05:00Z",
+     "id": "1559210",
+     "date": "2026-10-31T08:05Z",
      "round": "2nd Semi-Final",
-     "state": "post",
-     "detail": "Result",
+     "state": "in",
+     "detail": "Live",
      "teams": [
       {
-       "name": "India",
-       "abbr": "IND",
-       "score": "169/7",
-       "winner": true
+       "name": "Afghanistan",
+       "abbr": "AFG",
+       "score": "121/4",
+       "winner": false
       },
       {
-       "name": "Sri Lanka",
-       "abbr": "SL",
-       "score": "45 (9.5/20 ov, target 170)",
+       "name": "Scotland",
+       "abbr": "SCOT",
+       "score": "26/2 (2/6 ov, target 122)",
        "winner": false
       }
      ]
     },
     {
-     "id": "1552778",
-     "date": "2026-10-03T00:00Z",
+     "id": "1559213",
+     "date": "2026-11-01T03:30Z",
      "round": "3rd Place Play-off",
-     "state": "post",
-     "detail": "Result",
+     "state": "pre",
+     "detail": "Scheduled",
      "teams": [
       {
-       "name": "Bangladesh",
-       "abbr": "BAN",
-       "score": "102 (17.3/20 ov, target 166)",
+       "name": "United Arab Emirates",
+       "abbr": "UAE",
+       "score": "",
        "winner": false
       },
       {
-       "name": "Sri Lanka",
-       "abbr": "SL",
-       "score": "165/9",
-       "winner": true
+       "name": "TBA",
+       "abbr": "TBA",
+       "score": "",
+       "winner": false
       }
      ]
     },
     {
-     "id": "1552779",
-     "date": "2026-10-03T04:30Z",
-     "round": "Final",
-     "state": "post",
-     "detail": "Result",
+     "id": "1559214",
+     "date": "2026-11-01T05:20Z",
+     "round": "Bowl, Final",
+     "state": "pre",
+     "detail": "Scheduled",
      "teams": [
       {
-       "name": "India",
-       "abbr": "IND",
-       "score": "211/6",
-       "winner": true
+       "name": "England",
+       "abbr": "ENG",
+       "score": "",
+       "winner": false
+      },
+      {
+       "name": "South Africa",
+       "abbr": "SA",
+       "score": "",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1559215",
+     "date": "2026-11-01T06:15Z",
+     "round": "Plate, Final",
+     "state": "pre",
+     "detail": "Scheduled",
+     "teams": [
+      {
+       "name": "Oman",
+       "abbr": "OMA",
+       "score": "",
+       "winner": false
       },
       {
        "name": "Pakistan",
        "abbr": "PAK",
-       "score": "192/6 (20 ov, target 212)",
+       "score": "",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1559216",
+     "date": "2026-11-01T07:10Z",
+     "round": "Final",
+     "state": "pre",
+     "detail": "Scheduled",
+     "teams": [
+      {
+       "name": "Australia",
+       "abbr": "AUS",
+       "score": "",
+       "winner": false
+      },
+      {
+       "name": "TBA",
+       "abbr": "TBA",
+       "score": "",
        "winner": false
       }
      ]
@@ -11866,49 +12250,14 @@
      "name": "Group A",
      "rows": [
       {
-       "team": "Nepal",
-       "abbr": "NEP",
+       "team": "Australia",
+       "abbr": "AUS",
        "p": "2",
-       "w": "1",
+       "w": "2",
        "l": "0",
-       "nr": "1",
-       "pts": "3",
-       "nrr": "0.842"
-      },
-      {
-       "team": "Afghanistan",
-       "abbr": "AFG",
-       "p": "2",
-       "w": "1",
-       "l": "1",
        "nr": "0",
-       "pts": "2",
-       "nrr": "0.846"
-      },
-      {
-       "team": "Japan",
-       "abbr": "JPN",
-       "p": "2",
-       "w": "0",
-       "l": "1",
-       "nr": "1",
-       "pts": "1",
-       "nrr": "-2.4"
-      }
-     ]
-    },
-    {
-     "name": "Group B",
-     "rows": [
-      {
-       "team": "Malaysia",
-       "abbr": "MAS",
-       "p": "2",
-       "w": "1",
-       "l": "0",
-       "nr": "1",
-       "pts": "3",
-       "nrr": "2.95"
+       "pts": "4",
+       "nrr": "5.5"
       },
       {
        "team": "Hong Kong",
@@ -11918,17 +12267,122 @@
        "l": "1",
        "nr": "0",
        "pts": "2",
-       "nrr": "-0.075"
+       "nrr": "2.75"
+      },
+      {
+       "team": "England",
+       "abbr": "ENG",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-8.25"
+      }
+     ]
+    },
+    {
+     "name": "Group B",
+     "rows": [
+      {
+       "team": "Scotland",
+       "abbr": "SCOT",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "2.417"
+      },
+      {
+       "team": "Sri Lanka",
+       "abbr": "SL",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "-0.789"
+      },
+      {
+       "team": "Bangladesh",
+       "abbr": "BAN",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-1.525"
+      }
+     ]
+    },
+    {
+     "name": "Group C",
+     "rows": [
+      {
+       "team": "United Arab Emirates",
+       "abbr": "UAE",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "3.269"
+      },
+      {
+       "team": "Pakistan",
+       "abbr": "PAK",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "3.617"
+      },
+      {
+       "team": "India",
+       "abbr": "IND",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-7.854"
+      }
+     ]
+    },
+    {
+     "name": "Group D",
+     "rows": [
+      {
+       "team": "Afghanistan",
+       "abbr": "AFG",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "1.995"
       },
       {
        "team": "Oman",
        "abbr": "OMA",
        "p": "2",
-       "w": "0",
+       "w": "1",
        "l": "1",
-       "nr": "1",
-       "pts": "1",
-       "nrr": "-2.05"
+       "nr": "0",
+       "pts": "2",
+       "nrr": "2.77"
+      },
+      {
+       "team": "South Africa",
+       "abbr": "SA",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-4.5"
       }
      ]
     }

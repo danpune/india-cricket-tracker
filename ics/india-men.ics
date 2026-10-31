@@ -171,4 +171,12 @@ SUMMARY:New Zealand v India 🏏 2nd Test
 LOCATION:Hagley Oval  Christchurch
 DESCRIPTION:India tour of New Zealand 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
+BEGIN:VEVENT
+UID:espn_1559211@india-cricket-tracker
+DTSTART:20261101T014000Z
+DTEND:20261101T101000Z
+SUMMARY:Bangladesh v India 🏏 11th Place Play-off
+LOCATION:Mission Road Ground  Mong Kok  Hong Kong
+DESCRIPTION:Hong Kong International Cricket Sixes
+END:VEVENT
 END:VCALENDAR

@@ -1,13 +1,18 @@
 {
  "headlines": [
   {
-   "t": "'Hamstring has been declared fit' - Rodrigues eyes return to action after three months of rehab",
-   "u": "https://www.cricinfo.com/ci/content/story/1560774.html?ex_cid=OTC-RSS",
-   "d": "Fri, 30 Oct 2026"
+   "t": "Auqib Nabi added to India squad for first three ODIs against New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1560820.html?ex_cid=OTC-RSS",
+   "d": "Sat, 31 Oct 2026"
   },
   {
    "t": "Phillips' century, Duffy's four-for topple India",
    "u": "https://www.cricinfo.com/ci/content/story/1560744.html?ex_cid=OTC-RSS",
+   "d": "Sat, 31 Oct 2026"
+  },
+  {
+   "t": "'Hamstring has been declared fit' - Rodrigues eyes return to action after three months of rehab",
+   "u": "https://www.cricinfo.com/ci/content/story/1560774.html?ex_cid=OTC-RSS",
    "d": "Fri, 30 Oct 2026"
   },
   {
@@ -44,11 +49,6 @@
    "t": "Abhishek and Sooryavanshi power India to T20I series win in New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1560243.html?ex_cid=OTC-RSS",
    "d": "Tue, 27 Oct 2026"
-  },
-  {
-   "t": "Bhuvneshwar proud of comeback, but 'did not chase it'",
-   "u": "https://www.cricinfo.com/ci/content/story/1560282.html?ex_cid=OTC-RSS",
-   "d": "Tue, 27 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "BF_BNcW0Mhg",
+     "t": "Why is India consistently conceding 200+ totals in T20Is?"
+    },
     {
      "yt": "eUa6o0rVFak",
      "t": "Sooryavanshi's chances may be delayed, never denied: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "Z2SCi7LSbXY",
      "t": "Bhuvi needs to stick to his forte, attack the stumps: Dinesh Karthik"
-    },
-    {
-     "yt": "vQ8Jpz3yL5o",
-     "t": "Preview: New Zealand vs India, 4th T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-31T02:43:44Z"
+ "updated": "2026-10-31T08:56:49Z"
 }
