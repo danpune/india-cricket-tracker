@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:01:23Z",
+ "updated": "2026-10-31T19:14:18Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10019,7 +10019,27 @@
     }
    ],
    "result": "Starts at 09:40 local time",
-   "india": ""
+   "india": "",
+   "xi": {
+    "Bangladesh": [
+     "Abu Hider (c)",
+     "Ahrar Amin",
+     "Chowdhury Md Rizwan",
+     "Habibur Rahman Sohan",
+     "Mrittunjoy Chowdhury",
+     "Sabbir Rahman",
+     "Samiun Basir"
+    ],
+    "India": [
+     "Kulwant Khejroliya",
+     "T Natarajan",
+     "Krunal Pandya (c)",
+     "Nitish Rana",
+     "Shashank Singh",
+     "Rahul Tewatia",
+     "Rahul Tripathi"
+    ]
+   }
   },
   {
    "id": "espn_1539436",
@@ -11214,7 +11234,7 @@
       "no": "4",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "103"
+      "rating": "104"
      },
      {
       "no": "5",
@@ -11224,14 +11244,14 @@
      },
      {
       "no": "6",
-      "name": "Sri Lanka",
-      "team": "Sri Lanka",
-      "rating": "95"
+      "name": "Afghanistan",
+      "team": "Afghanistan",
+      "rating": "94"
      },
      {
       "no": "7",
-      "name": "Afghanistan",
-      "team": "Afghanistan",
+      "name": "Sri Lanka",
+      "team": "Sri Lanka",
       "rating": "94"
      },
      {
