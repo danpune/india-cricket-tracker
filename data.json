@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:39:58Z",
+ "updated": "2026-10-31T02:42:56Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9635,9 +9635,9 @@
    "seriesId": "8768",
    "matchNo": "Group C",
    "venue": "Mission Road Ground, Mong Kok, Hong Kong",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "India",
@@ -9652,26 +9652,26 @@
      "winner": false
     }
    ],
-   "result": "Starts at 10:35 local time",
+   "result": "U.A.E. won toss & fielded",
    "india": "",
    "xi": {
     "India": [
-     "Kulwant Khejroliya",
-     "T Natarajan",
-     "Krunal Pandya (c)",
      "Nitish Rana",
+     "Rahul Tripathi",
      "Shashank Singh",
      "Rahul Tewatia",
-     "Rahul Tripathi"
+     "Krunal Pandya (c)",
+     "T Natarajan",
+     "Kulwant Khejroliya"
     ],
     "United Arab Emirates": [
-     "Ansh Tandon",
      "Khalid Shah (c)",
-     "Maroof Merchant",
-     "Mohammed Faraazuddin",
-     "Muhammad Farooq",
+     "Ansh Tandon",
+     "Muhammad Zuhaib",
      "Zahid Ali",
-     "Muhammad Zuhaib"
+     "Muhammad Farooq",
+     "Mohammed Faraazuddin",
+     "Maroof Merchant"
     ]
    }
   },
@@ -9703,11 +9703,7 @@
     }
    ],
    "result": "",
-   "india": "",
-   "o": [
-    0.475,
-    0.525
-   ]
+   "india": ""
   },
   {
    "id": "espn_1539437",
