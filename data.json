@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:55:50Z",
+ "updated": "2026-10-31T15:01:23Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -11005,15 +11005,15 @@
     "team": [
      {
       "no": "1",
-      "name": "Australia",
-      "team": "Australia",
-      "rating": "126"
+      "name": "South Africa",
+      "team": "South Africa",
+      "rating": "124"
      },
      {
       "no": "2",
-      "name": "South Africa",
-      "team": "South Africa",
-      "rating": "119"
+      "name": "Australia",
+      "team": "Australia",
+      "rating": "122"
      },
      {
       "no": "3",
@@ -11064,7 +11064,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-10-13",
+    "updated": "2026-10-27",
     "bat": [
      {
       "no": "1",
@@ -12134,7 +12134,7 @@
       {
        "name": "United Arab Emirates",
        "abbr": "UAE",
-       "score": "88/6 (5.3/6 ov, target 142)",
+       "score": "88 (5.3/6 ov, target 142)",
        "winner": false
       }
      ]
@@ -12143,19 +12143,19 @@
      "id": "1559210",
      "date": "2026-10-31T08:05Z",
      "round": "2nd Semi-Final",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Afghanistan",
        "abbr": "AFG",
        "score": "121/4",
-       "winner": false
+       "winner": true
       },
       {
        "name": "Scotland",
        "abbr": "SCOT",
-       "score": "26/2 (2/6 ov, target 122)",
+       "score": "100/3 (6 ov, target 122)",
        "winner": false
       }
      ]
@@ -12168,14 +12168,14 @@
      "detail": "Scheduled",
      "teams": [
       {
-       "name": "United Arab Emirates",
-       "abbr": "UAE",
+       "name": "Scotland",
+       "abbr": "SCOT",
        "score": "",
        "winner": false
       },
       {
-       "name": "TBA",
-       "abbr": "TBA",
+       "name": "United Arab Emirates",
+       "abbr": "UAE",
        "score": "",
        "winner": false
       }
@@ -12231,14 +12231,14 @@
      "detail": "Scheduled",
      "teams": [
       {
-       "name": "Australia",
-       "abbr": "AUS",
+       "name": "Afghanistan",
+       "abbr": "AFG",
        "score": "",
        "winner": false
       },
       {
-       "name": "TBA",
-       "abbr": "TBA",
+       "name": "Australia",
+       "abbr": "AUS",
        "score": "",
        "winner": false
       }

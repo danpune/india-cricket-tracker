@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Australia lose top spot in WTC standings and Test ranking after Cape Town defeat",
+   "u": "https://www.cricinfo.com/ci/content/story/1560876.html?ex_cid=OTC-RSS",
+   "d": "Sat, 31 Oct 2026"
+  },
+  {
+   "t": "Rest finally in sight for (some of) India's T20I globetrotters",
+   "u": "https://www.cricinfo.com/ci/content/story/1560854.html?ex_cid=OTC-RSS",
+   "d": "Sat, 31 Oct 2026"
+  },
+  {
    "t": "Auqib Nabi added to India squad for first three ODIs against New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1560820.html?ex_cid=OTC-RSS",
    "d": "Sat, 31 Oct 2026"
@@ -39,16 +49,6 @@
    "t": "Zimbabwe bat first; India bring in Bhatia, Gaud and Deol",
    "u": "https://www.cricinfo.com/ci/content/story/1560402.html?ex_cid=OTC-RSS",
    "d": "Wed, 28 Oct 2026"
-  },
-  {
-   "t": "Abhishek 'pretty much manifested' his 35-ball century",
-   "u": "https://www.cricinfo.com/ci/content/story/1560257.html?ex_cid=OTC-RSS",
-   "d": "Tue, 27 Oct 2026"
-  },
-  {
-   "t": "Abhishek and Sooryavanshi power India to T20I series win in New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1560243.html?ex_cid=OTC-RSS",
-   "d": "Tue, 27 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "wU4UL4QkvpI",
+     "t": "Match Forecast: New Zealand vs India, 5th T20I"
+    },
+    {
+     "yt": "BYd2WtsRFzw",
+     "t": "Preview: New Zealand vs India, 5th T20I"
+    },
     {
      "yt": "BF_BNcW0Mhg",
      "t": "Why is India consistently conceding 200+ totals in T20Is?"
@@ -71,14 +79,6 @@
     {
      "yt": "uimeyUgQAMU",
      "t": "India crushed by NZ! Bowling CRISIS? | DK & Rayudu Review"
-    },
-    {
-     "yt": "4cKwqiCIpJM",
-     "t": "Match Forecast: New Zealand vs India, 4th T20I"
-    },
-    {
-     "yt": "Z2SCi7LSbXY",
-     "t": "Bhuvi needs to stick to his forte, attack the stumps: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-10-31T08:56:49Z"
+ "updated": "2026-10-31T15:02:49Z"
 }
