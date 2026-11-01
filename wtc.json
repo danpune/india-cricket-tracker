@@ -4,41 +4,29 @@
  "finalNote": "Top 2 play the final in 2027",
  "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
- "verified": "2026-10-31",
+ "verified": "2026-11-01",
  "teams": 9,
  "india": {
-  "rank": 5,
+  "rank": 4,
   "played": 11,
   "points": 68,
   "pct": 51.52
  },
  "top": [
   {
-   "abbr": "AUS",
-   "name": "Australia",
-   "pct": 75.0
-  },
-  {
    "abbr": "NZ",
    "name": "New Zealand",
    "pct": 72.22
+  },
+  {
+   "abbr": "SA",
+   "name": "South Africa",
+   "pct": 71.43
   }
  ],
  "table": [
   {
    "rank": 1,
-   "abbr": "AUS",
-   "name": "Australia",
-   "played": 12,
-   "won": 9,
-   "lost": 3,
-   "drawn": 0,
-   "deducted": 0,
-   "points": 108,
-   "pct": 75.0
-  },
-  {
-   "rank": 2,
    "abbr": "NZ",
    "name": "New Zealand",
    "played": 6,
@@ -50,31 +38,31 @@
    "pct": 72.22
   },
   {
-   "rank": 3,
+   "rank": 2,
    "abbr": "SA",
    "name": "South Africa",
-   "played": 6,
-   "won": 4,
+   "played": 7,
+   "won": 5,
    "lost": 2,
    "drawn": 0,
    "deducted": 0,
-   "points": 48,
-   "pct": 66.67
+   "points": 60,
+   "pct": 71.43
+  },
+  {
+   "rank": 3,
+   "abbr": "AUS",
+   "name": "Australia",
+   "played": 13,
+   "won": 9,
+   "lost": 4,
+   "drawn": 0,
+   "deducted": 0,
+   "points": 108,
+   "pct": 69.23
   },
   {
    "rank": 4,
-   "abbr": "BAN",
-   "name": "Bangladesh",
-   "played": 6,
-   "won": 3,
-   "lost": 2,
-   "drawn": 1,
-   "deducted": 0,
-   "points": 40,
-   "pct": 55.56
-  },
-  {
-   "rank": 5,
    "abbr": "IND",
    "name": "India",
    "played": 11,
@@ -84,6 +72,18 @@
    "deducted": 0,
    "points": 68,
    "pct": 51.52
+  },
+  {
+   "rank": 5,
+   "abbr": "BAN",
+   "name": "Bangladesh",
+   "played": 7,
+   "won": 3,
+   "lost": 3,
+   "drawn": 1,
+   "deducted": 0,
+   "points": 40,
+   "pct": 47.62
   },
   {
    "rank": 6,
@@ -113,13 +113,13 @@
    "rank": 8,
    "abbr": "WI",
    "name": "West Indies",
-   "played": 12,
-   "won": 2,
+   "played": 13,
+   "won": 3,
    "lost": 8,
    "drawn": 2,
    "deducted": 2,
-   "points": 30,
-   "pct": 20.83
+   "points": 42,
+   "pct": 26.92
   },
   {
    "rank": 9,
