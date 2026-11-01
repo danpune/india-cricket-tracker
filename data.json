@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T07:50:15Z",
+ "updated": "2026-11-01T14:41:05Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10192,25 +10192,26 @@
    "seriesId": "24469",
    "matchNo": "5th T20I",
    "venue": "Seddon Park, Hamilton",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "",
-     "winner": false
+     "score": "195/3 (18/20 ov, target 192)",
+     "winner": true
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "94/2 (9.2/20 ov)",
+     "score": "191/8",
      "winner": false
     }
    ],
-   "result": "New Zealand won toss & fielded",
-   "india": "",
+   "result": "New Zealand won by 7 wkts (12b rem)",
+   "india": "lost",
+   "seriesNote": "India won the 5-match series 3-2",
    "xi": {
     "New Zealand": [
      "Tim Seifert",
@@ -10231,18 +10232,18 @@
      "Ishan Kishan",
      "Shreyas Iyer (c)",
      "Tilak Varma",
-     "Nitish Kumar Reddy",
      "Naman Dhir",
-     "Arshdeep Singh",
+     "Nitish Kumar Reddy",
+     "Bhuvneshwar Kumar",
      "Prince Yadav",
-     "Varun Chakravarthy",
-     "Bhuvneshwar Kumar"
+     "Arshdeep Singh",
+     "Varun Chakravarthy"
     ]
    },
    "innings": [
     {
      "t": "India",
-     "total": "90/2 (9.1 ov)",
+     "total": "191/8 (20.0 ov)",
      "bat": [
       [
        "Sanju Samson",
@@ -10258,62 +10259,174 @@
       ],
       [
        "Ishan Kishan",
-       51,
-       29,
-       "not out"
+       61,
+       32,
+       "c"
       ],
       [
        "Shreyas Iyer",
-       34,
-       15,
+       50,
+       23,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       6,
+       8,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       33,
+       23,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       22,
+       17,
+       "c"
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       6,
+       4,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       0,
+       1,
+       "not out"
+      ],
+      [
+       "Arshdeep Singh",
+       1,
+       1,
        "not out"
       ]
      ],
      "dnb": [
-      "Tilak Varma",
-      "Nitish Kumar Reddy",
-      "Naman Dhir",
-      "Arshdeep Singh",
-      "Prince Yadav",
-      "Varun Chakravarthy",
-      "Bhuvneshwar Kumar"
+      "Varun Chakravarthy"
      ],
      "bowl": [
       [
        "Michael Bracewell",
-       "1.2",
-       21,
+       "2",
+       38,
        0
       ],
       [
        "Mitchell Santner",
-       "2",
-       23,
+       "4",
+       39,
        0
       ],
       [
        "Nathan Smith",
-       "1",
-       16,
-       0
-      ],
-      [
-       "Adam Milne",
-       "2",
-       4,
+       "3",
+       28,
        2
       ],
       [
+       "Adam Milne",
+       "4",
+       19,
+       4
+      ],
+      [
        "Jacob Duffy",
-       "2",
-       16,
+       "3",
+       27,
        0
       ],
       [
        "Blair Tickner",
+       "4",
+       38,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "New Zealand",
+     "total": "195/3 (18.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       93,
+       50,
+       "b"
+      ],
+      [
+       "Finn Allen",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       29,
+       16,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       65,
+       38,
+       "not out"
+      ],
+      [
+       "Bevon Jacobs",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Michael Bracewell",
+      "Mitchell Santner",
+      "Nathan Smith",
+      "Adam Milne",
+      "Jacob Duffy",
+      "Blair Tickner"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
        "1",
        13,
        0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "2",
+       19,
+       1
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       "4",
+       41,
+       0
+      ],
+      [
+       "Prince Yadav",
+       "3",
+       35,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Varun Chakravarthy",
+       "4",
+       45,
+       1
       ]
      ]
     }
@@ -11659,7 +11772,7 @@
       "no": "2",
       "name": "India",
       "team": "India",
-      "rating": "268"
+      "rating": "267"
      },
      {
       "no": "3",
@@ -11671,7 +11784,7 @@
       "no": "4",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "247"
+      "rating": "248"
      },
      {
       "no": "5",
@@ -12227,6 +12340,40 @@
    "more": 15,
    "matches": [
     {
+     "date": "2026-11-02T03:00Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Barsapara Cricket Stadium, Guwahati",
+     "teams": [
+      {
+       "name": "Assam",
+       "score": ""
+      },
+      {
+       "name": "Karnataka",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02T03:15Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Maharaja Bir Bikram College Stadium, Agartala",
+     "teams": [
+      {
+       "name": "Tripura",
+       "score": ""
+      },
+      {
+       "name": "Saurashtra",
+       "score": ""
+      }
+     ]
+    },
+    {
      "date": "2026-11-02T03:30Z",
      "desc": "Elite, Group C",
      "state": "pre",
@@ -12256,40 +12403,6 @@
       },
       {
        "name": "Jharkhand",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T04:00Z",
-     "desc": "Elite, Group B",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Barsapara Cricket Stadium, Guwahati",
-     "teams": [
-      {
-       "name": "Assam",
-       "score": ""
-      },
-      {
-       "name": "Karnataka",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T04:00Z",
-     "desc": "Elite, Group D",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Sector 16 Stadium, Chandigarh",
-     "teams": [
-      {
-       "name": "Chandigarh",
-       "score": ""
-      },
-      {
-       "name": "Tamil Nadu",
        "score": ""
       }
      ]
@@ -12459,7 +12572,7 @@
       {
        "name": "England",
        "abbr": "ENG",
-       "score": "95/6",
+       "score": "95",
        "winner": false
       },
       {
@@ -12495,19 +12608,19 @@
      "id": "1559216",
      "date": "2026-11-01T07:10Z",
      "round": "Final",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Afghanistan",
        "abbr": "AFG",
-       "score": "",
-       "winner": false
+       "score": "119/2 (5.1/6 ov, target 116)",
+       "winner": true
       },
       {
        "name": "Australia",
        "abbr": "AUS",
-       "score": "1/0 (0.3/6 ov)",
+       "score": "115/5",
        "winner": false
       }
      ]

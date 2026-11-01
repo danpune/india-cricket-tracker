@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Gambhir hails India's ruthlessness in T20Is despite little preparation time in NZ",
+   "u": "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
+   "t": "Seifert, Phillips, Milne set up NZ win as India take series 3-2",
+   "u": "https://www.cricinfo.com/ci/content/story/1560963.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
    "t": "New Zealand field in final T20I; Bhuvneshwar and Varun in for India",
    "u": "https://www.cricinfo.com/ci/content/story/1560931.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "'Hamstring has been declared fit' - Rodrigues eyes return to action after three months of rehab",
    "u": "https://www.cricinfo.com/ci/content/story/1560774.html?ex_cid=OTC-RSS",
    "d": "Fri, 30 Oct 2026"
-  },
-  {
-   "t": "Sehwag, Dravid in India squad for Under-19 Asia Cup; Raichandani to lead",
-   "u": "https://www.cricinfo.com/ci/content/story/1560735.html?ex_cid=OTC-RSS",
-   "d": "Fri, 30 Oct 2026"
-  },
-  {
-   "t": "Kishan, Mayank in as India bowl; Smith back for New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1560688.html?ex_cid=OTC-RSS",
-   "d": "Fri, 30 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "MEbRSwUJ0Aw",
+     "t": "India need to have clear messaging with Sooryavanshi: Kartik"
+    },
+    {
+     "yt": "NeAcHwxk7mM",
+     "t": "India win series, but same bowling woes? | Rayudu & Karthik Review"
+    },
     {
      "yt": "wU4UL4QkvpI",
      "t": "Match Forecast: New Zealand vs India, 5th T20I"
@@ -71,14 +79,6 @@
     {
      "yt": "eUa6o0rVFak",
      "t": "Sooryavanshi's chances may be delayed, never denied: Dinesh Karthik"
-    },
-    {
-     "yt": "9gg8xnCM5cY",
-     "t": "Why can\u2019t India stop leaking runs? What needs to change?"
-    },
-    {
-     "yt": "uimeyUgQAMU",
-     "t": "India crushed by NZ! Bowling CRISIS? | DK & Rayudu Review"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-01T07:51:55Z"
+ "updated": "2026-11-01T14:42:14Z"
 }

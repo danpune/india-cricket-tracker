@@ -39368,6 +39368,219 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539436",
+   "date": "2026-11-01",
+   "gender": "men",
+   "format": "T20I",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "5th T20I",
+   "venue": "Seddon Park, Hamilton",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "195/3 (18/20 ov, target 192)"
+    },
+    {
+     "name": "India",
+     "score": "191/8"
+    }
+   ],
+   "result": "New Zealand won by 7 wkts (12b rem)",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "India",
+     "total": "191/8 (20.0 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       4,
+       10,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       61,
+       32,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       50,
+       23,
+       "c"
+      ],
+      [
+       "Tilak Varma",
+       6,
+       8,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       33,
+       23,
+       "c"
+      ],
+      [
+       "Nitish Kumar Reddy",
+       22,
+       17,
+       "c"
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       6,
+       4,
+       "c"
+      ],
+      [
+       "Prince Yadav",
+       0,
+       1,
+       "not out"
+      ],
+      [
+       "Arshdeep Singh",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Varun Chakravarthy"
+     ],
+     "bowl": [
+      [
+       "Michael Bracewell",
+       "2",
+       38,
+       0
+      ],
+      [
+       "Mitchell Santner",
+       "4",
+       39,
+       0
+      ],
+      [
+       "Nathan Smith",
+       "3",
+       28,
+       2
+      ],
+      [
+       "Adam Milne",
+       "4",
+       19,
+       4
+      ],
+      [
+       "Jacob Duffy",
+       "3",
+       27,
+       0
+      ],
+      [
+       "Blair Tickner",
+       "4",
+       38,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "New Zealand",
+     "total": "195/3 (18.0 ov)",
+     "bat": [
+      [
+       "Tim Seifert",
+       93,
+       50,
+       "b"
+      ],
+      [
+       "Finn Allen",
+       2,
+       3,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       29,
+       16,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       65,
+       38,
+       "not out"
+      ],
+      [
+       "Bevon Jacobs",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Michael Bracewell",
+      "Mitchell Santner",
+      "Nathan Smith",
+      "Adam Milne",
+      "Jacob Duffy",
+      "Blair Tickner"
+     ],
+     "bowl": [
+      [
+       "Abhishek Sharma",
+       "1",
+       13,
+       0
+      ],
+      [
+       "Nitish Kumar Reddy",
+       "2",
+       19,
+       1
+      ],
+      [
+       "Bhuvneshwar Kumar",
+       "4",
+       41,
+       0
+      ],
+      [
+       "Prince Yadav",
+       "3",
+       35,
+       0
+      ],
+      [
+       "Arshdeep Singh",
+       "4",
+       40,
+       1
+      ],
+      [
+       "Varun Chakravarthy",
+       "4",
+       45,
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
