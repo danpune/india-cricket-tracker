@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:41:05Z",
+ "updated": "2026-11-01T19:13:20Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10211,35 +10211,6 @@
    ],
    "result": "New Zealand won by 7 wkts (12b rem)",
    "india": "lost",
-   "seriesNote": "India won the 5-match series 3-2",
-   "xi": {
-    "New Zealand": [
-     "Tim Seifert",
-     "Finn Allen",
-     "Daryl Mitchell",
-     "Glenn Phillips",
-     "Bevon Jacobs",
-     "Michael Bracewell",
-     "Mitchell Santner (c)",
-     "Nathan Smith",
-     "Adam Milne",
-     "Jacob Duffy",
-     "Blair Tickner"
-    ],
-    "India": [
-     "Sanju Samson",
-     "Abhishek Sharma",
-     "Ishan Kishan",
-     "Shreyas Iyer (c)",
-     "Tilak Varma",
-     "Naman Dhir",
-     "Nitish Kumar Reddy",
-     "Bhuvneshwar Kumar",
-     "Prince Yadav",
-     "Arshdeep Singh",
-     "Varun Chakravarthy"
-    ]
-   },
    "innings": [
     {
      "t": "India",
@@ -11820,7 +11791,7 @@
       "no": "10",
       "name": "Afghanistan",
       "team": "Afghanistan",
-      "rating": "219"
+      "rating": "220"
      }
     ],
     "updated": "2026-10-27",

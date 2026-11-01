@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Boyle and Foxcroft make it a long, hard day for India A bowlers",
+   "u": "https://www.cricinfo.com/ci/content/story/1560923.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
    "t": "Gambhir hails India's ruthlessness in T20Is despite little preparation time in NZ",
    "u": "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
@@ -13,11 +18,6 @@
   {
    "t": "New Zealand field in final T20I; Bhuvneshwar and Varun in for India",
    "u": "https://www.cricinfo.com/ci/content/story/1560931.html?ex_cid=OTC-RSS",
-   "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "Boyle and Foxcroft make it a long, hard day for India A bowlers",
-   "u": "https://www.cricinfo.com/ci/content/story/1560923.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
   },
   {
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-01T14:42:14Z"
+ "updated": "2026-11-01T19:14:26Z"
 }
