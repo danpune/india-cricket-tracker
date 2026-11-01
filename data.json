@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:25:42Z",
+ "updated": "2026-11-01T07:50:15Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10001,45 +10001,186 @@
    "seriesId": "8768",
    "matchNo": "11th Place Play-off",
    "venue": "Mission Road Ground, Mong Kok, Hong Kong",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "Bangladesh",
      "abbr": "BAN",
-     "score": "",
+     "score": "116/5",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "117/1 (6 ov, target 117)",
+     "winner": true
     }
    ],
-   "result": "Starts at 09:40 local time",
-   "india": "",
+   "result": "India won by 5 wkts (0b rem)",
+   "india": "won",
    "xi": {
     "Bangladesh": [
-     "Abu Hider (c)",
-     "Ahrar Amin",
-     "Chowdhury Md Rizwan",
      "Habibur Rahman Sohan",
-     "Mrittunjoy Chowdhury",
      "Sabbir Rahman",
-     "Samiun Basir"
+     "Mrittunjoy Chowdhury",
+     "Abu Hider (c)",
+     "Chowdhury Md Rizwan",
+     "Ahrar Amin"
     ],
     "India": [
-     "Kulwant Khejroliya",
-     "T Natarajan",
-     "Krunal Pandya (c)",
-     "Nitish Rana",
      "Shashank Singh",
+     "Rahul Tripathi",
+     "Nitish Rana",
      "Rahul Tewatia",
-     "Rahul Tripathi"
+     "Krunal Pandya (c)",
+     "Kulwant Khejroliya"
     ]
-   }
+   },
+   "innings": [
+    {
+     "t": "Bangladesh",
+     "total": "116/5 (6.0 ov)",
+     "bat": [
+      [
+       "Habibur Rahman Sohan",
+       18,
+       6,
+       "c"
+      ],
+      [
+       "Sabbir Rahman",
+       13,
+       4,
+       "c"
+      ],
+      [
+       "Mrittunjoy Chowdhury",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Abu Hider",
+       62,
+       18,
+       "not out"
+      ],
+      [
+       "Chowdhury Md Rizwan",
+       12,
+       5,
+       "b"
+      ],
+      [
+       "Ahrar Amin",
+       2,
+       3,
+       "retired out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Rahul Tripathi",
+       "1",
+       26,
+       1
+      ],
+      [
+       "Nitish Rana",
+       "1",
+       11,
+       0
+      ],
+      [
+       "Rahul Tewatia",
+       "1",
+       28,
+       0
+      ],
+      [
+       "Krunal Pandya",
+       "2",
+       25,
+       3
+      ],
+      [
+       "Kulwant Khejroliya",
+       "1",
+       24,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "117/1 (6.0 ov)",
+     "bat": [
+      [
+       "Shashank Singh",
+       50,
+       15,
+       "retired not out"
+      ],
+      [
+       "Rahul Tripathi",
+       32,
+       12,
+       "b"
+      ],
+      [
+       "Nitish Rana",
+       10,
+       4,
+       "not out"
+      ],
+      [
+       "Rahul Tewatia",
+       16,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Krunal Pandya",
+      "Kulwant Khejroliya"
+     ],
+     "bowl": [
+      [
+       "Habibur Rahman Sohan",
+       "1",
+       23,
+       0
+      ],
+      [
+       "Mrittunjoy Chowdhury",
+       "2",
+       35,
+       0
+      ],
+      [
+       "Abu Hider",
+       "1",
+       16,
+       0
+      ],
+      [
+       "Chowdhury Md Rizwan",
+       "1",
+       18,
+       0
+      ],
+      [
+       "Ahrar Amin",
+       "1",
+       20,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1539436",
@@ -10051,9 +10192,9 @@
    "seriesId": "24469",
    "matchNo": "5th T20I",
    "venue": "Seddon Park, Hamilton",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "New Zealand",
@@ -10064,12 +10205,119 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "94/2 (9.2/20 ov)",
      "winner": false
     }
    ],
-   "result": "Starts at 20:00 local time",
-   "india": ""
+   "result": "New Zealand won toss & fielded",
+   "india": "",
+   "xi": {
+    "New Zealand": [
+     "Tim Seifert",
+     "Finn Allen",
+     "Daryl Mitchell",
+     "Glenn Phillips",
+     "Bevon Jacobs",
+     "Michael Bracewell",
+     "Mitchell Santner (c)",
+     "Nathan Smith",
+     "Adam Milne",
+     "Jacob Duffy",
+     "Blair Tickner"
+    ],
+    "India": [
+     "Sanju Samson",
+     "Abhishek Sharma",
+     "Ishan Kishan",
+     "Shreyas Iyer (c)",
+     "Tilak Varma",
+     "Nitish Kumar Reddy",
+     "Naman Dhir",
+     "Arshdeep Singh",
+     "Prince Yadav",
+     "Varun Chakravarthy",
+     "Bhuvneshwar Kumar"
+    ]
+   },
+   "innings": [
+    {
+     "t": "India",
+     "total": "90/2 (9.1 ov)",
+     "bat": [
+      [
+       "Sanju Samson",
+       4,
+       10,
+       "c"
+      ],
+      [
+       "Abhishek Sharma",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       51,
+       29,
+       "not out"
+      ],
+      [
+       "Shreyas Iyer",
+       34,
+       15,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Tilak Varma",
+      "Nitish Kumar Reddy",
+      "Naman Dhir",
+      "Arshdeep Singh",
+      "Prince Yadav",
+      "Varun Chakravarthy",
+      "Bhuvneshwar Kumar"
+     ],
+     "bowl": [
+      [
+       "Michael Bracewell",
+       "1.2",
+       21,
+       0
+      ],
+      [
+       "Mitchell Santner",
+       "2",
+       23,
+       0
+      ],
+      [
+       "Nathan Smith",
+       "1",
+       16,
+       0
+      ],
+      [
+       "Adam Milne",
+       "2",
+       4,
+       2
+      ],
+      [
+       "Jacob Duffy",
+       "2",
+       16,
+       0
+      ],
+      [
+       "Blair Tickner",
+       "1",
+       13,
+       0
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1539437",
@@ -12184,19 +12432,19 @@
      "id": "1559213",
      "date": "2026-11-01T03:30Z",
      "round": "3rd Place Play-off",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Scotland",
        "abbr": "SCOT",
-       "score": "",
-       "winner": false
+       "score": "135/1",
+       "winner": true
       },
       {
        "name": "United Arab Emirates",
        "abbr": "UAE",
-       "score": "",
+       "score": "90/3 (6 ov, target 136)",
        "winner": false
       }
      ]
@@ -12205,20 +12453,20 @@
      "id": "1559214",
      "date": "2026-11-01T05:20Z",
      "round": "Bowl, Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "England",
        "abbr": "ENG",
-       "score": "",
+       "score": "95/6",
        "winner": false
       },
       {
        "name": "South Africa",
        "abbr": "SA",
-       "score": "",
-       "winner": false
+       "score": "101/1 (5.1/6 ov, target 96)",
+       "winner": true
       }
      ]
     },
@@ -12226,20 +12474,20 @@
      "id": "1559215",
      "date": "2026-11-01T06:15Z",
      "round": "Plate, Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "post",
+     "detail": "Result",
      "teams": [
       {
        "name": "Oman",
        "abbr": "OMA",
-       "score": "",
+       "score": "136/4 (6 ov, target 155)",
        "winner": false
       },
       {
        "name": "Pakistan",
        "abbr": "PAK",
-       "score": "",
-       "winner": false
+       "score": "154/4",
+       "winner": true
       }
      ]
     },
@@ -12247,8 +12495,8 @@
      "id": "1559216",
      "date": "2026-11-01T07:10Z",
      "round": "Final",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "teams": [
       {
        "name": "Afghanistan",
@@ -12259,7 +12507,7 @@
       {
        "name": "Australia",
        "abbr": "AUS",
-       "score": "",
+       "score": "1/0 (0.3/6 ov)",
        "winner": false
       }
      ]

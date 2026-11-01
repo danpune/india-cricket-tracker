@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "New Zealand field in final T20I; Bhuvneshwar and Varun in for India",
+   "u": "https://www.cricinfo.com/ci/content/story/1560931.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
+   "t": "Boyle and Foxcroft make it a long, hard day for India A bowlers",
+   "u": "https://www.cricinfo.com/ci/content/story/1560923.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
+   "t": "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
+   "u": "https://www.cricinfo.com/ci/content/story/1560918.html?ex_cid=OTC-RSS",
+   "d": "Sun, 01 Nov 2026"
+  },
+  {
    "t": "Australia lose top spot in WTC standings and Test ranking after Cape Town defeat",
    "u": "https://www.cricinfo.com/ci/content/story/1560876.html?ex_cid=OTC-RSS",
    "d": "Sat, 31 Oct 2026"
@@ -34,21 +49,6 @@
    "t": "Kishan, Mayank in as India bowl; Smith back for New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1560688.html?ex_cid=OTC-RSS",
    "d": "Fri, 30 Oct 2026"
-  },
-  {
-   "t": "Prasidh to miss New Zealand ODIs as he recovers from hamstring injury",
-   "u": "https://www.cricinfo.com/ci/content/story/1560660.html?ex_cid=OTC-RSS",
-   "d": "Fri, 30 Oct 2026"
-  },
-  {
-   "t": "Jansen becomes top-ranked Test bowler, Abhishek takes back crown for T20I batters",
-   "u": "https://www.cricinfo.com/ci/content/story/1560404.html?ex_cid=OTC-RSS",
-   "d": "Wed, 28 Oct 2026"
-  },
-  {
-   "t": "Zimbabwe bat first; India bring in Bhatia, Gaud and Deol",
-   "u": "https://www.cricinfo.com/ci/content/story/1560402.html?ex_cid=OTC-RSS",
-   "d": "Wed, 28 Oct 2026"
   }
  ],
  "talk": [
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-01T01:26:58Z"
+ "updated": "2026-11-01T07:51:55Z"
 }
