@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Lower-order runs put New Zealand A in front despite Siraj and Mukesh hauls",
+   "u": "https://www.cricinfo.com/ci/content/story/1561079.html?ex_cid=OTC-RSS",
+   "d": "Mon, 02 Nov 2026"
+  },
+  {
    "t": "Boyle and Foxcroft make it a long, hard day for India A bowlers",
    "u": "https://www.cricinfo.com/ci/content/story/1560923.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Phillips' century, Duffy's four-for topple India",
    "u": "https://www.cricinfo.com/ci/content/story/1560744.html?ex_cid=OTC-RSS",
    "d": "Sat, 31 Oct 2026"
-  },
-  {
-   "t": "'Hamstring has been declared fit' - Rodrigues eyes return to action after three months of rehab",
-   "u": "https://www.cricinfo.com/ci/content/story/1560774.html?ex_cid=OTC-RSS",
-   "d": "Fri, 30 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "uKZwz1WAT7M",
+     "t": "Shreyas following Rohit\u2019s 'man-management' template: Murali Kartik"
+    },
     {
      "yt": "MEbRSwUJ0Aw",
      "t": "India need to have clear messaging with Sooryavanshi: Kartik"
@@ -75,10 +79,6 @@
     {
      "yt": "BF_BNcW0Mhg",
      "t": "Why is India consistently conceding 200+ totals in T20Is?"
-    },
-    {
-     "yt": "eUa6o0rVFak",
-     "t": "Sooryavanshi's chances may be delayed, never denied: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-02T02:05:13Z"
+ "updated": "2026-11-02T09:23:05Z"
 }
