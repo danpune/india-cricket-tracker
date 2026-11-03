@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Sarfaraz Khan: 'Everyday I ask myself why I should work harder'",
+   "u": "https://www.cricinfo.com/ci/content/story/1561151.html?ex_cid=OTC-RSS",
+   "d": "Mon, 02 Nov 2026"
+  },
+  {
+   "t": "Pant to undergo fitness assessment before leaving for New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1561095.html?ex_cid=OTC-RSS",
+   "d": "Mon, 02 Nov 2026"
+  },
+  {
    "t": "Lower-order runs put New Zealand A in front despite Siraj and Mukesh hauls",
    "u": "https://www.cricinfo.com/ci/content/story/1561079.html?ex_cid=OTC-RSS",
    "d": "Mon, 02 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "Rest finally in sight for (some of) India's T20I globetrotters",
    "u": "https://www.cricinfo.com/ci/content/story/1560854.html?ex_cid=OTC-RSS",
    "d": "Sat, 31 Oct 2026"
-  },
-  {
-   "t": "Auqib Nabi added to India squad for first three ODIs against New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1560820.html?ex_cid=OTC-RSS",
-   "d": "Sat, 31 Oct 2026"
-  },
-  {
-   "t": "Phillips' century, Duffy's four-for topple India",
-   "u": "https://www.cricinfo.com/ci/content/story/1560744.html?ex_cid=OTC-RSS",
-   "d": "Sat, 31 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "dvMHvqWLg5s",
+     "t": "Put Rohit-Kohli in right mental space: Rayudu\u2019s message to Team India"
+    },
+    {
+     "yt": "XB_wE3gJmas",
+     "t": "Secret to Dhoni's Helicopter shot! Rayudu, Kartik spill the beans"
+    },
     {
      "yt": "uKZwz1WAT7M",
      "t": "Shreyas following Rohit\u2019s 'man-management' template: Murali Kartik"
@@ -71,14 +79,6 @@
     {
      "yt": "wU4UL4QkvpI",
      "t": "Match Forecast: New Zealand vs India, 5th T20I"
-    },
-    {
-     "yt": "BYd2WtsRFzw",
-     "t": "Preview: New Zealand vs India, 5th T20I"
-    },
-    {
-     "yt": "BF_BNcW0Mhg",
-     "t": "Why is India consistently conceding 200+ totals in T20Is?"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "cwfUDBwbus0",
+     "t": "Harsha Bhogle on the New Zealand tour so far"
+    },
     {
      "yt": "wQwQo_pXvOM",
      "t": "Part 2 - Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
@@ -105,13 +109,9 @@
     {
      "yt": "OAW5o4gsmSs",
      "t": "Harsh Bhogle on India\u2019s Asian Games victory"
-    },
-    {
-     "yt": "DrXxS9itihI",
-     "t": "Harsha Bhogle looks ahead at India's GOLD prospects"
     }
    ]
   }
  ],
- "updated": "2026-11-02T09:23:05Z"
+ "updated": "2026-11-03T01:47:52Z"
 }
