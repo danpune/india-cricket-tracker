@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:46:24Z",
+ "updated": "2026-11-03T08:37:41Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -1184,7 +1184,262 @@
     }
    ],
    "result": "ENG Women won by 5 runs",
-   "india": "lost"
+   "india": "lost",
+   "xi": {
+    "England Women": [
+     "Amy Jones",
+     "Danni Wyatt-Hodge",
+     "Nat Sciver-Brunt (c)",
+     "Alice Capsey",
+     "Freya Kemp",
+     "Dani Gibson",
+     "Charlie Dean",
+     "Issy Wong",
+     "Lauren Filer",
+     "Tilly Corteen-Coleman",
+     "Sophie Ecclestone",
+     "Lauren Bell",
+     "Linsey Smith",
+     "Heather Knight",
+     "Sophia Dunkley"
+    ],
+    "India Women": [
+     "Smriti Mandhana",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Harmanpreet Kaur (c)",
+     "Bharti Fulmali",
+     "Richa Ghosh",
+     "Radha Yadav",
+     "Shreyanka Patil",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Arundhati Reddy",
+     "Deepti Sharma",
+     "Jemimah Rodrigues",
+     "Nandani Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "England Women",
+     "total": "171/6 (20.0 ov)",
+     "bat": [
+      [
+       "Amy Jones",
+       64,
+       45,
+       "b"
+      ],
+      [
+       "Danni Wyatt-Hodge",
+       3,
+       6,
+       "c"
+      ],
+      [
+       "Nat Sciver-Brunt",
+       57,
+       45,
+       "c"
+      ],
+      [
+       "Alice Capsey",
+       2,
+       4,
+       "c"
+      ],
+      [
+       "Freya Kemp",
+       7,
+       6,
+       "c"
+      ],
+      [
+       "Dani Gibson",
+       30,
+       12,
+       "not out"
+      ],
+      [
+       "Charlie Dean",
+       0,
+       1,
+       "st"
+      ],
+      [
+       "Issy Wong",
+       1,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Lauren Filer",
+      "Tilly Corteen-Coleman",
+      "Sophie Ecclestone",
+      "Lauren Bell",
+      "Linsey Smith",
+      "Heather Knight",
+      "Sophia Dunkley"
+     ],
+     "bowl": [
+      [
+       "Shafali Verma",
+       "2",
+       18,
+       1
+      ],
+      [
+       "Radha Yadav",
+       "4",
+       38,
+       1
+      ],
+      [
+       "Shreyanka Patil",
+       "4",
+       29,
+       2
+      ],
+      [
+       "Kranti Gaud",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Shree Charani",
+       "3",
+       24,
+       1
+      ],
+      [
+       "Renuka Singh",
+       "4",
+       44,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "166 (19.5 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       13,
+       6,
+       "b"
+      ],
+      [
+       "Yastika Bhatia",
+       15,
+       17,
+       "c"
+      ],
+      [
+       "Harmanpreet Kaur",
+       17,
+       18,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       18,
+       17,
+       "c"
+      ],
+      [
+       "Richa Ghosh",
+       68,
+       36,
+       "st"
+      ],
+      [
+       "Radha Yadav",
+       16,
+       9,
+       "c"
+      ],
+      [
+       "Shreyanka Patil",
+       1,
+       5,
+       "c"
+      ],
+      [
+       "Kranti Gaud",
+       1,
+       2,
+       "c"
+      ],
+      [
+       "Shree Charani",
+       6,
+       3,
+       "not out"
+      ],
+      [
+       "Renuka Singh",
+       0,
+       1,
+       "c"
+      ]
+     ],
+     "dnb": [
+      "Arundhati Reddy",
+      "Deepti Sharma",
+      "Jemimah Rodrigues",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Dani Gibson",
+       "2",
+       17,
+       2
+      ],
+      [
+       "Charlie Dean",
+       "3",
+       16,
+       2
+      ],
+      [
+       "Issy Wong",
+       "4",
+       42,
+       1
+      ],
+      [
+       "Lauren Filer",
+       "3",
+       27,
+       0
+      ],
+      [
+       "Tilly Corteen-Coleman",
+       "4",
+       22,
+       2
+      ],
+      [
+       "Linsey Smith",
+       "3.5",
+       42,
+       3
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1527153",
@@ -9701,8 +9956,12 @@
      "winner": false
     }
    ],
-   "result": "",
-   "india": ""
+   "result": "Starts at 15:00 local time",
+   "india": "",
+   "o": [
+    0.5,
+    0.5
+   ]
   },
   {
    "id": "espn_1539438",
@@ -11256,7 +11515,7 @@
       "rating": "45"
      }
     ],
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "bat": [
      {
       "no": "1",
@@ -11366,7 +11625,7 @@
       "no": "8",
       "name": "Deepti Sharma",
       "team": "India",
-      "rating": "627"
+      "rating": "638"
      },
      {
       "no": "9",
@@ -11594,7 +11853,7 @@
       },
       {
        "name": "Karnataka",
-       "score": "180/2 (36 ov)"
+       "score": "397/4 (94 ov)"
       }
      ]
     },
@@ -11607,11 +11866,11 @@
      "teams": [
       {
        "name": "Meghalaya",
-       "score": ""
+       "score": "144"
       },
       {
        "name": "Nagaland",
-       "score": "244/8 (67 ov)"
+       "score": "254 & 4/0 (1 ov)"
       }
      ]
     },
@@ -11624,11 +11883,11 @@
      "teams": [
       {
        "name": "Tripura",
-       "score": "219/7 (74.3 ov)"
+       "score": "268"
       },
       {
        "name": "Saurashtra",
-       "score": ""
+       "score": "106/7 (36.5 ov)"
       }
      ]
     },
@@ -11645,7 +11904,7 @@
       },
       {
        "name": "Maharashtra",
-       "score": "21/2 (8 ov)"
+       "score": "169/9 (63 ov)"
       }
      ]
     }

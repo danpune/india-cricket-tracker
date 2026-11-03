@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "India, New Zealand switch to World Cup prep at bouncy Eden Park",
+   "u": "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
+   "d": "Tue, 03 Nov 2026"
+  },
+  {
+   "t": "Gill would have preferred ODIs before T20Is on New Zealand tour",
+   "u": "https://www.cricinfo.com/ci/content/story/1561177.html?ex_cid=OTC-RSS",
+   "d": "Tue, 03 Nov 2026"
+  },
+  {
    "t": "Sarfaraz Khan: 'Everyday I ask myself why I should work harder'",
    "u": "https://www.cricinfo.com/ci/content/story/1561151.html?ex_cid=OTC-RSS",
    "d": "Mon, 02 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
    "u": "https://www.cricinfo.com/ci/content/story/1560918.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "Australia lose top spot in WTC standings and Test ranking after Cape Town defeat",
-   "u": "https://www.cricinfo.com/ci/content/story/1560876.html?ex_cid=OTC-RSS",
-   "d": "Sat, 31 Oct 2026"
-  },
-  {
-   "t": "Rest finally in sight for (some of) India's T20I globetrotters",
-   "u": "https://www.cricinfo.com/ci/content/story/1560854.html?ex_cid=OTC-RSS",
-   "d": "Sat, 31 Oct 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "UgHXT6nXx5Q",
+     "t": "Hardik Pandya & his fitness is a big issue for India: Kartik"
+    },
     {
      "yt": "dvMHvqWLg5s",
      "t": "Put Rohit-Kohli in right mental space: Rayudu\u2019s message to Team India"
@@ -75,10 +79,6 @@
     {
      "yt": "NeAcHwxk7mM",
      "t": "India win series, but same bowling woes? | Rayudu & Karthik Review"
-    },
-    {
-     "yt": "wU4UL4QkvpI",
-     "t": "Match Forecast: New Zealand vs India, 5th T20I"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-03T01:47:52Z"
+ "updated": "2026-11-03T08:38:50Z"
 }
