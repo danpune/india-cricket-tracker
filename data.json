@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:54:35Z",
+ "updated": "2026-11-04T01:51:30Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9941,7 +9941,7 @@
    "venue": "Eden Park, Auckland",
    "state": "pre",
    "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "statusDesc": "Match delayed by a wet outfield",
    "teams": [
     {
      "name": "New Zealand",
