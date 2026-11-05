@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:40:42Z",
+ "updated": "2026-11-05T22:54:29Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -12021,81 +12021,13 @@
  },
  "domestic": {
   "men": {
-   "name": "Ranji Trophy",
-   "leagueId": "8050",
-   "from": "2026-10-11",
-   "to": "2027-03-03",
-   "more": 11,
-   "matches": [
-    {
-     "date": "2026-11-02T03:00Z",
-     "desc": "Plate Group",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Meghalaya Cricket Association Cricket Ground, Shillong",
-     "teams": [
-      {
-       "name": "Meghalaya",
-       "score": "144 & 172 (57.2 ov, target 295)"
-      },
-      {
-       "name": "Nagaland",
-       "score": "254 & 184"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T03:15Z",
-     "desc": "Elite, Group B",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Maharaja Bir Bikram College Stadium, Agartala",
-     "teams": [
-      {
-       "name": "Tripura",
-       "score": "268 & 191"
-      },
-      {
-       "name": "Saurashtra",
-       "score": "118 & 208 (77.3 ov, target 342)"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T03:30Z",
-     "desc": "Elite, Group C",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Eden Gardens, Kolkata",
-     "teams": [
-      {
-       "name": "Bengal",
-       "score": "143 & 186"
-      },
-      {
-       "name": "Maharashtra",
-       "score": "218 & 114/0 (19.4 ov, target 112)"
-      }
-     ]
-    },
-    {
-     "date": "2026-11-02T03:30Z",
-     "desc": "Elite, Group C",
-     "state": "post",
-     "detail": "Final",
-     "venue": "KIIT Stadium, Bhubaneswar",
-     "teams": [
-      {
-       "name": "Odisha",
-       "score": "280/7 (88 ov)"
-      },
-      {
-       "name": "Jharkhand",
-       "score": "433/8d"
-      }
-     ]
-    }
-   ]
+   "name": "Syed Mushtaq Ali Trophy",
+   "leagueId": "8661",
+   "from": "2026-11-14",
+   "to": "2026-12-06",
+   "next": "2026-11-14",
+   "upcoming": true,
+   "matches": []
   },
   "women": {
    "name": "Women's Premier League",
