@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "xLnf_fB1eBc",
+     "t": "Give up captaincy, stay at Mumbai: Rayudu's plea for Hardik Pandya"
+    },
+    {
      "yt": "XKym5gY5XtY",
      "t": "Where is Hardik Pandya going? Which IPL team needs him most?"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "ZKlrQjftSIo",
      "t": "Match Forecast: New Zealand vs India, 1st ODI | Preview"
-    },
-    {
-     "yt": "rETyiI0Bol0",
-     "t": "Siraj needs to be backed, can become India's pace spearhead: Rayudu"
     }
    ]
   },
@@ -88,7 +88,7 @@
    "videos": [
     {
      "yt": "ZLobvAQ3l5c",
-     "t": "Harsha Bhogle is looking ahead to the NZ ODIs"
+     "t": "Harsha Bhogle is looking ahead to the NZ ODIs #NZvsIND"
     },
     {
      "yt": "cwfUDBwbus0",
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-05T02:26:39Z"
+ "updated": "2026-11-05T09:43:40Z"
 }
