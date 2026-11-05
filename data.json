@@ -1,242 +1,6 @@
 {
- "updated": "2026-11-04T01:51:30Z",
+ "updated": "2026-11-05T02:24:36Z",
  "matches": [
-  {
-   "id": "espn_1527257",
-   "eventId": "1527257",
-   "date": "2026-04-27T12:00Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "India Women tour of South Africa 2026",
-   "seriesId": "24233",
-   "matchNo": "5th T20I",
-   "venue": "Willowmoore Park, Benoni",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "South Africa Women",
-     "abbr": "SA-W",
-     "score": "155/6",
-     "winner": true
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "132/8 (20 ov, target 156)",
-     "winner": false
-    }
-   ],
-   "result": "South Africa won by 23 runs",
-   "india": "lost",
-   "innings": [
-    {
-     "t": "South Africa",
-     "total": "155/6 (20 ov)",
-     "bat": [
-      [
-       "L Wolvaardt",
-       92,
-       56,
-       "not out"
-      ],
-      [
-       "S Luus",
-       23,
-       23,
-       "st"
-      ],
-      [
-       "T Brits",
-       2,
-       6,
-       "b"
-      ],
-      [
-       "A Dercksen",
-       0,
-       4,
-       "c"
-      ],
-      [
-       "A Bosch",
-       8,
-       11,
-       "b"
-      ],
-      [
-       "CL Tryon",
-       12,
-       10,
-       "c"
-      ],
-      [
-       "N de Klerk",
-       1,
-       2,
-       "lbw"
-      ],
-      [
-       "S Jafta",
-       16,
-       8,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "E Marx",
-      "A Khaka",
-      "N Mlaba"
-     ],
-     "bowl": [
-      [
-       "K Goud",
-       "3",
-       29,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       21,
-       2
-      ],
-      [
-       "N Shree Charani",
-       "4",
-       22,
-       2
-      ],
-      [
-       "A Reddy",
-       "4",
-       37,
-       0
-      ],
-      [
-       "DB Sharma",
-       "4",
-       37,
-       2
-      ],
-      [
-       "Shafali Verma",
-       "1",
-       8,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "132/8 (20 ov)",
-     "bat": [
-      [
-       "Shafali Verma",
-       4,
-       5,
-       "c"
-      ],
-      [
-       "AB Sharma",
-       17,
-       21,
-       "c"
-      ],
-      [
-       "JI Rodrigues",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "H Kaur",
-       22,
-       28,
-       "c"
-      ],
-      [
-       "BS Fulmali",
-       40,
-       30,
-       "lbw"
-      ],
-      [
-       "DB Sharma",
-       8,
-       10,
-       "st"
-      ],
-      [
-       "RM Ghosh",
-       25,
-       15,
-       "not out"
-      ],
-      [
-       "A Reddy",
-       1,
-       2,
-       "b"
-      ],
-      [
-       "K Goud",
-       0,
-       4,
-       "run out"
-      ],
-      [
-       "N Shree Charani",
-       1,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Renuka Singh"
-     ],
-     "bowl": [
-      [
-       "E Marx",
-       "3",
-       12,
-       1
-      ],
-      [
-       "CL Tryon",
-       "4",
-       28,
-       1
-      ],
-      [
-       "A Khaka",
-       "4",
-       29,
-       1
-      ],
-      [
-       "N Mlaba",
-       "4",
-       15,
-       2
-      ],
-      [
-       "N de Klerk",
-       "3",
-       26,
-       2
-      ],
-      [
-       "A Dercksen",
-       "2",
-       20,
-       0
-      ]
-     ]
-    }
-   ]
-  },
   {
    "id": "espn_1538226",
    "eventId": "1538226",
@@ -1184,262 +948,7 @@
     }
    ],
    "result": "ENG Women won by 5 runs",
-   "india": "lost",
-   "xi": {
-    "England Women": [
-     "Amy Jones",
-     "Danni Wyatt-Hodge",
-     "Nat Sciver-Brunt (c)",
-     "Alice Capsey",
-     "Freya Kemp",
-     "Dani Gibson",
-     "Charlie Dean",
-     "Issy Wong",
-     "Lauren Filer",
-     "Tilly Corteen-Coleman",
-     "Sophie Ecclestone",
-     "Lauren Bell",
-     "Linsey Smith",
-     "Heather Knight",
-     "Sophia Dunkley"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Radha Yadav",
-     "Shreyanka Patil",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Arundhati Reddy",
-     "Deepti Sharma",
-     "Jemimah Rodrigues",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "England Women",
-     "total": "171/6 (20.0 ov)",
-     "bat": [
-      [
-       "Amy Jones",
-       64,
-       45,
-       "b"
-      ],
-      [
-       "Danni Wyatt-Hodge",
-       3,
-       6,
-       "c"
-      ],
-      [
-       "Nat Sciver-Brunt",
-       57,
-       45,
-       "c"
-      ],
-      [
-       "Alice Capsey",
-       2,
-       4,
-       "c"
-      ],
-      [
-       "Freya Kemp",
-       7,
-       6,
-       "c"
-      ],
-      [
-       "Dani Gibson",
-       30,
-       12,
-       "not out"
-      ],
-      [
-       "Charlie Dean",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Issy Wong",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Lauren Filer",
-      "Tilly Corteen-Coleman",
-      "Sophie Ecclestone",
-      "Lauren Bell",
-      "Linsey Smith",
-      "Heather Knight",
-      "Sophia Dunkley"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "2",
-       18,
-       1
-      ],
-      [
-       "Radha Yadav",
-       "4",
-       38,
-       1
-      ],
-      [
-       "Shreyanka Patil",
-       "4",
-       29,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Shree Charani",
-       "3",
-       24,
-       1
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       44,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "166 (19.5 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       1,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       13,
-       6,
-       "b"
-      ],
-      [
-       "Yastika Bhatia",
-       15,
-       17,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       17,
-       18,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       18,
-       17,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       68,
-       36,
-       "st"
-      ],
-      [
-       "Radha Yadav",
-       16,
-       9,
-       "c"
-      ],
-      [
-       "Shreyanka Patil",
-       1,
-       5,
-       "c"
-      ],
-      [
-       "Kranti Gaud",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Shree Charani",
-       6,
-       3,
-       "not out"
-      ],
-      [
-       "Renuka Singh",
-       0,
-       1,
-       "c"
-      ]
-     ],
-     "dnb": [
-      "Arundhati Reddy",
-      "Deepti Sharma",
-      "Jemimah Rodrigues",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Dani Gibson",
-       "2",
-       17,
-       2
-      ],
-      [
-       "Charlie Dean",
-       "3",
-       16,
-       2
-      ],
-      [
-       "Issy Wong",
-       "4",
-       42,
-       1
-      ],
-      [
-       "Lauren Filer",
-       "3",
-       27,
-       0
-      ],
-      [
-       "Tilly Corteen-Coleman",
-       "4",
-       22,
-       2
-      ],
-      [
-       "Linsey Smith",
-       "3.5",
-       42,
-       3
-      ]
-     ]
-    }
-   ]
+   "india": "lost"
   },
   {
    "id": "espn_1527153",
@@ -9939,28 +9448,240 @@
    "seriesId": "24469",
    "matchNo": "1st ODI",
    "venue": "Eden Park, Auckland",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Match delayed by a wet outfield",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "",
+     "score": "185 (40.2 ov)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
-     "winner": false
+     "score": "143/5 (22.4/32 ov, target 143)",
+     "winner": true
     }
    ],
-   "result": "Starts at 15:00 local time",
-   "india": "",
-   "o": [
-    0.5,
-    0.5
+   "result": "India won by 5 wkts (56b rem) (DLS)",
+   "india": "won",
+   "seriesNote": "India led the 5-match series 1-0",
+   "xi": {
+    "New Zealand": [
+     "Will Young",
+     "Tim Seifert",
+     "Henry Nicholls",
+     "Daryl Mitchell",
+     "Tom Latham",
+     "Glenn Phillips",
+     "Mitchell Santner (c)",
+     "Nathan Smith",
+     "Kyle Jamieson",
+     "Jacob Duffy",
+     "Blair Tickner"
+    ],
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Shreyas Iyer",
+     "Axar Patel",
+     "KL Rahul",
+     "Naman Dhir",
+     "Anshul Kamboj",
+     "Arshdeep Singh",
+     "Auqib Nabi",
+     "Gurnoor Brar"
+    ]
+   },
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "185 (40.2 ov)",
+     "bat": [
+      [
+       "Will Young",
+       9,
+       11,
+       "c"
+      ],
+      [
+       "Tim Seifert",
+       38,
+       43,
+       "c"
+      ],
+      [
+       "Henry Nicholls",
+       9,
+       11,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       28,
+       41,
+       "run out"
+      ],
+      [
+       "Tom Latham",
+       3,
+       11,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       30,
+       51,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       4,
+       16,
+       "b"
+      ],
+      [
+       "Nathan Smith",
+       1,
+       9,
+       "c"
+      ],
+      [
+       "Kyle Jamieson",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Jacob Duffy",
+       15,
+       21,
+       "not out"
+      ],
+      [
+       "Blair Tickner",
+       34,
+       23,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Axar Patel",
+       "5",
+       12,
+       0
+      ],
+      [
+       "Anshul Kamboj",
+       "10",
+       22,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "10",
+       70,
+       4
+      ],
+      [
+       "Auqib Nabi",
+       "6",
+       33,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "9.2",
+       44,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "143/5 (22.4 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       0,
+       6,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       37,
+       56,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       74,
+       51,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       15,
+       13,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       3,
+       5,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       5,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Anshul Kamboj",
+      "Arshdeep Singh",
+      "Auqib Nabi",
+      "Gurnoor Brar"
+     ],
+     "bowl": [
+      [
+       "Nathan Smith",
+       "4.4",
+       21,
+       1
+      ],
+      [
+       "Kyle Jamieson",
+       "7",
+       34,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "7",
+       49,
+       3
+      ],
+      [
+       "Blair Tickner",
+       "4",
+       38,
+       0
+      ]
+     ]
+    }
    ]
   },
   {
@@ -9991,7 +9712,11 @@
     }
    ],
    "result": "",
-   "india": ""
+   "india": "",
+   "o": [
+    0.51,
+    0.49
+   ]
   },
   {
    "id": "espn_1539439",
@@ -10946,7 +10671,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-10-27",
+    "updated": "2026-10-31",
     "bat": [
      {
       "no": "1",
@@ -10956,27 +10681,27 @@
      },
      {
       "no": "2",
-      "name": "Temba Bavuma",
-      "team": "South Africa",
-      "rating": "818"
-     },
-     {
-      "no": "3",
       "name": "Joe Root",
       "team": "England",
       "rating": "816"
      },
      {
-      "no": "4",
+      "no": "3",
       "name": "Travis Head",
       "team": "Australia",
-      "rating": "813"
+      "rating": "799"
+     },
+     {
+      "no": "4",
+      "name": "Temba Bavuma",
+      "team": "South Africa",
+      "rating": "793"
      },
      {
       "no": "5",
       "name": "Steve Smith",
       "team": "Australia",
-      "rating": "798"
+      "rating": "790"
      },
      {
       "no": "6",
@@ -11012,18 +10737,18 @@
     "bowl": [
      {
       "no": "1",
-      "name": "Marco Jansen",
-      "team": "South Africa",
-      "rating": "876"
+      "name": "Mitchell Starc",
+      "team": "Australia",
+      "rating": "881"
      },
      {
       "no": "2",
-      "name": "Mitchell Starc",
-      "team": "Australia",
-      "rating": "861"
+      "name": "Marco Jansen",
+      "team": "South Africa",
+      "rating": "875"
      },
      {
-      "no": "=",
+      "no": "3",
       "name": "Matt Henry",
       "team": "New Zealand",
       "rating": "861"
@@ -11044,31 +10769,31 @@
       "no": "6",
       "name": "Scott Boland",
       "team": "Australia",
-      "rating": "829"
+      "rating": "821"
      },
      {
       "no": "7",
-      "name": "Pat Cummins",
-      "team": "Australia",
+      "name": "Simon Harmer",
+      "team": "South Africa",
       "rating": "817"
      },
      {
       "no": "8",
       "name": "Kagiso Rabada",
       "team": "South Africa",
-      "rating": "808"
+      "rating": "801"
      },
      {
       "no": "9",
-      "name": "Josh Hazlewood",
+      "name": "Pat Cummins",
       "team": "Australia",
-      "rating": "805"
+      "rating": "789"
      },
      {
       "no": "10",
-      "name": "Noman Ali",
-      "team": "Pakistan",
-      "rating": "777"
+      "name": "Josh Hazlewood",
+      "team": "Australia",
+      "rating": "785"
      }
     ]
    },
@@ -11078,13 +10803,13 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "115"
+      "rating": "116"
      },
      {
       "no": "2",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "109"
+      "rating": "108"
      },
      {
       "no": "3",
@@ -11135,7 +10860,7 @@
       "rating": "79"
      }
     ],
-    "updated": "2026-10-27",
+    "updated": "2026-11-03",
     "bat": [
      {
       "no": "1",
@@ -11169,27 +10894,27 @@
      },
      {
       "no": "6",
+      "name": "Ben Duckett",
+      "team": "England",
+      "rating": "733"
+     },
+     {
+      "no": "7",
       "name": "Shai Hope",
       "team": "West Indies",
       "rating": "710"
      },
      {
-      "no": "7",
-      "name": "Ben Duckett",
-      "team": "England",
-      "rating": "679"
-     },
-     {
       "no": "8",
       "name": "Harry Brook",
       "team": "England",
-      "rating": "675"
+      "rating": "674"
      },
      {
       "no": "9",
       "name": "Babar Azam",
       "team": "Pakistan",
-      "rating": "672"
+      "rating": "661"
      },
      {
       "no": "10",
@@ -11213,27 +10938,27 @@
      },
      {
       "no": "3",
-      "name": "Abrar Ahmed",
-      "team": "Pakistan",
-      "rating": "648"
-     },
-     {
-      "no": "4",
       "name": "Mitchell Santner",
       "team": "New Zealand",
       "rating": "644"
      },
      {
+      "no": "4",
+      "name": "Abrar Ahmed",
+      "team": "Pakistan",
+      "rating": "642"
+     },
+     {
       "no": "5",
-      "name": "Kuldeep Yadav",
-      "team": "India",
-      "rating": "620"
+      "name": "Shaheen Afridi",
+      "team": "Pakistan",
+      "rating": "621"
      },
      {
       "no": "6",
-      "name": "Shaheen Afridi",
-      "team": "Pakistan",
-      "rating": "616"
+      "name": "Kuldeep Yadav",
+      "team": "India",
+      "rating": "620"
      },
      {
       "no": "7",
@@ -11243,21 +10968,21 @@
      },
      {
       "no": "8",
-      "name": "Bernard Scholtz",
-      "team": "Namibia",
-      "rating": "606"
+      "name": "Mehidy Hasan Miraz",
+      "team": "Bangladesh",
+      "rating": "597"
      },
      {
       "no": "9",
-      "name": "Maheesh Theekshana",
-      "team": "Sri Lanka",
-      "rating": "603"
+      "name": "Taskin Ahmed",
+      "team": "Bangladesh",
+      "rating": "595"
      },
      {
-      "no": "10",
-      "name": "Jofra Archer",
-      "team": "England",
-      "rating": "599"
+      "no": "=",
+      "name": "Maheesh Theekshana",
+      "team": "Sri Lanka",
+      "rating": "595"
      }
     ]
    },
@@ -11324,13 +11049,13 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-10-27",
+    "updated": "2026-11-01",
     "bat": [
      {
       "no": "1",
       "name": "Abhishek Sharma",
       "team": "India",
-      "rating": "897"
+      "rating": "889"
      },
      {
       "no": "2",
@@ -11342,7 +11067,7 @@
       "no": "3",
       "name": "Ishan Kishan",
       "team": "India",
-      "rating": "866"
+      "rating": "862"
      },
      {
       "no": "4",
@@ -11364,27 +11089,27 @@
      },
      {
       "no": "7",
+      "name": "Shreyas Iyer",
+      "team": "India",
+      "rating": "777"
+     },
+     {
+      "no": "8",
       "name": "Phil Salt",
       "team": "England",
       "rating": "775"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Shai Hope",
       "team": "West Indies",
       "rating": "759"
      },
      {
-      "no": "9",
-      "name": "Shreyas Iyer",
-      "team": "India",
-      "rating": "758"
-     },
-     {
       "no": "10",
-      "name": "Tilak Varma",
-      "team": "India",
-      "rating": "724"
+      "name": "Pathum Nissanka",
+      "team": "Sri Lanka",
+      "rating": "720"
      }
     ],
     "bowl": [
@@ -11392,7 +11117,7 @@
       "no": "1",
       "name": "Rashid Khan",
       "team": "Afghanistan",
-      "rating": "733"
+      "rating": "731"
      },
      {
       "no": "2",
@@ -11414,21 +11139,21 @@
      },
      {
       "no": "5",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "676"
+     },
+     {
+      "no": "6",
       "name": "Nathan Ellis",
       "team": "Australia",
       "rating": "675"
      },
      {
-      "no": "6",
+      "no": "7",
       "name": "Jamie Overton",
       "team": "England",
       "rating": "674"
-     },
-     {
-      "no": "7",
-      "name": "Mitchell Santner",
-      "team": "New Zealand",
-      "rating": "665"
      },
      {
       "no": "8",
@@ -11838,25 +11563,8 @@
    "leagueId": "8050",
    "from": "2026-10-11",
    "to": "2027-03-03",
-   "more": 15,
+   "more": 11,
    "matches": [
-    {
-     "date": "2026-11-02T03:00Z",
-     "desc": "Elite, Group B",
-     "state": "in",
-     "detail": "Live",
-     "venue": "Barsapara Cricket Stadium, Guwahati",
-     "teams": [
-      {
-       "name": "Assam",
-       "score": "135"
-      },
-      {
-       "name": "Karnataka",
-       "score": "496/5 (117 ov)"
-      }
-     ]
-    },
     {
      "date": "2026-11-02T03:00Z",
      "desc": "Plate Group",
@@ -11870,7 +11578,7 @@
       },
       {
        "name": "Nagaland",
-       "score": "254 & 73/3 (25 ov)"
+       "score": "254 & 184 (78.5 ov)"
       }
      ]
     },
@@ -11883,11 +11591,11 @@
      "teams": [
       {
        "name": "Tripura",
-       "score": "268 & 54/4 (22 ov)"
+       "score": "268 & 191"
       },
       {
        "name": "Saurashtra",
-       "score": "118"
+       "score": "118 & 131/7 (41 ov, target 342)"
       }
      ]
     },
@@ -11900,11 +11608,28 @@
      "teams": [
       {
        "name": "Bengal",
-       "score": "143"
+       "score": "143 & 76/4 (24 ov)"
       },
       {
        "name": "Maharashtra",
-       "score": "207/9 (79 ov)"
+       "score": "218"
+      }
+     ]
+    },
+    {
+     "date": "2026-11-02T03:30Z",
+     "desc": "Elite, Group C",
+     "state": "in",
+     "detail": "Live",
+     "venue": "KIIT Stadium, Bhubaneswar",
+     "teams": [
+      {
+       "name": "Odisha",
+       "score": "23/0 (5 ov)"
+      },
+      {
+       "name": "Jharkhand",
+       "score": "433/8d"
       }
      ]
     }

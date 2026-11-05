@@ -39581,6 +39581,215 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539437",
+   "date": "2026-11-04",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "1st ODI",
+   "venue": "Eden Park, Auckland",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "185 (40.2 ov)"
+    },
+    {
+     "name": "India",
+     "score": "143/5 (22.4/32 ov, target 143)"
+    }
+   ],
+   "result": "India won by 5 wkts (56b rem) (DLS)",
+   "india": "won",
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "185 (40.2 ov)",
+     "bat": [
+      [
+       "Will Young",
+       9,
+       11,
+       "c"
+      ],
+      [
+       "Tim Seifert",
+       38,
+       43,
+       "c"
+      ],
+      [
+       "Henry Nicholls",
+       9,
+       11,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       28,
+       41,
+       "run out"
+      ],
+      [
+       "Tom Latham",
+       3,
+       11,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       30,
+       51,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       4,
+       16,
+       "b"
+      ],
+      [
+       "Nathan Smith",
+       1,
+       9,
+       "c"
+      ],
+      [
+       "Kyle Jamieson",
+       1,
+       6,
+       "c"
+      ],
+      [
+       "Jacob Duffy",
+       15,
+       21,
+       "not out"
+      ],
+      [
+       "Blair Tickner",
+       34,
+       23,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Axar Patel",
+       "5",
+       12,
+       0
+      ],
+      [
+       "Anshul Kamboj",
+       "10",
+       22,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "10",
+       70,
+       4
+      ],
+      [
+       "Auqib Nabi",
+       "6",
+       33,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "9.2",
+       44,
+       3
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "143/5 (22.4 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       0,
+       6,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       37,
+       56,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       74,
+       51,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       15,
+       13,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       3,
+       5,
+       "not out"
+      ],
+      [
+       "Naman Dhir",
+       5,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Anshul Kamboj",
+      "Arshdeep Singh",
+      "Auqib Nabi",
+      "Gurnoor Brar"
+     ],
+     "bowl": [
+      [
+       "Nathan Smith",
+       "4.4",
+       21,
+       1
+      ],
+      [
+       "Kyle Jamieson",
+       "7",
+       34,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "7",
+       49,
+       3
+      ],
+      [
+       "Blair Tickner",
+       "4",
+       38,
+       0
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

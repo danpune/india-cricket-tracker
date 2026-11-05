@@ -1,6 +1,26 @@
 {
  "headlines": [
   {
+   "t": "Kohli and quicks power India to 1-0 lead in Auckland",
+   "u": "https://www.cricinfo.com/ci/content/story/1561390.html?ex_cid=OTC-RSS",
+   "d": "Wed, 04 Nov 2026"
+  },
+  {
+   "t": "Anshul Kamboj: One bad match doesn't affect me",
+   "u": "https://www.cricinfo.com/ci/content/story/1561402.html?ex_cid=OTC-RSS",
+   "d": "Wed, 04 Nov 2026"
+  },
+  {
+   "t": "Starc displaces Jansen to reclaim top spot in ICC rankings for Test bowlers",
+   "u": "https://www.cricinfo.com/ci/content/story/1561383.html?ex_cid=OTC-RSS",
+   "d": "Wed, 04 Nov 2026"
+  },
+  {
+   "t": "India opt to bowl, pick Nabi and Kamboj",
+   "u": "https://www.cricinfo.com/ci/content/story/1561335.html?ex_cid=OTC-RSS",
+   "d": "Wed, 04 Nov 2026"
+  },
+  {
    "t": "India, New Zealand switch to World Cup prep at bouncy Eden Park",
    "u": "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
    "d": "Tue, 03 Nov 2026"
@@ -11,9 +31,9 @@
    "d": "Tue, 03 Nov 2026"
   },
   {
-   "t": "Sarfaraz Khan: 'Everyday I ask myself why I should work harder'",
+   "t": "Sarfaraz Khan: 'Every day I ask myself why I should work harder'",
    "u": "https://www.cricinfo.com/ci/content/story/1561151.html?ex_cid=OTC-RSS",
-   "d": "Mon, 02 Nov 2026"
+   "d": "Wed, 04 Nov 2026"
   },
   {
    "t": "Pant to undergo fitness assessment before leaving for New Zealand",
@@ -29,26 +49,6 @@
    "t": "Boyle and Foxcroft make it a long, hard day for India A bowlers",
    "u": "https://www.cricinfo.com/ci/content/story/1560923.html?ex_cid=OTC-RSS",
    "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "Gambhir hails India's ruthlessness in T20Is despite little preparation time in NZ",
-   "u": "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
-   "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "Seifert, Phillips, Milne set up NZ win as India take series 3-2",
-   "u": "https://www.cricinfo.com/ci/content/story/1560963.html?ex_cid=OTC-RSS",
-   "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "New Zealand field in final T20I; Bhuvneshwar and Varun in for India",
-   "u": "https://www.cricinfo.com/ci/content/story/1560931.html?ex_cid=OTC-RSS",
-   "d": "Sun, 01 Nov 2026"
-  },
-  {
-   "t": "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
-   "u": "https://www.cricinfo.com/ci/content/story/1560918.html?ex_cid=OTC-RSS",
-   "d": "Sun, 01 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "XKym5gY5XtY",
+     "t": "Where is Hardik Pandya going? Which IPL team needs him most?"
+    },
+    {
+     "yt": "4sN3SaPNzow",
+     "t": "Kohli was \u2018showing off\u2019 on a tough track while others struggled: Rayudu"
+    },
+    {
+     "yt": "xyu8VN4G09I",
+     "t": "Kohli's new attacking avatar guns down NZ | Rayudu & Kartik Review"
+    },
     {
      "yt": "ej_fgyhRVXc",
      "t": "Raina, Flintoff & who else? Ajinkya Rahane reveals his Underrated ODI XI"
@@ -67,18 +79,6 @@
     {
      "yt": "rETyiI0Bol0",
      "t": "Siraj needs to be backed, can become India's pace spearhead: Rayudu"
-    },
-    {
-     "yt": "UgHXT6nXx5Q",
-     "t": "Hardik Pandya & his fitness is a big issue for India: Kartik"
-    },
-    {
-     "yt": "dvMHvqWLg5s",
-     "t": "Put Rohit-Kohli in right mental space: Rayudu\u2019s message to Team India"
-    },
-    {
-     "yt": "XB_wE3gJmas",
-     "t": "Secret to Dhoni's Helicopter shot! Rayudu, Kartik spill the beans"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-04T01:52:35Z"
+ "updated": "2026-11-05T02:26:39Z"
 }
