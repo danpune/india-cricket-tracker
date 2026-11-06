@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Rain threat hangs over second ODI in Wellington",
+   "u": "https://www.cricinfo.com/ci/content/story/1561601.html?ex_cid=OTC-RSS",
+   "d": "Fri, 06 Nov 2026"
+  },
+  {
    "t": "First India-Sri Lanka ODI shifted from Delhi to Visakhapatnam",
    "u": "https://www.cricinfo.com/ci/content/story/1561575.html?ex_cid=OTC-RSS",
    "d": "Thu, 05 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Pant to undergo fitness assessment before leaving for New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1561095.html?ex_cid=OTC-RSS",
    "d": "Mon, 02 Nov 2026"
-  },
-  {
-   "t": "Lower-order runs put New Zealand A in front despite Siraj and Mukesh hauls",
-   "u": "https://www.cricinfo.com/ci/content/story/1561079.html?ex_cid=OTC-RSS",
-   "d": "Mon, 02 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "qBFfK8RhdDU",
+     "t": "Preview: New Zealand vs India, 2nd ODI"
+    },
     {
      "yt": "Yt2Ba9QcjgU",
      "t": "Match Forecast: New Zealand vs India, 2nd ODI"
@@ -75,10 +79,6 @@
     {
      "yt": "4sN3SaPNzow",
      "t": "Kohli was \u2018showing off\u2019 on a tough track while others struggled: Rayudu"
-    },
-    {
-     "yt": "xyu8VN4G09I",
-     "t": "Kohli's new attacking avatar guns down NZ | Rayudu & Kartik Review"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-05T22:55:46Z"
+ "updated": "2026-11-06T03:05:25Z"
 }
