@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Cricket could take backseat in wet Wellington",
+   "u": "https://www.cricinfo.com/ci/content/story/1561679.html?ex_cid=OTC-RSS",
+   "d": "Fri, 06 Nov 2026"
+  },
+  {
    "t": "Rain threat hangs over second ODI in Wellington",
    "u": "https://www.cricinfo.com/ci/content/story/1561601.html?ex_cid=OTC-RSS",
    "d": "Fri, 06 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Sarfaraz Khan: 'Every day I ask myself why I should work harder'",
    "u": "https://www.cricinfo.com/ci/content/story/1561151.html?ex_cid=OTC-RSS",
    "d": "Wed, 04 Nov 2026"
-  },
-  {
-   "t": "Pant to undergo fitness assessment before leaving for New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1561095.html?ex_cid=OTC-RSS",
-   "d": "Mon, 02 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "gPvllylf1uo",
+     "t": "IPL 2027 Auction: Who will RCB Retain or Release?"
+    },
+    {
+     "yt": "Px95L7FPc_c",
+     "t": "The Abu Dhabi T10 League is BACK! | Everything You Need to Know"
+    },
     {
      "yt": "qBFfK8RhdDU",
      "t": "Preview: New Zealand vs India, 2nd ODI"
@@ -71,14 +79,6 @@
     {
      "yt": "xLnf_fB1eBc",
      "t": "Give up captaincy, stay at Mumbai: Rayudu's plea for Hardik Pandya"
-    },
-    {
-     "yt": "XKym5gY5XtY",
-     "t": "Where is Hardik Pandya going? Which IPL team needs him most?"
-    },
-    {
-     "yt": "4sN3SaPNzow",
-     "t": "Kohli was \u2018showing off\u2019 on a tough track while others struggled: Rayudu"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-06T03:05:25Z"
+ "updated": "2026-11-06T17:43:26Z"
 }
