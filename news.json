@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Jamieson on bowler-friendly pitches: What do you think? You like it?",
+   "u": "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
+   "d": "Sat, 07 Nov 2026"
+  },
+  {
+   "t": "Gurnoor Brar: 'Picking right time to bowl bouncers is important'",
+   "u": "https://www.cricinfo.com/ci/content/story/1561800.html?ex_cid=OTC-RSS",
+   "d": "Sat, 07 Nov 2026"
+  },
+  {
+   "t": "India go 2-0 up after narrow DLS win in low-scoring suspenser",
+   "u": "https://www.cricinfo.com/ci/content/story/1561779.html?ex_cid=OTC-RSS",
+   "d": "Sat, 07 Nov 2026"
+  },
+  {
    "t": "Hardik not in Baroda squad for Syed Mushtaq Ali Trophy",
    "u": "https://www.cricinfo.com/ci/content/story/1561742.html?ex_cid=OTC-RSS",
    "d": "Sat, 07 Nov 2026"
@@ -13,7 +28,7 @@
   {
    "t": "Mohammed Shami retires from Test cricket",
    "u": "https://www.cricinfo.com/ci/content/story/1561697.html?ex_cid=OTC-RSS",
-   "d": "Fri, 06 Nov 2026"
+   "d": "Sat, 07 Nov 2026"
   },
   {
    "t": "Cricket could take backseat in wet Wellington",
@@ -34,21 +49,6 @@
    "t": "Kohli and quicks power India to 1-0 lead in Auckland",
    "u": "https://www.cricinfo.com/ci/content/story/1561390.html?ex_cid=OTC-RSS",
    "d": "Wed, 04 Nov 2026"
-  },
-  {
-   "t": "Anshul Kamboj: One bad match doesn't affect me",
-   "u": "https://www.cricinfo.com/ci/content/story/1561402.html?ex_cid=OTC-RSS",
-   "d": "Wed, 04 Nov 2026"
-  },
-  {
-   "t": "Starc displaces Jansen to reclaim top spot in ICC rankings for Test bowlers",
-   "u": "https://www.cricinfo.com/ci/content/story/1561383.html?ex_cid=OTC-RSS",
-   "d": "Wed, 04 Nov 2026"
-  },
-  {
-   "t": "India opt to bowl, pick Nabi and Kamboj",
-   "u": "https://www.cricinfo.com/ci/content/story/1561335.html?ex_cid=OTC-RSS",
-   "d": "Wed, 04 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "5TjjXOAE6rA",
+     "t": "IPL 2027 Auction: Who will PBKS Retain or Release?"
+    },
+    {
+     "yt": "Sxjln2aqPRE",
+     "t": "Kohli wants to dominate world cricket, not be a bystander: Rayudu"
+    },
+    {
+     "yt": "-C6lxoAyhZk",
+     "t": "CSK\u2019s Big Trade With SRH: Masterstroke or Mistake?"
+    },
     {
      "yt": "qCxHsc_iNDc",
      "t": "Mohammed Shami retires from Test cricket; Rayudu & Kartik react"
@@ -67,18 +79,6 @@
     {
      "yt": "Px95L7FPc_c",
      "t": "The Abu Dhabi T10 League is BACK! | Everything You Need to Know"
-    },
-    {
-     "yt": "qBFfK8RhdDU",
-     "t": "Preview: New Zealand vs India, 2nd ODI"
-    },
-    {
-     "yt": "Yt2Ba9QcjgU",
-     "t": "Match Forecast: New Zealand vs India, 2nd ODI"
-    },
-    {
-     "yt": "H4gsQKlvZDI",
-     "t": "IPL 2027 Auction: Who will Mumbai Indians Retain or Release?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-07T08:45:32Z"
+ "updated": "2026-11-07T15:14:00Z"
 }
