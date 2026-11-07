@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:12:34Z",
+ "updated": "2026-11-07T19:28:00Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10175,36 +10175,6 @@
    ],
    "result": "India won by 4 runs (DLS)",
    "india": "won",
-   "seriesNote": "India led the 5-match series 2-0",
-   "xi": {
-    "New Zealand": [
-     "Will Young",
-     "Tim Seifert",
-     "Henry Nicholls",
-     "Daryl Mitchell",
-     "Tom Latham",
-     "Glenn Phillips",
-     "Mitchell Santner (c)",
-     "Nathan Smith",
-     "Kyle Jamieson",
-     "Blair Tickner",
-     "Jacob Duffy",
-     "Matthew Fisher"
-    ],
-    "India": [
-     "Rohit Sharma",
-     "Shubman Gill (c)",
-     "Virat Kohli",
-     "Shreyas Iyer",
-     "Axar Patel",
-     "KL Rahul",
-     "Naman Dhir",
-     "Anshul Kamboj",
-     "Auqib Nabi",
-     "Arshdeep Singh",
-     "Gurnoor Brar"
-    ]
-   },
    "innings": [
     {
      "t": "New Zealand",
@@ -11494,13 +11464,13 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "116"
+      "rating": "117"
      },
      {
       "no": "2",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "108"
+      "rating": "106"
      },
      {
       "no": "3",
