@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Hardik not in Baroda squad for Syed Mushtaq Ali Trophy",
+   "u": "https://www.cricinfo.com/ci/content/story/1561742.html?ex_cid=OTC-RSS",
+   "d": "Sat, 07 Nov 2026"
+  },
+  {
+   "t": "India bowl first in rainy Wellington with both teams unchanged",
+   "u": "https://www.cricinfo.com/ci/content/story/1561713.html?ex_cid=OTC-RSS",
+   "d": "Sat, 07 Nov 2026"
+  },
+  {
+   "t": "Mohammed Shami retires from Test cricket",
+   "u": "https://www.cricinfo.com/ci/content/story/1561697.html?ex_cid=OTC-RSS",
+   "d": "Fri, 06 Nov 2026"
+  },
+  {
    "t": "Cricket could take backseat in wet Wellington",
    "u": "https://www.cricinfo.com/ci/content/story/1561679.html?ex_cid=OTC-RSS",
    "d": "Fri, 06 Nov 2026"
@@ -13,7 +28,7 @@
   {
    "t": "First India-Sri Lanka ODI shifted from Delhi to Visakhapatnam",
    "u": "https://www.cricinfo.com/ci/content/story/1561575.html?ex_cid=OTC-RSS",
-   "d": "Thu, 05 Nov 2026"
+   "d": "Sat, 07 Nov 2026"
   },
   {
    "t": "Kohli and quicks power India to 1-0 lead in Auckland",
@@ -34,21 +49,6 @@
    "t": "India opt to bowl, pick Nabi and Kamboj",
    "u": "https://www.cricinfo.com/ci/content/story/1561335.html?ex_cid=OTC-RSS",
    "d": "Wed, 04 Nov 2026"
-  },
-  {
-   "t": "India, New Zealand switch to World Cup prep at bouncy Eden Park",
-   "u": "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
-   "d": "Tue, 03 Nov 2026"
-  },
-  {
-   "t": "Gill would have preferred ODIs before T20Is on New Zealand tour",
-   "u": "https://www.cricinfo.com/ci/content/story/1561177.html?ex_cid=OTC-RSS",
-   "d": "Tue, 03 Nov 2026"
-  },
-  {
-   "t": "Sarfaraz Khan: 'Every day I ask myself why I should work harder'",
-   "u": "https://www.cricinfo.com/ci/content/story/1561151.html?ex_cid=OTC-RSS",
-   "d": "Wed, 04 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "qCxHsc_iNDc",
+     "t": "Mohammed Shami retires from Test cricket; Rayudu & Kartik react"
+    },
     {
      "yt": "gPvllylf1uo",
      "t": "IPL 2027 Auction: Who will RCB Retain or Release?"
@@ -75,10 +79,6 @@
     {
      "yt": "H4gsQKlvZDI",
      "t": "IPL 2027 Auction: Who will Mumbai Indians Retain or Release?"
-    },
-    {
-     "yt": "xLnf_fB1eBc",
-     "t": "Give up captaincy, stay at Mumbai: Rayudu's plea for Hardik Pandya"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-06T17:43:26Z"
+ "updated": "2026-11-07T08:45:32Z"
 }
