@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "India A include Badoni for Rising Stars Asia Cup after Patidar opts out",
+   "u": "https://www.cricinfo.com/ci/content/story/1561869.html?ex_cid=OTC-RSS",
+   "d": "Sun, 08 Nov 2026"
+  },
+  {
+   "t": "Hamilton ODI: more wet weather, more uncertainty around the pitch",
+   "u": "https://www.cricinfo.com/ci/content/story/1561856.html?ex_cid=OTC-RSS",
+   "d": "Sun, 08 Nov 2026"
+  },
+  {
    "t": "Jamieson on bowler-friendly pitches: What do you think? You like it?",
    "u": "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
    "d": "Sat, 07 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "Rain threat hangs over second ODI in Wellington",
    "u": "https://www.cricinfo.com/ci/content/story/1561601.html?ex_cid=OTC-RSS",
    "d": "Fri, 06 Nov 2026"
-  },
-  {
-   "t": "First India-Sri Lanka ODI shifted from Delhi to Visakhapatnam",
-   "u": "https://www.cricinfo.com/ci/content/story/1561575.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
-  },
-  {
-   "t": "Kohli and quicks power India to 1-0 lead in Auckland",
-   "u": "https://www.cricinfo.com/ci/content/story/1561390.html?ex_cid=OTC-RSS",
-   "d": "Wed, 04 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "LON8WWHgFTk",
+     "t": "IPL 2027 Auction: Who will DC Retain or Release?"
+    },
+    {
+     "yt": "txbg0KgvQ8k",
+     "t": "IPL 2027 Auction: Who will KKR Retain or Release?"
+    },
     {
      "yt": "5TjjXOAE6rA",
      "t": "IPL 2027 Auction: Who will PBKS Retain or Release?"
@@ -71,14 +79,6 @@
     {
      "yt": "qCxHsc_iNDc",
      "t": "Mohammed Shami retires from Test cricket; Rayudu & Kartik react"
-    },
-    {
-     "yt": "gPvllylf1uo",
-     "t": "IPL 2027 Auction: Who will RCB Retain or Release?"
-    },
-    {
-     "yt": "Px95L7FPc_c",
-     "t": "The Abu Dhabi T10 League is BACK! | Everything You Need to Know"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-08T02:01:19Z"
+ "updated": "2026-11-08T20:00:34Z"
 }
