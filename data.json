@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T02:56:37Z",
+ "updated": "2026-11-09T21:18:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10402,7 +10402,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 15:00 local time",
    "india": "",
    "o": [
     0.5,
@@ -11303,9 +11303,9 @@
      },
      {
       "no": "6",
-      "name": "Bangladesh",
-      "team": "Bangladesh",
-      "rating": "77"
+      "name": "West Indies",
+      "team": "West Indies",
+      "rating": "78"
      },
      {
       "no": "7",
@@ -11315,9 +11315,9 @@
      },
      {
       "no": "8",
-      "name": "West Indies",
-      "team": "West Indies",
-      "rating": "74"
+      "name": "Bangladesh",
+      "team": "Bangladesh",
+      "rating": "73"
      },
      {
       "no": "9",
@@ -11332,7 +11332,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "bat": [
      {
       "no": "1",
