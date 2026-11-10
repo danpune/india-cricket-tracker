@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T03:38:32Z",
+ "updated": "2026-11-10T11:45:41Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10387,7 +10387,7 @@
    "venue": "Seddon Park, Hamilton",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Match delayed by rain",
+   "statusDesc": "No result",
    "teams": [
     {
      "name": "New Zealand",
@@ -10402,8 +10402,37 @@
      "winner": false
     }
    ],
-   "result": "Starts at 15:00 local time",
-   "india": ""
+   "result": "No result (abandoned with a toss)",
+   "india": "",
+   "seriesNote": "India led the 5-match series 2-0",
+   "xi": {
+    "New Zealand": [
+     "Will Young",
+     "Tim Seifert",
+     "Henry Nicholls",
+     "Daryl Mitchell",
+     "Tom Latham",
+     "Glenn Phillips",
+     "Mitchell Santner (c)",
+     "Nathan Smith",
+     "Kyle Jamieson",
+     "Matthew Fisher",
+     "Jacob Duffy"
+    ],
+    "India": [
+     "Rohit Sharma",
+     "Shubman Gill (c)",
+     "Virat Kohli",
+     "Shreyas Iyer",
+     "Axar Patel",
+     "KL Rahul",
+     "Naman Dhir",
+     "Anshul Kamboj",
+     "Auqib Nabi",
+     "Arshdeep Singh",
+     "Gurnoor Brar"
+    ]
+   }
   },
   {
    "id": "espn_1539440",
@@ -10598,7 +10627,7 @@
    "series": "Sri Lanka tour of India 2026/27",
    "seriesId": "24286",
    "matchNo": "1st ODI",
-   "venue": "Arun Jaitley Stadium, Delhi",
+   "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -12090,7 +12119,7 @@
       "rating": "195"
      }
     ],
-    "updated": "2026-10-26",
+    "updated": "2026-11-09",
     "bat": [
      {
       "no": "1",

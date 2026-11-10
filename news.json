@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "'IPL has earned the right to influence the calendar' - KKR co-owner wants shift to January",
+   "u": "https://www.cricinfo.com/ci/content/story/1562111.html?ex_cid=OTC-RSS",
+   "d": "Tue, 10 Nov 2026"
+  },
+  {
+   "t": "India hold on to series lead after washout as New Zealand's winning streak ends",
+   "u": "https://www.cricinfo.com/ci/content/story/1562092.html?ex_cid=OTC-RSS",
+   "d": "Tue, 10 Nov 2026"
+  },
+  {
+   "t": "Unchanged India bowl in rain-reduced 40-over contest",
+   "u": "https://www.cricinfo.com/ci/content/story/1562080.html?ex_cid=OTC-RSS",
+   "d": "Tue, 10 Nov 2026"
+  },
+  {
    "t": "Gambhir & Co to split up after third ODI to get Test series preps underway",
    "u": "https://www.cricinfo.com/ci/content/story/1561929.html?ex_cid=OTC-RSS",
    "d": "Mon, 09 Nov 2026"
@@ -34,21 +49,6 @@
    "t": "India go 2-0 up after narrow DLS win in low-scoring suspenser",
    "u": "https://www.cricinfo.com/ci/content/story/1561779.html?ex_cid=OTC-RSS",
    "d": "Sat, 07 Nov 2026"
-  },
-  {
-   "t": "Gurnoor Brar: 'Picking right time to bowl bouncers is important'",
-   "u": "https://www.cricinfo.com/ci/content/story/1561800.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
-  },
-  {
-   "t": "Hardik not in Baroda squad for Syed Mushtaq Ali Trophy",
-   "u": "https://www.cricinfo.com/ci/content/story/1561742.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
-  },
-  {
-   "t": "India bowl first in rainy Wellington with both teams unchanged",
-   "u": "https://www.cricinfo.com/ci/content/story/1561713.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "qCNxSFuW7wc",
+     "t": "IPL 2027 Auction: Who will CSK Retain or Release?"
+    },
     {
      "yt": "pI6p5AF2c_8",
      "t": "IPL 2027 Auction: Who will LSG Retain or Release?"
@@ -75,10 +79,6 @@
     {
      "yt": "txbg0KgvQ8k",
      "t": "IPL 2027 Auction: Who will KKR Retain or Release?"
-    },
-    {
-     "yt": "5TjjXOAE6rA",
-     "t": "IPL 2027 Auction: Who will PBKS Retain or Release?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-10T03:39:40Z"
+ "updated": "2026-11-10T11:47:20Z"
 }
