@@ -40011,6 +40011,29 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539439",
+   "date": "2026-11-10",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "3rd ODI",
+   "venue": "Seddon Park, Hamilton",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": ""
+    },
+    {
+     "name": "India",
+     "score": ""
+    }
+   ],
+   "result": "No result (abandoned with a toss)",
+   "india": "nr",
+   "innings": []
   }
  ]
 }

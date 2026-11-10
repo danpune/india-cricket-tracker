@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
+   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
+   "d": "Tue, 10 Nov 2026"
+  },
+  {
    "t": "'IPL has earned the right to influence the calendar' - KKR co-owner wants shift to January",
    "u": "https://www.cricinfo.com/ci/content/story/1562111.html?ex_cid=OTC-RSS",
    "d": "Tue, 10 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Jamieson on bowler-friendly pitches: What do you think? You like it?",
    "u": "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
    "d": "Sat, 07 Nov 2026"
-  },
-  {
-   "t": "India go 2-0 up after narrow DLS win in low-scoring suspenser",
-   "u": "https://www.cricinfo.com/ci/content/story/1561779.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "uQg8hUifp1o",
+     "t": "Hardik to PBKS, Arshdeep to MI: Who Won the Big IPL Trade?"
+    },
     {
      "yt": "qCNxSFuW7wc",
      "t": "IPL 2027 Auction: Who will CSK Retain or Release?"
@@ -75,10 +79,6 @@
     {
      "yt": "LON8WWHgFTk",
      "t": "IPL 2027 Auction: Who will DC Retain or Release?"
-    },
-    {
-     "yt": "txbg0KgvQ8k",
-     "t": "IPL 2027 Auction: Who will KKR Retain or Release?"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "OboV_18-5D8",
+     "t": "Harsha Bhogle on the Pandya-Arshdeep trade"
+    },
     {
      "yt": "ZLobvAQ3l5c",
      "t": "Harsha Bhogle is looking ahead to the NZ ODIs"
@@ -105,13 +109,9 @@
     {
      "yt": "75R7AnUygu0",
      "t": "Harsha Bhogle on one-sided nature of T20 games"
-    },
-    {
-     "yt": "jVLxJxMheYQ",
-     "t": "Harsha Bhogle on Harmanpreet's captaincy legacy"
     }
    ]
   }
  ],
- "updated": "2026-11-10T11:47:20Z"
+ "updated": "2026-11-10T18:54:13Z"
 }

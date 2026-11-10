@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:45:41Z",
+ "updated": "2026-11-10T18:52:52Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10385,8 +10385,8 @@
    "seriesId": "24469",
    "matchNo": "3rd ODI",
    "venue": "Seddon Park, Hamilton",
-   "state": "in",
-   "statusDetail": "Live",
+   "state": "post",
+   "statusDetail": "Final",
    "statusDesc": "No result",
    "teams": [
     {
@@ -10403,7 +10403,7 @@
     }
    ],
    "result": "No result (abandoned with a toss)",
-   "india": "",
+   "india": "nr",
    "seriesNote": "India led the 5-match series 2-0",
    "xi": {
     "New Zealand": [
