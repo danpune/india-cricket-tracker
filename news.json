@@ -1,13 +1,18 @@
 {
  "headlines": [
   {
-   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
-   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
+   "t": "Ravindra, Conway named in New Zealand squad for India Tests",
+   "u": "https://www.cricinfo.com/ci/content/story/1562161.html?ex_cid=OTC-RSS",
    "d": "Tue, 10 Nov 2026"
   },
   {
    "t": "'IPL has earned the right to influence the calendar' - KKR co-owner wants shift to January",
    "u": "https://www.cricinfo.com/ci/content/story/1562111.html?ex_cid=OTC-RSS",
+   "d": "Tue, 10 Nov 2026"
+  },
+  {
+   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
+   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
    "d": "Tue, 10 Nov 2026"
   },
   {
@@ -44,11 +49,6 @@
    "t": "Hamilton ODI: more wet weather, more uncertainty around the pitch",
    "u": "https://www.cricinfo.com/ci/content/story/1561856.html?ex_cid=OTC-RSS",
    "d": "Sun, 08 Nov 2026"
-  },
-  {
-   "t": "Jamieson on bowler-friendly pitches: What do you think? You like it?",
-   "u": "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
-   "d": "Sat, 07 Nov 2026"
   }
  ],
  "talk": [
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-10T18:54:13Z"
+ "updated": "2026-11-10T23:54:40Z"
 }
