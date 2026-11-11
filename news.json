@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "uctn7jJKJ_o",
+     "t": "IPL 2027 Auction: Who will SRH Retain or Release?"
+    },
+    {
      "yt": "ZQXQEkLB2i0",
      "t": "IPL 2027 Auction: Who will Gujarat Titans Retain or Release?"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "pI6p5AF2c_8",
      "t": "IPL 2027 Auction: Who will LSG Retain or Release?"
-    },
-    {
-     "yt": "gTGW-n814pM",
-     "t": "IPL 2027 Auction: Who will RR Retain or Release?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-11T12:05:22Z"
+ "updated": "2026-11-11T19:32:44Z"
 }
