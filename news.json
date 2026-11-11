@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
+   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
+   "d": "Wed, 11 Nov 2026"
+  },
+  {
    "t": "Ravindra, Conway named in New Zealand squad for India Tests",
    "u": "https://www.cricinfo.com/ci/content/story/1562161.html?ex_cid=OTC-RSS",
    "d": "Wed, 11 Nov 2026"
@@ -8,11 +13,6 @@
   {
    "t": "'IPL has earned the right to influence the calendar' - KKR co-owner wants shift to January",
    "u": "https://www.cricinfo.com/ci/content/story/1562111.html?ex_cid=OTC-RSS",
-   "d": "Tue, 10 Nov 2026"
-  },
-  {
-   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
-   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
    "d": "Tue, 10 Nov 2026"
   },
   {
@@ -65,6 +65,10 @@
      "t": "Hardik to PBKS, Arshdeep to MI: Who Won the Big IPL Trade?"
     },
     {
+     "yt": "bNEM143Mg0c",
+     "t": "Rohit\u2019s career driven by 2027 ODI World Cup dream: Ambati Rayudu"
+    },
+    {
      "yt": "qCNxSFuW7wc",
      "t": "IPL 2027 Auction: Who will CSK Retain or Release?"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "gTGW-n814pM",
      "t": "IPL 2027 Auction: Who will RR Retain or Release?"
-    },
-    {
-     "yt": "E43rbOMyxnE",
-     "t": "New Zealand vs India, 3rd ODI: Preview"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-11T04:30:03Z"
+ "updated": "2026-11-11T12:05:22Z"
 }

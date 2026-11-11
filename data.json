@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T04:28:41Z",
+ "updated": "2026-11-11T12:03:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -11357,7 +11357,7 @@
       "rating": "17"
      }
     ],
-    "updated": "2026-11-03",
+    "updated": "2026-11-09",
     "bat": [
      {
       "no": "1",
@@ -11397,27 +11397,27 @@
      },
      {
       "no": "7",
+      "name": "Rahmat Shah",
+      "team": "Afghanistan",
+      "rating": "735"
+     },
+     {
+      "no": "8",
       "name": "Rishabh Pant",
       "team": "India",
       "rating": "713"
      },
      {
-      "no": "8",
+      "no": "9",
       "name": "Daryl Mitchell",
       "team": "New Zealand",
       "rating": "710"
      },
      {
-      "no": "9",
+      "no": "10",
       "name": "Shubman Gill",
       "team": "India",
       "rating": "709"
-     },
-     {
-      "no": "10",
-      "name": "Kamindu Mendis",
-      "team": "Sri Lanka",
-      "rating": "706"
      }
     ],
     "bowl": [
@@ -11546,13 +11546,13 @@
       "rating": "79"
      }
     ],
-    "updated": "2026-11-03",
+    "updated": "2026-11-07",
     "bat": [
      {
       "no": "1",
       "name": "Shubman Gill",
       "team": "India",
-      "rating": "841"
+      "rating": "822"
      },
      {
       "no": "2",
@@ -11570,7 +11570,7 @@
       "no": "4",
       "name": "Rohit Sharma",
       "team": "India",
-      "rating": "770"
+      "rating": "754"
      },
      {
       "no": "5",
@@ -11606,7 +11606,7 @@
       "no": "10",
       "name": "KL Rahul",
       "team": "India",
-      "rating": "653"
+      "rating": "657"
      }
     ],
     "bowl": [
@@ -11624,33 +11624,33 @@
      },
      {
       "no": "3",
-      "name": "Mitchell Santner",
-      "team": "New Zealand",
-      "rating": "644"
-     },
-     {
-      "no": "4",
       "name": "Abrar Ahmed",
       "team": "Pakistan",
       "rating": "642"
      },
      {
-      "no": "5",
+      "no": "4",
+      "name": "Mitchell Santner",
+      "team": "New Zealand",
+      "rating": "621"
+     },
+     {
+      "no": "=",
       "name": "Shaheen Afridi",
       "team": "Pakistan",
       "rating": "621"
      },
      {
       "no": "6",
-      "name": "Kuldeep Yadav",
-      "team": "India",
-      "rating": "620"
-     },
-     {
-      "no": "7",
       "name": "Azmatullah Omarzai",
       "team": "Afghanistan",
       "rating": "610"
+     },
+     {
+      "no": "7",
+      "name": "Kuldeep Yadav",
+      "team": "India",
+      "rating": "602"
      },
      {
       "no": "8",
@@ -12547,148 +12547,7 @@
      ]
     }
    ],
-   "groups": [
-    {
-     "name": "Group A",
-     "rows": [
-      {
-       "team": "Australia",
-       "abbr": "AUS",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "5.5"
-      },
-      {
-       "team": "Hong Kong",
-       "abbr": "HKG",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "2.75"
-      },
-      {
-       "team": "England",
-       "abbr": "ENG",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-8.25"
-      }
-     ]
-    },
-    {
-     "name": "Group B",
-     "rows": [
-      {
-       "team": "Scotland",
-       "abbr": "SCOT",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "2.417"
-      },
-      {
-       "team": "Sri Lanka",
-       "abbr": "SL",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "-0.789"
-      },
-      {
-       "team": "Bangladesh",
-       "abbr": "BAN",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-1.525"
-      }
-     ]
-    },
-    {
-     "name": "Group C",
-     "rows": [
-      {
-       "team": "United Arab Emirates",
-       "abbr": "UAE",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "3.269"
-      },
-      {
-       "team": "Pakistan",
-       "abbr": "PAK",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "3.617"
-      },
-      {
-       "team": "India",
-       "abbr": "IND",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-7.854"
-      }
-     ]
-    },
-    {
-     "name": "Group D",
-     "rows": [
-      {
-       "team": "Afghanistan",
-       "abbr": "AFG",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "1.995"
-      },
-      {
-       "team": "Oman",
-       "abbr": "OMA",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "2.77"
-      },
-      {
-       "team": "South Africa",
-       "abbr": "SA",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-4.5"
-      }
-     ]
-    }
-   ]
+   "groups": []
   },
   "women": {
    "name": "Asian Games Women's Cricket Competition",
