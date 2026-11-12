@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Rishabh Pant on his way to join India's Test squad in New Zealand",
+   "u": "https://www.cricinfo.com/ci/content/story/1562380.html?ex_cid=OTC-RSS",
+   "d": "Thu, 12 Nov 2026"
+  },
+  {
+   "t": "NZ look to avoid series defeat with batters set to get a boost",
+   "u": "https://www.cricinfo.com/ci/content/story/1562289.html?ex_cid=OTC-RSS",
+   "d": "Thu, 12 Nov 2026"
+  },
+  {
+   "t": "World Test Championship expansion to be debated at ICC meeting",
+   "u": "https://www.cricinfo.com/ci/content/story/1562299.html?ex_cid=OTC-RSS",
+   "d": "Thu, 12 Nov 2026"
+  },
+  {
    "t": "Suryakumar ready to bounce back from 'very difficult' phase",
    "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
    "d": "Wed, 11 Nov 2026"
@@ -28,27 +43,12 @@
   {
    "t": "Gambhir & Co to split up after third ODI to get Test series preps underway",
    "u": "https://www.cricinfo.com/ci/content/story/1561929.html?ex_cid=OTC-RSS",
-   "d": "Mon, 09 Nov 2026"
+   "d": "Thu, 12 Nov 2026"
   },
   {
    "t": "New Zealand's winning streak at home under threat in Hamilton",
    "u": "https://www.cricinfo.com/ci/content/story/1561956.html?ex_cid=OTC-RSS",
    "d": "Mon, 09 Nov 2026"
-  },
-  {
-   "t": "'In hindsight, it's a good thing' - seaming conditions could be a blessing in disguise",
-   "u": "https://www.cricinfo.com/ci/content/story/1561942.html?ex_cid=OTC-RSS",
-   "d": "Mon, 09 Nov 2026"
-  },
-  {
-   "t": "India A include Badoni for Rising Stars Asia Cup after Patidar opts out",
-   "u": "https://www.cricinfo.com/ci/content/story/1561869.html?ex_cid=OTC-RSS",
-   "d": "Sun, 08 Nov 2026"
-  },
-  {
-   "t": "Hamilton ODI: more wet weather, more uncertainty around the pitch",
-   "u": "https://www.cricinfo.com/ci/content/story/1561856.html?ex_cid=OTC-RSS",
-   "d": "Sun, 08 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "YIPAe3oFKNg",
+     "t": "Will the 2027 ODI World Cup define Gambhir\u2019s legacy?"
+    },
+    {
+     "yt": "AuT2QQntzDs",
+     "t": "New Zealand vs India, 4th ODI: Preview"
+    },
     {
      "yt": "uctn7jJKJ_o",
      "t": "IPL 2027 Auction: Who will SRH Retain or Release?"
@@ -71,14 +79,6 @@
     {
      "yt": "bNEM143Mg0c",
      "t": "Rohit\u2019s career driven by 2027 ODI World Cup dream: Ambati Rayudu"
-    },
-    {
-     "yt": "qCNxSFuW7wc",
-     "t": "IPL 2027 Auction: Who will CSK Retain or Release?"
-    },
-    {
-     "yt": "pI6p5AF2c_8",
-     "t": "IPL 2027 Auction: Who will LSG Retain or Release?"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-12T01:41:15Z"
+ "updated": "2026-11-12T17:10:14Z"
 }
