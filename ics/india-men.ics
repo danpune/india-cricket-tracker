@@ -108,14 +108,6 @@ LOCATION:JSCA International Stadium Complex  Ranchi
 DESCRIPTION:Australia tour of India 2026/27 - Day 1 start; Tests run up to 5 days
 END:VEVENT
 BEGIN:VEVENT
-UID:espn_1539440@india-cricket-tracker
-DTSTART:20261113T020000Z
-DTEND:20261113T103000Z
-SUMMARY:New Zealand v India 🏏 4th ODI
-LOCATION:Bay Oval  Mount Maunganui
-DESCRIPTION:India tour of New Zealand 2026/27
-END:VEVENT
-BEGIN:VEVENT
 UID:espn_1539441@india-cricket-tracker
 DTSTART:20261115T020000Z
 DTEND:20261115T103000Z
