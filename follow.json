@@ -7,6 +7,7 @@
    "pattern": "s[ou]{1,2}ryavanshi",
    "espnId": "1408688",
    "teams": [
+    "Bihar",
     "East Zone",
     "Rajasthan Royals"
    ],
@@ -91,7 +92,16 @@
     "1546596",
     "1546597",
     "1546598",
-    "1546599"
+    "1546599",
+    "1546659",
+    "1546661",
+    "1546663",
+    "1546665",
+    "1546667",
+    "1546668",
+    "1546671",
+    "1546675",
+    "1546676"
    ],
    "appearances": [
     {
@@ -400,6 +410,23 @@
      ],
      "bowl2": null,
      "won": true
+    },
+    {
+     "date": "2026-11-14",
+     "comp": "Syed Mushtaq Ali Trophy",
+     "label": "Elite, Group B",
+     "team": "Bihar",
+     "vs": "Saurashtra",
+     "city": "",
+     "bat": [
+      18,
+      12,
+      "c"
+     ],
+     "bat2": null,
+     "bowl": null,
+     "bowl2": null,
+     "won": false
     }
    ]
   }
