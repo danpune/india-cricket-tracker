@@ -1,6 +1,36 @@
 {
  "headlines": [
   {
+   "t": "Ulva pulls off heist as India lift Under-19s Asia Cup after thriller against Pakistan",
+   "u": "https://www.cricinfo.com/ci/content/story/1562642.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
+   "t": "Suryakumar ready to 'knock down' selectors' door for India comeback",
+   "u": "https://www.cricinfo.com/ci/content/story/1562646.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
+   "t": "Sooryavanshi becomes youngest captain in men's T20 history",
+   "u": "https://www.cricinfo.com/ci/content/story/1562583.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
+   "t": "Gurnoor Brar replaces Kuldeep Yadav in India's Test squad",
+   "u": "https://www.cricinfo.com/ci/content/story/1562572.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
+   "t": "Pakistan ask India to field in Under-19 Asia Cup final",
+   "u": "https://www.cricinfo.com/ci/content/story/1562576.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
+   "t": "Streak broken, New Zealand hope to prevent rare overseas ODI series win for India",
+   "u": "https://www.cricinfo.com/ci/content/story/1562570.html?ex_cid=OTC-RSS",
+   "d": "Sat, 14 Nov 2026"
+  },
+  {
    "t": "Gambhir 'concerned' by India's frequent ODI batting collapses",
    "u": "https://www.cricinfo.com/ci/content/story/1562520.html?ex_cid=OTC-RSS",
    "d": "Fri, 13 Nov 2026"
@@ -19,36 +49,6 @@
    "t": "NZ look to avoid series defeat with batters set to get a boost",
    "u": "https://www.cricinfo.com/ci/content/story/1562289.html?ex_cid=OTC-RSS",
    "d": "Thu, 12 Nov 2026"
-  },
-  {
-   "t": "World Test Championship expansion to be debated at ICC meeting",
-   "u": "https://www.cricinfo.com/ci/content/story/1562299.html?ex_cid=OTC-RSS",
-   "d": "Thu, 12 Nov 2026"
-  },
-  {
-   "t": "Suryakumar ready to bounce back from 'very difficult' phase",
-   "u": "https://www.cricinfo.com/ci/content/story/1562147.html?ex_cid=OTC-RSS",
-   "d": "Wed, 11 Nov 2026"
-  },
-  {
-   "t": "Ravindra, Conway named in New Zealand squad for India Tests",
-   "u": "https://www.cricinfo.com/ci/content/story/1562161.html?ex_cid=OTC-RSS",
-   "d": "Wed, 11 Nov 2026"
-  },
-  {
-   "t": "'IPL has earned the right to influence the calendar' - KKR co-owner wants shift to January",
-   "u": "https://www.cricinfo.com/ci/content/story/1562111.html?ex_cid=OTC-RSS",
-   "d": "Tue, 10 Nov 2026"
-  },
-  {
-   "t": "India hold on to series lead after washout as New Zealand's winning streak ends",
-   "u": "https://www.cricinfo.com/ci/content/story/1562092.html?ex_cid=OTC-RSS",
-   "d": "Tue, 10 Nov 2026"
-  },
-  {
-   "t": "Unchanged India bowl in rain-reduced 40-over contest",
-   "u": "https://www.cricinfo.com/ci/content/story/1562080.html?ex_cid=OTC-RSS",
-   "d": "Tue, 10 Nov 2026"
   }
  ],
  "talk": [
@@ -57,28 +57,28 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "m3PZgxhXKSQ",
+     "t": "Don\u2019t think Siraj is high on India\u2019s 2027 WC plans: Dinesh Karthik"
+    },
+    {
+     "yt": "moumtejxwIA",
+     "t": "Preview: New Zealand vs India, 5th ODI"
+    },
+    {
+     "yt": "jL_tLTLWJ7o",
+     "t": "Rating IPL\u2019s Biggest Trades: Hardik to PBKS, Samson to CSK & more!"
+    },
+    {
+     "yt": "qB_F9Zucv98",
+     "t": "Sandpaper Gate: Cummins vs Khawaja \u2013 What\u2019s the Truth?"
+    },
+    {
      "yt": "YIPAe3oFKNg",
      "t": "Will the 2027 ODI World Cup define Gambhir\u2019s legacy?"
     },
     {
      "yt": "AuT2QQntzDs",
      "t": "New Zealand vs India, 4th ODI: Preview"
-    },
-    {
-     "yt": "uctn7jJKJ_o",
-     "t": "IPL 2027 Auction: Who will SRH Retain or Release?"
-    },
-    {
-     "yt": "ZQXQEkLB2i0",
-     "t": "IPL 2027 Auction: Who will Gujarat Titans Retain or Release?"
-    },
-    {
-     "yt": "uQg8hUifp1o",
-     "t": "Hardik to PBKS, Arshdeep to MI: Who Won the Big IPL Trade?"
-    },
-    {
-     "yt": "bNEM143Mg0c",
-     "t": "Rohit\u2019s career driven by 2027 ODI World Cup dream: Ambati Rayudu"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T03:30:36Z"
+ "updated": "2026-11-14T16:45:57Z"
 }

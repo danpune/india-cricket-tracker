@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T03:29:00Z",
+ "updated": "2026-11-14T16:44:35Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -10224,35 +10224,6 @@
    ],
    "result": "New Zealand won by 244 runs",
    "india": "lost",
-   "seriesNote": "India led the 5-match series 2-1",
-   "xi": {
-    "New Zealand": [
-     "Will Young",
-     "Tim Seifert",
-     "Nick Kelly",
-     "Dean Foxcroft",
-     "Finn Allen",
-     "Michael Bracewell",
-     "Mitchell Santner (c)",
-     "Kristian Clarke",
-     "Kyle Jamieson",
-     "Matt Henry",
-     "Matthew Fisher"
-    ],
-    "India": [
-     "Rohit Sharma",
-     "Ruturaj Gaikwad",
-     "Virat Kohli",
-     "Shreyas Iyer (c)",
-     "Ishan Kishan",
-     "Axar Patel",
-     "Naman Dhir",
-     "Auqib Nabi",
-     "Kuldeep Yadav",
-     "Gurnoor Brar",
-     "Arshdeep Singh"
-    ]
-   },
    "innings": [
     {
      "t": "New Zealand",
@@ -10499,7 +10470,7 @@
      "winner": false
     }
    ],
-   "result": "",
+   "result": "Starts at 15:00 local time",
    "india": ""
   },
   {
@@ -12252,68 +12223,68 @@
     {
      "date": "2026-11-14T03:00Z",
      "desc": "Plate Group",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Sovima Cricket Ground, Sovima",
      "teams": [
       {
        "name": "Arunachal Pradesh",
-       "score": ""
+       "score": "106/9 (20 ov, target 168)"
       },
       {
        "name": "Manipur",
-       "score": "52/2 (7/20 ov)"
+       "score": "167/9"
       }
      ]
     },
     {
      "date": "2026-11-14T03:00Z",
      "desc": "Plate Group",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Nagaland Cricket Stadium, Sovima",
      "teams": [
       {
        "name": "Nagaland",
-       "score": ""
+       "score": "147/4 (20 ov, target 166)"
       },
       {
        "name": "Meghalaya",
-       "score": "56/2 (6/20 ov)"
+       "score": "165/6"
       }
      ]
     },
     {
      "date": "2026-11-14T03:30Z",
      "desc": "Elite, Group A",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "post",
+     "detail": "Final",
      "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
      "teams": [
       {
        "name": "Chandigarh",
-       "score": ""
+       "score": "149/7 (19.5/20 ov, target 149)"
       },
       {
        "name": "Baroda",
-       "score": ""
+       "score": "148/6"
       }
      ]
     },
     {
      "date": "2026-11-14T03:30Z",
      "desc": "Elite, Group D",
-     "state": "in",
-     "detail": "Live",
+     "state": "post",
+     "detail": "Final",
      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
      "teams": [
       {
        "name": "Hyderabad (India)",
-       "score": "101/4 (11.2/20 ov)"
+       "score": "172"
       },
       {
        "name": "Mumbai",
-       "score": ""
+       "score": "174/3 (13.1/20 ov, target 173)"
       }
      ]
     }
@@ -12540,323 +12511,6 @@
        "name": "Australia",
        "abbr": "AUS",
        "score": "115/5",
-       "winner": false
-      }
-     ]
-    }
-   ],
-   "groups": [
-    {
-     "name": "Group A",
-     "rows": [
-      {
-       "team": "Australia",
-       "abbr": "AUS",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "5.5"
-      },
-      {
-       "team": "Hong Kong",
-       "abbr": "HKG",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "2.75"
-      },
-      {
-       "team": "England",
-       "abbr": "ENG",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-8.25"
-      }
-     ]
-    },
-    {
-     "name": "Group B",
-     "rows": [
-      {
-       "team": "Scotland",
-       "abbr": "SCOT",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "2.417"
-      },
-      {
-       "team": "Sri Lanka",
-       "abbr": "SL",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "-0.789"
-      },
-      {
-       "team": "Bangladesh",
-       "abbr": "BAN",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-1.525"
-      }
-     ]
-    },
-    {
-     "name": "Group C",
-     "rows": [
-      {
-       "team": "United Arab Emirates",
-       "abbr": "UAE",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "3.269"
-      },
-      {
-       "team": "Pakistan",
-       "abbr": "PAK",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "3.617"
-      },
-      {
-       "team": "India",
-       "abbr": "IND",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-7.854"
-      }
-     ]
-    },
-    {
-     "name": "Group D",
-     "rows": [
-      {
-       "team": "Afghanistan",
-       "abbr": "AFG",
-       "p": "2",
-       "w": "2",
-       "l": "0",
-       "nr": "0",
-       "pts": "4",
-       "nrr": "1.995"
-      },
-      {
-       "team": "Oman",
-       "abbr": "OMA",
-       "p": "2",
-       "w": "1",
-       "l": "1",
-       "nr": "0",
-       "pts": "2",
-       "nrr": "2.77"
-      },
-      {
-       "team": "South Africa",
-       "abbr": "SA",
-       "p": "2",
-       "w": "0",
-       "l": "2",
-       "nr": "0",
-       "pts": "0",
-       "nrr": "-4.5"
-      }
-     ]
-    }
-   ]
-  },
-  "women": {
-   "name": "Asian Games Women's Cricket Competition",
-   "leagueId": "22546",
-   "matches": [
-    {
-     "id": "1550474",
-     "date": "2026-09-17T00:00Z",
-     "round": "1st Quarter-Final",
-     "state": "post",
-     "detail": "Match abandoned without a ball bowled",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "",
-       "winner": false
-      },
-      {
-       "name": "China Women",
-       "abbr": "CHN-W",
-       "score": "",
-       "winner": false
-      }
-     ],
-     "advanced": "Bangladesh Women advanced"
-    },
-    {
-     "id": "1550475",
-     "date": "2026-09-17T05:00Z",
-     "round": "2nd Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "92/7 (10.4/11 ov, target 92)",
-       "winner": true
-      },
-      {
-       "name": "Thailand Women",
-       "abbr": "THA-W",
-       "score": "91/4 (11/11 ov)",
-       "winner": false
-      }
-     ]
-    },
-    {
-     "id": "1550476",
-     "date": "2026-09-18T00:00Z",
-     "round": "3rd Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Malaysia Women",
-       "abbr": "MAL-W",
-       "score": "74/7 (20 ov, target 161)",
-       "winner": false
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "160/4",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550477",
-     "date": "2026-09-18T05:00Z",
-     "round": "4th Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Japan Women",
-       "abbr": "JPN-W",
-       "score": "57",
-       "winner": false
-      },
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "59/2 (5/20 ov, target 58)",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550478",
-     "date": "2026-09-20T00:00Z",
-     "round": "1st Semi-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "177/4",
-       "winner": false
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "178/2 (17.5/20 ov, target 178)",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550479",
-     "date": "2026-09-20T05:00Z",
-     "round": "2nd Semi-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "81 (15.4/20 ov, target 196)",
-       "winner": false
-      },
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "195/4",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550480",
-     "date": "2026-09-22T00:00Z",
-     "round": "3rd Place Play-off",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "114/7 (20 ov, target 146)",
-       "winner": false
-      },
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "145/8",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550481",
-     "date": "2026-09-22T05:00Z",
-     "round": "Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "216/3",
-       "winner": true
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "69 (15.4/20 ov, target 217)",
        "winner": false
       }
      ]
