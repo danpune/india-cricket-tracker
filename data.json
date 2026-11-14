@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:44:35Z",
+ "updated": "2026-11-14T20:57:23Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -2815,514 +2815,7 @@
     }
    ],
    "result": "India won by 6 wkts",
-   "india": "won",
-   "xi": {
-    "Sri Lanka Cricket XI": [
-     "Nishan Madushka",
-     "Ravindu Rasantha",
-     "Pasindu Sooriyabandara",
-     "Pavan Rathnayake",
-     "Ahan Wickramasinghe",
-     "Sonal Dinusha (c)",
-     "Anjala Bandara",
-     "Ramesh Mendis",
-     "Keshara Nuwantha",
-     "Dilum Sudeera",
-     "Isitha Wijesundara",
-     "Nipun Dhananjaya",
-     "Asanka Manoj",
-     "Lahiru Kumara",
-     "Vishwa Fernando"
-    ],
-    "India": [
-     "Yashasvi Jaiswal",
-     "KL Rahul (c)",
-     "Devdutt Padikkal",
-     "Ravindra Jadeja",
-     "Rishabh Pant",
-     "Dhruv Jurel",
-     "Manav Suthar",
-     "Kuldeep Yadav",
-     "Mohammed Siraj",
-     "Saransh Jain",
-     "Gurnoor Brar",
-     "Prasidh Krishna",
-     "Shubman Gill",
-     "Sai Sudharsan",
-     "Auqib Nabi"
-    ]
-   },
-   "innings": [
-    {
-     "t": "Sri Lanka Cricket XI",
-     "total": "363/8 (90.0 ov)",
-     "bat": [
-      [
-       "Nishan Madushka",
-       66,
-       65,
-       "run out"
-      ],
-      [
-       "Ravindu Rasantha",
-       71,
-       143,
-       "c"
-      ],
-      [
-       "Pasindu Sooriyabandara",
-       35,
-       63,
-       "b"
-      ],
-      [
-       "Pavan Rathnayake",
-       39,
-       47,
-       "c"
-      ],
-      [
-       "Ahan Wickramasinghe",
-       31,
-       43,
-       "c"
-      ],
-      [
-       "Sonal Dinusha",
-       52,
-       72,
-       "lbw"
-      ],
-      [
-       "Anjala Bandara",
-       13,
-       35,
-       "lbw"
-      ],
-      [
-       "Ramesh Mendis",
-       32,
-       49,
-       "c"
-      ],
-      [
-       "Keshara Nuwantha",
-       9,
-       20,
-       "not out"
-      ],
-      [
-       "Dilum Sudeera",
-       1,
-       5,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Isitha Wijesundara",
-      "Nipun Dhananjaya",
-      "Asanka Manoj",
-      "Lahiru Kumara",
-      "Vishwa Fernando"
-     ],
-     "bowl": [
-      [
-       "Ravindra Jadeja",
-       "15",
-       64,
-       2
-      ],
-      [
-       "Manav Suthar",
-       "13",
-       33,
-       2
-      ],
-      [
-       "Kuldeep Yadav",
-       "18",
-       76,
-       2
-      ],
-      [
-       "Mohammed Siraj",
-       "13",
-       44,
-       0
-      ],
-      [
-       "Saransh Jain",
-       "11",
-       54,
-       0
-      ],
-      [
-       "Gurnoor Brar",
-       "12",
-       49,
-       1
-      ],
-      [
-       "Prasidh Krishna",
-       "8",
-       32,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "357/6 (90.0 ov)",
-     "bat": [
-      [
-       "Yashasvi Jaiswal",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "KL Rahul",
-       40,
-       67,
-       "b"
-      ],
-      [
-       "Devdutt Padikkal",
-       142,
-       164,
-       "not out"
-      ],
-      [
-       "Ravindra Jadeja",
-       63,
-       117,
-       "retired not out"
-      ],
-      [
-       "Rishabh Pant",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Dhruv Jurel",
-       1,
-       9,
-       "c"
-      ],
-      [
-       "Manav Suthar",
-       41,
-       90,
-       "lbw"
-      ],
-      [
-       "Kuldeep Yadav",
-       1,
-       15,
-       "retired not out"
-      ],
-      [
-       "Mohammed Siraj",
-       1,
-       8,
-       "c"
-      ],
-      [
-       "Saransh Jain",
-       22,
-       45,
-       "retired not out"
-      ],
-      [
-       "Gurnoor Brar",
-       36,
-       18,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Prasidh Krishna",
-      "Shubman Gill",
-      "Sai Sudharsan",
-      "Auqib Nabi"
-     ],
-     "bowl": [
-      [
-       "Sonal Dinusha",
-       "4",
-       9,
-       0
-      ],
-      [
-       "Ramesh Mendis",
-       "18",
-       77,
-       2
-      ],
-      [
-       "Keshara Nuwantha",
-       "17",
-       40,
-       1
-      ],
-      [
-       "Dilum Sudeera",
-       "9",
-       58,
-       0
-      ],
-      [
-       "Isitha Wijesundara",
-       "8",
-       51,
-       0
-      ],
-      [
-       "Asanka Manoj",
-       "8",
-       32,
-       2
-      ],
-      [
-       "Lahiru Kumara",
-       "12",
-       42,
-       0
-      ],
-      [
-       "Vishwa Fernando",
-       "14",
-       42,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "Sri Lanka Cricket XI",
-     "total": "200/6 (45.0 ov)",
-     "bat": [
-      [
-       "Nishan Madushka",
-       63,
-       73,
-       "retired not out"
-      ],
-      [
-       "Ravindu Rasantha",
-       8,
-       16,
-       "lbw"
-      ],
-      [
-       "Pasindu Sooriyabandara",
-       4,
-       7,
-       "b"
-      ],
-      [
-       "Pavan Rathnayake",
-       16,
-       32,
-       "c"
-      ],
-      [
-       "Anjala Bandara",
-       35,
-       48,
-       "c"
-      ],
-      [
-       "Nipun Dhananjaya",
-       46,
-       56,
-       "st"
-      ],
-      [
-       "Sonal Dinusha",
-       9,
-       14,
-       "c"
-      ],
-      [
-       "Ramesh Mendis",
-       16,
-       19,
-       "not out"
-      ],
-      [
-       "Keshara Nuwantha",
-       1,
-       5,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Ahan Wickramasinghe",
-      "Dilum Sudeera",
-      "Isitha Wijesundara",
-      "Asanka Manoj",
-      "Lahiru Kumara",
-      "Vishwa Fernando"
-     ],
-     "bowl": [
-      [
-       "Ravindra Jadeja",
-       "7",
-       33,
-       2
-      ],
-      [
-       "Manav Suthar",
-       "5",
-       26,
-       0
-      ],
-      [
-       "Mohammed Siraj",
-       "8",
-       25,
-       1
-      ],
-      [
-       "Saransh Jain",
-       "4",
-       16,
-       0
-      ],
-      [
-       "Gurnoor Brar",
-       "8",
-       37,
-       2
-      ],
-      [
-       "Prasidh Krishna",
-       "8",
-       35,
-       1
-      ],
-      [
-       "Auqib Nabi",
-       "5",
-       27,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "214/4 (45.0 ov)",
-     "bat": [
-      [
-       "Yashasvi Jaiswal",
-       61,
-       46,
-       "retired not out"
-      ],
-      [
-       "Shubman Gill",
-       44,
-       54,
-       "c"
-      ],
-      [
-       "Rishabh Pant",
-       28,
-       68,
-       "c"
-      ],
-      [
-       "Dhruv Jurel",
-       17,
-       20,
-       "c"
-      ],
-      [
-       "Ravindra Jadeja",
-       22,
-       32,
-       "retired not out"
-      ],
-      [
-       "Manav Suthar",
-       4,
-       24,
-       "retired not out"
-      ],
-      [
-       "Gurnoor Brar",
-       2,
-       5,
-       "c"
-      ],
-      [
-       "Saransh Jain",
-       2,
-       7,
-       "not out"
-      ],
-      [
-       "Mohammed Siraj",
-       32,
-       15,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "KL Rahul",
-      "Devdutt Padikkal",
-      "Kuldeep Yadav",
-      "Prasidh Krishna",
-      "Sai Sudharsan",
-      "Auqib Nabi"
-     ],
-     "bowl": [
-      [
-       "Sonal Dinusha",
-       "5",
-       22,
-       0
-      ],
-      [
-       "Ramesh Mendis",
-       "13",
-       53,
-       1
-      ],
-      [
-       "Keshara Nuwantha",
-       "10",
-       57,
-       2
-      ],
-      [
-       "Dilum Sudeera",
-       "4",
-       9,
-       0
-      ],
-      [
-       "Isitha Wijesundara",
-       "3",
-       9,
-       0
-      ],
-      [
-       "Lahiru Kumara",
-       "4",
-       29,
-       0
-      ],
-      [
-       "Vishwa Fernando",
-       "6",
-       34,
-       1
-      ]
-     ]
-    }
-   ]
+   "india": "won"
   },
   {
    "id": "espn_1544001",
@@ -12221,70 +11714,70 @@
    "more": 15,
    "matches": [
     {
-     "date": "2026-11-14T03:00Z",
+     "date": "2026-11-16T03:00Z",
      "desc": "Plate Group",
-     "state": "post",
-     "detail": "Final",
+     "state": "pre",
+     "detail": "Scheduled",
      "venue": "Sovima Cricket Ground, Sovima",
      "teams": [
       {
-       "name": "Arunachal Pradesh",
-       "score": "106/9 (20 ov, target 168)"
+       "name": "Nagaland",
+       "score": ""
       },
       {
        "name": "Manipur",
-       "score": "167/9"
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-14T03:00Z",
+     "date": "2026-11-16T03:00Z",
      "desc": "Plate Group",
-     "state": "post",
-     "detail": "Final",
+     "state": "pre",
+     "detail": "Scheduled",
      "venue": "Nagaland Cricket Stadium, Sovima",
      "teams": [
       {
-       "name": "Nagaland",
-       "score": "147/4 (20 ov, target 166)"
+       "name": "Sikkim",
+       "score": ""
       },
       {
-       "name": "Meghalaya",
-       "score": "165/6"
+       "name": "Arunachal Pradesh",
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-14T03:30Z",
-     "desc": "Elite, Group A",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+     "date": "2026-11-16T03:30Z",
+     "desc": "Elite, Group C",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "I.S. Bindra Punjab Cricket Association Stadium",
      "teams": [
       {
-       "name": "Chandigarh",
-       "score": "149/7 (19.5/20 ov, target 149)"
+       "name": "Himachal Pradesh",
+       "score": ""
       },
       {
-       "name": "Baroda",
-       "score": "148/6"
+       "name": "Andhra",
+       "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-14T03:30Z",
-     "desc": "Elite, Group D",
-     "state": "post",
-     "detail": "Final",
-     "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+     "date": "2026-11-16T03:30Z",
+     "desc": "Elite, Group B",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Daly College Ground, Indore",
      "teams": [
       {
-       "name": "Hyderabad (India)",
-       "score": "172"
+       "name": "Railways",
+       "score": ""
       },
       {
-       "name": "Mumbai",
-       "score": "174/3 (13.1/20 ov, target 173)"
+       "name": "Bihar",
+       "score": ""
       }
      ]
     }
@@ -12511,6 +12004,323 @@
        "name": "Australia",
        "abbr": "AUS",
        "score": "115/5",
+       "winner": false
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "name": "Group A",
+     "rows": [
+      {
+       "team": "Australia",
+       "abbr": "AUS",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "5.5"
+      },
+      {
+       "team": "Hong Kong",
+       "abbr": "HKG",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "2.75"
+      },
+      {
+       "team": "England",
+       "abbr": "ENG",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-8.25"
+      }
+     ]
+    },
+    {
+     "name": "Group B",
+     "rows": [
+      {
+       "team": "Scotland",
+       "abbr": "SCOT",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "2.417"
+      },
+      {
+       "team": "Sri Lanka",
+       "abbr": "SL",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "-0.789"
+      },
+      {
+       "team": "Bangladesh",
+       "abbr": "BAN",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-1.525"
+      }
+     ]
+    },
+    {
+     "name": "Group C",
+     "rows": [
+      {
+       "team": "United Arab Emirates",
+       "abbr": "UAE",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "3.269"
+      },
+      {
+       "team": "Pakistan",
+       "abbr": "PAK",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "3.617"
+      },
+      {
+       "team": "India",
+       "abbr": "IND",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-7.854"
+      }
+     ]
+    },
+    {
+     "name": "Group D",
+     "rows": [
+      {
+       "team": "Afghanistan",
+       "abbr": "AFG",
+       "p": "2",
+       "w": "2",
+       "l": "0",
+       "nr": "0",
+       "pts": "4",
+       "nrr": "1.995"
+      },
+      {
+       "team": "Oman",
+       "abbr": "OMA",
+       "p": "2",
+       "w": "1",
+       "l": "1",
+       "nr": "0",
+       "pts": "2",
+       "nrr": "2.77"
+      },
+      {
+       "team": "South Africa",
+       "abbr": "SA",
+       "p": "2",
+       "w": "0",
+       "l": "2",
+       "nr": "0",
+       "pts": "0",
+       "nrr": "-4.5"
+      }
+     ]
+    }
+   ]
+  },
+  "women": {
+   "name": "Asian Games Women's Cricket Competition",
+   "leagueId": "22546",
+   "matches": [
+    {
+     "id": "1550474",
+     "date": "2026-09-17T00:00Z",
+     "round": "1st Quarter-Final",
+     "state": "post",
+     "detail": "Match abandoned without a ball bowled",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "",
+       "winner": false
+      },
+      {
+       "name": "China Women",
+       "abbr": "CHN-W",
+       "score": "",
+       "winner": false
+      }
+     ],
+     "advanced": "Bangladesh Women advanced"
+    },
+    {
+     "id": "1550475",
+     "date": "2026-09-17T05:00Z",
+     "round": "2nd Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "92/7 (10.4/11 ov, target 92)",
+       "winner": true
+      },
+      {
+       "name": "Thailand Women",
+       "abbr": "THA-W",
+       "score": "91/4 (11/11 ov)",
+       "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1550476",
+     "date": "2026-09-18T00:00Z",
+     "round": "3rd Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Malaysia Women",
+       "abbr": "MAL-W",
+       "score": "74/7 (20 ov, target 161)",
+       "winner": false
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "160/4",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550477",
+     "date": "2026-09-18T05:00Z",
+     "round": "4th Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Japan Women",
+       "abbr": "JPN-W",
+       "score": "57",
+       "winner": false
+      },
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "59/2 (5/20 ov, target 58)",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550478",
+     "date": "2026-09-20T00:00Z",
+     "round": "1st Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "177/4",
+       "winner": false
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "178/2 (17.5/20 ov, target 178)",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550479",
+     "date": "2026-09-20T05:00Z",
+     "round": "2nd Semi-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "81 (15.4/20 ov, target 196)",
+       "winner": false
+      },
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "195/4",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550480",
+     "date": "2026-09-22T00:00Z",
+     "round": "3rd Place Play-off",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Bangladesh Women",
+       "abbr": "BAN-W",
+       "score": "114/7 (20 ov, target 146)",
+       "winner": false
+      },
+      {
+       "name": "Pakistan Women",
+       "abbr": "PAK-W",
+       "score": "145/8",
+       "winner": true
+      }
+     ]
+    },
+    {
+     "id": "1550481",
+     "date": "2026-09-22T05:00Z",
+     "round": "Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "India Women",
+       "abbr": "IND-W",
+       "score": "216/3",
+       "winner": true
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "69 (15.4/20 ov, target 217)",
        "winner": false
       }
      ]
