@@ -40034,6 +40034,246 @@
    "result": "No result (abandoned with a toss)",
    "india": "nr",
    "innings": []
+  },
+  {
+   "id": "espn_1539440",
+   "date": "2026-11-13",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "4th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "333"
+    },
+    {
+     "name": "India",
+     "score": "89 (26.4/50 ov, target 334)"
+    }
+   ],
+   "result": "New Zealand won by 244 runs",
+   "india": "lost",
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "333 (50.0 ov)",
+     "bat": [
+      [
+       "Will Young",
+       125,
+       108,
+       "c"
+      ],
+      [
+       "Tim Seifert",
+       58,
+       48,
+       "c"
+      ],
+      [
+       "Nick Kelly",
+       4,
+       8,
+       "st"
+      ],
+      [
+       "Dean Foxcroft",
+       8,
+       13,
+       "c"
+      ],
+      [
+       "Finn Allen",
+       41,
+       30,
+       "c"
+      ],
+      [
+       "Michael Bracewell",
+       15,
+       20,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       24,
+       29,
+       "c"
+      ],
+      [
+       "Kristian Clarke",
+       22,
+       22,
+       "lbw"
+      ],
+      [
+       "Kyle Jamieson",
+       19,
+       21,
+       "not out"
+      ],
+      [
+       "Matt Henry",
+       2,
+       2,
+       "run out"
+      ],
+      [
+       "Matthew Fisher",
+       1,
+       1,
+       "run out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Axar Patel",
+       "10",
+       39,
+       2
+      ],
+      [
+       "Naman Dhir",
+       "4",
+       29,
+       1
+      ],
+      [
+       "Auqib Nabi",
+       "8",
+       59,
+       2
+      ],
+      [
+       "Kuldeep Yadav",
+       "8",
+       73,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "10",
+       69,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "10",
+       55,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "89 (26.4 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       0,
+       1,
+       "c"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       5,
+       13,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       0,
+       4,
+       "b"
+      ],
+      [
+       "Shreyas Iyer",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Ishan Kishan",
+       27,
+       53,
+       "b"
+      ],
+      [
+       "Axar Patel",
+       21,
+       36,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       21,
+       24,
+       "c"
+      ],
+      [
+       "Auqib Nabi",
+       5,
+       8,
+       "c"
+      ],
+      [
+       "Kuldeep Yadav",
+       1,
+       4,
+       "b"
+      ],
+      [
+       "Gurnoor Brar",
+       2,
+       13,
+       "b"
+      ],
+      [
+       "Arshdeep Singh",
+       0,
+       3,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Michael Bracewell",
+       "2",
+       6,
+       0
+      ],
+      [
+       "Kristian Clarke",
+       "2",
+       13,
+       0
+      ],
+      [
+       "Kyle Jamieson",
+       "6",
+       12,
+       1
+      ],
+      [
+       "Matt Henry",
+       "9.4",
+       27,
+       6
+      ],
+      [
+       "Matthew Fisher",
+       "7",
+       31,
+       3
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
