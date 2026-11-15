@@ -40274,6 +40274,252 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539441",
+   "date": "2026-11-15",
+   "gender": "men",
+   "format": "ODI",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "5th ODI",
+   "venue": "Bay Oval, Mount Maunganui",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "187 (48.1/50 ov, target 210)"
+    },
+    {
+     "name": "India",
+     "score": "209"
+    }
+   ],
+   "result": "India won by 22 runs",
+   "india": "won",
+   "innings": [
+    {
+     "t": "India",
+     "total": "209 (42.1 ov)",
+     "bat": [
+      [
+       "Rohit Sharma",
+       7,
+       13,
+       "c"
+      ],
+      [
+       "Ruturaj Gaikwad",
+       18,
+       27,
+       "c"
+      ],
+      [
+       "Virat Kohli",
+       5,
+       7,
+       "c"
+      ],
+      [
+       "Shreyas Iyer",
+       22,
+       26,
+       "c"
+      ],
+      [
+       "Axar Patel",
+       46,
+       55,
+       "c"
+      ],
+      [
+       "Ishan Kishan",
+       46,
+       58,
+       "c"
+      ],
+      [
+       "Naman Dhir",
+       22,
+       31,
+       "c"
+      ],
+      [
+       "Auqib Nabi",
+       5,
+       9,
+       "c"
+      ],
+      [
+       "Yash Thakur",
+       0,
+       4,
+       "c"
+      ],
+      [
+       "Mohammed Siraj",
+       14,
+       20,
+       "not out"
+      ],
+      [
+       "Arshdeep Singh",
+       14,
+       4,
+       "b"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Michael Bracewell",
+       "10",
+       35,
+       1
+      ],
+      [
+       "Mitchell Santner",
+       "10",
+       47,
+       3
+      ],
+      [
+       "Kristian Clarke",
+       "2",
+       13,
+       0
+      ],
+      [
+       "Blair Tickner",
+       "5",
+       24,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "8.1",
+       60,
+       3
+      ],
+      [
+       "Matthew Fisher",
+       "7",
+       28,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "New Zealand",
+     "total": "187 (48.1 ov)",
+     "bat": [
+      [
+       "Will Young",
+       22,
+       42,
+       "c"
+      ],
+      [
+       "Tim Seifert",
+       14,
+       21,
+       "c"
+      ],
+      [
+       "Nick Kelly",
+       24,
+       45,
+       "b"
+      ],
+      [
+       "Dean Foxcroft",
+       31,
+       42,
+       "b"
+      ],
+      [
+       "Finn Allen",
+       1,
+       5,
+       "b"
+      ],
+      [
+       "Michael Bracewell",
+       19,
+       33,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       24,
+       31,
+       "c"
+      ],
+      [
+       "Kristian Clarke",
+       16,
+       35,
+       "c"
+      ],
+      [
+       "Blair Tickner",
+       14,
+       20,
+       "st"
+      ],
+      [
+       "Jacob Duffy",
+       9,
+       12,
+       "c"
+      ],
+      [
+       "Matthew Fisher",
+       3,
+       6,
+       "not out"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Axar Patel",
+       "6.1",
+       28,
+       2
+      ],
+      [
+       "Naman Dhir",
+       "2",
+       4,
+       1
+      ],
+      [
+       "Auqib Nabi",
+       "10",
+       37,
+       1
+      ],
+      [
+       "Yash Thakur",
+       "10",
+       38,
+       1
+      ],
+      [
+       "Mohammed Siraj",
+       "10",
+       50,
+       2
+      ],
+      [
+       "Arshdeep Singh",
+       "10",
+       30,
+       3
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

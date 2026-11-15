@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T07:29:06Z",
+ "updated": "2026-11-15T20:06:55Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -232,272 +232,6 @@
        "2",
        20,
        0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1538226",
-   "eventId": "1538226",
-   "date": "2026-05-25T10:00Z",
-   "gender": "women",
-   "format": "T20",
-   "series": "India Women tour of England 2026",
-   "seriesId": "23814",
-   "matchNo": "Tour Match",
-   "venue": "The Ambassador Cruise Line Ground, Chelmsford",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "ECB Development Women's XI",
-     "abbr": "ECB-D",
-     "score": "154/6",
-     "winner": false
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "200/6 (20 ov, target 155)",
-     "winner": true
-    }
-   ],
-   "result": "IND Women won by 7 wkts (22b rem)",
-   "india": "won",
-   "xi": {
-    "ECB Development Women's XI": [
-     "Tilly Kesteven",
-     "Liberty Heap",
-     "Ariana Dowse",
-     "Bethan Gammon",
-     "Florence Miller",
-     "Joanne Gardner",
-     "Sophia Smale (c)",
-     "Prisha Thanawala",
-     "Sophie Munro",
-     "Ellie Anderson",
-     "Clara Thaker",
-     "Maria Andrews"
-    ],
-    "India Women": [
-     "Smriti Mandhana (c)",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Bharti Fulmali",
-     "Arundhati Reddy",
-     "Jemimah Rodrigues",
-     "Shreyanka Patil",
-     "Deepti Sharma",
-     "Richa Ghosh",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "ECB Development Women's XI",
-     "total": "154/6 (20.0 ov)",
-     "bat": [
-      [
-       "Tilly Kesteven",
-       8,
-       10,
-       "c"
-      ],
-      [
-       "Liberty Heap",
-       8,
-       6,
-       "b"
-      ],
-      [
-       "Ariana Dowse",
-       13,
-       17,
-       "b"
-      ],
-      [
-       "Bethan Gammon",
-       0,
-       1,
-       "lbw"
-      ],
-      [
-       "Florence Miller",
-       48,
-       41,
-       "b"
-      ],
-      [
-       "Joanne Gardner",
-       36,
-       27,
-       "c"
-      ],
-      [
-       "Sophia Smale",
-       27,
-       18,
-       "not out"
-      ],
-      [
-       "Prisha Thanawala",
-       3,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Sophie Munro",
-      "Ellie Anderson",
-      "Clara Thaker",
-      "Maria Andrews"
-     ],
-     "bowl": [
-      [
-       "Arundhati Reddy",
-       "3",
-       29,
-       3
-      ],
-      [
-       "Shreyanka Patil",
-       "3",
-       31,
-       1
-      ],
-      [
-       "Deepti Sharma",
-       "3",
-       23,
-       1
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ],
-      [
-       "Shree Charani",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Renuka Singh",
-       "3",
-       19,
-       0
-      ],
-      [
-       "Nandani Sharma",
-       "3",
-       18,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "200/6 (20.0 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       21,
-       10,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       50,
-       25,
-       "retired out"
-      ],
-      [
-       "Yastika Bhatia",
-       47,
-       35,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       48,
-       29,
-       "st"
-      ],
-      [
-       "Arundhati Reddy",
-       20,
-       16,
-       "b"
-      ],
-      [
-       "Jemimah Rodrigues",
-       2,
-       2,
-       "not out"
-      ],
-      [
-       "Shreyanka Patil",
-       5,
-       2,
-       "run out"
-      ],
-      [
-       "Deepti Sharma",
-       2,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Richa Ghosh",
-      "Kranti Gaud",
-      "Shree Charani",
-      "Renuka Singh",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Sophia Smale",
-       "2",
-       26,
-       0
-      ],
-      [
-       "Prisha Thanawala",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Sophie Munro",
-       "4",
-       36,
-       0
-      ],
-      [
-       "Ellie Anderson",
-       "4",
-       39,
-       2
-      ],
-      [
-       "Clara Thaker",
-       "3",
-       32,
-       1
-      ],
-      [
-       "Maria Andrews",
-       "3",
-       30,
-       1
       ]
      ]
     }
@@ -1184,262 +918,7 @@
     }
    ],
    "result": "ENG Women won by 5 runs",
-   "india": "lost",
-   "xi": {
-    "England Women": [
-     "Amy Jones",
-     "Danni Wyatt-Hodge",
-     "Nat Sciver-Brunt (c)",
-     "Alice Capsey",
-     "Freya Kemp",
-     "Dani Gibson",
-     "Charlie Dean",
-     "Issy Wong",
-     "Lauren Filer",
-     "Tilly Corteen-Coleman",
-     "Sophie Ecclestone",
-     "Lauren Bell",
-     "Linsey Smith",
-     "Heather Knight",
-     "Sophia Dunkley"
-    ],
-    "India Women": [
-     "Smriti Mandhana",
-     "Shafali Verma",
-     "Yastika Bhatia",
-     "Harmanpreet Kaur (c)",
-     "Bharti Fulmali",
-     "Richa Ghosh",
-     "Radha Yadav",
-     "Shreyanka Patil",
-     "Kranti Gaud",
-     "Shree Charani",
-     "Renuka Singh",
-     "Arundhati Reddy",
-     "Deepti Sharma",
-     "Jemimah Rodrigues",
-     "Nandani Sharma"
-    ]
-   },
-   "innings": [
-    {
-     "t": "England Women",
-     "total": "171/6 (20.0 ov)",
-     "bat": [
-      [
-       "Amy Jones",
-       64,
-       45,
-       "b"
-      ],
-      [
-       "Danni Wyatt-Hodge",
-       3,
-       6,
-       "c"
-      ],
-      [
-       "Nat Sciver-Brunt",
-       57,
-       45,
-       "c"
-      ],
-      [
-       "Alice Capsey",
-       2,
-       4,
-       "c"
-      ],
-      [
-       "Freya Kemp",
-       7,
-       6,
-       "c"
-      ],
-      [
-       "Dani Gibson",
-       30,
-       12,
-       "not out"
-      ],
-      [
-       "Charlie Dean",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Issy Wong",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Lauren Filer",
-      "Tilly Corteen-Coleman",
-      "Sophie Ecclestone",
-      "Lauren Bell",
-      "Linsey Smith",
-      "Heather Knight",
-      "Sophia Dunkley"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "2",
-       18,
-       1
-      ],
-      [
-       "Radha Yadav",
-       "4",
-       38,
-       1
-      ],
-      [
-       "Shreyanka Patil",
-       "4",
-       29,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Shree Charani",
-       "3",
-       24,
-       1
-      ],
-      [
-       "Renuka Singh",
-       "4",
-       44,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "166 (19.5 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       1,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       13,
-       6,
-       "b"
-      ],
-      [
-       "Yastika Bhatia",
-       15,
-       17,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       17,
-       18,
-       "c"
-      ],
-      [
-       "Bharti Fulmali",
-       18,
-       17,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       68,
-       36,
-       "st"
-      ],
-      [
-       "Radha Yadav",
-       16,
-       9,
-       "c"
-      ],
-      [
-       "Shreyanka Patil",
-       1,
-       5,
-       "c"
-      ],
-      [
-       "Kranti Gaud",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Shree Charani",
-       6,
-       3,
-       "not out"
-      ],
-      [
-       "Renuka Singh",
-       0,
-       1,
-       "c"
-      ]
-     ],
-     "dnb": [
-      "Arundhati Reddy",
-      "Deepti Sharma",
-      "Jemimah Rodrigues",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Dani Gibson",
-       "2",
-       17,
-       2
-      ],
-      [
-       "Charlie Dean",
-       "3",
-       16,
-       2
-      ],
-      [
-       "Issy Wong",
-       "4",
-       42,
-       1
-      ],
-      [
-       "Lauren Filer",
-       "3",
-       27,
-       0
-      ],
-      [
-       "Tilly Corteen-Coleman",
-       "4",
-       22,
-       2
-      ],
-      [
-       "Linsey Smith",
-       "3.5",
-       42,
-       3
-      ]
-     ]
-    }
-   ]
+   "india": "lost"
   },
   {
    "id": "espn_1527153",
@@ -6169,231 +5648,6 @@
    ]
   },
   {
-   "id": "espn_1529233",
-   "eventId": "1529233",
-   "date": "2026-10-14T13:30Z",
-   "gender": "men",
-   "format": "T20I",
-   "series": "West Indies tour of India 2026/27",
-   "seriesId": "24289",
-   "matchNo": "4th T20I",
-   "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India",
-     "abbr": "IND",
-     "score": "223 (19.3/20 ov, target 248)",
-     "winner": false
-    },
-    {
-     "name": "West Indies",
-     "abbr": "WI",
-     "score": "247/3",
-     "winner": true
-    }
-   ],
-   "result": "West Indies won by 24 runs",
-   "india": "lost",
-   "innings": [
-    {
-     "t": "West Indies",
-     "total": "247/3 (20.0 ov)",
-     "bat": [
-      [
-       "Shai Hope",
-       102,
-       50,
-       "not out"
-      ],
-      [
-       "Jewel Andrew",
-       21,
-       16,
-       "lbw"
-      ],
-      [
-       "Shimron Hetmyer",
-       33,
-       12,
-       "c"
-      ],
-      [
-       "Rovman Powell",
-       24,
-       17,
-       "c"
-      ],
-      [
-       "Sherfane Rutherford",
-       49,
-       26,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Romario Shepherd",
-      "Keemo Paul",
-      "Roston Chase",
-      "Shamar Springer",
-      "Shamar Joseph",
-      "Gudakesh Motie"
-     ],
-     "bowl": [
-      [
-       "Naman Dhir",
-       "1",
-       19,
-       0
-      ],
-      [
-       "Nitish Kumar Reddy",
-       "3",
-       39,
-       0
-      ],
-      [
-       "Axar Patel",
-       "4",
-       45,
-       1
-      ],
-      [
-       "Prince Yadav",
-       "4",
-       36,
-       1
-      ],
-      [
-       "Arshdeep Singh",
-       "4",
-       52,
-       1
-      ],
-      [
-       "Mayank Yadav",
-       "4",
-       52,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "223/9 (19.3 ov)",
-     "bat": [
-      [
-       "Sanju Samson",
-       56,
-       23,
-       "c"
-      ],
-      [
-       "Abhishek Sharma",
-       29,
-       24,
-       "c"
-      ],
-      [
-       "Ishan Kishan",
-       6,
-       3,
-       "c"
-      ],
-      [
-       "Shreyas Iyer",
-       16,
-       11,
-       "c"
-      ],
-      [
-       "Tilak Varma",
-       43,
-       25,
-       "c"
-      ],
-      [
-       "Naman Dhir",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Nitish Kumar Reddy",
-       41,
-       20,
-       "c"
-      ],
-      [
-       "Axar Patel",
-       3,
-       5,
-       "c"
-      ],
-      [
-       "Prince Yadav",
-       0,
-       1,
-       "b"
-      ],
-      [
-       "Arshdeep Singh",
-       5,
-       4,
-       "retired not out"
-      ],
-      [
-       "Mayank Yadav",
-       0,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Romario Shepherd",
-       "3",
-       32,
-       1
-      ],
-      [
-       "Keemo Paul",
-       "4",
-       41,
-       5
-      ],
-      [
-       "Roston Chase",
-       "4",
-       43,
-       0
-      ],
-      [
-       "Shamar Springer",
-       "4",
-       40,
-       1
-      ],
-      [
-       "Shamar Joseph",
-       "2.3",
-       47,
-       0
-      ],
-      [
-       "Gudakesh Motie",
-       "2",
-       13,
-       2
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1535652",
    "eventId": "1535652",
    "date": "2026-10-16T13:30Z",
@@ -10453,25 +9707,26 @@
    "seriesId": "24469",
    "matchNo": "5th ODI",
    "venue": "Bay Oval, Mount Maunganui",
-   "state": "in",
-   "statusDetail": "Live",
-   "statusDesc": "Live",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "82/3 (20.4/50 ov, target 210)",
+     "score": "187 (48.1/50 ov, target 210)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
      "score": "209",
-     "winner": false
+     "winner": true
     }
    ],
-   "result": "New Zealand require 128 runs",
-   "india": "",
+   "result": "India won by 22 runs",
+   "india": "won",
+   "seriesNote": "India won the 5-match series 3-1",
    "xi": {
     "New Zealand": [
      "Will Young",
@@ -10614,7 +9869,7 @@
     },
     {
      "t": "New Zealand",
-     "total": "82/2 (20.3 ov)",
+     "total": "187 (48.1 ov)",
      "bat": [
       [
        "Will Young",
@@ -10636,44 +9891,90 @@
       ],
       [
        "Dean Foxcroft",
-       15,
-       17,
+       31,
+       42,
+       "b"
+      ],
+      [
+       "Finn Allen",
+       1,
+       5,
+       "b"
+      ],
+      [
+       "Michael Bracewell",
+       19,
+       33,
+       "c"
+      ],
+      [
+       "Mitchell Santner",
+       24,
+       31,
+       "c"
+      ],
+      [
+       "Kristian Clarke",
+       16,
+       35,
+       "c"
+      ],
+      [
+       "Blair Tickner",
+       14,
+       20,
+       "st"
+      ],
+      [
+       "Jacob Duffy",
+       9,
+       12,
+       "c"
+      ],
+      [
+       "Matthew Fisher",
+       3,
+       6,
        "not out"
       ]
      ],
-     "dnb": [
-      "Finn Allen",
-      "Michael Bracewell",
-      "Mitchell Santner",
-      "Kristian Clarke",
-      "Blair Tickner",
-      "Jacob Duffy",
-      "Matthew Fisher"
-     ],
+     "dnb": [],
      "bowl": [
       [
-       "Auqib Nabi",
-       "4",
-       10,
-       0
+       "Axar Patel",
+       "6.1",
+       28,
+       2
       ],
       [
-       "Yash Thakur",
-       "4",
-       16,
-       0
-      ],
-      [
-       "Mohammed Siraj",
-       "6",
-       29,
+       "Naman Dhir",
+       "2",
+       4,
        1
       ],
       [
-       "Arshdeep Singh",
-       "6.4",
-       27,
+       "Auqib Nabi",
+       "10",
+       37,
+       1
+      ],
+      [
+       "Yash Thakur",
+       "10",
+       38,
+       1
+      ],
+      [
+       "Mohammed Siraj",
+       "10",
+       50,
        2
+      ],
+      [
+       "Arshdeep Singh",
+       "10",
+       30,
+       3
       ]
      ]
     }
@@ -11664,13 +10965,13 @@
       "no": "1",
       "name": "India",
       "team": "India",
-      "rating": "115"
+      "rating": "116"
      },
      {
       "no": "2",
       "name": "New Zealand",
       "team": "New Zealand",
-      "rating": "108"
+      "rating": "107"
      },
      {
       "no": "3",
@@ -11688,7 +10989,7 @@
       "no": "5",
       "name": "Australia",
       "team": "Australia",
-      "rating": "103"
+      "rating": "101"
      },
      {
       "no": "6",
@@ -11706,7 +11007,7 @@
       "no": "8",
       "name": "England",
       "team": "England",
-      "rating": "92"
+      "rating": "93"
      },
      {
       "no": "9",
@@ -11910,7 +11211,7 @@
       "rating": "220"
      }
     ],
-    "updated": "2026-11-01",
+    "updated": "2026-11-03",
     "bat": [
      {
       "no": "1",
@@ -12263,7 +11564,7 @@
       "no": "6",
       "name": "Sri Lanka",
       "team": "Sri Lanka",
-      "rating": "238"
+      "rating": "239"
      },
      {
       "no": "7",
@@ -12275,7 +11576,7 @@
       "no": "8",
       "name": "Pakistan",
       "team": "Pakistan",
-      "rating": "213"
+      "rating": "211"
      },
      {
       "no": "9",
@@ -12874,7 +12175,7 @@
      "date": "2026-09-17T00:00Z",
      "round": "1st Quarter-Final",
      "state": "post",
-     "detail": "Abandoned",
+     "detail": "Match abandoned without a ball bowled",
      "teams": [
       {
        "name": "Bangladesh Women",
@@ -12888,7 +12189,8 @@
        "score": "",
        "winner": false
       }
-     ]
+     ],
+     "advanced": "Bangladesh Women advanced"
     },
     {
      "id": "1550475",
@@ -12908,6 +12210,27 @@
        "abbr": "THA-W",
        "score": "91/4 (11/11 ov)",
        "winner": false
+      }
+     ]
+    },
+    {
+     "id": "1550476",
+     "date": "2026-09-18T00:00Z",
+     "round": "3rd Quarter-Final",
+     "state": "post",
+     "detail": "Result",
+     "teams": [
+      {
+       "name": "Malaysia Women",
+       "abbr": "MAL-W",
+       "score": "74/7 (20 ov, target 161)",
+       "winner": false
+      },
+      {
+       "name": "Sri Lanka Women",
+       "abbr": "SL-W",
+       "score": "160/4",
+       "winner": true
       }
      ]
     },

@@ -1,6 +1,21 @@
 {
  "headlines": [
   {
+   "t": "Bangladesh, USA to host men's and women's LA28 qualifying tournaments",
+   "u": "https://www.cricinfo.com/ci/content/story/1562785.html?ex_cid=OTC-RSS",
+   "d": "Sun, 15 Nov 2026"
+  },
+  {
+   "t": "Iyer: 'We had the belief even though we didn't get that many runs'",
+   "u": "https://www.cricinfo.com/ci/content/story/1562780.html?ex_cid=OTC-RSS",
+   "d": "Sun, 15 Nov 2026"
+  },
+  {
+   "t": "Arshdeep and Co help India defend 209 for 3-1 series win",
+   "u": "https://www.cricinfo.com/ci/content/story/1562758.html?ex_cid=OTC-RSS",
+   "d": "Sun, 15 Nov 2026"
+  },
+  {
    "t": "Faf du Plessis on leading RCB: 'Lose one game and the whole of India wants Virat to captain'",
    "u": "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS",
    "d": "Sun, 15 Nov 2026"
@@ -34,21 +49,6 @@
    "t": "Pakistan ask India to field in Under-19 Asia Cup final",
    "u": "https://www.cricinfo.com/ci/content/story/1562576.html?ex_cid=OTC-RSS",
    "d": "Sat, 14 Nov 2026"
-  },
-  {
-   "t": "Streak broken, New Zealand hope to prevent rare overseas ODI series win for India",
-   "u": "https://www.cricinfo.com/ci/content/story/1562570.html?ex_cid=OTC-RSS",
-   "d": "Sat, 14 Nov 2026"
-  },
-  {
-   "t": "Gambhir 'concerned' by India's frequent ODI batting collapses",
-   "u": "https://www.cricinfo.com/ci/content/story/1562520.html?ex_cid=OTC-RSS",
-   "d": "Fri, 13 Nov 2026"
-  },
-  {
-   "t": "Matt Henry six-for and Will Young hundred crush India",
-   "u": "https://www.cricinfo.com/ci/content/story/1562500.html?ex_cid=OTC-RSS",
-   "d": "Fri, 13 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,18 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "vFe2tBav_wg",
+     "t": "India\u2019s fielding lapses spreading like a plague: Dinesh Karthik"
+    },
+    {
+     "yt": "dQF1q7JtKrc",
+     "t": "Arshdeep\u2019s rise from support to spearhead is amazing: Kartik"
+    },
+    {
+     "yt": "oDTHN6jA8BM",
+     "t": "India Seal 3-1 Series Win! What Went Right? DK & Kartik Review"
+    },
     {
      "yt": "uNofLOeh7_4",
      "t": "India U19 thump Pakistan! DK salutes fearless NEXT GEN"
@@ -67,18 +79,6 @@
     {
      "yt": "moumtejxwIA",
      "t": "Preview: New Zealand vs India, 5th ODI"
-    },
-    {
-     "yt": "jL_tLTLWJ7o",
-     "t": "Rating IPL\u2019s Biggest Trades: Hardik to PBKS, Samson to CSK & more!"
-    },
-    {
-     "yt": "qB_F9Zucv98",
-     "t": "Sandpaper Gate: Cummins vs Khawaja \u2013 What\u2019s the Truth?"
-    },
-    {
-     "yt": "YIPAe3oFKNg",
-     "t": "Will the 2027 ODI World Cup define Gambhir\u2019s legacy?"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "jjmA-_kDkiw",
+     "t": "Ishan's thoughts on balls in LOIs and Ahmad's IPL 5-year auction query next in my QnA session"
+    },
     {
      "yt": "ZabgvH_NILk",
      "t": "Harsha Bhogle answers your questions - Part 1"
@@ -105,13 +109,9 @@
     {
      "yt": "wQwQo_pXvOM",
      "t": "Part 2 - Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
-    },
-    {
-     "yt": "Q0cg-Exnj5U",
-     "t": "Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
     }
    ]
   }
  ],
- "updated": "2026-11-15T07:30:34Z"
+ "updated": "2026-11-15T20:08:16Z"
 }
