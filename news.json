@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "Faf du Plessis on leading RCB: 'Lose one game and the whole of India wants Virat to captain'",
+   "u": "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS",
+   "d": "Sun, 15 Nov 2026"
+  },
+  {
+   "t": "NZ opt to bowl in 5th ODI; Siraj and Thakur in for India",
+   "u": "https://www.cricinfo.com/ci/content/story/1562673.html?ex_cid=OTC-RSS",
+   "d": "Sun, 15 Nov 2026"
+  },
+  {
    "t": "Ulva pulls off heist as India lift Under-19s Asia Cup after thriller against Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1562642.html?ex_cid=OTC-RSS",
    "d": "Sat, 14 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "Matt Henry six-for and Will Young hundred crush India",
    "u": "https://www.cricinfo.com/ci/content/story/1562500.html?ex_cid=OTC-RSS",
    "d": "Fri, 13 Nov 2026"
-  },
-  {
-   "t": "Rishabh Pant on his way to join India's Test squad in New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1562380.html?ex_cid=OTC-RSS",
-   "d": "Thu, 12 Nov 2026"
-  },
-  {
-   "t": "NZ look to avoid series defeat with batters set to get a boost",
-   "u": "https://www.cricinfo.com/ci/content/story/1562289.html?ex_cid=OTC-RSS",
-   "d": "Thu, 12 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "uNofLOeh7_4",
+     "t": "India U19 thump Pakistan! DK salutes fearless NEXT GEN"
+    },
     {
      "yt": "m3PZgxhXKSQ",
      "t": "Don\u2019t think Siraj is high on India\u2019s 2027 WC plans: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "YIPAe3oFKNg",
      "t": "Will the 2027 ODI World Cup define Gambhir\u2019s legacy?"
-    },
-    {
-     "yt": "AuT2QQntzDs",
-     "t": "New Zealand vs India, 4th ODI: Preview"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "ZabgvH_NILk",
+     "t": "Harsha Bhogle answers your questions - Part 1"
+    },
     {
      "yt": "OboV_18-5D8",
      "t": "Harsha Bhogle on the Pandya-Arshdeep trade"
@@ -105,13 +109,9 @@
     {
      "yt": "Q0cg-Exnj5U",
      "t": "Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
-    },
-    {
-     "yt": "75R7AnUygu0",
-     "t": "Harsha Bhogle on one-sided nature of T20 games"
     }
    ]
   }
  ],
- "updated": "2026-11-14T20:58:52Z"
+ "updated": "2026-11-15T07:30:34Z"
 }
