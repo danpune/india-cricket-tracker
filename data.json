@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:56:27Z",
+ "updated": "2026-11-16T22:59:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -232,6 +232,272 @@
        "2",
        20,
        0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espn_1538226",
+   "eventId": "1538226",
+   "date": "2026-05-25T10:00Z",
+   "gender": "women",
+   "format": "T20",
+   "series": "India Women tour of England 2026",
+   "seriesId": "23814",
+   "matchNo": "Tour Match",
+   "venue": "The Ambassador Cruise Line Ground, Chelmsford",
+   "state": "post",
+   "statusDetail": "Final",
+   "statusDesc": "Result",
+   "teams": [
+    {
+     "name": "ECB Development Women's XI",
+     "abbr": "ECB-D",
+     "score": "154/6",
+     "winner": false
+    },
+    {
+     "name": "India Women",
+     "abbr": "IND-W",
+     "score": "200/6 (20 ov, target 155)",
+     "winner": true
+    }
+   ],
+   "result": "IND Women won by 7 wkts (22b rem)",
+   "india": "won",
+   "xi": {
+    "ECB Development Women's XI": [
+     "Tilly Kesteven",
+     "Liberty Heap",
+     "Ariana Dowse",
+     "Bethan Gammon",
+     "Florence Miller",
+     "Joanne Gardner",
+     "Sophia Smale (c)",
+     "Prisha Thanawala",
+     "Sophie Munro",
+     "Ellie Anderson",
+     "Clara Thaker",
+     "Maria Andrews"
+    ],
+    "India Women": [
+     "Smriti Mandhana (c)",
+     "Shafali Verma",
+     "Yastika Bhatia",
+     "Bharti Fulmali",
+     "Arundhati Reddy",
+     "Jemimah Rodrigues",
+     "Shreyanka Patil",
+     "Deepti Sharma",
+     "Richa Ghosh",
+     "Kranti Gaud",
+     "Shree Charani",
+     "Renuka Singh",
+     "Nandani Sharma"
+    ]
+   },
+   "innings": [
+    {
+     "t": "ECB Development Women's XI",
+     "total": "154/6 (20.0 ov)",
+     "bat": [
+      [
+       "Tilly Kesteven",
+       8,
+       10,
+       "c"
+      ],
+      [
+       "Liberty Heap",
+       8,
+       6,
+       "b"
+      ],
+      [
+       "Ariana Dowse",
+       13,
+       17,
+       "b"
+      ],
+      [
+       "Bethan Gammon",
+       0,
+       1,
+       "lbw"
+      ],
+      [
+       "Florence Miller",
+       48,
+       41,
+       "b"
+      ],
+      [
+       "Joanne Gardner",
+       36,
+       27,
+       "c"
+      ],
+      [
+       "Sophia Smale",
+       27,
+       18,
+       "not out"
+      ],
+      [
+       "Prisha Thanawala",
+       3,
+       2,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Sophie Munro",
+      "Ellie Anderson",
+      "Clara Thaker",
+      "Maria Andrews"
+     ],
+     "bowl": [
+      [
+       "Arundhati Reddy",
+       "3",
+       29,
+       3
+      ],
+      [
+       "Shreyanka Patil",
+       "3",
+       31,
+       1
+      ],
+      [
+       "Deepti Sharma",
+       "3",
+       23,
+       1
+      ],
+      [
+       "Kranti Gaud",
+       "2",
+       16,
+       1
+      ],
+      [
+       "Shree Charani",
+       "3",
+       17,
+       0
+      ],
+      [
+       "Renuka Singh",
+       "3",
+       19,
+       0
+      ],
+      [
+       "Nandani Sharma",
+       "3",
+       18,
+       0
+      ]
+     ]
+    },
+    {
+     "t": "India Women",
+     "total": "200/6 (20.0 ov)",
+     "bat": [
+      [
+       "Smriti Mandhana",
+       21,
+       10,
+       "c"
+      ],
+      [
+       "Shafali Verma",
+       50,
+       25,
+       "retired out"
+      ],
+      [
+       "Yastika Bhatia",
+       47,
+       35,
+       "c"
+      ],
+      [
+       "Bharti Fulmali",
+       48,
+       29,
+       "st"
+      ],
+      [
+       "Arundhati Reddy",
+       20,
+       16,
+       "b"
+      ],
+      [
+       "Jemimah Rodrigues",
+       2,
+       2,
+       "not out"
+      ],
+      [
+       "Shreyanka Patil",
+       5,
+       2,
+       "run out"
+      ],
+      [
+       "Deepti Sharma",
+       2,
+       1,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Richa Ghosh",
+      "Kranti Gaud",
+      "Shree Charani",
+      "Renuka Singh",
+      "Nandani Sharma"
+     ],
+     "bowl": [
+      [
+       "Sophia Smale",
+       "2",
+       26,
+       0
+      ],
+      [
+       "Prisha Thanawala",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Sophie Munro",
+       "4",
+       36,
+       0
+      ],
+      [
+       "Ellie Anderson",
+       "4",
+       39,
+       2
+      ],
+      [
+       "Clara Thaker",
+       "3",
+       32,
+       1
+      ],
+      [
+       "Maria Andrews",
+       "3",
+       30,
+       1
       ]
      ]
     }
@@ -889,36 +1155,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "espn_1538617",
-   "eventId": "1538617",
-   "date": "2026-06-10T09:00Z",
-   "gender": "women",
-   "format": "T20",
-   "series": "India Women tour of England 2026",
-   "seriesId": "23814",
-   "matchNo": "Warm-up",
-   "venue": "Sophia Gardens, Cardiff",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "England Women",
-     "abbr": "ENG-W",
-     "score": "171/6",
-     "winner": true
-    },
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "166 (19.5/20 ov, target 172)",
-     "winner": false
-    }
-   ],
-   "result": "ENG Women won by 5 runs",
-   "india": "lost"
   },
   {
    "id": "espn_1527153",
@@ -11784,7 +12020,7 @@
       "no": "10",
       "name": "Bangladesh",
       "team": "Bangladesh",
-      "rating": "194"
+      "rating": "192"
      }
     ],
     "updated": "2026-11-09",
@@ -11924,24 +12160,41 @@
    "more": 15,
    "matches": [
     {
-     "date": "2026-11-16T02:30Z",
+     "date": "2026-11-18T02:30Z",
+     "desc": "Elite, Group D",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+     "teams": [
+      {
+       "name": "Chhattisgarh",
+       "score": ""
+      },
+      {
+       "name": "Odisha",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-11-18T02:30Z",
      "desc": "Plate Group",
      "state": "pre",
      "detail": "Scheduled",
      "venue": "Sovima Cricket Ground, Sovima",
      "teams": [
       {
-       "name": "Nagaland",
+       "name": "Services",
        "score": ""
       },
       {
-       "name": "Manipur",
+       "name": "Arunachal Pradesh",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-16T02:30Z",
+     "date": "2026-11-18T02:30Z",
      "desc": "Plate Group",
      "state": "pre",
      "detail": "Scheduled",
@@ -11952,37 +12205,20 @@
        "score": ""
       },
       {
-       "name": "Arunachal Pradesh",
+       "name": "Nagaland",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-16T02:30Z",
-     "desc": "Elite, Group D",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
-     "teams": [
-      {
-       "name": "Vidarbha",
-       "score": ""
-      },
-      {
-       "name": "Odisha",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-16T03:30Z",
+     "date": "2026-11-18T03:00Z",
      "desc": "Elite, Group C",
      "state": "pre",
      "detail": "Scheduled",
      "venue": "I.S. Bindra Punjab Cricket Association Stadium",
      "teams": [
       {
-       "name": "Himachal Pradesh",
+       "name": "Keralam",
        "score": ""
       },
       {
@@ -12371,7 +12607,7 @@
      "date": "2026-09-17T00:00Z",
      "round": "1st Quarter-Final",
      "state": "post",
-     "detail": "Match abandoned without a ball bowled",
+     "detail": "Abandoned",
      "teams": [
       {
        "name": "Bangladesh Women",
@@ -12385,8 +12621,7 @@
        "score": "",
        "winner": false
       }
-     ],
-     "advanced": "Bangladesh Women advanced"
+     ]
     },
     {
      "id": "1550475",

@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "West Indies set to host India for T20Is in USA or Canada next year",
+   "u": "https://www.cricinfo.com/ci/content/story/1562879.html?ex_cid=OTC-RSS",
+   "d": "Mon, 16 Nov 2026"
+  },
+  {
+   "t": "Faf du Plessis on leading RCB: 'Lose one game and the whole of India wants Virat to captain'",
+   "u": "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS",
+   "d": "Mon, 16 Nov 2026"
+  },
+  {
    "t": "Bangladesh, USA to host men's and women's LA28 qualifying tournaments",
    "u": "https://www.cricinfo.com/ci/content/story/1562785.html?ex_cid=OTC-RSS",
    "d": "Sun, 15 Nov 2026"
@@ -16,11 +26,6 @@
    "d": "Sun, 15 Nov 2026"
   },
   {
-   "t": "Faf du Plessis on leading RCB: 'Lose one game and the whole of India wants Virat to captain'",
-   "u": "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS",
-   "d": "Sun, 15 Nov 2026"
-  },
-  {
    "t": "NZ opt to bowl in 5th ODI; Siraj and Thakur in for India",
    "u": "https://www.cricinfo.com/ci/content/story/1562673.html?ex_cid=OTC-RSS",
    "d": "Sun, 15 Nov 2026"
@@ -28,7 +33,7 @@
   {
    "t": "Ulva pulls off heist as India lift Under-19s Asia Cup after thriller against Pakistan",
    "u": "https://www.cricinfo.com/ci/content/story/1562642.html?ex_cid=OTC-RSS",
-   "d": "Sat, 14 Nov 2026"
+   "d": "Mon, 16 Nov 2026"
   },
   {
    "t": "Suryakumar ready to 'knock down' selectors' door for India comeback",
@@ -44,11 +49,6 @@
    "t": "Gurnoor Brar replaces Kuldeep Yadav in India's Test squad",
    "u": "https://www.cricinfo.com/ci/content/story/1562572.html?ex_cid=OTC-RSS",
    "d": "Sat, 14 Nov 2026"
-  },
-  {
-   "t": "Pakistan ask India to field in Under-19 Asia Cup final",
-   "u": "https://www.cricinfo.com/ci/content/story/1562576.html?ex_cid=OTC-RSS",
-   "d": "Sat, 14 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,14 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "0LtBATPFkOg",
+     "t": "Sehwag, Hayden & More: Who\u2019s the GREATEST Test Opener Ever?"
+    },
+    {
+     "yt": "AK3hOtQ3Qyo",
+     "t": "India\u2019s batting failure becoming a regular feature: Kartik"
+    },
     {
      "yt": "vFe2tBav_wg",
      "t": "India\u2019s fielding lapses spreading like a plague: Dinesh Karthik"
@@ -71,14 +79,6 @@
     {
      "yt": "uNofLOeh7_4",
      "t": "India U19 thump Pakistan! DK salutes fearless NEXT GEN"
-    },
-    {
-     "yt": "m3PZgxhXKSQ",
-     "t": "Don\u2019t think Siraj is high on India\u2019s 2027 WC plans: Dinesh Karthik"
-    },
-    {
-     "yt": "moumtejxwIA",
-     "t": "Preview: New Zealand vs India, 5th ODI"
     }
    ]
   },
@@ -86,6 +86,18 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "phqk68Rzw9w",
+     "t": "Next QnA - Prateek has Mohammed Shami's white ball future in mind"
+    },
+    {
+     "yt": "jQt--U4apsY",
+     "t": "Ameer on Sanju Samson's prospects as a Test cricketer is my next QnA subject"
+    },
+    {
+     "yt": "h7AUgJN9BTQ",
+     "t": "Anay and Bryan on Test cricket & transition phases in my next QnA session "
+    },
     {
      "yt": "jjmA-_kDkiw",
      "t": "Ishan's thoughts on balls in LOIs and Ahmad's IPL 5-year auction query next in my QnA session"
@@ -97,21 +109,9 @@
     {
      "yt": "OboV_18-5D8",
      "t": "Harsha Bhogle on the Pandya-Arshdeep trade"
-    },
-    {
-     "yt": "ZLobvAQ3l5c",
-     "t": "Harsha Bhogle is looking ahead to the NZ ODIs"
-    },
-    {
-     "yt": "cwfUDBwbus0",
-     "t": "Harsha Bhogle on the New Zealand tour so far"
-    },
-    {
-     "yt": "wQwQo_pXvOM",
-     "t": "Part 2 - Harsha Bhogle on India\u2019s multiple squads for New Zealand tour"
     }
    ]
   }
  ],
- "updated": "2026-11-15T23:57:32Z"
+ "updated": "2026-11-16T23:00:54Z"
 }
