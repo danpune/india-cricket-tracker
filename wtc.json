@@ -4,7 +4,7 @@
  "finalNote": "Top 2 play the final in 2027",
  "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
- "verified": "2026-11-16",
+ "verified": "2026-11-17",
  "teams": 9,
  "india": {
   "rank": 4,
@@ -99,18 +99,6 @@
   },
   {
    "rank": 7,
-   "abbr": "SL",
-   "name": "Sri Lanka",
-   "played": 7,
-   "won": 1,
-   "lost": 2,
-   "drawn": 4,
-   "deducted": 0,
-   "points": 28,
-   "pct": 33.33
-  },
-  {
-   "rank": 8,
    "abbr": "WI",
    "name": "West Indies",
    "played": 14,
@@ -122,6 +110,18 @@
    "pct": 27.38
   },
   {
+   "rank": 8,
+   "abbr": "SL",
+   "name": "Sri Lanka",
+   "played": 7,
+   "won": 1,
+   "lost": 2,
+   "drawn": 4,
+   "deducted": 15,
+   "points": 13,
+   "pct": 15.48
+  },
+  {
    "rank": 9,
    "abbr": "PAK",
    "name": "Pakistan",
@@ -129,9 +129,9 @@
    "won": 2,
    "lost": 7,
    "drawn": 1,
-   "deducted": 19,
-   "points": 9,
-   "pct": 7.5
+   "deducted": 24,
+   "points": 4,
+   "pct": 3.33
   }
  ]
 }
