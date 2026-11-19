@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Nicholls ton, Phillips 94* script New Zealand recovery after 70 for 5",
+   "u": "https://www.cricinfo.com/ci/content/story/1563189.html?ex_cid=OTC-RSS",
+   "d": "Thu, 19 Nov 2026"
+  },
+  {
    "t": "India leave Siraj and Jadeja out of opening Test in New Zealand",
    "u": "https://www.cricinfo.com/ci/content/story/1563144.html?ex_cid=OTC-RSS",
    "d": "Wed, 18 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Bangladesh, USA to host men's and women's LA28 qualifying tournaments",
    "u": "https://www.cricinfo.com/ci/content/story/1562785.html?ex_cid=OTC-RSS",
    "d": "Sun, 15 Nov 2026"
-  },
-  {
-   "t": "Iyer: 'We had the belief even though we didn't get that many runs'",
-   "u": "https://www.cricinfo.com/ci/content/story/1562780.html?ex_cid=OTC-RSS",
-   "d": "Sun, 15 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "g-Gfg5Od1SY",
+     "t": "\u2018Why is Siraj not playing?\u2019 India XI leaves Dinesh Karthik baffled"
+    },
     {
      "yt": "WaIK7N20CBY",
      "t": "Dhoni retires: Rayudu picks Top 7 moments ft. RCB & 2010 IPL Final"
@@ -75,10 +79,6 @@
     {
      "yt": "SQ2EEGGrY-8",
      "t": "RR\u2019s IPL 2027 Retentions: Big release of Hetmyer!"
-    },
-    {
-     "yt": "6VDf5S1NSog",
-     "t": "PBKS\u2019s IPL 2027 Retentions: Wadhera & Ferguson OUT"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-19T02:03:30Z"
+ "updated": "2026-11-19T10:13:02Z"
 }
