@@ -4,7 +4,7 @@
  "finalNote": "Top 2 play the final in 2027",
  "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
- "verified": "2026-11-18",
+ "verified": "2026-11-19",
  "teams": 9,
  "india": {
   "rank": 4,
@@ -14,19 +14,31 @@
  },
  "top": [
   {
+   "abbr": "SA",
+   "name": "South Africa",
+   "pct": 75.0
+  },
+  {
    "abbr": "NZ",
    "name": "New Zealand",
    "pct": 72.22
-  },
-  {
-   "abbr": "SA",
-   "name": "South Africa",
-   "pct": 71.43
   }
  ],
  "table": [
   {
    "rank": 1,
+   "abbr": "SA",
+   "name": "South Africa",
+   "played": 8,
+   "won": 6,
+   "lost": 2,
+   "drawn": 0,
+   "deducted": 0,
+   "points": 72,
+   "pct": 75.0
+  },
+  {
+   "rank": 2,
    "abbr": "NZ",
    "name": "New Zealand",
    "played": 6,
@@ -36,18 +48,6 @@
    "deducted": 0,
    "points": 52,
    "pct": 72.22
-  },
-  {
-   "rank": 2,
-   "abbr": "SA",
-   "name": "South Africa",
-   "played": 7,
-   "won": 5,
-   "lost": 2,
-   "drawn": 0,
-   "deducted": 0,
-   "points": 60,
-   "pct": 71.43
   },
   {
    "rank": 3,
@@ -77,13 +77,13 @@
    "rank": 5,
    "abbr": "BAN",
    "name": "Bangladesh",
-   "played": 8,
+   "played": 9,
    "won": 3,
-   "lost": 3,
+   "lost": 4,
    "drawn": 2,
    "deducted": 0,
    "points": 44,
-   "pct": 45.83
+   "pct": 40.74
   },
   {
    "rank": 6,
