@@ -57,6 +57,10 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "JJ74song1xI",
+     "t": "\u2018The whole team knew\u2019 - DK reacts to Bancroft\u2019s sandpapergate claim"
+    },
+    {
      "yt": "g-Gfg5Od1SY",
      "t": "\u2018Why is Siraj not playing?\u2019 India XI leaves Dinesh Karthik baffled"
     },
@@ -75,10 +79,6 @@
     {
      "yt": "vi0lxpBf050",
      "t": "GT\u2019s IPL 2027 Retentions: Shahrukh released! Lowest purse"
-    },
-    {
-     "yt": "SQ2EEGGrY-8",
-     "t": "RR\u2019s IPL 2027 Retentions: Big release of Hetmyer!"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-19T10:13:02Z"
+ "updated": "2026-11-19T19:02:43Z"
 }
