@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:08:31Z",
+ "updated": "2026-11-21T03:56:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9177,11 +9177,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "194/1 (53.2 ov)",
+     "score": "387/3 (104.1 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 174 runs",
+   "result": "India lead by 18 runs",
    "india": "",
    "xi": {
     "New Zealand": [
@@ -9319,7 +9319,7 @@
     },
     {
      "t": "India",
-     "total": "194/1",
+     "total": "387/3",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -9329,20 +9329,30 @@
       ],
       [
        "KL Rahul",
-       67,
-       163,
-       "not out"
+       136,
+       290,
+       "b"
       ],
       [
        "Devdutt Padikkal",
-       35,
-       75,
+       80,
+       175,
+       "b"
+      ],
+      [
+       "Shubman Gill",
+       60,
+       80,
+       "not out"
+      ],
+      [
+       "Rishabh Pant",
+       0,
+       3,
        "not out"
       ]
      ],
      "dnb": [
-      "Shubman Gill",
-      "Rishabh Pant",
       "Washington Sundar",
       "Dhruv Jurel",
       "Akash Deep",
@@ -9352,27 +9362,39 @@
      ],
      "bowl": [
       [
-       "Nathan Smith",
-       "11",
-       39,
+       "Rachin Ravindra",
+       "2",
+       6,
        0
+      ],
+      [
+       "Glenn Phillips",
+       "8",
+       45,
+       0
+      ],
+      [
+       "Nathan Smith",
+       "21",
+       58,
+       1
       ],
       [
        "Kyle Jamieson",
-       "14.2",
-       26,
-       0
+       "25",
+       53,
+       1
       ],
       [
        "Matt Henry",
-       "16",
-       49,
+       "24",
+       70,
        1
       ],
       [
        "Jacob Duffy",
-       "12",
-       80,
+       "24.1",
+       143,
        0
       ]
      ]
