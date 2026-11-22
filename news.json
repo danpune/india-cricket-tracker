@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "India's top five rack up the runs to push New Zealand to a corner",
+   "u": "https://www.cricinfo.com/ci/content/story/1563419.html?ex_cid=OTC-RSS",
+   "d": "Sat, 21 Nov 2026"
+  },
+  {
    "t": "Jaiswal and Rahul turn Test India's way after 216-run Nicholls-Phillips stand",
    "u": "https://www.cricinfo.com/ci/content/story/1563296.html?ex_cid=OTC-RSS",
    "d": "Fri, 20 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "Gill: India 'definitely want four fast-bowling options'",
    "u": "https://www.cricinfo.com/ci/content/story/1562899.html?ex_cid=OTC-RSS",
    "d": "Tue, 17 Nov 2026"
-  },
-  {
-   "t": "West Indies set to host India for T20Is in USA or Canada next year",
-   "u": "https://www.cricinfo.com/ci/content/story/1562879.html?ex_cid=OTC-RSS",
-   "d": "Mon, 16 Nov 2026"
   }
  ],
  "talk": [
@@ -57,28 +57,28 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "wTuExYpkN6k",
+     "t": "Hard to displace Padikkal from India\u2019s No. 3 spot: Dinesh Karthik"
+    },
+    {
+     "yt": "lijlNMcvYyc",
+     "t": "Captaincy invigorates Gill, made him a better version: Dinesh Karthik"
+    },
+    {
+     "yt": "WEWJ0UVZ5vA",
+     "t": "Abu Dhabi T10 2026 Review: How did UAE Bulls defend their title?"
+    },
+    {
+     "yt": "L4Qva39NxX0",
+     "t": "KL Rahul, India\u2019s best Test opener after Gavaskar & Sehwag: Dinesh Karthik"
+    },
+    {
      "yt": "hMNBOrQngRo",
      "t": "Jaiswal, like Sehwag, puts bowlers under pressure: Dinesh Karthik"
     },
     {
      "yt": "QBZGR-tLK_Y",
      "t": "Why do India struggle to dismiss tail-enders? Dinesh Karthik explains"
-    },
-    {
-     "yt": "JJ74song1xI",
-     "t": "\u2018The whole team knew\u2019 - DK reacts to Bancroft\u2019s sandpapergate claim"
-    },
-    {
-     "yt": "g-Gfg5Od1SY",
-     "t": "\u2018Why is Siraj not playing?\u2019 India XI leaves Dinesh Karthik baffled"
-    },
-    {
-     "yt": "WaIK7N20CBY",
-     "t": "Dhoni retires: Rayudu picks Top 7 moments ft. RCB & 2010 IPL Final"
-    },
-    {
-     "yt": "BN-XDBNFrkQ",
-     "t": "DC\u2019s IPL 2027 Retentions: Starc, Rana & Porel released!"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "_-Ioh2sCq8g",
+     "t": "Narayan Kamthe asks why I don't do blogs in Hindi or Marathi. So here I am explaining why in Marathi"
+    },
     {
      "yt": "hBzwILrci60",
      "t": "Harsha Bhogle looks ahead to the Test series"
@@ -105,13 +109,9 @@
     {
      "yt": "phqk68Rzw9w",
      "t": "Next QnA - Prateek has Mohammed Shami's white ball future in mind"
-    },
-    {
-     "yt": "jQt--U4apsY",
-     "t": "Ameer on Sanju Samson's prospects as a Test cricketer is my next QnA subject"
     }
    ]
   }
  ],
- "updated": "2026-11-21T03:57:50Z"
+ "updated": "2026-11-22T03:35:52Z"
 }

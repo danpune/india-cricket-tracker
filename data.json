@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:56:27Z",
+ "updated": "2026-11-22T03:32:25Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4851,227 +4851,6 @@
    ]
   },
   {
-   "id": "espn_1535652",
-   "eventId": "1535652",
-   "date": "2026-10-16T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "116/6 (15.4/20 ov, target 115)",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "114/5",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 4 wkts (26b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Zimbabwe Women",
-     "total": "114/5 (20.0 ov)",
-     "bat": [
-      [
-       "Kelis Ndhlovu",
-       42,
-       44,
-       "b"
-      ],
-      [
-       "Beloved Biza",
-       0,
-       4,
-       "lbw"
-      ],
-      [
-       "Modester Mupachikwa",
-       16,
-       26,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       43,
-       33,
-       "not out"
-      ],
-      [
-       "Nyasha Gwanzura",
-       9,
-       11,
-       "st"
-      ],
-      [
-       "Michelle Mavunga",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Josephine Nkomo",
-      "Francisca Chipare",
-      "Tendai Makusha",
-      "Olinder Chare"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "3",
-       20,
-       0
-      ],
-      [
-       "Deepti Sharma",
-       "4",
-       22,
-       0
-      ],
-      [
-       "Arundhati Reddy",
-       "3",
-       30,
-       1
-      ],
-      [
-       "Shree Charani",
-       "4",
-       14,
-       1
-      ],
-      [
-       "Nandani Sharma",
-       "4",
-       11,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "116/6 (15.4 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       9,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       4,
-       2,
-       "c"
-      ],
-      [
-       "Anushka Sharma",
-       4,
-       3,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "Niki Prasad",
-       39,
-       35,
-       "not out"
-      ],
-      [
-       "Deepti Sharma",
-       49,
-       37,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       7,
-       5,
-       "c"
-      ],
-      [
-       "Arundhati Reddy",
-       2,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Shree Charani",
-      "Nandani Sharma",
-      "Kranti Gaud"
-     ],
-     "bowl": [
-      [
-       "Beloved Biza",
-       "4",
-       27,
-       1
-      ],
-      [
-       "Nyasha Gwanzura",
-       "3",
-       18,
-       3
-      ],
-      [
-       "Michelle Mavunga",
-       "3",
-       19,
-       1
-      ],
-      [
-       "Francisca Chipare",
-       "1",
-       10,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "1.4",
-       19,
-       0
-      ],
-      [
-       "Olinder Chare",
-       "3",
-       23,
-       1
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1529234",
    "eventId": "1529234",
    "date": "2026-10-17T13:30Z",
@@ -7572,168 +7351,7 @@
     }
    ],
    "result": "England won by 3 runs",
-   "india": "lost",
-   "xi": {
-    "England": [
-     "Martin Andersson",
-     "John Simpson (c)",
-     "Ed Barnard",
-     "Luke Hollman",
-     "Nathan Gilchrist",
-     "Jack Carson"
-    ],
-    "India": [
-     "Nitish Rana",
-     "Shashank Singh",
-     "Rahul Tripathi",
-     "Rahul Tewatia",
-     "Krunal Pandya (c)",
-     "Kulwant Khejroliya"
-    ]
-   },
-   "innings": [
-    {
-     "t": "England",
-     "total": "124/2 (6.0 ov)",
-     "bat": [
-      [
-       "Martin Andersson",
-       51,
-       13,
-       "retired not out"
-      ],
-      [
-       "John Simpson",
-       7,
-       3,
-       "c"
-      ],
-      [
-       "Ed Barnard",
-       35,
-       14,
-       "not out"
-      ],
-      [
-       "Luke Hollman",
-       13,
-       6,
-       "c"
-      ]
-     ],
-     "dnb": [
-      "Nathan Gilchrist",
-      "Jack Carson"
-     ],
-     "bowl": [
-      [
-       "Nitish Rana",
-       "1",
-       18,
-       1
-      ],
-      [
-       "Rahul Tripathi",
-       "1",
-       22,
-       1
-      ],
-      [
-       "Rahul Tewatia",
-       "1",
-       20,
-       0
-      ],
-      [
-       "Krunal Pandya",
-       "1",
-       19,
-       0
-      ],
-      [
-       "Kulwant Khejroliya",
-       "2",
-       37,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "India",
-     "total": "121/4 (6.0 ov)",
-     "bat": [
-      [
-       "Nitish Rana",
-       4,
-       4,
-       "c"
-      ],
-      [
-       "Shashank Singh",
-       29,
-       9,
-       "c"
-      ],
-      [
-       "Rahul Tripathi",
-       56,
-       14,
-       "not out"
-      ],
-      [
-       "Rahul Tewatia",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "Krunal Pandya",
-       28,
-       7,
-       "not out"
-      ],
-      [
-       "Kulwant Khejroliya",
-       0,
-       0,
-       "retired out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Martin Andersson",
-       "1",
-       30,
-       0
-      ],
-      [
-       "Ed Barnard",
-       "1",
-       17,
-       0
-      ],
-      [
-       "Luke Hollman",
-       "1",
-       30,
-       0
-      ],
-      [
-       "Nathan Gilchrist",
-       "2",
-       25,
-       2
-      ],
-      [
-       "Jack Carson",
-       "1",
-       18,
-       1
-      ]
-     ]
-    }
-   ]
+   "india": "lost"
   },
   {
    "id": "espn_1559211",
@@ -9171,17 +8789,17 @@
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "368",
+     "score": "368 & 55/1 (17.4 ov)",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "387/3 (104.1 ov)",
+     "score": "720/9d",
      "winner": false
     }
    ],
-   "result": "India lead by 18 runs",
+   "result": "New Zealand trail by 297 runs",
    "india": "",
    "xi": {
     "New Zealand": [
@@ -9203,10 +8821,10 @@
      "Devdutt Padikkal",
      "Shubman Gill (c)",
      "Rishabh Pant",
-     "Washington Sundar",
-     "Dhruv Jurel",
-     "Akash Deep",
      "Anshul Kamboj",
+     "Dhruv Jurel",
+     "Washington Sundar",
+     "Akash Deep",
      "Jasprit Bumrah",
      "Prasidh Krishna"
     ]
@@ -9286,6 +8904,12 @@
      "dnb": [],
      "bowl": [
       [
+       "Anshul Kamboj",
+       "23",
+       69,
+       2
+      ],
+      [
        "Washington Sundar",
        "20",
        45,
@@ -9296,12 +8920,6 @@
        "23",
        53,
        3
-      ],
-      [
-       "Anshul Kamboj",
-       "23",
-       69,
-       2
       ],
       [
        "Jasprit Bumrah",
@@ -9319,7 +8937,7 @@
     },
     {
      "t": "India",
-     "total": "387/3",
+     "total": "720/9d",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -9341,61 +8959,146 @@
       ],
       [
        "Shubman Gill",
-       60,
-       80,
-       "not out"
+       98,
+       146,
+       "b"
       ],
       [
        "Rishabh Pant",
-       0,
-       3,
+       128,
+       153,
+       "c"
+      ],
+      [
+       "Anshul Kamboj",
+       38,
+       42,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       78,
+       79,
+       "st"
+      ],
+      [
+       "Washington Sundar",
+       24,
+       26,
+       "c"
+      ],
+      [
+       "Akash Deep",
+       13,
+       5,
+       "c"
+      ],
+      [
+       "Jasprit Bumrah",
+       7,
+       5,
        "not out"
       ]
      ],
      "dnb": [
-      "Washington Sundar",
-      "Dhruv Jurel",
-      "Akash Deep",
-      "Anshul Kamboj",
-      "Jasprit Bumrah",
       "Prasidh Krishna"
      ],
      "bowl": [
       [
        "Rachin Ravindra",
-       "2",
-       6,
+       "10",
+       44,
+       2
+      ],
+      [
+       "Daryl Mitchell",
+       "6",
+       39,
        0
       ],
       [
        "Glenn Phillips",
-       "8",
-       45,
-       0
+       "24",
+       154,
+       3
       ],
       [
        "Nathan Smith",
-       "21",
-       58,
+       "29",
+       84,
        1
       ],
       [
        "Kyle Jamieson",
-       "25",
-       53,
+       "31",
+       88,
        1
       ],
       [
        "Matt Henry",
-       "24",
-       70,
+       "33",
+       94,
        1
       ],
       [
        "Jacob Duffy",
-       "24.1",
-       143,
+       "33",
+       201,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "New Zealand",
+     "total": "55/1",
+     "bat": [
+      [
+       "Tom Latham",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Devon Conway",
+       24,
+       53,
+       "not out"
+      ],
+      [
+       "Henry Nicholls",
+       30,
+       51,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Rachin Ravindra",
+      "Daryl Mitchell",
+      "Tom Blundell",
+      "Glenn Phillips",
+      "Nathan Smith",
+      "Kyle Jamieson",
+      "Matt Henry",
+      "Jacob Duffy"
+     ],
+     "bowl": [
+      [
+       "Anshul Kamboj",
+       "5.4",
+       18,
        0
+      ],
+      [
+       "Akash Deep",
+       "7",
+       16,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "5",
+       20,
+       1
       ]
      ]
     }
@@ -10545,7 +10248,7 @@
       "no": "1",
       "name": "England",
       "team": "England",
-      "rating": "269"
+      "rating": "267"
      },
      {
       "no": "2",
@@ -10557,7 +10260,7 @@
       "no": "3",
       "name": "Australia",
       "team": "Australia",
-      "rating": "260"
+      "rating": "261"
      },
      {
       "no": "4",
@@ -11121,8 +10824,8 @@
     {
      "date": "2026-11-22T02:30Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Nagaland Cricket Stadium, Sovima",
      "teams": [
       {
@@ -11138,8 +10841,8 @@
     {
      "date": "2026-11-22T02:30Z",
      "desc": "Plate Group",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Sovima Cricket Ground, Sovima",
      "teams": [
       {
@@ -11155,8 +10858,8 @@
     {
      "date": "2026-11-22T02:30Z",
      "desc": "Elite, Group D",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
      "teams": [
       {
@@ -11172,13 +10875,13 @@
     {
      "date": "2026-11-22T03:00Z",
      "desc": "Elite, Group C",
-     "state": "pre",
-     "detail": "Scheduled",
+     "state": "in",
+     "detail": "Live",
      "venue": "I.S. Bindra Punjab Cricket Association Stadium",
      "teams": [
       {
        "name": "Himachal Pradesh",
-       "score": ""
+       "score": "60/2 (6.5/20 ov)"
       },
       {
        "name": "Tripura",
@@ -11556,182 +11259,6 @@
      ]
     }
    ]
-  },
-  "women": {
-   "name": "Asian Games Women's Cricket Competition",
-   "leagueId": "22546",
-   "matches": [
-    {
-     "id": "1550474",
-     "date": "2026-09-17T00:00Z",
-     "round": "1st Quarter-Final",
-     "state": "post",
-     "detail": "Match abandoned without a ball bowled",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "",
-       "winner": false
-      },
-      {
-       "name": "China Women",
-       "abbr": "CHN-W",
-       "score": "",
-       "winner": false
-      }
-     ],
-     "advanced": "Bangladesh Women advanced"
-    },
-    {
-     "id": "1550475",
-     "date": "2026-09-17T05:00Z",
-     "round": "2nd Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "92/7 (10.4/11 ov, target 92)",
-       "winner": true
-      },
-      {
-       "name": "Thailand Women",
-       "abbr": "THA-W",
-       "score": "91/4 (11/11 ov)",
-       "winner": false
-      }
-     ]
-    },
-    {
-     "id": "1550476",
-     "date": "2026-09-18T00:00Z",
-     "round": "3rd Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Malaysia Women",
-       "abbr": "MAL-W",
-       "score": "74/7 (20 ov, target 161)",
-       "winner": false
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "160/4",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550477",
-     "date": "2026-09-18T05:00Z",
-     "round": "4th Quarter-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Japan Women",
-       "abbr": "JPN-W",
-       "score": "57",
-       "winner": false
-      },
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "59/2 (5/20 ov, target 58)",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550478",
-     "date": "2026-09-20T00:00Z",
-     "round": "1st Semi-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "177/4",
-       "winner": false
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "178/2 (17.5/20 ov, target 178)",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550479",
-     "date": "2026-09-20T05:00Z",
-     "round": "2nd Semi-Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "81 (15.4/20 ov, target 196)",
-       "winner": false
-      },
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "195/4",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550480",
-     "date": "2026-09-22T00:00Z",
-     "round": "3rd Place Play-off",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "Bangladesh Women",
-       "abbr": "BAN-W",
-       "score": "114/7 (20 ov, target 146)",
-       "winner": false
-      },
-      {
-       "name": "Pakistan Women",
-       "abbr": "PAK-W",
-       "score": "145/8",
-       "winner": true
-      }
-     ]
-    },
-    {
-     "id": "1550481",
-     "date": "2026-09-22T05:00Z",
-     "round": "Final",
-     "state": "post",
-     "detail": "Result",
-     "teams": [
-      {
-       "name": "India Women",
-       "abbr": "IND-W",
-       "score": "216/3",
-       "winner": true
-      },
-      {
-       "name": "Sri Lanka Women",
-       "abbr": "SL-W",
-       "score": "69 (15.4/20 ov, target 217)",
-       "winner": false
-      }
-     ]
-    }
-   ],
-   "groups": []
   }
  },
  "meta": {
