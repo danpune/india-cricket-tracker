@@ -1,6 +1,36 @@
 {
  "headlines": [
   {
+   "t": "'We are way past Covid times' - Gill wants saliva ban to be reversed",
+   "u": "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS",
+   "d": "Mon, 23 Nov 2026"
+  },
+  {
+   "t": "New Zealand and India play out stalemate on stubborn Basin Reserve pitch",
+   "u": "https://www.cricinfo.com/ci/content/story/1563651.html?ex_cid=OTC-RSS",
+   "d": "Mon, 23 Nov 2026"
+  },
+  {
+   "t": "Pakistan A opt to bat against India A; both teams unchanged",
+   "u": "https://www.cricinfo.com/ci/content/story/1563603.html?ex_cid=OTC-RSS",
+   "d": "Sun, 22 Nov 2026"
+  },
+  {
+   "t": "Railways T20 debutant Jamshed Alam picks up four wickets in four balls",
+   "u": "https://www.cricinfo.com/ci/content/story/1563589.html?ex_cid=OTC-RSS",
+   "d": "Sun, 22 Nov 2026"
+  },
+  {
+   "t": "India look for 'eight good balls' on final day's 'war of attrition'",
+   "u": "https://www.cricinfo.com/ci/content/story/1563594.html?ex_cid=OTC-RSS",
+   "d": "Sun, 22 Nov 2026"
+  },
+  {
+   "t": "New Zealand battle to try and save the Test after India batters' record-breaking day",
+   "u": "https://www.cricinfo.com/ci/content/story/1563584.html?ex_cid=OTC-RSS",
+   "d": "Sun, 22 Nov 2026"
+  },
+  {
    "t": "India's top five rack up the runs to push New Zealand to a corner",
    "u": "https://www.cricinfo.com/ci/content/story/1563419.html?ex_cid=OTC-RSS",
    "d": "Sat, 21 Nov 2026"
@@ -19,36 +49,6 @@
    "t": "Nicholls ton, Phillips 94* script New Zealand recovery after 70 for 5",
    "u": "https://www.cricinfo.com/ci/content/story/1563189.html?ex_cid=OTC-RSS",
    "d": "Thu, 19 Nov 2026"
-  },
-  {
-   "t": "India leave Siraj and Jadeja out of opening Test in New Zealand",
-   "u": "https://www.cricinfo.com/ci/content/story/1563144.html?ex_cid=OTC-RSS",
-   "d": "Wed, 18 Nov 2026"
-  },
-  {
-   "t": "In windy Wellington, India begin new era with history and form against them",
-   "u": "https://www.cricinfo.com/ci/content/story/1563027.html?ex_cid=OTC-RSS",
-   "d": "Wed, 18 Nov 2026"
-  },
-  {
-   "t": "Morkel: India need to get out of 'comfort zone' to make WTC final",
-   "u": "https://www.cricinfo.com/ci/content/story/1563057.html?ex_cid=OTC-RSS",
-   "d": "Wed, 18 Nov 2026"
-  },
-  {
-   "t": "Starc, Head, Bethell released by DC, SRH, RCB ahead of IPL 2027 player auction",
-   "u": "https://www.cricinfo.com/ci/content/story/1562958.html?ex_cid=OTC-RSS",
-   "d": "Wed, 18 Nov 2026"
-  },
-  {
-   "t": "Brar handed demerit point for aggressive celebration of Seifert wicket",
-   "u": "https://www.cricinfo.com/ci/content/story/1562947.html?ex_cid=OTC-RSS",
-   "d": "Tue, 17 Nov 2026"
-  },
-  {
-   "t": "Gill: India 'definitely want four fast-bowling options'",
-   "u": "https://www.cricinfo.com/ci/content/story/1562899.html?ex_cid=OTC-RSS",
-   "d": "Tue, 17 Nov 2026"
   }
  ],
  "talk": [
@@ -57,28 +57,28 @@
    "handle": "@cricbuzz",
    "videos": [
     {
+     "yt": "GYGq9o_fS1Q",
+     "t": "Is India\u2019s WTC dream over? Dinesh Karthik explains"
+    },
+    {
+     "yt": "mdMx_Bi47X4",
+     "t": "India rewrite records in Wellington! Dinesh Karthik reacts"
+    },
+    {
+     "yt": "hYeVnZaU904",
+     "t": "Can India win the 1st Test? Dinesh Karthik answers"
+    },
+    {
+     "yt": "bYyyHF7lEP8",
+     "t": "Is Pant India\u2019s greatest wicketkeeper-batter? Dinesh Karthik answers"
+    },
+    {
      "yt": "wTuExYpkN6k",
      "t": "Hard to displace Padikkal from India\u2019s No. 3 spot: Dinesh Karthik"
     },
     {
      "yt": "lijlNMcvYyc",
      "t": "Captaincy invigorates Gill, made him a better version: Dinesh Karthik"
-    },
-    {
-     "yt": "WEWJ0UVZ5vA",
-     "t": "Abu Dhabi T10 2026 Review: How did UAE Bulls defend their title?"
-    },
-    {
-     "yt": "L4Qva39NxX0",
-     "t": "KL Rahul, India\u2019s best Test opener after Gavaskar & Sehwag: Dinesh Karthik"
-    },
-    {
-     "yt": "hMNBOrQngRo",
-     "t": "Jaiswal, like Sehwag, puts bowlers under pressure: Dinesh Karthik"
-    },
-    {
-     "yt": "QBZGR-tLK_Y",
-     "t": "Why do India struggle to dismiss tail-enders? Dinesh Karthik explains"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-22T03:35:52Z"
+ "updated": "2026-11-23T07:49:36Z"
 }

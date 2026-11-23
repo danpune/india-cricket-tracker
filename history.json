@@ -40520,6 +40520,352 @@
      ]
     }
    ]
+  },
+  {
+   "id": "espn_1539442",
+   "date": "2026-11-18",
+   "gender": "men",
+   "format": "Test",
+   "series": "India tour of New Zealand 2026/27",
+   "matchNo": "1st Test",
+   "venue": "Basin Reserve, Wellington",
+   "city": "",
+   "teams": [
+    {
+     "name": "New Zealand",
+     "score": "368 & 239/5 (120 ov)"
+    },
+    {
+     "name": "India",
+     "score": "720/9d"
+    }
+   ],
+   "result": "Match drawn",
+   "india": "draw",
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "368",
+     "bat": [
+      [
+       "Tom Latham",
+       0,
+       2,
+       "b"
+      ],
+      [
+       "Devon Conway",
+       4,
+       13,
+       "c"
+      ],
+      [
+       "Henry Nicholls",
+       175,
+       335,
+       "not out"
+      ],
+      [
+       "Rachin Ravindra",
+       15,
+       50,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       1,
+       8,
+       "c"
+      ],
+      [
+       "Tom Blundell",
+       5,
+       22,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       118,
+       216,
+       "b"
+      ],
+      [
+       "Nathan Smith",
+       14,
+       44,
+       "lbw"
+      ],
+      [
+       "Kyle Jamieson",
+       11,
+       21,
+       "c"
+      ],
+      [
+       "Matt Henry",
+       1,
+       9,
+       "lbw"
+      ],
+      [
+       "Jacob Duffy",
+       4,
+       12,
+       "c"
+      ]
+     ],
+     "dnb": [],
+     "bowl": [
+      [
+       "Anshul Kamboj",
+       "23",
+       69,
+       2
+      ],
+      [
+       "Washington Sundar",
+       "20",
+       45,
+       0
+      ],
+      [
+       "Akash Deep",
+       "23",
+       53,
+       3
+      ],
+      [
+       "Jasprit Bumrah",
+       "29",
+       92,
+       4
+      ],
+      [
+       "Prasidh Krishna",
+       "26",
+       100,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "720/9d",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       85,
+       89,
+       "c"
+      ],
+      [
+       "KL Rahul",
+       136,
+       290,
+       "b"
+      ],
+      [
+       "Devdutt Padikkal",
+       80,
+       175,
+       "b"
+      ],
+      [
+       "Shubman Gill",
+       98,
+       146,
+       "b"
+      ],
+      [
+       "Rishabh Pant",
+       128,
+       153,
+       "c"
+      ],
+      [
+       "Anshul Kamboj",
+       38,
+       42,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       78,
+       79,
+       "st"
+      ],
+      [
+       "Washington Sundar",
+       24,
+       26,
+       "c"
+      ],
+      [
+       "Akash Deep",
+       13,
+       5,
+       "c"
+      ],
+      [
+       "Jasprit Bumrah",
+       7,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Prasidh Krishna"
+     ],
+     "bowl": [
+      [
+       "Rachin Ravindra",
+       "10",
+       44,
+       2
+      ],
+      [
+       "Daryl Mitchell",
+       "6",
+       39,
+       0
+      ],
+      [
+       "Glenn Phillips",
+       "24",
+       154,
+       3
+      ],
+      [
+       "Nathan Smith",
+       "29",
+       84,
+       1
+      ],
+      [
+       "Kyle Jamieson",
+       "31",
+       88,
+       1
+      ],
+      [
+       "Matt Henry",
+       "33",
+       94,
+       1
+      ],
+      [
+       "Jacob Duffy",
+       "33",
+       201,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "New Zealand",
+     "total": "239/5",
+     "bat": [
+      [
+       "Tom Latham",
+       0,
+       2,
+       "c"
+      ],
+      [
+       "Devon Conway",
+       65,
+       165,
+       "c"
+      ],
+      [
+       "Henry Nicholls",
+       31,
+       59,
+       "c"
+      ],
+      [
+       "Rachin Ravindra",
+       37,
+       129,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       49,
+       186,
+       "not out"
+      ],
+      [
+       "Tom Blundell",
+       15,
+       54,
+       "c"
+      ],
+      [
+       "Glenn Phillips",
+       26,
+       126,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Nathan Smith",
+      "Kyle Jamieson",
+      "Matt Henry",
+      "Jacob Duffy"
+     ],
+     "bowl": [
+      [
+       "Yashasvi Jaiswal",
+       "2",
+       4,
+       0
+      ],
+      [
+       "Devdutt Padikkal",
+       "1",
+       2,
+       0
+      ],
+      [
+       "Anshul Kamboj",
+       "22",
+       45,
+       1
+      ],
+      [
+       "Dhruv Jurel",
+       "1",
+       1,
+       0
+      ],
+      [
+       "Washington Sundar",
+       "35",
+       65,
+       1
+      ],
+      [
+       "Akash Deep",
+       "20",
+       47,
+       0
+      ],
+      [
+       "Jasprit Bumrah",
+       "20",
+       42,
+       1
+      ],
+      [
+       "Prasidh Krishna",
+       "19",
+       23,
+       2
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
