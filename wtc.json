@@ -4,13 +4,13 @@
  "finalNote": "Top 2 play the final in 2027",
  "points": "12 for a win \u00b7 6 for a tie \u00b7 4 for a draw \u00b7 deductions for slow over rates",
  "url": "https://www.icc-cricket.com/tournaments/world-test-championship/standings",
- "verified": "2026-11-22",
+ "verified": "2026-11-23",
  "teams": 9,
  "india": {
   "rank": 4,
-  "played": 11,
-  "points": 68,
-  "pct": 51.52
+  "played": 12,
+  "points": 72,
+  "pct": 50.0
  },
  "top": [
   {
@@ -19,9 +19,9 @@
    "pct": 75.0
   },
   {
-   "abbr": "NZ",
-   "name": "New Zealand",
-   "pct": 72.22
+   "abbr": "AUS",
+   "name": "Australia",
+   "pct": 69.23
   }
  ],
  "table": [
@@ -39,18 +39,6 @@
   },
   {
    "rank": 2,
-   "abbr": "NZ",
-   "name": "New Zealand",
-   "played": 6,
-   "won": 4,
-   "lost": 1,
-   "drawn": 1,
-   "deducted": 0,
-   "points": 52,
-   "pct": 72.22
-  },
-  {
-   "rank": 3,
    "abbr": "AUS",
    "name": "Australia",
    "played": 13,
@@ -62,16 +50,28 @@
    "pct": 69.23
   },
   {
+   "rank": 3,
+   "abbr": "NZ",
+   "name": "New Zealand",
+   "played": 7,
+   "won": 4,
+   "lost": 1,
+   "drawn": 2,
+   "deducted": 0,
+   "points": 56,
+   "pct": 66.67
+  },
+  {
    "rank": 4,
    "abbr": "IND",
    "name": "India",
-   "played": 11,
+   "played": 12,
    "won": 5,
    "lost": 4,
-   "drawn": 2,
+   "drawn": 3,
    "deducted": 0,
-   "points": 68,
-   "pct": 51.52
+   "points": 72,
+   "pct": 50.0
   },
   {
    "rank": 5,
