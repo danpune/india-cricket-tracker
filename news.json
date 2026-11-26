@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Bumrah rises to joint-second in Test bowling rankings, Rabada up to sixth",
+   "u": "https://www.cricinfo.com/ci/content/story/1563908.html?ex_cid=OTC-RSS",
+   "d": "Wed, 25 Nov 2026"
+  },
+  {
    "t": "Sooryavanshi on 53-ball 204: 'I spoke to Yuvraj openly and backed my strengths'",
    "u": "https://www.cricinfo.com/ci/content/story/1563875.html?ex_cid=OTC-RSS",
    "d": "Wed, 25 Nov 2026"
@@ -8,12 +13,12 @@
   {
    "t": "Sooryavanshi smashes List A records to down UAE with whirlwind 204 off 53",
    "u": "https://www.cricinfo.com/ci/content/story/1563818.html?ex_cid=OTC-RSS",
-   "d": "Tue, 24 Nov 2026"
+   "d": "Wed, 25 Nov 2026"
   },
   {
    "t": "Vaibhav Sooryavanshi slams fastest 100 and 200 in List A cricket",
    "u": "https://www.cricinfo.com/ci/content/story/1563814.html?ex_cid=OTC-RSS",
-   "d": "Tue, 24 Nov 2026"
+   "d": "Wed, 25 Nov 2026"
   },
   {
    "t": "Priyansh Arya smashes 181, the second-highest score in T20 history",
@@ -44,11 +49,6 @@
    "t": "Railways T20 debutant Jamshed Alam picks up four wickets in four balls",
    "u": "https://www.cricinfo.com/ci/content/story/1563589.html?ex_cid=OTC-RSS",
    "d": "Sun, 22 Nov 2026"
-  },
-  {
-   "t": "India look for 'eight good balls' on final day's 'war of attrition'",
-   "u": "https://www.cricinfo.com/ci/content/story/1563594.html?ex_cid=OTC-RSS",
-   "d": "Sun, 22 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "fCp6GYa9IfY",
+     "t": "Preview: 2nd Test | New Zealand vs India"
+    },
     {
      "yt": "59ma_v3ZIaA",
      "t": "Unfair to judge India\u2019s pacers on such a flat pitch: Dinesh Karthik"
@@ -75,10 +79,6 @@
     {
      "yt": "mdMx_Bi47X4",
      "t": "India rewrite records in Wellington! Dinesh Karthik reacts"
-    },
-    {
-     "yt": "hYeVnZaU904",
-     "t": "Can India win the 1st Test? Dinesh Karthik answers"
     }
    ]
   },
@@ -86,6 +86,10 @@
    "channel": "Harsha Bhogle",
    "handle": "@bhogle_harsha",
    "videos": [
+    {
+     "yt": "3gdXkqvq3QI",
+     "t": "Harsha Bhogle on Christchurch Test, Vaibhav Sooryavanshi & Priyansh Arya"
+    },
     {
      "yt": "G7YQ2vZGQUY",
      "t": "Harsha Bhogle on the Wellington Draw"
@@ -105,13 +109,9 @@
     {
      "yt": "5q8J8cIEusg",
      "t": "Koushik, Jellyfish and Noel's queries on my broadcast career in focus"
-    },
-    {
-     "yt": "rwdE8Jva-Hk",
-     "t": "Ram asks what an aspiring broadcaster should focus on"
     }
    ]
   }
  ],
- "updated": "2026-11-25T06:49:02Z"
+ "updated": "2026-11-26T01:10:53Z"
 }
