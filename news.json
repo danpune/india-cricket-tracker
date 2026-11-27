@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "Latham, Blundell fifties give NZ advantage after hard-fought opening day",
+   "u": "https://www.cricinfo.com/ci/content/story/1564389.html?ex_cid=OTC-RSS",
+   "d": "Fri, 27 Nov 2026"
+  },
+  {
    "t": "India bowl in Christchurch; Brar debuts in place of Prasidh",
    "u": "https://www.cricinfo.com/ci/content/story/1564351.html?ex_cid=OTC-RSS",
    "d": "Thu, 26 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "New Zealand and India play out stalemate on stubborn Basin Reserve pitch",
    "u": "https://www.cricinfo.com/ci/content/story/1563651.html?ex_cid=OTC-RSS",
    "d": "Mon, 23 Nov 2026"
-  },
-  {
-   "t": "'We are way past Covid times' - Gill wants saliva ban to be reversed",
-   "u": "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS",
-   "d": "Mon, 23 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "IELMc3kF8jI",
+     "t": "Why is Siraj being overlooked in Tests? Dinesh Karthik answers"
+    },
     {
      "yt": "fCp6GYa9IfY",
      "t": "Preview: 2nd Test | New Zealand vs India"
@@ -75,10 +79,6 @@
     {
      "yt": "GYGq9o_fS1Q",
      "t": "Is India\u2019s WTC dream over? Dinesh Karthik explains"
-    },
-    {
-     "yt": "mdMx_Bi47X4",
-     "t": "India rewrite records in Wellington! Dinesh Karthik reacts"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-27T02:16:41Z"
+ "updated": "2026-11-27T10:59:02Z"
 }

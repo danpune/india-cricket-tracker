@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:15:27Z",
+ "updated": "2026-11-27T10:57:46Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4851,227 +4851,6 @@
    ]
   },
   {
-   "id": "espn_1535652",
-   "eventId": "1535652",
-   "date": "2026-10-16T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "116/6 (15.4/20 ov, target 115)",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "114/5",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 4 wkts (26b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Zimbabwe Women",
-     "total": "114/5 (20.0 ov)",
-     "bat": [
-      [
-       "Kelis Ndhlovu",
-       42,
-       44,
-       "b"
-      ],
-      [
-       "Beloved Biza",
-       0,
-       4,
-       "lbw"
-      ],
-      [
-       "Modester Mupachikwa",
-       16,
-       26,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       43,
-       33,
-       "not out"
-      ],
-      [
-       "Nyasha Gwanzura",
-       9,
-       11,
-       "st"
-      ],
-      [
-       "Michelle Mavunga",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Josephine Nkomo",
-      "Francisca Chipare",
-      "Tendai Makusha",
-      "Olinder Chare"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "3",
-       20,
-       0
-      ],
-      [
-       "Deepti Sharma",
-       "4",
-       22,
-       0
-      ],
-      [
-       "Arundhati Reddy",
-       "3",
-       30,
-       1
-      ],
-      [
-       "Shree Charani",
-       "4",
-       14,
-       1
-      ],
-      [
-       "Nandani Sharma",
-       "4",
-       11,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "116/6 (15.4 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       9,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       4,
-       2,
-       "c"
-      ],
-      [
-       "Anushka Sharma",
-       4,
-       3,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "Niki Prasad",
-       39,
-       35,
-       "not out"
-      ],
-      [
-       "Deepti Sharma",
-       49,
-       37,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       7,
-       5,
-       "c"
-      ],
-      [
-       "Arundhati Reddy",
-       2,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Shree Charani",
-      "Nandani Sharma",
-      "Kranti Gaud"
-     ],
-     "bowl": [
-      [
-       "Beloved Biza",
-       "4",
-       27,
-       1
-      ],
-      [
-       "Nyasha Gwanzura",
-       "3",
-       18,
-       3
-      ],
-      [
-       "Michelle Mavunga",
-       "3",
-       19,
-       1
-      ],
-      [
-       "Francisca Chipare",
-       "1",
-       10,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "1.4",
-       19,
-       0
-      ],
-      [
-       "Olinder Chare",
-       "3",
-       23,
-       1
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1529234",
    "eventId": "1529234",
    "date": "2026-10-17T13:30Z",
@@ -9520,12 +9299,12 @@
    "venue": "Hagley Oval, Christchurch",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "119/4 (45 ov)",
+     "score": "246/5 (85 ov)",
      "winner": false
     },
     {
@@ -9568,7 +9347,7 @@
    "innings": [
     {
      "t": "New Zealand",
-     "total": "119/4",
+     "total": "246/5",
      "bat": [
       [
        "Tom Latham",
@@ -9596,19 +9375,24 @@
       ],
       [
        "Daryl Mitchell",
-       3,
-       6,
-       "not out"
+       31,
+       74,
+       "c"
       ],
       [
        "Tom Blundell",
-       6,
-       4,
+       53,
+       117,
+       "not out"
+      ],
+      [
+       "Glenn Phillips",
+       36,
+       64,
        "not out"
       ]
      ],
      "dnb": [
-      "Glenn Phillips",
       "Nathan Smith",
       "Kyle Jamieson",
       "Matt Henry",
@@ -9616,27 +9400,33 @@
      ],
      "bowl": [
       [
+       "Washington Sundar",
+       "9",
+       36,
+       1
+      ],
+      [
        "Akash Deep",
-       "12",
-       23,
+       "21",
+       52,
        2
       ],
       [
        "Anshul Kamboj",
-       "13.6",
-       44,
+       "17",
+       56,
        1
       ],
       [
        "Jasprit Bumrah",
-       "11",
-       26,
+       "19",
+       37,
        0
       ],
       [
        "Gurnoor Brar",
-       "8",
-       25,
+       "19",
+       52,
        1
       ]
      ]
@@ -10253,6 +10043,36 @@
    "seriesId": "24281",
    "matchNo": "4th Test",
    "venue": "JSCA International Stadium Complex, Ranchi",
+   "state": "pre",
+   "statusDetail": "Scheduled",
+   "statusDesc": "Scheduled",
+   "teams": [
+    {
+     "name": "India",
+     "abbr": "IND",
+     "score": "",
+     "winner": false
+    },
+    {
+     "name": "Australia",
+     "abbr": "AUS",
+     "score": "",
+     "winner": false
+    }
+   ],
+   "result": "",
+   "india": ""
+  },
+  {
+   "id": "espn_1529248",
+   "eventId": "1529248",
+   "date": "2027-02-27T04:00Z",
+   "gender": "men",
+   "format": "Test",
+   "series": "Australia tour of India 2026/27",
+   "seriesId": "24281",
+   "matchNo": "5th Test",
+   "venue": "Narendra Modi Stadium, Motera, Ahmedabad",
    "state": "pre",
    "statusDetail": "Scheduled",
    "statusDesc": "Scheduled",
@@ -11332,68 +11152,68 @@
    "matches": [
     {
      "date": "2026-11-30T03:30Z",
-     "desc": "Super League Group A",
-     "state": "pre",
-     "detail": "Scheduled",
-     "venue": "",
-     "teams": [
-      {
-       "name": "TBA",
-       "score": ""
-      },
-      {
-       "name": "TBA",
-       "score": ""
-      }
-     ]
-    },
-    {
-     "date": "2026-11-30T03:30Z",
      "desc": "Super League Group B",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "",
+     "venue": "Vidarbha C.A. Ground, Nagpur",
      "teams": [
       {
-       "name": "TBA",
+       "name": "Rajasthan",
        "score": ""
       },
       {
-       "name": "TBA",
+       "name": "Punjab",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-30T03:30Z",
+     "date": "2026-11-30T05:30Z",
      "desc": "Super League Group A",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "",
+     "venue": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
      "teams": [
       {
-       "name": "TBA",
+       "name": "Keralam",
        "score": ""
       },
       {
-       "name": "TBA",
+       "name": "Vidarbha",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-30T03:30Z",
+     "date": "2026-11-30T08:00Z",
      "desc": "Super League Group B",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "",
+     "venue": "Vidarbha C.A. Ground, Nagpur",
      "teams": [
       {
-       "name": "TBA",
+       "name": "Andhra",
        "score": ""
       },
       {
-       "name": "TBA",
+       "name": "Mumbai",
+       "score": ""
+      }
+     ]
+    },
+    {
+     "date": "2026-11-30T11:00Z",
+     "desc": "Super League Group A",
+     "state": "pre",
+     "detail": "Scheduled",
+     "venue": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+     "teams": [
+      {
+       "name": "Baroda",
+       "score": ""
+      },
+      {
+       "name": "Delhi",
        "score": ""
       }
      ]
