@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:09:43Z",
+ "updated": "2026-11-27T02:15:27Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -9518,14 +9518,14 @@
    "seriesId": "24469",
    "matchNo": "2nd Test",
    "venue": "Hagley Oval, Christchurch",
-   "state": "pre",
-   "statusDetail": "Scheduled",
-   "statusDesc": "Scheduled",
+   "state": "in",
+   "statusDetail": "Live",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "",
+     "score": "119/4 (45 ov)",
      "winner": false
     },
     {
@@ -9535,8 +9535,113 @@
      "winner": false
     }
    ],
-   "result": "Starts at 11:00 local time",
-   "india": ""
+   "result": "India won toss & fielded",
+   "india": "",
+   "xi": {
+    "New Zealand": [
+     "Tom Latham (c)",
+     "Devon Conway",
+     "Henry Nicholls",
+     "Rachin Ravindra",
+     "Daryl Mitchell",
+     "Tom Blundell",
+     "Glenn Phillips",
+     "Nathan Smith",
+     "Kyle Jamieson",
+     "Matt Henry",
+     "Jacob Duffy"
+    ],
+    "India": [
+     "Yashasvi Jaiswal",
+     "KL Rahul",
+     "Devdutt Padikkal",
+     "Shubman Gill (c)",
+     "Rishabh Pant",
+     "Washington Sundar",
+     "Dhruv Jurel",
+     "Akash Deep",
+     "Anshul Kamboj",
+     "Jasprit Bumrah",
+     "Gurnoor Brar"
+    ]
+   },
+   "innings": [
+    {
+     "t": "New Zealand",
+     "total": "119/4",
+     "bat": [
+      [
+       "Tom Latham",
+       59,
+       128,
+       "c"
+      ],
+      [
+       "Devon Conway",
+       31,
+       79,
+       "lbw"
+      ],
+      [
+       "Henry Nicholls",
+       16,
+       46,
+       "c"
+      ],
+      [
+       "Rachin Ravindra",
+       0,
+       9,
+       "c"
+      ],
+      [
+       "Daryl Mitchell",
+       3,
+       6,
+       "not out"
+      ],
+      [
+       "Tom Blundell",
+       6,
+       4,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Glenn Phillips",
+      "Nathan Smith",
+      "Kyle Jamieson",
+      "Matt Henry",
+      "Jacob Duffy"
+     ],
+     "bowl": [
+      [
+       "Akash Deep",
+       "12",
+       23,
+       2
+      ],
+      [
+       "Anshul Kamboj",
+       "13.6",
+       44,
+       1
+      ],
+      [
+       "Jasprit Bumrah",
+       "11",
+       26,
+       0
+      ],
+      [
+       "Gurnoor Brar",
+       "8",
+       25,
+       1
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "espn_1543892",
@@ -11223,72 +11328,72 @@
    "leagueId": "8661",
    "from": "2026-11-14",
    "to": "2026-12-06",
-   "more": 12,
+   "more": 0,
    "matches": [
     {
-     "date": "2026-11-26T02:30Z",
-     "desc": "Elite, Group D",
+     "date": "2026-11-30T03:30Z",
+     "desc": "Super League Group A",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Jadavpur University Campus 2nd Ground, Kolkata",
+     "venue": "",
      "teams": [
       {
-       "name": "Uttarakhand",
+       "name": "TBA",
        "score": ""
       },
       {
-       "name": "Mumbai",
+       "name": "TBA",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-26T03:00Z",
-     "desc": "Elite, Group C",
+     "date": "2026-11-30T03:30Z",
+     "desc": "Super League Group B",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "I.S. Bindra Punjab Cricket Association Stadium",
+     "venue": "",
      "teams": [
       {
-       "name": "Madhya Pradesh",
+       "name": "TBA",
        "score": ""
       },
       {
-       "name": "Puducherry",
+       "name": "TBA",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-26T03:30Z",
-     "desc": "Elite, Group B",
+     "date": "2026-11-30T03:30Z",
+     "desc": "Super League Group A",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Daly College Ground, Indore",
+     "venue": "",
      "teams": [
       {
-       "name": "Jammu & Kashmir",
+       "name": "TBA",
        "score": ""
       },
       {
-       "name": "Haryana",
+       "name": "TBA",
        "score": ""
       }
      ]
     },
     {
-     "date": "2026-11-26T03:30Z",
-     "desc": "Elite, Group A",
+     "date": "2026-11-30T03:30Z",
+     "desc": "Super League Group B",
      "state": "pre",
      "detail": "Scheduled",
-     "venue": "Sharad Pawar Cricket Academy BKC, Mumbai",
+     "venue": "",
      "teams": [
       {
-       "name": "Karnataka",
+       "name": "TBA",
        "score": ""
       },
       {
-       "name": "Baroda",
+       "name": "TBA",
        "score": ""
       }
      ]

@@ -1,6 +1,16 @@
 {
  "headlines": [
   {
+   "t": "India bowl in Christchurch; Brar debuts in place of Prasidh",
+   "u": "https://www.cricinfo.com/ci/content/story/1564351.html?ex_cid=OTC-RSS",
+   "d": "Thu, 26 Nov 2026"
+  },
+  {
+   "t": "New Zealand and India hope Test cricket is in a giving mood at Hagley Oval",
+   "u": "https://www.cricinfo.com/ci/content/story/1564211.html?ex_cid=OTC-RSS",
+   "d": "Thu, 26 Nov 2026"
+  },
+  {
    "t": "Bumrah rises to joint-second in Test bowling rankings, Rabada up to sixth",
    "u": "https://www.cricinfo.com/ci/content/story/1563908.html?ex_cid=OTC-RSS",
    "d": "Wed, 25 Nov 2026"
@@ -39,16 +49,6 @@
    "t": "'We are way past Covid times' - Gill wants saliva ban to be reversed",
    "u": "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS",
    "d": "Mon, 23 Nov 2026"
-  },
-  {
-   "t": "Pakistan A opt to bat against India A; both teams unchanged",
-   "u": "https://www.cricinfo.com/ci/content/story/1563603.html?ex_cid=OTC-RSS",
-   "d": "Sun, 22 Nov 2026"
-  },
-  {
-   "t": "Railways T20 debutant Jamshed Alam picks up four wickets in four balls",
-   "u": "https://www.cricinfo.com/ci/content/story/1563589.html?ex_cid=OTC-RSS",
-   "d": "Sun, 22 Nov 2026"
   }
  ],
  "talk": [
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-26T01:10:53Z"
+ "updated": "2026-11-27T02:16:41Z"
 }
