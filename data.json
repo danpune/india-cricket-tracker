@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:49:43Z",
+ "updated": "2026-11-28T02:14:28Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -4851,227 +4851,6 @@
    ]
   },
   {
-   "id": "espn_1535652",
-   "eventId": "1535652",
-   "date": "2026-10-16T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "116/6 (15.4/20 ov, target 115)",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "114/5",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 4 wkts (26b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Zimbabwe Women",
-     "total": "114/5 (20.0 ov)",
-     "bat": [
-      [
-       "Kelis Ndhlovu",
-       42,
-       44,
-       "b"
-      ],
-      [
-       "Beloved Biza",
-       0,
-       4,
-       "lbw"
-      ],
-      [
-       "Modester Mupachikwa",
-       16,
-       26,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       43,
-       33,
-       "not out"
-      ],
-      [
-       "Nyasha Gwanzura",
-       9,
-       11,
-       "st"
-      ],
-      [
-       "Michelle Mavunga",
-       0,
-       1,
-       "st"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Josephine Nkomo",
-      "Francisca Chipare",
-      "Tendai Makusha",
-      "Olinder Chare"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "3",
-       20,
-       0
-      ],
-      [
-       "Deepti Sharma",
-       "4",
-       22,
-       0
-      ],
-      [
-       "Arundhati Reddy",
-       "3",
-       30,
-       1
-      ],
-      [
-       "Shree Charani",
-       "4",
-       14,
-       1
-      ],
-      [
-       "Nandani Sharma",
-       "4",
-       11,
-       2
-      ],
-      [
-       "Kranti Gaud",
-       "2",
-       16,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "116/6 (15.4 ov)",
-     "bat": [
-      [
-       "Smriti Mandhana",
-       9,
-       6,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       4,
-       2,
-       "c"
-      ],
-      [
-       "Anushka Sharma",
-       4,
-       3,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "Niki Prasad",
-       39,
-       35,
-       "not out"
-      ],
-      [
-       "Deepti Sharma",
-       49,
-       37,
-       "c"
-      ],
-      [
-       "Richa Ghosh",
-       7,
-       5,
-       "c"
-      ],
-      [
-       "Arundhati Reddy",
-       2,
-       2,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Shree Charani",
-      "Nandani Sharma",
-      "Kranti Gaud"
-     ],
-     "bowl": [
-      [
-       "Beloved Biza",
-       "4",
-       27,
-       1
-      ],
-      [
-       "Nyasha Gwanzura",
-       "3",
-       18,
-       3
-      ],
-      [
-       "Michelle Mavunga",
-       "3",
-       19,
-       1
-      ],
-      [
-       "Francisca Chipare",
-       "1",
-       10,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "1.4",
-       19,
-       0
-      ],
-      [
-       "Olinder Chare",
-       "3",
-       23,
-       1
-      ]
-     ]
-    }
-   ]
-  },
-  {
    "id": "espn_1529234",
    "eventId": "1529234",
    "date": "2026-10-17T13:30Z",
@@ -5179,454 +4958,6 @@
        "2",
        25,
        0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1535653",
-   "eventId": "1535653",
-   "date": "2026-10-18T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "2nd T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "104/1 (8.5/20 ov, target 103)",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "102/8",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 9 wkts (67b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Zimbabwe Women",
-     "total": "102/8 (20.0 ov)",
-     "bat": [
-      [
-       "Kelis Ndhlovu",
-       0,
-       11,
-       "b"
-      ],
-      [
-       "Beloved Biza",
-       7,
-       13,
-       "c"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       34,
-       32,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       9,
-       10,
-       "c"
-      ],
-      [
-       "Josephine Nkomo",
-       27,
-       35,
-       "not out"
-      ],
-      [
-       "Nyasha Gwanzura",
-       0,
-       1,
-       "lbw"
-      ],
-      [
-       "Modester Mupachikwa",
-       9,
-       11,
-       "run out"
-      ],
-      [
-       "Michelle Mavunga",
-       4,
-       4,
-       "c"
-      ],
-      [
-       "Francisca Chipare",
-       0,
-       3,
-       "run out"
-      ]
-     ],
-     "dnb": [
-      "Tendai Makusha",
-      "Olinder Chare"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "1",
-       7,
-       0
-      ],
-      [
-       "Niki Prasad",
-       "2",
-       7,
-       2
-      ],
-      [
-       "Deepti Sharma",
-       "3",
-       13,
-       1
-      ],
-      [
-       "Arundhati Reddy",
-       "3",
-       17,
-       0
-      ],
-      [
-       "Shree Charani",
-       "4",
-       21,
-       1
-      ],
-      [
-       "Nandani Sharma",
-       "3",
-       17,
-       1
-      ],
-      [
-       "Kranti Gaud",
-       "4",
-       15,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "104/1 (8.5 ov)",
-     "bat": [
-      [
-       "Shafali Verma",
-       55,
-       25,
-       "c"
-      ],
-      [
-       "Smriti Mandhana",
-       47,
-       25,
-       "not out"
-      ],
-      [
-       "Anushka Sharma",
-       1,
-       4,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Harmanpreet Kaur",
-      "Niki Prasad",
-      "Deepti Sharma",
-      "Richa Ghosh",
-      "Arundhati Reddy",
-      "Shree Charani",
-      "Nandani Sharma",
-      "Kranti Gaud"
-     ],
-     "bowl": [
-      [
-       "Beloved Biza",
-       "1",
-       9,
-       1
-      ],
-      [
-       "Nyasha Gwanzura",
-       "3",
-       42,
-       0
-      ],
-      [
-       "Michelle Mavunga",
-       "1",
-       15,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "2",
-       19,
-       0
-      ],
-      [
-       "Olinder Chare",
-       "1.5",
-       19,
-       0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1535654",
-   "eventId": "1535654",
-   "date": "2026-10-20T13:30Z",
-   "gender": "women",
-   "format": "T20I",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "3rd T20I",
-   "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "216/7",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "124/7 (20 ov, target 217)",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 92 runs",
-   "india": "won",
-   "innings": [
-    {
-     "t": "India Women",
-     "total": "216/7 (20.0 ov)",
-     "bat": [
-      [
-       "Shafali Verma",
-       69,
-       37,
-       "c"
-      ],
-      [
-       "Anushka Sharma",
-       28,
-       20,
-       "c"
-      ],
-      [
-       "Niki Prasad",
-       9,
-       12,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       91,
-       41,
-       "not out"
-      ],
-      [
-       "Richa Ghosh",
-       1,
-       3,
-       "c"
-      ],
-      [
-       "Deepti Sharma",
-       0,
-       3,
-       "c"
-      ],
-      [
-       "Arundhati Reddy",
-       4,
-       2,
-       "c"
-      ],
-      [
-       "Prema Rawat",
-       4,
-       2,
-       "run out"
-      ],
-      [
-       "Kranti Gaud",
-       0,
-       0,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Smriti Mandhana",
-      "Nandani Sharma"
-     ],
-     "bowl": [
-      [
-       "Beloved Biza",
-       "4",
-       50,
-       3
-      ],
-      [
-       "Nyasha Gwanzura",
-       "2",
-       15,
-       1
-      ],
-      [
-       "Loryn Phiri",
-       "3",
-       33,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "4",
-       45,
-       1
-      ],
-      [
-       "Nomvelo Sibanda",
-       "4",
-       33,
-       1
-      ],
-      [
-       "Kudzai Chigora",
-       "3",
-       40,
-       0
-      ]
-     ]
-    },
-    {
-     "t": "Zimbabwe Women",
-     "total": "124/7 (20.0 ov)",
-     "bat": [
-      [
-       "Kelis Ndhlovu",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       60,
-       49,
-       "c"
-      ],
-      [
-       "Modester Mupachikwa",
-       1,
-       4,
-       "c"
-      ],
-      [
-       "Beloved Biza",
-       44,
-       50,
-       "b"
-      ],
-      [
-       "Nyasha Gwanzura",
-       2,
-       7,
-       "b"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       7,
-       5,
-       "c"
-      ],
-      [
-       "Loryn Phiri",
-       1,
-       2,
-       "c"
-      ],
-      [
-       "Tendai Makusha",
-       1,
-       1,
-       "not out"
-      ],
-      [
-       "Nomvelo Sibanda",
-       1,
-       1,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Josephine Nkomo",
-      "Kudzai Chigora"
-     ],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "1",
-       2,
-       0
-      ],
-      [
-       "Niki Prasad",
-       "2",
-       5,
-       1
-      ],
-      [
-       "Deepti Sharma",
-       "4",
-       18,
-       1
-      ],
-      [
-       "Arundhati Reddy",
-       "3",
-       26,
-       1
-      ],
-      [
-       "Prema Rawat",
-       "3",
-       36,
-       0
-      ],
-      [
-       "Kranti Gaud",
-       "3",
-       19,
-       1
-      ],
-      [
-       "Nandani Sharma",
-       "4",
-       18,
-       3
       ]
      ]
     }
@@ -5836,227 +5167,6 @@
        "Lockie Ferguson",
        "3",
        34,
-       1
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1535655",
-   "eventId": "1535655",
-   "date": "2026-10-23T08:30Z",
-   "gender": "women",
-   "format": "ODI",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "1st ODI",
-   "venue": "Kotambi Stadium, Vadodara",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "200/1 (27.1/50 ov, target 198)",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "197",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 9 wkts (137b rem)",
-   "india": "won",
-   "innings": [
-    {
-     "t": "Zimbabwe Women",
-     "total": "197 (49.5 ov)",
-     "bat": [
-      [
-       "Modester Mupachikwa",
-       25,
-       44,
-       "c"
-      ],
-      [
-       "Loryn Phiri",
-       1,
-       9,
-       "c"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       21,
-       27,
-       "lbw"
-      ],
-      [
-       "Beloved Biza",
-       62,
-       92,
-       "c"
-      ],
-      [
-       "Sharne Mayers",
-       8,
-       12,
-       "c"
-      ],
-      [
-       "Nyasha Gwanzura",
-       13,
-       28,
-       "c"
-      ],
-      [
-       "Chiedza Dhururu",
-       10,
-       23,
-       "b"
-      ],
-      [
-       "Michelle Mavunga",
-       29,
-       23,
-       "c"
-      ],
-      [
-       "Nomvelo Sibanda",
-       2,
-       7,
-       "lbw"
-      ],
-      [
-       "Tendai Makusha",
-       10,
-       15,
-       "b"
-      ],
-      [
-       "Olinder Chare",
-       4,
-       19,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "8",
-       28,
-       1
-      ],
-      [
-       "Deepti Sharma",
-       "9.5",
-       44,
-       2
-      ],
-      [
-       "Shree Charani",
-       "10",
-       23,
-       4
-      ],
-      [
-       "Jintimani Kalita",
-       "5",
-       23,
-       0
-      ],
-      [
-       "Sayali Satghare",
-       "7",
-       33,
-       0
-      ],
-      [
-       "Kranti Gaud",
-       "10",
-       42,
-       3
-      ]
-     ]
-    },
-    {
-     "t": "India Women",
-     "total": "200/1 (27.1 ov)",
-     "bat": [
-      [
-       "Pratika Rawal",
-       100,
-       96,
-       "not out"
-      ],
-      [
-       "Smriti Mandhana",
-       32,
-       34,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       64,
-       33,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Harmanpreet Kaur",
-      "Tejal Hasabnis",
-      "Deepti Sharma",
-      "Richa Ghosh",
-      "Shree Charani",
-      "Jintimani Kalita",
-      "Sayali Satghare",
-      "Kranti Gaud"
-     ],
-     "bowl": [
-      [
-       "Loryn Phiri",
-       "5",
-       28,
-       0
-      ],
-      [
-       "Beloved Biza",
-       "4",
-       28,
-       0
-      ],
-      [
-       "Nyasha Gwanzura",
-       "2.1",
-       22,
-       0
-      ],
-      [
-       "Michelle Mavunga",
-       "2",
-       19,
-       0
-      ],
-      [
-       "Nomvelo Sibanda",
-       "2",
-       20,
-       0
-      ],
-      [
-       "Tendai Makusha",
-       "5",
-       25,
-       0
-      ],
-      [
-       "Olinder Chare",
-       "7",
-       58,
        1
       ]
      ]
@@ -6279,252 +5389,6 @@
        "3",
        37,
        0
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "id": "espn_1535656",
-   "eventId": "1535656",
-   "date": "2026-10-25T08:30Z",
-   "gender": "women",
-   "format": "ODI",
-   "series": "Zimbabwe Women tour of India 2026/27",
-   "seriesId": "24371",
-   "matchNo": "2nd ODI",
-   "venue": "Kotambi Stadium, Vadodara",
-   "state": "post",
-   "statusDetail": "Final",
-   "statusDesc": "Result",
-   "teams": [
-    {
-     "name": "India Women",
-     "abbr": "IND-W",
-     "score": "328/6",
-     "winner": true
-    },
-    {
-     "name": "Zimbabwe Women",
-     "abbr": "ZIM-W",
-     "score": "207 (48.5/50 ov, target 329)",
-     "winner": false
-    }
-   ],
-   "result": "IND Women won by 121 runs",
-   "india": "won",
-   "innings": [
-    {
-     "t": "India Women",
-     "total": "328/6 (50.0 ov)",
-     "bat": [
-      [
-       "Pratika Rawal",
-       61,
-       67,
-       "c"
-      ],
-      [
-       "Smriti Mandhana",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "Shafali Verma",
-       8,
-       8,
-       "c"
-      ],
-      [
-       "Harmanpreet Kaur",
-       126,
-       121,
-       "c"
-      ],
-      [
-       "Tejal Hasabnis",
-       3,
-       5,
-       "c"
-      ],
-      [
-       "Deepti Sharma",
-       106,
-       86,
-       "not out"
-      ],
-      [
-       "Richa Ghosh",
-       7,
-       9,
-       "c"
-      ],
-      [
-       "Sayali Satghare",
-       3,
-       3,
-       "not out"
-      ]
-     ],
-     "dnb": [
-      "Shree Charani",
-      "Jintimani Kalita",
-      "Vaishnavi Sharma"
-     ],
-     "bowl": [
-      [
-       "Loryn Phiri",
-       "5",
-       36,
-       0
-      ],
-      [
-       "Beloved Biza",
-       "5",
-       27,
-       0
-      ],
-      [
-       "Michelle Mavunga",
-       "10",
-       47,
-       1
-      ],
-      [
-       "Nyasha Gwanzura",
-       "7",
-       43,
-       1
-      ],
-      [
-       "Nomvelo Sibanda",
-       "4",
-       38,
-       2
-      ],
-      [
-       "Tendai Makusha",
-       "10",
-       71,
-       1
-      ],
-      [
-       "Olinder Chare",
-       "9",
-       61,
-       1
-      ]
-     ]
-    },
-    {
-     "t": "Zimbabwe Women",
-     "total": "207 (48.5 ov)",
-     "bat": [
-      [
-       "Modester Mupachikwa",
-       49,
-       70,
-       "c"
-      ],
-      [
-       "Loryn Phiri",
-       6,
-       23,
-       "c"
-      ],
-      [
-       "Chipo Mugeri-Tiripano",
-       46,
-       57,
-       "b"
-      ],
-      [
-       "Beloved Biza",
-       34,
-       49,
-       "lbw"
-      ],
-      [
-       "Josephine Nkomo",
-       22,
-       36,
-       "lbw"
-      ],
-      [
-       "Michelle Mavunga",
-       3,
-       6,
-       "b"
-      ],
-      [
-       "Nyasha Gwanzura",
-       20,
-       18,
-       "lbw"
-      ],
-      [
-       "Chiedza Dhururu",
-       12,
-       28,
-       "c"
-      ],
-      [
-       "Nomvelo Sibanda",
-       0,
-       1,
-       "c"
-      ],
-      [
-       "Tendai Makusha",
-       0,
-       2,
-       "c"
-      ],
-      [
-       "Olinder Chare",
-       0,
-       3,
-       "not out"
-      ]
-     ],
-     "dnb": [],
-     "bowl": [
-      [
-       "Shafali Verma",
-       "5",
-       28,
-       0
-      ],
-      [
-       "Deepti Sharma",
-       "9",
-       32,
-       3
-      ],
-      [
-       "Sayali Satghare",
-       "9",
-       33,
-       1
-      ],
-      [
-       "Shree Charani",
-       "8",
-       37,
-       1
-      ],
-      [
-       "Jintimani Kalita",
-       "7.5",
-       34,
-       1
-      ],
-      [
-       "Vaishnavi Sharma",
-       "10",
-       39,
-       4
       ]
      ]
     }
@@ -9520,22 +8384,22 @@
    "venue": "Hagley Oval, Christchurch",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Stumps",
+   "statusDesc": "Live",
    "teams": [
     {
      "name": "New Zealand",
      "abbr": "NZ",
-     "score": "246/5 (85 ov)",
+     "score": "356",
      "winner": false
     },
     {
      "name": "India",
      "abbr": "IND",
-     "score": "",
+     "score": "34/2 (8.4 ov)",
      "winner": false
     }
    ],
-   "result": "India won toss & fielded",
+   "result": "India trail by 322 runs",
    "india": "",
    "xi": {
     "New Zealand": [
@@ -9568,7 +8432,7 @@
    "innings": [
     {
      "t": "New Zealand",
-     "total": "246/5",
+     "total": "356",
      "bat": [
       [
        "Tom Latham",
@@ -9602,23 +8466,42 @@
       ],
       [
        "Tom Blundell",
-       53,
-       117,
-       "not out"
+       89,
+       211,
+       "c"
       ],
       [
        "Glenn Phillips",
        36,
-       64,
+       67,
+       "c"
+      ],
+      [
+       "Nathan Smith",
+       26,
+       45,
+       "c"
+      ],
+      [
+       "Kyle Jamieson",
+       19,
+       26,
+       "c"
+      ],
+      [
+       "Matt Henry",
+       19,
+       25,
+       "c"
+      ],
+      [
+       "Jacob Duffy",
+       2,
+       2,
        "not out"
       ]
      ],
-     "dnb": [
-      "Nathan Smith",
-      "Kyle Jamieson",
-      "Matt Henry",
-      "Jacob Duffy"
-     ],
+     "dnb": [],
      "bowl": [
       [
        "Washington Sundar",
@@ -9628,26 +8511,79 @@
       ],
       [
        "Akash Deep",
-       "21",
-       52,
-       2
+       "31.3",
+       99,
+       5
       ],
       [
        "Anshul Kamboj",
-       "17",
-       56,
-       1
+       "22",
+       79,
+       2
       ],
       [
        "Jasprit Bumrah",
-       "19",
-       37,
+       "26",
+       49,
        0
       ],
       [
        "Gurnoor Brar",
-       "19",
-       52,
+       "28",
+       78,
+       2
+      ]
+     ]
+    },
+    {
+     "t": "India",
+     "total": "34/2",
+     "bat": [
+      [
+       "Yashasvi Jaiswal",
+       0,
+       6,
+       "b"
+      ],
+      [
+       "KL Rahul",
+       10,
+       21,
+       "not out"
+      ],
+      [
+       "Devdutt Padikkal",
+       21,
+       20,
+       "c"
+      ],
+      [
+       "Shubman Gill",
+       0,
+       5,
+       "not out"
+      ]
+     ],
+     "dnb": [
+      "Rishabh Pant",
+      "Washington Sundar",
+      "Dhruv Jurel",
+      "Akash Deep",
+      "Anshul Kamboj",
+      "Jasprit Bumrah",
+      "Gurnoor Brar"
+     ],
+     "bowl": [
+      [
+       "Kyle Jamieson",
+       "4",
+       19,
+       1
+      ],
+      [
+       "Matt Henry",
+       "4.5",
+       12,
        1
       ]
      ]
