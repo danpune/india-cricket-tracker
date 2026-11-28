@@ -1,6 +1,11 @@
 {
  "headlines": [
   {
+   "t": "New Zealand pacers run riot as India stumble on second day",
+   "u": "https://www.cricinfo.com/ci/content/story/1564515.html?ex_cid=OTC-RSS",
+   "d": "Sat, 28 Nov 2026"
+  },
+  {
    "t": "Latham, Blundell fifties give NZ advantage after hard-fought opening day",
    "u": "https://www.cricinfo.com/ci/content/story/1564389.html?ex_cid=OTC-RSS",
    "d": "Fri, 27 Nov 2026"
@@ -44,11 +49,6 @@
    "t": "PBKS appoint Paras Mhambrey as bowling coach",
    "u": "https://www.cricinfo.com/ci/content/story/1563727.html?ex_cid=OTC-RSS",
    "d": "Mon, 23 Nov 2026"
-  },
-  {
-   "t": "New Zealand and India play out stalemate on stubborn Basin Reserve pitch",
-   "u": "https://www.cricinfo.com/ci/content/story/1563651.html?ex_cid=OTC-RSS",
-   "d": "Mon, 23 Nov 2026"
   }
  ],
  "talk": [
@@ -56,6 +56,10 @@
    "channel": "Cricbuzz",
    "handle": "@cricbuzz",
    "videos": [
+    {
+     "yt": "gJWzpRiYTuM",
+     "t": "We have to live with Pant\u2019s risk-taking approach: Dinesh Karthik"
+    },
     {
      "yt": "hK470DtJBnA",
      "t": "Rohit Sharma back as Mumbai Indians captain! 6th title loading?"
@@ -75,10 +79,6 @@
     {
      "yt": "eou3d3p5hW4",
      "t": "No correct time to declare, pitch was the villain: Dinesh Karthik"
-    },
-    {
-     "yt": "61c_-YCdjEI",
-     "t": "Gill\u2019s ploy to stick to a defensive field questionable: Dinesh Karthik"
     }
    ]
   },
@@ -113,5 +113,5 @@
    ]
   }
  ],
- "updated": "2026-11-28T02:15:29Z"
+ "updated": "2026-11-28T10:34:18Z"
 }

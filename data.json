@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:14:28Z",
+ "updated": "2026-11-28T10:33:06Z",
  "matches": [
   {
    "id": "espn_1527257",
@@ -8384,7 +8384,7 @@
    "venue": "Hagley Oval, Christchurch",
    "state": "in",
    "statusDetail": "Live",
-   "statusDesc": "Live",
+   "statusDesc": "Stumps",
    "teams": [
     {
      "name": "New Zealand",
@@ -8395,11 +8395,11 @@
     {
      "name": "India",
      "abbr": "IND",
-     "score": "34/2 (8.4 ov)",
+     "score": "116/6 (46 ov)",
      "winner": false
     }
    ],
-   "result": "India trail by 322 runs",
+   "result": "India trail by 240 runs",
    "india": "",
    "xi": {
     "New Zealand": [
@@ -8537,7 +8537,7 @@
     },
     {
      "t": "India",
-     "total": "34/2",
+     "total": "116/6",
      "bat": [
       [
        "Yashasvi Jaiswal",
@@ -8547,9 +8547,9 @@
       ],
       [
        "KL Rahul",
-       10,
-       21,
-       "not out"
+       25,
+       80,
+       "c"
       ],
       [
        "Devdutt Padikkal",
@@ -8559,15 +8559,30 @@
       ],
       [
        "Shubman Gill",
-       0,
-       5,
+       17,
+       29,
+       "c"
+      ],
+      [
+       "Rishabh Pant",
+       23,
+       39,
+       "c"
+      ],
+      [
+       "Washington Sundar",
+       10,
+       60,
+       "c"
+      ],
+      [
+       "Dhruv Jurel",
+       7,
+       45,
        "not out"
       ]
      ],
      "dnb": [
-      "Rishabh Pant",
-      "Washington Sundar",
-      "Dhruv Jurel",
       "Akash Deep",
       "Anshul Kamboj",
       "Jasprit Bumrah",
@@ -8575,16 +8590,28 @@
      ],
      "bowl": [
       [
-       "Kyle Jamieson",
-       "4",
-       19,
+       "Nathan Smith",
+       "12",
+       29,
        1
       ],
       [
+       "Kyle Jamieson",
+       "13",
+       33,
+       2
+      ],
+      [
        "Matt Henry",
-       "4.5",
-       12,
+       "13",
+       29,
        1
+      ],
+      [
+       "Jacob Duffy",
+       "8",
+       21,
+       2
       ]
      ]
     }
